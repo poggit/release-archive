@@ -1,0 +1,76 @@
+{
+    "id": 10445,
+    "name": "ImageOnMap",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/ImageOnMap/1.0.3",
+    "tagline": "Plugin, which allows to add images to map items",
+    "artifact_url": "https://poggit.pmmp.io/r/189964",
+    "downloads": 768,
+    "score": null,
+    "repo_id": 400605818,
+    "repo_name": "CzechPMDevs/ImageOnMap",
+    "project_id": 9821,
+    "project_name": "ImageOnMap",
+    "build_id": 142929,
+    "build_number": 17,
+    "build_commit": "5a512873746ad066feb91151aea96c8c8e17d2d3",
+    "description_url": "https://poggit.pmmp.io/r/189961",
+    "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/ImageOnMap/5a512873746ad066feb91151aea96c8c8e17d2d3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/189963",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1660605650,
+    "state": 5,
+    "last_state_change_date": 1660636185,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "image",
+        "itemframe",
+        "map",
+        "mapimage",
+        "picture"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Nerahikada"
+        ],
+        "Collaborator": [
+            "VixikHD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

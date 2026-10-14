@@ -1,0 +1,73 @@
+{
+    "id": 12732,
+    "name": "ChatCooldown",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatCooldown/1.1.0",
+    "tagline": "A chat cooldown plugin for pocketmine servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/230988",
+    "downloads": 1448,
+    "score": null,
+    "repo_id": 378195038,
+    "repo_name": "Sergittos/ChatCooldown",
+    "project_id": 9152,
+    "project_name": "ChatCooldown",
+    "build_id": 169721,
+    "build_number": 13,
+    "build_commit": "85ec6afd6a20443203eff4c08d14cd82e376a3a3",
+    "description_url": "https://poggit.pmmp.io/r/230990",
+    "icon_url": "https://raw.githubusercontent.com/Sergittos/ChatCooldown/85ec6afd6a20443203eff4c08d14cd82e376a3a3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/230992",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1704826749,
+    "state": 5,
+    "last_state_change_date": 1704827587,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "cooldown"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "didacdelolmo",
+            "Sergittos"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEasyUI",
+            "project_id": 7632,
+            "repo_id": 281477433,
+            "repo_name": "dresnite/easyui",
+            "repo_path": "",
+            "build_commit": "1ff6a12b00ad6741217b25d200d4a0d564dee995",
+            "build_id": 166263
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "id": 8027,
+    "name": "SlapperRotation",
+    "version": "1.2.2",
+    "html_url": "https://poggit.pmmp.io/p/SlapperRotation/1.2.2",
+    "tagline": "Slappers look at players!",
+    "artifact_url": "https://poggit.pmmp.io/r/148588",
+    "downloads": 1756,
+    "score": 3,
+    "repo_id": 424512059,
+    "repo_name": "vecnavium-pm-pl/SlapperRotation",
+    "project_id": 9929,
+    "project_name": "SlapperRotation",
+    "build_id": 116025,
+    "build_number": 6,
+    "build_commit": "5ed3f34432b013839072e3a311af10df06e2ef82",
+    "description_url": "https://poggit.pmmp.io/r/148585",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/148587",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1637743955,
+    "state": 5,
+    "last_state_change_date": 1638314409,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "1.6.2",
+            "depRelId": 7964,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "jojoe77777",
+            "Vecnavium"
+        ],
+        "Contributor": [
+            "dktapps"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,55 @@
+{
+    "id": 12779,
+    "name": "VisibleAutoPickup",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/VisibleAutoPickup/1.1.1",
+    "tagline": "Automatically picks up items and xp orbs before others pick them up!",
+    "artifact_url": "https://poggit.pmmp.io/r/232100",
+    "downloads": 593,
+    "score": null,
+    "repo_id": 345276047,
+    "repo_name": "presentkim-pm/VisibleAutoPickup",
+    "project_id": 13509,
+    "project_name": "VisibleAutoPickup",
+    "build_id": 170435,
+    "build_number": 7,
+    "build_commit": "b3f7a5d3fa2967735aaff3054cd9907c1c67f1be",
+    "description_url": "https://poggit.pmmp.io/r/235285",
+    "icon_url": "https://raw.githubusercontent.com/presentkim-pm/VisibleAutoPickup/b3f7a5d3fa2967735aaff3054cd9907c1c67f1be/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1706312620,
+    "state": 5,
+    "last_state_change_date": 1707146967,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "autopickup",
+        "instantpickup",
+        "pickup"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PresentKim"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

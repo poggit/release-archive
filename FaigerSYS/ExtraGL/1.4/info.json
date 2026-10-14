@@ -1,0 +1,51 @@
+{
+    "id": 3205,
+    "name": "ExtraGL",
+    "version": "1.4",
+    "html_url": "https://poggit.pmmp.io/p/ExtraGL/1.4",
+    "tagline": "Adds global and local chat",
+    "artifact_url": "https://poggit.pmmp.io/r/63002",
+    "downloads": 898,
+    "score": 5,
+    "repo_id": 160778834,
+    "repo_name": "FaigerSYS/ExtraGL",
+    "project_id": 4361,
+    "project_name": "ExtraGL",
+    "build_id": 62515,
+    "build_number": 2,
+    "build_commit": "bfaec4f0b41c6f12f8a6224086ec9480ae8eeeb8",
+    "description_url": "https://poggit.pmmp.io/r/63001",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1563730670,
+    "state": 5,
+    "last_state_change_date": 1564468456,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "FaigerSYS"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

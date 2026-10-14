@@ -1,0 +1,78 @@
+{
+    "id": 5797,
+    "name": "Ranks",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/Ranks/1.0.3",
+    "tagline": "A pocketmine plugin that implements Temp Ranks in your server! with conjuction of PurePerms",
+    "artifact_url": "https://poggit.pmmp.io/r/112465",
+    "downloads": 3929,
+    "score": 5,
+    "repo_id": 318657748,
+    "repo_name": "IvanCraft623/Ranks",
+    "project_id": 8109,
+    "project_name": "Ranks",
+    "build_id": 94580,
+    "build_number": 17,
+    "build_commit": "08b9f80772a1a54aadd9bd5949ec1e30c253e667",
+    "description_url": "https://poggit.pmmp.io/r/112464",
+    "icon_url": "https://raw.githubusercontent.com/IvanCraft623/Ranks/08b9f80772a1a54aadd9bd5949ec1e30c253e667/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609617424,
+    "state": 5,
+    "last_state_change_date": 1610410630,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Exp",
+        "ExpRanks",
+        "Rank",
+        "Temp",
+        "Temporal",
+        "TemporalRanks",
+        "TempRank",
+        "TempRanks",
+        "Time",
+        "TimeRanks",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "IvanCraft623"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

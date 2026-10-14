@@ -1,0 +1,68 @@
+{
+    "id": 914,
+    "name": "essentialsTP",
+    "version": "1.2.0-5",
+    "html_url": "https://poggit.pmmp.io/p/essentialsTP/1.2.0-5",
+    "tagline": "Classic Warp/Homes Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/18115",
+    "downloads": 865,
+    "score": null,
+    "repo_id": 88869457,
+    "repo_name": "poggit-orphanage/essentialsTP",
+    "project_id": 388,
+    "project_name": "essentialsTP",
+    "build_id": 32056,
+    "build_number": 24,
+    "build_commit": "39852fe2bbe80dde6bd21c85fe47f386e7095ac4",
+    "description_url": "https://poggit.pmmp.io/r/18112",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/essentialsTP/39852fe2bbe80dde6bd21c85fe47f386e7095ac4/essentialstp.png",
+    "changelog_url": "https://poggit.pmmp.io/r/18114",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1512984813,
+    "state": 5,
+    "last_state_change_date": 1512984817,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "essentials",
+        "teleport",
+        "teleportation",
+        "warp",
+        "home",
+        "sethome",
+        "setwarp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw",
+            "SOF3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

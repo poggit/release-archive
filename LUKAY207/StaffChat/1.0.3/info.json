@@ -1,0 +1,58 @@
+{
+    "id": 12918,
+    "name": "UltraStaffChat",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/UltraStaffChat/1.0.3",
+    "tagline": "PocketMine-MP Plugin (AdminTools)",
+    "artifact_url": "https://poggit.pmmp.io/r/235156",
+    "downloads": 420,
+    "score": null,
+    "repo_id": 615825690,
+    "repo_name": "LUKAY207/StaffChat",
+    "project_id": 12236,
+    "project_name": "StaffChat",
+    "build_id": 172554,
+    "build_number": 11,
+    "build_commit": "2b63f632ccdf4f00340eaa0fe17ecd634f03f581",
+    "description_url": "https://poggit.pmmp.io/r/235153",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/235155",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1710869656,
+    "state": 5,
+    "last_state_change_date": 1711407714,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "LUKAY207"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

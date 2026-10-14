@@ -1,0 +1,55 @@
+{
+    "id": 5869,
+    "name": "RandomSpawns",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/RandomSpawns/1.0",
+    "tagline": "RandomSpawns is a simple on-player death & on-player first join random teleportation plugin.",
+    "artifact_url": "https://poggit.pmmp.io/r/113911",
+    "downloads": 732,
+    "score": 5,
+    "repo_id": 182438296,
+    "repo_name": "Trxgically/RandomSpawns",
+    "project_id": 7418,
+    "project_name": "RandomSpawns",
+    "build_id": 95519,
+    "build_number": 11,
+    "build_commit": "d28cdd14d11b26dd24a2893cede3aae25f02dba8",
+    "description_url": "https://poggit.pmmp.io/r/113917",
+    "icon_url": "https://raw.githubusercontent.com/Trxgically/RandomSpawns/d28cdd14d11b26dd24a2893cede3aae25f02dba8/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1611397056,
+    "state": 5,
+    "last_state_change_date": 1612916878,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Trxgically"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,58 @@
+{
+    "id": 9910,
+    "name": "BMPingTag",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BMPingTag/1.0.0",
+    "tagline": "show player's ping number under their name",
+    "artifact_url": "https://poggit.pmmp.io/r/179729",
+    "downloads": 269,
+    "score": 5,
+    "repo_id": 451290384,
+    "repo_name": "Taylor-pm-pl/BMPingTag",
+    "project_id": 11225,
+    "project_name": "BMPingTag",
+    "build_id": 135874,
+    "build_number": 20,
+    "build_commit": "4d7f738e8e7e349cbcb46429f03a43856cf25057",
+    "description_url": "https://poggit.pmmp.io/r/179728",
+    "icon_url": "https://raw.githubusercontent.com/BlockMagicDev/BMPingTag/4d7f738e8e7e349cbcb46429f03a43856cf25057/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654430112,
+    "state": 5,
+    "last_state_change_date": 1654465591,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bmpingtag",
+        "plugin",
+        "plugins",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DavidGlitch04"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

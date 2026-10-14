@@ -1,0 +1,105 @@
+{
+    "id": 11820,
+    "name": "SizeUI",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SizeUI/2.0.0",
+    "tagline": "Change your size from large to small with SizeUI",
+    "artifact_url": "https://poggit.pmmp.io/r/214028",
+    "downloads": 181,
+    "score": null,
+    "repo_id": 436215980,
+    "repo_name": "fernanACM/SizeUI",
+    "project_id": 10103,
+    "project_name": "SizeUI",
+    "build_id": 158205,
+    "build_number": 9,
+    "build_commit": "c988e98b3b9712dbad66132b6ac8fadd4e397c02",
+    "description_url": "https://poggit.pmmp.io/r/214025",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/SizeUI/c988e98b3b9712dbad66132b6ac8fadd4e397c02/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/214027",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688090379,
+    "state": 5,
+    "last_state_change_date": 1688273551,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Big",
+        "Size",
+        "SizeUI",
+        "Small"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "869e1a734f63b5592bf3b962b992d195b52ad507",
+            "build_id": 156159
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

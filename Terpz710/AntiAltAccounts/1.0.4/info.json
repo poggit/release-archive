@@ -1,0 +1,75 @@
+{
+    "id": 13787,
+    "name": "AntiAltAccounts",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/AntiAltAccounts/1.0.4",
+    "tagline": "Ban users alt accounts",
+    "artifact_url": "https://poggit.pmmp.io/r/251870",
+    "downloads": 92,
+    "score": null,
+    "repo_id": 785089899,
+    "repo_name": "Terpz710/AntiAltAccounts",
+    "project_id": 13735,
+    "project_name": "AntiAltAccounts",
+    "build_id": 184044,
+    "build_number": 19,
+    "build_commit": "2ca3d8eb6aeee6448aaeb05756273bf769ebeb06",
+    "description_url": "https://poggit.pmmp.io/r/251867",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/251869",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736825247,
+    "state": 5,
+    "last_state_change_date": 1736947094,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Account",
+        "Alt",
+        "Anti",
+        "AntiAccount",
+        "AntiAlt"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "DiscordWebhookAPI",
+            "project_id": 12978,
+            "repo_id": 682413276,
+            "repo_name": "xqwtxon/DiscordWebhookAPI",
+            "repo_path": "",
+            "build_commit": "2ac21c24c87212af5b7a64683765fd3f5fd41ed7",
+            "build_id": 162461
+        }
+    ]
+}

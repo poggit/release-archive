@@ -1,0 +1,74 @@
+{
+    "id": 4305,
+    "name": "RGBArmor",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RGBArmor/1.0.0",
+    "tagline": "Color your armor with RGB codes!",
+    "artifact_url": "https://poggit.pmmp.io/r/84867",
+    "downloads": 1909,
+    "score": 4,
+    "repo_id": 259974696,
+    "repo_name": "Mohagames205/RGBArmor",
+    "project_id": 6813,
+    "project_name": "RGBArmor",
+    "build_id": 76824,
+    "build_number": 7,
+    "build_commit": "ba42a7aa9e070494fb2d5fc1a965695cd3810db0",
+    "description_url": "https://poggit.pmmp.io/r/84869",
+    "icon_url": "https://raw.githubusercontent.com/Mohagames205/RGBArmor/ba42a7aa9e070494fb2d5fc1a965695cd3810db0/RGBArmor.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588505404,
+    "state": 5,
+    "last_state_change_date": 1588699551,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "armor",
+        "color",
+        "custom",
+        "rgb"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Mohagames205"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

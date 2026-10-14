@@ -1,0 +1,80 @@
+{
+    "id": 14209,
+    "name": "MaskUI",
+    "version": "1.3.1",
+    "html_url": "https://poggit.pmmp.io/p/MaskUI/1.3.1",
+    "tagline": "Plugin Mask UI For Pmmp 5.x.x",
+    "artifact_url": "https://poggit.pmmp.io/r/259791",
+    "downloads": 125,
+    "score": null,
+    "repo_id": 622532823,
+    "repo_name": "SkulZOnTheYT/MaskUI",
+    "project_id": 12605,
+    "project_name": "MaskUI",
+    "build_id": 189369,
+    "build_number": 33,
+    "build_commit": "1203cba95bb8a8915fc35ae08a03f7cb2369d8bc",
+    "description_url": "https://poggit.pmmp.io/r/259788",
+    "icon_url": "https://raw.githubusercontent.com/SkulZOnTheYT/MaskUI/1203cba95bb8a8915fc35ae08a03f7cb2369d8bc/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/259790",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1758515181,
+    "state": 5,
+    "last_state_change_date": 1758594111,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "maskplugin",
+        "maskui",
+        "php",
+        "php8",
+        "plugins",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "Kylan1940"
+        ],
+        "Collaborator": [
+            "SkulZOnTheYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

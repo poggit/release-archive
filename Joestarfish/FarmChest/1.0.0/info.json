@@ -1,0 +1,61 @@
+{
+    "id": 12304,
+    "name": "FarmChest",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FarmChest/1.0.0",
+    "tagline": "A PMMP plugin that modifies the TrappedChest to make it harvest nearby crops",
+    "artifact_url": "https://poggit.pmmp.io/r/221384",
+    "downloads": 27,
+    "score": 5,
+    "repo_id": 683872959,
+    "repo_name": "Joestarfish/FarmChest",
+    "project_id": 12984,
+    "project_name": "FarmChest",
+    "build_id": 162629,
+    "build_number": 1,
+    "build_commit": "8f5c50ec9d231286eeac9aee83f1390905f9b640",
+    "description_url": "https://poggit.pmmp.io/r/221383",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1693183651,
+    "state": 5,
+    "last_state_change_date": 1694408885,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "crop",
+        "crops",
+        "farm",
+        "farmchest",
+        "farmer",
+        "farming",
+        "farmingchest",
+        "harvest",
+        "harvesting"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Joestarfish"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

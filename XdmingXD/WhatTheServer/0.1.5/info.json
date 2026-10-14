@@ -1,0 +1,70 @@
+{
+    "id": 2843,
+    "name": "WhatTheServer",
+    "version": "0.1.5",
+    "html_url": "https://poggit.pmmp.io/p/WhatTheServer/0.1.5",
+    "tagline": "Remake of PC plugin: Core Protect but it is for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/57320",
+    "downloads": 53,
+    "score": 5,
+    "repo_id": 99713121,
+    "repo_name": "XdmingXD/WhatTheServer",
+    "project_id": 788,
+    "project_name": "WhatTheServer",
+    "build_id": 58947,
+    "build_number": 58,
+    "build_commit": "c0642aff75af61526c7f67ebf7dfb6d8e7a2b2a1",
+    "description_url": "https://poggit.pmmp.io/r/57400",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1556876849,
+    "state": 5,
+    "last_state_change_date": 1557849451,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "coreprotect",
+        "core",
+        "protect",
+        "log",
+        "server",
+        "WhatTheServer"
+    ],
+    "api": [
+        {
+            "from": "3.0.3",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "XdmingXD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

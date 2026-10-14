@@ -1,0 +1,92 @@
+{
+    "id": 12038,
+    "name": "Shopkeepers",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Shopkeepers/1.0.0",
+    "tagline": "Add Shopkeepers to your PocketMine-MP world! Allow the creation of simple stores between players or create also adminshops! ",
+    "artifact_url": "https://poggit.pmmp.io/r/217669",
+    "downloads": 370,
+    "score": 5,
+    "repo_id": 652285350,
+    "repo_name": "FoxWorn3365/Shopkeepers",
+    "project_id": 12615,
+    "project_name": "Shopkeepers",
+    "build_id": 160420,
+    "build_number": 53,
+    "build_commit": "b82a44e896a7a994c75b998db84176546f1868ad",
+    "description_url": "https://poggit.pmmp.io/r/221287",
+    "icon_url": "https://raw.githubusercontent.com/FoxWorn3365/Shopkeepers/b82a44e896a7a994c75b998db84176546f1868ad/plugin_logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/221289",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1690156369,
+    "state": 5,
+    "last_state_change_date": 1690819273,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "custom-trading",
+        "shop",
+        "shopkeepers",
+        "shops",
+        "trade",
+        "trading",
+        "villager",
+        "villager-shop",
+        "villager-trade"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "FoxWorn3365"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "9f0f6d9fae017b25e8eb38b7de00a616c2a81bac",
+            "build_id": 160017
+        }
+    ]
+}

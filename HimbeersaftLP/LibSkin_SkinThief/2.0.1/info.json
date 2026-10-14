@@ -1,0 +1,73 @@
+{
+    "id": 11644,
+    "name": "SkinThief",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SkinThief/2.0.1",
+    "tagline": "Steal other player's skins",
+    "artifact_url": "https://poggit.pmmp.io/r/211536",
+    "downloads": 496,
+    "score": null,
+    "repo_id": 208577266,
+    "repo_name": "HimbeersaftLP/LibSkin",
+    "project_id": 10341,
+    "project_name": "SkinThief",
+    "build_id": 156836,
+    "build_number": 5,
+    "build_commit": "6765a874c4d47c830f6491dc698bde77feaf62a7",
+    "description_url": "https://poggit.pmmp.io/r/211533",
+    "icon_url": "https://raw.githubusercontent.com/HimbeersaftLP/LibSkin/6765a874c4d47c830f6491dc698bde77feaf62a7/SkinPluginExample/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/211535",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686420229,
+    "state": 5,
+    "last_state_change_date": 1686598507,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "skin",
+        "skins",
+        "steal"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HimbeersaftLP"
+        ],
+        "Contributor": [
+            "BillBlackwood",
+            "cupof2"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "LibSkin",
+            "project_id": 5688,
+            "repo_id": 208577266,
+            "repo_name": "HimbeersaftLP/LibSkin",
+            "repo_path": "",
+            "build_commit": "6765a874c4d47c830f6491dc698bde77feaf62a7",
+            "build_id": 156835
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "id": 11338,
+    "name": "RankSystem",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/RankSystem/1.1.1",
+    "tagline": "An amazing Rank and Permissions Manager. The best ranks manager for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/208176",
+    "downloads": 478,
+    "score": 5,
+    "repo_id": 385033127,
+    "repo_name": "IvanCraft623/RankSystem",
+    "project_id": 9247,
+    "project_name": "RankSystem",
+    "build_id": 155474,
+    "build_number": 52,
+    "build_commit": "f0908ec5b2079b84852571adf2ac651107de0045",
+    "description_url": "https://poggit.pmmp.io/r/208173",
+    "icon_url": "https://raw.githubusercontent.com/IvanCraft623/RankSystem/f0908ec5b2079b84852571adf2ac651107de0045/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208175",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685458396,
+    "state": 5,
+    "last_state_change_date": 1685460101,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "administrate",
+        "group",
+        "groups",
+        "manager",
+        "permissions",
+        "perms",
+        "role",
+        "roles"
+    ],
+    "api": [
+        {
+            "from": "4.4.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "supercrafter333"
+        ],
+        "Collaborator": [
+            "IvanCraft623"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "ce75bc58d640c15af95bd24a3be053d57608092c",
+            "build_id": 124216
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        },
+        {
+            "name": "languages",
+            "project_id": 10928,
+            "repo_id": 479753777,
+            "repo_name": "IvanCraft623/languages",
+            "repo_path": "",
+            "build_commit": "21f677c3e3b181ea146cd9822d5d13440a7288de",
+            "build_id": 154477
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 11604,
+            "repo_id": 516498475,
+            "repo_name": "LatamPMDevs/FormAPI",
+            "repo_path": "",
+            "build_commit": "aa6f45a5c03b2e73f83453750c140f1597a39d9a",
+            "build_id": 140896
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "1f456a3578f3ce6fb302b0ce9f440fdf690af920",
+            "build_id": 152723
+        }
+    ]
+}

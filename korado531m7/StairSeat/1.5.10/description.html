@@ -1,0 +1,65 @@
+<h1>
+<a id="user-content-stairseat" class="anchor" href="#stairseat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>StairSeat</h1>
+<p><strong>Sit on the stair block</strong></p>
+<h2>
+<a id="user-content-feature" class="anchor" href="#feature" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Feature</h2>
+<p>You can sit on the stair block</p>
+<h2>
+<a id="user-content-how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h2>
+<p>Install this plugin and run your server.
+place stair block and tap (or click) it.
+To cancel, jump or sneak.</p>
+<h2>
+<a id="user-content-command" class="anchor" href="#command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command</h2>
+<p><code>/sit</code> - Toggle to sit on the stair block. To use this command, you must set <code>register-sit-command</code> in the config.yml to <code>true</code> (Permission: <code>stairseat.toggle</code>)</p>
+<h2>
+<a id="user-content-settings" class="anchor" href="#settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Settings</h2>
+<p>You can customize some settings.
+To edit, open config.yml in plugin folder.</p>
+<ul>
+<li>
+<p><code>apply-worlds</code> - Enable to use stairs as seat for each worlds or all worlds.
+To enable all worlds, set value to <code>true</code> , or if you want to enable specific worlds, type the worlds' name.
+(To set multiple worlds, separate with comma like <code>world1, world2</code>)</p>
+</li>
+<li>
+<p><code>allow-seat-high-height</code> - Allow player to sit on seat if its height is higher than player</p>
+</li>
+<li>
+<p><code>allow-seat-upsidedown</code> - Allow player to sit on upside-down stairs</p>
+</li>
+<li>
+<p><code>allow-seat-while-sneaking</code> - Allow to sit when player is sneaking</p>
+</li>
+<li>
+<p><code>stand-up-when-break-block</code> - Player who sit on their stairs will stand up when break</p>
+</li>
+<li>
+<p><code>disable-damage-when-sit</code> - While player is sitting on the stair, will not be damaged from all causes</p>
+</li>
+<li>
+<p><code>register-sit-command</code> - Register /sit command</p>
+</li>
+<li>
+<p><code>send-tip-when-sit</code> - This massage will be sent when player sit</p>
+<ul>
+<li>
+<code>@b</code> - block's name</li>
+<li>
+<code>@x</code> - x coordinates</li>
+<li>
+<code>@y</code> - y coordinates</li>
+<li>
+<code>@z</code> - z coordinates</li>
+</ul>
+</li>
+<li>
+<p><code>try-to-sit-already-inuse</code> - Send message when trying to seat on stair which is already used</p>
+<ul>
+<li>
+<code>@b</code> - block's name</li>
+<li>
+<code>@p</code> - sitting player's name</li>
+</ul>
+</li>
+</ul>

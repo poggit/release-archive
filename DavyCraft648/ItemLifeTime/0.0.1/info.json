@@ -1,0 +1,66 @@
+{
+    "id": 8401,
+    "name": "ItemLifeTime",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ItemLifeTime/0.0.1",
+    "tagline": "Set custom dropped item lifetime in your server",
+    "artifact_url": "https://poggit.pmmp.io/r/154155",
+    "downloads": 209,
+    "score": null,
+    "repo_id": 441975609,
+    "repo_name": "DavyCraft648/ItemLifeTime",
+    "project_id": 10205,
+    "project_name": "ItemLifeTime",
+    "build_id": 119332,
+    "build_number": 1,
+    "build_commit": "74f6cc6b839f0cfbffa126cafe11100f1da9ef03",
+    "description_url": "https://poggit.pmmp.io/r/154154",
+    "icon_url": "https://raw.githubusercontent.com/DavyCraft648/ItemLifeTime/74f6cc6b839f0cfbffa126cafe11100f1da9ef03/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1640550419,
+    "state": 5,
+    "last_state_change_date": 1642877651,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "despawn",
+        "drop",
+        "droppeditem",
+        "item",
+        "itemspawn",
+        "lifetime",
+        "clearlag",
+        "despawntime",
+        "time"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DavyCraft648"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

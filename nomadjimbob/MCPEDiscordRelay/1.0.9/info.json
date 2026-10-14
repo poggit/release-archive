@@ -1,0 +1,60 @@
+{
+    "id": 6167,
+    "name": "MCPEDiscordRelay",
+    "version": "1.0.9",
+    "html_url": "https://poggit.pmmp.io/p/MCPEDiscordRelay/1.0.9",
+    "tagline": "Connect your PocketMine server to output to a Discord channel using a WebHook",
+    "artifact_url": "https://poggit.pmmp.io/r/118713",
+    "downloads": 1181,
+    "score": 5,
+    "repo_id": 253697465,
+    "repo_name": "nomadjimbob/MCPEDiscordRelay",
+    "project_id": 6705,
+    "project_name": "MCPEDiscordRelay",
+    "build_id": 98429,
+    "build_number": 46,
+    "build_commit": "758d92c8c95fa6892c7633db51627f0c14e53b8a",
+    "description_url": "https://poggit.pmmp.io/r/118710",
+    "icon_url": "https://raw.githubusercontent.com/nomadjimbob/MCPEDiscordRelay/758d92c8c95fa6892c7633db51627f0c14e53b8a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/118712",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616050596,
+    "state": 5,
+    "last_state_change_date": 1616285031,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "Discord",
+        "MCPEDiscordRelay",
+        "Relay"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NiekertDev",
+            "JaxkDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

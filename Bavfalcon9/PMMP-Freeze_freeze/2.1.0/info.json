@@ -1,0 +1,65 @@
+{
+    "id": 2858,
+    "name": "freeze",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/freeze/2.1.0",
+    "tagline": "A plugin that allows staff to freeze players in things, such as an SS.",
+    "artifact_url": "https://poggit.pmmp.io/r/57643",
+    "downloads": 13619,
+    "score": 4,
+    "repo_id": 170677811,
+    "repo_name": "Bavfalcon9/PMMP-Freeze",
+    "project_id": 4692,
+    "project_name": "freeze",
+    "build_id": 59165,
+    "build_number": 17,
+    "build_commit": "1c092a00fe82c31cfb2d06468b31df27e4a8da26",
+    "description_url": "https://poggit.pmmp.io/r/57642",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1557280435,
+    "state": 5,
+    "last_state_change_date": 1558121194,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "freeze",
+        "frozen",
+        "admin",
+        "admintools",
+        "manage"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Bavfalcon9"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

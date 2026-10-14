@@ -1,0 +1,70 @@
+{
+    "id": 9117,
+    "name": "SellStick",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SellStick/0.0.1",
+    "tagline": "Sell all the items in the chest when the player using SellStick clicks on it",
+    "artifact_url": "https://poggit.pmmp.io/r/164186",
+    "downloads": 71,
+    "score": 4,
+    "repo_id": 462241715,
+    "repo_name": "NovaStark1234/SellStick",
+    "project_id": 10661,
+    "project_name": "SellStick",
+    "build_id": 125228,
+    "build_number": 5,
+    "build_commit": "635d33d4eb324b6923486620eea1c022fc36a68a",
+    "description_url": "https://poggit.pmmp.io/r/164890",
+    "icon_url": "https://raw.githubusercontent.com/NovaStark1234/SellStick/635d33d4eb324b6923486620eea1c022fc36a68a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645748439,
+    "state": 5,
+    "last_state_change_date": 1647297909,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "sell",
+        "sellstick",
+        "sellwand",
+        "stick",
+        "sticksell",
+        "wand",
+        "wandsell"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.5",
+            "depRelId": 9088,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "NovaStark1234"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

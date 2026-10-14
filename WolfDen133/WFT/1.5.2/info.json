@@ -1,0 +1,88 @@
+{
+    "id": 12522,
+    "name": "WFT",
+    "version": "1.5.2",
+    "html_url": "https://poggit.pmmp.io/p/WFT/1.5.2",
+    "tagline": "Add Custom Floating Texts to your PocketMine-MP server",
+    "artifact_url": "https://poggit.pmmp.io/r/227613",
+    "downloads": 373,
+    "score": null,
+    "repo_id": 432994430,
+    "repo_name": "WolfDen133/WFT",
+    "project_id": 10009,
+    "project_name": "WFT",
+    "build_id": 167449,
+    "build_number": 124,
+    "build_commit": "96fdaf3712863f667272a0701c71f7b8e312980c",
+    "description_url": "https://poggit.pmmp.io/r/227610",
+    "icon_url": "https://raw.githubusercontent.com/WolfDen133/WFT/96fdaf3712863f667272a0701c71f7b8e312980c/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/227612",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1698338538,
+    "state": 5,
+    "last_state_change_date": 1698346846,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floating",
+        "floatingtext",
+        "ft",
+        "text",
+        "wft",
+        "wolfies"
+    ],
+    "api": [
+        {
+            "from": "5.4.3",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WolfDen133"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "id": 5845,
+    "name": "PM-ShulkerBoxes",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PM-ShulkerBoxes/1.0.1",
+    "tagline": "This plugin added shulker box functionality to your PocketMine-MP server",
+    "artifact_url": "https://poggit.pmmp.io/r/113353",
+    "downloads": 1193,
+    "score": 5,
+    "repo_id": 330212321,
+    "repo_name": "ipad54/PM-ShulkerBox",
+    "project_id": 8385,
+    "project_name": "PM-ShulkerBox",
+    "build_id": 95178,
+    "build_number": 8,
+    "build_commit": "3219c0160a9c93ca2ee41a61e7d0537a6c3b663a",
+    "description_url": "https://poggit.pmmp.io/r/113365",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1610867415,
+    "state": 5,
+    "last_state_change_date": 1610931679,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Shulker-Box",
+        "ShulkerBox"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ipad54"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

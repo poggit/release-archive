@@ -1,0 +1,58 @@
+{
+    "id": 3698,
+    "name": "TapToArmor",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/TapToArmor/1.0.1",
+    "tagline": "Equip your armor, vanilla like",
+    "artifact_url": "https://poggit.pmmp.io/r/73466",
+    "downloads": 152,
+    "score": null,
+    "repo_id": 235171633,
+    "repo_name": "PocketMineItalianDevs/TapToArmor",
+    "project_id": 6129,
+    "project_name": "TapToArmor",
+    "build_id": 69451,
+    "build_number": 5,
+    "build_commit": "9c6e7f3f285f64396de8b7093f061ba6518ba879",
+    "description_url": "https://poggit.pmmp.io/r/73463",
+    "icon_url": "https://raw.githubusercontent.com/PocketMineItalianDevs/TapToArmor/9c6e7f3f285f64396de8b7093f061ba6518ba879/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/73465",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1579551903,
+    "state": 5,
+    "last_state_change_date": 1579554478,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "AutoArmor"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "luca28pet",
+            "RubyTemple"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

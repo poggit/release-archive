@@ -1,0 +1,73 @@
+{
+    "id": 7760,
+    "name": "LaggerRemover",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/LaggerRemover/0.0.1",
+    "tagline": "With this plugin you can disallow players that have a certain ping from joining your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/143827",
+    "downloads": 507,
+    "score": 5,
+    "repo_id": 412832847,
+    "repo_name": "Phqzing/LaggerRemover",
+    "project_id": 9815,
+    "project_name": "LaggerRemover",
+    "build_id": 113103,
+    "build_number": 2,
+    "build_commit": "8d91dc08ccea52cfe6020d2cbe86f23135ba3fb0",
+    "description_url": "https://poggit.pmmp.io/r/143826",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1633191310,
+    "state": 5,
+    "last_state_change_date": 1633403362,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Ping",
+        "High",
+        "Lagger",
+        "Remover",
+        "Kicker"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Phqzing"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

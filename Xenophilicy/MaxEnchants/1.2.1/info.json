@@ -1,0 +1,61 @@
+{
+    "id": 4323,
+    "name": "MaxEnchants",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/MaxEnchants/1.2.1",
+    "tagline": "Enable enchantments up to level 32k!",
+    "artifact_url": "https://poggit.pmmp.io/r/85182",
+    "downloads": 25907,
+    "score": 4,
+    "repo_id": 244512513,
+    "repo_name": "Xenophilicy/MaxEnchants",
+    "project_id": 6404,
+    "project_name": "MaxEnchants",
+    "build_id": 77036,
+    "build_number": 9,
+    "build_commit": "b2cf9a046a036ff12217d3e6ddcc8f743d001d86",
+    "description_url": "https://poggit.pmmp.io/r/85179",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/MaxEnchants/b2cf9a046a036ff12217d3e6ddcc8f743d001d86/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/85181",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588632390,
+    "state": 5,
+    "last_state_change_date": 1588698636,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "32",
+        "32k",
+        "enchant",
+        "enchantment"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Xenophilicy",
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

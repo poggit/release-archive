@@ -1,0 +1,64 @@
+{
+    "id": 2737,
+    "name": "AdminTroll",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AdminTroll/1.0.0",
+    "tagline": "Admin Troll, a plugin to troll in PocketMine-MP servers !",
+    "artifact_url": "https://poggit.pmmp.io/r/55701",
+    "downloads": 994,
+    "score": 5,
+    "repo_id": 180187701,
+    "repo_name": "Swourire/AdminTroll-a-plugin-PocketMine-MP-",
+    "project_id": 4891,
+    "project_name": "AdminTroll-a-plugin-PocketMine-MP-",
+    "build_id": 58161,
+    "build_number": 19,
+    "build_commit": "a2b17d9b7b4d904aa4f26c7d689c6ec2758150cf",
+    "description_url": "https://poggit.pmmp.io/r/55700",
+    "icon_url": "https://raw.githubusercontent.com/Swourire/AdminTroll-a-plugin-PocketMine-MP-/a2b17d9b7b4d904aa4f26c7d689c6ec2758150cf/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1555182694,
+    "state": 5,
+    "last_state_change_date": 1555185124,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Admin",
+        "Fun",
+        "smite",
+        "Troll"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Swourire"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

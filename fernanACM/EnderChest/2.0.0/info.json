@@ -1,0 +1,113 @@
+{
+    "id": 11546,
+    "name": "EnderChest",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EnderChest/2.0.0",
+    "tagline": "Portable EnderChest for PocketMine-MP 4.0 Servers",
+    "artifact_url": "https://poggit.pmmp.io/r/210162",
+    "downloads": 406,
+    "score": null,
+    "repo_id": 490063228,
+    "repo_name": "fernanACM/EnderChest",
+    "project_id": 11102,
+    "project_name": "EnderChest",
+    "build_id": 156236,
+    "build_number": 15,
+    "build_commit": "1c0f0560d2764941cb38b95d49b5a775db295468",
+    "description_url": "https://poggit.pmmp.io/r/210618",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/EnderChest/1c0f0560d2764941cb38b95d49b5a775db295468/icon-enderchest.png",
+    "changelog_url": "https://poggit.pmmp.io/r/210620",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685861122,
+    "state": 5,
+    "last_state_change_date": 1685882992,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Chest",
+        "Ender",
+        "EnderChest",
+        "InvMenu"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "869e1a734f63b5592bf3b962b992d195b52ad507",
+            "build_id": 156159
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "20ffa94a2dde27d51274e43d498835d608a6f861",
+            "build_id": 155625
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

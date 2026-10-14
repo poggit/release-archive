@@ -1,0 +1,64 @@
+{
+    "id": 1851,
+    "name": "BlocksConverter",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/BlocksConverter/1.0.3",
+    "tagline": "This PocketMine-MP plugin allows you to convert blocks from Minecraft:PC to Minecraft:BE and not only!",
+    "artifact_url": "https://poggit.pmmp.io/r/41397",
+    "downloads": 346,
+    "score": 5,
+    "repo_id": 107702611,
+    "repo_name": "matcracker/BlocksConverter",
+    "project_id": 1032,
+    "project_name": "BlocksConverter",
+    "build_id": 49057,
+    "build_number": 11,
+    "build_commit": "602f4566fabfdeb8883c79b9a3d2038913f935a3",
+    "description_url": "https://poggit.pmmp.io/r/41394",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/41396",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1536419962,
+    "state": 5,
+    "last_state_change_date": 1536491523,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "backup",
+        "conversion",
+        "converter",
+        "mcpc-to-mcpe",
+        "minecraft",
+        "pmmp-plugin",
+        "pocketmine-mp-plugin",
+        "world-converter"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "matcracker"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

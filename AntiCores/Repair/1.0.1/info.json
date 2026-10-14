@@ -1,0 +1,63 @@
+{
+    "id": 1580,
+    "name": "Repair",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Repair/1.0.1",
+    "tagline": "A Repair plugin for PocketMine-MP // McPe 1.2.",
+    "artifact_url": "https://poggit.pmmp.io/r/34647",
+    "downloads": 9431,
+    "score": 4,
+    "repo_id": 136668055,
+    "repo_name": "AntiCores/Repair",
+    "project_id": 3049,
+    "project_name": "Repair",
+    "build_id": 44292,
+    "build_number": 10,
+    "build_commit": "b58dec3707c35e0f70e75a9c017a7249e671a4e9",
+    "description_url": "https://poggit.pmmp.io/r/34644",
+    "icon_url": "https://raw.githubusercontent.com/JackMD/Repair/b58dec3707c35e0f70e75a9c017a7249e671a4e9/meta/Repair.png",
+    "changelog_url": "https://poggit.pmmp.io/r/34646",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529607849,
+    "state": 5,
+    "last_state_change_date": 1529973086,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "fix",
+        "fixall",
+        "fixhand",
+        "mcpe",
+        "plugin",
+        "pmmp",
+        "pocketmine-mp",
+        "poggit",
+        "repair",
+        "repairall",
+        "repairhand"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AntiCores"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

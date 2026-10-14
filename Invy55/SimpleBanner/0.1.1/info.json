@@ -1,0 +1,78 @@
+{
+    "id": 6520,
+    "name": "SimpleBanner",
+    "version": "0.1.1",
+    "html_url": "https://poggit.pmmp.io/p/SimpleBanner/0.1.1",
+    "tagline": "A simple banner generator for Pocketmine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/123834",
+    "downloads": 802,
+    "score": null,
+    "repo_id": 231971796,
+    "repo_name": "Invy55/SimpleBanner",
+    "project_id": 6018,
+    "project_name": "SimpleBanner",
+    "build_id": 101210,
+    "build_number": 37,
+    "build_commit": "3320ed13551bafbb62f37b8254254fdb0af208cc",
+    "description_url": "https://poggit.pmmp.io/r/123831",
+    "icon_url": "https://raw.githubusercontent.com/Invy55/SimpleBanner/3320ed13551bafbb62f37b8254254fdb0af208cc/.logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/123833",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1619259794,
+    "state": 5,
+    "last_state_change_date": 1619302223,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "banner",
+        "banners",
+        "easybanner",
+        "easybanners",
+        "simplebanner",
+        "simplebanners"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "MaksPV",
+            "efor89",
+            "64x2"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "id": 12270,
+    "name": "JoinCount",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/JoinCount/2.2.0",
+    "tagline": "This is a pocketmine plugin which tells you that a player has first time joined and it’s number",
+    "artifact_url": "https://poggit.pmmp.io/r/220728",
+    "downloads": 537,
+    "score": null,
+    "repo_id": 667883505,
+    "repo_name": "antbag-pm-pl/JoinCount",
+    "project_id": 12807,
+    "project_name": "JoinCount",
+    "build_id": 162220,
+    "build_number": 55,
+    "build_commit": "1a2ad56c3c6a1f47c278750bfc368da2ed08ad89",
+    "description_url": "https://poggit.pmmp.io/r/220725",
+    "icon_url": "https://raw.githubusercontent.com/antbag-pm-pl/JoinCount/1a2ad56c3c6a1f47c278750bfc368da2ed08ad89/group.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220727",
+    "license": "GPL-3.0+",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692536218,
+    "state": 5,
+    "last_state_change_date": 1692949068,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "antbag-dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libBedrock",
+            "project_id": 11911,
+            "repo_id": 551801316,
+            "repo_name": "NhanAZ-Libraries/libBedrock",
+            "repo_path": "",
+            "build_commit": "c507d4e415864bdd57eef6de490e253e5419375f",
+            "build_id": 162040
+        },
+        {
+            "name": "DiscordWebhookAPI",
+            "project_id": 12688,
+            "repo_id": 649141237,
+            "repo_name": "ACM-PocketMine-MP/DiscordWebhookAPI",
+            "repo_path": "",
+            "build_commit": "8fe8696dd629de5b242e8ea51917fe20cd9415de",
+            "build_id": 157867
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "id": 1669,
+    "name": "SimpleWarp",
+    "version": "4.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleWarp/4.0.0",
+    "tagline": "The original warp plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/36666",
+    "downloads": 4207,
+    "score": null,
+    "repo_id": 19914737,
+    "repo_name": "Falkirks/SimpleWarp",
+    "project_id": 39,
+    "project_name": "SimpleWarp",
+    "build_id": 45693,
+    "build_number": 40,
+    "build_commit": "51aae661abb7b4444331d12533c5fe2b13b8944b",
+    "description_url": "https://poggit.pmmp.io/r/36663",
+    "icon_url": "https://raw.githubusercontent.com/Falkirks/SimpleWarp/51aae661abb7b4444331d12533c5fe2b13b8944b/meta/simplewarp.png",
+    "changelog_url": "https://poggit.pmmp.io/r/36665",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1531356039,
+    "state": 5,
+    "last_state_change_date": 1531357285,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "warps"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "joshnorth",
+            "SOF3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

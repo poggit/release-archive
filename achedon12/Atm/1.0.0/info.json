@@ -1,0 +1,66 @@
+{
+    "id": 10572,
+    "name": "Atm",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Atm/1.0.0",
+    "tagline": "pocketmine plugin API 4.0.0",
+    "artifact_url": "https://poggit.pmmp.io/r/193022",
+    "downloads": 1901,
+    "score": null,
+    "repo_id": 512453152,
+    "repo_name": "achedon12/Atm",
+    "project_id": 11819,
+    "project_name": "Atm",
+    "build_id": 145178,
+    "build_number": 6,
+    "build_commit": "1ce05d88fc71adfcedadc947ed6e55b58c4fb76a",
+    "description_url": "https://poggit.pmmp.io/r/193463",
+    "icon_url": "https://raw.githubusercontent.com/achedon12/Atm/1ce05d88fc71adfcedadc947ed6e55b58c4fb76a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1663436818,
+    "state": 5,
+    "last_state_change_date": 1664849402,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "achedon12"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

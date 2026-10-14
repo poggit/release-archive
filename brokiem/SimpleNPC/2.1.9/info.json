@@ -1,0 +1,83 @@
+{
+    "id": 7961,
+    "name": "SimpleNPC",
+    "version": "2.1.9",
+    "html_url": "https://poggit.pmmp.io/p/SimpleNPC/2.1.9",
+    "tagline": "An Ultimate NPC plugin!",
+    "artifact_url": "https://poggit.pmmp.io/r/147076",
+    "downloads": 2559,
+    "score": 3,
+    "repo_id": 348594247,
+    "repo_name": "brokiem/SimpleNPC",
+    "project_id": 8702,
+    "project_name": "SimpleNPC",
+    "build_id": 114509,
+    "build_number": 307,
+    "build_commit": "6766b14faae92ef3d505409fa04e409d15bcbec8",
+    "description_url": "https://poggit.pmmp.io/r/147072",
+    "icon_url": "https://raw.githubusercontent.com/brokiem/SimpleNPC/6766b14faae92ef3d505409fa04e409d15bcbec8/assets/image.png",
+    "changelog_url": "https://poggit.pmmp.io/r/147074",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/147075",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1636219605,
+    "state": 5,
+    "last_state_change_date": 1636270247,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "npc",
+        "npc-plugin",
+        "php8",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine-plugins",
+        "simple-npc",
+        "slapper",
+        "snpc"
+    ],
+    "api": [
+        {
+            "from": "3.20.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "brokiem"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEasyUI",
+            "project_id": 8791,
+            "repo_id": 353953661,
+            "repo_name": "brokiem-pm-pl/EasyUI",
+            "repo_path": "",
+            "build_commit": "f02f34e1eec3f892db612533cac6e6011fbe18f3",
+            "build_id": 103615
+        }
+    ]
+}

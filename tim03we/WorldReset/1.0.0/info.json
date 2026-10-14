@@ -1,0 +1,67 @@
+{
+    "id": 2916,
+    "name": "WorldReset",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldReset/1.0.0",
+    "tagline": "A PocketMine-MP Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/58512",
+    "downloads": 3996,
+    "score": 2,
+    "repo_id": 188433015,
+    "repo_name": "tim03we/WorldReset",
+    "project_id": 5061,
+    "project_name": "WorldReset",
+    "build_id": 59698,
+    "build_number": 2,
+    "build_commit": "778701a2a30e02f128877464097c5f84744cacc7",
+    "description_url": "https://poggit.pmmp.io/r/58511",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1558722743,
+    "state": 5,
+    "last_state_change_date": 1559221006,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "World",
+        "Reset",
+        "WorldReset"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "tim03we"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

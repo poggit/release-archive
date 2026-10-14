@@ -1,0 +1,100 @@
+<h3>
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h3>
+<p>PiggyCustomEnchants is an open-sourced custom enchants plugin for PMMP.</p>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<ul>
+<li><code>/ce about</code></li>
+<li><code>/ce enchant &lt;enchant&gt; [level] [player]</code></li>
+<li><code>/ce help</code></li>
+<li><code>/ce info &lt;enchant&gt;</code></li>
+<li><code>/ce list</code></li>
+</ul>
+<h3>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h3>
+<ul>
+<li>
+<code>piggycustomenchants.command.ce.about</code> - information about the plugin</li>
+<li>
+<code>piggycustomenchants.command.ce.enchant</code> - custom enchantment command</li>
+<li>
+<code>piggycustomenchants.command.ce.help</code> - list of commands</li>
+<li>
+<code>piggycustomenchants.command.ce.info</code> - information of a specific custom enchantment</li>
+<li>
+<code>piggycustomenchants.command.ce.list</code> - list of custom enchants</li>
+<li>
+<code>piggycustomenchants.overridecheck</code> - override max enchant level + item check.</li>
+</ul>
+<h3>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h3>
+<p>You can set the color for each enchant rarity.</p>
+<pre><code>color:
+
+  common: yellow
+  uncommon: blue
+  rare: gold
+  mythical: light_purple
+</code></pre>
+<p>You can also enable/disable fire forms/UIs.</p>
+<pre><code>forms:
+
+  enabled: true
+</code></pre>
+<p>You can also enable/disable fire for blaze.</p>
+<pre><code>blaze:
+
+  flames: true
+</code></pre>
+<p>You can configure the rare drop from the Chicken enchant.</p>
+<pre><code>chicken:
+
+  rare-drop: ["id:meta:amount"]
+</code></pre>
+<p>You can also disable jetpacks in certain worlds.</p>
+<pre><code>jetpack:
+
+  disabled: []
+</code></pre>
+<p>You can also enable/disable fire for lightning.</p>
+<pre><code>lightning:
+
+  flames: true
+</code></pre>
+<h3>
+<a id="user-content-custom-enchants" class="anchor" href="#custom-enchants" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Custom Enchants</h3>
+<p>A list of custom enchants can be found <a href="https://github.com/DaPigGuy/PiggyCustomEnchants/wiki/Enchantments">here,</a> with a description of what each one does.</p>
+<h3>
+<a id="user-content-issues" class="anchor" href="#issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issues</h3>
+<p>If you run into an issue while using our plugin, make an issue <a href="https://github.com/DaPigGuy/PiggyCustomEnchants/issues">here.</a>
+Please be sure to follow our issue template.</p>
+<h3>
+<a id="user-content-plugins-that-use-piggyce" class="anchor" href="#plugins-that-use-piggyce" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Plugins that use PiggyCE</h3>
+<h4>
+<a id="user-content-piggycustomenchantsshop" class="anchor" href="#piggycustomenchantsshop" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://github.com/DaPigGuy/PiggyCustomEnchantsShop">PiggyCustomEnchantsShop</a>
+</h4>
+<p>PiggyCustomEnchantsShop is an add-on the the PiggyCustomEnchants plugin, adding shops (either forms or sign)</p>
+<h4>
+<a id="user-content-advancedkits" class="anchor" href="#advancedkits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://poggit.pmmp.io/p/AdvancedKits" rel="nofollow">AdvancedKits</a>
+</h4>
+<p>AdvancedKits is a simple yet useful PocketMine-MP kit plugin.</p>
+<h4>
+<a id="user-content-kitui" class="anchor" href="#kitui" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://poggit.pmmp.io/p/KitUI" rel="nofollow">KitUI</a>
+</h4>
+<p>Advance AdvancedKits! Select Kits from a form, just do /kit and get kits info and select it if available! For Minecraft Bedrock Edition!</p>
+<h3>
+<a id="user-content-api-documentation" class="anchor" href="#api-documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API Documentation</h3>
+<p>Are you a developer? Check out our API Documentation <a href="https://dapigguy.github.io/PiggyCustomEnchants" rel="nofollow">here.</a> (note: may be out of date; always compare to source code)</p>
+<h3>
+<a id="user-content-libformapi" class="anchor" href="#libformapi" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>libFormAPI</h3>
+<ul>
+<li>We are using the <a href="https://github.com/jojoe77777/FormAPI">libFormAPI</a>, so there is no need to install the FormAPI plugin.
+<ul>
+<li>In other words, you must use the pre-compiled phar from <a href="https://poggit.pmmp.io/ci/DaPigGuy/PiggyCustomEnchants/~" rel="nofollow">Poggit-CI</a> instead of GitHub.</li>
+<li>If you wish to run it via source, check out <a href="https://github.com/poggit/devirion">DEVirion</a>.</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-server-software" class="anchor" href="#server-software" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Server Software</h3>
+<p>We do not support any spoons. Anything to do with spoons (Issues or PRs) will be ignored unless reproducible in PMMP.</p>

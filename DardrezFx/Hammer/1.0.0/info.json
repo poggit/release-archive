@@ -1,0 +1,53 @@
+{
+    "id": 6740,
+    "name": "Hammer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Hammer/1.0.0",
+    "tagline": "A hammer for pmmp servers that break blocks 3x3",
+    "artifact_url": "https://poggit.pmmp.io/r/127352",
+    "downloads": 1532,
+    "score": 2,
+    "repo_id": 372895450,
+    "repo_name": "DardrezFx/Hammer",
+    "project_id": 9062,
+    "project_name": "Hammer",
+    "build_id": 103284,
+    "build_number": 2,
+    "build_commit": "40786058da3091c1359f37e95b0d4b2845a5cbe3",
+    "description_url": "https://poggit.pmmp.io/r/127875",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1622635951,
+    "state": 5,
+    "last_state_change_date": 1622851067,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "hammer"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DardrezFxV2"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

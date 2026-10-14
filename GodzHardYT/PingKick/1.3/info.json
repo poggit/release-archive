@@ -1,0 +1,65 @@
+{
+    "id": 8625,
+    "name": "PingKick",
+    "version": "1.3",
+    "html_url": "https://poggit.pmmp.io/p/PingKick/1.3",
+    "tagline": "PingKick by GodzHard",
+    "artifact_url": "https://poggit.pmmp.io/r/157635",
+    "downloads": 415,
+    "score": 5,
+    "repo_id": 271726968,
+    "repo_name": "GodzHardYT/PingKick",
+    "project_id": 7171,
+    "project_name": "PingKick",
+    "build_id": 121406,
+    "build_number": 11,
+    "build_commit": "cff5d81e158bec605f66d9d4af58c1eb35e5045b",
+    "description_url": "https://poggit.pmmp.io/r/157632",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/157634",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1642866819,
+    "state": 5,
+    "last_state_change_date": 1642876431,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Kick",
+        "Ping",
+        "PingPick",
+        "Plugin",
+        "PocketMine-MP"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GodzHardYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

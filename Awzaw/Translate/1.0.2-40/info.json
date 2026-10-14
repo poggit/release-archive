@@ -1,0 +1,77 @@
+{
+    "id": 876,
+    "name": "Translate",
+    "version": "1.0.2-40",
+    "html_url": "https://poggit.pmmp.io/p/Translate/1.0.2-40",
+    "tagline": "Live Translation",
+    "artifact_url": "https://poggit.pmmp.io/r/17717",
+    "downloads": 114,
+    "score": null,
+    "repo_id": 86511741,
+    "repo_name": "Awzaw/Translate",
+    "project_id": 340,
+    "project_name": "Translate",
+    "build_id": 31844,
+    "build_number": 14,
+    "build_commit": "f4b069cb63af193f6bf8e37921f631c565942527",
+    "description_url": "https://poggit.pmmp.io/r/17714",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/Translate/f4b069cb63af193f6bf8e37921f631c565942527/translate.png",
+    "changelog_url": "https://poggit.pmmp.io/r/17716",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1512722880,
+    "state": 5,
+    "last_state_change_date": 1512722884,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "translate",
+        "chat"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [
+        {
+            "name": "AntiSpamPro",
+            "version": "1.4.0-3",
+            "depRelId": 857,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

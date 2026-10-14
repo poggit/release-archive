@@ -1,0 +1,80 @@
+{
+    "id": 9109,
+    "name": "Elevator",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Elevator/1.1.0",
+    "tagline": "A simple elevator plugin that uses signs.",
+    "artifact_url": "https://poggit.pmmp.io/r/164116",
+    "downloads": 1395,
+    "score": null,
+    "repo_id": 258870390,
+    "repo_name": "matcracker/Elevator",
+    "project_id": 6788,
+    "project_name": "Elevator",
+    "build_id": 125208,
+    "build_number": 28,
+    "build_commit": "257b3954ae6528cc180037fae3cca2786086db69",
+    "description_url": "https://poggit.pmmp.io/r/164113",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/164115",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645734673,
+    "state": 5,
+    "last_state_change_date": 1645772534,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "elevator",
+        "elevator-plugin",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin",
+        "pocketmine-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "matcracker"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "id": 7515,
+    "name": "PacketLimiter",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PacketLimiter/1.0.0",
+    "tagline": "A Packet Limiter plugin for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/139985",
+    "downloads": 404,
+    "score": 5,
+    "repo_id": 401028675,
+    "repo_name": "AkmalFairuz/PacketLimiter",
+    "project_id": 9617,
+    "project_name": "PacketLimiter",
+    "build_id": 110738,
+    "build_number": 9,
+    "build_commit": "7ad53e52d12a8282bef8840835c00b3040016125",
+    "description_url": "https://poggit.pmmp.io/r/140118",
+    "icon_url": "https://raw.githubusercontent.com/AkmalFairuz/PacketLimiter/7ad53e52d12a8282bef8840835c00b3040016125/resources/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1630596199,
+    "state": 5,
+    "last_state_change_date": 1630651328,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "ddos",
+        "grief",
+        "lag",
+        "spam"
+    ],
+    "api": [
+        {
+            "from": "3.10.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AkmalFairuz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

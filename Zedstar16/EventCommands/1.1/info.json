@@ -1,0 +1,64 @@
+{
+    "id": 2716,
+    "name": "EventCommands",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/EventCommands/1.1",
+    "tagline": "Plugin than runs configured comands when a certain event occurs",
+    "artifact_url": "https://poggit.pmmp.io/r/55449",
+    "downloads": 2239,
+    "score": null,
+    "repo_id": 174607624,
+    "repo_name": "Zedstar16/EventCommands",
+    "project_id": 4812,
+    "project_name": "EventCommands",
+    "build_id": 58019,
+    "build_number": 10,
+    "build_commit": "dad5544abff66257b51667b70cebed79075595a0",
+    "description_url": "https://poggit.pmmp.io/r/56456",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/56458",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1554899848,
+    "state": 5,
+    "last_state_change_date": 1554959084,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "event",
+        "events",
+        "commands",
+        "command"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Zedstar16"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

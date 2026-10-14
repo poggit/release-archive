@@ -1,0 +1,63 @@
+{
+    "id": 5515,
+    "name": "Block-Generators",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Block-Generators/0.0.1",
+    "tagline": "This is a plugin that will allow players to place a Block Generator that will spawn a block of your choice above it.",
+    "artifact_url": "https://poggit.pmmp.io/r/107067",
+    "downloads": 1800,
+    "score": 5,
+    "repo_id": 309651040,
+    "repo_name": "Kirkham05/Block-Generators",
+    "project_id": 7972,
+    "project_name": "Block-Generators",
+    "build_id": 90976,
+    "build_number": 2,
+    "build_commit": "6a869f1fa2993504b894c5f1f1b62098ab21d451",
+    "description_url": "https://poggit.pmmp.io/r/107066",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1604408695,
+    "state": 5,
+    "last_state_change_date": 1606709388,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Block",
+        "Generators",
+        "Gen"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Kirkham05"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

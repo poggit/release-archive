@@ -1,0 +1,121 @@
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p><strong>MSpawns</strong> let you set multiple spawns on your PocketMine-MP server.</p>
+<p><strong>EvolSoft Website:</strong> <a href="https://www.evolsoft.tk" rel="nofollow">https://www.evolsoft.tk</a></p>
+<p><em><strong>MultiWorld Bugs (for eg. Invisible chunks...) aren't related to plugin or PocketMine but to Minecraft PE.</strong></em></p>
+<p>You can set a global spawn (hub/lobby) and a spawn for each world.
+You can also customize spawn settings, spawn messages... and you can also set aliases! (read documentation)</p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<p><em><strong>/mspawns</strong></em> <em>- MSpawns commands (aliases: [ms])</em><br>
+<em><strong>/sethub</strong></em> <em>- Set hub (aliases: [setlobby])</em><br>
+<em><strong>/delhub</strong></em> <em>- Delete hub (aliases: [dellobby])</em><br>
+<em><strong>/hub</strong></em> <em>- Teleport to hub (aliases: [lobby])</em><br>
+<em><strong>/setspawn</strong></em> <em>- Set world spawn</em><br>
+<em><strong>/delspawn</strong></em> <em>- Delete world spawn</em><br>
+<em><strong>/spawn</strong></em> <em>- Teleport to world spawn</em><br>
+<em><strong>/setalias</strong></em> <em>- Set alias  </em><br>
+<em><strong>/delalias</strong></em> <em>- Delete alias </em><br></p>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span> Available Tags for messages:</span>
+<span class="pl-c"><span class="pl-c">#</span>  - {PLAYER}: Show current player name</span>
+<span class="pl-c"><span class="pl-c">#</span>  - {PREFIX}: Show plugin prefix</span>
+<span class="pl-c"><span class="pl-c">#</span>  - {WORLD}: Show current world name</span>
+<span class="pl-c"><span class="pl-c">#</span> Show hub-message or spawn-message when a player joins</span>
+<span class="pl-ent">show-messages-onjoin</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> Force teleportation to hub when a player joins</span>
+<span class="pl-ent">force-hub</span>: <span class="pl-c1">false</span>
+<span class="pl-c"><span class="pl-c">#</span> Show message when a player teleports to hub</span>
+<span class="pl-ent">enable-hub-message</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> Force teleportation to spawn when a player joins (obviously if you enable force-hub, force-spawn won't work)</span>
+<span class="pl-ent">force-spawn</span>: <span class="pl-c1">false</span>
+<span class="pl-c"><span class="pl-c">#</span> Show message when a player teleports to spawn</span>
+<span class="pl-ent">enable-spawn-message</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> Enable aliases usage</span>
+<span class="pl-ent">enable-aliases</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> Teleport a player to the spawn/hub when they die</span>
+<span class="pl-c"><span class="pl-c">#</span> 1 = Teleport to spawn 2 = Teleport to Hub</span>
+<span class="pl-ent">teleport-on-death</span>: <span class="pl-c1">1</span>
+<span class="pl-c"><span class="pl-c">#</span> External hub server </span>
+<span class="pl-ent">hub-server</span>:
+ <span class="pl-c"><span class="pl-c">#</span> Enable external hub server</span>
+ <span class="pl-ent">enabled</span>: <span class="pl-c1">false</span>
+ <span class="pl-c"><span class="pl-c">#</span> Name of the hub server</span>
+ <span class="pl-ent">name</span>: <span class="pl-s"><span class="pl-pds">"</span>External Server<span class="pl-pds">"</span></span>
+ <span class="pl-c"><span class="pl-c">#</span> Hostname of the hub server</span>
+ <span class="pl-ent">host</span>: <span class="pl-s">127.0.0.1</span>
+ <span class="pl-c"><span class="pl-c">#</span> Port of the hub server (default 19132)</span>
+ <span class="pl-ent">port</span>: <span class="pl-c1">19132</span></pre></div>
+<h2>
+<a id="user-content-messages-messagesyml" class="anchor" href="#messages-messagesyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Messages (messages.yml)</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span>Hub message</span>
+<span class="pl-ent">hub-message</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;bWelcome to Hub, &amp;a{PLAYER}<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>No hub message</span>
+<span class="pl-ent">no-hub</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cNo hub set<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Spawn message</span>
+<span class="pl-ent">spawn-message</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;bTeleported to &amp;e{WORLD}&amp;b Spawn<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>No spawn message</span>
+<span class="pl-ent">no-spawn</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cNo spawn found in this world<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Invalid world</span>
+<span class="pl-ent">invalid-world</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cWorld not found<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Spawn aliases disabled</span>
+<span class="pl-ent">aliases-disabled</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cSpawn aliases are disabled on this server<span class="pl-pds">"</span></span>
+...</pre></div>
+<h2>
+<a id="user-content-aliases" class="anchor" href="#aliases" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Aliases</h2>
+<p>With aliases you can create commands that teleport players.<br>
+You can manually edit them in aliases.yml file.<br>
+If you want to create an alias you must specify the name and the target world (remember that the target world must have a spawn set)<br>
+<em>Example usage:</em>
+Imagine that you have a world called "pvpworld" and you want to set an alias called "pvp".<br></p>
+<ol>
+<li>Set spawn in world "pvpworld" with /setspawn<br>
+</li>
+<li>Do /setalias pvp pvpworld<br>
+To use the alias you must simply do /pvp and you will be teleported to "pvpworld" spawn<br>
+</li>
+</ol>
+<p><em>Remember that you can use aliases only if you set to true the value of "enable-aliases" in config.yml</em></p>
+<h2>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h2>
+<ul>
+<li>
+<dd><i><b>mspawns.*</b> - MSpawns permissions tree.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.info</b> - Let player read info about MSpawns.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.reload</b> - Let player reload MSpawns.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.delhub</b> - Let player delete hub.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.sethub</b> - Let player set hub.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.hub</b> - Let player teleport to hub.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.delalias</b> - Let player delete alias.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.setalias</b> - Let player set alias.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.delspawn</b> - Let player delete world spawn.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.setspawn</b> - Let player set world spawn.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.spawn</b> - Let player teleport to world spawn.</i></dd>
+</li>
+</ul>
+<h2>
+<a id="user-content-donate" class="anchor" href="#donate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Donate</h2>
+<p>Support the development of this plugin with a small donation by clicking <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=flavius.c.1999@gmail.com&amp;lc=US&amp;item_name=www.evolsoft.tk&amp;no_note=0&amp;cn=&amp;curency_code=EUR&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" rel="nofollow"><g-emoji alias="dollar" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4b5.png" ios-version="6.0">💵</g-emoji> here</a>. Thank you <g-emoji alias="smile" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" ios-version="6.0">😄</g-emoji></p>

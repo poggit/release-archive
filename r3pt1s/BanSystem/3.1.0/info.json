@@ -1,0 +1,99 @@
+{
+    "id": 12945,
+    "name": "BanSystem",
+    "version": "3.1.0",
+    "html_url": "https://poggit.pmmp.io/p/BanSystem/3.1.0",
+    "tagline": "The best system to moderate your server and punish players!",
+    "artifact_url": "https://poggit.pmmp.io/r/236514",
+    "downloads": 2901,
+    "score": null,
+    "repo_id": 460247878,
+    "repo_name": "r3pt1s/BanSystem",
+    "project_id": 11291,
+    "project_name": "BanSystem",
+    "build_id": 173649,
+    "build_number": 41,
+    "build_commit": "3e922adb186b0409898871a280f2797b9a6361ab",
+    "description_url": "https://poggit.pmmp.io/r/236794",
+    "icon_url": "https://raw.githubusercontent.com/r3pt1s/BanSystem/3e922adb186b0409898871a280f2797b9a6361ab/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/236796",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1712492996,
+    "state": 5,
+    "last_state_change_date": 1713203057,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "ban",
+        "bansystem",
+        "BanUI",
+        "cheats",
+        "hacker",
+        "punish",
+        "punishment",
+        "tempban",
+        "TempBanUI"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "StarGate-Atlantis",
+            "version": "2.1.0",
+            "depRelId": 6037,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "r3pt1s"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "ad64704777ad417d7ac69918199bfcb46c24a1ca",
+            "build_id": 168994
+        }
+    ]
+}

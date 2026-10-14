@@ -1,0 +1,73 @@
+{
+    "id": 13559,
+    "name": "RPEncrypter",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/RPEncrypter/0.0.2",
+    "tagline": "Automatically encrypts loaded resource packs (PocketMine-MP plugin)",
+    "artifact_url": "https://poggit.pmmp.io/r/248075",
+    "downloads": 190,
+    "score": null,
+    "repo_id": 750435255,
+    "repo_name": "Muqsit/RPEncrypter",
+    "project_id": 13531,
+    "project_name": "RPEncrypter",
+    "build_id": 181467,
+    "build_number": 10,
+    "build_commit": "300c61ff85ff7af4065b70b59262d2e1f5900845",
+    "description_url": "https://poggit.pmmp.io/r/248072",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/248074",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1726478433,
+    "state": 5,
+    "last_state_change_date": 1726537863,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine-plugin",
+        "poggit",
+        "resourcepack"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

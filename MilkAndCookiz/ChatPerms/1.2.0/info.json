@@ -1,0 +1,83 @@
+{
+    "id": 14044,
+    "name": "ChatPerms",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatPerms/1.2.0",
+    "tagline": "A plugin for managing player groups, permissions and chat formatting.",
+    "artifact_url": "https://poggit.pmmp.io/r/256431",
+    "downloads": 285,
+    "score": null,
+    "repo_id": 858694613,
+    "repo_name": "MilkAndCookiz/ChatPerms",
+    "project_id": 14238,
+    "project_name": "ChatPerms",
+    "build_id": 187034,
+    "build_number": 6,
+    "build_commit": "c94ce5e1008d209ef42f7a2a1ac62a8acf235370",
+    "description_url": "https://poggit.pmmp.io/r/256428",
+    "icon_url": "https://raw.githubusercontent.com/MilkAndCookiz/ChatPerms/c94ce5e1008d209ef42f7a2a1ac62a8acf235370/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/256430",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1748667000,
+    "state": 5,
+    "last_state_change_date": 1749161800,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Chat",
+        "ChatManager",
+        "ChatPerms",
+        "Manager",
+        "NameTag",
+        "Nickname",
+        "Perm",
+        "Permissions",
+        "Perms",
+        "PureChat"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SimpleFaction",
+            "version": "1.6.8",
+            "depRelId": 7768,
+            "isHard": false
+        },
+        {
+            "name": "PiggyFactions",
+            "version": "2.1.0",
+            "depRelId": 11971,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MilkAndCookiz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

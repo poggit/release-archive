@@ -1,0 +1,81 @@
+{
+    "id": 13639,
+    "name": "TrollXD",
+    "version": "1.3.1",
+    "html_url": "https://poggit.pmmp.io/p/TrollXD/1.3.1",
+    "tagline": "A Troll plugin with an easy UI and advanced features for @pmmp",
+    "artifact_url": "https://poggit.pmmp.io/r/249800",
+    "downloads": 197,
+    "score": 5,
+    "repo_id": 698777862,
+    "repo_name": "nepinhum/TrollXD",
+    "project_id": 13187,
+    "project_name": "TrollXD",
+    "build_id": 182772,
+    "build_number": 21,
+    "build_commit": "60c7a863f892224c78f6e48136ac5eb65d1c034d",
+    "description_url": "https://poggit.pmmp.io/r/249797",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/249799",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1732135880,
+    "state": 5,
+    "last_state_change_date": 1732245937,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "fun",
+        "toxic",
+        "troll",
+        "trollxd"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "nxpinhum5326"
+        ],
+        "Contributor": [
+            "adzenio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        }
+    ]
+}

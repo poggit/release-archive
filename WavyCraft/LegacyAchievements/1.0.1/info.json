@@ -1,0 +1,81 @@
+{
+    "id": 13901,
+    "name": "LegacyAchievements",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/LegacyAchievements/1.0.1",
+    "tagline": "Java Editions achievements within PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/253842",
+    "downloads": 147,
+    "score": null,
+    "repo_id": 906102189,
+    "repo_name": "WavyCraft/LegacyAchievements",
+    "project_id": 14411,
+    "project_name": "LegacyAchievements",
+    "build_id": 185318,
+    "build_number": 23,
+    "build_commit": "acc33ac7babc4c40e777724823b4ccf8d4c6660d",
+    "description_url": "https://poggit.pmmp.io/r/253839",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/253841",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1741049348,
+    "state": 5,
+    "last_state_change_date": 1741182996,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Achievements",
+        "Legacy",
+        "LegacyAchievements"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WavyCraft"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "id": 1854,
+    "name": "SeeDevice",
+    "version": "0.0.6",
+    "html_url": "https://poggit.pmmp.io/p/SeeDevice/0.0.6",
+    "tagline": "More easy to get Device of Player",
+    "artifact_url": "https://poggit.pmmp.io/r/41444",
+    "downloads": 395,
+    "score": 5,
+    "repo_id": 132674470,
+    "repo_name": "Palente/SeeDevice",
+    "project_id": 2851,
+    "project_name": "SeeDevice",
+    "build_id": 49095,
+    "build_number": 15,
+    "build_commit": "42d7ac1c84e43be848797368654878aaa79e58e7",
+    "description_url": "https://poggit.pmmp.io/r/41443",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1536449631,
+    "state": 5,
+    "last_state_change_date": 1536449631,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "API",
+        "Device",
+        "OS"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Palente"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

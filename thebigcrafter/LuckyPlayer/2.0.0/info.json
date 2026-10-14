@@ -1,0 +1,78 @@
+{
+    "id": 9240,
+    "name": "LuckyPlayer",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LuckyPlayer/2.0.0",
+    "tagline": "Give money to players when they join the server at lucky time",
+    "artifact_url": "https://poggit.pmmp.io/r/166157",
+    "downloads": 469,
+    "score": 5,
+    "repo_id": 334426871,
+    "repo_name": "thebigcrafter/LuckyPlayer",
+    "project_id": 8476,
+    "project_name": "LuckyPlayer",
+    "build_id": 126424,
+    "build_number": 30,
+    "build_commit": "65d3de1dfd852e9a6d33eceaaeca3dd9dfbeee8d",
+    "description_url": "https://poggit.pmmp.io/r/166599",
+    "icon_url": "https://raw.githubusercontent.com/MintoD/LuckyPlayer/65d3de1dfd852e9a6d33eceaaeca3dd9dfbeee8d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/166601",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646892099,
+    "state": 5,
+    "last_state_change_date": 1647001457,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "lucky",
+        "luckyplayer",
+        "money",
+        "player"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.7",
+            "depRelId": 9137,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

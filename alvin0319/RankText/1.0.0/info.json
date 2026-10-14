@@ -1,0 +1,65 @@
+{
+    "id": 4872,
+    "name": "RankText",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RankText/1.0.0",
+    "tagline": "A PocketMine-MP Plugin | RankText",
+    "artifact_url": "https://poggit.pmmp.io/r/95788",
+    "downloads": 6836,
+    "score": 3,
+    "repo_id": 278775690,
+    "repo_name": "alvin0319/RankText",
+    "project_id": 7395,
+    "project_name": "RankText",
+    "build_id": 83565,
+    "build_number": 1,
+    "build_commit": "28f86dd03e95843c0d171e1ea976096bbcad3a2e",
+    "description_url": "https://poggit.pmmp.io/r/95791",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1594436372,
+    "state": 5,
+    "last_state_change_date": 1594615095,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "economy",
+        "ranktext"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

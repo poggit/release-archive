@@ -1,0 +1,84 @@
+{
+    "id": 10559,
+    "name": "PocketCord",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/PocketCord/1.2.1",
+    "tagline": "PocketMine-MP To Discord Chat Logging.",
+    "artifact_url": "https://poggit.pmmp.io/r/192837",
+    "downloads": 114,
+    "score": null,
+    "repo_id": 535869846,
+    "repo_name": "cjmustard/PocketCord",
+    "project_id": 11838,
+    "project_name": "PocketCord",
+    "build_id": 145064,
+    "build_number": 13,
+    "build_commit": "387057545c16efdfb9e0aa74629c3ee0fa7753e1",
+    "description_url": "https://poggit.pmmp.io/r/193060",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1663110130,
+    "state": 5,
+    "last_state_change_date": 1664043678,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "discord",
+        "pocketmine",
+        "pocketmine-mp",
+        "webhook"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "CJMustard1452"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,58 @@
+<h2>
+<a id="user-content-stickeffect" class="anchor" href="#stickeffect" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>StickEffect</h2>
+<p><a href="https://poggit.pmmp.io/p/StickEffect" rel="nofollow"><img src="https://camo.githubusercontent.com/3a1a7f9ffde54863f4592fa4a4b661eb224ea8e5b6fc8f217cb1919409f36677/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f537469636b456666656374" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/StickEffect" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/StickEffect" rel="nofollow"><img src="https://camo.githubusercontent.com/ec250e53d79f608a610dd32d2754a08c8c414e83e528960ecf5e52d965aff9d5/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f537469636b456666656374" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/StickEffect" style="max-width:100%;"></a></p>
+<p>It is a plugin that allows to add effects by clicking on configure items</p>
+<h2>
+<a id="user-content-configyml" class="anchor" href="#configyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config.yml</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span> DO NOT TOUCH !</span>
+<span class="pl-ent">version</span>: <span class="pl-c1">3.0</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Welcome to StickEffect version 1.0.0</span>
+<span class="pl-c"><span class="pl-c">#</span> ---</span>
+<span class="pl-c"><span class="pl-c">#</span> the {time} notation in the "message" element allows you to take the time of the remaining cooldown</span>
+<span class="pl-c"><span class="pl-c">#</span> effect duration is for 20 = 1 second</span>
+<span class="pl-c"><span class="pl-c">#</span> the effect level is for 0 = 1 level so level 1 is finally equal to 2</span>
+<span class="pl-c"><span class="pl-c">#</span> the "visible" element allows to make appear or not the fantasy bubbles (true:false)</span>
+<span class="pl-c"><span class="pl-c">#</span> l'élement "remove" allows to remove the stick at each use</span>
+
+<span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">369:0</span><span class="pl-pds">"</span></span>:
+  <span class="pl-ent">cooldown</span>: <span class="pl-c1">60</span> <span class="pl-c"><span class="pl-c">#</span> secondes </span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>you have {time} seconds left to use the stick<span class="pl-pds">"</span></span>
+  <span class="pl-ent">remove</span>: <span class="pl-c1">true</span>
+  <span class="pl-ent">permission</span>:
+    <span class="pl-ent">enable</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">perm</span>: <span class="pl-s"><span class="pl-pds">'</span>stick.use<span class="pl-pds">'</span></span>
+    <span class="pl-ent">message_perm</span>: <span class="pl-s"><span class="pl-pds">"</span>§cYou don’t have permission !<span class="pl-pds">"</span></span>
+  <span class="pl-ent">effect</span>:
+    <span class="pl-ent">1</span>: <span class="pl-c"><span class="pl-c">#</span> id effect (speed)</span>
+      <span class="pl-ent">duration</span>: <span class="pl-c1">20</span> <span class="pl-c"><span class="pl-c">#</span> ticks, 20 = 20 secondes</span>
+      <span class="pl-ent">niveau</span>: <span class="pl-s">1 = 1 lvl</span>
+      <span class="pl-ent">visible</span>: <span class="pl-c1">false</span>
+
+<span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">336:0</span><span class="pl-pds">"</span></span>:
+  <span class="pl-ent">cooldown</span>: <span class="pl-c1">60</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>you have {time} seconds left to use the stick<span class="pl-pds">"</span></span>
+  <span class="pl-ent">remove</span>: <span class="pl-c1">true</span>
+  <span class="pl-ent">permission</span>:
+    <span class="pl-ent">enable</span>: <span class="pl-c1">true</span>
+    <span class="pl-ent">perm</span>: <span class="pl-s"><span class="pl-pds">'</span>stick2.use<span class="pl-pds">'</span></span>
+    <span class="pl-ent">message_perm</span>: <span class="pl-s"><span class="pl-pds">"</span>§cYou don’t have permission !<span class="pl-pds">"</span></span>
+  <span class="pl-ent">effect</span>:
+    <span class="pl-ent">3</span>: <span class="pl-c"><span class="pl-c">#</span> id haste</span>
+      <span class="pl-ent">duration</span>: <span class="pl-c1">20</span>
+      <span class="pl-ent">niveau</span>: <span class="pl-c1">2</span>
+      <span class="pl-ent">visible</span>: <span class="pl-c1">true</span>
+...</pre></div>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>The plugin also allows you to have a small API available. </p>
+<p>To get the API:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>api</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">getServer</span>()-&gt;<span class="pl-en">getPluginManager</span>()-&gt;<span class="pl-en">getPlugin</span>(<span class="pl-s">'StickEffect'</span>);</pre></div>
+<p>functions:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>array</span> = <span class="pl-s1"><span class="pl-c1">$</span>api</span>-&gt;<span class="pl-en">getAllStick</span>(); <span class="pl-c">// array</span>
+<span class="pl-s1"><span class="pl-c1">$</span>stick</span> = <span class="pl-s1"><span class="pl-c1">$</span>api</span>-&gt;<span class="pl-en">getStickFromString</span>(<span class="pl-s">'325:0'</span>); <span class="pl-c">// array</span>
+<span class="pl-s1"><span class="pl-c1">$</span>effects</span> = <span class="pl-s1"><span class="pl-c1">$</span>api</span>-&gt;<span class="pl-en">getAllEffectFromStick</span>(<span class="pl-s">'325:0'</span>); <span class="pl-c">// array</span>
+<span class="pl-s1"><span class="pl-c1">$</span>perm</span> = <span class="pl-s1"><span class="pl-c1">$</span>api</span>-&gt;<span class="pl-en">hasPermInStick</span>(<span class="pl-s">'325:0'</span>);  <span class="pl-c">// bool</span>
+<span class="pl-s1"><span class="pl-c1">$</span>permission</span> = <span class="pl-s1"><span class="pl-c1">$</span>api</span>-&gt;<span class="pl-en">getPermissionInStick</span>(<span class="pl-s">'325:0'</span>); <span class="pl-c">// string</span></pre></div>

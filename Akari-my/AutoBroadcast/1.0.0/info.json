@@ -1,0 +1,63 @@
+{
+    "id": 13224,
+    "name": "AutoBroadcast",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoBroadcast/1.0.0",
+    "tagline": "A plugin that sends broadcast messages",
+    "artifact_url": "https://poggit.pmmp.io/r/242366",
+    "downloads": 459,
+    "score": null,
+    "repo_id": 819623134,
+    "repo_name": "Akari-my/AutoBroadcast",
+    "project_id": 13961,
+    "project_name": "AutoBroadcast",
+    "build_id": 177474,
+    "build_number": 5,
+    "build_commit": "e902578d84560a3287b94381ece830921389940b",
+    "description_url": "https://poggit.pmmp.io/r/242365",
+    "icon_url": "https://raw.githubusercontent.com/Akari-my/AutoBroadcast/e902578d84560a3287b94381ece830921389940b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1719308991,
+    "state": 5,
+    "last_state_change_date": 1721779075,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "pocketmine",
+        "pocketmine-mp",
+        "pocketmine-mp-5"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Akari-my"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

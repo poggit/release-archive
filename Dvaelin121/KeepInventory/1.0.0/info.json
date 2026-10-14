@@ -1,0 +1,61 @@
+{
+    "id": 5924,
+    "name": "KeepInventoryPE",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KeepInventoryPE/1.0.0",
+    "tagline": "PMMP | KeepInventory (With Perm)",
+    "artifact_url": "https://poggit.pmmp.io/r/114883",
+    "downloads": 3357,
+    "score": 5,
+    "repo_id": 335507451,
+    "repo_name": "Dvaelin121/KeepInventory",
+    "project_id": 8499,
+    "project_name": "KeepInventory",
+    "build_id": 96135,
+    "build_number": 1,
+    "build_commit": "b0a8e65d770395099875023144dec9bd13241d4c",
+    "description_url": "https://poggit.pmmp.io/r/115710",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1612416531,
+    "state": 5,
+    "last_state_change_date": 1613402043,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "altay",
+        "keepinventory",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "3.15.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Dvaelin121"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

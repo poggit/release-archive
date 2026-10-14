@@ -1,0 +1,69 @@
+{
+    "id": 7681,
+    "name": "AdvanceKillMoney",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/AdvanceKillMoney/1.1",
+    "tagline": "Best and Advanced KillMoney Plugin For PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/142549",
+    "downloads": 1220,
+    "score": 5,
+    "repo_id": 406717824,
+    "repo_name": "deadbushmc/AdvanceKillMoney",
+    "project_id": 9717,
+    "project_name": "AdvanceKillMoney",
+    "build_id": 112327,
+    "build_number": 10,
+    "build_commit": "f0163a46664e7e13c50c323b5711cd569089062a",
+    "description_url": "https://poggit.pmmp.io/r/142548",
+    "icon_url": "https://raw.githubusercontent.com/deadbushmc/AdvanceKillMoney/f0163a46664e7e13c50c323b5711cd569089062a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632309568,
+    "state": 5,
+    "last_state_change_date": 1632610078,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "AdvanceKillMoney",
+        "KillMoney"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "deadbushmc"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

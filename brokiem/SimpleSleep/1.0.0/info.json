@@ -1,0 +1,69 @@
+{
+    "id": 5970,
+    "name": "SimpleSleep",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleSleep/1.0.0",
+    "tagline": "Why should you waste your precious time sleeping when someone else can for you!",
+    "artifact_url": "https://poggit.pmmp.io/r/115696",
+    "downloads": 1262,
+    "score": 5,
+    "repo_id": 335616618,
+    "repo_name": "brokiem/SimpleSleep",
+    "project_id": 8496,
+    "project_name": "SimpleSleep",
+    "build_id": 96689,
+    "build_number": 17,
+    "build_commit": "d3c50979f9283fe79556350574e594b4b5cfb8d3",
+    "description_url": "https://poggit.pmmp.io/r/115698",
+    "icon_url": "https://raw.githubusercontent.com/brokiem/SimpleSleep/d3c50979f9283fe79556350574e594b4b5cfb8d3/assets/logo.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1613411341,
+    "state": 5,
+    "last_state_change_date": 1614012702,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bettersleep",
+        "easysleep",
+        "fastsleep",
+        "oneplayersleep",
+        "simplesleep",
+        "sleep",
+        "sleeping"
+    ],
+    "api": [
+        {
+            "from": "3.14.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "brokiem"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

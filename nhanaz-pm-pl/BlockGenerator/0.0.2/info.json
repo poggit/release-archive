@@ -1,0 +1,72 @@
+{
+    "id": 11405,
+    "name": "BlockGenerator",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/BlockGenerator/0.0.2",
+    "tagline": "Random blocks generator with water and fences.",
+    "artifact_url": "https://poggit.pmmp.io/r/208771",
+    "downloads": 385,
+    "score": 5,
+    "repo_id": 593996299,
+    "repo_name": "nhanaz-pm-pl/BlockGenerator",
+    "project_id": 12121,
+    "project_name": "BlockGenerator",
+    "build_id": 155714,
+    "build_number": 3,
+    "build_commit": "07463bfe5fdc65379b09d1d122c9a934b5bcf82e",
+    "description_url": "https://poggit.pmmp.io/r/210684",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/BlockGenerator/07463bfe5fdc65379b09d1d122c9a934b5bcf82e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685639187,
+    "state": 5,
+    "last_state_change_date": 1685639782,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "blockgen",
+        "blockgenerator",
+        "oregen",
+        "oregenerator",
+        "php",
+        "phpstan-max",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libBedrock",
+            "project_id": 11911,
+            "repo_id": 551801316,
+            "repo_name": "NhanAZ-Libraries/libBedrock",
+            "repo_path": "",
+            "build_commit": "646109c8300377610f652b4ecaa5255074037bba",
+            "build_id": 155665
+        }
+    ]
+}

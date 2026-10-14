@@ -1,0 +1,63 @@
+{
+    "id": 11527,
+    "name": "C20s-TpAll",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/C20s-TpAll/0.0.2",
+    "tagline": "Powerful TpAll plugin with many features.",
+    "artifact_url": "https://poggit.pmmp.io/r/209952",
+    "downloads": 1228,
+    "score": 5,
+    "repo_id": 455074465,
+    "repo_name": "creeperplayer20/C20s-TPALL",
+    "project_id": 10520,
+    "project_name": "C20s-TPALL",
+    "build_id": 156139,
+    "build_number": 37,
+    "build_commit": "587919c030fb85d7bcaebe293197d2132bc48701",
+    "description_url": "https://poggit.pmmp.io/r/209958",
+    "icon_url": "https://raw.githubusercontent.com/creeperplayer20/C20s-TPALL/587919c030fb85d7bcaebe293197d2132bc48701/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209960",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685817095,
+    "state": 5,
+    "last_state_change_date": 1685817635,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "tp",
+        "tpall"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "creeperplayer20"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,61 @@
+{
+    "id": 11488,
+    "name": "DailyStats",
+    "version": "2.4",
+    "html_url": "https://poggit.pmmp.io/p/DailyStats/2.4",
+    "tagline": "Get a summary about the join activity of the day delivered to your discord server",
+    "artifact_url": "https://poggit.pmmp.io/r/209499",
+    "downloads": 310,
+    "score": null,
+    "repo_id": 345678405,
+    "repo_name": "Wertzui123/DailyStats",
+    "project_id": 8660,
+    "project_name": "DailyStats",
+    "build_id": 153129,
+    "build_number": 10,
+    "build_commit": "746ee69c3e67584edaa621facfcafc2a2ad51575",
+    "description_url": "https://poggit.pmmp.io/r/209496",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/209498",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685712955,
+    "state": 5,
+    "last_state_change_date": 1685715449,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "activity",
+        "daily",
+        "discord",
+        "joins",
+        "stats"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

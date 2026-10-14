@@ -1,0 +1,71 @@
+{
+    "id": 4518,
+    "name": "BlockItemFrame-HiroTeam",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockItemFrame-HiroTeam/2.0.0",
+    "tagline": "WorldGuard extension to block items frames",
+    "artifact_url": "https://poggit.pmmp.io/r/88815",
+    "downloads": 144,
+    "score": null,
+    "repo_id": 266834444,
+    "repo_name": "HiroshimaTeam/BlockItemFrame-HiroTeam",
+    "project_id": 7037,
+    "project_name": "BlockItemFrame-HiroTeam",
+    "build_id": 79408,
+    "build_number": 9,
+    "build_commit": "3c370855c286a57d8ccfea46d94611ca163120ba",
+    "description_url": "https://poggit.pmmp.io/r/91525",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/BlockItemFrame-HiroTeam/3c370855c286a57d8ccfea46d94611ca163120ba/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1590433784,
+    "state": 5,
+    "last_state_change_date": 1591843902,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "block-item-frame",
+        "extension",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine",
+        "pocketmine-plugins",
+        "worldguard",
+        "worldguard-extension"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "WorldGuard",
+            "version": "1.1.0",
+            "depRelId": 4162,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HiroshimaTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

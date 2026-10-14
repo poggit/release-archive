@@ -1,0 +1,77 @@
+{
+    "id": 3582,
+    "name": "VanishV2",
+    "version": "1.4",
+    "html_url": "https://poggit.pmmp.io/p/VanishV2/1.4",
+    "tagline": "Vanish plugin who hide you and your armor/items from other players",
+    "artifact_url": "https://poggit.pmmp.io/r/71432",
+    "downloads": 870,
+    "score": 5,
+    "repo_id": 221769789,
+    "repo_name": "sqrrrrl/VanishV2",
+    "project_id": 5802,
+    "project_name": "VanishV2",
+    "build_id": 68284,
+    "build_number": 16,
+    "build_commit": "5f99db5295e9aa1023c8b7f189a51bc432c0b14c",
+    "description_url": "https://poggit.pmmp.io/r/71434",
+    "icon_url": "https://raw.githubusercontent.com/superbobby2000/VanishV2/5f99db5295e9aa1023c8b7f189a51bc432c0b14c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/71436",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1577482595,
+    "state": 5,
+    "last_state_change_date": 1577539562,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Admin",
+        "Moderation",
+        "Staff",
+        "Vanish"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.2-c2a",
+            "depRelId": 2129,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Matthww",
+            "sqrrrrl"
+        ],
+        "Contributor": [
+            "MistakingManx",
+            "ItzxDwi",
+            "githubdontbanmeagain"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

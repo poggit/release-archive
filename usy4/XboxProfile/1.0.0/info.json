@@ -1,0 +1,80 @@
+{
+    "id": 10870,
+    "name": "XboxProfile",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/XboxProfile/1.0.0",
+    "tagline": "To view offline/online players xbox profile",
+    "artifact_url": "https://poggit.pmmp.io/r/198279",
+    "downloads": 268,
+    "score": 5,
+    "repo_id": 580350261,
+    "repo_name": "usy4/XboxProfile",
+    "project_id": 12011,
+    "project_name": "XboxProfile",
+    "build_id": 148595,
+    "build_number": 12,
+    "build_commit": "8baf20a2ec1a1caf719f5f501309b55371d18161",
+    "description_url": "https://poggit.pmmp.io/r/198278",
+    "icon_url": "https://raw.githubusercontent.com/usy4/XboxProfile/8baf20a2ec1a1caf719f5f501309b55371d18161/xbox.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1671723136,
+    "state": 5,
+    "last_state_change_date": 1671829702,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "xbox",
+        "profile",
+        "info",
+        "information",
+        "data"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "usy4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

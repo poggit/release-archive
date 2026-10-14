@@ -1,0 +1,62 @@
+{
+    "id": 6967,
+    "name": "EntityMonitor",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EntityMonitor/1.0.0",
+    "tagline": "Plugin that monitors every chunk for potential amount of entities and tiles",
+    "artifact_url": "https://poggit.pmmp.io/r/131041",
+    "downloads": 387,
+    "score": 5,
+    "repo_id": 382135376,
+    "repo_name": "JavierLeon9966/EntityMonitor",
+    "project_id": 9218,
+    "project_name": "EntityMonitor",
+    "build_id": 105448,
+    "build_number": 3,
+    "build_commit": "021ef05535808ee04c0e950463eb28c04073f1c8",
+    "description_url": "https://poggit.pmmp.io/r/131040",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/EntityMonitor/021ef05535808ee04c0e950463eb28c04073f1c8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1625510554,
+    "state": 5,
+    "last_state_change_date": 1626431583,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "chunk",
+        "count",
+        "entity",
+        "monitor",
+        "tick",
+        "tile"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA8",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

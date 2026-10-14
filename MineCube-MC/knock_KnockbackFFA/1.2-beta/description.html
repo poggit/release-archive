@@ -1,0 +1,38 @@
+<h1>
+<a id="user-content-knockbackffa" class="anchor" href="#knockbackffa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>KnockbackFFA<a href="https://raw.githubusercontent.com/ApexieDevelopment/Knock/main/KnockbackFFA.gif" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/ApexieDevelopment/Knock/main/KnockbackFFA.gif" height="64" width="64" align="left" alt="" style="max-width:100%;"></a>
+</h1><br>
+<p><a href="https://discord.gg/a75eNEAtrt" rel="nofollow"><img src="https://camo.githubusercontent.com/9a559bfb00c80a891fc741d1d17024f125812927414550c6672b978061a70430/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636861742d6f6e2b646973636f72642d3732383964612e737667" alt="Discord" data-canonical-src="https://img.shields.io/badge/chat-on+discord-7289da.svg" style="max-width:100%;"></a>
+<a href="https://github.com/ApexieDevelopment/Knock"><img src="https://camo.githubusercontent.com/30ac52d8561a0c051369476e2e73107ff5a7205bcdfedfe875e80875b478a991/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f417065786965446576656c6f706d656e742f4b6e6f636b" alt="License" data-canonical-src="https://img.shields.io/github/license/ApexieDevelopment/Knock" style="max-width:100%;"></a>
+<a href="https://patreon.com/ItzLightyHD" rel="nofollow"><img src="https://camo.githubusercontent.com/eac3494a69c95b1dddc2ce71572d31272e4812d63394d8e75a0109711aea4f7b/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e742e7376673f75726c3d6874747073253341253246253246736869656c6473696f2d70617472656f6e2e76657263656c2e617070253246617069253346757365726e616d6525334449747a4c6967687479484425323674797065253344706174726f6e73267374796c653d666c6174" alt="Support me on Patreon" data-canonical-src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DItzLightyHD%26type%3Dpatrons&amp;style=flat" style="max-width:100%;"></a> <br>
+<b>The classic sumo minigame fun to play for PocketMine-MP.</b></p>
+<h3>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h3>
+<ul>
+<li>Easy to setup</li>
+<li>Customizable scoretag for the players</li>
+<li>Arena map loading when starting the plugin</li>
+<li>Ingame sounds, to make the gameplay alive</li>
+<li>Customizable game behaviour</li>
+<li>Random maps <b>(Coming soon)</b>
+</li>
+<li>Permissions <b>(Coming soon)</b>
+</li>
+<li>Scoreboard <b>(Coming soon)</b>
+</li>
+</ul>
+<h3>
+<a id="user-content-how-to-setup--play" class="anchor" href="#how-to-setup--play" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to setup &amp; play</h3>
+<p>The plugin itself it's easy to setup. Follow the steps:</p>
+<ul>
+<li>Install the plugin</li>
+<li>Change the config values as you like</li>
+<li>Go to your server and type /kbffa</li>
+<li>Enjoy ;)</li>
+</ul>
+<h3>
+<a id="user-content-developers-and-api" class="anchor" href="#developers-and-api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developers and API</h3>
+<h4>
+<a id="user-content-getting-a-killstreak" class="anchor" href="#getting-a-killstreak" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting a killstreak</h4>
+<p>You can get the killstreak of any player from the event listener as it shows here here:</p>
+<div class="highlight highlight-text-html-php"><pre>\<span class="pl-v">ItzLightyHD</span>\<span class="pl-v">KnockbackFFA</span>\<span class="pl-v">EventListener</span>::<span class="pl-en">getInstance</span>()-&gt;<span class="pl-en">getKillstreak</span>(<span class="pl-s1"><span class="pl-c1">$</span>player</span>-&gt;<span class="pl-en">getName</span>());</pre></div>
+<p>If the player isn't playing KnockbackFFA, the function will return as "None".</p>

@@ -1,0 +1,59 @@
+{
+    "id": 7338,
+    "name": "FightPopup",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/FightPopup/1.0.1",
+    "tagline": "Show Combo, Distance, and CPS Whilst Fighting.",
+    "artifact_url": "https://poggit.pmmp.io/r/136643",
+    "downloads": 362,
+    "score": 2,
+    "repo_id": 375177838,
+    "repo_name": "TacoNoBurrito/FightPopup",
+    "project_id": 9108,
+    "project_name": "FightPopup",
+    "build_id": 108656,
+    "build_number": 4,
+    "build_commit": "2221556a06f4de84f6e74dba76c2ffa585ff6354",
+    "description_url": "https://poggit.pmmp.io/r/136640",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/136642",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628637002,
+    "state": 5,
+    "last_state_change_date": 1628687853,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TacoNoBurrito"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

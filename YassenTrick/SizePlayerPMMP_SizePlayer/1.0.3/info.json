@@ -1,0 +1,58 @@
+{
+    "id": 1637,
+    "name": "SizePlayer",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/SizePlayer/1.0.3",
+    "tagline": "A PMMP plugin that allows players to change their size.",
+    "artifact_url": "https://poggit.pmmp.io/r/35924",
+    "downloads": 3369,
+    "score": 4,
+    "repo_id": 135858722,
+    "repo_name": "YassenTrick/SizePlayerPMMP",
+    "project_id": 3016,
+    "project_name": "SizePlayer",
+    "build_id": 45155,
+    "build_number": 67,
+    "build_commit": "11db469ce483bee7c932fcb85db0c4967b7317d8",
+    "description_url": "https://poggit.pmmp.io/r/43012",
+    "icon_url": "https://raw.githubusercontent.com/YassenTrick/SizePlayerPMMP/11db469ce483bee7c932fcb85db0c4967b7317d8/Logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/43014",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1530590678,
+    "state": 5,
+    "last_state_change_date": 1530590678,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Size",
+        "SizePlayer"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JaxkDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

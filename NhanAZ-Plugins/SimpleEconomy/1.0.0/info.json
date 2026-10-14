@@ -1,0 +1,99 @@
+{
+    "id": 14387,
+    "name": "SimpleEconomy",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleEconomy/1.0.0",
+    "tagline": "A complete economy plugin with 14 languages, ScoreHud integration, offline player support, and a simple API.",
+    "artifact_url": "https://poggit.pmmp.io/r/262889",
+    "downloads": 346,
+    "score": 5,
+    "repo_id": 1155862816,
+    "repo_name": "NhanAZ-Plugins/SimpleEconomy",
+    "project_id": 15107,
+    "project_name": "SimpleEconomy",
+    "build_id": 191471,
+    "build_number": 4,
+    "build_commit": "032047330388bb8fabcd8b0c6b7130576da3a08e",
+    "description_url": "https://poggit.pmmp.io/r/262894",
+    "icon_url": "https://raw.githubusercontent.com/NhanAZ-Plugins/SimpleEconomy/032047330388bb8fabcd8b0c6b7130576da3a08e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1770865740,
+    "state": 5,
+    "last_state_change_date": 1773773815,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "balance",
+        "currency",
+        "economy",
+        "leaderboard",
+        "money",
+        "multilanguage",
+        "mysql",
+        "pay",
+        "scorehud",
+        "simplesql",
+        "sqlite",
+        "topmoney",
+        "yaml"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ScoreHud",
+            "version": "8.0.0",
+            "depRelId": 12550,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "SimpleSQL",
+            "project_id": 15106,
+            "repo_id": 1155797077,
+            "repo_name": "NhanAZ-Libraries/SimpleSQL",
+            "repo_path": "",
+            "build_commit": "c9cf89409e19038845a420d19ef5d71d32a7f6c1",
+            "build_id": 191468
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "0cb1cb8451513d9fd2e903f7652083fe7b7d6717",
+            "build_id": 191348
+        }
+    ]
+}

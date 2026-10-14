@@ -1,0 +1,64 @@
+{
+    "id": 14136,
+    "name": "PauseScreenPing",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/PauseScreenPing/1.2.0",
+    "tagline": "A simple plugin that shows the ping of the players in the Pause screen.",
+    "artifact_url": "https://poggit.pmmp.io/r/258111",
+    "downloads": 151,
+    "score": null,
+    "repo_id": 922623573,
+    "repo_name": "HBIDamian/PauseScreenPing",
+    "project_id": 14513,
+    "project_name": "PauseScreenPing",
+    "build_id": 188145,
+    "build_number": 3,
+    "build_commit": "97080e951acb03d669364998c28b38123edc36f4",
+    "description_url": "https://poggit.pmmp.io/r/258108",
+    "icon_url": "https://raw.githubusercontent.com/HBIDamian/PauseScreenPing/97080e951acb03d669364998c28b38123edc36f4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/258110",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1753461240,
+    "state": 5,
+    "last_state_change_date": 1754369700,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pause",
+        "ping",
+        "screen",
+        "simple"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HBIDamian"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,70 @@
+{
+    "id": 14162,
+    "name": "OnJoin",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/OnJoin/1.1.0",
+    "tagline": "a simple plugin that causes that when a player leaves or quits, a message will appear saying that he joined just as he left",
+    "artifact_url": "https://poggit.pmmp.io/r/258738",
+    "downloads": 140,
+    "score": null,
+    "repo_id": 911363638,
+    "repo_name": "darknessplx/OnJoin",
+    "project_id": 14475,
+    "project_name": "OnJoin",
+    "build_id": 188586,
+    "build_number": 33,
+    "build_commit": "cabca9eab14d7b7fa702777b6583492687d0b6d5",
+    "description_url": "https://poggit.pmmp.io/r/258735",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/258737",
+    "license": "GPL-3.0-only",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1755269023,
+    "state": 5,
+    "last_state_change_date": 1755780276,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "join",
+        "messagesjoin",
+        "onjoin"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "KanekiLeChomeur"
+        ],
+        "Collaborator": [
+            "darknessplx"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

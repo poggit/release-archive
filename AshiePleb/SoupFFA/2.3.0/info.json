@@ -1,0 +1,65 @@
+{
+    "id": 11514,
+    "name": "SoupFFA",
+    "version": "2.3.0",
+    "html_url": "https://poggit.pmmp.io/p/SoupFFA/2.3.0",
+    "tagline": "SoupFFA lets players quickly heal by right-clicking soup, improving PvP by reducing health concerns during battles.",
+    "artifact_url": "https://poggit.pmmp.io/r/209819",
+    "downloads": 639,
+    "score": null,
+    "repo_id": 161382905,
+    "repo_name": "AshiePleb/SoupFFA",
+    "project_id": 4372,
+    "project_name": "SoupFFA",
+    "build_id": 156086,
+    "build_number": 16,
+    "build_commit": "3ae51c81d334d22e282944867f0b1473e62e5004",
+    "description_url": "https://poggit.pmmp.io/r/209816",
+    "icon_url": "https://raw.githubusercontent.com/AshiePleb/SoupFFA/3ae51c81d334d22e282944867f0b1473e62e5004/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209818",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685791804,
+    "state": 5,
+    "last_state_change_date": 1685798455,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "SoupFFA"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "HBIDamian",
+            "Henry8K"
+        ],
+        "Collaborator": [
+            "AshiePleb"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

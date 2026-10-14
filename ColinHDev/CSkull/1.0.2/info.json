@@ -1,0 +1,77 @@
+{
+    "id": 8860,
+    "name": "CSkull",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/CSkull/1.0.2",
+    "tagline": "Implementation of player skulls, the way they exist in Minecraft: Java Edition.",
+    "artifact_url": "https://poggit.pmmp.io/r/160573",
+    "downloads": 2091,
+    "score": 5,
+    "repo_id": 427387071,
+    "repo_name": "ColinHDev/CSkull",
+    "project_id": 9957,
+    "project_name": "CSkull",
+    "build_id": 123085,
+    "build_number": 26,
+    "build_commit": "8c6ada7790eabe4335b84a8b7229d1450da1c45d",
+    "description_url": "https://poggit.pmmp.io/r/160570",
+    "icon_url": "https://raw.githubusercontent.com/ColinHDev/CSkull/8c6ada7790eabe4335b84a8b7229d1450da1c45d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/160572",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644244959,
+    "state": 5,
+    "last_state_change_date": 1644245118,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "player",
+        "player-heads",
+        "player-skulls"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ColinHDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "463ab795418a230e89f8c461f64cfb6fd37eca7a",
+            "build_id": 117925
+        }
+    ]
+}

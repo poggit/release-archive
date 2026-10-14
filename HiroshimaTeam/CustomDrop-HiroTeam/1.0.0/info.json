@@ -1,0 +1,70 @@
+{
+    "id": 5277,
+    "name": "CustomDrop-HiroTeam",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomDrop-HiroTeam/1.0.0",
+    "tagline": " allows you to choose the drop of each block !",
+    "artifact_url": "https://poggit.pmmp.io/r/102681",
+    "downloads": 1110,
+    "score": 4,
+    "repo_id": 293946724,
+    "repo_name": "HiroshimaTeam/CustomDrop-HiroTeam",
+    "project_id": 7728,
+    "project_name": "CustomDrop-HiroTeam",
+    "build_id": 87918,
+    "build_number": 2,
+    "build_commit": "c4f930df06c1641d21ad630033f008dc91d8c695",
+    "description_url": "https://poggit.pmmp.io/r/103007",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/CustomDrop-HiroTeam/c4f930df06c1641d21ad630033f008dc91d8c695/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1599768420,
+    "state": 5,
+    "last_state_change_date": 1602440862,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "drop"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HiroshimaTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,59 @@
+{
+    "id": 13206,
+    "name": "TeleportTo",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TeleportTo/1.0.0",
+    "tagline": "Teleport from a place to place",
+    "artifact_url": "https://poggit.pmmp.io/r/241923",
+    "downloads": 326,
+    "score": null,
+    "repo_id": 802284396,
+    "repo_name": "AEDXDEV/TeleportTo",
+    "project_id": 13818,
+    "project_name": "TeleportTo",
+    "build_id": 177164,
+    "build_number": 24,
+    "build_commit": "fb240e0d889a00afc0d04e2bfc6352e79835b425",
+    "description_url": "https://poggit.pmmp.io/r/241922",
+    "icon_url": "https://raw.githubusercontent.com/AEDXDEV/TeleportTo/fb240e0d889a00afc0d04e2bfc6352e79835b425/TeleportTo_icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1718848767,
+    "state": 5,
+    "last_state_change_date": 1719174284,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Teleport",
+        "TeleportTo",
+        "tp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AEDXDEV"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

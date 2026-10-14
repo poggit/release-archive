@@ -1,0 +1,64 @@
+{
+    "id": 3846,
+    "name": "TapToPot",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TapToPot/2.0.0",
+    "tagline": "This plugin allows you to make potions much faster.",
+    "artifact_url": "https://poggit.pmmp.io/r/76576",
+    "downloads": 1206,
+    "score": 4,
+    "repo_id": 241696808,
+    "repo_name": "PocketMineItalianDevs/TapToPot",
+    "project_id": 6343,
+    "project_name": "TapToPot",
+    "build_id": 71484,
+    "build_number": 9,
+    "build_commit": "a3a323a00b1402824317bb496e100ac6587cb1ce",
+    "description_url": "https://poggit.pmmp.io/r/76584",
+    "icon_url": "https://raw.githubusercontent.com/PocketMineItalianDevs/TapToPot/a3a323a00b1402824317bb496e100ac6587cb1ce/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582312114,
+    "state": 5,
+    "last_state_change_date": 1582332678,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin",
+        "pocketmine-plugin",
+        "pocketmine-plugins",
+        "taptopot"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RubyTemple"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

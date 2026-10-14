@@ -1,0 +1,89 @@
+{
+    "id": 1181,
+    "name": "ChestShop",
+    "version": "3.0",
+    "html_url": "https://poggit.pmmp.io/p/ChestShop/3.0",
+    "tagline": "Create GUI-based shops",
+    "artifact_url": "https://poggit.pmmp.io/r/24683",
+    "downloads": 1244,
+    "score": 5,
+    "repo_id": 80020239,
+    "repo_name": "Muqsit/ChestShop",
+    "project_id": 239,
+    "project_name": "ChestShop",
+    "build_id": 36971,
+    "build_number": 20,
+    "build_commit": "7181aad9cabcf8bfa7c673388dd98bf431234352",
+    "description_url": "https://poggit.pmmp.io/r/24681",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/24682",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1519473506,
+    "state": 5,
+    "last_state_change_date": 1519473506,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "buy",
+        "chestshop",
+        "economy",
+        "gui",
+        "sell"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA11",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-5",
+            "depRelId": 1107,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "fycarman",
+            "Adam1609",
+            "XDqrkneZ",
+            "AIPTU",
+            "test-compte"
+        ],
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "3f1d6ef8bd1c732903101f693d740eda899037c7",
+            "build_id": 36950
+        }
+    ]
+}

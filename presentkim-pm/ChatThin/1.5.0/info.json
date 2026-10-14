@@ -1,0 +1,68 @@
+{
+    "id": 9849,
+    "name": "ChatThin",
+    "version": "1.5.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatThin/1.5.0",
+    "tagline": "Make all messages have the same font",
+    "artifact_url": "https://poggit.pmmp.io/r/178488",
+    "downloads": 445,
+    "score": 5,
+    "repo_id": 282273726,
+    "repo_name": "presentkim-pm/ChatThin",
+    "project_id": 7492,
+    "project_name": "ChatThin",
+    "build_id": 134993,
+    "build_number": 29,
+    "build_commit": "cd4b5c48bf98f863dbb2a425df57101052d09cdb",
+    "description_url": "https://poggit.pmmp.io/r/178759",
+    "icon_url": "https://raw.githubusercontent.com/presentkim-pm/ChatThin/cd4b5c48bf98f863dbb2a425df57101052d09cdb/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/178761",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653963610,
+    "state": 5,
+    "last_state_change_date": 1654013500,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "chat-cleaner",
+        "chat-manager",
+        "chat-related",
+        "chatthin",
+        "presentkim"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PresentKim"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "remove-plugin-data-folder",
+            "project_id": 11078,
+            "repo_id": 489182920,
+            "repo_name": "presentkim-pm/remove-plugin-data-folder",
+            "repo_path": "",
+            "build_commit": "e5f9d38b767060c7f2c386119fcc727f684d81b0",
+            "build_id": 132231
+        }
+    ]
+}

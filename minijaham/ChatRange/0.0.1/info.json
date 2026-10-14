@@ -1,0 +1,66 @@
+{
+    "id": 8808,
+    "name": "ChatRange",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ChatRange/0.0.1",
+    "tagline": "Allow players to only chat with players in a certain range!",
+    "artifact_url": "https://poggit.pmmp.io/r/159808",
+    "downloads": 568,
+    "score": 5,
+    "repo_id": 449602257,
+    "repo_name": "minijaham/ChatRange",
+    "project_id": 10366,
+    "project_name": "ChatRange",
+    "build_id": 122637,
+    "build_number": 7,
+    "build_commit": "1c9cbfa05b77c724a6584e01d8acb06c9a971ac7",
+    "description_url": "https://poggit.pmmp.io/r/159807",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643875896,
+    "state": 5,
+    "last_state_change_date": 1644657384,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "radar",
+        "range"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "ErikPDev"
+        ],
+        "Collaborator": [
+            "minijaham"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

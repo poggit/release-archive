@@ -1,0 +1,78 @@
+{
+    "id": 4849,
+    "name": "WorldGuard",
+    "version": "1.1.6-4",
+    "html_url": "https://poggit.pmmp.io/p/WorldGuard/1.1.6-4",
+    "tagline": "The fastest world protector in town for your PocketMine server!",
+    "artifact_url": "https://poggit.pmmp.io/r/95277",
+    "downloads": 2121,
+    "score": 4,
+    "repo_id": 85119472,
+    "repo_name": "MihaiChirculete/WorldGuard",
+    "project_id": 327,
+    "project_name": "WorldGuard",
+    "build_id": 83102,
+    "build_number": 189,
+    "build_commit": "1329ad65604e8f957254b4f3124050391842208e",
+    "description_url": "https://poggit.pmmp.io/r/101836",
+    "icon_url": "https://raw.githubusercontent.com/Chalapa13/WorldGuard/1329ad65604e8f957254b4f3124050391842208e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/101838",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1594131867,
+    "state": 5,
+    "last_state_change_date": 1595156554,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "anti-grief",
+        "defined-regions",
+        "minecraft-plugin",
+        "pocketmine-mp",
+        "worldguard"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "MihaiChirculete"
+        ],
+        "Collaborator": [
+            "awgybop1",
+            "suerion"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

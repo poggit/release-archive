@@ -1,0 +1,85 @@
+{
+    "id": 12486,
+    "name": "TNTBlastRadius",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/TNTBlastRadius/1.0.2",
+    "tagline": "Edit TNT blast radius.",
+    "artifact_url": "https://poggit.pmmp.io/r/225514",
+    "downloads": 53,
+    "score": null,
+    "repo_id": 689437402,
+    "repo_name": "Terpz710/TNTBlastRadius",
+    "project_id": 13057,
+    "project_name": "TNTBlastRadius",
+    "build_id": 165599,
+    "build_number": 89,
+    "build_commit": "5b28357a6ea667dcf3c3b9d87dd4fc1f2c3ccdab",
+    "description_url": "https://poggit.pmmp.io/r/225516",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/TNTBlastRadius/5b28357a6ea667dcf3c3b9d87dd4fc1f2c3ccdab/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/225518",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1696405069,
+    "state": 5,
+    "last_state_change_date": 1696892339,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Blast",
+        "Boom",
+        "CustomTNT",
+        "Nuke",
+        "TNT",
+        "TNTBlast",
+        "TNTBlastRadius"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "26fac36e585c1b6d5a10a99bdcb70f6539b397aa",
+            "build_id": 157517
+        }
+    ]
+}

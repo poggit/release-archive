@@ -1,0 +1,78 @@
+{
+    "id": 12001,
+    "name": "ComplexUpgradeUI",
+    "version": "2.1.3",
+    "html_url": "https://poggit.pmmp.io/p/ComplexUpgradeUI/2.1.3",
+    "tagline": "Upgrade your tools in a UI!",
+    "artifact_url": "https://poggit.pmmp.io/r/217311",
+    "downloads": 103,
+    "score": null,
+    "repo_id": 255299520,
+    "repo_name": "ComplexityEU/ComplexUpgradeUI",
+    "project_id": 6887,
+    "project_name": "ComplexUpgradeUI",
+    "build_id": 160222,
+    "build_number": 26,
+    "build_commit": "b78fdb3c83d21e755e026c0e0cc79a3813f1b74d",
+    "description_url": "https://poggit.pmmp.io/r/217308",
+    "icon_url": "https://raw.githubusercontent.com/ComplexityEU/ComplexUpgradeUI/b78fdb3c83d21e755e026c0e0cc79a3813f1b74d/resources/image/book.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/217310",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689849260,
+    "state": 5,
+    "last_state_change_date": 1689849440,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "enchanting",
+        "enchants",
+        "upgrade",
+        "upgradeui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DuoIncure"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "f0ef2ec116d065e5dba3b83646b3bc97d5f433c4",
+            "build_id": 157532
+        }
+    ]
+}

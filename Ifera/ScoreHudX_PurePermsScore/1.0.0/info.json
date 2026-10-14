@@ -1,0 +1,67 @@
+{
+    "id": 6405,
+    "name": "PurePermsScore",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PurePermsScore/1.0.0",
+    "tagline": "A plugin implementing some basic tags for ScoreHud.",
+    "artifact_url": "https://poggit.pmmp.io/r/121995",
+    "downloads": 4063,
+    "score": 4,
+    "repo_id": 300368823,
+    "repo_name": "Ifera/ScoreHudX",
+    "project_id": 8818,
+    "project_name": "PurePermsScore",
+    "build_id": 99892,
+    "build_number": 2,
+    "build_commit": "a93814e2e9badc39eed5cdd51cfcec0ef0ff123c",
+    "description_url": "https://poggit.pmmp.io/r/134719",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1618048015,
+    "state": 5,
+    "last_state_change_date": 1618070912,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "scoreboard",
+        "scorehud",
+        "sh"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "alvin0319",
+            "AIPTU"
+        ],
+        "Collaborator": [
+            "Ifera"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

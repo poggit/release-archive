@@ -1,0 +1,27 @@
+<h1>
+<a id="user-content-rankup" class="anchor" href="#rankup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rankup</h1>
+<p>Let your community ascend through ranks with a easy to use configuration file!</p>
+<ul>
+<li>This plugin uses EconomyAPI</li>
+<li>Please report errors to the issues panel (if ur on poggit, this is in github)</li>
+</ul>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<ul>
+<li>First, import the API</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-k">use</span> <span class="pl-v">Taco</span>\<span class="pl-c1">RU</span>\<span class="pl-c1">API</span>;</pre></div>
+<ul>
+<li>Second, get the api in a variable</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>rankup</span> = <span class="pl-k">new</span> <span class="pl-c1">API</span>();</pre></div>
+<ul>
+<li>Third, use the api!</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>nextRankPrice</span> = <span class="pl-s1"><span class="pl-c1">$</span>rankup</span>-&gt;<span class="pl-en">getNextRankPrice</span>(<span class="pl-s1"><span class="pl-c1">$</span>player</span>);
+<span class="pl-s1"><span class="pl-c1">$</span>currentrank</span> = <span class="pl-s1"><span class="pl-c1">$</span>rankup</span>-&gt;<span class="pl-en">getRank</span>(<span class="pl-s1"><span class="pl-c1">$</span>player</span>);
+<span class="pl-s1"><span class="pl-c1">$</span>rankup</span>-&gt;<span class="pl-en">setRank</span>(<span class="pl-s1"><span class="pl-c1">$</span>player</span>, <span class="pl-s">"b"</span>);
+<span class="pl-s1"><span class="pl-c1">$</span>nextRank</span> = <span class="pl-s1"><span class="pl-c1">$</span>rankup</span>-&gt;<span class="pl-en">getNextRank</span>(<span class="pl-s1"><span class="pl-c1">$</span>player</span>);</pre></div>
+<ul>
+<li>Enjoy, Made By Taco!</li>
+</ul>

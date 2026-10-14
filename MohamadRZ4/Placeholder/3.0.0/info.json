@@ -1,0 +1,59 @@
+{
+    "id": 14133,
+    "name": "PlaceholderAPI",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlaceholderAPI/3.0.0",
+    "tagline": "A powerful and flexible placeholder system for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/258060",
+    "downloads": 270,
+    "score": 5,
+    "repo_id": 819874564,
+    "repo_name": "MohamadRZ4/Placeholder",
+    "project_id": 14414,
+    "project_name": "Placeholder",
+    "build_id": 188111,
+    "build_number": 14,
+    "build_commit": "8f904463f80aab6d74a2df800d202721f6f995dc",
+    "description_url": "https://poggit.pmmp.io/r/258057",
+    "icon_url": "https://raw.githubusercontent.com/MohamadRZ4/Placeholder/8f904463f80aab6d74a2df800d202721f6f995dc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/258059",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1753261643,
+    "state": 5,
+    "last_state_change_date": 1754369641,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MohamadRZ4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,102 @@
+{
+    "id": 3714,
+    "name": "PiggyShopUI",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PiggyShopUI/2.0.1",
+    "tagline": "PiggyShopUI is a simple shop plugin using FormAPI.",
+    "artifact_url": "https://poggit.pmmp.io/r/73859",
+    "downloads": 963,
+    "score": 5,
+    "repo_id": 145130537,
+    "repo_name": "DaPigGuy/PiggyShopUI",
+    "project_id": 4254,
+    "project_name": "PiggyShopUI",
+    "build_id": 69717,
+    "build_number": 31,
+    "build_commit": "a512c3bffb0ff5b64c33becb80ec497fefabc956",
+    "description_url": "https://poggit.pmmp.io/r/78818",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/78820",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1579929168,
+    "state": 5,
+    "last_state_change_date": 1579952710,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "economyapi",
+        "formapi",
+        "shop",
+        "shopui"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "MultiEconomy",
+            "version": "2.0.0",
+            "depRelId": 3510,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "b184eead463d8bc87a0b5a98d20eeda9a3a9131f",
+            "build_id": 65700
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "8817972510b912d87dc61bf56fc44a0cc75bcc3b",
+            "build_id": 66689
+        }
+    ]
+}

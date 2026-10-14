@@ -1,0 +1,59 @@
+{
+    "id": 13464,
+    "name": "LinkPlayersCounter",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LinkPlayersCounter/1.0.0",
+    "tagline": "PocketMine-MP 4 and 5 plugin that displays the number of connected players from multiple servers on a single server.",
+    "artifact_url": "https://poggit.pmmp.io/r/246531",
+    "downloads": 36,
+    "score": null,
+    "repo_id": 844682270,
+    "repo_name": "RemBog/LinkPlayersCounter",
+    "project_id": 14180,
+    "project_name": "LinkPlayersCounter",
+    "build_id": 180386,
+    "build_number": 1,
+    "build_commit": "f92dbabdc0355cf1133b7031944a37160acbc0bc",
+    "description_url": "https://poggit.pmmp.io/r/246530",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1724095341,
+    "state": 5,
+    "last_state_change_date": 1724866907,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RemBog"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

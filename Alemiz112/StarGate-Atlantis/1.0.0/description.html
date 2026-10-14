@@ -1,0 +1,99 @@
+<h1>
+<a id="user-content-stargate-atlantis" class="anchor" href="#stargate-atlantis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>StarGate-Atlantis</h1>
+<blockquote>
+<p>This is stable and fast plugin for pmmp that allows server connect to WaterDog plugin StarGate. It make easier communication between server. Includes API for custom packets, transferring players and more.</p>
+</blockquote>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="dart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png">🎯</g-emoji>Features:</h2>
+<ul>
+<li>Fast communication between servers</li>
+<li>Custom packets</li>
+<li>Moving players between servers (API)</li>
+</ul>
+<p>More features will be added very soon</p>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f527.png">🔧</g-emoji>API</h2>
+<p>You can access StarGate-Atlantis by <code>StarGateAtlantis::getInstance()</code></p>
+<h4>
+<a id="user-content-avalibe-functions" class="anchor" href="#avalibe-functions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Avalibe Functions</h4>
+<ul>
+<li>
+<code>transferrPlayer(Player player, string server)</code> This we use to transfer Player between servers</li>
+<li>
+<code>RegisterPacket(StarGatePacket packet)</code> Really simple method for registring Packet</li>
+<li>
+<code>putPacket(StarGatePacket packet)</code> This allows you to send packet. Packet must be registered first</li>
+<li>
+<code>kickPlayer(Player player, string reason)</code>  Kick player from any server connected to StarGate network</li>
+<li>
+<code>isOnline(Player player)</code> Check if player is online. Sends back response 'true!server' or 'false'. Examples <a href="https://github.com/Alemiz112/StarGate-Universe/tree/master/src/tests#playeronline-response">here</a>.</li>
+<li>
+<code>forwardPacket(string client, StarGatePacket packet)</code> Using ForwardPacket you can forward packet to other client/server</li>
+</ul>
+<h5>
+<a id="user-content-example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example:</h5>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$player</span> <span class="pl-k">=</span> <span class="pl-c1">PLUGIN</span><span class="pl-k">::</span>getInstance()<span class="pl-k">-&gt;</span>getPlayer(<span class="pl-s"><span class="pl-pds">"</span>alemiz003<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-smi">$server</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>lobby2<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c1">StarGateAtlantis</span><span class="pl-k">::</span>getInstance()<span class="pl-k">-&gt;</span>transferPlayer(<span class="pl-smi">$player</span>, <span class="pl-smi">$server</span>);</span></pre></div>
+<p>To more examples look <a href="https://github.com/Alemiz112/StarGate-Atlantis/tree/master/src/tests">here</a>!</p>
+<h4>
+<a id="user-content-packet-handling" class="anchor" href="#packet-handling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="package" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png">📦</g-emoji>Packet Handling</h4>
+<p>Received Packets are handled by <code>CustomPacketEvent</code>. Official Packets are handled (if needed) automaticly
+Accessing Packet from Event:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">getPacket</span>() {</span>
+<span class="pl-s1">  <span class="pl-k">return</span> <span class="pl-smi">$this</span><span class="pl-k">-&gt;</span><span class="pl-smi">packet</span>;</span>
+<span class="pl-s1">}</span></pre></div>
+<h4>
+<a id="user-content-responsechecktask" class="anchor" href="#responsechecktask" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="telephone_receiver" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4de.png">📞</g-emoji>ResponseCheckTask</h4>
+<p>Response checking is useful when we want to get some data created by packet back to client.
+PHP allows you to use simple closures to handle result:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$closure</span> <span class="pl-k">=</span> <span class="pl-k">function</span> (<span class="pl-smi">$response</span>){</span>
+<span class="pl-s1">    <span class="pl-c1">StarGateAtlantis</span><span class="pl-k">::</span>getInstance()<span class="pl-k">-&gt;</span>getLogger()<span class="pl-k">-&gt;</span>info(<span class="pl-s"><span class="pl-pds">"</span>§a<span class="pl-pds">"</span></span><span class="pl-k">.</span><span class="pl-smi">$response</span>);</span>
+<span class="pl-s1">};</span>
+<span class="pl-s1"><span class="pl-c1">StarGateAtlantis</span><span class="pl-k">::</span>getInstance()<span class="pl-k">-&gt;</span>isOnline(<span class="pl-s"><span class="pl-pds">"</span>alemiz0003<span class="pl-pds">"</span></span>, <span class="pl-smi">$closure</span>);</span></pre></div>
+<p>For more info please consider looking <a href="https://github.com/Alemiz112/StarGate-Universe/tree/master/src/tests">here</a>.</p>
+<h4>
+<a id="user-content-️creating-own-packets" class="anchor" href="#%EF%B8%8Fcreating-own-packets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji>Creating Own Packets</h4>
+<p>For better understanding please read <a href="https://github.com/Alemiz112/StarGate-Atlantis/blob/master/src/alemiz/sga/packets/StarGatePacket.php">StarGatePacket</a> and <a href="https://github.com/Alemiz112/StarGate-Atlantis/blob/master/src/alemiz/sga/packets/WelcomePacket.php">WelcomePacket</a></p>
+<h4>
+<a id="user-content-convertor" class="anchor" href="#convertor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Convertor</h4>
+<p>Convertor is used for <code>encoding</code> and <code>decoding</code> packets. We can use it for static and nonstatic usage
+Functions:</p>
+<ul>
+<li>
+<p><code>packetStringData(string packetString)</code> Exports packetString to data array</p>
+</li>
+<li>
+<p><code>putInt(int integer)</code> Pushes Integer to array</p>
+</li>
+<li>
+<p><code>putString(string string)</code> Pushes String to array</p>
+</li>
+<li>
+<p><code>getString(int key)</code> Returns String from array by key value</p>
+</li>
+<li>
+<p><code>getPacketString()</code> Returns packetString from array data</p>
+</li>
+<li>
+<p><code>static getInt(string string)</code> Returns Integer from String</p>
+</li>
+<li>
+<p><code>static getForcePacketString(array strings)</code> Returns packetString from given array</p>
+</li>
+<li>
+<p><code>static getPacketStringData(string packetString)</code> Returns array data from given string</p>
+</li>
+</ul>
+<h5>
+<a id="user-content-example-nonstatic" class="anchor" href="#example-nonstatic" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example (nonstatic):</h5>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$convertor</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Convertor</span>(<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>getID());</span>
+<span class="pl-s1"><span class="pl-smi">$convertor</span><span class="pl-k">-&gt;</span>putString(<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span><span class="pl-smi">server</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$convertor</span><span class="pl-k">-&gt;</span>putInt(<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span><span class="pl-smi">tps</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-smi">$this</span><span class="pl-k">-&gt;</span><span class="pl-smi">encoded</span> <span class="pl-k">=</span> <span class="pl-smi">$convertor</span><span class="pl-k">-&gt;</span>getPacketString();</span></pre></div>
+<h5>
+<a id="user-content-example-static" class="anchor" href="#example-static" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example (static):</h5>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-c1">Convertor</span><span class="pl-k">::</span>getPacketStringData(<span class="pl-smi">$packetString</span>);</span>
+<span class="pl-s1"><span class="pl-smi">$packetId</span> <span class="pl-k">=</span> (<span class="pl-k">int</span>) <span class="pl-smi">$data</span>[<span class="pl-c1">0</span>];</span></pre></div>

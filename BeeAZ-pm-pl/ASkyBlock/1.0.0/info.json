@@ -1,0 +1,76 @@
+{
+    "id": 12241,
+    "name": "ASkyBlock",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ASkyBlock/1.0.0",
+    "tagline": "A quality SkyBlock plugin that prioritizes simplicity while still providing essential features.",
+    "artifact_url": "https://poggit.pmmp.io/r/220274",
+    "downloads": 783,
+    "score": 4,
+    "repo_id": 674989162,
+    "repo_name": "BeeAZ-pm-pl/ASkyBlock",
+    "project_id": 12892,
+    "project_name": "ASkyBlock",
+    "build_id": 161965,
+    "build_number": 27,
+    "build_commit": "b64fe7a55bbfd9c780c898c93fb2f6427da1eff5",
+    "description_url": "https://poggit.pmmp.io/r/224632",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/ASkyBlock/b64fe7a55bbfd9c780c898c93fb2f6427da1eff5/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692202519,
+    "state": 5,
+    "last_state_change_date": 1692209748,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "ASkyBlock",
+        "SkyBlock"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormBuilderX",
+            "project_id": 12891,
+            "repo_id": 674987352,
+            "repo_name": "BeeAZ-pm-pl/FormBuilderX",
+            "repo_path": "",
+            "build_commit": "260026a83c3d3313503b5b24430a8fbba29738da",
+            "build_id": 161263
+        }
+    ]
+}

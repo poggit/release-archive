@@ -1,0 +1,67 @@
+{
+    "id": 13481,
+    "name": "BankNotesPlus",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/BankNotesPlus/1.0.2",
+    "tagline": "Allows the creation of bank notes using multi-ecomony system.",
+    "artifact_url": "https://poggit.pmmp.io/r/246798",
+    "downloads": 19,
+    "score": null,
+    "repo_id": 704774796,
+    "repo_name": "Terpz710/BankNotesPlus",
+    "project_id": 13250,
+    "project_name": "BankNotesPlus",
+    "build_id": 180584,
+    "build_number": 29,
+    "build_commit": "f3ea812b663aab17c681125ee8057f6c657cec24",
+    "description_url": "https://poggit.pmmp.io/r/246795",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/246797",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1724698075,
+    "state": 5,
+    "last_state_change_date": 1724787055,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Bank",
+        "Banknote",
+        "Banknotes",
+        "BedrockEconomy",
+        "EconomyAPI",
+        "Money",
+        "Note"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

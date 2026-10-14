@@ -1,0 +1,66 @@
+{
+    "id": 4681,
+    "name": "SlapperPlayerCount",
+    "version": "2.1.2",
+    "html_url": "https://poggit.pmmp.io/p/SlapperPlayerCount/2.1.2",
+    "tagline": "Get amount of players on a world or server using Slapper!",
+    "artifact_url": "https://poggit.pmmp.io/r/92094",
+    "downloads": 706,
+    "score": 1,
+    "repo_id": 262843295,
+    "repo_name": "ethaniccc/SlapperPlayerCount",
+    "project_id": 6919,
+    "project_name": "CrossOnlineCount",
+    "build_id": 81268,
+    "build_number": 36,
+    "build_commit": "2682f90b9542193527cca956c73bb9edfe2db904",
+    "description_url": "https://poggit.pmmp.io/r/92132",
+    "icon_url": "https://raw.githubusercontent.com/ethaniccc/SlapperPlayerCount/2682f90b9542193527cca956c73bb9edfe2db904/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/92134",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1592154001,
+    "state": 5,
+    "last_state_change_date": 1592154437,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.12.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "1.5.20-uhappynow",
+            "depRelId": 4317,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "JackNoordhuis"
+        ],
+        "Collaborator": [
+            "ethaniccc",
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

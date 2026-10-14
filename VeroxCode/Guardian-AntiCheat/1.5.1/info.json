@@ -1,0 +1,61 @@
+{
+    "id": 13141,
+    "name": "Guardian",
+    "version": "1.5.1",
+    "html_url": "https://poggit.pmmp.io/p/Guardian/1.5.1",
+    "tagline": "A small AntiCheat Solution against Cheaters",
+    "artifact_url": "https://poggit.pmmp.io/r/240946",
+    "downloads": 573,
+    "score": null,
+    "repo_id": 686135490,
+    "repo_name": "VeroxCode/Guardian-AntiCheat",
+    "project_id": 13025,
+    "project_name": "Guardian-AntiCheat",
+    "build_id": 176524,
+    "build_number": 51,
+    "build_commit": "0e30716eeb9b68b97c8f1da982cf8be0162e5567",
+    "description_url": "https://poggit.pmmp.io/r/240947",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/240949",
+    "license": "LGPL-3.0-or-later",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1717842500,
+    "state": 5,
+    "last_state_change_date": 1717857819,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "AntiCheat"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VeroxCode"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

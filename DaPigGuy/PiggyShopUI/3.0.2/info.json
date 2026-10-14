@@ -1,0 +1,111 @@
+{
+    "id": 9794,
+    "name": "PiggyShopUI",
+    "version": "3.0.2",
+    "html_url": "https://poggit.pmmp.io/p/PiggyShopUI/3.0.2",
+    "tagline": "PiggyShopUI is a simple shop plugin using FormAPI.",
+    "artifact_url": "https://poggit.pmmp.io/r/177204",
+    "downloads": 3774,
+    "score": 5,
+    "repo_id": 145130537,
+    "repo_name": "DaPigGuy/PiggyShopUI",
+    "project_id": 4254,
+    "project_name": "PiggyShopUI",
+    "build_id": 134119,
+    "build_number": 83,
+    "build_commit": "669d65e92e33543329647387fc339b2c6fa49fb0",
+    "description_url": "https://poggit.pmmp.io/r/177201",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/177203",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653447094,
+    "state": 5,
+    "last_state_change_date": 1653447493,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "economyapi",
+        "formapi",
+        "shop",
+        "shopui"
+    ],
+    "api": [
+        {
+            "from": "4.2.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.7",
+            "depRelId": 9137,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 6381,
+            "repo_id": 243299330,
+            "repo_name": "DaPigGuy/FormAPI-4.0.0",
+            "repo_path": "",
+            "build_commit": "d89439a16c29a2a56def5c29551f807540ac461f",
+            "build_id": 124849
+        },
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "f4543e36c0c5888b2b75151b5b4c16d8c96fc836",
+            "build_id": 125719
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "e56e534dbb698dd3eb320cc135fd3633bbab87f1",
+            "build_id": 134118
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 10652,
+            "repo_id": 462073633,
+            "repo_name": "DaPigGuy/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "cdae30371374145ab430c1cff6bf32bf10a2e646",
+            "build_id": 124883
+        }
+    ]
+}

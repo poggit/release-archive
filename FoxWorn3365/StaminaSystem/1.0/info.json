@@ -1,0 +1,62 @@
+{
+    "id": 11630,
+    "name": "StaminaSystem",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/StaminaSystem/1.0",
+    "tagline": "Improve your skills with stamina!",
+    "artifact_url": "https://poggit.pmmp.io/r/211377",
+    "downloads": 374,
+    "score": null,
+    "repo_id": 651570016,
+    "repo_name": "FoxWorn3365/StaminaSystem",
+    "project_id": 12601,
+    "project_name": "StaminaSystem",
+    "build_id": 156758,
+    "build_number": 3,
+    "build_commit": "227f40eac364583b9118545b57b51f6e1d0a43b8",
+    "description_url": "https://poggit.pmmp.io/r/211376",
+    "icon_url": "https://raw.githubusercontent.com/FoxWorn3365/StaminaSystem/227f40eac364583b9118545b57b51f6e1d0a43b8/stamina_plugin_icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686327582,
+    "state": 5,
+    "last_state_change_date": 1687095632,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "stamina",
+        "stamina-system"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "FoxWorn3365"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

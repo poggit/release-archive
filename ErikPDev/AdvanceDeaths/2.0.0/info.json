@@ -1,0 +1,79 @@
+{
+    "id": 7707,
+    "name": "AdvanceDeaths",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AdvanceDeaths/2.0.0",
+    "tagline": "A plugin to customize the death messages with Instant Respawn, and STATS!!",
+    "artifact_url": "https://poggit.pmmp.io/r/142876",
+    "downloads": 461,
+    "score": 5,
+    "repo_id": 283014127,
+    "repo_name": "ErikPDev/AdvanceDeaths",
+    "project_id": 7513,
+    "project_name": "AdvanceDeaths",
+    "build_id": 112362,
+    "build_number": 57,
+    "build_commit": "7eefbca9c52cab7926b85a9e27be707896feff5f",
+    "description_url": "https://poggit.pmmp.io/r/144321",
+    "icon_url": "https://raw.githubusercontent.com/ErikPDev/AdvanceDeaths/7eefbca9c52cab7926b85a9e27be707896feff5f/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/144323",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632471358,
+    "state": 5,
+    "last_state_change_date": 1632501131,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "advance",
+        "deaths",
+        "instant",
+        "kill",
+        "money",
+        "respawn",
+        "SQLite"
+    ],
+    "api": [
+        {
+            "from": "3.20.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ErikPDev"
+        ],
+        "Contributor": [
+            "lazyperson0710",
+            "IvanCraft623",
+            "UnEnanoMas",
+            "MrBlasyMSK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "307c779746e347724e9477b386d92859d1e36bcc",
+            "build_id": 109013
+        }
+    ]
+}

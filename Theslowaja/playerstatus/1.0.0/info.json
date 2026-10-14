@@ -1,0 +1,67 @@
+{
+    "id": 8941,
+    "name": "PlayerStatus",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerStatus/1.0.0",
+    "tagline": "plugin to know player status",
+    "artifact_url": "https://poggit.pmmp.io/r/161626",
+    "downloads": 2278,
+    "score": 5,
+    "repo_id": 452727205,
+    "repo_name": "Theslowaja/playerstatus",
+    "project_id": 10447,
+    "project_name": "playerstatus",
+    "build_id": 123744,
+    "build_number": 11,
+    "build_commit": "7b9aa14e98d781b8a5e43191f3c109a131b00ca9",
+    "description_url": "https://poggit.pmmp.io/r/161625",
+    "icon_url": "https://raw.githubusercontent.com/Theslowaja/playerstatus/7b9aa14e98d781b8a5e43191f3c109a131b00ca9/d4d38780672812f5aeff503cf4bbe6e4.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644719153,
+    "state": 5,
+    "last_state_change_date": 1645085762,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Theslowaja"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

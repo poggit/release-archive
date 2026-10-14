@@ -1,0 +1,71 @@
+{
+    "id": 5297,
+    "name": "HeadHunter",
+    "version": "0.1",
+    "html_url": "https://poggit.pmmp.io/p/HeadHunter/0.1",
+    "tagline": "A pocketmine plugin, that will let players get head by killing players and redeem rewards from the head",
+    "artifact_url": "https://poggit.pmmp.io/r/102897",
+    "downloads": 479,
+    "score": 3,
+    "repo_id": 282984802,
+    "repo_name": "RKAbdul/HeadHunter",
+    "project_id": 7601,
+    "project_name": "HeadHunter",
+    "build_id": 88028,
+    "build_number": 10,
+    "build_commit": "222a2ee89b5d68f2b67b1d36feb53a65a85d3b04",
+    "description_url": "https://poggit.pmmp.io/r/102896",
+    "icon_url": "https://raw.githubusercontent.com/RKAbdul/HeadHunter/222a2ee89b5d68f2b67b1d36feb53a65a85d3b04/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1600069821,
+    "state": 5,
+    "last_state_change_date": 1601162340,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Head",
+        "HeadHunt",
+        "Kill-Reward",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "RKAbdul"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

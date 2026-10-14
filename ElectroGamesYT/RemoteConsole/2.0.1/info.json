@@ -1,0 +1,68 @@
+{
+    "id": 8839,
+    "name": "RemoteConsole",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/RemoteConsole/2.0.1",
+    "tagline": "This plugin allows you to run commands through Console!",
+    "artifact_url": "https://poggit.pmmp.io/r/160213",
+    "downloads": 451,
+    "score": null,
+    "repo_id": 378256336,
+    "repo_name": "ElectroGamesYT/RemoteConsole",
+    "project_id": 9147,
+    "project_name": "RemoteConsole",
+    "build_id": 122862,
+    "build_number": 12,
+    "build_commit": "c1357468247e791cc8b747994e6f2fab8006e4db",
+    "description_url": "https://poggit.pmmp.io/r/160210",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/RemoteConsole/c1357468247e791cc8b747994e6f2fab8006e4db/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/160212",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644110385,
+    "state": 5,
+    "last_state_change_date": 1644245689,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Console",
+        "Remote"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "06c57503fa8b81fe1b7d0ee4ca45bd3d663248c4",
+            "build_id": 115018
+        }
+    ]
+}

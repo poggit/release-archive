@@ -1,0 +1,64 @@
+{
+    "id": 12497,
+    "name": "CMDSnooper",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CMDSnooper/1.0.0",
+    "tagline": "Watch players use commands",
+    "artifact_url": "https://poggit.pmmp.io/r/226814",
+    "downloads": 446,
+    "score": 5,
+    "repo_id": 698512237,
+    "repo_name": "Clickedtran/CMDSnooper",
+    "project_id": 13171,
+    "project_name": "CMDSnooper",
+    "build_id": 166781,
+    "build_number": 14,
+    "build_commit": "1e03b31f295485efd4f6045f3ae85b1ce6e4bb8c",
+    "description_url": "https://poggit.pmmp.io/r/226813",
+    "icon_url": "https://raw.githubusercontent.com/Clickedtran/CMDSnooper/1e03b31f295485efd4f6045f3ae85b1ce6e4bb8c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1697191327,
+    "state": 5,
+    "last_state_change_date": 1698008467,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "cmd",
+        "snooper",
+        "spy"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Clickedtran",
+            "taylordev47"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

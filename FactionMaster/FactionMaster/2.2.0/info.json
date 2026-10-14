@@ -1,0 +1,103 @@
+{
+    "id": 7537,
+    "name": "FactionMaster",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/FactionMaster/2.2.0",
+    "tagline": "Full configurable and modulable faction plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/140404",
+    "downloads": 75,
+    "score": 5,
+    "repo_id": 369857329,
+    "repo_name": "FactionMaster/FactionMaster",
+    "project_id": 9615,
+    "project_name": "FactionMaster",
+    "build_id": 111011,
+    "build_number": 50,
+    "build_commit": "7f7f2d6be0e2fd0de4f18c5d87031f22a036592d",
+    "description_url": "https://poggit.pmmp.io/r/140534",
+    "icon_url": "https://raw.githubusercontent.com/ShockedPlot7560/FactionMaster/7f7f2d6be0e2fd0de4f18c5d87031f22a036592d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/140536",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1630865159,
+    "state": 5,
+    "last_state_change_date": 1630865789,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "alliance",
+        "chat",
+        "extension",
+        "faction",
+        "leaderboard",
+        "modular",
+        "pocketmine",
+        "purechat",
+        "scoreboard",
+        "scorehud",
+        "translation"
+    ],
+    "api": [
+        {
+            "from": "3.17.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "HugoLeBoss91",
+            "AIPTU"
+        ],
+        "Translator": [
+            "xAliTura01",
+            "RaidoxxMPH",
+            "MrBlasyMSK"
+        ],
+        "Collaborator": [
+            "ShockedPlot7560"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "9faed72d40f93ff2b6579b52c83425c766ad165a",
+            "build_id": 83794
+        }
+    ]
+}

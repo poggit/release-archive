@@ -1,0 +1,101 @@
+{
+    "id": 13909,
+    "name": "SimpleClothes",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleClothes/1.2.0",
+    "tagline": "SimpleClothes 1.2.0",
+    "artifact_url": "https://poggit.pmmp.io/r/254011",
+    "downloads": 235,
+    "score": null,
+    "repo_id": 918969081,
+    "repo_name": "VsrStudio/SimpleClothes",
+    "project_id": 14508,
+    "project_name": "SimpleClothes",
+    "build_id": 185441,
+    "build_number": 40,
+    "build_commit": "04c6e8469a9c2b6c7511d073f012f08d91a3d155",
+    "description_url": "https://poggit.pmmp.io/r/254008",
+    "icon_url": "https://raw.githubusercontent.com/VsrStudio/SimpleClothes/04c6e8469a9c2b6c7511d073f012f08d91a3d155/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/254010",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1741396502,
+    "state": 5,
+    "last_state_change_date": 1741562157,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "clothes",
+        "hats",
+        "pocketmine-plugins",
+        "skins",
+        "wings"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "ScoreHud",
+            "version": "8.0.0",
+            "depRelId": 12550,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "VsrStudio",
+            "ZabuzHere"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "800f8c34f23e2aa1805b0dd97a5f47e0b1979bb9",
+            "build_id": 156926
+        }
+    ]
+}

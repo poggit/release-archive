@@ -1,0 +1,58 @@
+{
+    "id": 11685,
+    "name": "WorldTime",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldTime/1.2.0",
+    "tagline": "A PocketMine plugin that allows you to set the time of specific worlds in your server based on a configuration file.",
+    "artifact_url": "https://poggit.pmmp.io/r/212245",
+    "downloads": 381,
+    "score": null,
+    "repo_id": 435764391,
+    "repo_name": "AIPTU/WorldTime",
+    "project_id": 10086,
+    "project_name": "WorldTime",
+    "build_id": 157229,
+    "build_number": 5,
+    "build_commit": "e20f2e4720f62cf15df0ecea85b5ee1c485d97be",
+    "description_url": "https://poggit.pmmp.io/r/212247",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/WorldTime/e20f2e4720f62cf15df0ecea85b5ee1c485d97be/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/212249",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686847631,
+    "state": 5,
+    "last_state_change_date": 1686889164,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

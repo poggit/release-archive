@@ -1,0 +1,76 @@
+{
+    "id": 10436,
+    "name": "NightPVP",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/NightPVP/1.0",
+    "tagline": "NightPVP is plugin makes it so pvp can only happen at night.",
+    "artifact_url": "https://poggit.pmmp.io/r/189842",
+    "downloads": 62,
+    "score": 5,
+    "repo_id": 517799388,
+    "repo_name": "Estem01/NightPvP",
+    "project_id": 11624,
+    "project_name": "NightPvP",
+    "build_id": 142847,
+    "build_number": 63,
+    "build_commit": "96e65fcd523f2368cf5ddc0df4b6c118966e9ba6",
+    "description_url": "https://poggit.pmmp.io/r/189979",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1660481441,
+    "state": 5,
+    "last_state_change_date": 1660676740,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "UnknownNull",
+            "Ihsan48"
+        ],
+        "Collaborator": [
+            "Estem01",
+            "henrythierrydev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

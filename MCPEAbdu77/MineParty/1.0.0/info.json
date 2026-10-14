@@ -1,0 +1,78 @@
+{
+    "id": 7589,
+    "name": "MineParty",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MineParty/1.0.0",
+    "tagline": "Minigame for prison servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/141236",
+    "downloads": 2507,
+    "score": 2,
+    "repo_id": 360890764,
+    "repo_name": "MCPEAbdu77/MineParty",
+    "project_id": 9547,
+    "project_name": "MineParty",
+    "build_id": 111543,
+    "build_number": 18,
+    "build_commit": "08f41f04ae44cc9743b890d7382eb78a819a73f3",
+    "description_url": "https://poggit.pmmp.io/r/141875",
+    "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/MineParty/08f41f04ae44cc9743b890d7382eb78a819a73f3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1631313473,
+    "state": 5,
+    "last_state_change_date": 1632223793,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "fun",
+        "mine",
+        "minigame",
+        "mining",
+        "party",
+        "prison",
+        "rewards"
+    ],
+    "api": [
+        {
+            "from": "3.20.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MCPEAbdu77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

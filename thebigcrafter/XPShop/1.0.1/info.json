@@ -1,0 +1,86 @@
+{
+    "id": 6208,
+    "name": "XPShop",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/XPShop/1.0.1",
+    "tagline": "Buy and sell XP",
+    "artifact_url": "https://poggit.pmmp.io/r/119287",
+    "downloads": 63,
+    "score": null,
+    "repo_id": 348621950,
+    "repo_name": "thebigcrafter/XPShop",
+    "project_id": 8701,
+    "project_name": "XPShop",
+    "build_id": 98791,
+    "build_number": 10,
+    "build_commit": "2961f3b4c78c21c408b940e714bbe5f33e7072f8",
+    "description_url": "https://poggit.pmmp.io/r/119314",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/119316",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616483895,
+    "state": 5,
+    "last_state_change_date": 1616500759,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "exp",
+        "shop",
+        "xp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "taylordevs"
+        ],
+        "Contributor": [
+            "Ihsan48"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

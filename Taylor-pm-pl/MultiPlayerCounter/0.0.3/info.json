@@ -1,0 +1,86 @@
+{
+    "id": 9547,
+    "name": "MultiPlayerCounter",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/MultiPlayerCounter/0.0.3",
+    "tagline": "A PocketMine-MP plugin that combines online players counts of multiple servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/172136",
+    "downloads": 645,
+    "score": 3,
+    "repo_id": 444844390,
+    "repo_name": "Taylor-pm-pl/MultiPlayerCounter",
+    "project_id": 10273,
+    "project_name": "MultiPlayerCounter",
+    "build_id": 130373,
+    "build_number": 48,
+    "build_commit": "46df081ae47fd5aeae1884f21b12c1e87b51b42f",
+    "description_url": "https://poggit.pmmp.io/r/173010",
+    "icon_url": "https://raw.githubusercontent.com/David-pm-pl/MultiPlayerCounter/46df081ae47fd5aeae1884f21b12c1e87b51b42f/assets/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/173012",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1650603345,
+    "state": 5,
+    "last_state_change_date": 1651188152,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "counter",
+        "cross",
+        "multi",
+        "player",
+        "plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ"
+        ],
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libpmquery",
+            "project_id": 758,
+            "repo_id": 99370791,
+            "repo_name": "jasonw4331/libpmquery",
+            "repo_path": "",
+            "build_commit": "465e0129d4847bf2c8df66c001b6f90225c1c8ca",
+            "build_id": 107077
+        }
+    ]
+}

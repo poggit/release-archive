@@ -1,0 +1,223 @@
+<p><a href="https://github.com/poggit-orphanage/ManyWorlds/blob/master/media/ManyWorlds-icon.png" target="_blank"><img src="https://github.com/poggit-orphanage/ManyWorlds/raw/master/media/ManyWorlds-icon.png" width="64" height="64" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-manyworlds" class="anchor" href="#manyworlds" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ManyWorlds</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Poggit</th>
+<th align="center">Discord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="https://poggit.pmmp.io/ci/poggit-orphanage/ManyWorlds/ManyWorlds" rel="nofollow"><img src="https://camo.githubusercontent.com/7f86dcdbbed28fd6530af6dea45331823997c0a6/68747470733a2f2f706f676769742e706d6d702e696f2f63692e736869656c642f706f676769742d6f727068616e6167652f4d616e79576f726c64732f4d616e79576f726c6473" alt="Poggit" data-canonical-src="https://poggit.pmmp.io/ci.shield/poggit-orphanage/ManyWorlds/ManyWorlds" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://discord.gg/NgHf9jt" rel="nofollow"><img src="https://camo.githubusercontent.com/4d27eb7514c176f662d0482c810698dcfb12320f/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3430323633393835393533353035323831312f656d6265642e706e67" alt="Discord server" data-canonical-src="https://discordapp.com/api/guilds/402639859535052811/embed.png" style="max-width:100%;"></a></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Summary: Manage Multiple Worlds</li>
+<li>Dependency Plugins: n/a</li>
+<li>PocketMine-MP: API 3.0.0 (and higher)</li>
+<li>OptionalPlugins: n/a</li>
+<li>Categories: Admin Tools, Teleportation</li>
+<li>Plugin Access: Commands, Manages Worlds</li>
+<li>WebSite: <a href="https://github.com/poggit-orphanage/ManyWorlds/tree/master">github</a>
+</li>
+</ul>
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p><strong>DO NOT POST QUESTION/BUG-REPORTS/REQUESTS IN THE REVIEWS</strong></p>
+<p>It is difficult to carry a conversation in the reviews.  If you have a
+question/bug-report/request please use the
+<a href="http://forums.pocketmine.net/threads/manyworlds.7277/" rel="nofollow">Thread</a> for
+that.  You are more likely to get a response and help that way.</p>
+<p>Please go to
+<a href="https://github.com/poggit-orphanage/ManyWorlds/tree/master">github</a>
+for the most up-to-date documentation.</p>
+<p>Full feature set of commands to manage multiple worlds.</p>
+<p>Features:</p>
+<ul>
+<li>teleport</li>
+<li>load/unload</li>
+<li>create</li>
+<li>world info</li>
+<li>edit level.dat</li>
+</ul>
+<h2>
+<a id="user-content-basic-usage" class="anchor" href="#basic-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Basic Usage</h2>
+<ul>
+<li>create : Creates a new world</li>
+<li>default : Sets the default world</li>
+<li>fixname : fixes name mismatches</li>
+<li>generators : List available world generators</li>
+<li>load : Loads a world</li>
+<li>ls : Provide world information</li>
+<li>lvdat : Show/Modify level.dat variables</li>
+<li>tp : Teleport to another world</li>
+<li>unload : Unloads world</li>
+</ul>
+<h2>
+<a id="user-content-documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h2>
+<p>This plugin is a world manager that allows you to generate and load
+worlds as well as teleport between worlds.</p>
+<h2>
+<a id="user-content-command-reference" class="anchor" href="#command-reference" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Reference</h2>
+<p>The following commands are available:</p>
+<ul>
+<li>/mw <strong>create</strong> <em>&lt;world&gt;</em> <em>[seed]</em> <em>[generator]</em> <em>[preset]</em><br>
+Creates a new world</li>
+</ul>
+<p>Creates a world named <em>world</em>.  You can optionally specify a <em>seed</em>
+as number, the generator (<em>flat</em> or <em>normal</em>) and a <em>preset</em> string.</p>
+<ul>
+<li>
+<p>/mw <strong>default</strong> <em>&lt;world&gt;</em><br>
+Sets the default world</p>
+<p>Teleports you to another world.  If <em>player</em> is specified, that
+player will be teleported.</p>
+</li>
+<li>
+<p>/mw <strong>fixname</strong> <em>&lt;world&gt;</em><br>
+fixes name mismatches</p>
+<p>Fixes a world's <strong>level.dat</strong> file so that the name matches the
+folder name.</p>
+</li>
+<li>
+<p>/mw <strong>generators</strong><br>
+List available world generators</p>
+<p>List registered world generators.</p>
+</li>
+<li>
+<p>/mw <strong>load</strong> <em>&lt;world&gt;</em><br>
+Loads a world</p>
+<p>Loads <em>world</em> directly.  Use <em>--all</em> to load <strong>all</strong> worlds.</p>
+</li>
+<li>
+<p>/mw <strong>ls</strong> <em>[world]</em><br>
+Provide world information</p>
+<p>If <em>world</em> is not specified, it will list available worlds.
+Otherwise, details for <em>world</em> will be provided.</p>
+</li>
+<li>
+<p>/mw <strong>lvdat</strong> <em>&lt;world&gt;</em> <em>[attr=value]</em><br>
+Show/Modify level.dat variables</p>
+<p>Change directly some <strong>level.dat</strong> values/attributes.  Supported
+attributes:</p>
+<ul>
+<li>spawn=x,y,z : Sets spawn point</li>
+<li>seed=randomseed : seed used for terrain generation</li>
+<li>name=string : Level name</li>
+<li>generator=flat|normal : Terrain generator</li>
+<li>preset=string : Presets string.</li>
+</ul>
+</li>
+<li>
+<p>/mw <strong>tp</strong> <em>[player]</em> <em>&lt;world&gt;</em><br>
+Teleport to another world</p>
+<p>Teleports you to another world.  If <em>player</em> is specified, that
+player will be teleported.</p>
+</li>
+<li>
+<p>/mw <strong>unload</strong> <em>[-f]</em>  <em>&lt;world&gt;</em><br>
+Unloads world</p>
+<p>Unloads <em>world</em>.  Use <em>-f</em> to force unloads.</p>
+</li>
+</ul>
+<h2>
+<a id="user-content-permission-nodes" class="anchor" href="#permission-nodes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission Nodes</h2>
+<ul>
+<li>mw.cmds : Allow all the ManyWorlds functionality</li>
+<li>mw.cmd.tp : Allows users to travel to other worlds
+(Defaults to Op)</li>
+<li>mw.cmd.tp.others : Allows users to make others travel to other worlds
+(Defaults to Op)</li>
+<li>mw.cmd.ls : Allows users to list worlds
+(Defaults to Op)</li>
+<li>mw.cmd.world.create : Allows users to create worlds
+(Defaults to Op)</li>
+<li>mw.cmd.world.load : Allows users to load worlds
+(Defaults to Op)</li>
+<li>mw.cmd.lvdat : Manipulate level.dat
+(Defaults to Op)</li>
+<li>mw.cmd.default : Changes default world
+(Defaults to Op)</li>
+</ul>
+<h2>
+<a id="user-content-examples" class="anchor" href="#examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples</h2>
+<p>Create a new normal world:</p>
+<pre><code>/mw create overworld 711 normal
+</code></pre>
+<p>Create a new flat world:</p>
+<pre><code>/mw create flatland 404 flat 2;7,59x1,3x3,2;1;
+</code></pre>
+<p>Teleport to this newly created world:</p>
+<pre><code>/mw tp flatland
+</code></pre>
+<p>Teleport a player to another world:</p>
+<pre><code>/mw tp joshua flatland
+</code></pre>
+<h2>
+<a id="user-content-translations" class="anchor" href="#translations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Translations</h2>
+<p>This plugin will follow the server language configuration.  The
+languages currently available are:</p>
+<ul>
+<li>English</li>
+<li>Spanish</li>
+</ul>
+<p>You can provide your own message file by creating a file called
+<code>messages.ini</code> in the pluginc config directory.  Check
+<a href="https://github.com/poggit-orphanage/ManyWorlds/tree/master/resources/messages/">github</a>
+for sample files.</p>
+<h2>
+<a id="user-content-issues" class="anchor" href="#issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issues</h2>
+<ul>
+<li>New world names can not contain spaces.</li>
+</ul>
+<h2>
+<a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h2>
+<ul>
+<li>
+<p>Q: How do I create a <code>FLAT</code> world?</p>
+</li>
+<li>
+<p>A: You must be using PocketMine-MP v1.4.1.  Set the <code>generator</code> to
+<code>flat</code>.</p>
+</li>
+<li>
+<p>Q: How do I load multiple worlds on start-up?</p>
+</li>
+<li>
+<p>A: That functionality is provided by PocketMine-MP core by default.
+In the <code>pocketmine.yml</code> file there is a <code>worlds</code> section where you
+can define which worlds to load on start-up.  Examples:</p>
+<pre><code>[CODE]
+
+# pocketmine.yml
+worlds:
+   world1: []
+   world2: []
+[/CODE]
+</code></pre>
+<p>This will automatically load worlds: "world1" and "world2" on startup.</p>
+</li>
+</ul>
+<h2>
+<a id="user-content-copyright" class="anchor" href="#copyright" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright</h2>
+<pre><code>ManyWorlds
+Copyright (C) 2015 Alejandro Liu
+All Rights Reserved.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</code></pre>

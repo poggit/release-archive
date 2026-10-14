@@ -1,0 +1,60 @@
+{
+    "id": 6766,
+    "name": "ColorParticle",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/ColorParticle/1.2.1",
+    "tagline": "ColorParticle is a Pocketmine-MP Plugin for player to use colored particles.",
+    "artifact_url": "https://poggit.pmmp.io/r/127708",
+    "downloads": 991,
+    "score": 4,
+    "repo_id": 373558219,
+    "repo_name": "VazziDE/ColorParticle",
+    "project_id": 9078,
+    "project_name": "ColorParticle",
+    "build_id": 103500,
+    "build_number": 6,
+    "build_commit": "67bb831075b6710181bed4b748e6873ecdfb7b47",
+    "description_url": "https://poggit.pmmp.io/r/127707",
+    "icon_url": "https://raw.githubusercontent.com/VazziDE/ColorParticle/67bb831075b6710181bed4b748e6873ecdfb7b47/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1622817532,
+    "state": 5,
+    "last_state_change_date": 1623373345,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "color",
+        "particle",
+        "colorparticle",
+        "particlecolor"
+    ],
+    "api": [
+        {
+            "from": "3.19.2",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VazziDE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

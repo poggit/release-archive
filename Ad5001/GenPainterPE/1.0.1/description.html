@@ -1,0 +1,35 @@
+<h1>
+<a id="user-content-genpainterpe" class="anchor" href="#genpainterpe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GenPainterPE</h1>
+<p>Pocketmine Generator for Earth and heightmap based generation.</p>
+<h2>
+<a id="user-content-what-is-genpainterpe" class="anchor" href="#what-is-genpainterpe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is GenPainterPE?</h2>
+<p>GenPainterPE is a PocketMine plugin which allows you to generate minecraft maps just with an heightmap.</p>
+<h2>
+<a id="user-content-how-to-use-genpainterpe" class="anchor" href="#how-to-use-genpainterpe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use GenPainterPE?</h2>
+<p>First, look at <a href="#installation">the installation part</a>.<br>
+Creating a world would take the default config.yml settings, and then apply them to map creation (note: changing theses settings afterwards won't change them for the map. You should regenerate one another to change settings).<br>
+To create a world, you can go to your pocketmine.yml, and at the end of the file, add a new world with the generator "genpainter".</p>
+<h2>
+<a id="user-content-customizing-genpainterpe" class="anchor" href="#customizing-genpainterpe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Customizing GenPainterPE</h2>
+<p>You can customize GenPainterPE's generation by modifing some values in the config.yml.<br>
+<a id="user-content-add-heightmap"></a><br>
+You can also <b>add your own heightmap</b>. <a href="https://en.wikipedia.org/wiki/Heightmap">What is an heightmap?</a><br>
+How to do that?</p>
+<ol>
+<li>Get your heightmap in a png form (.png)</li>
+<li>Put it into the GenPainterPE/heightmaps folder</li>
+<li>Change the "heightmap_name" in the config.yml to the name of your heightmap (WITHOUT THE .png AT THE END)</li>
+<li>Create a new world with the genpainter generator</li>
+</ol>
+<p>(note: you can modify your config afterwards and remove the .png as the world heightmap and data has been saved to your generated map)</p>
+<h2>
+<a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+<p>Note: This section is only for *nix users (Linux, MacOS, Unix, FreeBSD). PMMP's windows' prebuilt binaries includes GD by default.<br>
+To support all the features including your own heightmap creation, you may need to install the PHP GD extension.<br>
+Don't have it and don't know how to install it?</p>
+<ul>
+<li>For PocketMine Server Manager users, check if the plugin is working, if not, just delete the folder located in &lt;YOUR_OWN_FOLDER&gt;/.pocketmine/php and restart PocketMine Server Manager.</li>
+<li>For regular pocketmine user, you can use the command in bash:</li>
+</ul>
+<div class="highlight highlight-source-shell"><pre>curl -sL https://raw.githubusercontent.com/pmmp/php-build-scripts/master/compile.sh <span class="pl-k">|</span> bash -s - -j 4 -g</pre></div>
+<p>You may also need to install <a href="https://sourceforge.net/projects/libpng/">https://sourceforge.net/projects/libpng/</a>.</p>

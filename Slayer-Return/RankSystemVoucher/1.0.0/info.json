@@ -1,0 +1,73 @@
+{
+    "id": 12388,
+    "name": "RankSystemVoucher",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RankSystemVoucher/1.0.0",
+    "tagline": "Custom item to get Rank from RankSystem",
+    "artifact_url": "https://poggit.pmmp.io/r/222906",
+    "downloads": 438,
+    "score": 3,
+    "repo_id": 690351241,
+    "repo_name": "Slayer-Return/RankSystemVoucher",
+    "project_id": 13063,
+    "project_name": "RankSystemVoucher",
+    "build_id": 163642,
+    "build_number": 3,
+    "build_commit": "ee71351b604919ea67f3cf903453ed4f9896b0fa",
+    "description_url": "https://poggit.pmmp.io/r/222905",
+    "icon_url": "https://raw.githubusercontent.com/Slayer-Return/RankSystemVoucher/ee71351b604919ea67f3cf903453ed4f9896b0fa/voucher.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1694493987,
+    "state": 5,
+    "last_state_change_date": 1694537920,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "ranks",
+        "ranksystem",
+        "ranksystemvoucher",
+        "rankvoucher",
+        "voucher"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "RankSystem",
+            "version": "1.1.3",
+            "depRelId": 11942,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "SillierShark195",
+            "nicholass003"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

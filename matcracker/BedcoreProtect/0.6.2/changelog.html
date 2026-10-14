@@ -1,0 +1,38 @@
+<ul>
+<li>Replaced the command /bcp lookup &lt;page&gt;:&lt;lines&gt; with /bcp show &lt;page&gt;:&lt;lines&gt; <strong>(Permission bcp.subcommand.show)</strong></li>
+<li>Using PRIMARY KEYS in logs tables instead of UNIQUE and NOT NULL.</li>
+<li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="622999363" data-permission-text="Title is private" data-url="https://github.com/matcracker/BedcoreProtect/issues/29" data-hovercard-type="issue" data-hovercard-url="/matcracker/BedcoreProtect/issues/29/hovercard" href="https://github.com/matcracker/BedcoreProtect/issues/29">#29</a>: allow database patches when the plugin version is major of db version.</li>
+<li>Fixed crash and enhanced /bcp lookup command, see description
+<ul>
+<li>Not allows duplicated users.</li>
+<li>The parameter "blocks" is now called "inclusions" (shortcut param will be "i")</li>
+<li>The inclusions/exclusions now handle also the items</li>
+<li>The inclusions/exclusions now got a "no-strict mode" with allow to select all blocks with the same ID when no meta is specified</li>
+<li>Example:</li>
+<li>include=5  --&gt; includes all blocks with ID 5 (no strict)</li>
+<li>include=5:0 --&gt; includes only block with ID 5 and meta 0 (strict)</li>
+</ul>
+</li>
+<li>Fixed invalid parameter message showing actions instead of parameters.</li>
+<li>Fixed parsing whitespaced player names on forms.</li>
+<li>Fixed possible crash in case of player disconnection.</li>
+<li>Fixed possible spamming logs using filled buckets.</li>
+<li>Fixed rollback not sorting by time the logs. (This was a bug since first versions, I always forgot to fix it <g-emoji class="g-emoji" alias="skull" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f480.png">💀</g-emoji>)</li>
+<li>Improved the PatchManager!
+<ul>
+<li>It now backups the SQLite database.</li>
+<li>It correctly handles the case of no patches for a single database and it updates the database version only to the last patch added.</li>
+</ul>
+</li>
+<li>Improved the error message during the parsing of inclusions/exclusions</li>
+<li>Rollback now update all the blocks. (e.g. rollback the water will also remove the other parts, not only the first)
+<ul>
+<li>Little performance cost but good result for liquids and lights.</li>
+</ul>
+</li>
+<li>Set synchronous mode to NORMAL in SQLite. It should increase performance with WAL mode</li>
+<li>Throwing exception when using PluginQueries::onRollback()</li>
+<li>Updated russian language (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="622376187" data-permission-text="Title is private" data-url="https://github.com/matcracker/BedcoreProtect/issues/28" data-hovercard-type="pull_request" data-hovercard-url="/matcracker/BedcoreProtect/pull/28/hovercard" href="https://github.com/matcracker/BedcoreProtect/pull/28">#28</a>)</li>
+<li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="614895794" data-permission-text="Title is private" data-url="https://github.com/matcracker/BedcoreProtect/issues/20" data-hovercard-type="issue" data-hovercard-url="/matcracker/BedcoreProtect/issues/20/hovercard" href="https://github.com/matcracker/BedcoreProtect/issues/20">#20</a>: item frame transactions are now logged.</li>
+<li>Removed bed from clickable blocks because it's useless. It prevents query spam when players click the bed during the day.</li>
+</ul>

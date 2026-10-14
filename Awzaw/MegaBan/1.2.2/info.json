@@ -1,0 +1,58 @@
+{
+    "id": 40,
+    "name": "MegaBan",
+    "version": "1.2.2",
+    "html_url": "https://poggit.pmmp.io/p/MegaBan/1.2.2",
+    "tagline": "All bans in one",
+    "artifact_url": "https://poggit.pmmp.io/r/1241",
+    "downloads": 5545,
+    "score": null,
+    "repo_id": 60861038,
+    "repo_name": "Awzaw/MegaBan",
+    "project_id": 14,
+    "project_name": "MegaBan",
+    "build_id": 20224,
+    "build_number": 5,
+    "build_commit": "82793bf7dd7acc2eacb7f7dd34f4db4f151d1376",
+    "description_url": "https://poggit.pmmp.io/r/16591",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/MegaBan/master/megaban.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1485259248,
+    "state": 5,
+    "last_state_change_date": 1485259248,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "ban",
+        "bancid"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA9",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

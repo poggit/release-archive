@@ -1,0 +1,79 @@
+{
+    "id": 9344,
+    "name": "BlockReplacer",
+    "version": "1.6.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockReplacer/1.6.0",
+    "tagline": "A PocketMine-MP plugin which replaces block to another block at predefined time.",
+    "artifact_url": "https://poggit.pmmp.io/r/168166",
+    "downloads": 129,
+    "score": 5,
+    "repo_id": 394012778,
+    "repo_name": "AIPTU/BlockReplacer",
+    "project_id": 9472,
+    "project_name": "BlockReplacer",
+    "build_id": 127774,
+    "build_number": 41,
+    "build_commit": "ed83ea6b87451b437223ddf84c1c9cc3ba086ea0",
+    "description_url": "https://poggit.pmmp.io/r/168163",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/BlockReplacer/ed83ea6b87451b437223ddf84c1c9cc3ba086ea0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/168165",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647869281,
+    "state": 5,
+    "last_state_change_date": 1647921284,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "KRUNCHSHooT"
+        ],
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        }
+    ]
+}

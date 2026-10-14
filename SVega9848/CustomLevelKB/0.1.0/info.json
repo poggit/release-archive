@@ -1,0 +1,67 @@
+{
+    "id": 10263,
+    "name": "CustomLevelKB",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomLevelKB/0.1.0",
+    "tagline": "Customize your server worlds kb and hit delay!",
+    "artifact_url": "https://poggit.pmmp.io/r/186358",
+    "downloads": 621,
+    "score": null,
+    "repo_id": 510424511,
+    "repo_name": "SVega9848/CustomLevelKB",
+    "project_id": 11500,
+    "project_name": "CustomLevelKB",
+    "build_id": 140405,
+    "build_number": 19,
+    "build_commit": "f867bc0139a9e9d2153830a41a000415dcdbccef",
+    "description_url": "https://poggit.pmmp.io/r/186357",
+    "icon_url": "https://raw.githubusercontent.com/SVega9848/CustomLevelKB/f867bc0139a9e9d2153830a41a000415dcdbccef/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1657813183,
+    "state": 5,
+    "last_state_change_date": 1659485702,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "kb",
+        "knockback",
+        "php",
+        "pmmp",
+        "pocketmine",
+        "pvp",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SVega9848"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

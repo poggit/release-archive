@@ -1,0 +1,28 @@
+<ul>
+<li>BC-BREAK: Stop using Chunk objects for claim lookups and use Position instead.</li>
+<li>BC-BREAK: Renamed ClaimsManager::getClaim() to ClaimsManager::getClaimByPosition()</li>
+<li>BC-BREAK: Separate PlayerManager::getPlayer() to getPlayer() and getPlayerByUUID()
+<ul>
+<li>Due to this change, you are required to update your PureChat version from PR-15 to PR-17.</li>
+<li>PureChat PR-17: <a href="https://poggit.pmmp.io/r/95436/PureChat_pr-17.phar" rel="nofollow">https://poggit.pmmp.io/r/95436/PureChat_pr-17.phar</a></li>
+</ul>
+</li>
+<li>Reduced usage of class::getInstance() calls</li>
+<li>Added command: /f unsethome</li>
+<li>Added feedback to /f claim auto and /f unclaim auto
+<ul>
+<li>Note: To begin autoclaiming, you will need to first create a claim with /f claim, then use /f claim auto after that.</li>
+<li>This is not intended behavior and is planned to be fixed in later versions.</li>
+</ul>
+</li>
+<li>Fixed error when promoting a player to leader in admin mode</li>
+<li>Updated Translators list in /f version</li>
+<li>New Languages:
+<ul>
+<li>id_ID: Indonesian</li>
+<li>fr_FR: French</li>
+</ul>
+</li>
+<li>Updated existing language file strings</li>
+<li>Bumped version to v1.1.1</li>
+</ul>

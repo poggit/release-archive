@@ -1,0 +1,93 @@
+{
+    "id": 3703,
+    "name": "KitsPlus",
+    "version": "1.0.6",
+    "html_url": "https://poggit.pmmp.io/p/KitsPlus/1.0.6",
+    "tagline": "Simple Chest Kits with Fully customizeable Everything!",
+    "artifact_url": "https://poggit.pmmp.io/r/73592",
+    "downloads": 766,
+    "score": 5,
+    "repo_id": 194791602,
+    "repo_name": "AlexPads/KitsPlus",
+    "project_id": 5264,
+    "project_name": "KitsPlus",
+    "build_id": 69510,
+    "build_number": 11,
+    "build_commit": "0bfb4bf99e45f9163d8285dd516e30d1f1cb4393",
+    "description_url": "https://poggit.pmmp.io/r/73589",
+    "icon_url": "https://raw.githubusercontent.com/AlexPads/KitsPlus/0bfb4bf99e45f9163d8285dd516e30d1f1cb4393/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/73591",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1579650408,
+    "state": 5,
+    "last_state_change_date": 1579657399,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Chest",
+        "ChestKits",
+        "Custom",
+        "Kits"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "1.4.5",
+            "depRelId": 2667,
+            "isHard": true
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AlexPads"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

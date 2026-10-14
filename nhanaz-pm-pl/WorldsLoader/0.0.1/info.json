@@ -1,0 +1,62 @@
+{
+    "id": 11827,
+    "name": "WorldsLoader",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/WorldsLoader/0.0.1",
+    "tagline": "Auto load all worlds when plugin is loaded",
+    "artifact_url": "https://poggit.pmmp.io/r/214145",
+    "downloads": 9,
+    "score": null,
+    "repo_id": 660697994,
+    "repo_name": "nhanaz-pm-pl/WorldsLoader",
+    "project_id": 12710,
+    "project_name": "WorldsLoader",
+    "build_id": 158283,
+    "build_number": 2,
+    "build_commit": "fec8721271f2e33c19a9cc54e3002d2709fd9e63",
+    "description_url": "https://poggit.pmmp.io/r/214144",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/WorldsLoader/fec8721271f2e33c19a9cc54e3002d2709fd9e63/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688209221,
+    "state": 5,
+    "last_state_change_date": 1689322578,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "loadallworlds",
+        "loadeveryworlds",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "worldloader",
+        "worldsloader"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

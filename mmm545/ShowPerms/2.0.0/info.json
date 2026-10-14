@@ -1,0 +1,59 @@
+{
+    "id": 8533,
+    "name": "ShowPerms",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ShowPerms/2.0.0",
+    "tagline": "Show all the permission nodes on the server!",
+    "artifact_url": "https://poggit.pmmp.io/r/156095",
+    "downloads": 654,
+    "score": 5,
+    "repo_id": 445821885,
+    "repo_name": "mmm545/ShowPerms",
+    "project_id": 10287,
+    "project_name": "ShowPerms",
+    "build_id": 120390,
+    "build_number": 5,
+    "build_commit": "c02f08d6641f7ff2ff9dd8e9c23966a19292cb58",
+    "description_url": "https://poggit.pmmp.io/r/156094",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641653266,
+    "state": 5,
+    "last_state_change_date": 1641658853,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "permission",
+        "permissions"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ethaniccc",
+            "mmm545"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,77 @@
+{
+    "id": 1187,
+    "name": "RankUp",
+    "version": "0.4.0",
+    "html_url": "https://poggit.pmmp.io/p/RankUp/0.4.0",
+    "tagline": "A comically full-featured prison rankup plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/24845",
+    "downloads": 11469,
+    "score": 1,
+    "repo_id": 25128584,
+    "repo_name": "Falkirks/RankUp",
+    "project_id": 37,
+    "project_name": "RankUp",
+    "build_id": 37099,
+    "build_number": 11,
+    "build_commit": "7c943c6ec3cc1566167efe88e90443ccbce59d78",
+    "description_url": "https://poggit.pmmp.io/r/24844",
+    "icon_url": "https://raw.githubusercontent.com/Falkirks/RankUp/7c943c6ec3cc1566167efe88e90443ccbce59d78/meta/rankup.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1519616768,
+    "state": 5,
+    "last_state_change_date": 1519655364,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA11",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.1-4",
+            "depRelId": 1094,
+            "isHard": false
+        },
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-5",
+            "depRelId": 1107,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "Darunia18",
+            "Bamuel",
+            "64FF00",
+            "Awzaw",
+            "Sandertv",
+            "JackMD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

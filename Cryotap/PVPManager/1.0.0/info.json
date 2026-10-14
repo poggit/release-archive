@@ -1,0 +1,81 @@
+{
+    "id": 12094,
+    "name": "PVPManager",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PVPManager/1.0.0",
+    "tagline": "PvP Manager for management of PvP settings. ",
+    "artifact_url": "https://poggit.pmmp.io/r/218458",
+    "downloads": 1398,
+    "score": null,
+    "repo_id": 669984342,
+    "repo_name": "Cryotap/PVPManager",
+    "project_id": 12830,
+    "project_name": "PVPManager",
+    "build_id": 160955,
+    "build_number": 11,
+    "build_commit": "a825cccfedaffa3546034aa369d721ae8f35f1ef",
+    "description_url": "https://poggit.pmmp.io/r/218457",
+    "icon_url": "https://raw.githubusercontent.com/Cryotap/PVPManager/a825cccfedaffa3546034aa369d721ae8f35f1ef/PVPM.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1690976947,
+    "state": 5,
+    "last_state_change_date": 1691180618,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "manager",
+        "pvp",
+        "pvpmanager"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Cryotap"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        }
+    ]
+}

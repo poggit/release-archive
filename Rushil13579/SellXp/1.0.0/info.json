@@ -1,0 +1,68 @@
+{
+    "id": 5730,
+    "name": "SellXp",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SellXp/1.0.0",
+    "tagline": "A Pocketmine-MP plugin which sells XP for money!",
+    "artifact_url": "https://poggit.pmmp.io/r/111393",
+    "downloads": 155,
+    "score": null,
+    "repo_id": 323602104,
+    "repo_name": "Rushil13579/SellXp",
+    "project_id": 8231,
+    "project_name": "SellXp",
+    "build_id": 93903,
+    "build_number": 3,
+    "build_commit": "2dab91e229a20003008f4f6880bc12298f57b362",
+    "description_url": "https://poggit.pmmp.io/r/111392",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1608796395,
+    "state": 5,
+    "last_state_change_date": 1609094085,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Economy",
+        "Form",
+        "Sell",
+        "SellXp",
+        "XP"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Rushil13579"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,53 @@
+{
+    "id": 4,
+    "name": "MyMoney",
+    "version": "0.1.0-alpha",
+    "html_url": "https://poggit.pmmp.io/p/MyMoney/0.1.0-alpha",
+    "tagline": "A simple economy plugin for PMMP.",
+    "artifact_url": "https://poggit.pmmp.io/r/211",
+    "downloads": 198,
+    "score": null,
+    "repo_id": 75541380,
+    "repo_name": "MyMoney-PMMP/MyMoney",
+    "project_id": 1,
+    "project_name": "MyMoney",
+    "build_id": 19388,
+    "build_number": 23,
+    "build_commit": "70d7a499e94e5764c9eba0a5f3efcc48a09ca2dc",
+    "description_url": "https://poggit.pmmp.io/r/210",
+    "icon_url": null,
+    "changelog_url": null,
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1483220637,
+    "state": 5,
+    "last_state_change_date": 1483220637,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Economy",
+        "Money"
+    ],
+    "api": [],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MyMoney-PMMP"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

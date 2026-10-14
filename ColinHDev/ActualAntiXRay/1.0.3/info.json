@@ -1,0 +1,58 @@
+{
+    "id": 10475,
+    "name": "ActualAntiXRay",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/ActualAntiXRay/1.0.3",
+    "tagline": "AntiXRay plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/190341",
+    "downloads": 90,
+    "score": null,
+    "repo_id": 391746061,
+    "repo_name": "ColinHDev/ActualAntiXRay",
+    "project_id": 11649,
+    "project_name": "ActualAntiXRay",
+    "build_id": 143134,
+    "build_number": 8,
+    "build_commit": "a6379c69d9d507fc01c64629a032e41098c0e08c",
+    "description_url": "https://poggit.pmmp.io/r/190343",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/190345",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1660861892,
+    "state": 5,
+    "last_state_change_date": 1661185279,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "antixray",
+        "xray"
+    ],
+    "api": [
+        {
+            "from": "4.7.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ColinHDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

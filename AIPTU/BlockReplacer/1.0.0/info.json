@@ -1,0 +1,79 @@
+{
+    "id": 7321,
+    "name": "BlockReplacer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockReplacer/1.0.0",
+    "tagline": "A PocketMine-MP plugin that replaces a block to another block when breaks, then back to the original block after a certain time",
+    "artifact_url": "https://poggit.pmmp.io/r/136312",
+    "downloads": 458,
+    "score": 5,
+    "repo_id": 394012778,
+    "repo_name": "AIPTU/BlockReplacer",
+    "project_id": 9472,
+    "project_name": "BlockReplacer",
+    "build_id": 108456,
+    "build_number": 1,
+    "build_commit": "1fc4f30d68107b133b674b9ca7498b4ff0cb7bf7",
+    "description_url": "https://poggit.pmmp.io/r/136469",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/BlockReplacer/1fc4f30d68107b133b674b9ca7498b4ff0cb7bf7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628444063,
+    "state": 5,
+    "last_state_change_date": 1628451249,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "3.21.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "KRUNCHSHooT"
+        ],
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "7e3f47d0fb5f2c11e91591de92f563773e8b21e3",
+            "build_id": 108003
+        }
+    ]
+}

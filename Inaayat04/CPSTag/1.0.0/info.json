@@ -1,0 +1,64 @@
+{
+    "id": 4282,
+    "name": "CPSTag",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CPSTag/1.0.0",
+    "tagline": "Display player CPS below nametag",
+    "artifact_url": "https://poggit.pmmp.io/r/84437",
+    "downloads": 3516,
+    "score": 5,
+    "repo_id": 259922733,
+    "repo_name": "Inaayat04/CPSTag",
+    "project_id": 6810,
+    "project_name": "CPSTag",
+    "build_id": 76507,
+    "build_number": 6,
+    "build_commit": "196f549b75e2f37e9b6faffe86737a612189afa4",
+    "description_url": "https://poggit.pmmp.io/r/84436",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588165354,
+    "state": 5,
+    "last_state_change_date": 1588337034,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "#Tag",
+        "#CPS",
+        "#CPSTag",
+        "#Nametag"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Ilyaas22"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

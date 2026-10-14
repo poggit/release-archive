@@ -1,0 +1,65 @@
+{
+    "id": 8493,
+    "name": "Football",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Football/2.0.0",
+    "tagline": "Add footballs to your server | PocketMine-MP Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/155572",
+    "downloads": 1800,
+    "score": 5,
+    "repo_id": 278352476,
+    "repo_name": "Matze997/Football",
+    "project_id": 7384,
+    "project_name": "Football",
+    "build_id": 120079,
+    "build_number": 40,
+    "build_commit": "a622a2dd9507b9db399ae0f1286b9be5d16902f2",
+    "description_url": "https://poggit.pmmp.io/r/155569",
+    "icon_url": "https://raw.githubusercontent.com/Matze997/Football/a622a2dd9507b9db399ae0f1286b9be5d16902f2/football.png",
+    "changelog_url": "https://poggit.pmmp.io/r/155571",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641297328,
+    "state": 5,
+    "last_state_change_date": 1641723975,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "thebigsmileXD",
+            "KadTheHunter",
+            "JoshuaPHYT",
+            "MelidaZ"
+        ],
+        "Collaborator": [
+            "Matze997"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

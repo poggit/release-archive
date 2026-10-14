@@ -1,0 +1,64 @@
+{
+    "id": 5907,
+    "name": "SafeServer-HiroTeam",
+    "version": "1.5.0",
+    "html_url": "https://poggit.pmmp.io/p/SafeServer-HiroTeam/1.5.0",
+    "tagline": "secure your server by registering xuids",
+    "artifact_url": "https://poggit.pmmp.io/r/114649",
+    "downloads": 1200,
+    "score": 5,
+    "repo_id": 334516669,
+    "repo_name": "HiroshimaTeam/SafeServer-HiroTeam",
+    "project_id": 8478,
+    "project_name": "SafeServer-HiroTeam",
+    "build_id": 95992,
+    "build_number": 13,
+    "build_commit": "4f4526b09e8737024ee1152b96581410d4715a51",
+    "description_url": "https://poggit.pmmp.io/r/114648",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/SafeServer-HiroTeam/4f4526b09e8737024ee1152b96581410d4715a51/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1612212971,
+    "state": 5,
+    "last_state_change_date": 1613400581,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "secure",
+        "xuid",
+        "associate",
+        "with",
+        "username",
+        "nickname",
+        "safe",
+        "server"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HiroshimaTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,73 @@
+{
+    "id": 13033,
+    "name": "BetterPearls",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterPearls/1.1.0",
+    "tagline": "A Pocketmine-MP Plugin that enhances vanilla Enderpearls.",
+    "artifact_url": "https://poggit.pmmp.io/r/238617",
+    "downloads": 141,
+    "score": null,
+    "repo_id": 798126404,
+    "repo_name": "ItsMax123/BetterPearls",
+    "project_id": 13790,
+    "project_name": "BetterPearls",
+    "build_id": 175000,
+    "build_number": 5,
+    "build_commit": "477d72f91674e0ac44a2eacf8d12d82438646018",
+    "description_url": "https://poggit.pmmp.io/r/238616",
+    "icon_url": "https://raw.githubusercontent.com/ItsMax123/BetterPearls/477d72f91674e0ac44a2eacf8d12d82438646018/BetterPearls.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1715289435,
+    "state": 5,
+    "last_state_change_date": 1715352937,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "AntiGlitch",
+        "cooldown",
+        "ender",
+        "enderpearl",
+        "enderpearls",
+        "glitch",
+        "pearl",
+        "phase",
+        "timer"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ItsMax123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

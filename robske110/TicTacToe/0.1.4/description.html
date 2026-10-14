@@ -1,0 +1,22 @@
+<h1>
+<a id="user-content-tictactoe" class="anchor" href="#tictactoe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TicTacToe</h1>
+<p>A PocketMine game plugin which provides a way to play TicTacToe with the help of item frames.</p>
+<h2>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage:</h2>
+<p>Anyone with the permission <code>TicTacToe.createArenas</code> can create an Arena with the "tictactoe arenacreate" command.
+It will ask you to tap the lower left and then the upper right corner of the Game Board. The Game Board currently only supports the classic 3x3 size.</p>
+<p>Now create a sign where the first line is <code>[TTT]</code> (you can create multiple signs and the content of the remaining 3 lines can be anything). Every player clicking on it will get put into the queue (2 players are required for one game).</p>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API:</h2>
+<p><strong>This plugin does provide quite useful API, which is mostly home in GameManager and PlayerManager.</strong></p>
+<p>You can easily add and remove players from the queue, but you can also create custom games with specific Arenas, add Arenas for use by the queue and much more!</p>
+<p>Please always check if you have the right API version before doing anything with TTT's API functions.</p>
+<p>Example:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">/*</span>* @var robske_110\TTT\TicTacToe $ticTacToe <span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-k">if</span>(<span class="pl-k">!</span><span class="pl-smi">$ticTacToe</span><span class="pl-k">-&gt;</span>isCompatible(<span class="pl-s"><span class="pl-pds">"</span>0.1.0<span class="pl-pds">"</span></span>)){</span>
+<span class="pl-s1">	<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>getLogger()<span class="pl-k">-&gt;</span>critical(<span class="pl-s"><span class="pl-pds">"</span>Your version of TicTacToe is not compatible with this plugin<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1">	<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>getServer()<span class="pl-k">-&gt;</span>getPluginManager()<span class="pl-k">-&gt;</span>disablePlugin(<span class="pl-smi">$this</span>);</span>
+<span class="pl-s1">	<span class="pl-k">return</span>;</span>
+<span class="pl-s1">}</span></pre></div>
+<p><strong>Note: This plugin was initially written in 1.5hours (as a small challenge for myself), but since then it has evolved into a useful and working plugin.</strong></p>
+<p>I'm too lazy to write a proper API documentation for such a small plugin. There are a lot of phpdocs which will help you :) [And function names also give hints!]</p>

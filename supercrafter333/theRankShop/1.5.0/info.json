@@ -1,0 +1,107 @@
+{
+    "id": 11741,
+    "name": "theRankShop",
+    "version": "1.5.0",
+    "html_url": "https://poggit.pmmp.io/p/theRankShop/1.5.0",
+    "tagline": "A simple and user-friendly rank shop plugin with extension support and multi-language-system.",
+    "artifact_url": "https://poggit.pmmp.io/r/212898",
+    "downloads": 1144,
+    "score": null,
+    "repo_id": 419343100,
+    "repo_name": "supercrafter333/theRankShop",
+    "project_id": 9867,
+    "project_name": "theRankShop",
+    "build_id": 157553,
+    "build_number": 72,
+    "build_commit": "884b38ff09648f10dd76a15e41ef5d86f578f185",
+    "description_url": "https://poggit.pmmp.io/r/212900",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/theRankShop/884b38ff09648f10dd76a15e41ef5d86f578f185/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/212902",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687287855,
+    "state": 5,
+    "last_state_change_date": 1687288267,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "rank",
+        "ranks",
+        "rankshop",
+        "ranksystem",
+        "temprank"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.1",
+            "depRelId": 11649,
+            "isHard": false
+        },
+        {
+            "name": "RankSystem",
+            "version": "1.1.2",
+            "depRelId": 11686,
+            "isHard": false
+        },
+        {
+            "name": "GroupSystem",
+            "version": "3.2.2",
+            "depRelId": 11708,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 10808,
+            "repo_id": 305493004,
+            "repo_name": "supercrafter333/FormAPI",
+            "repo_path": "",
+            "build_commit": "519c1669331864082ce82f97745aaf2f8f9565b7",
+            "build_id": 149527
+        },
+        {
+            "name": "yamlcomments",
+            "project_id": 12088,
+            "repo_id": 591039604,
+            "repo_name": "supercrafter333/yamlcomments",
+            "repo_path": "",
+            "build_commit": "1dc4fcc01694b5d8fd205919175394313eb226c5",
+            "build_id": 149531
+        }
+    ]
+}

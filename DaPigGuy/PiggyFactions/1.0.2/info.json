@@ -1,0 +1,97 @@
+{
+    "id": 4341,
+    "name": "PiggyFactions",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/PiggyFactions/1.0.2",
+    "tagline": "A modern open source factions plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/85654",
+    "downloads": 168,
+    "score": 5,
+    "repo_id": 256182309,
+    "repo_name": "DaPigGuy/PiggyFactions",
+    "project_id": 6879,
+    "project_name": "PiggyFactions",
+    "build_id": 77379,
+    "build_number": 22,
+    "build_commit": "379965ead91c0b6319ec141f8cc613b0909a45d4",
+    "description_url": "https://poggit.pmmp.io/r/85929",
+    "icon_url": "https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/379965ead91c0b6319ec141f8cc613b0909a45d4/resources/img/PiggyFactions-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/85931",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588888707,
+    "state": 5,
+    "last_state_change_date": 1589005033,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "factions"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.1.7",
+            "depRelId": 4246,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ],
+        "Contributor": [
+            "Thunder33345",
+            "SalmonDE",
+            "jasonw4331",
+            "CortexPE",
+            "Ifera",
+            "Heisenburger69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "df6372b7854fd66f5c8c858ad7fe6720c25d5cd1",
+            "build_id": 74945
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "673c017c0549187f9aa9ac1a8c650c799541cd3f",
+            "build_id": 77243
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "id": 12083,
+    "name": "WhitelistKick",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WhitelistKick/1.0.0",
+    "tagline": "Kick all players when whitelist on, for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/218311",
+    "downloads": 247,
+    "score": 5,
+    "repo_id": 666702161,
+    "repo_name": "Kylan1940/WhitelistKick",
+    "project_id": 12794,
+    "project_name": "WhitelistKick",
+    "build_id": 160855,
+    "build_number": 4,
+    "build_commit": "e8a5e06b5d4ccc7e40a80a56db23a8f48c502f3e",
+    "description_url": "https://poggit.pmmp.io/r/225155",
+    "icon_url": "https://raw.githubusercontent.com/Kylan1940/WhitelistKick/e8a5e06b5d4ccc7e40a80a56db23a8f48c502f3e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1690853723,
+    "state": 5,
+    "last_state_change_date": 1691010906,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Kick",
+        "Whitelist"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Kylan1940"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

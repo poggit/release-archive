@@ -1,0 +1,59 @@
+{
+    "id": 1063,
+    "name": "VanillaEnchantments",
+    "version": "3.0.0-ALPHA11",
+    "html_url": "https://poggit.pmmp.io/p/VanillaEnchantments/3.0.0-ALPHA11",
+    "tagline": "Implement vanilla enchantments in your PocketMine-MP (BedRockEngine) server!",
+    "artifact_url": "https://poggit.pmmp.io/r/22986",
+    "downloads": 1791,
+    "score": 3,
+    "repo_id": 107231234,
+    "repo_name": "TheAz928/VanillaEnchantments",
+    "project_id": 1038,
+    "project_name": "VanillaEnchantments",
+    "build_id": 36027,
+    "build_number": 65,
+    "build_commit": "31922020672f95da4eb314527c031ecde39a1588",
+    "description_url": "https://poggit.pmmp.io/r/22983",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/22985",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518288887,
+    "state": 5,
+    "last_state_change_date": 1524676999,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA9",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TheAz928"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

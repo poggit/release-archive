@@ -1,0 +1,73 @@
+{
+    "id": 7103,
+    "name": "Traps",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Traps/1.0.0",
+    "tagline": "Plugins to add traps",
+    "artifact_url": "https://poggit.pmmp.io/r/132955",
+    "downloads": 50,
+    "score": 5,
+    "repo_id": 387475007,
+    "repo_name": "Refaltor77/Traps",
+    "project_id": 9313,
+    "project_name": "Traps",
+    "build_id": 106460,
+    "build_number": 1,
+    "build_commit": "21b4540a9192ed00553e760186115e55a24fdd42",
+    "description_url": "https://poggit.pmmp.io/r/133766",
+    "icon_url": "https://raw.githubusercontent.com/Refaltor77/Traps/21b4540a9192ed00553e760186115e55a24fdd42/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626770143,
+    "state": 5,
+    "last_state_change_date": 1627240875,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "block",
+        "cobweb",
+        "palatraps",
+        "Traps",
+        "web"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

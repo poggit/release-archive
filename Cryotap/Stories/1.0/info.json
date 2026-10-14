@@ -1,0 +1,69 @@
+{
+    "id": 12093,
+    "name": "Stories",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/Stories/1.0",
+    "tagline": "Loads a new story when a player hit the ground with a book.",
+    "artifact_url": "https://poggit.pmmp.io/r/218452",
+    "downloads": 164,
+    "score": null,
+    "repo_id": 673753045,
+    "repo_name": "Cryotap/Stories",
+    "project_id": 12883,
+    "project_name": "Stories",
+    "build_id": 160954,
+    "build_number": 2,
+    "build_commit": "2599ba65c301104338e9fc0daa4834917cefa29b",
+    "description_url": "https://poggit.pmmp.io/r/218454",
+    "icon_url": "https://raw.githubusercontent.com/Cryotap/Stories/2599ba65c301104338e9fc0daa4834917cefa29b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1690975882,
+    "state": 5,
+    "last_state_change_date": 1691003378,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "books",
+        "read",
+        "stories"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Cryotap"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        }
+    ]
+}

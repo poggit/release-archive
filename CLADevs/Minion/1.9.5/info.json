@@ -1,0 +1,80 @@
+{
+    "id": 5269,
+    "name": "Minion",
+    "version": "1.9.5",
+    "html_url": "https://poggit.pmmp.io/p/Minion/1.9.5",
+    "tagline": "A plugin which adds minion on your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/102527",
+    "downloads": 3909,
+    "score": 4,
+    "repo_id": 205575195,
+    "repo_name": "CLADevs/Minion",
+    "project_id": 5507,
+    "project_name": "Minion",
+    "build_id": 87803,
+    "build_number": 29,
+    "build_commit": "c4bf97542a51ba52f7fced4c0bc955a8856b7db8",
+    "description_url": "https://poggit.pmmp.io/r/102524",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/102526",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1599609190,
+    "state": 5,
+    "last_state_change_date": 1600006878,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "xXNiceYT",
+            "iiFlamiinBlaze",
+            "Unickorn"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

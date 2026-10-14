@@ -1,0 +1,73 @@
+{
+    "id": 11153,
+    "name": "SkinThief",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SkinThief/2.0.0",
+    "tagline": "Steal other player's skins",
+    "artifact_url": "https://poggit.pmmp.io/r/204206",
+    "downloads": 91,
+    "score": null,
+    "repo_id": 208577266,
+    "repo_name": "HimbeersaftLP/LibSkin",
+    "project_id": 10341,
+    "project_name": "SkinThief",
+    "build_id": 152832,
+    "build_number": 4,
+    "build_commit": "4f1a9369fbd737b09e2a9e88d981cad03916836e",
+    "description_url": "https://poggit.pmmp.io/r/204202",
+    "icon_url": "https://raw.githubusercontent.com/HimbeersaftLP/LibSkin/4f1a9369fbd737b09e2a9e88d981cad03916836e/SkinPluginExample/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/204204",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/204205",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1681059295,
+    "state": 5,
+    "last_state_change_date": 1681097705,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "skin",
+        "skins",
+        "steal"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HimbeersaftLP"
+        ],
+        "Contributor": [
+            "BillBlackwood",
+            "cupof2"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "LibSkin",
+            "project_id": 5688,
+            "repo_id": 208577266,
+            "repo_name": "HimbeersaftLP/LibSkin",
+            "repo_path": "",
+            "build_commit": "122ac0966474497b87cfc6341bbfab3ac2b74da5",
+            "build_id": 120977
+        }
+    ]
+}

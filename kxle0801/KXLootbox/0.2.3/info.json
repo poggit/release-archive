@@ -1,0 +1,91 @@
+{
+    "id": 13170,
+    "name": "KXLootbox",
+    "version": "0.2.3",
+    "html_url": "https://poggit.pmmp.io/p/KXLootbox/0.2.3",
+    "tagline": "This plugin allows you to make your own Lootbox in-game. Fully Configurable and much more!",
+    "artifact_url": "https://poggit.pmmp.io/r/241440",
+    "downloads": 366,
+    "score": 1,
+    "repo_id": 796334195,
+    "repo_name": "kxle0801/KXLootbox",
+    "project_id": 13803,
+    "project_name": "KXLootbox",
+    "build_id": 176848,
+    "build_number": 79,
+    "build_commit": "e7c5329748d9187dff826bf624941c5fd33fa18d",
+    "description_url": "https://poggit.pmmp.io/r/243029",
+    "icon_url": "https://raw.githubusercontent.com/kxle0801/KXLootbox/e7c5329748d9187dff826bf624941c5fd33fa18d/kxlootbox_icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "LGPL-2.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1718398861,
+    "state": 5,
+    "last_state_change_date": 1720053938,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "box",
+        "chest",
+        "crate",
+        "lootbox"
+    ],
+    "api": [
+        {
+            "from": "5.15.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "kxle0801"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "15ff96f75e4f65892097964587726d1d6b201202",
+            "build_id": 167944
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        }
+    ]
+}

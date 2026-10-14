@@ -1,0 +1,55 @@
+{
+    "id": 9459,
+    "name": "CommandPermissionMessage",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CommandPermissionMessage/1.0.0",
+    "tagline": "A PocketMine-MP plugin which allows the users to edit no permission message of commands",
+    "artifact_url": "https://poggit.pmmp.io/r/170338",
+    "downloads": 517,
+    "score": 5,
+    "repo_id": 478782387,
+    "repo_name": "cosmicnebula200/CommandPermissionMessage",
+    "project_id": 10920,
+    "project_name": "CommandPermissionMessage",
+    "build_id": 129175,
+    "build_number": 3,
+    "build_commit": "414898b0278ece571294cc808cfa54d1bae331aa",
+    "description_url": "https://poggit.pmmp.io/r/170337",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1649296788,
+    "state": 5,
+    "last_state_change_date": 1649304919,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "cosmicnebula200"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,75 @@
+{
+    "id": 11626,
+    "name": "HealthTag",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HealthTag/3.0.0",
+    "tagline": "It will show the health of player above the head (Below the NameTag).",
+    "artifact_url": "https://poggit.pmmp.io/r/211330",
+    "downloads": 3050,
+    "score": 5,
+    "repo_id": 166844967,
+    "repo_name": "Shelly7w7/HealthTag",
+    "project_id": 4547,
+    "project_name": "HealthTag",
+    "build_id": 156726,
+    "build_number": 23,
+    "build_commit": "56b24c0458144b74fcff623e5f93216374b67b6d",
+    "description_url": "https://poggit.pmmp.io/r/211327",
+    "icon_url": "https://raw.githubusercontent.com/Shelly7w7/HealthTag/56b24c0458144b74fcff623e5f93216374b67b6d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/211329",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686310081,
+    "state": 5,
+    "last_state_change_date": 1686321363,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "iiFlamiinBlaze",
+            "InkoHX"
+        ],
+        "Collaborator": [
+            "Shelly7w7"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,71 @@
+{
+    "id": 1158,
+    "name": "AutoMineReset",
+    "version": "0.2.4",
+    "html_url": "https://poggit.pmmp.io/p/AutoMineReset/0.2.4",
+    "tagline": "A timed reset for the MineReset plugin on PocketMine-MP!",
+    "artifact_url": "https://poggit.pmmp.io/r/24043",
+    "downloads": 8707,
+    "score": 2,
+    "repo_id": 121852010,
+    "repo_name": "AndreasHGK/AutoMineReset",
+    "project_id": 2019,
+    "project_name": "AutoMineReset",
+    "build_id": 36581,
+    "build_number": 16,
+    "build_commit": "defed34973f0d2cd799b6456f1628922c90e6ba0",
+    "description_url": "https://poggit.pmmp.io/r/24285",
+    "icon_url": "https://raw.githubusercontent.com/AndreasHGK/AutoMineReset/defed34973f0d2cd799b6456f1628922c90e6ba0/minecraft_excellence_icon_by_go0rum-d8j29u3.png",
+    "changelog_url": "https://poggit.pmmp.io/r/24287",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518905152,
+    "state": 5,
+    "last_state_change_date": 1520699853,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Mine",
+        "Auto",
+        "Reset",
+        "MineReset"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [
+        {
+            "name": "MineReset",
+            "version": "3.0.2",
+            "depRelId": 277,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AndreasHGK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

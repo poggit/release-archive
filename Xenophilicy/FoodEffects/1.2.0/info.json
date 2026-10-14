@@ -1,0 +1,69 @@
+{
+    "id": 4810,
+    "name": "FoodEffects",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/FoodEffects/1.2.0",
+    "tagline": "Pocketmine plugin designed for effects to be applied to players when items are interacted with or consumed.",
+    "artifact_url": "https://poggit.pmmp.io/r/94465",
+    "downloads": 2228,
+    "score": 3,
+    "repo_id": 217430636,
+    "repo_name": "Xenophilicy/FoodEffects",
+    "project_id": 5692,
+    "project_name": "FoodEffects",
+    "build_id": 82593,
+    "build_number": 12,
+    "build_commit": "1115c9c50da5da5b1ed1d6db317b62a32c145653",
+    "description_url": "https://poggit.pmmp.io/r/94467",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/FoodEffects/1115c9c50da5da5b1ed1d6db317b62a32c145653/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/94469",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1593579375,
+    "state": 5,
+    "last_state_change_date": 1593620403,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Click",
+        "Consume",
+        "Eat",
+        "Effect",
+        "Food",
+        "Item",
+        "Particle",
+        "Potion",
+        "Tap"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Xenophilicy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,65 @@
+{
+    "id": 7230,
+    "name": "TouchLight",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/TouchLight/1.0.1",
+    "tagline": "Turn redstone lamps on or off by touching them",
+    "artifact_url": "https://poggit.pmmp.io/r/134899",
+    "downloads": 1043,
+    "score": 5,
+    "repo_id": 390582772,
+    "repo_name": "DANIHEX/TouchLight",
+    "project_id": 9384,
+    "project_name": "TouchLight",
+    "build_id": 107594,
+    "build_number": 5,
+    "build_commit": "1d05d551fc19b423726ffafa6db54e7b7e4f2bf7",
+    "description_url": "https://poggit.pmmp.io/r/134898",
+    "icon_url": "https://raw.githubusercontent.com/DANIHEX/TouchLight/1d05d551fc19b423726ffafa6db54e7b7e4f2bf7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1627925842,
+    "state": 5,
+    "last_state_change_date": 1628600020,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bedrock",
+        "danihex",
+        "mcpe",
+        "minecraft",
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pocketmine",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DANIHEX"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

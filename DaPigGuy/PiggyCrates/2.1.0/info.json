@@ -1,0 +1,96 @@
+{
+    "id": 7329,
+    "name": "PiggyCrates",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/PiggyCrates/2.1.0",
+    "tagline": "A crate plugin for PocketMine-MP supporting unlimited crate types",
+    "artifact_url": "https://poggit.pmmp.io/r/136545",
+    "downloads": 1843,
+    "score": 4,
+    "repo_id": 118399424,
+    "repo_name": "DaPigGuy/PiggyCrates",
+    "project_id": 1816,
+    "project_name": "PiggyCrates",
+    "build_id": 108598,
+    "build_number": 107,
+    "build_commit": "7410d86ebc8db9002c40ae872d7a3151909f0846",
+    "description_url": "https://poggit.pmmp.io/r/136542",
+    "icon_url": "https://raw.githubusercontent.com/DaPigGuy/PiggyCrates/7410d86ebc8db9002c40ae872d7a3151909f0846/resources/img/PiggyCrates.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/136544",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628591698,
+    "state": 5,
+    "last_state_change_date": 1628687915,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "crate",
+        "crates",
+        "pig",
+        "piggy",
+        "piggycrate",
+        "piggycrates"
+    ],
+    "api": [
+        {
+            "from": "3.22.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.0.1",
+            "depRelId": 3478,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ],
+        "Contributor": [
+            "SalmonDE",
+            "Ifera",
+            "ErikPDev",
+            "JavierLeon9966",
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "ec87e69d289f57bb452b03ba1493a657b330a126",
+            "build_id": 99221
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "a3b121f31e2816639174da8f1c10a0a0e58643b5",
+            "build_id": 105482
+        }
+    ]
+}

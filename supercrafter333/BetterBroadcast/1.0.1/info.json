@@ -1,0 +1,59 @@
+{
+    "id": 11427,
+    "name": "BetterBroadcast",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BetterBroadcast/1.0.1",
+    "tagline": "A simple broadcaster plugin that allows you to use different message-types for your broadcast-messages.",
+    "artifact_url": "https://poggit.pmmp.io/r/208928",
+    "downloads": 801,
+    "score": null,
+    "repo_id": 595236348,
+    "repo_name": "supercrafter333/BetterBroadcast",
+    "project_id": 12141,
+    "project_name": "BetterBroadcast",
+    "build_id": 155753,
+    "build_number": 2,
+    "build_commit": "f0666bdfc140f6f4864435eb62e076191774ebd7",
+    "description_url": "https://poggit.pmmp.io/r/208925",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/BetterBroadcast/f0666bdfc140f6f4864435eb62e076191774ebd7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208927",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685645190,
+    "state": 5,
+    "last_state_change_date": 1685646449,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.11.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

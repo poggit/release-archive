@@ -1,0 +1,69 @@
+{
+    "id": 2610,
+    "name": "LuckyBlock",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/LuckyBlock/0.0.3",
+    "tagline": "A Lucky Block plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/53774",
+    "downloads": 11469,
+    "score": 4,
+    "repo_id": 159543707,
+    "repo_name": "Palente/LuckyBlock",
+    "project_id": 4303,
+    "project_name": "LuckyBlock",
+    "build_id": 57024,
+    "build_number": 8,
+    "build_commit": "dcaabc0c290c323363f123a0b3d4b63d95ddf377",
+    "description_url": "https://poggit.pmmp.io/r/57352",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/57354",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1552487056,
+    "state": 5,
+    "last_state_change_date": 1552558023,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "lucky_block",
+        "lucky",
+        "block",
+        "luckyblock"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "1.4.2",
+            "depRelId": 2163,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Bluzzi"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

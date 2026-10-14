@@ -1,0 +1,72 @@
+{
+    "id": 13848,
+    "name": "CalculatorUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CalculatorUI/1.0.0",
+    "tagline": "A PocketMine-MP plugin that allows you to calculate simple arithmetic operations using a form calculator",
+    "artifact_url": "https://poggit.pmmp.io/r/252965",
+    "downloads": 86,
+    "score": 1,
+    "repo_id": 891019218,
+    "repo_name": "KumaaDeveloper/CalculatorUI",
+    "project_id": 14350,
+    "project_name": "CalculatorUI",
+    "build_id": 184742,
+    "build_number": 16,
+    "build_commit": "3b1dfff1bce02b6d0527b09ed72bf460387a9271",
+    "description_url": "https://poggit.pmmp.io/r/252964",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/CalculatorUI/3b1dfff1bce02b6d0527b09ed72bf460387a9271/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1739120131,
+    "state": 5,
+    "last_state_change_date": 1742834829,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Calculator",
+        "Math"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        }
+    ]
+}

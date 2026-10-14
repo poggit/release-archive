@@ -1,0 +1,66 @@
+{
+    "id": 5707,
+    "name": "AllClaimPlotCommand",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AllClaimPlotCommand/1.0.0",
+    "tagline": "A simple plugin that automatically plots all online players on your server instantly.",
+    "artifact_url": "https://poggit.pmmp.io/r/110665",
+    "downloads": 2631,
+    "score": 5,
+    "repo_id": 320851240,
+    "repo_name": "supercrafter333/AllClaimPlotCommand",
+    "project_id": 8179,
+    "project_name": "AllClaimPlotCommand",
+    "build_id": 93319,
+    "build_number": 9,
+    "build_commit": "8dc3aed618daceda7c0363a28a5a17f3ad69e1e9",
+    "description_url": "https://poggit.pmmp.io/r/126847",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1607872587,
+    "state": 5,
+    "last_state_change_date": 1607872673,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "MyPlot",
+            "version": "1.10.1",
+            "depRelId": 5941,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "jasonwynn10"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

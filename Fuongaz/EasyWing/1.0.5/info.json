@@ -1,0 +1,67 @@
+{
+    "id": 6930,
+    "name": "EasyWing",
+    "version": "1.0.5",
+    "html_url": "https://poggit.pmmp.io/p/EasyWing/1.0.5",
+    "tagline": "Wing particle plugin for Pocketmine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/130340",
+    "downloads": 1049,
+    "score": null,
+    "repo_id": 288394706,
+    "repo_name": "Fuongaz/EasyWing",
+    "project_id": 7733,
+    "project_name": "EasyWing",
+    "build_id": 105034,
+    "build_number": 19,
+    "build_commit": "c264efe531702f8447ef3dd124bf9d9a257bbe92",
+    "description_url": "https://poggit.pmmp.io/r/130337",
+    "icon_url": "https://raw.githubusercontent.com/ZzKino/EasyWing/c264efe531702f8447ef3dd124bf9d9a257bbe92/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/130339",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1624880182,
+    "state": 5,
+    "last_state_change_date": 1624897691,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.21.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Phuongaz",
+            "ZzKino",
+            "labalityowo"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

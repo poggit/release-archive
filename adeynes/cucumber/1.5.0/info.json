@@ -1,0 +1,103 @@
+{
+    "id": 1805,
+    "name": "cucumber",
+    "version": "1.5.0",
+    "html_url": "https://poggit.pmmp.io/p/cucumber/1.5.0",
+    "tagline": "Advanced, flexible moderation plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/40195",
+    "downloads": 184,
+    "score": null,
+    "repo_id": 139045528,
+    "repo_name": "adeynes/cucumber",
+    "project_id": 3539,
+    "project_name": "cucumber",
+    "build_id": 48170,
+    "build_number": 34,
+    "build_commit": "d00433162e95e3b0ac9afbd352de64bdc61be0a2",
+    "description_url": "https://poggit.pmmp.io/r/40274",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/40276",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1534768601,
+    "state": 5,
+    "last_state_change_date": 1535191069,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "alias",
+        "ban",
+        "banning",
+        "device",
+        "ip",
+        "ipban",
+        "logging",
+        "mod",
+        "moderation",
+        "mute",
+        "muting",
+        "punish",
+        "punishment",
+        "ui",
+        "vanish",
+        "warn",
+        "warning"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "CaptainDuck"
+        ],
+        "Translator": [
+            "teracube"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "b7d5ff49c146dfc92b0382d8483b0e4d10223efe",
+            "build_id": 47661
+        },
+        {
+            "name": "parsecmd",
+            "project_id": 3667,
+            "repo_id": 143718012,
+            "repo_name": "adeynes/parsecmd",
+            "repo_path": "",
+            "build_commit": "34b1d890a75bd9502ba68e874b67be599de088a3",
+            "build_id": 48164
+        }
+    ]
+}

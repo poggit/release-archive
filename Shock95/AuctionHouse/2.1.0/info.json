@@ -1,0 +1,74 @@
+{
+    "id": 12992,
+    "name": "AuctionHouse",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AuctionHouse/2.1.0",
+    "tagline": "Feature-packed auction house plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/237957",
+    "downloads": 4346,
+    "score": 5,
+    "repo_id": 231282505,
+    "repo_name": "Shock95/AuctionHouse",
+    "project_id": 5991,
+    "project_name": "AuctionHouse",
+    "build_id": 174576,
+    "build_number": 129,
+    "build_commit": "a97d71506438682843d1c66d858f33ccffec3c6b",
+    "description_url": "https://poggit.pmmp.io/r/237954",
+    "icon_url": "https://raw.githubusercontent.com/Shock95/AuctionHouse/a97d71506438682843d1c66d858f33ccffec3c6b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/237956",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1714164387,
+    "state": 5,
+    "last_state_change_date": 1714333254,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "auction-house",
+        "auctionhouse",
+        "minecraft",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Shock95"
+        ],
+        "Contributor": [
+            "Adam1609",
+            "SOF3",
+            "unickorn",
+            "peppizza",
+            "ipad54",
+            "alitura1",
+            "Shock950",
+            "AIPTU",
+            "NotEnriko",
+            "Ihsan48"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,81 @@
+{
+    "id": 13744,
+    "name": "MineShop",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MineShop/1.0.0",
+    "tagline": "Shop with Ore Economy",
+    "artifact_url": "https://poggit.pmmp.io/r/251413",
+    "downloads": 418,
+    "score": 5,
+    "repo_id": 910095043,
+    "repo_name": "angga7togk/MineShop",
+    "project_id": 14439,
+    "project_name": "MineShop",
+    "build_id": 183786,
+    "build_number": 21,
+    "build_commit": "b856e77e8673847304e4b39ccd2ece4191620541",
+    "description_url": "https://poggit.pmmp.io/r/251415",
+    "icon_url": "https://raw.githubusercontent.com/angga7togk/MineShop/b856e77e8673847304e4b39ccd2ece4191620541/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736078904,
+    "state": 5,
+    "last_state_change_date": 1736103456,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "mine",
+        "mineshop",
+        "mshop",
+        "oreeconomy",
+        "oreshop",
+        "shop"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "angga7togk"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        }
+    ]
+}

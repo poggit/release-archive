@@ -1,0 +1,68 @@
+{
+    "id": 8273,
+    "name": "SizeUI",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/SizeUI/1.0",
+    "tagline": "Change your size from large to small with SizeUI",
+    "artifact_url": "https://poggit.pmmp.io/r/151788",
+    "downloads": 2486,
+    "score": 5,
+    "repo_id": 436215980,
+    "repo_name": "fernanACM/SizeUI",
+    "project_id": 10103,
+    "project_name": "SizeUI",
+    "build_id": 117732,
+    "build_number": 8,
+    "build_commit": "7309d9c9c78ad95a08ec8c44301df68a0f952c52",
+    "description_url": "https://poggit.pmmp.io/r/165363",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/SizeUI/7309d9c9c78ad95a08ec8c44301df68a0f952c52/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1639095862,
+    "state": 5,
+    "last_state_change_date": 1641047563,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Big",
+        "Size",
+        "SizeUI",
+        "Small"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,80 @@
+{
+    "id": 13055,
+    "name": "BetterPearls",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterPearls/1.2.0",
+    "tagline": "Enhances vanilla Enderpearls with cooldown and anti-glitching mechanics.",
+    "artifact_url": "https://poggit.pmmp.io/r/239298",
+    "downloads": 39,
+    "score": null,
+    "repo_id": 798126404,
+    "repo_name": "ItsMax123/BetterPearls",
+    "project_id": 13790,
+    "project_name": "BetterPearls",
+    "build_id": 175427,
+    "build_number": 8,
+    "build_commit": "9d95e1065ef21658c5955d3374c306e95901f3e3",
+    "description_url": "https://poggit.pmmp.io/r/239347",
+    "icon_url": "https://raw.githubusercontent.com/ItsMax123/BetterPearls/9d95e1065ef21658c5955d3374c306e95901f3e3/BetterPearls.png",
+    "changelog_url": "https://poggit.pmmp.io/r/239349",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1716066563,
+    "state": 5,
+    "last_state_change_date": 1716236693,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "AntiGlitch",
+        "cooldown",
+        "ender",
+        "enderpearl",
+        "enderpearls",
+        "glitch",
+        "pearl",
+        "phase",
+        "timer"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ScoreHud",
+            "version": "8.0.0",
+            "depRelId": 12550,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ItsMax123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,90 @@
+{
+    "id": 12798,
+    "name": "ProperDuels",
+    "version": "2.8.0",
+    "html_url": "https://poggit.pmmp.io/p/ProperDuels/2.8.0",
+    "tagline": "A properly made duels plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/232605",
+    "downloads": 87,
+    "score": null,
+    "repo_id": 366160241,
+    "repo_name": "JavierLeon9966/ProperDuels",
+    "project_id": 9157,
+    "project_name": "ProperDuels",
+    "build_id": 170810,
+    "build_number": 38,
+    "build_commit": "ffed6fbe1369e7470338c7c0abe2612bbc640a5f",
+    "description_url": "https://poggit.pmmp.io/r/232602",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/ProperDuels/ffed6fbe1369e7470338c7c0abe2612bbc640a5f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/232604",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1707328041,
+    "state": 5,
+    "last_state_change_date": 1707328048,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "1vs1",
+        "arena",
+        "custom",
+        "duel",
+        "duels",
+        "kit",
+        "pvp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "ed6b4e814566e2393ab84ce4a72b81739674e294",
+            "build_id": 163313
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "866a23374a7a18ddc8a6bbe0a816feb0f512b9c7",
+            "build_id": 155188
+        }
+    ]
+}

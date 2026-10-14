@@ -1,0 +1,44 @@
+<h2>
+<a id="user-content-description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h2>
+<p>A PMMP plugin that cycles in-game time according to real-life factors.</p>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<p><code>version</code> 		<i>NEVER CHANGE THIS VALUE</i></p>
+<p><code>enable_time_sync</code> 	<i>[true,false]</i> If true, vanilla time will run with respect to real-life factors</p>
+<p><code>worlds</code> 		<i>["myworld","broken_nether","TheLOLlevel"]</i> The worlds you would like the plugin to do its job on. Separate the world names with a comma. Leave the brackets empty to include all the worlds</p>
+<p><code>location_dependant</code> 	If true, vanilla day will cycle as a real day somewhere on earth. Enter your location details in location.yml</p>
+<p><code>auto_locate</code> 		If true, the server will verify the location details every time it starts up using geoPlugin.com</p>
+<p><code>noon_time</code> 		The time the sun is at its peak. Used if <code>location_dependant</code> is set to false. Don't remove the double quotes "hh:mm:ss". Example: "12:05"</p>
+<p><code>broadcast_interval</code> 	Time interval in minutes at which a message with the time is broadcasted</p>
+<p><code>broadcast_mode</code> 	<i>[message,tip,popup,title]</i> The way players will receive the message</p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<p><code>/realtime</code> Alias: (<code>/rt</code>)</p>
+<p><code>/realtime current</code> 	returns the current time. '/realtime' alone could be used instead.</p>
+<p><code>/realtime disable</code> 	disables game time from synchronising with real-life factors.</p>
+<p><code>/realtime enable</code> 	enables game time synchronising with real-life factors.</p>
+<p><code>/realtime help</code> 	provides a list of available commands.</p>
+<p><code>/realtime reload</code>	updates the settings to correspond to the files.</p>
+<p><code>/realtime status</code> 	returns status about the sun position and current day.</p>
+<h2>
+<a id="user-content-additional-information" class="anchor" href="#additional-information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional information</h2>
+<ul>
+<li>If you're facing timezone issues (the time on your machine is not the same as your terminal). Open up SERVER DIRECTORY/bin/php/php.ini . Add, on a new line, the following setting <code>date.timezone= "YOUR TIMEZONE"</code>. A list of all supported timezone shall be found here: <a href="http://www.php.net/manual/en/timezones.php" rel="nofollow">www.php.net/manual/en/timezones.php</a> . In my case <code>date.timezone= "Africa/Cairo"</code>
+</li>
+<li>The results you going to observe are NOT completely accurate. This is to decline bad impact on the overall performance. We'll work on better accuracy, with performance into consideration, on the next updates.</li>
+</ul>
+<h2>
+<a id="user-content-credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+<p>Icon by: Aleksandr Reva (<a href="https://www.iconfinder.com/icons/1034355/day_night_date_moon_sun_icon" rel="nofollow">https://www.iconfinder.com/icons/1034355/day_night_date_moon_sun_icon</a>)</p>
+<h2>
+<a id="user-content-contribution" class="anchor" href="#contribution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contribution</h2>
+<p>Have ideas or found an issue? Feel free to contribute with us.
+Links:</p>
+<ul>
+<li><a href="https://github.com/photoncodes/RealTime/issues">Open an issue or leave a suggestion</a></li>
+<li><a href="https://github.com/photoncodes/RealTime/pulls">Add something new or fix a bug</a></li>
+</ul>
+<h2>
+<a id="user-content-donate" class="anchor" href="#donate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Donate</h2>
+<p>If you find this project useful, please consider supporting the development with a small donation. A little amount would support me and help me get better products in the future. Thank you :)</p>
+<p>Donate <a href="https://www.paypal.com/donate?hosted_button_id=ZNLJBQZTB8GWU" rel="nofollow">here</a></p>

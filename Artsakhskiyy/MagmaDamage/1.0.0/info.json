@@ -1,0 +1,54 @@
+{
+    "id": 14228,
+    "name": "MagmaDamage",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MagmaDamage/1.0.0",
+    "tagline": "A PocketMine-MP plugin that damages players standing on magma blocks like in vanilla Minecraft...",
+    "artifact_url": "https://poggit.pmmp.io/r/260143",
+    "downloads": 77,
+    "score": null,
+    "repo_id": 1074743313,
+    "repo_name": "Artsakhskiyy/MagmaDamage",
+    "project_id": 14957,
+    "project_name": "MagmaDamage",
+    "build_id": 189638,
+    "build_number": 4,
+    "build_commit": "576d6035e54382b8b5d227247ef893d0fa0ccc87",
+    "description_url": "https://poggit.pmmp.io/r/260142",
+    "icon_url": "https://raw.githubusercontent.com/Artsakhskiyy/MagmaDamage/576d6035e54382b8b5d227247ef893d0fa0ccc87/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1760273111,
+    "state": 5,
+    "last_state_change_date": 1765683239,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "magma",
+        "damage"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Artsakhskiyy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

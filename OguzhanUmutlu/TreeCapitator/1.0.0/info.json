@@ -1,0 +1,85 @@
+{
+    "id": 7278,
+    "name": "TreeCapitator",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TreeCapitator/1.0.0",
+    "tagline": "A pocketmine plugin that makes leaves and woods falling blocks when they break tree.",
+    "artifact_url": "https://poggit.pmmp.io/r/135835",
+    "downloads": 108,
+    "score": 5,
+    "repo_id": 393369378,
+    "repo_name": "OguzhanUmutlu/TreeCapitator",
+    "project_id": 9450,
+    "project_name": "TreeCapitator",
+    "build_id": 108206,
+    "build_number": 6,
+    "build_commit": "73392ea4a47acdc187560fb9e5ae128e5a2776ba",
+    "description_url": "https://poggit.pmmp.io/r/135834",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/TreeCapitator/73392ea4a47acdc187560fb9e5ae128e5a2776ba/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628274467,
+    "state": 5,
+    "last_state_change_date": 1628275541,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "axe",
+        "block",
+        "break",
+        "cape",
+        "capitate",
+        "chop",
+        "damage",
+        "falling",
+        "fast",
+        "log",
+        "tiered",
+        "tool",
+        "wood"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

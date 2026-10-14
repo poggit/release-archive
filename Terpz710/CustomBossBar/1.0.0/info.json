@@ -1,0 +1,82 @@
+{
+    "id": 12973,
+    "name": "CustomBossBar",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomBossBar/1.0.0",
+    "tagline": "Allows players to add in customizable BossBars",
+    "artifact_url": "https://poggit.pmmp.io/r/237496",
+    "downloads": 810,
+    "score": null,
+    "repo_id": 789105507,
+    "repo_name": "Terpz710/CustomBossBar",
+    "project_id": 13757,
+    "project_name": "CustomBossBar",
+    "build_id": 174241,
+    "build_number": 8,
+    "build_commit": "1272f2755225d3aa8e3ae44cc4b0d99e95a140ea",
+    "description_url": "https://poggit.pmmp.io/r/237526",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1713558163,
+    "state": 5,
+    "last_state_change_date": 1713969771,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "Bar",
+        "BossBar",
+        "Custom",
+        "CustomBossBar"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "apibossbar",
+            "project_id": 13756,
+            "repo_id": 778650570,
+            "repo_name": "Terpz710/apibossbar",
+            "repo_path": "",
+            "build_commit": "ae3ae2513366dbb912f81f9b040632c3b3c1cc8f",
+            "build_id": 174227
+        }
+    ]
+}

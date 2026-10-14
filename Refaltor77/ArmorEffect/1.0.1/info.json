@@ -1,0 +1,69 @@
+{
+    "id": 6300,
+    "name": "ArmorEffect",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ArmorEffect/1.0.1",
+    "tagline": "Simple plugin to add effects to armor",
+    "artifact_url": "https://poggit.pmmp.io/r/120417",
+    "downloads": 1674,
+    "score": null,
+    "repo_id": 352982510,
+    "repo_name": "Refaltor77/ArmorEffect",
+    "project_id": 8773,
+    "project_name": "ArmorEffect",
+    "build_id": 99361,
+    "build_number": 1,
+    "build_commit": "dc6803b8201adaf9aa3d0b6827e1ae78a59937f4",
+    "description_url": "https://poggit.pmmp.io/r/120416",
+    "icon_url": "https://raw.githubusercontent.com/Refaltor77/ArmorEffect/dc6803b8201adaf9aa3d0b6827e1ae78a59937f4/image.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1617147634,
+    "state": 5,
+    "last_state_change_date": 1617322849,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Armor",
+        "ArmorEffect",
+        "Effect",
+        "EffectArmor",
+        "PVP"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

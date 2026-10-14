@@ -1,0 +1,42 @@
+<h1>
+<a id="user-content-blockhunt" class="anchor" href="#blockhunt" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BlockHunt</h1>
+<p><a href="https://poggit.pmmp.io/p/BlockHunt" rel="nofollow"><img src="https://camo.githubusercontent.com/39c4345899f9332dc0023e98a31b21471741ec7d507cb09b9622602cfe28fd5a/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f426c6f636b48756e74" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/BlockHunt" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/BlockHunt" rel="nofollow"><img src="https://camo.githubusercontent.com/47116c6b81eeeff2970b61f3e7da4fd978565ea762810deaec64f5a24cb162dd/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f426c6f636b48756e74" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/BlockHunt" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/BlockHunt" rel="nofollow"><img src="https://camo.githubusercontent.com/15bd7795c6b5d98763bddf035bac8b61e244892a3bbd5e26ef9491f2d3a8a797/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f426c6f636b48756e74" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/BlockHunt" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/BlockHunt" rel="nofollow"><img src="https://camo.githubusercontent.com/f13f9670face8e141ce5108fbc003273bcdc42b1865ddd4a36433606836e7d2c/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f426c6f636b48756e74" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl/BlockHunt" style="max-width:100%;"></a></p>
+<p>Block Hunt minigame for PocketMine-MP!</p>
+<h1>
+<a id="user-content-what-is-this-minigame" class="anchor" href="#what-is-this-minigame" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is this minigame?</h1>
+<p>In this minigame there are two teams, Hunters and seekers.</p>
+<p>Seekers are trying to run from hunters.</p>
+<p>Seekers can transform into blocks.</p>
+<p>If a seeker dies it changes his team to hunter.</p>
+<p>If seeker(s) survives for maximum time of arena they win else hunters wins.</p>
+<h1>
+<a id="user-content-how-to-setup" class="anchor" href="#how-to-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to setup?</h1>
+<p>Just simply use <code>/blockhuntadmin setup</code> command and start setup session!</p>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<p>Use plugin</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-k">use</span> <span class="pl-v">OguzhanUmutlu</span>\<span class="pl-v">BlockHunt</span>\<span class="pl-v">BlockHunt</span>;</pre></div>
+<p>Get player's arena:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-v">BlockHunt</span>::<span class="pl-en">getInstance</span>()-&gt;<span class="pl-c1">arenaManager</span>-&gt;<span class="pl-en">getPlayerArena</span>(<span class="pl-s1"><span class="pl-c1">$</span>player</span>);</pre></div>
+<p>Events:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-k">use</span> <span class="pl-v">OguzhanUmutlu</span>\<span class="pl-v">BlockHunt</span>\events\<span class="pl-v">BlockHuntKillEvent</span>;
+<span class="pl-k">use</span> <span class="pl-v">OguzhanUmutlu</span>\<span class="pl-v">BlockHunt</span>\events\<span class="pl-v">BlockHuntWinEvent</span>;
+<span class="pl-k">use</span> <span class="pl-v">OguzhanUmutlu</span>\<span class="pl-v">BlockHunt</span>\events\<span class="pl-v">BlockHuntLoseEvent</span>;</pre></div>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-c">/*** BlockHuntKillEvent|BlockHuntWinEvent|BlockHuntLoseEvent */</span>
+<span class="pl-s1"><span class="pl-c1">$</span>player</span> = <span class="pl-s1"><span class="pl-c1">$</span>event</span>-&gt;<span class="pl-en">getPlayer</span>();
+<span class="pl-s1"><span class="pl-c1">$</span>arena</span> = <span class="pl-s1"><span class="pl-c1">$</span>event</span>-&gt;<span class="pl-en">getArena</span>();
+
+<span class="pl-c">/*** BlockHuntKillEvent */</span>
+<span class="pl-s1"><span class="pl-c1">$</span>killer</span> = <span class="pl-s1"><span class="pl-c1">$</span>event</span>-&gt;<span class="pl-en">getKiller</span>();</pre></div>
+<h1>
+<a id="user-content-todo" class="anchor" href="#todo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TODO</h1>
+<ul>
+<li>idk</li>
+</ul>
+<h1>
+<a id="user-content-reporting-bugs" class="anchor" href="#reporting-bugs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reporting bugs</h1>
+<p><strong>You may open an issue on the BlockHunt GitHub repository for report bugs</strong>
+<a href="https://github.com/OguzhanUmutlu/BlockHunt/issues">https://github.com/OguzhanUmutlu/BlockHunt/issues</a></p>

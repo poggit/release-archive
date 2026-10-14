@@ -1,0 +1,67 @@
+{
+    "id": 13906,
+    "name": "ChunkBorders",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ChunkBorders/1.0.0",
+    "tagline": "A ChunkBorders plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/253923",
+    "downloads": 220,
+    "score": 5,
+    "repo_id": 943327317,
+    "repo_name": "fadijalal07/ChunkBorders",
+    "project_id": 14602,
+    "project_name": "ChunkBorders",
+    "build_id": 185378,
+    "build_number": 3,
+    "build_commit": "7281b9fc603d941b531679189e2a703f020295dd",
+    "description_url": "https://poggit.pmmp.io/r/253925",
+    "icon_url": "https://raw.githubusercontent.com/fadijalal07/ChunkBorders/7281b9fc603d941b531679189e2a703f020295dd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1741186145,
+    "state": 5,
+    "last_state_change_date": 1743357745,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "border",
+        "chunk",
+        "chunkborder",
+        "chunkview"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "DummyItemsBlocks",
+            "version": "1.1.0",
+            "depRelId": 12929,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "fadijalal07"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

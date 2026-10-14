@@ -1,0 +1,65 @@
+{
+    "id": 1100,
+    "name": "RankPoints",
+    "version": "1.5.2-4",
+    "html_url": "https://poggit.pmmp.io/p/RankPoints/1.5.2-4",
+    "tagline": "Give Ranks using RankPoints",
+    "artifact_url": "https://poggit.pmmp.io/r/23242",
+    "downloads": 406,
+    "score": null,
+    "repo_id": 60007256,
+    "repo_name": "Awzaw/RankPoints",
+    "project_id": 13,
+    "project_name": "RankPoints",
+    "build_id": 35907,
+    "build_number": 17,
+    "build_commit": "a62834df25a5f65efdc8ee75a9a2c492ee381da8",
+    "description_url": "https://poggit.pmmp.io/r/23239",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/RankPoints/a62834df25a5f65efdc8ee75a9a2c492ee381da8/rplogo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/23241",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518365793,
+    "state": 5,
+    "last_state_change_date": 1518365796,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "points",
+        "ranks"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.1-3",
+            "depRelId": 855,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

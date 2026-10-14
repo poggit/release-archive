@@ -1,0 +1,64 @@
+{
+    "id": 893,
+    "name": "XYZ",
+    "version": "1.0.5",
+    "html_url": "https://poggit.pmmp.io/p/XYZ/1.0.5",
+    "tagline": "aka 'Coords' by Unerds",
+    "artifact_url": "https://poggit.pmmp.io/r/17807",
+    "downloads": 259,
+    "score": null,
+    "repo_id": 96703537,
+    "repo_name": "poggit-orphanage/XYZ",
+    "project_id": 617,
+    "project_name": "XYZ",
+    "build_id": 31845,
+    "build_number": 9,
+    "build_commit": "38fe846e4b75c25f180a3c6f4d946efc2a3f8d03",
+    "description_url": "https://poggit.pmmp.io/r/17804",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/XYZ/38fe846e4b75c25f180a3c6f4d946efc2a3f8d03/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/17806",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1512723908,
+    "state": 5,
+    "last_state_change_date": 1512723912,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "coords",
+        "coordinates"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "unerds",
+            "awzaw",
+            "sof3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

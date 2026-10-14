@@ -1,0 +1,63 @@
+{
+    "id": 10879,
+    "name": "DropProtection",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DropProtection/1.0.0",
+    "tagline": "Plugin that protects accidental drop",
+    "artifact_url": "https://poggit.pmmp.io/r/198434",
+    "downloads": 225,
+    "score": 4,
+    "repo_id": 581907408,
+    "repo_name": "GrosserZak/DropProtection",
+    "project_id": 12027,
+    "project_name": "DropProtection",
+    "build_id": 148690,
+    "build_number": 3,
+    "build_commit": "ac93cb74061a6f4708e3f4368a6ab8ecdee3b98f",
+    "description_url": "https://poggit.pmmp.io/r/198478",
+    "icon_url": "https://raw.githubusercontent.com/GrosserZak/DropProtection/ac93cb74061a6f4708e3f4368a6ab8ecdee3b98f/DropProtection.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1671918921,
+    "state": 5,
+    "last_state_change_date": 1672202781,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "drop",
+        "droplock",
+        "dropprotect",
+        "dropprotection",
+        "drops",
+        "dropslock",
+        "dropsprotect",
+        "dropsprotection",
+        "lock",
+        "protect",
+        "protection"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GrosserZak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

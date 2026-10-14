@@ -1,0 +1,63 @@
+{
+    "id": 12896,
+    "name": "DeathSign",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DeathSign/1.0.0",
+    "tagline": "Spawns a sign when a player dies.",
+    "artifact_url": "https://poggit.pmmp.io/r/234821",
+    "downloads": 29,
+    "score": null,
+    "repo_id": 770263305,
+    "repo_name": "Terpz710/DeathSigns",
+    "project_id": 13643,
+    "project_name": "DeathSigns",
+    "build_id": 172320,
+    "build_number": 3,
+    "build_commit": "dadb1b1a1bc397271b4e50c6e58b4227b2c940c0",
+    "description_url": "https://poggit.pmmp.io/r/234820",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/DeathSigns/dadb1b1a1bc397271b4e50c6e58b4227b2c940c0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1710147458,
+    "state": 5,
+    "last_state_change_date": 1712711786,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Death",
+        "DeathSigns",
+        "Signs"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

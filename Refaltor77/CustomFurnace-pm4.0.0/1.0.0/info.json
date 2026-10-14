@@ -1,0 +1,81 @@
+{
+    "id": 8281,
+    "name": "AdvancedFurnace",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedFurnace/1.0.0",
+    "tagline": "Plugin to add furnace recipes !",
+    "artifact_url": "https://poggit.pmmp.io/r/151931",
+    "downloads": 776,
+    "score": null,
+    "repo_id": 410670062,
+    "repo_name": "Refaltor77/CustomFurnace-pm4.0.0",
+    "project_id": 10107,
+    "project_name": "CustomFurnace-pm4.0.0",
+    "build_id": 117832,
+    "build_number": 1,
+    "build_commit": "d56e06ed901e38cef1bee633fabcc0f4a84e60d3",
+    "description_url": "https://poggit.pmmp.io/r/155205",
+    "icon_url": "https://raw.githubusercontent.com/Refaltor77/CustomFurnace-pm4.0.0/d56e06ed901e38cef1bee633fabcc0f4a84e60d3/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1639161592,
+    "state": 5,
+    "last_state_change_date": 1641494507,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "AdvancedFurnace",
+        "Custom",
+        "CustomFurnace",
+        "CustomFurnaceRecipes",
+        "Furnace",
+        "FurnaceManager",
+        "FurnaceRecipesCustom",
+        "Recipes",
+        "RecipesFurnaceCustom"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

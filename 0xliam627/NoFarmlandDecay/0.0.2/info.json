@@ -1,0 +1,74 @@
+{
+    "id": 9467,
+    "name": "NoFarmlandDecay",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/NoFarmlandDecay/0.0.2",
+    "tagline": "A plugin for PocketMine-MP help avoid players making soil decay",
+    "artifact_url": "https://poggit.pmmp.io/r/170538",
+    "downloads": 278,
+    "score": 5,
+    "repo_id": 466768141,
+    "repo_name": "0xliam627/NoFarmlandDecay",
+    "project_id": 10748,
+    "project_name": "NoFarmlandDecay",
+    "build_id": 129302,
+    "build_number": 3,
+    "build_commit": "e3748b9d85a1cda27ea61ae200f05afb0662a6cb",
+    "description_url": "https://poggit.pmmp.io/r/170535",
+    "icon_url": "https://raw.githubusercontent.com/David-pm-pl/NoFarmlandDecay/e3748b9d85a1cda27ea61ae200f05afb0662a6cb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/170537",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1649583150,
+    "state": 5,
+    "last_state_change_date": 1649867229,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "decay",
+        "dirt",
+        "entity",
+        "land",
+        "player",
+        "plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "0xliam627"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

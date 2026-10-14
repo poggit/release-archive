@@ -1,0 +1,80 @@
+{
+    "id": 953,
+    "name": "PEXProtection",
+    "version": "0.1.1",
+    "html_url": "https://poggit.pmmp.io/p/PEXProtection/0.1.1",
+    "tagline": "Keep Mobs from Spawning in Specific Areas",
+    "artifact_url": "https://poggit.pmmp.io/r/19203",
+    "downloads": 121,
+    "score": null,
+    "repo_id": 76380249,
+    "repo_name": "RevivalPMMP/PEXProtection",
+    "project_id": 93,
+    "project_name": "PEXProtection",
+    "build_id": 32947,
+    "build_number": 18,
+    "build_commit": "a7619473a5153cdd54d88bea2bc1417fc2f0a3c3",
+    "description_url": "https://poggit.pmmp.io/r/19202",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1514619434,
+    "state": 5,
+    "last_state_change_date": 1516869435,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "mob",
+        "ai",
+        "pureentitiesx",
+        "pexprotection"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA9",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "95CivicSi",
+            "Sandertv"
+        ],
+        "Contributor": [
+            "joshnorth",
+            "samalero",
+            "archie426",
+            "jasonwynn10",
+            "Magicode1"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

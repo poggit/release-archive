@@ -1,0 +1,68 @@
+{
+    "id": 13783,
+    "name": "LumberJack",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/LumberJack/1.0.1",
+    "tagline": "Add in Lumberjack features to your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/251833",
+    "downloads": 230,
+    "score": null,
+    "repo_id": 777554341,
+    "repo_name": "Terpz710/LumberJack",
+    "project_id": 13682,
+    "project_name": "LumberJack",
+    "build_id": 184026,
+    "build_number": 8,
+    "build_commit": "870aad8d20176e344cfce165685057a8b14399a8",
+    "description_url": "https://poggit.pmmp.io/r/251830",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/LumberJack/870aad8d20176e344cfce165685057a8b14399a8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/251832",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736719758,
+    "state": 5,
+    "last_state_change_date": 1736775416,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "Chop",
+        "Jack",
+        "Logs",
+        "Lumber",
+        "Lumberjack",
+        "Oak",
+        "Wood",
+        "Woodchopper"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,61 @@
+{
+    "id": 4953,
+    "name": "AutoClearChat",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoClearChat/1.0.0",
+    "tagline": "Clear Your Server Chat Easily",
+    "artifact_url": "https://poggit.pmmp.io/r/96969",
+    "downloads": 18604,
+    "score": 4,
+    "repo_id": 280523573,
+    "repo_name": "GodWeedZao/AutoClearChat",
+    "project_id": 7432,
+    "project_name": "AutoClearChat",
+    "build_id": 84353,
+    "build_number": 32,
+    "build_commit": "9d737219a661758eb9ce5fa63495d4151631699a",
+    "description_url": "https://poggit.pmmp.io/r/96968",
+    "icon_url": "https://raw.githubusercontent.com/GodWeedZao/AutoClearChat/9d737219a661758eb9ce5fa63495d4151631699a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1595167694,
+    "state": 5,
+    "last_state_change_date": 1595169111,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "AutoClearChat"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GodWeedZao"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

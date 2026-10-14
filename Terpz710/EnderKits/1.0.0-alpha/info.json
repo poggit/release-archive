@@ -1,0 +1,84 @@
+{
+    "id": 12820,
+    "name": "EnderKits",
+    "version": "1.0.0-alpha",
+    "html_url": "https://poggit.pmmp.io/p/EnderKits/1.0.0-alpha",
+    "tagline": "EnderKits plugin for Pocketmine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/233154",
+    "downloads": 520,
+    "score": 4,
+    "repo_id": 702986717,
+    "repo_name": "Terpz710/EnderKits",
+    "project_id": 13236,
+    "project_name": "EnderKits",
+    "build_id": 171231,
+    "build_number": 52,
+    "build_commit": "dfbd4ae2c49c5dd00a1b3d23b2fbf50a9051c0c8",
+    "description_url": "https://poggit.pmmp.io/r/233153",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/EnderKits/dfbd4ae2c49c5dd00a1b3d23b2fbf50a9051c0c8/icon.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1708148365,
+    "state": 5,
+    "last_state_change_date": 1709947698,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "AdvancedKit",
+        "ChestKit",
+        "EasyKit",
+        "Ender",
+        "EnderKit",
+        "Kit",
+        "Kits"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "3.0.12",
+            "depRelId": 11347,
+            "isHard": false
+        },
+        {
+            "name": "RankSystem",
+            "version": "1.1.3",
+            "depRelId": 11942,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

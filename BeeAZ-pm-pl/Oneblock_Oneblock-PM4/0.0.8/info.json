@@ -1,0 +1,65 @@
+{
+    "id": 9524,
+    "name": "Oneblock",
+    "version": "0.0.8",
+    "html_url": "https://poggit.pmmp.io/p/Oneblock/0.0.8",
+    "tagline": "Survival On Island Starts With Just One Block",
+    "artifact_url": "https://poggit.pmmp.io/r/171708",
+    "downloads": 2761,
+    "score": 5,
+    "repo_id": 450758290,
+    "repo_name": "BeeAZ-pm-pl/Oneblock",
+    "project_id": 10385,
+    "project_name": "Oneblock-PM4",
+    "build_id": 130098,
+    "build_number": 50,
+    "build_commit": "e7f9086df1460fd229780f96b5d6c8579a7d2d8a",
+    "description_url": "https://poggit.pmmp.io/r/183868",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/Oneblock/e7f9086df1460fd229780f96b5d6c8579a7d2d8a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/183870",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1650361808,
+    "state": 5,
+    "last_state_change_date": 1650399711,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        }
+    ],
+    "keywords": [
+        "Oneblock"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "OneBlockScore",
+            "version": "1.0.0",
+            "depRelId": 9548,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "lenlenlL6",
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

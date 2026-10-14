@@ -1,0 +1,89 @@
+{
+    "id": 7093,
+    "name": "WorkersDemo",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/WorkersDemo/1.0.1",
+    "tagline": "A plugin that adds worker entities to minecraft.",
+    "artifact_url": "https://poggit.pmmp.io/r/132891",
+    "downloads": 1517,
+    "score": 4,
+    "repo_id": 386053822,
+    "repo_name": "OguzhanUmutlu/WorkersDemo",
+    "project_id": 9265,
+    "project_name": "WorkersDemo",
+    "build_id": 106438,
+    "build_number": 11,
+    "build_commit": "2b5a5920bcb549a4cc7ad5af05a2bdc5af2c006b",
+    "description_url": "https://poggit.pmmp.io/r/132888",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/WorkersDemo/2b5a5920bcb549a4cc7ad5af05a2bdc5af2c006b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/132890",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626763444,
+    "state": 5,
+    "last_state_change_date": 1626878773,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "wor",
+        "worke"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "eab8ac0adec2e2b094d141a9b711200183bbf268",
+            "build_id": 86018
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "a3b121f31e2816639174da8f1c10a0a0e58643b5",
+            "build_id": 105482
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "id": 5735,
+    "name": "KygekTagsShop",
+    "version": "1.0.0-beta.4",
+    "html_url": "https://poggit.pmmp.io/p/KygekTagsShop/1.0.0-beta.4",
+    "tagline": "Allow players to use tags",
+    "artifact_url": "https://poggit.pmmp.io/r/111465",
+    "downloads": 201,
+    "score": 5,
+    "repo_id": 288417314,
+    "repo_name": "thebigcrafter/KygekTagsShop",
+    "project_id": 8006,
+    "project_name": "KygekTagsShop",
+    "build_id": 93950,
+    "build_number": 14,
+    "build_commit": "a680fbbdce6bf5c9972179da500f66dac6ed6c03",
+    "description_url": "https://poggit.pmmp.io/r/115936",
+    "icon_url": "https://raw.githubusercontent.com/KygekTeam/KygekTagsShop/a680fbbdce6bf5c9972179da500f66dac6ed6c03/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/115938",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1608885245,
+    "state": 5,
+    "last_state_change_date": 1608885457,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekraqmak",
+        "kygekraqmakshop",
+        "kygekraqmaktags",
+        "kygekraqmaktagsshop",
+        "kygekraqmaktagsui",
+        "kygekraqmakui",
+        "kygekshop",
+        "kygektags",
+        "kygektagsui",
+        "kygekteamshop",
+        "kygekteamtags",
+        "kygekteamtagsshop",
+        "kygekteamtagsui",
+        "kygekteamui",
+        "kygekui",
+        "shop",
+        "tags",
+        "tagsshop",
+        "tagsui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "SOF3",
+            "UnEnanoMas",
+            "xAliTura01",
+            "Gezou",
+            "ItsToxicGG",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "NhanAZ",
+            "KygekDev",
+            "taylordevs",
+            "Kygekraqmak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

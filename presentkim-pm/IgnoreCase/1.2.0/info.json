@@ -1,0 +1,59 @@
+{
+    "id": 5147,
+    "name": "IgnoreCase",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/IgnoreCase/1.2.0",
+    "tagline": "Ignore case when use the command!",
+    "artifact_url": "https://poggit.pmmp.io/r/100418",
+    "downloads": 568,
+    "score": 5,
+    "repo_id": 140988400,
+    "repo_name": "presentkim-pm/IgnoreCase",
+    "project_id": 3687,
+    "project_name": "IgnoreCase",
+    "build_id": 86540,
+    "build_number": 8,
+    "build_commit": "3b0375321ae56cdd588170e3d42ddb00488a8e26",
+    "description_url": "https://poggit.pmmp.io/r/101846",
+    "icon_url": "https://raw.githubusercontent.com/Blugin/IgnoreCase-PMMP/3b0375321ae56cdd588170e3d42ddb00488a8e26/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1597922581,
+    "state": 5,
+    "last_state_change_date": 1599406039,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "case-sensitive",
+        "command",
+        "command-manager",
+        "command-replace",
+        "ignore",
+        "ignorecase",
+        "presentkim"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PresentKim"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,79 @@
+<p><a href="https://poggit.pmmp.io/p/Hotbar" rel="nofollow"><img src="https://camo.githubusercontent.com/040302a5d2c9fc86002127990051ac0a1741deda/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f486f74626172" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/Hotbar" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-hotbar" class="anchor" href="#hotbar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hotbar</h1>
+<p>A versatile and full featured hotbar plugin! Add items and make them execute commands, on any world!</p>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<p>The <a href="https://github.com/artulloss/Hotbar/blob/master/resources/config.yml">default configuration</a> provides lots of help setting up the plugin!</p>
+<h4>
+<a id="user-content-types-of-hotbars" class="anchor" href="#types-of-hotbars" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Types of Hotbars</h4>
+<p>There are two types of hotbars.</p>
+<p>The first type is the Worlds hotbars, they automatically are given to you when you enter a world or respawn and go to that world.</p>
+<p>The second type is the Secondary-Hotbars, they aren't given to you automatically, but are able to be called using the hotbar command from console.</p>
+<p>The configurations for both types of hotbars are identical.</p>
+<p>To call a secondary hotbar, have an item execute
+- hotbar (The name of the hotbar goes here) {player}@console@true
+as one of it's commands.</p>
+<p>To call the Worlds hotbar, have an item execute
+- hotbar WORLD {player}@console@true
+as one of it's commands.</p>
+<p>To avoid conflicting issues do not use WORLD as the name of a world or as a hotbar's name.</p>
+<p>This system of multiple types of hotbars allow you to create complex systems, but I would keep it simple to avoid confusion from players.</p>
+<p>The hotbars are also callable from other plugins using the hotbar command.</p>
+<h4>
+<a id="user-content-command-format" class="anchor" href="#command-format" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command format</h4>
+<p>For every item you need to add commands in order to do things.
+This plugin accepts an <a href="http://php.net/manual/en/book.array.php" rel="nofollow">array</a> of commands, allowing you to execute multiple commands with one tap!
+The format of each command is, the command to be executed@executor@false, the first part is obviously the command, but the second and third
+parts are a little more complicated.</p>
+<h4>
+<a id="user-content-executors-in-commands" class="anchor" href="#executors-in-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Executors in commands</h4>
+<p>Executors are as follows, note that most are capitilization insensitive.</p>
+<p>Player - The player who tapped the item
+Here - The players looking at the player who tapped the item
+Everyone - Everyone online on your server
+Console - The servers console
+Player's name, for example ARTulloss (my ign) (Players names ARE capitilization sensitive)</p>
+<p>The third part of the command formate specifies if you want to have the player run the command as an OP, or have them run it without OP.</p>
+<h4>
+<a id="user-content-replacable-in-commands" class="anchor" href="#replacable-in-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Replacable in commands</h4>
+<p>You can use these in your commands to make refrences to the player!
+These are capitilization sensitive, so make sure to type them as shown here!</p>
+<pre><code>{player}  IGN of the player
+{tag}     Name tag of the player
+{level}   The players level
+
+{x}       The players X
+{y}       The players Y
+{z}       The players Z
+    
+{rx}      The players X (Rounded)
+{ry}      The players Y (Rounded)
+{rz}      The players Z (Rounded)
+</code></pre>
+<h4>
+<a id="user-content-duplicate-item-names" class="anchor" href="#duplicate-item-names" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Duplicate item names</h4>
+<p>For every name that needs to be the same, insert a color reset at the end of the items name.
+This will make them visually equivalent, but unique and not conflicting.</p>
+<p>Duplicate item names are only an issue if on the same world!</p>
+<h4>
+<a id="user-content-duplicate-items" class="anchor" href="#duplicate-items" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Duplicate items</h4>
+<p>You can deal with duplicate items by using different names, lores or damage values!</p>
+<p>Duplicate items are only an issue if on the same world or secondary hotbar!</p>
+<h4>
+<a id="user-content-locking-inventories" class="anchor" href="#locking-inventories" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Locking Inventories</h4>
+<p>You may wish to block a player from modifying the hotbar, the "Locked Inventory" part of the config allows for this:</p>
+<pre><code>Locked Inventory:
+- example
+- world
+</code></pre>
+<h4>
+<a id="user-content-cooldown" class="anchor" href="#cooldown" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cooldown</h4>
+<p>The cooldown is to "fix" the player interact spam, which is a client side bug with Windows 10, I recommend the default value, but you can set it as high/low as you'd like.</p>
+<h4>
+<a id="user-content-demo-of-this-plugin" class="anchor" href="#demo-of-this-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo of this plugin</h4>
+<p>To see this plugin in action, you can join my server: versai.pro 19132</p>
+<h4>
+<a id="user-content-support" class="anchor" href="#support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support?</h4>
+<p>Tweet me <a href="https://twitter.com/artulloss" rel="nofollow">@artulloss</a>
+Discord <a href="https://discord.versai.pro" rel="nofollow">here</a></p>

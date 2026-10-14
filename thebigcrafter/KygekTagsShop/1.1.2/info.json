@@ -1,0 +1,135 @@
+{
+    "id": 12230,
+    "name": "KygekTagsShop",
+    "version": "1.1.2",
+    "html_url": "https://poggit.pmmp.io/p/KygekTagsShop/1.1.2",
+    "tagline": "Allow players to use tags",
+    "artifact_url": "https://poggit.pmmp.io/r/220171",
+    "downloads": 20,
+    "score": null,
+    "repo_id": 288417314,
+    "repo_name": "thebigcrafter/KygekTagsShop",
+    "project_id": 8006,
+    "project_name": "KygekTagsShop",
+    "build_id": 161922,
+    "build_number": 87,
+    "build_commit": "30f8278995967a4afd342d633f87128aebf72bdc",
+    "description_url": "https://poggit.pmmp.io/r/220168",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/KygekTagsShop/30f8278995967a4afd342d633f87128aebf72bdc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220170",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692160983,
+    "state": 5,
+    "last_state_change_date": 1692186177,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekraqmak",
+        "kygekraqmakshop",
+        "kygekraqmaktags",
+        "kygekraqmaktagsshop",
+        "kygekraqmaktagsui",
+        "kygekraqmakui",
+        "kygekshop",
+        "kygektags",
+        "kygektagsui",
+        "kygekteamshop",
+        "kygekteamtags",
+        "kygekteamtagsshop",
+        "kygekteamtagsui",
+        "kygekteamui",
+        "kygekui",
+        "shop",
+        "tags",
+        "tagsshop",
+        "tagsui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "SOF3",
+            "UnEnanoMas",
+            "xAliTura01",
+            "Gezou",
+            "ItsToxicGG",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "NhanAZ",
+            "KygekDev",
+            "taylordevs",
+            "Kygekraqmak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        },
+        {
+            "name": "Hydrogen",
+            "project_id": 12575,
+            "repo_id": 649178263,
+            "repo_name": "thebigcrafter/Hydrogen",
+            "repo_path": "",
+            "build_commit": "36c9b3a3bbe31031bc1c324d96d721cef951086f",
+            "build_id": 158911
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "cf06deec50469065abe7994bbb623f2d54ccc965",
+            "build_id": 157740
+        }
+    ]
+}

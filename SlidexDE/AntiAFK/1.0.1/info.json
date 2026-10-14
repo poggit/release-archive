@@ -1,0 +1,59 @@
+{
+    "id": 10153,
+    "name": "AntiAFK",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AntiAFK/1.0.1",
+    "tagline": "An anti-inactivity plugin that kicks players who are AFK from server.",
+    "artifact_url": "https://poggit.pmmp.io/r/184355",
+    "downloads": 131,
+    "score": 5,
+    "repo_id": 509182687,
+    "repo_name": "SlidexDE/AntiAFK",
+    "project_id": 11487,
+    "project_name": "AntiAFK",
+    "build_id": 139006,
+    "build_number": 5,
+    "build_commit": "78340265e477e2a6c359a359cc57afd7cc35cf71",
+    "description_url": "https://poggit.pmmp.io/r/184563",
+    "icon_url": "https://raw.githubusercontent.com/SlidexDE/AntiAFK/78340265e477e2a6c359a359cc57afd7cc35cf71/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656702323,
+    "state": 5,
+    "last_state_change_date": 1657549953,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "AFK",
+        "AFKKick",
+        "AntiAFK",
+        "Kick"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Julicraft44"
+        ],
+        "Collaborator": [
+            "SlidexDE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

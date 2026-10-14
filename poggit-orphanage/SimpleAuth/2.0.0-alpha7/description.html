@@ -1,0 +1,237 @@
+<h1>
+<a id="user-content-simpleauth---shoghicp" class="anchor" href="#simpleauth---shoghicp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SimpleAuth - Shoghicp</h1>
+<h3>
+<a id="user-content-automatic-hack-protection-by-awzaw-using-ipskin-and-user-pin-codes" class="anchor" href="#automatic-hack-protection-by-awzaw-using-ipskin-and-user-pin-codes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Automatic hack protection by Awzaw using IP/SKIN and user PIN codes</h3>
+<p>Plugin for PocketMine-MP that prevents people from impersonating an account, requiring registration and login when connecting.</p>
+<pre><code> SimpleAuth plugin for PocketMine-MP
+ Copyright (C) 2014 PocketMine Team &lt;https://github.com/PocketMine/SimpleAuth&gt;
+<p>This program is free software: you can redistribute it and/or modify<br>
+it under the terms of the GNU Lesser General Public License as published by<br>
+the Free Software Foundation, either version 3 of the License, or<br>
+(at your option) any later version.</p>
+</code><p><code>This program is distributed in the hope that it will be useful,<br>
+but WITHOUT ANY WARRANTY; without even the implied warranty of<br>
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br>
+GNU General Public License for more details.<br>
+</code></p></pre><p></p>
+<h2>
+<a id="user-content-whats-new" class="anchor" href="#whats-new" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What's New?</h2>
+<p>This version of SimpleAuth adds automatic hack detection/protection to SimpleAuth.</p>
+<p>When users register (or log in the first time after install or upgrade) they will be given a 4 digit PIN code.</p>
+<p>If any player tries to login to an account with 2 or more changes to the previously recorded IP, CID or SKIN, then they will<br>
+need to login with <code>/login &lt;password&gt; &lt;PIN&gt;</code>, for example, <code>/login dadada 1234</code>. They will then receive a new PIN.</p>
+<p>If a user only changes IP, SKIN or CID (*) the PIN is not required, and the players security info is updated for the new IP/CID/SKIN (not the PIN).</p>
+<ul>
+<li>CID DATA:  Please note that getClientId() is deprecated; this will remain in the code for now, ready to be updated when possible, but until we have a replacement this data is not useful. Please adjust the 'threat level' accordingly to either:</li>
+</ul>
+<p>0: Never check IP and SKIN data<br>
+1: Players must have EITHER the same IP or SKIN as last visit, or type the PIN code on login<br>
+2: Players must have BOTH the same IP and SKIN, or type the PIN code on login</p>
+<p>If a player forgets their PIN, and cannot login because they joined with a new SKIN + IP, SKIN + CID, IP + CID or SKIN + CID<br>
+their security info can be reset on CONSOLE with <code>login &lt;player&gt;</code>. They will then get a new PIN code next time they login.</p>
+<p>Players logging in normally will see a reminder on their PIN code.</p>
+<p>Players can change their pin code by typing /login when already logged in.</p>
+<p>Warnings are displayed on Console when players try to join with &gt;= 2 changes to the security info (IP, CID, SKIN).</p>
+<p>SimpleAuth2 is compatible with SimpleAuthHelper, and works with any provider: MySQL (tested), YAML (tested) and SQLITE (untested)</p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<ul>
+<li><code>/login &lt;password&gt;</code></li>
+<li>
+<code>/login &lt;password&gt; &lt;PIN&gt;</code> (If 2 changes detected for a players IP, SKIN or CID since last login)</li>
+<li><code>/register &lt;password&gt;</code></li>
+<li>
+<code>/unregister &lt;password&gt;</code> (TODO)</li>
+<li>For OPs: <code>/simpleauth &lt;command: help|unregister&gt; [parameters...]</code> (TODO)</li>
+<li>For Console: <code>/login &lt;player&gt;</code> to reset hack detection data for a player</li>
+<li>For Players: <code>/login</code> when logged in to get a new PIN code</li>
+</ul>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<p>You can modify the <em>SimpleAuth/config.yml</em> file on the <em>plugins</em> directory once the plugin has been run at least once.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Configuration</th>
+<th align="center">Type</th>
+<th align="center">Default</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">timeout</td>
+<td align="center">integer</td>
+<td align="center">60</td>
+<td align="left">Unauthenticated players will be kicked after this period of time. Set it to 0 to disable. (TODO)</td>
+</tr>
+<tr>
+<td align="center">forceSingleSession</td>
+<td align="center">boolean</td>
+<td align="center">true</td>
+<td align="left">New players won't kick an authenticated player if using the same name.</td>
+</tr>
+<tr>
+<td align="center">minPasswordLength</td>
+<td align="center">integer</td>
+<td align="center">6</td>
+<td align="left">Minimum length of the register password.</td>
+</tr>
+<tr>
+<td align="center">blockAfterFail</td>
+<td align="center">integer</td>
+<td align="center">6</td>
+<td align="left">Block clients after several failed attempts</td>
+</tr>
+<tr>
+<td align="center">authenticateByLastUniqueId</td>
+<td align="center">boolean</td>
+<td align="center">false</td>
+<td align="left">Enables authentication by last unique id.</td>
+</tr>
+<tr>
+<td align="center">dataProvider</td>
+<td align="center">string</td>
+<td align="center">yaml</td>
+<td align="left">Selects the provider to get the data from (yaml, sqlite3, mysql, none)</td>
+</tr>
+<tr>
+<td align="center">dataProviderSettings</td>
+<td align="center">array</td>
+<td align="center">Sets the settings for the chosen dataProvider</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center">disableRegister</td>
+<td align="center">boolean</td>
+<td align="center">false</td>
+<td align="left">Will set all the permissions for simleauth.command.register to false</td>
+</tr>
+<tr>
+<td align="center">disableLogin</td>
+<td align="center">boolean</td>
+<td align="center">false</td>
+<td align="left">Will set all the permissions for simleauth.command.login to false</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-antihack-configuration" class="anchor" href="#antihack-configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AntiHack Configuration</h2>
+<p>You can modify the <em>SimpleAuth/antihack.yml</em> file on the <em>plugins</em> directory once the plugin has been run at least once.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Configuration</th>
+<th align="center">Type</th>
+<th align="center">Default</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">enabled</td>
+<td align="center">boolean</td>
+<td align="center">true</td>
+<td align="left">Enable AntiHack features</td>
+</tr>
+<tr>
+<td align="center">protectsuperadmins</td>
+<td align="center">boolean</td>
+<td align="center">true</td>
+<td align="left">Enable LOGIN protection ONLY for PurePerms SuperAdmin ranks (and OP if enabled)</td>
+</tr>
+<tr>
+<td align="center">protectops</td>
+<td align="center">boolean</td>
+<td align="center">true</td>
+<td align="left">Enable LOGIN protection for OPs</td>
+</tr>
+<tr>
+<td align="center">threat</td>
+<td align="center">integer</td>
+<td align="center">2</td>
+<td align="left">How many out of IP and SKIN must be the same to allow unchecked login (CID - deprecated)</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Permission</th>
+<th align="center">Default</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">simpleauth.chat</td>
+<td align="center">false</td>
+<td align="left">Allows using the chat while not being authenticated</td>
+</tr>
+<tr>
+<td align="center">simpleauth.move</td>
+<td align="center">false</td>
+<td align="left">Allows moving while not being authenticated</td>
+</tr>
+<tr>
+<td align="center">simpleauth.lastip</td>
+<td align="center">true</td>
+<td align="left">Allows authenticating using the lastIP when enabled in the config</td>
+</tr>
+<tr>
+<td align="center">simpleauth.command.register</td>
+<td align="center">true</td>
+<td align="left">Allows registering an account</td>
+</tr>
+<tr>
+<td align="center">simpleauth.command.login</td>
+<td align="center">true</td>
+<td align="left">Allows logging into an account</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-for-developers" class="anchor" href="#for-developers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>For developers</h2>
+<h3>
+<a id="user-content-events" class="anchor" href="#events" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Events</h3>
+<ul>
+<li>SimpleAuth\event\PlayerAuthenticateEvent</li>
+<li>SimpleAuth\event\PlayerDeauthenticateEvent</li>
+<li>SimpleAuth\event\PlayerRegisterEvent</li>
+<li>SimpleAuth\event\PlayerUnregisterEvent</li>
+</ul>
+<h3>
+<a id="user-content-plugin-api-methods" class="anchor" href="#plugin-api-methods" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Plugin API methods</h3>
+<p>All methods are available through the main plugin object</p>
+<ul>
+<li>bool isPlayerAuthenticated(pocketmine\Player $player)</li>
+<li>bool isPlayerRegistered(pocketmine\IPlayer $player</li>
+<li>bool authenticatePlayer(pocketmine\Player $player)</li>
+<li>bool deauthenticatePlayer(pocketmine\Player $player)</li>
+<li>bool registerPlayer(pocketmine\IPlayer $player, $password)</li>
+<li>bool unregisterPlayer(pocketmine\IPlayer $player)</li>
+<li>void setDataProvider(SimpleAuth\provider\DataProvider $provider)</li>
+<li>SimpleAuth\provider\DataProvider getDataProvider(void)</li>
+</ul>
+<h3>
+<a id="user-content-implementing-your-own-dataprovider" class="anchor" href="#implementing-your-own-dataprovider" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Implementing your own DataProvider</h3>
+<p>You can register an instantiated object that implements SimpleAuth\provider\DataProvider to the plugin using the <em>setDataProvider()</em> method</p>
+<h3>
+<a id="user-content-important" class="anchor" href="#important" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IMPORTANT</h3>
+<p>To enable antihack please change antihack to 'true' in antihack.yml AND UPDATE YOUR DATABASE, if you use MySQL or SQLite:</p>
+<p>TO UPDATE AN EXISTING MySQL DATABASE PLEASE RUN THE FOLLOWING QUERIES. FOR THE CAUTIOUS, STOP YOUR SERVER AND BACKUP THE DATABASE FIRST:</p>
+<ul>
+<li><code>ALTER TABLE simpleauth.simpleauth_players ADD ip VARCHAR(50);</code></li>
+<li><code>ALTER TABLE simpleauth.simpleauth_players ADD cid BIGINT;</code></li>
+<li><code>ALTER TABLE simpleauth.simpleauth_players ADD skinhash VARCHAR(60);</code></li>
+<li><code>ALTER TABLE simpleauth.simpleauth_players ADD pin INT;</code></li>
+</ul>
+<p>TO UPDATE AN EXISTING SQLITE DATABASE:</p>
+<ul>
+<li><code>ALTER TABLE simpleauth.simpleauth_players ADD ip TEXT;</code></li>
+<li><code>ALTER TABLE simpleauth.simpleauth_players ADD cid INTEGER;</code></li>
+<li><code>ALTER TABLE simpleauth.simpleauth_players ADD skinhash TEXT;</code></li>
+<li><code>ALTER TABLE simpleauth.simpleauth_players ADD pin INTEGER;</code></li>
+</ul>

@@ -1,0 +1,80 @@
+{
+    "id": 14006,
+    "name": "VanishV2",
+    "version": "4.0.4",
+    "html_url": "https://poggit.pmmp.io/p/VanishV2/4.0.4",
+    "tagline": "Advanced, configurable vanish plugin for staff",
+    "artifact_url": "https://poggit.pmmp.io/r/255935",
+    "downloads": 1257,
+    "score": null,
+    "repo_id": 221769789,
+    "repo_name": "sqrrrrl/VanishV2",
+    "project_id": 5802,
+    "project_name": "VanishV2",
+    "build_id": 186751,
+    "build_number": 144,
+    "build_commit": "85499a050307e90bd5109326f5aaeb18856650b7",
+    "description_url": "https://poggit.pmmp.io/r/255937",
+    "icon_url": "https://raw.githubusercontent.com/sqrrrrl/VanishV2/85499a050307e90bd5109326f5aaeb18856650b7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/255939",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1747599200,
+    "state": 6,
+    "last_state_change_date": 1749160154,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Admin",
+        "Moderation",
+        "Staff",
+        "Vanish"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Matthww",
+            "sqrrrrl"
+        ],
+        "Contributor": [
+            "MistakingManx",
+            "ItzxDwi",
+            "githubdontbanmeagain"
+        ]
+    },
+    "state_name": "Featured",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "800f8c34f23e2aa1805b0dd97a5f47e0b1979bb9",
+            "build_id": 156926
+        }
+    ]
+}

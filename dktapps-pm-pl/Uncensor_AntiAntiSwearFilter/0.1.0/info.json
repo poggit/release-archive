@@ -1,0 +1,55 @@
+{
+    "id": 2142,
+    "name": "AntiAntiSwearFilter",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiAntiSwearFilter/0.1.0",
+    "tagline": "[DEPRECATED] Rebranded to Uncensor",
+    "artifact_url": "https://poggit.pmmp.io/r/47091",
+    "downloads": 2043,
+    "score": 4,
+    "repo_id": 99370026,
+    "repo_name": "dktapps-pm-pl/Uncensor",
+    "project_id": 4370,
+    "project_name": "AntiAntiSwearFilter",
+    "build_id": 53089,
+    "build_number": 1,
+    "build_commit": "8c8ad95a4d6ffa61da884d6d5dc268e352aa416b",
+    "description_url": "https://poggit.pmmp.io/r/50064",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1544551821,
+    "state": 5,
+    "last_state_change_date": 1544594792,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "mcpe",
+        "pocketmine-plugin",
+        "swear-filter"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "dktapps"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

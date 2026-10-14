@@ -1,0 +1,63 @@
+{
+    "id": 2066,
+    "name": "LessIsMore",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/LessIsMore/1.0.2",
+    "tagline": "Create your own commands",
+    "artifact_url": "https://poggit.pmmp.io/r/46089",
+    "downloads": 295,
+    "score": null,
+    "repo_id": 72737686,
+    "repo_name": "SOF3/simple-plugins",
+    "project_id": 1974,
+    "project_name": "LessIsMore",
+    "build_id": 52494,
+    "build_number": 9,
+    "build_commit": "0518c584c4b5a6a77a6c90b1d85fdbfe15523021",
+    "description_url": "https://poggit.pmmp.io/r/46086",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/46088",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1542956240,
+    "state": 5,
+    "last_state_change_date": 1542956244,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "command",
+        "custom",
+        "form",
+        "message",
+        "rule",
+        "rules",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA11",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SOF3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

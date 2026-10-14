@@ -1,0 +1,80 @@
+{
+    "id": 4839,
+    "name": "Elevator",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Elevator/1.0.1",
+    "tagline": "A simple elevator plugin that uses signs.",
+    "artifact_url": "https://poggit.pmmp.io/r/95065",
+    "downloads": 5119,
+    "score": 5,
+    "repo_id": 258870390,
+    "repo_name": "matcracker/Elevator",
+    "project_id": 6788,
+    "project_name": "Elevator",
+    "build_id": 83048,
+    "build_number": 23,
+    "build_commit": "ac7133a941e4bd736e44218c8c123f58992a175c",
+    "description_url": "https://poggit.pmmp.io/r/97029",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/97031",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1594055345,
+    "state": 5,
+    "last_state_change_date": 1594056139,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "elevator",
+        "elevator-plugin",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin",
+        "pocketmine-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "matcracker"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "5c3d8244125f7c6370074bf10dd176bf507a4ec4",
+            "build_id": 76736
+        }
+    ]
+}

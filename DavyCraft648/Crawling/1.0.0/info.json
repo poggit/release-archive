@@ -1,0 +1,58 @@
+{
+    "id": 11936,
+    "name": "Crawling",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Crawling/1.0.0",
+    "tagline": "Crawl inside 1 block like in Minecraft: Java Edition",
+    "artifact_url": "https://poggit.pmmp.io/r/216279",
+    "downloads": 1007,
+    "score": 5,
+    "repo_id": 661596545,
+    "repo_name": "DavyCraft648/Crawling",
+    "project_id": 12724,
+    "project_name": "Crawling",
+    "build_id": 159610,
+    "build_number": 2,
+    "build_commit": "bd0ba6f658b7766232ecb3adbe9eef200c7cd695",
+    "description_url": "https://poggit.pmmp.io/r/216285",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689324054,
+    "state": 6,
+    "last_state_change_date": 1689336194,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        }
+    ],
+    "keywords": [
+        "crawl",
+        "java"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DavyCraft648"
+        ]
+    },
+    "state_name": "Featured",
+    "virions": []
+}

@@ -1,0 +1,96 @@
+{
+    "id": 4384,
+    "name": "MyEntities",
+    "version": "0.1.2",
+    "html_url": "https://poggit.pmmp.io/p/MyEntities/0.1.2",
+    "tagline": "Gives/Spawn Head and Custom entities with skin suppport and Geometry, EASILY !",
+    "artifact_url": "https://poggit.pmmp.io/r/86695",
+    "downloads": 2574,
+    "score": 5,
+    "repo_id": 205447707,
+    "repo_name": "benda95280/MyEntities",
+    "project_id": 5539,
+    "project_name": "MyEntities",
+    "build_id": 78122,
+    "build_number": 46,
+    "build_commit": "a1d6de9cda4ff139b69e13c742c8997567e8e999",
+    "description_url": "https://poggit.pmmp.io/r/86692",
+    "icon_url": "https://raw.githubusercontent.com/benda95280/MyEntities/a1d6de9cda4ff139b69e13c742c8997567e8e999/MyEntities.png",
+    "changelog_url": "https://poggit.pmmp.io/r/86694",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1589408453,
+    "state": 5,
+    "last_state_change_date": 1589583275,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "block",
+        "blocks",
+        "entities",
+        "entity",
+        "head",
+        "heads",
+        "item",
+        "items",
+        "skin",
+        "skins"
+    ],
+    "api": [
+        {
+            "from": "3.12.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "thebigsmileXD"
+        ],
+        "Contributor": [
+            "HimbeersaftLP"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "5c837b7286db8e2fc93205add6fd5d7726062225",
+            "build_id": 65699
+        },
+        {
+            "name": "customui",
+            "project_id": 772,
+            "repo_id": 99797082,
+            "repo_name": "thebigsmileXD/customui",
+            "repo_path": "customui/",
+            "build_commit": "97a8e73470057f8786e4a1f993d1971ed87cc59b",
+            "build_id": 51353
+        }
+    ]
+}

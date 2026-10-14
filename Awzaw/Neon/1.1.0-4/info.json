@@ -1,0 +1,59 @@
+{
+    "id": 1098,
+    "name": "Neon",
+    "version": "1.1.0-4",
+    "html_url": "https://poggit.pmmp.io/p/Neon/1.1.0-4",
+    "tagline": "Colour Signs Fast!",
+    "artifact_url": "https://poggit.pmmp.io/r/23231",
+    "downloads": 136,
+    "score": null,
+    "repo_id": 58728127,
+    "repo_name": "Awzaw/Neon",
+    "project_id": 9,
+    "project_name": "Neon",
+    "build_id": 35928,
+    "build_number": 25,
+    "build_commit": "ad8ea06e536a69eb8636a27cba8cd3a1a731cdd7",
+    "description_url": "https://poggit.pmmp.io/r/23228",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/Neon/ad8ea06e536a69eb8636a27cba8cd3a1a731cdd7/neonlogo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/23230",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518365742,
+    "state": 5,
+    "last_state_change_date": 1518365745,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "color",
+        "colour",
+        "signs"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

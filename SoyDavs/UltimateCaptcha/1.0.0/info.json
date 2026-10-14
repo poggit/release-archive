@@ -1,0 +1,69 @@
+{
+    "id": 13753,
+    "name": "UltimateCaptcha",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/UltimateCaptcha/1.0.0",
+    "tagline": "A super secure captcha plugin for PocketMine-MP 5",
+    "artifact_url": "https://poggit.pmmp.io/r/251470",
+    "downloads": 113,
+    "score": null,
+    "repo_id": 912281696,
+    "repo_name": "SoyDavs/UltimateCaptcha",
+    "project_id": 14470,
+    "project_name": "UltimateCaptcha",
+    "build_id": 183808,
+    "build_number": 2,
+    "build_commit": "bcc30815e4442ae1bb739f4dac4f4d8eb2615f96",
+    "description_url": "https://poggit.pmmp.io/r/251469",
+    "icon_url": "https://raw.githubusercontent.com/SoyDavs/UltimateCaptcha/bcc30815e4442ae1bb739f4dac4f4d8eb2615f96/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736108943,
+    "state": 5,
+    "last_state_change_date": 1736178122,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SoyDavs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        }
+    ]
+}

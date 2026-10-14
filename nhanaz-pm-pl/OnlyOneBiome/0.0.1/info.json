@@ -1,0 +1,58 @@
+{
+    "id": 12279,
+    "name": "OnlyOneBiome",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/OnlyOneBiome/0.0.1",
+    "tagline": "Set the biome of the entire world in your server to the biome specified in the plugin config",
+    "artifact_url": "https://poggit.pmmp.io/r/220876",
+    "downloads": 148,
+    "score": null,
+    "repo_id": 658188279,
+    "repo_name": "nhanaz-pm-pl/OnlyOneBiome",
+    "project_id": 12965,
+    "project_name": "OnlyOneBiome",
+    "build_id": 162289,
+    "build_number": 2,
+    "build_commit": "a3781a733fd7caa7a3840bf24a7cc16c88060cb0",
+    "description_url": "https://poggit.pmmp.io/r/220875",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/OnlyOneBiome/a3781a733fd7caa7a3840bf24a7cc16c88060cb0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692630382,
+    "state": 5,
+    "last_state_change_date": 1693227091,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "green",
+        "jungle",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

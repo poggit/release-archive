@@ -1,0 +1,30 @@
+<ul>
+<li>Implemented faction bank
+<ul>
+<li>/f money</li>
+<li>/f deposit</li>
+<li>/f withdraw</li>
+<li>/f top money</li>
+</ul>
+</li>
+<li>Localization improvements
+<ul>
+<li>Added <code>/f language</code> for players to change their language</li>
+<li>Allow default server language to be changed within <code>config.yml</code></li>
+<li>Moved language files to its own folder</li>
+</ul>
+</li>
+<li>New Language: German (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="622464920" data-permission-text="Title is private" data-url="https://github.com/DaPigGuy/PiggyFactions/issues/51" data-hovercard-type="pull_request" data-hovercard-url="/DaPigGuy/PiggyFactions/pull/51/hovercard" href="https://github.com/DaPigGuy/PiggyFactions/pull/51">#51</a>) by <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/SalmonDE/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SalmonDE">@SalmonDE</a></li>
+<li>Database changes
+<ul>
+<li>Added patch system</li>
+<li>Main thread is now stopped until tables are created</li>
+<li>Main thread is now stopped on disable until all PiggyFactions queries are finished</li>
+</ul>
+</li>
+<li><strong>DEVELOPERS</strong>: FactionsPlayer instance now available for most events</li>
+<li>FactionCommand now implements PluginIdentifiableCommand (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="620884715" data-permission-text="Title is private" data-url="https://github.com/DaPigGuy/PiggyFactions/issues/49" data-hovercard-type="issue" data-hovercard-url="/DaPigGuy/PiggyFactions/issues/49/hovercard" href="https://github.com/DaPigGuy/PiggyFactions/issues/49">#49</a>)</li>
+<li>Add EconomyAPI, MultiEconomy, HRKChat as a soft dependency</li>
+<li>Fixed autoclaiming not working when moving between unclaimed chunks</li>
+<li>Bump version to 1.0.5</li>
+</ul>

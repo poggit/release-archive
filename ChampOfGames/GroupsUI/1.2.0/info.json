@@ -1,0 +1,87 @@
+{
+    "id": 5129,
+    "name": "GroupsUI",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/GroupsUI/1.2.0",
+    "tagline": "Manage Groups with an UI.",
+    "artifact_url": "https://poggit.pmmp.io/r/100056",
+    "downloads": 5173,
+    "score": 3,
+    "repo_id": 246861951,
+    "repo_name": "ChampOfGames/GroupsUI",
+    "project_id": 6458,
+    "project_name": "GroupsUI",
+    "build_id": 86262,
+    "build_number": 23,
+    "build_commit": "4d9388007e798f36d1d1cb77f3f8a176d1736436",
+    "description_url": "https://poggit.pmmp.io/r/100053",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/100055",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1597423889,
+    "state": 5,
+    "last_state_change_date": 1597671773,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "GroupsUI",
+        "PureChat",
+        "PurePerms",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PureChat",
+            "version": "1.4.11",
+            "depRelId": 1547,
+            "isHard": true
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ChampOfGames"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+<h1>
+<a id="user-content-dynamicft" class="anchor" href="#dynamicft" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DynamicFT</h1>
+<p><a href="https://poggit.pmmp.io/p/DynamicFT" rel="nofollow"><img src="https://camo.githubusercontent.com/c68cc0c1a1a3e0c1a92980cf8166bcb60240ea2b1b8523d38a64e924ab0ca54d/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f44796e616d69634654" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/DynamicFT" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/DynamicFT" rel="nofollow"><img src="https://camo.githubusercontent.com/162655042525b60be4d9b3f6a73f087bf0bf4ce1e30da29b772b5c312be6a7da/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f44796e616d69634654" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/DynamicFT" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/DynamicFT" rel="nofollow"><img src="https://camo.githubusercontent.com/b4b3b4b9aed0f0932125d499b2274081365e6c6c94736b39280c09d277c5053e/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f44796e616d69634654" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/DynamicFT" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/DynamicFT" rel="nofollow"><img src="https://camo.githubusercontent.com/51f72763e4834425f761abfa88789b43b9ee313c37b544638db8c96fe6bb728f/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f44796e616d69634654" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl/DynamicFT" style="max-width:100%;"></a></p>
+<p>A useful PocketMine-MP plugin that allow user to create customizable dynamic floating text easily!</p>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<p>Main command: <code>/dynamicft</code> (Aliases: <code>dft</code>)
+Sub commands:</p>
+<ul>
+<li>
+<code>create</code> - Creates floating text</li>
+<li>
+<code>edit</code> - Lets you edit selected floating text</li>
+<li>
+<code>remove</code> - Removes selected floating text</li>
+<li>
+<code>listids</code> - Shows all floating texts in a list</li>
+</ul>
+<h1>
+<a id="user-content-tags" class="anchor" href="#tags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tags</h1>
+<h2>
+<a id="user-content-general-tags" class="anchor" href="#general-tags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General tags</h2>
+<ul>
+<li><code>{player.name}</code></li>
+<li><code>{player.display_name}</code></li>
+<li><code>{server.online}</code></li>
+<li><code>{server.max_online}</code></li>
+<li><code>{player.item.name}</code></li>
+<li><code>{player.item.id}</code></li>
+<li><code>{player.item.meta}</code></li>
+<li><code>{player.item.count}</code></li>
+<li><code>{player.x}</code></li>
+<li><code>{player.y}</code></li>
+<li><code>{player.z}</code></li>
+<li><code>{player.level.name}</code></li>
+<li><code>{player.world.name}</code></li>
+<li><code>{player.level.folder_name}</code></li>
+<li><code>{player.world.folder_name}</code></li>
+<li><code>{player.level.player_count}</code></li>
+<li><code>{player.world.player_count}</code></li>
+<li><code>{player.ip}</code></li>
+<li><code>{player.ping}</code></li>
+<li><code>{time}</code></li>
+<li><code>{date}</code></li>
+<li><code>{line}</code></li>
+</ul>
+<h2>
+<a id="user-content-economyapi-extension" class="anchor" href="#economyapi-extension" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EconomyAPI extension</h2>
+<ul>
+<li><code>{player.money}</code></li>
+</ul>
+<h2>
+<a id="user-content-factionspro-extension" class="anchor" href="#factionspro-extension" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FactionsPro extension</h2>
+<ul>
+<li><code>{player.faction.name}</code></li>
+<li><code>{player.faction.power}</code></li>
+</ul>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<h3>
+<a id="user-content-getting-the-plugin-main-class" class="anchor" href="#getting-the-plugin-main-class" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting the plugin main class</h3>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-k">use</span> <span class="pl-v">OguzhanUmutlu</span>\<span class="pl-v">DynamicFT</span>\<span class="pl-v">Main</span> <span class="pl-k">as</span> <span class="pl-v">DynamicFT</span>;</pre></div>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>dynamicft</span> = <span class="pl-v">DynamicFT</span>::<span class="pl-en">getInstance</span>();</pre></div>
+<h4>
+<a id="user-content-floating-text-properties" class="anchor" href="#floating-text-properties" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Floating text properties</h4>
+<table>
+<thead>
+<tr>
+<th>Property name</th>
+<th>Data type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>text</code></td>
+<td>string</td>
+</tr>
+<tr>
+<td><code>x</code></td>
+<td>float</td>
+</tr>
+<tr>
+<td><code>y</code></td>
+<td>float</td>
+</tr>
+<tr>
+<td><code>z</code></td>
+<td>float</td>
+</tr>
+<tr>
+<td><code>level</code></td>
+<td>string <em>(Level folder name)</em>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-getting-floating-text-properties" class="anchor" href="#getting-floating-text-properties" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting floating text properties</h3>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>dynamicft</span>-&gt;<span class="pl-c1">fts</span>[<span class="pl-s1"><span class="pl-c1">$</span>id</span>];</pre></div>
+<p>This function returns all the properties of the floating text in array</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>dynamicft</span>-&gt;<span class="pl-c1">fts</span>;</pre></div>
+<p>This function returns all floating texts</p>
+<h3>
+<a id="user-content-spawn-floating-texts-to-client-player" class="anchor" href="#spawn-floating-texts-to-client-player" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Spawn floating texts to client (player)</h3>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>idOfSpawnedFt</span> = <span class="pl-s1"><span class="pl-c1">$</span>dynamicft</span>-&gt;<span class="pl-en">spawnFt</span>(<span class="pl-s1"><span class="pl-c1">$</span>id</span>, <span class="pl-s1"><span class="pl-c1">$</span>dynamicft</span>-&gt;<span class="pl-en">getServer</span>()-&gt;<span class="pl-en">getPlayer</span>(<span class="pl-s">"aPlayerName"</span>));</pre></div>
+<p>This process will be run automatically when a player joins, when a floating text gets registered or gets updated</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>dynamicft</span>-&gt;<span class="pl-c1">ftEntities</span>[idOfSpawnedFt];</pre></div>
+<p>This returns the all the floating text particle instances detail of a floating text in array</p>
+<h4>
+<a id="user-content-result" class="anchor" href="#result" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Result</h4>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-c">/*</span>
+<span class="pl-c">[</span>
+<span class="pl-c">	"player" =&gt; \pocketmine\Player instance,</span>
+<span class="pl-c">	"particle" =&gt; \pocketmine\level\particle\FloatingTextParticle instance,</span>
+<span class="pl-c">	"id" =&gt; int</span>
+<span class="pl-c">]</span>
+<span class="pl-c">*/</span>
+<span class="pl-s1"><span class="pl-c1">$</span>idOfSpawnedFt</span> = <span class="pl-s1"><span class="pl-c1">$</span>spawnedFt</span>[<span class="pl-s">"id"</span>];</pre></div>
+<p><strong>If you want to update the text of a floating text, update with the <code>$dynamicft-&gt;ftConfig-&gt;getAll()</code> and <code>$dynamicft-&gt;ftConfig-&gt;setAll()</code> functions instead of changing the text of the floating text particle instance as it will be overwritten every second</strong></p>
+<h1>
+<a id="user-content-reporting-bugs" class="anchor" href="#reporting-bugs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reporting bugs</h1>
+<p><strong>You may open an issue on the floating text GitHub repository for report bugs</strong>
+<a href="https://github.com/OguzhanUmutlu/DynamicFT/issues">https://github.com/OguzhanUmutlu/DynamicFT/issues</a></p>

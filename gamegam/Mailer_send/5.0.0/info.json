@@ -1,0 +1,63 @@
+{
+    "id": 14250,
+    "name": "PHPMailer",
+    "version": "5.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PHPMailer/5.0.0",
+    "tagline": "A plugin that lets you send emails simply.",
+    "artifact_url": "https://poggit.pmmp.io/r/260572",
+    "downloads": 48,
+    "score": null,
+    "repo_id": 1088941091,
+    "repo_name": "gamegam/Mailer_send",
+    "project_id": 14981,
+    "project_name": "Mailer_send",
+    "build_id": 189948,
+    "build_number": 4,
+    "build_commit": "abfc6a23b730b2243094eb6fdbfcc35e1dcff93b",
+    "description_url": "https://poggit.pmmp.io/r/260571",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1762190587,
+    "state": 5,
+    "last_state_change_date": 1767543958,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "gamegam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

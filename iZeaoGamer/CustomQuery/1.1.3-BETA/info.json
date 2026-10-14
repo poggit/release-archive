@@ -1,0 +1,70 @@
+{
+    "id": 3032,
+    "name": "CustomQuery",
+    "version": "1.1.3-BETA",
+    "html_url": "https://poggit.pmmp.io/p/CustomQuery/1.1.3-BETA",
+    "tagline": "A customizable query plugin, where you can configure anything that relates to Querying your server.",
+    "artifact_url": "https://poggit.pmmp.io/r/60261",
+    "downloads": 977,
+    "score": 4,
+    "repo_id": 184046674,
+    "repo_name": "iZeaoGamer/CustomQuery",
+    "project_id": 4970,
+    "project_name": "CustomQuery",
+    "build_id": 60674,
+    "build_number": 83,
+    "build_commit": "0a02b60474ed468d3ad140e11fd1c6203084606d",
+    "description_url": "https://poggit.pmmp.io/r/60258",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/60260",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1560501187,
+    "state": 5,
+    "last_state_change_date": 1560681271,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iZeaoGamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "98aae410c391931ac9a4778ba0a0fa436a2991c5",
+            "build_id": 53471
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "b667043c0765307bffabfadc941433209c8dcd75",
+            "build_id": 56107
+        }
+    ]
+}

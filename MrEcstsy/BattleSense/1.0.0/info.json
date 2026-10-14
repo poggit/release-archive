@@ -1,0 +1,107 @@
+{
+    "id": 14096,
+    "name": "BattleSense",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BattleSense/1.0.0",
+    "tagline": "Adds real-time combat feedback and awareness tools for PvP/PvE",
+    "artifact_url": "https://poggit.pmmp.io/r/257233",
+    "downloads": 98,
+    "score": null,
+    "repo_id": 1010418281,
+    "repo_name": "MrEcstsy/BattleSense",
+    "project_id": 14793,
+    "project_name": "BattleSense",
+    "build_id": 187555,
+    "build_number": 9,
+    "build_commit": "4441a6f7ef1b25e2afedda1146db9e4ccfa1befc",
+    "description_url": "https://poggit.pmmp.io/r/257405",
+    "icon_url": "https://raw.githubusercontent.com/MrEcstsy/BattleSense/4441a6f7ef1b25e2afedda1146db9e4ccfa1befc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1751267025,
+    "state": 5,
+    "last_state_change_date": 1755029243,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MrEcstsy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "76aa3b4cdd856d1cf7ea3498eee921414e01fb97",
+            "build_id": 167816
+        },
+        {
+            "name": "MartianUtilities",
+            "project_id": 14447,
+            "repo_id": 911423063,
+            "repo_name": "MrEcstsy/MartianUtilities",
+            "repo_path": "",
+            "build_commit": "2274d6067dec1ab5e9fda54fdc342454c53fc248",
+            "build_id": 185671
+        }
+    ]
+}

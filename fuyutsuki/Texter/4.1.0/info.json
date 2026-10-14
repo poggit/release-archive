@@ -1,0 +1,93 @@
+{
+    "id": 9788,
+    "name": "Texter",
+    "version": "4.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Texter/4.1.0",
+    "tagline": "FloatingText can be added, edited, moved, and deleted in multiple worlds!",
+    "artifact_url": "https://poggit.pmmp.io/r/177080",
+    "downloads": 244,
+    "score": 5,
+    "repo_id": 109834830,
+    "repo_name": "fuyutsuki/Texter",
+    "project_id": 1101,
+    "project_name": "Texter",
+    "build_id": 134030,
+    "build_number": 181,
+    "build_commit": "3473c4f81745c724ae25bc6979b20bdd92dc607f",
+    "description_url": "https://poggit.pmmp.io/r/177082",
+    "icon_url": "https://raw.githubusercontent.com/fuyutsuki/Texter/3473c4f81745c724ae25bc6979b20bdd92dc607f/assets/Logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/177084",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/177085",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653322854,
+    "state": 5,
+    "last_state_change_date": 1653322861,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floatingtextperticle"
+    ],
+    "api": [
+        {
+            "from": "4.3.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Mineflow",
+            "version": "2.9.1",
+            "depRelId": 9453,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Translator": [
+            "SuperAdam47",
+            "SuperYYT",
+            "IvanCraft623",
+            "minijaham",
+            "VicoSilalahi",
+            "No4NaMe",
+            "TERAMMII",
+            "DragonfireHD98"
+        ],
+        "Collaborator": [
+            "fuyutsuki",
+            "xxFLORII"
+        ],
+        "Contributor": [
+            "DaisukeDaisuke",
+            "JoshuaPHYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

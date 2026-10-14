@@ -1,0 +1,37 @@
+<h3>
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h3>
+<p>RankPoints keeps track of points that are awarded to players using plugins such as VoteReward which allow you to run commands (or on console).  PurePerms ranks are set automatically according to the config when players reach a configured number of points.</p>
+<p>This plugin REQUIRES PurePerms.</p>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<p><code>/rankpoints</code> - displays your own rank points</p>
+<p><code>/rankpoints &lt;player&gt;</code> - displays rank points for a player</p>
+<p>Console or Plugin Commands:</p>
+<p><code>/rankpoints &lt;player&gt; &lt;points&gt;</code></p>
+<p>where <code>player</code> is a player's IGN (in quotes if the name contains spaces), and <code>points</code> is an integer.
+For example, put the following lines at the end of VoteRewards config.yml:</p>
+<pre><code>Commands:
+  - "rankpoints {USERNAME} 1"
+</code></pre>
+<p>Running the command <code>rankpoints awzaw 1</code> on console, will add 1 point to the player awzaw's current rank points total, then check config.yml which must be configured in this format, for example:</p>
+<pre><code>Ranks:
+  - Guest
+  - Member
+  - VIP
+Points:
+  - 0
+  - 10
+  - 50
+</code></pre>
+<p>You <strong>MUST</strong> have PurePerms installed, and the Ranks in RankPoints config.yml <strong>MUST</strong> all be existing PurePerms groups.</p>
+<h3>
+<a id="user-content-important" class="anchor" href="#important" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IMPORTANT</h3>
+<p>The first rank <strong>MUST</strong> be the default PurePerms group, with the points needed set to to zero.  Players with higher ranks, or ranks not in the Ranks config will not be deranked.</p>
+<h3>
+<a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h3>
+<p>Q: Why doesn't it work?</p>
+<p>A: You MUST have PurePerms installed, the Ranks in RankPoints config.yml MUST all be existing PurePerms groups. Also the first rank MUST be the default PurePerms group, with points set to to zero. If that doesn't help, check you are using a recent version of PurePerms.</p>
+<p>Q: Will players who get rank points ever be deranked when earning points?</p>
+<p>A: Players with a rank not listed in the RankPoints config.yml file, or above the target rank (ie who already have a higher rank in the RankPoints config) will not be deranked.</p>
+<p>Q: What can I use this plugin for?</p>
+<p>A: RankPoints is designed to give players ranks automatically according to the number of votes (with VoteReward), but can be used with any plugin that allows you to run the command "rankpoints {USERNAME} {POINTS}" where {USERNAME} is the players IGN, and {POINTS} is an integer.</p>

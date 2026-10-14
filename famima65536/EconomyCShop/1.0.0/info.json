@@ -1,0 +1,70 @@
+{
+    "id": 8462,
+    "name": "EconomyCShop",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EconomyCShop/1.0.0",
+    "tagline": "ChestShop for EconomyAPI.",
+    "artifact_url": "https://poggit.pmmp.io/r/155122",
+    "downloads": 3785,
+    "score": 5,
+    "repo_id": 65379898,
+    "repo_name": "famima65536/EconomyCShop",
+    "project_id": 9992,
+    "project_name": "EconomyCShop",
+    "build_id": 119842,
+    "build_number": 6,
+    "build_commit": "d60cc5b27819ee71add0fb019a38a43ff05628b6",
+    "description_url": "https://poggit.pmmp.io/r/165472",
+    "icon_url": "https://raw.githubusercontent.com/famima65536/EconomyCShop/d60cc5b27819ee71add0fb019a38a43ff05628b6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641027835,
+    "state": 5,
+    "last_state_change_date": 1641492714,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ChestShop",
+        "BedrockEconomy",
+        "Capital",
+        "PlayerShop"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "famima65536"
+        ],
+        "Contributor": [
+            "popkechupki"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

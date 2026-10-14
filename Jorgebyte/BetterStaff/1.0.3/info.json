@@ -1,0 +1,65 @@
+{
+    "id": 13502,
+    "name": "BetterStaff",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/BetterStaff/1.0.3",
+    "tagline": "Better StaffMode",
+    "artifact_url": "https://poggit.pmmp.io/r/247085",
+    "downloads": 717,
+    "score": null,
+    "repo_id": 793338934,
+    "repo_name": "Jorgebyte/BetterStaff",
+    "project_id": 13776,
+    "project_name": "BetterStaff",
+    "build_id": 180796,
+    "build_number": 25,
+    "build_commit": "17f1bff1c3db551fbfe1a7372d6d0436754042c6",
+    "description_url": "https://poggit.pmmp.io/r/247084",
+    "icon_url": "https://raw.githubusercontent.com/Jorgebyte/BetterStaff/17f1bff1c3db551fbfe1a7372d6d0436754042c6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1724967912,
+    "state": 5,
+    "last_state_change_date": 1730151911,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Jorgebyte"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        }
+    ]
+}

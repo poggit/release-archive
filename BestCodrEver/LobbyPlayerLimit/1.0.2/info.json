@@ -1,0 +1,67 @@
+{
+    "id": 7305,
+    "name": "LobbyPlayerLimit",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/LobbyPlayerLimit/1.0.2",
+    "tagline": "A player transfer throughout multiple lobbies with a player limit when /lobby is run.",
+    "artifact_url": "https://poggit.pmmp.io/r/136149",
+    "downloads": 158,
+    "score": 5,
+    "repo_id": 364812014,
+    "repo_name": "BestCodrEver/LobbyPlayerLimit",
+    "project_id": 9195,
+    "project_name": "LobbyPlayerLimit",
+    "build_id": 108362,
+    "build_number": 11,
+    "build_commit": "d43d29dbbd7ce03c85bc9769f3938739c8e4f9e7",
+    "description_url": "https://poggit.pmmp.io/r/136146",
+    "icon_url": "https://raw.githubusercontent.com/BestCodrEver/LobbyPlayerLimit/d43d29dbbd7ce03c85bc9769f3938739c8e4f9e7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/136148",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628384083,
+    "state": 5,
+    "last_state_change_date": 1628384601,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "customisable",
+        "lobby",
+        "player",
+        "transfer"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "BestCodrEver"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

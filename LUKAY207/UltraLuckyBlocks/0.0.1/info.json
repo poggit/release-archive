@@ -1,0 +1,58 @@
+{
+    "id": 13004,
+    "name": "UltraLuckyBlocks",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/UltraLuckyBlocks/0.0.1",
+    "tagline": "This plugin imports Lucky Blocks",
+    "artifact_url": "https://poggit.pmmp.io/r/238189",
+    "downloads": 400,
+    "score": null,
+    "repo_id": 781412103,
+    "repo_name": "LUKAY207/UltraLuckyBlocks",
+    "project_id": 13715,
+    "project_name": "UltraLuckyBlocks",
+    "build_id": 174728,
+    "build_number": 9,
+    "build_commit": "5f3ec0d5bffd2ffc63567ebc00a97b055f0945ed",
+    "description_url": "https://poggit.pmmp.io/r/238191",
+    "icon_url": "https://raw.githubusercontent.com/LUKAY207/UltraLuckyBlocks/5f3ec0d5bffd2ffc63567ebc00a97b055f0945ed/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0-only",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1714376807,
+    "state": 5,
+    "last_state_change_date": 1714838592,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Customies",
+            "version": "1.3.2",
+            "depRelId": 11928,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "LUKAY207"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

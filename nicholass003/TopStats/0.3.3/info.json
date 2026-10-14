@@ -1,0 +1,117 @@
+{
+    "id": 13554,
+    "name": "TopStats",
+    "version": "0.3.3",
+    "html_url": "https://poggit.pmmp.io/p/TopStats/0.3.3",
+    "tagline": "🏆 TopStats plugin for tracking top player statistics for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/248036",
+    "downloads": 696,
+    "score": 5,
+    "repo_id": 804454530,
+    "repo_name": "nicholass003/TopStats",
+    "project_id": 13841,
+    "project_name": "TopStats",
+    "build_id": 181468,
+    "build_number": 34,
+    "build_commit": "37f401fb43868c7b41733fc2588ac97a8a454567",
+    "description_url": "https://poggit.pmmp.io/r/248038",
+    "icon_url": "https://raw.githubusercontent.com/nicholass003/TopStats/37f401fb43868c7b41733fc2588ac97a8a454567/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/248040",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1726389593,
+    "state": 5,
+    "last_state_change_date": 1726431302,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "leaderboard",
+        "playerstats",
+        "score",
+        "statisctic",
+        "stats",
+        "top",
+        "topdeath",
+        "topkill",
+        "topleaderboard",
+        "topmine",
+        "topmoney",
+        "topplayer",
+        "topscore",
+        "topstat",
+        "topstats"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "nicholass003"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "9a22d3aa3a74d195b2c4ee52fbbb121a2c270dbe",
+            "build_id": 172169
+        },
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        }
+    ]
+}

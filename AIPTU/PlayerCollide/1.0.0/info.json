@@ -1,0 +1,67 @@
+{
+    "id": 14129,
+    "name": "PlayerCollide",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerCollide/1.0.0",
+    "tagline": "A PocketMine-MP plugin that enables player-to-player collision, applying knockback when players get too close to each other.",
+    "artifact_url": "https://poggit.pmmp.io/r/257994",
+    "downloads": 375,
+    "score": null,
+    "repo_id": 1023620223,
+    "repo_name": "AIPTU/PlayerCollide",
+    "project_id": 14834,
+    "project_name": "PlayerCollide",
+    "build_id": 188069,
+    "build_number": 1,
+    "build_commit": "d936e02e34cef90d95080dab09cb843935411d35",
+    "description_url": "https://poggit.pmmp.io/r/258116",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/PlayerCollide/d936e02e34cef90d95080dab09cb843935411d35/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1753103052,
+    "state": 6,
+    "last_state_change_date": 1754370301,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Featured",
+    "virions": []
+}

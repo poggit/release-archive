@@ -1,0 +1,54 @@
+{
+    "id": 7697,
+    "name": "FloatingTextCreator",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/FloatingTextCreator/1.0.1",
+    "tagline": "A PocketMine-MP FloatingTextCreator completely different from the others on Poggit.",
+    "artifact_url": "https://poggit.pmmp.io/r/142722",
+    "downloads": 266,
+    "score": null,
+    "repo_id": 394087886,
+    "repo_name": "vecnavium-pm-pl/FloatingTextCreator",
+    "project_id": 9473,
+    "project_name": "FloatingTextCreator",
+    "build_id": 112436,
+    "build_number": 32,
+    "build_commit": "92dfafd7bfafc4d511a3e475bfc984089e788483",
+    "description_url": "https://poggit.pmmp.io/r/145016",
+    "icon_url": "https://raw.githubusercontent.com/Vecnavium/FloatingTextCreator/92dfafd7bfafc4d511a3e475bfc984089e788483/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/145018",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632385476,
+    "state": 5,
+    "last_state_change_date": 1632444003,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SpiceX"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

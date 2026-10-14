@@ -1,0 +1,60 @@
+{
+    "id": 1612,
+    "name": "TimeRanks",
+    "version": "2.1.1",
+    "html_url": "https://poggit.pmmp.io/p/TimeRanks/2.1.1",
+    "tagline": "Add time-based ranks to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/35343",
+    "downloads": 4503,
+    "score": 3,
+    "repo_id": 23447228,
+    "repo_name": "luca28pet/TimeRanks",
+    "project_id": 3234,
+    "project_name": "TimeRanks",
+    "build_id": 44781,
+    "build_number": 1,
+    "build_commit": "e1de67d2651a7952dbd88e051d69944a7617b1c4",
+    "description_url": "https://poggit.pmmp.io/r/35342",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1530017300,
+    "state": 5,
+    "last_state_change_date": 1530017300,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "timeranks"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.2",
+            "depRelId": 1548,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "fycarman"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

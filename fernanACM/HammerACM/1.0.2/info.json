@@ -1,0 +1,81 @@
+{
+    "id": 12433,
+    "name": "HammerACM",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/HammerACM/1.0.2",
+    "tagline": "A simple hammer that breaks 3x3. For PocketMine-MP 5.0 servers only",
+    "artifact_url": "https://poggit.pmmp.io/r/223851",
+    "downloads": 1013,
+    "score": null,
+    "repo_id": 676709779,
+    "repo_name": "fernanACM/HammerACM",
+    "project_id": 12949,
+    "project_name": "HammerACM",
+    "build_id": 164347,
+    "build_number": 5,
+    "build_commit": "9a6e87de082aaaf635fff30ab37528ee5d957188",
+    "description_url": "https://poggit.pmmp.io/r/223848",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/HammerACM/9a6e87de082aaaf635fff30ab37528ee5d957188/icon-hammeracm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/223850",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1695161504,
+    "state": 5,
+    "last_state_change_date": 1695168829,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "3x3",
+        "ACM",
+        "Hammer",
+        "pickaxe"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "WorldGuard",
+            "version": "1.34-beta3",
+            "depRelId": 10156,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

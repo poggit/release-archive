@@ -1,0 +1,59 @@
+{
+    "id": 13354,
+    "name": "AlwaysEffect",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AlwaysEffect/1.0.0",
+    "tagline": "A Pocketmine-MP Plugin that works to apply effects forever in a set world",
+    "artifact_url": "https://poggit.pmmp.io/r/244726",
+    "downloads": 697,
+    "score": 5,
+    "repo_id": 833557839,
+    "repo_name": "KumaaDeveloper/AlwaysEffect",
+    "project_id": 14090,
+    "project_name": "AlwaysEffect",
+    "build_id": 179171,
+    "build_number": 1,
+    "build_commit": "83267ab8e6a049ff0a9a2d79bd8660730bf4af70",
+    "description_url": "https://poggit.pmmp.io/r/244725",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AlwaysEffect/83267ab8e6a049ff0a9a2d79bd8660730bf4af70/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721900629,
+    "state": 5,
+    "last_state_change_date": 1722008367,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Effect",
+        "AlwaysEffect",
+        "Pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

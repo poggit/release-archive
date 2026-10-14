@@ -1,0 +1,82 @@
+{
+    "id": 7686,
+    "name": "SimplePets",
+    "version": "1.0.3-beta",
+    "html_url": "https://poggit.pmmp.io/p/SimplePets/1.0.3-beta",
+    "tagline": "🐕‍🦺 An Ultimate Pets plugin for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/142591",
+    "downloads": 218,
+    "score": null,
+    "repo_id": 391216750,
+    "repo_name": "brokiem/SimplePets",
+    "project_id": 9386,
+    "project_name": "SimplePets",
+    "build_id": 112281,
+    "build_number": 90,
+    "build_commit": "be58593ac24ce3cc2bb10d39db8f077fa0f7b6ba",
+    "description_url": "https://poggit.pmmp.io/r/142588",
+    "icon_url": "https://raw.githubusercontent.com/brokiem/SimplePets/be58593ac24ce3cc2bb10d39db8f077fa0f7b6ba/assets/logo-min.png",
+    "changelog_url": "https://poggit.pmmp.io/r/142590",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632321442,
+    "state": 5,
+    "last_state_change_date": 1632329083,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "broki",
+        "pets",
+        "php7",
+        "pm4",
+        "pmmp",
+        "pmmp-plugin",
+        "simplepets"
+    ],
+    "api": [
+        {
+            "from": "3.20.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "AkmalFairuz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "307c779746e347724e9477b386d92859d1e36bcc",
+            "build_id": 109013
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "a3b121f31e2816639174da8f1c10a0a0e58643b5",
+            "build_id": 105482
+        }
+    ]
+}

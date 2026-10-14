@@ -1,0 +1,146 @@
+{
+    "id": 10938,
+    "name": "Minerware",
+    "version": "1.0.0-beta3",
+    "html_url": "https://poggit.pmmp.io/p/Minerware/1.0.0-beta3",
+    "tagline": "Minerware plugin inspired in CubeCraft's",
+    "artifact_url": "https://poggit.pmmp.io/r/200112",
+    "downloads": 176,
+    "score": 5,
+    "repo_id": 376601560,
+    "repo_name": "LatamPMDevs/Minerware",
+    "project_id": 10942,
+    "project_name": "Minerware",
+    "build_id": 150069,
+    "build_number": 113,
+    "build_commit": "f279b5d4062e1202c04dd9eb2e75d0dff989cfae",
+    "description_url": "https://poggit.pmmp.io/r/200109",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/200111",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1675095167,
+    "state": 5,
+    "last_state_change_date": 1675459647,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "cubecraft",
+        "fun",
+        "game",
+        "microgames",
+        "minigame",
+        "says",
+        "simon",
+        "simonsays"
+    ],
+    "api": [
+        {
+            "from": "4.4.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "shoghicp",
+            "IvanCraft623"
+        ],
+        "Contributor": [
+            "JustJ0rd4n",
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "ScoreFactory",
+            "project_id": 4142,
+            "repo_id": 155632824,
+            "repo_name": "Ifera/ScoreFactory",
+            "repo_path": "",
+            "build_commit": "cfb6e88b3534bbd29699c7a1b245dd86fd8886d3",
+            "build_id": 124262
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "ce75bc58d640c15af95bd24a3be053d57608092c",
+            "build_id": 124216
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        },
+        {
+            "name": "fakeblocks",
+            "project_id": 11288,
+            "repo_id": 499339817,
+            "repo_name": "IvanCraft623/fakeblocks",
+            "repo_path": "",
+            "build_commit": "131e0feae98b8fb9d4337167c0b654e9b079cc4e",
+            "build_id": 135846
+        },
+        {
+            "name": "languages",
+            "project_id": 10928,
+            "repo_id": 479753777,
+            "repo_name": "IvanCraft623/languages",
+            "repo_path": "",
+            "build_commit": "48d5bb20dd935ee2d2e87e880844551dc74e9ffa",
+            "build_id": 129273
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 11604,
+            "repo_id": 516498475,
+            "repo_name": "LatamPMDevs/FormAPI",
+            "repo_path": "",
+            "build_commit": "aa6f45a5c03b2e73f83453750c140f1597a39d9a",
+            "build_id": 140896
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "6b530538c83055f5872c9c56fe16a323edc94a01",
+            "build_id": 149519
+        }
+    ]
+}

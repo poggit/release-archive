@@ -1,0 +1,60 @@
+{
+    "id": 10669,
+    "name": "FancyGenerators",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/FancyGenerators/1.1.0",
+    "tagline": "A collection of new level Generators",
+    "artifact_url": "https://poggit.pmmp.io/r/194939",
+    "downloads": 336,
+    "score": 5,
+    "repo_id": 538625058,
+    "repo_name": "survanetwork/FancyGenerators",
+    "project_id": 11847,
+    "project_name": "FancyGenerators",
+    "build_id": 146291,
+    "build_number": 10,
+    "build_commit": "ede9148bd4ea48c5c12e5939e86e5ff2d14033db",
+    "description_url": "https://poggit.pmmp.io/r/194936",
+    "icon_url": "https://raw.githubusercontent.com/survanetwork/FancyGenerators/ede9148bd4ea48c5c12e5939e86e5ff2d14033db/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/194938",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1665574539,
+    "state": 5,
+    "last_state_change_date": 1665587236,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "generator",
+        "islands",
+        "void",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jarne"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

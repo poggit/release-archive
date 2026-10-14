@@ -1,0 +1,66 @@
+{
+    "id": 4330,
+    "name": "EasyHomes",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EasyHomes/3.0.0",
+    "tagline": "A highly customizable and easy-to-use Homes plugin which supports user as well as admin commands and forms.",
+    "artifact_url": "https://poggit.pmmp.io/r/85381",
+    "downloads": 8872,
+    "score": 5,
+    "repo_id": 157854253,
+    "repo_name": "AntiCores/EasyHomes",
+    "project_id": 4227,
+    "project_name": "EasyHomes",
+    "build_id": 77200,
+    "build_number": 27,
+    "build_commit": "ea4f41fb87316393a958bf3057f8caecb5f5290c",
+    "description_url": "https://poggit.pmmp.io/r/85378",
+    "icon_url": "https://raw.githubusercontent.com/AntiCores/EasyHomes/ea4f41fb87316393a958bf3057f8caecb5f5290c/meta/EasyHomes.png",
+    "changelog_url": "https://poggit.pmmp.io/r/85380",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588749649,
+    "state": 5,
+    "last_state_change_date": 1588828805,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Thunder33345",
+            "JackMD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

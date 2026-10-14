@@ -1,0 +1,72 @@
+{
+    "id": 11506,
+    "name": "PoliteTeleports",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PoliteTeleports/2.0.0",
+    "tagline": "A plugin which allows players to politely ask for a teleport",
+    "artifact_url": "https://poggit.pmmp.io/r/209704",
+    "downloads": 123,
+    "score": null,
+    "repo_id": 597322816,
+    "repo_name": "jasonw4331/PoliteTeleports",
+    "project_id": 12159,
+    "project_name": "PoliteTeleports",
+    "build_id": 156027,
+    "build_number": 40,
+    "build_commit": "ba45548c1177f7f06a54ba36652156ebd33b4059",
+    "description_url": "https://poggit.pmmp.io/r/209701",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/209703",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685771523,
+    "state": 5,
+    "last_state_change_date": 1685771529,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "random",
+        "randomtp",
+        "rtp",
+        "teleport",
+        "tp",
+        "tpa",
+        "tpaccept",
+        "tpall",
+        "tpask",
+        "tpdeny",
+        "tpr",
+        "tprandom"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

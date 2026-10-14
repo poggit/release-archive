@@ -1,0 +1,80 @@
+{
+    "id": 9014,
+    "name": "CapesLocker",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CapesLocker/1.0.0",
+    "tagline": "Add your own capes to the server !",
+    "artifact_url": "https://poggit.pmmp.io/r/162763",
+    "downloads": 55,
+    "score": null,
+    "repo_id": 461197349,
+    "repo_name": "Unarray/CapesLocker",
+    "project_id": 10627,
+    "project_name": "CapesLocker",
+    "build_id": 124398,
+    "build_number": 8,
+    "build_commit": "345c52d4bcdc00a922ffc0aea40f7d166fe72c06",
+    "description_url": "https://poggit.pmmp.io/r/162769",
+    "icon_url": "https://raw.githubusercontent.com/Verre2OuiSki/CapesLocker/345c52d4bcdc00a922ffc0aea40f7d166fe72c06/meta/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645321140,
+    "state": 5,
+    "last_state_change_date": 1645401595,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "cape",
+        "capeapi",
+        "capes",
+        "custom",
+        "customcape",
+        "customcapes"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Verre2OuiSki"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

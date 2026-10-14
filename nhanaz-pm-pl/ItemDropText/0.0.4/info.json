@@ -1,0 +1,63 @@
+{
+    "id": 11390,
+    "name": "ItemDropText",
+    "version": "0.0.4",
+    "html_url": "https://poggit.pmmp.io/p/ItemDropText/0.0.4",
+    "tagline": "Displays floating text that contains information of the dropped item.",
+    "artifact_url": "https://poggit.pmmp.io/r/208654",
+    "downloads": 492,
+    "score": null,
+    "repo_id": 586793847,
+    "repo_name": "nhanaz-pm-pl/ItemDropText",
+    "project_id": 12065,
+    "project_name": "ItemDropText",
+    "build_id": 155682,
+    "build_number": 13,
+    "build_commit": "e825dca1ccdf52e3839ca20bd2bfac68988ab3c7",
+    "description_url": "https://poggit.pmmp.io/r/208675",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/ItemDropText/e825dca1ccdf52e3839ca20bd2bfac68988ab3c7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208677",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685636211,
+    "state": 5,
+    "last_state_change_date": 1685637588,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "itemdisplay",
+        "itemdroptext",
+        "php",
+        "pl",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

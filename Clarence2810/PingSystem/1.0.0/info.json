@@ -1,0 +1,77 @@
+{
+    "id": 5349,
+    "name": "PingSystem",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PingSystem/1.0.0",
+    "tagline": "Advanced System about player pings",
+    "artifact_url": "https://poggit.pmmp.io/r/103753",
+    "downloads": 1058,
+    "score": 5,
+    "repo_id": 298930595,
+    "repo_name": "Clarence2810/PingSystem",
+    "project_id": 7787,
+    "project_name": "PingSystem",
+    "build_id": 88557,
+    "build_number": 1,
+    "build_commit": "6e5e832ce30426f504ddc4fe80c1b59e1c80c029",
+    "description_url": "https://poggit.pmmp.io/r/127210",
+    "icon_url": "https://raw.githubusercontent.com/Clarence2810/PingSystem/6e5e832ce30426f504ddc4fe80c1b59e1c80c029/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1601179018,
+    "state": 5,
+    "last_state_change_date": 1602440497,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "advanced",
+        "clarence28",
+        "kick",
+        "network",
+        "ping",
+        "playertag",
+        "remind",
+        "system",
+        "tag"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Clarence2810"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

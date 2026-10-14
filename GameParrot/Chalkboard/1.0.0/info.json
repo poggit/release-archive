@@ -1,0 +1,79 @@
+{
+    "id": 13949,
+    "name": "Chalkboard",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Chalkboard/1.0.0",
+    "tagline": "Pocketmine plugin that adds chalkboards",
+    "artifact_url": "https://poggit.pmmp.io/r/254811",
+    "downloads": 93,
+    "score": null,
+    "repo_id": 960704257,
+    "repo_name": "GameParrot/Chalkboard",
+    "project_id": 14652,
+    "project_name": "Chalkboard",
+    "build_id": 185897,
+    "build_number": 4,
+    "build_commit": "b363bb686edc45afba83564f0765b272b86e3899",
+    "description_url": "https://poggit.pmmp.io/r/254810",
+    "icon_url": "https://raw.githubusercontent.com/GameParrot/Chalkboard/b363bb686edc45afba83564f0765b272b86e3899/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1743809954,
+    "state": 5,
+    "last_state_change_date": 1747405959,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "big-sign",
+        "chalkboard",
+        "education-edition"
+    ],
+    "api": [
+        {
+            "from": "5.16.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GameParrot"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

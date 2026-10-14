@@ -1,0 +1,71 @@
+{
+    "id": 13875,
+    "name": "Announcer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Announcer/1.0.0",
+    "tagline": "Show informational ads in the ActionBar.",
+    "artifact_url": "https://poggit.pmmp.io/r/253454",
+    "downloads": 264,
+    "score": null,
+    "repo_id": 820044526,
+    "repo_name": "tstarkdev/Announcer",
+    "project_id": 13967,
+    "project_name": "Announcer",
+    "build_id": 185055,
+    "build_number": 3,
+    "build_commit": "6f5d65662257aa7a12a11f70cdf1a90c2cba7fc5",
+    "description_url": "https://poggit.pmmp.io/r/253453",
+    "icon_url": "https://raw.githubusercontent.com/t-starks/Announcer/6f5d65662257aa7a12a11f70cdf1a90c2cba7fc5/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1740022208,
+    "state": 5,
+    "last_state_change_date": 1743041602,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "t-starks"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,74 @@
+{
+    "id": 13767,
+    "name": "Sell",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/Sell/1.0.4",
+    "tagline": "Sell, SellAll ect.",
+    "artifact_url": "https://poggit.pmmp.io/r/251638",
+    "downloads": 529,
+    "score": null,
+    "repo_id": 715261479,
+    "repo_name": "Terpz710/Sell",
+    "project_id": 13346,
+    "project_name": "Sell",
+    "build_id": 183911,
+    "build_number": 23,
+    "build_commit": "c973b1d8665ef4d5dc1ed88a09818be4787585a3",
+    "description_url": "https://poggit.pmmp.io/r/251635",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/Sell/c973b1d8665ef4d5dc1ed88a09818be4787585a3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/251637",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736501816,
+    "state": 5,
+    "last_state_change_date": 1736636397,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "BedrockEconomy",
+        "Economy",
+        "EconomyAPI",
+        "EconomyPE",
+        "Money",
+        "Sell",
+        "SellAll"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Wildan-dev461"
+        ],
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

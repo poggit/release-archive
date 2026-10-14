@@ -1,0 +1,76 @@
+{
+    "id": 9079,
+    "name": "HotBlock",
+    "version": "1.1.7",
+    "html_url": "https://poggit.pmmp.io/p/HotBlock/1.1.7",
+    "tagline": "A funny PvP minigame",
+    "artifact_url": "https://poggit.pmmp.io/r/163681",
+    "downloads": 491,
+    "score": 5,
+    "repo_id": 51218370,
+    "repo_name": "survanetwork/HotBlock",
+    "project_id": 386,
+    "project_name": "HotBlock",
+    "build_id": 124968,
+    "build_number": 61,
+    "build_commit": "c8b197bcc95ea6bac4057bc24d35196db2919fdc",
+    "description_url": "https://poggit.pmmp.io/r/163677",
+    "icon_url": "https://raw.githubusercontent.com/survanetwork/HotBlock/c8b197bcc95ea6bac4057bc24d35196db2919fdc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/163679",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/163680",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645532353,
+    "state": 5,
+    "last_state_change_date": 1645635551,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "block",
+        "economy",
+        "minigame",
+        "pvp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "jarne"
+        ],
+        "Contributor": [
+            "SOF3",
+            "Tr0j4n9",
+            "Fanzho666"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

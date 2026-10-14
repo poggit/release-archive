@@ -1,0 +1,83 @@
+{
+    "id": 12372,
+    "name": "BanSystem",
+    "version": "3.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BanSystem/3.0.1",
+    "tagline": "The best system to moderate your server and punish players!",
+    "artifact_url": "https://poggit.pmmp.io/r/222771",
+    "downloads": 1332,
+    "score": null,
+    "repo_id": 460247878,
+    "repo_name": "r3pt1s/BanSystem",
+    "project_id": 11291,
+    "project_name": "BanSystem",
+    "build_id": 163587,
+    "build_number": 31,
+    "build_commit": "287cf6aeb15b7987db8eb3a9feea73493954ba93",
+    "description_url": "https://poggit.pmmp.io/r/222773",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/222775",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1694350369,
+    "state": 5,
+    "last_state_change_date": 1694405683,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "ban",
+        "bansystem",
+        "BanUI",
+        "cheats",
+        "hacker",
+        "punish",
+        "punishment",
+        "tempban",
+        "TempBanUI"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "r3pt1s"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        }
+    ]
+}

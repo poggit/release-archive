@@ -1,0 +1,114 @@
+{
+    "id": 12452,
+    "name": "BetterItemID",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterItemID/3.0.0",
+    "tagline": "The best ItemID for PocketMine-MP 5.0 servers. Special use for builders.",
+    "artifact_url": "https://poggit.pmmp.io/r/224351",
+    "downloads": 3599,
+    "score": null,
+    "repo_id": 489835591,
+    "repo_name": "fernanACM/BetterItemID",
+    "project_id": 11099,
+    "project_name": "BetterItemID",
+    "build_id": 164705,
+    "build_number": 27,
+    "build_commit": "dbe9707d5823108d62d29bb901ad0fc251f5f731",
+    "description_url": "https://poggit.pmmp.io/r/224348",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/BetterItemID/dbe9707d5823108d62d29bb901ad0fc251f5f731/icon-betteritemid.png",
+    "changelog_url": "https://poggit.pmmp.io/r/224350",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1695371949,
+    "state": 5,
+    "last_state_change_date": 1695543309,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "BetterID",
+        "BetterItem",
+        "Block",
+        "ID",
+        "Item",
+        "ItemID"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "bc68c93d91f0099e1d8ae724e133b42f3dac36cb",
+            "build_id": 159503
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

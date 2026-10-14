@@ -1,0 +1,76 @@
+{
+    "id": 10341,
+    "name": "EconomyCShop",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EconomyCShop/2.0.0",
+    "tagline": "ChestShop for BedrockEconomy/Capital",
+    "artifact_url": "https://poggit.pmmp.io/r/187729",
+    "downloads": 2868,
+    "score": 5,
+    "repo_id": 65379898,
+    "repo_name": "famima65536/EconomyCShop",
+    "project_id": 9992,
+    "project_name": "EconomyCShop",
+    "build_id": 141300,
+    "build_number": 13,
+    "build_commit": "a0296b06d72505c6f590ea2a69f1bcdf00769970",
+    "description_url": "https://poggit.pmmp.io/r/187726",
+    "icon_url": "https://raw.githubusercontent.com/famima65536/EconomyCShop/a0296b06d72505c6f590ea2a69f1bcdf00769970/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/187728",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1658829144,
+    "state": 5,
+    "last_state_change_date": 1659367562,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ChestShop",
+        "BedrockEconomy",
+        "Capital",
+        "PlayerShop"
+    ],
+    "api": [
+        {
+            "from": "4.1.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Capital",
+            "version": "0.1.2",
+            "depRelId": 9198,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "famima65536"
+        ],
+        "Contributor": [
+            "popkechupki"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

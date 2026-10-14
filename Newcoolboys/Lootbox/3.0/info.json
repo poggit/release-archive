@@ -1,0 +1,84 @@
+{
+    "id": 12685,
+    "name": "Lootbox",
+    "version": "3.0",
+    "html_url": "https://poggit.pmmp.io/p/Lootbox/3.0",
+    "tagline": "Create and configure lootboxes with unique properties, including name, display name, identifier, and animation type.",
+    "artifact_url": "https://poggit.pmmp.io/r/230375",
+    "downloads": 598,
+    "score": 4,
+    "repo_id": 710094471,
+    "repo_name": "Newcoolboys/Lootbox",
+    "project_id": 13319,
+    "project_name": "Lootbox",
+    "build_id": 169333,
+    "build_number": 4,
+    "build_commit": "e96d6b85fefd48cfe341f312ed7d23ef67d60870",
+    "description_url": "https://poggit.pmmp.io/r/230374",
+    "icon_url": "https://raw.githubusercontent.com/Newcoolboys/Lootbox/e96d6b85fefd48cfe341f312ed7d23ef67d60870/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1703304354,
+    "state": 5,
+    "last_state_change_date": 1704942643,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "lootbox",
+        "mcpe-lootbox"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "davidgamingzz",
+            "Newcoolboys"
+        ],
+        "Contributor": [
+            "DretooFuni"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "706e307d705ef8fe20653bebd04a18b1d9b3e47a",
+            "build_id": 161792
+        }
+    ]
+}

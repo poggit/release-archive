@@ -1,0 +1,86 @@
+{
+    "id": 6111,
+    "name": "Texter",
+    "version": "3.4.14",
+    "html_url": "https://poggit.pmmp.io/p/Texter/3.4.14",
+    "tagline": "This is a PocketMine-MP plugin that can add, edit, move and remove FloatingTextParticle.",
+    "artifact_url": "https://poggit.pmmp.io/r/117825",
+    "downloads": 727,
+    "score": 4,
+    "repo_id": 109834830,
+    "repo_name": "fuyutsuki/Texter",
+    "project_id": 1101,
+    "project_name": "Texter",
+    "build_id": 97953,
+    "build_number": 164,
+    "build_commit": "904aecde0fc5dd2859d419d8d38735d0c3e67061",
+    "description_url": "https://poggit.pmmp.io/r/117821",
+    "icon_url": "https://raw.githubusercontent.com/fuyutsuki/Texter/904aecde0fc5dd2859d419d8d38735d0c3e67061/assets/Logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/117823",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/117824",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1615648632,
+    "state": 5,
+    "last_state_change_date": 1615650025,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floatingtextperticle"
+    ],
+    "api": [
+        {
+            "from": "3.15.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "SuperAdam47",
+            "SuperYYT",
+            "IvanCraft623",
+            "minijaham",
+            "VicoSilalahi",
+            "No4NaMe",
+            "TERAMMII",
+            "DragonfireHD98"
+        ],
+        "Collaborator": [
+            "fuyutsuki",
+            "xxFLORII"
+        ],
+        "Contributor": [
+            "DaisukeDaisuke",
+            "JoshuaPHYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

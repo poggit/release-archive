@@ -1,0 +1,69 @@
+{
+    "id": 5681,
+    "name": "PersonaSkin",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/PersonaSkin/1.1.1",
+    "tagline": "Support for persona skin (it created via character creators)",
+    "artifact_url": "https://poggit.pmmp.io/r/110176",
+    "downloads": 1144,
+    "score": 4,
+    "repo_id": 285251608,
+    "repo_name": "presentkim-pm/PersonaSkin",
+    "project_id": 7566,
+    "project_name": "PersonaSkin",
+    "build_id": 93049,
+    "build_number": 14,
+    "build_commit": "2cec53db0be135c535607818193a55a912d91663",
+    "description_url": "https://poggit.pmmp.io/r/178517",
+    "icon_url": "https://raw.githubusercontent.com/PresentKim/PersonaSkin/2cec53db0be135c535607818193a55a912d91663/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1607565910,
+    "state": 5,
+    "last_state_change_date": 1609091527,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "charactor",
+        "charactor-creator",
+        "charactor-skin",
+        "persona",
+        "personaskin",
+        "presentkim",
+        "skin"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PresentKim"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "png-converter",
+            "project_id": 8012,
+            "repo_id": 312723395,
+            "repo_name": "presentkim-pm/png-converter",
+            "repo_path": "",
+            "build_commit": "d4d94f444a34f587be8bacd0743700ae70eb154a",
+            "build_id": 91525
+        }
+    ]
+}

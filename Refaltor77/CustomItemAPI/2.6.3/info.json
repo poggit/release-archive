@@ -1,0 +1,86 @@
+{
+    "id": 9299,
+    "name": "CustomItemAPI",
+    "version": "2.6.3",
+    "html_url": "https://poggit.pmmp.io/p/CustomItemAPI/2.6.3",
+    "tagline": "An API plugin to add items",
+    "artifact_url": "https://poggit.pmmp.io/r/167374",
+    "downloads": 233,
+    "score": 5,
+    "repo_id": 442890333,
+    "repo_name": "Refaltor77/CustomItemAPI",
+    "project_id": 10255,
+    "project_name": "CustomItemAPI",
+    "build_id": 127271,
+    "build_number": 36,
+    "build_commit": "1eb1c57e8836d8c0b34b103be8250c5b42ce3202",
+    "description_url": "https://poggit.pmmp.io/r/167371",
+    "icon_url": "https://raw.githubusercontent.com/Refaltor77/CustomItemAPI/1eb1c57e8836d8c0b34b103be8250c5b42ce3202/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/167373",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647454442,
+    "state": 5,
+    "last_state_change_date": 1647480269,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "API",
+        "APIItems",
+        "CustomItem",
+        "CustomItemAPI",
+        "CustomPickaxe",
+        "CustomShovel",
+        "CustomSword",
+        "CustomSwordShovel",
+        "CustomToom",
+        "Items",
+        "newIds",
+        "newItem",
+        "newSword",
+        "SwordItem"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

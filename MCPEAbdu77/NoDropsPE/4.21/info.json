@@ -1,0 +1,77 @@
+{
+    "id": 12234,
+    "name": "NoDropsPE",
+    "version": "4.21",
+    "html_url": "https://poggit.pmmp.io/p/NoDropsPE/4.21",
+    "tagline": "PocketMine-MP plugin that inhibits players from dropping items.",
+    "artifact_url": "https://poggit.pmmp.io/r/220199",
+    "downloads": 370,
+    "score": null,
+    "repo_id": 400649668,
+    "repo_name": "MCPEAbdu77/NoDropsPE",
+    "project_id": 9611,
+    "project_name": "NoDropsPE",
+    "build_id": 141990,
+    "build_number": 11,
+    "build_commit": "20e1ed122e0276d8cc9bd5b519a93127ca5d6f5a",
+    "description_url": "https://poggit.pmmp.io/r/220196",
+    "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/NoDropsPE/20e1ed122e0276d8cc9bd5b519a93127ca5d6f5a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220198",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692170364,
+    "state": 5,
+    "last_state_change_date": 1692186439,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "block",
+        "drops",
+        "inhibit",
+        "items",
+        "nodrop",
+        "nodrops",
+        "remove",
+        "trash",
+        "trashbin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MCPEAbdu77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

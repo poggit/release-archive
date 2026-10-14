@@ -1,0 +1,104 @@
+{
+    "id": 14280,
+    "name": "TopStats",
+    "version": "0.3.6",
+    "html_url": "https://poggit.pmmp.io/p/TopStats/0.3.6",
+    "tagline": "🏆 TopStats plugin for tracking top player statistics for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/261506",
+    "downloads": 79,
+    "score": null,
+    "repo_id": 804454530,
+    "repo_name": "nicholass003/TopStats",
+    "project_id": 13841,
+    "project_name": "TopStats",
+    "build_id": 190598,
+    "build_number": 69,
+    "build_commit": "25aa5061ec041e8717bc3ddacf6d62dca4a762e9",
+    "description_url": "https://poggit.pmmp.io/r/261503",
+    "icon_url": "https://raw.githubusercontent.com/nicholass003/TopStats/25aa5061ec041e8717bc3ddacf6d62dca4a762e9/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/261505",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1765638104,
+    "state": 5,
+    "last_state_change_date": 1765684852,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "leaderboard",
+        "playerstats",
+        "score",
+        "statisctic",
+        "stats",
+        "top",
+        "topdeath",
+        "topkill",
+        "topleaderboard",
+        "topmine",
+        "topmoney",
+        "topplayer",
+        "topscore",
+        "topstat",
+        "topstats"
+    ],
+    "api": [
+        {
+            "from": "5.36.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "TopVoter",
+            "version": "3.3.0",
+            "depRelId": 12217,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "nicholass003"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,72 @@
+{
+    "id": 7724,
+    "name": "Anti-Interrupt",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Anti-Interrupt/0.0.1",
+    "tagline": "With this plugin you no longer need to worry about someone interrupting your 1vs1.",
+    "artifact_url": "https://poggit.pmmp.io/r/143264",
+    "downloads": 119,
+    "score": 5,
+    "repo_id": 409599271,
+    "repo_name": "Phqzing/Anti-Interrupt",
+    "project_id": 9778,
+    "project_name": "Anti-Interrupt",
+    "build_id": 112778,
+    "build_number": 22,
+    "build_commit": "0d9a5c71f8eeb499b3ba8605b195d6e2cc4be867",
+    "description_url": "https://poggit.pmmp.io/r/143263",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632718941,
+    "state": 5,
+    "last_state_change_date": 1632894724,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "Anti",
+        "AntiInterrupt",
+        "Interrupt",
+        "NoInterrupt"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Phqzing"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,66 @@
+{
+    "id": 9585,
+    "name": "SimpleFly",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/SimpleFly/0.0.2",
+    "tagline": "This is a plugin for pocketmine-mp, plugin help fly in survival.",
+    "artifact_url": "https://poggit.pmmp.io/r/173223",
+    "downloads": 1365,
+    "score": 4,
+    "repo_id": 451055349,
+    "repo_name": "Taylor-pm-pl/SimpleFly",
+    "project_id": 10391,
+    "project_name": "SimpleFly",
+    "build_id": 131340,
+    "build_number": 5,
+    "build_commit": "a4aaaf524f2452ee723a603a3586d50973efbd9b",
+    "description_url": "https://poggit.pmmp.io/r/173220",
+    "icon_url": "https://raw.githubusercontent.com/David-pm-pl/SimpleFly/a4aaaf524f2452ee723a603a3586d50973efbd9b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/173222",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1651303382,
+    "state": 5,
+    "last_state_change_date": 1651684581,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "flight",
+        "fly",
+        "mode",
+        "player",
+        "pmmp",
+        "survial"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

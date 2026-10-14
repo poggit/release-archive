@@ -1,0 +1,79 @@
+{
+    "id": 7102,
+    "name": "CustomItem",
+    "version": "2.0.0-beta",
+    "html_url": "https://poggit.pmmp.io/p/CustomItem/2.0.0-beta",
+    "tagline": "Plugin to add items",
+    "artifact_url": "https://poggit.pmmp.io/r/132951",
+    "downloads": 1812,
+    "score": 5,
+    "repo_id": 376623991,
+    "repo_name": "Refaltor77/CustomItem",
+    "project_id": 9120,
+    "project_name": "CustomItem",
+    "build_id": 106459,
+    "build_number": 26,
+    "build_commit": "a2500b50920499c73307a01379fbdc2ed6dc588b",
+    "description_url": "https://poggit.pmmp.io/r/132948",
+    "icon_url": "https://raw.githubusercontent.com/Refaltor77/CustomItem/a2500b50920499c73307a01379fbdc2ed6dc588b/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/132950",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626769735,
+    "state": 5,
+    "last_state_change_date": 1626879350,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "addItem",
+        "customItem",
+        "CustomItemLoader",
+        "Item",
+        "itemms",
+        "items",
+        "newItem"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "natof"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

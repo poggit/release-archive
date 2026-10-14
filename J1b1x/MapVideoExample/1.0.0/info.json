@@ -1,0 +1,89 @@
+{
+    "id": 13339,
+    "name": "MapVideo",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MapVideo/1.0.0",
+    "tagline": "With this plugin you can play videos on maps.",
+    "artifact_url": "https://poggit.pmmp.io/r/244578",
+    "downloads": 31,
+    "score": null,
+    "repo_id": 728378704,
+    "repo_name": "J1b1x/MapVideoExample",
+    "project_id": 13418,
+    "project_name": "MapVideoExample",
+    "build_id": 179098,
+    "build_number": 16,
+    "build_commit": "2d96d0e36458c9b4750fc0371f13c3242e858020",
+    "description_url": "https://poggit.pmmp.io/r/244577",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721785555,
+    "state": 5,
+    "last_state_change_date": 1721785980,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "gif",
+        "map",
+        "video"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "J1b1x"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "MapVideo",
+            "project_id": 14084,
+            "repo_id": 727975341,
+            "repo_name": "J1b1x/MapVideo",
+            "repo_path": "",
+            "build_commit": "4ff9fd3c3d82e46ed1530528d69f179364afa652",
+            "build_id": 179084
+        }
+    ]
+}

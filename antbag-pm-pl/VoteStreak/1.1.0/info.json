@@ -1,0 +1,101 @@
+{
+    "id": 12458,
+    "name": "VoteStreak",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/VoteStreak/1.1.0",
+    "tagline": "A plugin that implements votestreaks",
+    "artifact_url": "https://poggit.pmmp.io/r/224637",
+    "downloads": 234,
+    "score": 5,
+    "repo_id": 677299145,
+    "repo_name": "antbag-pm-pl/VoteStreak",
+    "project_id": 12920,
+    "project_name": "VoteStreak",
+    "build_id": 164545,
+    "build_number": 75,
+    "build_commit": "bbb81dc62c0f9916388b164032cf4452af2f1161",
+    "description_url": "https://poggit.pmmp.io/r/224634",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/224636",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1695569294,
+    "state": 5,
+    "last_state_change_date": 1696030845,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "pmmp-game",
+        "pmmp-plugin",
+        "pocketmine",
+        "pocketmine-mp",
+        "vote",
+        "voterewards",
+        "votestreak"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Voting38",
+            "version": "0.0.2",
+            "depRelId": 9310,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "antbag-dev"
+        ],
+        "Contributor": [
+            "skyss0fly"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "26fac36e585c1b6d5a10a99bdcb70f6539b397aa",
+            "build_id": 157517
+        },
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "bc68c93d91f0099e1d8ae724e133b42f3dac36cb",
+            "build_id": 159503
+        }
+    ]
+}

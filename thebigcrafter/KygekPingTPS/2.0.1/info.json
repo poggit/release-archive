@@ -1,0 +1,89 @@
+{
+    "id": 10001,
+    "name": "KygekPingTPS",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/KygekPingTPS/2.0.1",
+    "tagline": "See server TPS and a player's ping",
+    "artifact_url": "https://poggit.pmmp.io/r/181540",
+    "downloads": 694,
+    "score": null,
+    "repo_id": 289434454,
+    "repo_name": "thebigcrafter/KygekPingTPS",
+    "project_id": 7651,
+    "project_name": "KygekPingTPS",
+    "build_id": 137243,
+    "build_number": 28,
+    "build_commit": "538fa369633a8aab6eb6d796a378c908a2e3fcbd",
+    "description_url": "https://poggit.pmmp.io/r/181537",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/KygekPingTPS/538fa369633a8aab6eb6d796a378c908a2e3fcbd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/181539",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1655145615,
+    "state": 5,
+    "last_state_change_date": 1655181665,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekping",
+        "kygekpingtps",
+        "kygekraqmak",
+        "kygekraqmakping",
+        "kygekraqmakpingtps",
+        "kygekraqmaktps",
+        "kygektps",
+        "ping",
+        "pingtps",
+        "playerping",
+        "servertps",
+        "tps"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "KygekDev"
+        ],
+        "Contributor": [
+            "KRUNCHSHooT",
+            "Kygekraqmak",
+            "tobydev27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ktpmpl-cfs",
+            "project_id": 9131,
+            "repo_id": 376406148,
+            "repo_name": "thebigcrafter/ktpmpl-cfs",
+            "repo_path": "",
+            "build_commit": "81bc77f89058fbb4f10c8b60c67ca28e78fb66c3",
+            "build_id": 131683
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "id": 10650,
+    "name": "Calculator",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/Calculator/0.0.3",
+    "tagline": "Execute math expressions in the server or console on PocketMine-MP servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/194531",
+    "downloads": 16,
+    "score": null,
+    "repo_id": 540745713,
+    "repo_name": "nhanaz-pm-pl/Calculator",
+    "project_id": 11854,
+    "project_name": "Calculator",
+    "build_id": 146220,
+    "build_number": 23,
+    "build_commit": "8437392cf78f136762bf983e288c7b12451acae3",
+    "description_url": "https://poggit.pmmp.io/r/194853",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/Calculator/8437392cf78f136762bf983e288c7b12451acae3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/194855",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1665037968,
+    "state": 5,
+    "last_state_change_date": 1665071982,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "calculator",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "arithmexp",
+            "project_id": 9397,
+            "repo_id": 391817412,
+            "repo_name": "Muqsit/arithmexp",
+            "repo_path": "",
+            "build_commit": "2e110a4ef4f03894db470361bf8c039b7f4ac5e2",
+            "build_id": 146219
+        }
+    ]
+}

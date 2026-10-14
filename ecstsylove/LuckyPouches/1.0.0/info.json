@@ -1,0 +1,80 @@
+{
+    "id": 12579,
+    "name": "LuckyPouches",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LuckyPouches/1.0.0",
+    "tagline": "Reward your players in a unique way in your Pocketmine-MP server!",
+    "artifact_url": "https://poggit.pmmp.io/r/228516",
+    "downloads": 26,
+    "score": null,
+    "repo_id": 714585564,
+    "repo_name": "ecstsylove/LuckyPouches",
+    "project_id": 13327,
+    "project_name": "LuckyPouches",
+    "build_id": 168041,
+    "build_number": 16,
+    "build_commit": "78a3981c05ff803109e3dd86767d56ac47255531",
+    "description_url": "https://poggit.pmmp.io/r/228519",
+    "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/LuckyPouches/78a3981c05ff803109e3dd86767d56ac47255531/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1699771251,
+    "state": 5,
+    "last_state_change_date": 1701294678,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "lucky",
+        "luckypouch",
+        "luckypouches",
+        "pouch",
+        "pouches"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "iLVOEWOCK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

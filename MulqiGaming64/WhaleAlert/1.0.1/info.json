@@ -1,0 +1,80 @@
+{
+    "id": 9090,
+    "name": "WhaleAlert",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/WhaleAlert/1.0.1",
+    "tagline": "a Plugin Alert for Big pay Transaction Economys",
+    "artifact_url": "https://poggit.pmmp.io/r/163816",
+    "downloads": 21,
+    "score": null,
+    "repo_id": 461683614,
+    "repo_name": "MulqiGaming64/WhaleAlert",
+    "project_id": 10641,
+    "project_name": "WhaleAlert",
+    "build_id": 125041,
+    "build_number": 4,
+    "build_commit": "52e14316b4d32aed2bd91bf6ac7c794134ae2b48",
+    "description_url": "https://poggit.pmmp.io/r/163813",
+    "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/WhaleAlert/52e14316b4d32aed2bd91bf6ac7c794134ae2b48/icons.png",
+    "changelog_url": "https://poggit.pmmp.io/r/163815",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645598323,
+    "state": 5,
+    "last_state_change_date": 1645635609,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.5",
+            "depRelId": 9088,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MulqiGaming64"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

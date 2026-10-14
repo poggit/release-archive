@@ -1,0 +1,63 @@
+{
+    "id": 8264,
+    "name": "LiveXYZ",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LiveXYZ/1.0.0",
+    "tagline": "Show real-time player coordinates",
+    "artifact_url": "https://poggit.pmmp.io/r/151645",
+    "downloads": 1694,
+    "score": null,
+    "repo_id": 59561284,
+    "repo_name": "dktapps-pm-pl/LiveXYZ",
+    "project_id": 164,
+    "project_name": "LiveXYZ",
+    "build_id": 117639,
+    "build_number": 38,
+    "build_commit": "c5c3841a50ee828302ba99472c0aa6442895158d",
+    "description_url": "https://poggit.pmmp.io/r/151642",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/151644",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1639059263,
+    "state": 5,
+    "last_state_change_date": 1639059284,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "coordinates",
+        "xyz"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "dktapps"
+        ],
+        "Contributor": [
+            "CaitiffMCPE",
+            "XuPaperCup",
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

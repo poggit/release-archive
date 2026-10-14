@@ -1,0 +1,66 @@
+{
+    "id": 9514,
+    "name": "InventoryKeepChance",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/InventoryKeepChance/0.0.3",
+    "tagline": "Chance of keeping inventory when player dies",
+    "artifact_url": "https://poggit.pmmp.io/r/171409",
+    "downloads": 355,
+    "score": 5,
+    "repo_id": 444311984,
+    "repo_name": "Taylor-pm-pl/InventoryKeepChance",
+    "project_id": 10263,
+    "project_name": "InventoryKeepChance",
+    "build_id": 129896,
+    "build_number": 8,
+    "build_commit": "40b3ffacdf19e79fbe5e29503c81371e7cb872bd",
+    "description_url": "https://poggit.pmmp.io/r/171459",
+    "icon_url": "https://raw.githubusercontent.com/David-pm-pl/InventoryKeepChance/40b3ffacdf19e79fbe5e29503c81371e7cb872bd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/171461",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1650108422,
+    "state": 5,
+    "last_state_change_date": 1650181808,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "dealth",
+        "keep",
+        "keepinventory",
+        "player",
+        "plugin",
+        "pmmp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

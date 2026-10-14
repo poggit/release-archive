@@ -1,0 +1,58 @@
+{
+    "id": 8543,
+    "name": "AntiHunger",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiHunger/1.0.0",
+    "tagline": "You will never go hungry when using this plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/156234",
+    "downloads": 2011,
+    "score": 5,
+    "repo_id": 445448088,
+    "repo_name": "NoobMCBG/AntiHunger",
+    "project_id": 10278,
+    "project_name": "AntiHunger",
+    "build_id": 120369,
+    "build_number": 16,
+    "build_commit": "c6e3556a102939b7fcb988057a6a52aaa16ced15",
+    "description_url": "https://poggit.pmmp.io/r/157810",
+    "icon_url": "https://raw.githubusercontent.com/NoobMCBG/AntiHunger/c6e3556a102939b7fcb988057a6a52aaa16ced15/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641694600,
+    "state": 5,
+    "last_state_change_date": 1642888798,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "hunger",
+        "nohunger"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NoobMCBG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

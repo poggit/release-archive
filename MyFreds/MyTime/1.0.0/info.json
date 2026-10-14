@@ -1,0 +1,74 @@
+{
+    "id": 13467,
+    "name": "MyTime",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MyTime/1.0.0",
+    "tagline": "Control your own in-game time to match your preferred gameplay.",
+    "artifact_url": "https://poggit.pmmp.io/r/246558",
+    "downloads": 125,
+    "score": null,
+    "repo_id": 833703519,
+    "repo_name": "MyFreds/MyTime",
+    "project_id": 14093,
+    "project_name": "MyTime",
+    "build_id": 180404,
+    "build_number": 6,
+    "build_commit": "0c84b50a91bfe7dbec53d71ff4a487384e0a81ed",
+    "description_url": "https://poggit.pmmp.io/r/246557",
+    "icon_url": "https://raw.githubusercontent.com/MyFreds/MyTime/0c84b50a91bfe7dbec53d71ff4a487384e0a81ed/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1724163935,
+    "state": 5,
+    "last_state_change_date": 1724867337,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "mytime",
+        "playertime",
+        "time"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MyFreds"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "476235381a3908847c069496d04ec5b07b3011e8",
+            "build_id": 176854
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "8121eca3f21cb9912c3ac8406a11f70cf105c905",
+            "build_id": 176820
+        }
+    ]
+}

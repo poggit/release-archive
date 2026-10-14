@@ -1,0 +1,64 @@
+{
+    "id": 14060,
+    "name": "BetterCoinFlip",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterCoinFlip/1.0.0",
+    "tagline": "A PocketMine-MP CoinFlip plugin made for 5.0 servers",
+    "artifact_url": "https://poggit.pmmp.io/r/256618",
+    "downloads": 142,
+    "score": null,
+    "repo_id": 992479868,
+    "repo_name": "DaDevGuy/BetterCoinFlip",
+    "project_id": 14743,
+    "project_name": "BetterCoinFlip",
+    "build_id": 187127,
+    "build_number": 2,
+    "build_commit": "5d0bf549033959a5973df2cc6e998a8e3383a693",
+    "description_url": "https://poggit.pmmp.io/r/256617",
+    "icon_url": "https://raw.githubusercontent.com/DaDevGuy/BetterCoinFlip/5d0bf549033959a5973df2cc6e998a8e3383a693/assets/images/coin.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1749244400,
+    "state": 5,
+    "last_state_change_date": 1749448176,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "coinflip",
+        "coinflipper",
+        "minecraft",
+        "minecraft-mod",
+        "minecraft-plugin",
+        "pmmp",
+        "pocketmine",
+        "poggit"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DaDevGuy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

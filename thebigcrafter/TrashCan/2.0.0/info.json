@@ -1,0 +1,69 @@
+{
+    "id": 11610,
+    "name": "Trash_Can",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Trash_Can/2.0.0",
+    "tagline": "Add trash can to PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/211176",
+    "downloads": 223,
+    "score": null,
+    "repo_id": 440170771,
+    "repo_name": "thebigcrafter/TrashCan",
+    "project_id": 10172,
+    "project_name": "TrashCan",
+    "build_id": 156648,
+    "build_number": 11,
+    "build_commit": "d789d7a33aaa65312e011595ecdbe7e834e7b874",
+    "description_url": "https://poggit.pmmp.io/r/211173",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/211175",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686206597,
+    "state": 5,
+    "last_state_change_date": 1686238147,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "trashcan",
+        "trash",
+        "bin"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "nmtho"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "20ffa94a2dde27d51274e43d498835d608a6f861",
+            "build_id": 155625
+        }
+    ]
+}

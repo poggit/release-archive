@@ -1,0 +1,67 @@
+{
+    "id": 8746,
+    "name": "SayWelcome",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SayWelcome/1.0.0",
+    "tagline": "Say welcome to new players, and earn rewards for your kindness !",
+    "artifact_url": "https://poggit.pmmp.io/r/159039",
+    "downloads": 198,
+    "score": null,
+    "repo_id": 453157451,
+    "repo_name": "Verre2OuiSki/SayWelcome",
+    "project_id": 10462,
+    "project_name": "SayWelcome",
+    "build_id": 122212,
+    "build_number": 6,
+    "build_commit": "7e290ae861a64ff7c22663f6cacdb2dea8da7e84",
+    "description_url": "https://poggit.pmmp.io/r/159047",
+    "icon_url": "https://raw.githubusercontent.com/Verre2OuiSki/SayWelcome/7e290ae861a64ff7c22663f6cacdb2dea8da7e84/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643491550,
+    "state": 5,
+    "last_state_change_date": 1644639920,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "hello",
+        "saywelcome",
+        "welcome"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Verre2OuiSki"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

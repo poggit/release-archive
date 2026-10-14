@@ -1,0 +1,74 @@
+{
+    "id": 3140,
+    "name": "Rewards",
+    "version": "3.0",
+    "html_url": "https://poggit.pmmp.io/p/Rewards/3.0",
+    "tagline": "Let your players claim cooldowned rewards!",
+    "artifact_url": "https://poggit.pmmp.io/r/61850",
+    "downloads": 2976,
+    "score": 5,
+    "repo_id": 176027454,
+    "repo_name": "Wertzui123/Rewards",
+    "project_id": 4827,
+    "project_name": "Rewards",
+    "build_id": 61685,
+    "build_number": 60,
+    "build_commit": "a7ddeaca5b78779abb51913df05f0bed78b2d8b3",
+    "description_url": "https://poggit.pmmp.io/r/73113",
+    "icon_url": "https://raw.githubusercontent.com/Wertzui123/Rewards/a7ddeaca5b78779abb51913df05f0bed78b2d8b3/Rewards-Plugin.png",
+    "changelog_url": "https://poggit.pmmp.io/r/73115",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1562495310,
+    "state": 5,
+    "last_state_change_date": 1562761081,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "cooldown",
+        "fun",
+        "plugin",
+        "pocketmine",
+        "reward",
+        "rewards",
+        "wertzui123"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SuperAdam47"
+        ],
+        "Collaborator": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

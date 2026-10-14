@@ -1,0 +1,64 @@
+{
+    "id": 405,
+    "name": "RolePlay",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/RolePlay/1.1.0",
+    "tagline": "Tired of typing /me?",
+    "artifact_url": "https://poggit.pmmp.io/r/7657",
+    "downloads": 127,
+    "score": null,
+    "repo_id": 60903492,
+    "repo_name": "Awzaw/RolePlay",
+    "project_id": 49,
+    "project_name": "RolePlay",
+    "build_id": 25052,
+    "build_number": 13,
+    "build_commit": "fd5defbf22a41e768d66fd6ecaadd61251a1ea50",
+    "description_url": "https://poggit.pmmp.io/r/7653",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/RolePlay/fd5defbf22a41e768d66fd6ecaadd61251a1ea50/roleplay.png",
+    "changelog_url": "https://poggit.pmmp.io/r/7655",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1498751114,
+    "state": 5,
+    "last_state_change_date": 1501607867,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "roleplay",
+        "me",
+        "rp",
+        "chat"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA5",
+            "to": "3.0.0-ALPHA6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

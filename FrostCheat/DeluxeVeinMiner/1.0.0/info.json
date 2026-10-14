@@ -1,0 +1,101 @@
+{
+    "id": 14079,
+    "name": "DeluxeVeinMiner",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DeluxeVeinMiner/1.0.0",
+    "tagline": "DeluxeVeinMiner allows players to mine entire veins of minerals or connected blocks by simply breaking a single one.",
+    "artifact_url": "https://poggit.pmmp.io/r/256977",
+    "downloads": 417,
+    "score": 3,
+    "repo_id": 1005864273,
+    "repo_name": "FrostCheat/DeluxeVeinMiner",
+    "project_id": 14779,
+    "project_name": "DeluxeVeinMiner",
+    "build_id": 187376,
+    "build_number": 3,
+    "build_commit": "c169bc1b10825e224ff08f44c0de8c8e450f6edc",
+    "description_url": "https://poggit.pmmp.io/r/262433",
+    "icon_url": "https://raw.githubusercontent.com/FrostCheat/DeluxeVeinMiner/c169bc1b10825e224ff08f44c0de8c8e450f6edc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1750483108,
+    "state": 5,
+    "last_state_change_date": 1750767418,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "deluxe",
+        "dvm",
+        "miner",
+        "vein",
+        "veinminer"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "FrostCheat"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12585,
+            "repo_id": 649339852,
+            "repo_name": "LatamPMDevs/Commando",
+            "repo_path": "",
+            "build_commit": "adc7b7e14a86e7e36ea32024d6fba3cace1b72e9",
+            "build_id": 159643
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 12634,
+            "repo_id": 653680575,
+            "repo_name": "LatamPMDevs/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "44cbbec61a047e3120884f8410c154a4182c4426",
+            "build_id": 157397
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 12635,
+            "repo_id": 653680934,
+            "repo_name": "LatamPMDevs/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c3a71ae577df5b5f174e4c2bb99d76182d05b420",
+            "build_id": 157396
+        }
+    ]
+}

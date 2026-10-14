@@ -1,0 +1,57 @@
+{
+    "id": 11266,
+    "name": "Spyglass",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/Spyglass/1.2.0",
+    "tagline": "Vanilla Spyglass",
+    "artifact_url": "https://poggit.pmmp.io/r/206589",
+    "downloads": 424,
+    "score": 5,
+    "repo_id": 446719826,
+    "repo_name": "ItsRealNise/Spyglass",
+    "project_id": 10314,
+    "project_name": "Spyglass",
+    "build_id": 154350,
+    "build_number": 16,
+    "build_commit": "c67233e3b6c61b0ac77156c978688e8ddb302cf3",
+    "description_url": "https://poggit.pmmp.io/r/206586",
+    "icon_url": "https://raw.githubusercontent.com/ItsRealNise/Spyglass/c67233e3b6c61b0ac77156c978688e8ddb302cf3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/206588",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1683506974,
+    "state": 5,
+    "last_state_change_date": 1683517752,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        }
+    ],
+    "keywords": [
+        "Spyglass"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ItsRealNise"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

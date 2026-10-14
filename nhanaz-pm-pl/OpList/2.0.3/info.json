@@ -1,0 +1,60 @@
+{
+    "id": 11407,
+    "name": "OpList",
+    "version": "2.0.3",
+    "html_url": "https://poggit.pmmp.io/p/OpList/2.0.3",
+    "tagline": "Show list of operators",
+    "artifact_url": "https://poggit.pmmp.io/r/208783",
+    "downloads": 587,
+    "score": null,
+    "repo_id": 454874843,
+    "repo_name": "nhanaz-pm-pl/OpList",
+    "project_id": 10512,
+    "project_name": "OpList",
+    "build_id": 155718,
+    "build_number": 14,
+    "build_commit": "d47a0e512263c242baf4ba10ffd14ca4a947d4de",
+    "description_url": "https://poggit.pmmp.io/r/208780",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/OpList/d47a0e512263c242baf4ba10ffd14ca4a947d4de/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208782",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685639628,
+    "state": 5,
+    "last_state_change_date": 1685639805,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "oplist",
+        "ops",
+        "php",
+        "pmmp",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NgLam2911"
+        ],
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,61 @@
+{
+    "id": 10762,
+    "name": "VClearChat",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VClearChat/1.0.0",
+    "tagline": "- One plugin ClearChat for PocketMine-PMMP 4",
+    "artifact_url": "https://poggit.pmmp.io/r/196693",
+    "downloads": 140,
+    "score": 5,
+    "repo_id": 556351351,
+    "repo_name": "VennDev/VClearChat",
+    "project_id": 11923,
+    "project_name": "VClearChat",
+    "build_id": 147605,
+    "build_number": 6,
+    "build_commit": "59ff6dc21069ca798e3b9d071792a3808e4003cf",
+    "description_url": "https://poggit.pmmp.io/r/196692",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1667665915,
+    "state": 5,
+    "last_state_change_date": 1667779969,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "clearchat"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VennDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

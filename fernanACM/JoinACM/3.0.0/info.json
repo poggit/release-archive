@@ -1,0 +1,127 @@
+{
+    "id": 11538,
+    "name": "JoinACM",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/JoinACM/3.0.0",
+    "tagline": "Simple custom JoinUI for PocketMine-MP 5.0 by fernanACM",
+    "artifact_url": "https://poggit.pmmp.io/r/210074",
+    "downloads": 271,
+    "score": null,
+    "repo_id": 435824033,
+    "repo_name": "fernanACM/JoinACM",
+    "project_id": 10090,
+    "project_name": "JoinACM",
+    "build_id": 156205,
+    "build_number": 54,
+    "build_commit": "5053617b2d3a301fa603c3627b8c834c21a76647",
+    "description_url": "https://poggit.pmmp.io/r/210631",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/JoinACM/5053617b2d3a301fa603c3627b8c834c21a76647/icon-joinacm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/210633",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685851351,
+    "state": 5,
+    "last_state_change_date": 1685852539,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Animaton",
+        "Book",
+        "Join",
+        "JoinACM",
+        "JoinUI"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "869e1a734f63b5592bf3b962b992d195b52ad507",
+            "build_id": 156159
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        },
+        {
+            "name": "libBook",
+            "project_id": 11860,
+            "repo_id": 541800167,
+            "repo_name": "cooldogepm/libBook",
+            "repo_path": "",
+            "build_commit": "631ec2195bc766d94e2990c36ca7d2e3498a0091",
+            "build_id": 156183
+        }
+    ]
+}

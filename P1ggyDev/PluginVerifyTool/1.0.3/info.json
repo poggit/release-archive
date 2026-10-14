@@ -1,0 +1,58 @@
+{
+    "id": 5618,
+    "name": "PluginVerifyTool",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/PluginVerifyTool/1.0.3",
+    "tagline": "PocketMine's plugin verification tool using SHA256 hash",
+    "artifact_url": "https://poggit.pmmp.io/r/109116",
+    "downloads": 1933,
+    "score": 4,
+    "repo_id": 316400844,
+    "repo_name": "P1ggyDev/PluginVerifyTool",
+    "project_id": 8071,
+    "project_name": "PluginVerifyTool",
+    "build_id": 92341,
+    "build_number": 10,
+    "build_commit": "e07e8454941847c5282e392098f7f289eb1618a7",
+    "description_url": "https://poggit.pmmp.io/r/109115",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1606632084,
+    "state": 5,
+    "last_state_change_date": 1606710334,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "sha256",
+        "verify"
+    ],
+    "api": [
+        {
+            "from": "3.16.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "P1ggyDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,94 @@
+{
+    "id": 1332,
+    "name": "MyStats",
+    "version": "1.4.11",
+    "html_url": "https://poggit.pmmp.io/p/MyStats/1.4.11",
+    "tagline": "The most customizable HUD plugin for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/28953",
+    "downloads": 295,
+    "score": null,
+    "repo_id": 88903500,
+    "repo_name": "CzechPMDevs/MyStats",
+    "project_id": 391,
+    "project_name": "MyStats",
+    "build_id": 40166,
+    "build_number": 109,
+    "build_commit": "e1897b6d56cdab9f4dedff4b6f74820f176f6bae",
+    "description_url": "https://poggit.pmmp.io/r/28950",
+    "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/MyStats/e1897b6d56cdab9f4dedff4b6f74820f176f6bae/MyStats/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/28952",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1524908923,
+    "state": 5,
+    "last_state_change_date": 1524908923,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "stats"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.1-3",
+            "depRelId": 855,
+            "isHard": false
+        },
+        {
+            "name": "FactionsPro",
+            "version": "1.3.11-7",
+            "depRelId": 858,
+            "isHard": false
+        },
+        {
+            "name": "FactionsProBeta",
+            "version": "1.4.5-9",
+            "depRelId": 859,
+            "isHard": false
+        },
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-4",
+            "depRelId": 878,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "GamakCZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

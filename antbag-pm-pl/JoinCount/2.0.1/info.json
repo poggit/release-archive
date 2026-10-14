@@ -1,0 +1,69 @@
+{
+    "id": 12247,
+    "name": "JoinCount",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/JoinCount/2.0.1",
+    "tagline": "This is a pocketmine plugin which tells you that a player has first time joined and it’s number",
+    "artifact_url": "https://poggit.pmmp.io/r/220365",
+    "downloads": 45,
+    "score": null,
+    "repo_id": 667883505,
+    "repo_name": "antbag-pm-pl/JoinCount",
+    "project_id": 12807,
+    "project_name": "JoinCount",
+    "build_id": 162024,
+    "build_number": 51,
+    "build_commit": "56eba9abcc566b3be823eee981635f7735e95f35",
+    "description_url": "https://poggit.pmmp.io/r/220362",
+    "icon_url": "https://raw.githubusercontent.com/antbag-pm-pl/JoinCount/56eba9abcc566b3be823eee981635f7735e95f35/group.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220364",
+    "license": "GPL-3.0+",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692285528,
+    "state": 5,
+    "last_state_change_date": 1692360465,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "antbag-dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libBedrock",
+            "project_id": 11911,
+            "repo_id": 551801316,
+            "repo_name": "NhanAZ-Libraries/libBedrock",
+            "repo_path": "",
+            "build_commit": "c74c2a1157ec15eb8434a5afeffda205bc01745e",
+            "build_id": 162023
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+<ul>
+<li>Forgot to do that
+<ul>
+<li>
+<ul>
+<li>Fixed code format.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added function strlen to use list in NotificationThread.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>PHPStan fixes + other little fixes
+<ul>
+<li>
+<ul>
+<li>Removed PHPDocs in Libs.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added check before binding parameters in SQLThread class.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Check if iddList is empty before doing other process in NotificationThread.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Now if the player has no notificaation, getPlayerNotifications($player) will return an empty array.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>PigNotify V3.0.0
+<ul>
+<li>
+<ul>
+<li>Rewrote the way the threads are called and ran.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Renamed DisplayTask to DispatchNotifications.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Renamed CheckNotifications to NotificationThread.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Renamed MySQLThread to SQLThread.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Fixed inconsistances in the code format.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>renamed sharedStore Volatile to 'container'.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Fixed some PHPDocs.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Fixed typo in config.yml</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Removed delete-on-disconnect feature.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Updated version 2.0.0 --&gt; 3.0.0.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Moved plugin configs into 'container[1]'</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Moved Notification objects into the 'container[2]'</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added 'container[0]['players']' array to store the list of player usernames in the server.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added 'container[3]' to stop the NotificationThread onDisable()</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added 'container[1]['MySQL']' to store MySQL connection info.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Removed the repeatingTask that was creating the notification objects and storing them in the old notificationList array and instead moved the process over ProcessThread in the NotificationThread class.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Changed the way NotificationThread is repeating by making it repeat itself in it's own class.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added onDisable() event to stop the NotificationThread.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Updated getPlayerNotifications($player) to match the new sharedStore name (container).</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Renamed $notificationList to $toDelete in deleteNotifications($toDelete).</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added OnJoin() event to add the player to the container[0]['players'].</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Edited OnLeave() event to work with the container instead of the array.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Notification class now extends Volatile.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Now MainForm from the UI class will sort the notification list of the player.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Now SQLThread constructor requires you to supply an array with 'data' and 'types' (example data =&gt; 'CupidonSauce173', 1, 2, types =&gt; 'sii').</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Updated all methods that calls SQLThread.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Update SimpleForm.php</li>
+</ul>

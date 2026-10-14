@@ -1,0 +1,169 @@
+<h1 align="center">
+<a id="user-content-multiworld" class="anchor" href="#multiworld" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MultiWorld</h1>
+<br>
+<p align="center"> MultiWorld Ported to PocketMine </p>
+<br>
+<p align="center">
+	<a href="https://poggit.pmmp.io/p/MultiWorld" rel="nofollow">
+		<img src="https://camo.githubusercontent.com/0b3cee2258a00774047daafd31b6eefd38f92933/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f4d756c7469576f726c64" alt="state" data-canonical-src="https://poggit.pmmp.io/shield.state/MultiWorld" style="max-width:100%;">
+	</a>
+	<a href="https://poggit.pmmp.io/p/MultiWorld" rel="nofollow">
+		<img src="https://camo.githubusercontent.com/2ddb9d67e55122c97e2c12c085d3c638cab50de2/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f4d756c7469576f726c64" alt="shield" data-canonical-src="https://poggit.pmmp.io/shield.api/MultiWorld" style="max-width:100%;">
+	</a> 
+	<a href="https://poggit.pmmp.io/p/MultiWorld" rel="nofollow">
+		<img src="https://camo.githubusercontent.com/2d3a5d61e50a6a5b140dd8307cb8f2e1c59fd7e4/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f4d756c7469576f726c64" alt="total-downloads" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/MultiWorld" style="max-width:100%;">
+	</a>
+</p>
+<p align="center">World Management commands <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2714.png">✔️</g-emoji></p>
+<p align="center">MultiLanguage support <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2714.png">✔️</g-emoji></p>
+<p align="center">More generators <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2714.png">✔️</g-emoji></p>
+<p align="center">Latest PocketMine-MP API Support <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/2714.png">✔️</g-emoji></p>
+<br>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands:</h3>
+<p><strong>All commands in MultiWorld:</strong></p>
+<ul>
+<li>
+<p>Create Command:</p>
+<ul>
+<li>usage: /mw create  [seed] [generator]</li>
+<li>permission: mw.cmd.create</li>
+<li>aliases: add, new, generate</li>
+<li>generators: Normal, Flat, Nether</li>
+</ul>
+</li>
+<li>
+<p>Teleport Command:</p>
+<ul>
+<li>usage: /mw teleport  [player]</li>
+<li>permission: mw.cmd.teleport</li>
+<li>aliases: tp</li>
+</ul>
+</li>
+<li>
+<p>List Command:</p>
+<ul>
+<li>usage: /mw list</li>
+<li>permission: mw.cmd.list</li>
+<li>aliases: ls</li>
+</ul>
+</li>
+<li>
+<p>Help Command:</p>
+<ul>
+<li>usage: /mw help</li>
+<li>permission: mw.cmd.help</li>
+<li>aliases: ?</li>
+</ul>
+</li>
+<li>
+<p>Delete Command:</p>
+<ul>
+<li>usage: /mw delete </li>
+<li>permission: mw.cmd.delete</li>
+<li>aliases: rm, del, remove</li>
+</ul>
+</li>
+<li>
+<p>Load Command:</p>
+<ul>
+<li>usage: /mw load </li>
+<li>permission: mw.cmd.load</li>
+<li>aliases: ld</li>
+</ul>
+</li>
+<li>
+<p>Unload Command:</p>
+<ul>
+<li>usage: /mw unload </li>
+<li>permission: mw.cmd.unload</li>
+<li>aliases: unld</li>
+</ul>
+</li>
+<li>
+<p>Update Command:</p>
+<ul>
+<li>usage: /mw update &lt;spawn|lobby|defaultlevel&gt; [options]</li>
+<li>permissions: mw.cmd.updete</li>
+<li>aliases: upte, ue</li>
+</ul>
+</li>
+<li>
+<p>Info Command:</p>
+<ul>
+<li>usage: /mw info</li>
+<li>permissions: mw.cmd.info</li>
+<li>aliases: i</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions:</h3>
+<ul>
+<li>
+<p>Permission to all command: <strong>mw. cmd</strong></p>
+</li>
+<li>
+<p><strong>Other</strong> permissions:</p>
+<ul>
+<li>mw.cmd.help:
+<ul>
+<li>Allows player to use /mw help</li>
+<li>Default: op</li>
+</ul>
+</li>
+<li>mw.cmd.create:
+<ul>
+<li>Allows player to use /mw create</li>
+<li>Default: op</li>
+</ul>
+</li>
+<li>mw.cmd.teleport:
+<ul>
+<li>Allows player to use /mw teleport</li>
+<li>Default: op</li>
+</ul>
+</li>
+<li>mw.cmd.list:
+<ul>
+<li>Allows player to use /mw list</li>
+<li>Default: op</li>
+</ul>
+</li>
+<li>mw.cmd.load:
+<ul>
+<li>Allows player to use /mw load</li>
+<li>Default: op</li>
+</ul>
+</li>
+<li>mw.cmd.unload:
+<ul>
+<li>Allows player to use /mw unload</li>
+<li>Default: op</li>
+</ul>
+</li>
+<li>mw.cmd.delete:
+<ul>
+<li>Allows player to use /mw delete</li>
+<li>Default: op</li>
+</ul>
+</li>
+<li>mw.cmd.info:
+<ul>
+<li>Allows player to use /mw info</li>
+<li>Default: op</li>
+</ul>
+</li>
+<li>mw.cmd.update:
+<ul>
+<li>Allows player to use /mw update</li>
+<li>Default: op</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits:</h3>
+<div>Icon made by <a href="http://www.freepik.com" title="Freepik" rel="nofollow">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" rel="nofollow">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" rel="nofollow">CC 3.0 BY</a>
+</div>

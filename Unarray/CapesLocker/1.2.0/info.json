@@ -1,0 +1,80 @@
+{
+    "id": 9241,
+    "name": "CapesLocker",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/CapesLocker/1.2.0",
+    "tagline": "Add your own capes to the server !",
+    "artifact_url": "https://poggit.pmmp.io/r/166177",
+    "downloads": 2644,
+    "score": 5,
+    "repo_id": 461197349,
+    "repo_name": "Unarray/CapesLocker",
+    "project_id": 10627,
+    "project_name": "CapesLocker",
+    "build_id": 126438,
+    "build_number": 14,
+    "build_commit": "7df2cc939feb11968ff543184b45090b0f27de26",
+    "description_url": "https://poggit.pmmp.io/r/166187",
+    "icon_url": "https://raw.githubusercontent.com/Verre2OuiSki/CapesLocker/7df2cc939feb11968ff543184b45090b0f27de26/meta/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/166189",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646921139,
+    "state": 5,
+    "last_state_change_date": 1647001532,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "cape",
+        "capeapi",
+        "capes",
+        "custom",
+        "customcape",
+        "customcapes"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Verre2OuiSki"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

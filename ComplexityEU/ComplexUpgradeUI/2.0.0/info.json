@@ -1,0 +1,78 @@
+{
+    "id": 8426,
+    "name": "ComplexUpgradeUI",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ComplexUpgradeUI/2.0.0",
+    "tagline": "Upgrade your tools in a UI using XP!",
+    "artifact_url": "https://poggit.pmmp.io/r/154587",
+    "downloads": 303,
+    "score": null,
+    "repo_id": 255299520,
+    "repo_name": "ComplexityEU/ComplexUpgradeUI",
+    "project_id": 6887,
+    "project_name": "ComplexUpgradeUI",
+    "build_id": 119573,
+    "build_number": 8,
+    "build_commit": "92c78ea22cd0a7f81584aa8b138a941188933749",
+    "description_url": "https://poggit.pmmp.io/r/154584",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/154586",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1640789638,
+    "state": 5,
+    "last_state_change_date": 1640790196,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "enchanting",
+        "enchants",
+        "upgrade",
+        "upgradeui"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DuoIncure"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libDynamicForms",
+            "project_id": 5378,
+            "repo_id": 198849996,
+            "repo_name": "BreathTakinglyBinary/libDynamicForms",
+            "repo_path": "",
+            "build_commit": "4b322ebda238998b77da1d8948cb3d408a850804",
+            "build_id": 117857
+        }
+    ]
+}

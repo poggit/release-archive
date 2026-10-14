@@ -1,0 +1,68 @@
+{
+    "id": 8815,
+    "name": "CustomCraftDraz",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/CustomCraftDraz/1.0.4",
+    "tagline": "One plugin custom craft for pmmp",
+    "artifact_url": "https://poggit.pmmp.io/r/159901",
+    "downloads": 577,
+    "score": 5,
+    "repo_id": 244626749,
+    "repo_name": "Taylor-pm-pl/CustomCraftDraz",
+    "project_id": 6407,
+    "project_name": "CustomCraftDraz",
+    "build_id": 122701,
+    "build_number": 34,
+    "build_commit": "82fda318957d6bcfdee61e3909178d782c6ad87c",
+    "description_url": "https://poggit.pmmp.io/r/167496",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/167498",
+    "license": "epl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643980839,
+    "state": 5,
+    "last_state_change_date": 1644100728,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "craft",
+        "custom",
+        "player",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "hachkingtohach1",
+            "DavidGlitch04"
+        ],
+        "Contributor": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

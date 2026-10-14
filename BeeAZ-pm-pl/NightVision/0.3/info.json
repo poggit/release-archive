@@ -1,0 +1,53 @@
+{
+    "id": 9040,
+    "name": "NightVision",
+    "version": "0.3",
+    "html_url": "https://poggit.pmmp.io/p/NightVision/0.3",
+    "tagline": "Add a feature to see in the dark when players use command",
+    "artifact_url": "https://poggit.pmmp.io/r/163069",
+    "downloads": 412,
+    "score": 4,
+    "repo_id": 455739084,
+    "repo_name": "BeeAZ-pm-pl/NightVision",
+    "project_id": 10527,
+    "project_name": "NightVision",
+    "build_id": 124580,
+    "build_number": 12,
+    "build_commit": "f4c6d3924b857bc155c08f282f58cf523eda5eac",
+    "description_url": "https://poggit.pmmp.io/r/163068",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZZ/NightVision/f4c6d3924b857bc155c08f282f58cf523eda5eac/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645405633,
+    "state": 5,
+    "last_state_change_date": 1645521712,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "NightVision"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

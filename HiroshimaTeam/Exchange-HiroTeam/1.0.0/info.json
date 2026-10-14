@@ -1,0 +1,80 @@
+{
+    "id": 4534,
+    "name": "ExChange-HiroTeam",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ExChange-HiroTeam/1.0.0",
+    "tagline": "ExChange/Bourse Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/89010",
+    "downloads": 27,
+    "score": null,
+    "repo_id": 266581737,
+    "repo_name": "HiroshimaTeam/Exchange-HiroTeam",
+    "project_id": 7020,
+    "project_name": "Exchange-HiroTeam",
+    "build_id": 79522,
+    "build_number": 10,
+    "build_commit": "967a6b6bfa80f3c42bf81d8a0c8b776d48e1e8e9",
+    "description_url": "https://poggit.pmmp.io/r/91523",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/Exchange-HiroTeam/967a6b6bfa80f3c42bf81d8a0c8b776d48e1e8e9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1590481398,
+    "state": 5,
+    "last_state_change_date": 1591843869,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "exchange",
+        "mcpe",
+        "mcpe-plugin",
+        "mcpe-server",
+        "plugin",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HiroshimaTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

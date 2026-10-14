@@ -1,0 +1,37 @@
+<h1>
+<a id="user-content-information" class="anchor" href="#information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Information</h1>
+<p><a href="http://hits.dwyl.io/Xenophilicy/NaviCompass" rel="nofollow"><img src="https://camo.githubusercontent.com/9a29352447c659a1b8472bb3d61843da4825fa2e/687474703a2f2f686974732e6477796c2e696f2f58656e6f7068696c6963792f4e617669436f6d706173732e737667" alt="HitCount" data-canonical-src="http://hits.dwyl.io/Xenophilicy/NaviCompass.svg" style="max-width:100%;"></a>
+<a href="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" alt="" data-canonical-src="https://img.shields.io/discord/490677165289897995.svg?style=flat-square" style="max-width:100%;"></a></p>
+<p>With this plugin you can allow your players to transfer between your server network with simplicity. <strong>NaviCompass</strong> is a plugin that uses <strong>FormAPI</strong> to easily display your servers listed in a simple UI. Its simple, all you need to do is enter the server IPs and Ports along with a label to show up in the UI, all inside the config file. After that, the plugin will do the rest and you're good to go! Players will either have option to interact with the selector item (can be changed in the config.yml), or type <em>/servers</em> in chat to get the server UI in your selected slot in the hotbar (can be changed in the config.yml). Pictures can also be added via the config by simply using a link or a path to display an image with your server or world!</p>
+<h1>
+<a id="user-content-usage--examples" class="anchor" href="#usage--examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage &amp; Examples</h1>
+<h3>
+<a id="user-content-there-are-two-ways-to-use-the-plugin" class="anchor" href="#there-are-two-ways-to-use-the-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>There are two ways to use the plugin:</h3>
+<ul>
+<li>/servers → Opens the server UI</li>
+<li>Use the selector item set in the config.yml to view the UI</li>
+</ul>
+<hr>
+<h3>
+<a id="user-content-here-is-a-great-example-of-how-the-plugin-will-look" class="anchor" href="#here-is-a-great-example-of-how-the-plugin-will-look" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Here is a great example of how the plugin will look:</h3>
+<h2>
+<a id="" class="anchor" href="#" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href=""><img src="https://camo.githubusercontent.com/0349c5a893b793915f8796523f5fea289ae6199d/68747470733a2f2f692e696d6775722e636f6d2f493571764169542e706e67" alt="Xenophilicy" data-canonical-src="https://i.imgur.com/I5qvAiT.png" style="max-width:100%;"></a>
+</h2>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<h3>
+<a id="user-content-selector--ui-customization" class="anchor" href="#selector--ui-customization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Selector &amp; UI Customization</h3>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Selector-Support</span>: <span class="pl-c1">true</span></pre></div>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Selector-Item</span>: <span class="pl-c1">345</span></pre></div>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Selector-Slot</span>: <span class="pl-c1">0</span></pre></div>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Selector-Name</span>: <span class="pl-s"><span class="pl-pds">"</span>§l§aServer Selector<span class="pl-pds">"</span></span></pre></div>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">UI-Title</span>: <span class="pl-s"><span class="pl-pds">"</span>§9Server List<span class="pl-pds">"</span></span></pre></div>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">UI-Message</span>: <span class="pl-s"><span class="pl-pds">"</span>§aChoose a server to transfer to!<span class="pl-pds">"</span></span></pre></div>
+<h3>
+<a id="user-content-entry-listing" class="anchor" href="#entry-listing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Entry Listing</h3>
+<p>This is where you list your servers/worlds to be displayed on the server UI. You can use '§' and '&amp;' on the labels to colorize your entries inside the UI!</p>
+<p>You can add servers using this format → ServerTitle:ServerIP:ServerPort:ImageType:Path/URL
+You can add worlds using this format → WorldTitle:WorldAlias:ImageType:Path/URL</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">List</span>:
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;l&amp;6Lobby §eServer:xenoservers.ddns.net:19132:url:i.imgur.com/bgoM5jd.png<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> ← External server example</span>
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;l&amp;5Creative:creative:url:i.imgur.com/8pbNECc.png<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> ← Internal world example</span></pre></div>

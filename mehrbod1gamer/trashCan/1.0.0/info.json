@@ -1,0 +1,68 @@
+{
+    "id": 6145,
+    "name": "trashCan",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/trashCan/1.0.0",
+    "tagline": "spawn trashcan and put your trashes in it",
+    "artifact_url": "https://poggit.pmmp.io/r/118341",
+    "downloads": 468,
+    "score": 4,
+    "repo_id": 348085222,
+    "repo_name": "mehrbod1gamer/trashCan",
+    "project_id": 8690,
+    "project_name": "trashCan",
+    "build_id": 98247,
+    "build_number": 8,
+    "build_commit": "54b364f98d1c65bb14750b0602dc47338e35815e",
+    "description_url": "https://poggit.pmmp.io/r/118355",
+    "icon_url": "https://raw.githubusercontent.com/mehrbod1gamer/trashCan/54b364f98d1c65bb14750b0602dc47338e35815e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1615839629,
+    "state": 5,
+    "last_state_change_date": 1615849464,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "trash",
+        "trashcan"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "mehrbod1gamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "7f2db9dd194ef54c6ae072bd18eda7664bff91bf",
+            "build_id": 85494
+        }
+    ]
+}

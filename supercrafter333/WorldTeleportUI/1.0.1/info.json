@@ -1,0 +1,65 @@
+{
+    "id": 8405,
+    "name": "WorldTeleportUI",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/WorldTeleportUI/1.0.1",
+    "tagline": "With this plugin, players can teleport to a world per UI!",
+    "artifact_url": "https://poggit.pmmp.io/r/154216",
+    "downloads": 1668,
+    "score": 2,
+    "repo_id": 354955427,
+    "repo_name": "supercrafter333/WorldTeleportUI",
+    "project_id": 8811,
+    "project_name": "WorldTeleportUI",
+    "build_id": 119374,
+    "build_number": 13,
+    "build_commit": "5fa10498e4af6785277a4a77125fdc65b9e17c06",
+    "description_url": "https://poggit.pmmp.io/r/155981",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/155983",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1640565100,
+    "state": 5,
+    "last_state_change_date": 1640569946,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "bb178fbe96e80db7eb42d303d94e77497948b187",
+            "build_id": 118466
+        }
+    ]
+}

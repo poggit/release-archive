@@ -1,0 +1,72 @@
+{
+    "id": 11862,
+    "name": "FishingRod",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FishingRod/2.0.0",
+    "tagline": "Fishing Rod for PvP, plugin for Pocketmine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/214798",
+    "downloads": 1370,
+    "score": 3,
+    "repo_id": 462570840,
+    "repo_name": "MXJosueDev/FishingRod",
+    "project_id": 10727,
+    "project_name": "FishingRod",
+    "build_id": 158668,
+    "build_number": 16,
+    "build_commit": "d5310b19cc4468ee4da5897a56c3ff82bcc6ee01",
+    "description_url": "https://poggit.pmmp.io/r/214795",
+    "icon_url": "https://raw.githubusercontent.com/MXJosueDev/FishingRod/d5310b19cc4468ee4da5897a56c3ff82bcc6ee01/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/214797",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688598265,
+    "state": 5,
+    "last_state_change_date": 1688602637,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "fishing",
+        "fishing-rod",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin",
+        "pocketmine-php",
+        "pocketmine-plugin",
+        "pocketmine-plugins",
+        "rod"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MXJosueDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

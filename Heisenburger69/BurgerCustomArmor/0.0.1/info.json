@@ -1,0 +1,85 @@
+{
+    "id": 4262,
+    "name": "BurgerCustomArmor",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BurgerCustomArmor/0.0.1",
+    "tagline": "Create Custom Armor Sets with several abilities!",
+    "artifact_url": "https://poggit.pmmp.io/r/83898",
+    "downloads": 158,
+    "score": 5,
+    "repo_id": 256776211,
+    "repo_name": "Heisenburger69/BurgerCustomArmor",
+    "project_id": 6747,
+    "project_name": "BurgerCustomArmor",
+    "build_id": 76099,
+    "build_number": 14,
+    "build_commit": "9b63339dcad85f02fbd6f36af1526074aed98900",
+    "description_url": "https://poggit.pmmp.io/r/83897",
+    "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerCustomArmor/9b63339dcad85f02fbd6f36af1526074aed98900/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1587731290,
+    "state": 5,
+    "last_state_change_date": 1587733628,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "abilities",
+        "armor",
+        "armorset",
+        "burger",
+        "crafting",
+        "custom",
+        "mcmmo",
+        "php",
+        "plugin",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine",
+        "recipe",
+        "recipes",
+        "rpg",
+        "set",
+        "special"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Heisenburger69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

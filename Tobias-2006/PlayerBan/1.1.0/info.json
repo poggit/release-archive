@@ -1,0 +1,74 @@
+{
+    "id": 6722,
+    "name": "PlayerBan",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerBan/1.1.0",
+    "tagline": "BanSystem Plugin for Pocketmine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/127078",
+    "downloads": 345,
+    "score": null,
+    "repo_id": 352942843,
+    "repo_name": "Tobias-2006/PlayerBan",
+    "project_id": 8993,
+    "project_name": "PlayerBan",
+    "build_id": 103138,
+    "build_number": 7,
+    "build_commit": "dd378782b8d1b9ccd90c147d09220f4e3c3e29f1",
+    "description_url": "https://poggit.pmmp.io/r/127700",
+    "icon_url": "https://raw.githubusercontent.com/Tobias-2006/PlayerBan/dd378782b8d1b9ccd90c147d09220f4e3c3e29f1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/127702",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1622404437,
+    "state": 5,
+    "last_state_change_date": 1622425855,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "address",
+        "ban",
+        "bansystem",
+        "playerban"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Tobias-2006"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

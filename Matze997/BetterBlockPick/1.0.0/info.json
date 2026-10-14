@@ -1,0 +1,58 @@
+{
+    "id": 5291,
+    "name": "BetterBlockPick",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterBlockPick/1.0.0",
+    "tagline": "A PocketMine plugin which implements the vanilla block pick system.",
+    "artifact_url": "https://poggit.pmmp.io/r/102840",
+    "downloads": 1881,
+    "score": 4,
+    "repo_id": 295160822,
+    "repo_name": "Matze997/BetterBlockPick",
+    "project_id": 7735,
+    "project_name": "BetterBlockPick",
+    "build_id": 88009,
+    "build_number": 6,
+    "build_commit": "37f7501295174cdfa4cd4f39f7ee7dcadb12a157",
+    "description_url": "https://poggit.pmmp.io/r/102839",
+    "icon_url": "https://raw.githubusercontent.com/Matze997/BetterBlockPick/37f7501295174cdfa4cd4f39f7ee7dcadb12a157/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1600016397,
+    "state": 5,
+    "last_state_change_date": 1600027867,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "BlockPick",
+        "Pick"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Matze997"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

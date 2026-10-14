@@ -1,0 +1,61 @@
+<p>New Features:</p>
+<ul>
+<li>cylinders
+<ul>
+<li>hollow cylinders</li>
+<li>cylinder brushes</li>
+</ul>
+</li>
+<li>dynamic blocks (ignore Meta if used in block comparisons)</li>
+<li>center pattern</li>
+<li>wall pattern</li>
+<li>sides pattern</li>
+</ul>
+<p>Commands:</p>
+<ul>
+<li>Implement count command</li>
+<li>Implement extinguish command</li>
+<li>Implement walls command</li>
+<li>Implement sides command</li>
+<li>Implement status command</li>
+<li>Implement cancel command</li>
+<li>Implement benchmark command</li>
+<li>Position commands now accept coordinates
+<ul>
+<li>Send selected coordinates with message</li>
+</ul>
+</li>
+</ul>
+<p>Bug Fixes:</p>
+<ul>
+<li>Fix brushes activating when breaking blocks</li>
+<li>Fix various problems when pasting</li>
+<li>Fix problems causing a crash when undoing</li>
+<li>Fix a lot of edge-cases creating problems when copying &amp; pasting</li>
+<li>Fix stacked cube being mirrored when stacking in negative direction</li>
+<li>Fix stacked cube crashing when crossing chunk borders</li>
+<li>Move double chests correctly</li>
+</ul>
+<p>Performance Optimizations:</p>
+<ul>
+<li>Custom serialisation</li>
+<li>Implement selection splitting to more selection types
+<ul>
+<li>spheres &amp; hollow spheres</li>
+<li>cylinder &amp; hollow cylinders</li>
+<li>undo &amp; redo</li>
+<li>paste &amp; insert</li>
+</ul>
+</li>
+<li>Wait a tick before some actions to allow the server to tick normally</li>
+<li>Inject chunks directly without loading old ones first
+<ul>
+<li>decreases needed time to set Chunks by about 90%</li>
+</ul>
+</li>
+<li>Only save edited chunks &amp; pass necessary ones between treads
+<ul>
+<li>decreases saved chunks per operation from 25 to 9</li>
+</ul>
+</li>
+</ul>

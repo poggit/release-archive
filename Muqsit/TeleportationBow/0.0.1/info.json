@@ -1,0 +1,66 @@
+{
+    "id": 1495,
+    "name": "TeleportationBow",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/TeleportationBow/0.0.1",
+    "tagline": "Lets players teleport wherever an arrow fired from a TeleportationBow lands.",
+    "artifact_url": "https://poggit.pmmp.io/r/33551",
+    "downloads": 1181,
+    "score": 5,
+    "repo_id": 137535453,
+    "repo_name": "Muqsit/TeleportationBow",
+    "project_id": 3106,
+    "project_name": "TeleportationBow",
+    "build_id": 43723,
+    "build_number": 1,
+    "build_commit": "31fdd62be877f6ece97dd60517de0c956629fee4",
+    "description_url": "https://poggit.pmmp.io/r/33549",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/33550",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529100656,
+    "state": 5,
+    "last_state_change_date": 1529126306,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "teleportation",
+        "bow",
+        "teleport",
+        "lobby",
+        "transport",
+        "transportation"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA12",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

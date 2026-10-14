@@ -1,0 +1,59 @@
+{
+    "id": 6730,
+    "name": "AutoPickup",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoPickup/1.0.0",
+    "tagline": "AutoPickup plugin for Pocketmine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/127223",
+    "downloads": 283,
+    "score": 3,
+    "repo_id": 372802983,
+    "repo_name": "tobiaskirchmaier/AutoPickup",
+    "project_id": 9061,
+    "project_name": "AutoPickup",
+    "build_id": 103222,
+    "build_number": 1,
+    "build_commit": "538c69079a5595b477c1e0edfe7c1d4077564455",
+    "description_url": "https://poggit.pmmp.io/r/127235",
+    "icon_url": "https://raw.githubusercontent.com/Tobias-2006/AutoPickup/538c69079a5595b477c1e0edfe7c1d4077564455/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1622549022,
+    "state": 5,
+    "last_state_change_date": 1622588008,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "tobiaskirchmaier"
+        ],
+        "Contributor": [
+            "TacoNoBurrito",
+            "antbag-dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

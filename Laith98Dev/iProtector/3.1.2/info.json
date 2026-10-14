@@ -1,0 +1,72 @@
+{
+    "id": 9253,
+    "name": "iProtector-PM4",
+    "version": "3.1.2",
+    "html_url": "https://poggit.pmmp.io/p/iProtector-PM4/3.1.2",
+    "tagline": "A PocketMine plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/166399",
+    "downloads": 1469,
+    "score": 5,
+    "repo_id": 464411262,
+    "repo_name": "Laith98Dev/iProtector",
+    "project_id": 10725,
+    "project_name": "iProtector",
+    "build_id": 125589,
+    "build_number": 6,
+    "build_commit": "dca864ca0e28e706f414d0fe59aecbba305e6282",
+    "description_url": "https://poggit.pmmp.io/r/166401",
+    "icon_url": "https://raw.githubusercontent.com/Laith98Dev/iProtector/dca864ca0e28e706f414d0fe59aecbba305e6282/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647039970,
+    "state": 5,
+    "last_state_change_date": 1647298551,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "iprotector"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "shoghicp",
+            "95CivicSi",
+            "falkirks",
+            "DaPigGuy",
+            "Sandertv",
+            "TheNewHEROBRINEX",
+            "SOF3"
+        ],
+        "Collaborator": [
+            "LukeDarling",
+            "Awzaw",
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

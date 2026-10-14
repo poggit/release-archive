@@ -1,0 +1,58 @@
+{
+    "id": 10076,
+    "name": "EmojiAttack",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/EmojiAttack/0.0.1",
+    "tagline": "An emoji attack makes your server more vibrant. The suffixes of texts sent to players will be random emojis!",
+    "artifact_url": "https://poggit.pmmp.io/r/183142",
+    "downloads": 21,
+    "score": 5,
+    "repo_id": 506736462,
+    "repo_name": "IgPlugin/EmojiAttack",
+    "project_id": 11445,
+    "project_name": "EmojiAttack",
+    "build_id": 138263,
+    "build_number": 1,
+    "build_commit": "733dcd84f9c8af1015723518fd026fd2daee3ddd",
+    "description_url": "https://poggit.pmmp.io/r/183261",
+    "icon_url": "https://raw.githubusercontent.com/NhanAZ/EmojiAttack/733dcd84f9c8af1015723518fd026fd2daee3ddd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656007227,
+    "state": 5,
+    "last_state_change_date": 1656152396,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "emoji",
+        "emojiattack",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

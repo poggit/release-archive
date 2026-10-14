@@ -1,0 +1,70 @@
+<h2>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage:</h2>
+<p>Anyone with the permission <code>SSS.signs</code> can create a sign with the following content:</p>
+<pre><code>[SSS]
+serverIP/Hostname (can go over two lines with a - at the end of the first line)
+serverPort
+</code></pre>
+<p>The plugin will recognize that sign and fill it with colorful stats!</p>
+<p><em>Note: Due to 1.1+ not telling the server when the sign is finished, you now need to tap the sign once to activate it after setting it up.</em></p>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API:</h2>
+<p><strong>This plugin can also be used as a query API. You might want to look into SignServerStats.php, because all the API functions are in there.</strong></p>
+<p>Example plugins are provided in /examples/:</p>
+<ul>
+<li>DumpInfo.php - Dumps all available info about a server.</li>
+</ul>
+<p>Because the following two examples may also be useful for users, they are also provided as phars in every release:</p>
+<ul>
+<li>WarnOffline/ - Warns if a server has gone offline. Depends on StatusList.</li>
+<li>StatusList/ - Lists online status and player count of multiple servers in a List.</li>
+</ul>
+<p><em>You should always check if your plugin is compatible with the version of SignServerStats present on the current server with the help of the isCompatible function</em></p>
+<p>Example:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">/*</span>* @var robske_110\SSS\SignServerStats $signServerStats <span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-k">if</span>(<span class="pl-k">!</span><span class="pl-smi">$signServerStats</span><span class="pl-k">-&gt;</span>isCompatible(<span class="pl-s"><span class="pl-pds">"</span>1.1.0<span class="pl-pds">"</span></span>)){</span>
+<span class="pl-s1">   	<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>getLogger()<span class="pl-k">-&gt;</span>critical(<span class="pl-s"><span class="pl-pds">"</span>Your version of SignServerStats is not compatible with this plugin.<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1">	<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>getServer()<span class="pl-k">-&gt;</span>getPluginManager()<span class="pl-k">-&gt;</span>disablePlugin(<span class="pl-smi">$this</span>);</span>
+<span class="pl-s1">	<span class="pl-k">return</span>;</span>
+<span class="pl-s1">}</span></pre></div>
+<h4>
+<a id="user-content-if-you-prefer-just-a-quick-introduction-here-is-one-for-getting-the-the-online-status-of-the-server-examplecom1234" class="anchor" href="#if-you-prefer-just-a-quick-introduction-here-is-one-for-getting-the-the-online-status-of-the-server-examplecom1234" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>If you prefer just a quick introduction, here is one for getting the the online status of the server <code>example.com:1234</code>:</h4>
+<p>Initial, for example onEnable:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">/*</span>* @var $sss robske_110\SSS\SignServerStats <span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$sss</span><span class="pl-k">-&gt;</span>addServer(<span class="pl-s"><span class="pl-pds">"</span>example.com<span class="pl-pds">"</span></span>, <span class="pl-c1">1234</span>);</span></pre></div>
+<p>This tells SSS that it should query that server in its next query.</p>
+<p><strong>IMPORTANT: The info might not be available in the next SSSasyncUpdateEvent!</strong></p>
+<p>To check if the server is online simply listen to the SSSasyncUpdateEvent and check the array:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">onSSSasyncUpdate</span>(<span class="pl-c1">robske_110\SSS\event\</span><span class="pl-c1">SSSasyncUpdateEvent</span> <span class="pl-smi">$event</span>){</span>
+<span class="pl-s1">	<span class="pl-smi">$serverOnlineArray</span> <span class="pl-k">=</span> <span class="pl-smi">$event</span><span class="pl-k">-&gt;</span>getPlugin()<span class="pl-k">-&gt;</span>getServerOnline();</span>
+<span class="pl-s1">	<span class="pl-k">if</span>(<span class="pl-c1">isset</span>(<span class="pl-smi">$serverOnlineArray</span>[<span class="pl-s"><span class="pl-pds">"</span>example.com<span class="pl-pds">"</span></span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">"</span>@<span class="pl-pds">"</span></span><span class="pl-k">.</span><span class="pl-c1">1234</span>])){</span>
+<span class="pl-s1">		<span class="pl-smi">$isOnline</span> <span class="pl-k">=</span> <span class="pl-smi">$serverOnlineArray</span>[<span class="pl-s"><span class="pl-pds">"</span>example.com<span class="pl-pds">"</span></span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">"</span>@<span class="pl-pds">"</span></span><span class="pl-k">.</span><span class="pl-c1">1234</span>];</span>
+<span class="pl-s1">	    <span class="pl-c"><span class="pl-c">//</span>isOnline is now a bool (true/false) that reflects the online state of the server (if the server is online and this says false, it probably doesn't have query enabled.)</span></span>
+<span class="pl-s1">	    <span class="pl-c"><span class="pl-c">//</span>You can now also get additional data with getMODTs() and getPlayerData() in the same way.</span></span>
+<span class="pl-s1">	    <span class="pl-c"><span class="pl-c">//</span>There is also the function getFullData() with which you can get allthedata a server sent over the query. Do a var_dump on it for a headstart.</span></span>
+<span class="pl-s1">	}<span class="pl-k">else</span>{</span>
+<span class="pl-s1">	    <span class="pl-c"><span class="pl-c">//</span>The information is going to be here in the next event!</span></span>
+<span class="pl-s1">	}</span>
+<span class="pl-s1">}</span></pre></div>
+<h2>
+<a id="user-content-todo" class="anchor" href="#todo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TODO:</h2>
+<ul>
+<li>
+<p>[ ] FTPs? NCPs?</p>
+</li>
+<li>
+<p>[x] Multi-line server hostnames</p>
+</li>
+<li>
+<p>[x] Create custom event onAsyncUpdate for easier API use</p>
+</li>
+<li>
+<p>[x] API should be able to also get other data (playernamelist, pluginlist)</p>
+</li>
+<li>
+<p>[x] Sign style config</p>
+</li>
+<li>
+<p>[x] Tap sign to transfer</p>
+</li>
+</ul>

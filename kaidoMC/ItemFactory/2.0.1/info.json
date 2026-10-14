@@ -1,0 +1,79 @@
+{
+    "id": 11593,
+    "name": "ItemFactory",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ItemFactory/2.0.1",
+    "tagline": "Create, edit, copy items of your choice.",
+    "artifact_url": "https://poggit.pmmp.io/r/210985",
+    "downloads": 715,
+    "score": 4,
+    "repo_id": 405951531,
+    "repo_name": "kaidoMC/ItemFactory",
+    "project_id": 9710,
+    "project_name": "ItemFactory",
+    "build_id": 156556,
+    "build_number": 22,
+    "build_commit": "33de6cffa2d6ebd118435eaa3a262da6a0c3719e",
+    "description_url": "https://poggit.pmmp.io/r/210982",
+    "icon_url": "https://raw.githubusercontent.com/kaidoMC/ItemFactory/33de6cffa2d6ebd118435eaa3a262da6a0c3719e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/210984",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686128998,
+    "state": 5,
+    "last_state_change_date": 1686710799,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "itemfactory",
+        "plugin",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "9e11fb396642dcde7a0e6c6da9145d6dde8e8645",
+            "build_id": 154811
+        },
+        {
+            "name": "libBedrock",
+            "project_id": 11911,
+            "repo_id": 551801316,
+            "repo_name": "NhanAZ-Libraries/libBedrock",
+            "repo_path": "",
+            "build_commit": "646109c8300377610f652b4ecaa5255074037bba",
+            "build_id": 155665
+        }
+    ]
+}

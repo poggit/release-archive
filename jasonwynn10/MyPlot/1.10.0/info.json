@@ -1,0 +1,154 @@
+{
+    "id": 5932,
+    "name": "MyPlot",
+    "version": "1.10.0",
+    "html_url": "https://poggit.pmmp.io/p/MyPlot/1.10.0",
+    "tagline": "Plot Generation Plugin for PocketMine-MP Servers",
+    "artifact_url": "https://poggit.pmmp.io/r/115044",
+    "downloads": 255,
+    "score": null,
+    "repo_id": 56465224,
+    "repo_name": "jasonwynn10/MyPlot",
+    "project_id": 48,
+    "project_name": "MyPlot",
+    "build_id": 96240,
+    "build_number": 678,
+    "build_commit": "90f5813a71ffd97101cadd986e0cd3d4a2835d2b",
+    "description_url": "https://poggit.pmmp.io/r/115041",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/MyPlot/90f5813a71ffd97101cadd986e0cd3d4a2835d2b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/115043",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1612719302,
+    "state": 5,
+    "last_state_change_date": 1612719307,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "claim",
+        "creative",
+        "land",
+        "merge",
+        "merging",
+        "MyPlot",
+        "Plot",
+        "PlotMe",
+        "plotmerge",
+        "PlotSquared",
+        "property",
+        "deprecated"
+    ],
+    "api": [
+        {
+            "from": "3.4.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "WorldStyler",
+            "version": "1.0",
+            "depRelId": 1509,
+            "isHard": false
+        },
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "EasyCommandAutofill",
+            "version": "1.0.0-beta3",
+            "depRelId": 3677,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "iksaku",
+            "Exxarion",
+            "thelucyclub",
+            "daany123",
+            "Johnmacrocraft",
+            "NyaomiDEV",
+            "Jelly9912",
+            "SalmonDE",
+            "HimbeersaftLP",
+            "jerryzooyoyo",
+            "Aericio",
+            "eqMFqfFd",
+            "MorpheusTP",
+            "HighTecDev",
+            "MineSenpai",
+            "Lentou",
+            "AngelliaX",
+            "Crasher508",
+            "Wertzui123",
+            "HimmelKreis4865",
+            "supercrafter333",
+            "HyperEnte",
+            "DerDevHD",
+            "RomnSD",
+            "xAliTura01",
+            "MrBlasyMSK"
+        ],
+        "Collaborator": [
+            "jasonwynn10"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "spoondetector",
+            "project_id": 443,
+            "repo_id": 91121812,
+            "repo_name": "Falkirks/spoondetector",
+            "repo_path": "",
+            "build_commit": "ff5c1998dc891c0c1ba14dd2d5932cf4b442c956",
+            "build_id": 35676
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "eab8ac0adec2e2b094d141a9b711200183bbf268",
+            "build_id": 86018
+        }
+    ]
+}

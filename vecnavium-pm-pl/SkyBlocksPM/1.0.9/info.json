@@ -1,0 +1,76 @@
+{
+    "id": 10937,
+    "name": "SkyBlocksPM",
+    "version": "1.0.9",
+    "html_url": "https://poggit.pmmp.io/p/SkyBlocksPM/1.0.9",
+    "tagline": "A SkyBlocks plugin for PocketMine-MP, with many features to offer.",
+    "artifact_url": "https://poggit.pmmp.io/r/199990",
+    "downloads": 498,
+    "score": null,
+    "repo_id": 437367239,
+    "repo_name": "vecnavium-pm-pl/SkyBlocksPM",
+    "project_id": 10180,
+    "project_name": "SkyBlocksPM",
+    "build_id": 149954,
+    "build_number": 77,
+    "build_commit": "402a6844a4a02aff446d40823edf78c1185802bf",
+    "description_url": "https://poggit.pmmp.io/r/200192",
+    "icon_url": "https://raw.githubusercontent.com/vecnavium-pm-pl/SkyBlocksPM/402a6844a4a02aff446d40823edf78c1185802bf/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/200194",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1675005512,
+    "state": 5,
+    "last_state_change_date": 1675005899,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "skyblocks",
+        "skyblockspm"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "DuoIncure",
+            "cosmicnebula200",
+            "Mintuse",
+            "DaDevGuy"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

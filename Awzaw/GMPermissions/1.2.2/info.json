@@ -1,0 +1,62 @@
+{
+    "id": 243,
+    "name": "GMPermissions",
+    "version": "1.2.2",
+    "html_url": "https://poggit.pmmp.io/p/GMPermissions/1.2.2",
+    "tagline": "Control your Gamemode",
+    "artifact_url": "https://poggit.pmmp.io/r/4055",
+    "downloads": 227,
+    "score": null,
+    "repo_id": 60363522,
+    "repo_name": "Awzaw/GMPermissions",
+    "project_id": 16,
+    "project_name": "GMPermissions",
+    "build_id": 22365,
+    "build_number": 10,
+    "build_commit": "83a74db41197eea7df1e8dc561eb39082b054b37",
+    "description_url": "https://poggit.pmmp.io/r/4053",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/GMPermissions/83a74db41197eea7df1e8dc561eb39082b054b37/gmpermissions.png",
+    "changelog_url": null,
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1495928711,
+    "state": 5,
+    "last_state_change_date": 1495928718,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "gamemode",
+        "gm"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA5"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

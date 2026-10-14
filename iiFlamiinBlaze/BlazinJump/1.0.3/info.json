@@ -1,0 +1,67 @@
+{
+    "id": 1587,
+    "name": "BlazinJump",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/BlazinJump/1.0.3",
+    "tagline": "A plugin that allows you to launch when you jump twice for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/34691",
+    "downloads": 2017,
+    "score": 4,
+    "repo_id": 134989488,
+    "repo_name": "iiFlamiinBlaze/BlazinJump",
+    "project_id": 2961,
+    "project_name": "BlazinJump",
+    "build_id": 43971,
+    "build_number": 5,
+    "build_commit": "f71b07b1188a16ce04b37a95ad07b2abe0cb9527",
+    "description_url": "https://poggit.pmmp.io/r/34690",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529615579,
+    "state": 5,
+    "last_state_change_date": 1529615579,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "iiflamiinblaze",
+        "pmmp-plugins",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iiFlamiinBlaze"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

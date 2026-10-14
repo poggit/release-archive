@@ -1,0 +1,76 @@
+{
+    "id": 13993,
+    "name": "Pets",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Pets/1.0.0",
+    "tagline": "Spawn pet mobs that follow you",
+    "artifact_url": "https://poggit.pmmp.io/r/255767",
+    "downloads": 420,
+    "score": null,
+    "repo_id": 936596634,
+    "repo_name": "TaqdeesHigh/Pets",
+    "project_id": 14561,
+    "project_name": "Pets",
+    "build_id": 186636,
+    "build_number": 8,
+    "build_commit": "fe74ced2470032f543b9575633b1ecd87043ff73",
+    "description_url": "https://poggit.pmmp.io/r/256506",
+    "icon_url": "https://raw.githubusercontent.com/TaqdeesHigh/Pets/fe74ced2470032f543b9575633b1ecd87043ff73/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1746883713,
+    "state": 5,
+    "last_state_change_date": 1749745457,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "ai",
+        "animals",
+        "follow",
+        "pets"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TaqdeesHigh"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

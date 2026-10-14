@@ -1,0 +1,68 @@
+{
+    "id": 4338,
+    "name": "ComplexUpgradeUI",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/ComplexUpgradeUI/1.0",
+    "tagline": "Upgrade your tools in a UI using XP!",
+    "artifact_url": "https://poggit.pmmp.io/r/85623",
+    "downloads": 318,
+    "score": null,
+    "repo_id": 255299520,
+    "repo_name": "ComplexityEU/ComplexUpgradeUI",
+    "project_id": 6887,
+    "project_name": "ComplexUpgradeUI",
+    "build_id": 77359,
+    "build_number": 2,
+    "build_commit": "bc5cce98cb0084f0ed71d906e4fe150e69cbf695",
+    "description_url": "https://poggit.pmmp.io/r/85622",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588856175,
+    "state": 5,
+    "last_state_change_date": 1589005007,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "enchanting",
+        "enchants",
+        "upgrade",
+        "upgradeui"
+    ],
+    "api": [
+        {
+            "from": "3.12.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DuoIncure"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

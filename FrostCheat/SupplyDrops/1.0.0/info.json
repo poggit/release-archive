@@ -1,0 +1,115 @@
+{
+    "id": 14078,
+    "name": "SupplyDrops",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SupplyDrops/1.0.0",
+    "tagline": "Spawns a chest at a random location on the map",
+    "artifact_url": "https://poggit.pmmp.io/r/256966",
+    "downloads": 204,
+    "score": null,
+    "repo_id": 1005193272,
+    "repo_name": "FrostCheat/SupplyDrops",
+    "project_id": 14774,
+    "project_name": "SupplyDrops",
+    "build_id": 187369,
+    "build_number": 3,
+    "build_commit": "c78d3191e1e5dd8a0de2c9cbd20f7b8767bd3bc2",
+    "description_url": "https://poggit.pmmp.io/r/262439",
+    "icon_url": "https://raw.githubusercontent.com/FrostCheat/SupplyDrops/c78d3191e1e5dd8a0de2c9cbd20f7b8767bd3bc2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1750459219,
+    "state": 5,
+    "last_state_change_date": 1750767270,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "chest",
+        "drop",
+        "random",
+        "sdrop",
+        "supply",
+        "supplydrop"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "FrostCheat"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12585,
+            "repo_id": 649339852,
+            "repo_name": "LatamPMDevs/Commando",
+            "repo_path": "",
+            "build_commit": "adc7b7e14a86e7e36ea32024d6fba3cace1b72e9",
+            "build_id": 159643
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 12634,
+            "repo_id": 653680575,
+            "repo_name": "LatamPMDevs/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "44cbbec61a047e3120884f8410c154a4182c4426",
+            "build_id": 157397
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 12635,
+            "repo_id": 653680934,
+            "repo_name": "LatamPMDevs/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c3a71ae577df5b5f174e4c2bb99d76182d05b420",
+            "build_id": 157396
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "id": 12902,
+    "name": "AutoMod",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/AutoMod/0.0.2",
+    "tagline": "A simple plugin to automatically mute people who say the words selected in the config.",
+    "artifact_url": "https://poggit.pmmp.io/r/234879",
+    "downloads": 1321,
+    "score": null,
+    "repo_id": 737105245,
+    "repo_name": "Yookou/AutoMod",
+    "project_id": 13457,
+    "project_name": "AutoMod",
+    "build_id": 172360,
+    "build_number": 4,
+    "build_commit": "ce7a49b15906a30e9b8fdaca3efe99238f1af178",
+    "description_url": "https://poggit.pmmp.io/r/234878",
+    "icon_url": "https://raw.githubusercontent.com/Yookou/AutoMod/ce7a49b15906a30e9b8fdaca3efe99238f1af178/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1710251698,
+    "state": 5,
+    "last_state_change_date": 1712712944,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Yookou"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

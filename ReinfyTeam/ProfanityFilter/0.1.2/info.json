@@ -1,0 +1,97 @@
+{
+    "id": 12289,
+    "name": "ProfanityFilter",
+    "version": "0.1.2",
+    "html_url": "https://poggit.pmmp.io/p/ProfanityFilter/0.1.2",
+    "tagline": "A best profanity filter for pocketmine. Controls hate speech and blocks bad words in certain on the chat.",
+    "artifact_url": "https://poggit.pmmp.io/r/221038",
+    "downloads": 172,
+    "score": null,
+    "repo_id": 512766107,
+    "repo_name": "ReinfyTeam/ProfanityFilter",
+    "project_id": 12064,
+    "project_name": "ProfanityFilter",
+    "build_id": 162369,
+    "build_number": 55,
+    "build_commit": "f803ace953d2df0369cf158742ec8bf08cc9dd68",
+    "description_url": "https://poggit.pmmp.io/r/221035",
+    "icon_url": "https://raw.githubusercontent.com/ReinfyTeam/ProfanityFilter/f803ace953d2df0369cf158742ec8bf08cc9dd68/ProfanityFilter.png",
+    "changelog_url": "https://poggit.pmmp.io/r/221037",
+    "license": "LGPL-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692798005,
+    "state": 5,
+    "last_state_change_date": 1692870369,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "filterchat",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "profanityfilter"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SOF3",
+            "ImgBotApp",
+            "NhanAZ",
+            "kotyaralih",
+            "xVoiqMC",
+            "KanadeDev",
+            "Reinfy",
+            "xwertxy"
+        ],
+        "Collaborator": [
+            "xqwtxon"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,51 @@
+{
+    "id": 1984,
+    "name": "KDR",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KDR/1.0.0",
+    "tagline": "KDR, Kill Death Ratio plugin which keeps track of players kill and death count along with kill to death ratio.",
+    "artifact_url": "https://poggit.pmmp.io/r/44666",
+    "downloads": 8841,
+    "score": 4,
+    "repo_id": 155752211,
+    "repo_name": "ifera-mc/KDR",
+    "project_id": 4153,
+    "project_name": "KDR",
+    "build_id": 51481,
+    "build_number": 1,
+    "build_commit": "bc646159291bcc608d4f50cb4337dd9de8399d0a",
+    "description_url": "https://poggit.pmmp.io/r/44669",
+    "icon_url": "https://raw.githubusercontent.com/JackMD/KDR/bc646159291bcc608d4f50cb4337dd9de8399d0a/meta/KDR.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1541094405,
+    "state": 5,
+    "last_state_change_date": 1541119708,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ifera-mc"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

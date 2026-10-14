@@ -1,0 +1,78 @@
+{
+    "id": 7624,
+    "name": "HypixelBow",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HypixelBow/1.0.0",
+    "tagline": "Sound when hitting a player",
+    "artifact_url": "https://poggit.pmmp.io/r/141850",
+    "downloads": 86,
+    "score": null,
+    "repo_id": 361417995,
+    "repo_name": "kostamax27/Hypixel-Bow",
+    "project_id": 8902,
+    "project_name": "Hypixel-Bow",
+    "build_id": 111953,
+    "build_number": 11,
+    "build_commit": "2cfb69e32ca3de33563bd56025b51f391d144b5b",
+    "description_url": "https://poggit.pmmp.io/r/142272",
+    "icon_url": "https://raw.githubusercontent.com/kostamax27/Hypixel-Bow/2cfb69e32ca3de33563bd56025b51f391d144b5b/Hypixel-Bow.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1631694803,
+    "state": 5,
+    "last_state_change_date": 1632219339,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Bow",
+        "hit",
+        "sound"
+    ],
+    "api": [
+        {
+            "from": "3.9.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Killmoney-PMMP",
+            "version": "1.0.3",
+            "depRelId": 7646,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "kostamax27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

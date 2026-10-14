@@ -1,0 +1,69 @@
+<p><a href="https://poggit.pmmp.io/p/ServerTools" rel="nofollow"><img src="https://camo.githubusercontent.com/af58de5a5b9687f69ec3182b772e83d73cfa6f18/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f536572766572546f6f6c73" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/ServerTools" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/ServerTools" rel="nofollow"><img src="https://camo.githubusercontent.com/4893c9535fbf2077ba32dd3756fb880839a5b661/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f536572766572546f6f6c73" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/ServerTools" style="max-width:100%;"></a>
+<a href="https://discord.gg/eAePyeb" rel="nofollow"><img src="https://camo.githubusercontent.com/c7e1a7a1115b13a6f5149171e8bb77f99751f550/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3632303531393031373134383537393834312e7376673f6c6162656c3d266c6f676f3d646973636f7264266c6f676f436f6c6f723d66666666666626636f6c6f723d373338394438266c6162656c436f6c6f723d364137454332" alt="Discord" data-canonical-src="https://img.shields.io/discord/620519017148579841.svg?label=&amp;logo=discord&amp;logoColor=ffffff&amp;color=7389D8&amp;labelColor=6A7EC2" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-servertools" class="anchor" href="#servertools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ServerTools</h1>
+<p>ServerTools is Pocketmine-MP plugin containing a set of tools that allows you to manage your server directly from the game!</p>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<ul>
+<li>File Explorer</li>
+<li>Cloning</li>
+<li>Restart Server</li>
+</ul>
+<p><strong>Menu UI example:</strong></p>
+<p><a href="https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Main.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/matcracker/ServerTools/raw/master/.github/README_IMAGES/Form_Main.png" alt="Main_Menu" style="max-width:100%;"></a></p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<ul>
+<li>
+<strong>/servertools</strong> (or alias: <strong>/st</strong>) - <em>The main command of plugin</em> (<strong>Permission:</strong> <em>st.command.servertools</em>)</li>
+</ul>
+<h2>
+<a id="user-content-file-explorer" class="anchor" href="#file-explorer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>File Explorer</h2>
+<p><strong>Permission:</strong> <em>st.ui.file-explorer</em></p>
+<p>It allows to explore and edit your server folder and files.</p>
+<p><a href="https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_FileExplorer.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/matcracker/ServerTools/raw/master/.github/README_IMAGES/Form_FileExplorer.png" alt="FileExplorer" style="max-width:100%;"></a></p>
+<h3>
+<a id="user-content-reading-file-example" class="anchor" href="#reading-file-example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reading file example</h3>
+<p><a href="https://github.com/matcracker/ImageContainer/blob/master/ServerTools/Form_FE_ReadFile.gif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/matcracker/ImageContainer/raw/master/ServerTools/Form_FE_ReadFile.gif" alt="ReadFile" style="max-width:100%;"></a></p>
+<h3>
+<a id="user-content-editing-file-example" class="anchor" href="#editing-file-example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Editing file example</h3>
+<p><a href="https://github.com/matcracker/ImageContainer/blob/master/ServerTools/Form_FE_WriteFile.gif" target="_blank" rel="noopener noreferrer"><img src="https://github.com/matcracker/ImageContainer/raw/master/ServerTools/Form_FE_WriteFile.gif" alt="EditFile" style="max-width:100%;"></a></p>
+<h2>
+<a id="user-content-cloning" class="anchor" href="#cloning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cloning</h2>
+<p><strong>Permission:</strong> <em>st.ui.clone</em></p>
+<p>It allows to clone your server using <strong>FTP</strong> (also available with SSL) or <strong>SFTP</strong> protocols.</p>
+<h3>
+<a id="user-content-requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h3>
+<ul>
+<li>
+<strong>FTP</strong>: you need to have installed on your server the <strong><em>"ftp"</em> PHP extension</strong>.</li>
+<li>
+<strong>SFTP</strong>: you need to have installed on your server the <strong><em>"openssl"</em> and <em>"ssh2 (libssh2)"</em> PHP extensions</strong>.</li>
+</ul>
+<h3>
+<a id="user-content-steps" class="anchor" href="#steps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Steps</h3>
+<ol>
+<li>
+<p>Select the transfer mode.<br>
+<a href="https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Clone_Transfer.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/matcracker/ServerTools/raw/master/.github/README_IMAGES/Form_Clone_Transfer.png" alt="TransferMode" style="max-width:100%;"></a></p>
+</li>
+<li>
+<p>Compile the information to login to your FTP/SFTP server.<br>
+<a href="https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Clone_SFTP.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/matcracker/ServerTools/raw/master/.github/README_IMAGES/Form_Clone_SFTP.png" alt="FTP_Data" style="max-width:100%;"></a></p>
+</li>
+<li>
+<p>Choose, if you want, some server folders/files to exclude from your clonation.<br>
+<a href="https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Clone_ExcludeFiles.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/matcracker/ServerTools/raw/master/.github/README_IMAGES/Form_Clone_ExcludeFiles.png" alt="ExcludeFiles" style="max-width:100%;"></a></p>
+</li>
+<li>
+<p>Wait until the process is finished.<br>
+<a href="https://github.com/matcracker/ServerTools/blob/master/.github/README_IMAGES/Form_Clone_Progress.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/matcracker/ServerTools/raw/master/.github/README_IMAGES/Form_Clone_Progress.png" alt="Progress" style="max-width:100%;"></a></p>
+</li>
+</ol>
+<h2>
+<a id="user-content-restart-server" class="anchor" href="#restart-server" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Restart Server</h2>
+<p><strong>NOT WORKING ON WINDOWS OPERATING SYSTEM!</strong></p>
+<p><strong>Permission:</strong> <em>st.ui.restart</em></p>
+<p>It simply restarts your server.</p>

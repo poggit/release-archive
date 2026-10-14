@@ -1,0 +1,53 @@
+{
+    "id": 52,
+    "name": "AntiCheat",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiCheat/1.0.0",
+    "tagline": "Security",
+    "artifact_url": "https://poggit.pmmp.io/r/1386",
+    "downloads": 22386,
+    "score": 3,
+    "repo_id": 80264173,
+    "repo_name": "RTGDaCoder/AntiCheat",
+    "project_id": 201,
+    "project_name": "AntiCheat",
+    "build_id": 20336,
+    "build_number": 1,
+    "build_commit": "5025eb0c8ba3d33077dac9f8588f075f8eb4e83b",
+    "description_url": "https://poggit.pmmp.io/r/1385",
+    "icon_url": null,
+    "changelog_url": null,
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1485696200,
+    "state": 5,
+    "last_state_change_date": 1485696200,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "AntiCheat"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA3"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RTGDaCoder"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

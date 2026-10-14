@@ -1,0 +1,70 @@
+{
+    "id": 7648,
+    "name": "InfoTag",
+    "version": "1.0-STABLE",
+    "html_url": "https://poggit.pmmp.io/p/InfoTag/1.0-STABLE",
+    "tagline": "A simple PMMP plugin that allows you to view basic player information in the player's nametag.",
+    "artifact_url": "https://poggit.pmmp.io/r/142114",
+    "downloads": 108,
+    "score": null,
+    "repo_id": 408025298,
+    "repo_name": "AmmyR/InfoTag",
+    "project_id": 9745,
+    "project_name": "InfoTag",
+    "build_id": 112105,
+    "build_number": 3,
+    "build_commit": "1c037cdaafead3da78a50624e54270ba2f72bb9d",
+    "description_url": "https://poggit.pmmp.io/r/142116",
+    "icon_url": "https://raw.githubusercontent.com/AmmyR/InfoTag/1c037cdaafead3da78a50624e54270ba2f72bb9d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632029148,
+    "state": 5,
+    "last_state_change_date": 1632217344,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "device",
+        "factions",
+        "health",
+        "nametag",
+        "ping",
+        "rank",
+        "tag"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PureChat",
+            "version": "1.4.11",
+            "depRelId": 1547,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AmmyR"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,64 @@
+{
+    "id": 10854,
+    "name": "VoteKick",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VoteKick/1.0.0",
+    "tagline": "Vote to kick someone in a game for whatever reason such as hacking, rude, etc.",
+    "artifact_url": "https://poggit.pmmp.io/r/198011",
+    "downloads": 213,
+    "score": null,
+    "repo_id": 577749317,
+    "repo_name": "usy4/VoteKick",
+    "project_id": 12001,
+    "project_name": "VoteKick",
+    "build_id": 148399,
+    "build_number": 4,
+    "build_commit": "1d12c2304d5aac079957be84707af3cc3b283c51",
+    "description_url": "https://poggit.pmmp.io/r/198010",
+    "icon_url": "https://raw.githubusercontent.com/usy4/VoteKick/1d12c2304d5aac079957be84707af3cc3b283c51/VoteKick.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1670942140,
+    "state": 5,
+    "last_state_change_date": 1671058310,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "kick",
+        "vote"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "usy4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        }
+    ]
+}

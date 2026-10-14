@@ -1,0 +1,77 @@
+{
+    "id": 8115,
+    "name": "LobbyItems",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LobbyItems/2.0.0",
+    "tagline": "A PocketMine-MP Plugin that allows you to have lobby items and execute a specific command",
+    "artifact_url": "https://poggit.pmmp.io/r/149786",
+    "downloads": 249,
+    "score": 3,
+    "repo_id": 394352386,
+    "repo_name": "vecnavium-pm-pl/LobbyItems",
+    "project_id": 9476,
+    "project_name": "LobbyItems",
+    "build_id": 116638,
+    "build_number": 22,
+    "build_commit": "cffab8ca53d6a074790f28e76933a0ecda9761c2",
+    "description_url": "https://poggit.pmmp.io/r/149783",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/149785",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638531142,
+    "state": 5,
+    "last_state_change_date": 1638656357,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "lobby",
+        "lobbyitems"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Vecnavium"
+        ],
+        "Contributor": [
+            "nicholass003"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

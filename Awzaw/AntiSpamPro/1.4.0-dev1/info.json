@@ -1,0 +1,66 @@
+{
+    "id": 462,
+    "name": "AntiSpamPro",
+    "version": "1.4.0-dev1",
+    "html_url": "https://poggit.pmmp.io/p/AntiSpamPro/1.4.0-dev1",
+    "tagline": "Auto kick/ban, and on-the-fly configuration",
+    "artifact_url": "https://poggit.pmmp.io/r/9387",
+    "downloads": 327,
+    "score": null,
+    "repo_id": 60197250,
+    "repo_name": "Awzaw/AntiSpamPro",
+    "project_id": 8,
+    "project_name": "AntiSpamPro",
+    "build_id": 26428,
+    "build_number": 20,
+    "build_commit": "1db575b5f63337ce4195e93960dcd3481b631d15",
+    "description_url": "https://poggit.pmmp.io/r/9384",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/AntiSpamPro/1db575b5f63337ce4195e93960dcd3481b631d15/asp.png",
+    "changelog_url": "https://poggit.pmmp.io/r/9386",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1501601959,
+    "state": 5,
+    "last_state_change_date": 1501602018,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ban",
+        "censor",
+        "kick",
+        "spam",
+        "swear",
+        "swearing"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

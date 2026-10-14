@@ -1,0 +1,109 @@
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<ul>
+<li>Multi-world support</li>
+<li>It is easy to add / edit / move / delete by command, it can also be added from file</li>
+</ul>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<h3>
+<a id="user-content-general-command" class="anchor" href="#general-command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General command</h3>
+<table>
+<thead>
+<tr>
+<th align="center">\</th>
+<th align="center">command</th>
+<th align="center">alias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Add text</td>
+<td align="center"><code>/txt add</code></td>
+<td align="center"><code>/txt a</code></td>
+</tr>
+<tr>
+<td align="center">Edit text</td>
+<td align="center"><code>/txt edit</code></td>
+<td align="center"><code>/txt e</code></td>
+</tr>
+<tr>
+<td align="center">Move text</td>
+<td align="center"><code>/txt move</code></td>
+<td align="center"><code>/txt m</code></td>
+</tr>
+<tr>
+<td align="center">Remove text</td>
+<td align="center"><code>/txt remove</code></td>
+<td align="center"><code>/txt r</code></td>
+</tr>
+<tr>
+<td align="center">Listup texts</td>
+<td align="center"><code>/txt list</code></td>
+<td align="center"><code>/txt l</code></td>
+</tr>
+<tr>
+<td align="center">Help</td>
+<td align="center"><code>/txt or /txt help</code></td>
+<td align="center"><code>/txt ?</code></td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-configurationfiles" class="anchor" href="#configurationfiles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ConfigurationFiles</h2>
+<h3>
+<a id="user-content-configyml" class="anchor" href="#configyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>config.yml</h3>
+<p>This file is for configuration.</p>
+<ul>
+<li>
+<code>language: en_us</code><br>
+You can change the language.  Currently supported languages are <code>en_us</code>, <code>ja_jp</code>.</li>
+<li>
+<code>check.update: true</code><br>
+You can check if there is an update.<br>
+If you want to disable it, please set it to <code>false</code>.</li>
+<li>
+<code>can.use.commands: true</code><br>
+You can set whether commands can be used in the server.<br>
+If you want to disable it, please set it to <code>false</code>.</li>
+<li>
+<code>limit: 50</code><br>
+You can limit the number of characters in FloatingText.<br>
+ex) 50 =&gt; within 50 characters<br>
+If you want to disable it, please set it to <code>-1</code>.</li>
+<li>
+<code>feed: 3</code><br>
+You can limit the number of newlines in FloatingText.<br>
+ex) 3 =&gt; within 3 feeds<br>
+If you want to disable it, please set it to <code>-1</code>.</li>
+<li>
+<code>world: []</code><br>
+You can specify a world where FloatingText can not be placed.<br>
+If you do not specify it you do not need to change anything.</li>
+</ul>
+<h3>
+<a id="user-content-uftjson" class="anchor" href="#uftjson" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>uft.json</h3>
+<p>We set a FloatingText for the coordinates of the world specified in this file.</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-s"><span class="pl-pds">"</span>LevelName<span class="pl-pds">"</span></span>: {
+    <span class="pl-s"><span class="pl-pds">"</span>TextName(Unique)<span class="pl-pds">"</span></span>: {
+      <span class="pl-s"><span class="pl-pds">"</span>Xvec<span class="pl-pds">"</span></span>: <span class="pl-c1">128</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>Yvec<span class="pl-pds">"</span></span>: <span class="pl-c1">90</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>Zvec<span class="pl-pds">"</span></span>: <span class="pl-c1">128</span>,
+      <span class="pl-s"><span class="pl-pds">"</span>TITLE<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Title<span class="pl-pds">"</span></span>,
+      <span class="pl-s"><span class="pl-pds">"</span>TEXT<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Text(New line with #)<span class="pl-pds">"</span></span>
+    }
+  }
+}</pre></div>
+<h3>
+<a id="user-content-ftjson" class="anchor" href="#ftjson" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ft.json</h3>
+<p>This file stores FloatingText placed by command.<br>
+It is almost the same format as uft.json.</p>
+<h2>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h2>
+<ul>
+<li>
+<code>texter.commands.txt</code> - Add, delete, edit and move FloatingText with the txt command.<br>
+<code>defalult: true</code>
+</li>
+</ul>

@@ -1,0 +1,76 @@
+{
+    "id": 12938,
+    "name": "WarpCore",
+    "version": "2.2.2",
+    "html_url": "https://poggit.pmmp.io/p/WarpCore/2.2.2",
+    "tagline": "Warp System (plugin for PocketMine-MP 5)",
+    "artifact_url": "https://poggit.pmmp.io/r/236152",
+    "downloads": 745,
+    "score": null,
+    "repo_id": 390724248,
+    "repo_name": "drirainMCBE/WarpCore",
+    "project_id": 13589,
+    "project_name": "WarpCore",
+    "build_id": 173364,
+    "build_number": 10,
+    "build_commit": "f527c977b48085d2434dbcf5791f738f4f393e17",
+    "description_url": "https://poggit.pmmp.io/r/239803",
+    "icon_url": "https://raw.githubusercontent.com/drirainMCBE/WarpCore/f527c977b48085d2434dbcf5791f738f4f393e17/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "LGPL-2.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1712069392,
+    "state": 5,
+    "last_state_change_date": 1717357884,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jjwon419"
+        ],
+        "Contributor": [
+            "JunDev76"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "translator",
+            "project_id": 10433,
+            "repo_id": 452557010,
+            "repo_name": "drirainMCBE/translator",
+            "repo_path": "",
+            "build_commit": "2a79e7a0cfa1c5234f9fdff6483a094216ae29d4",
+            "build_id": 148809
+        }
+    ]
+}

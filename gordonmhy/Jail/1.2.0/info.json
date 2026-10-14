@@ -1,0 +1,84 @@
+{
+    "id": 500,
+    "name": "Jail",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/Jail/1.2.0",
+    "tagline": "A revolutionary player punishment system. Designed for @PocketMine servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/10002",
+    "downloads": 473,
+    "score": null,
+    "repo_id": 64309940,
+    "repo_name": "gordonmhy/Jail",
+    "project_id": 302,
+    "project_name": "Jail",
+    "build_id": 26866,
+    "build_number": 50,
+    "build_commit": "245222a226d4df1f3e37a148cc3bdda0bd583ef8",
+    "description_url": "https://poggit.pmmp.io/r/10000",
+    "icon_url": "https://raw.githubusercontent.com/hoyinm14mc/Jail/245222a226d4df1f3e37a148cc3bdda0bd583ef8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/10001",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1502443925,
+    "state": 5,
+    "last_state_change_date": 1502764627,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "jail",
+        "prison",
+        "punish",
+        "grief",
+        "protect"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "2.1.0"
+        },
+        {
+            "from": "3.0.0-ALPHA3",
+            "to": "3.0.0-ALPHA3"
+        },
+        {
+            "from": "3.0.0-ALPHA5",
+            "to": "3.0.0-ALPHA5"
+        },
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1",
+            "depRelId": 203,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "gordonmhy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

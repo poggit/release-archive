@@ -1,0 +1,64 @@
+{
+    "id": 1537,
+    "name": "WorldBackup",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldBackup/1.0",
+    "tagline": "World Backup and Restore.",
+    "artifact_url": "https://poggit.pmmp.io/r/34226",
+    "downloads": 9321,
+    "score": 4,
+    "repo_id": 137501428,
+    "repo_name": "jhelom/WorldBackup-plugin-pocketmine",
+    "project_id": 3124,
+    "project_name": "WorldBackup",
+    "build_id": 44147,
+    "build_number": 7,
+    "build_commit": "fb37d3a9db776da6671ea7519419b7321d1c3904",
+    "description_url": "https://poggit.pmmp.io/r/34245",
+    "icon_url": "https://raw.githubusercontent.com/jhelom/WorldBackup-plugin-pocketmine/fb37d3a9db776da6671ea7519419b7321d1c3904/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529497325,
+    "state": 5,
+    "last_state_change_date": 1529497325,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "backup",
+        "mcpe",
+        "minecraft",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "restore",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA12",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jhelom"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

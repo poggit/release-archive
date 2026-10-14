@@ -1,0 +1,93 @@
+{
+    "id": 10549,
+    "name": "Texter",
+    "version": "4.1.7",
+    "html_url": "https://poggit.pmmp.io/p/Texter/4.1.7",
+    "tagline": "FloatingText can be added, edited, moved, and deleted in multiple worlds!",
+    "artifact_url": "https://poggit.pmmp.io/r/192686",
+    "downloads": 420,
+    "score": null,
+    "repo_id": 109834830,
+    "repo_name": "fuyutsuki/Texter",
+    "project_id": 1101,
+    "project_name": "Texter",
+    "build_id": 144954,
+    "build_number": 191,
+    "build_commit": "aed83ff9496896e10729c4a497e6135f8c7ef897",
+    "description_url": "https://poggit.pmmp.io/r/192682",
+    "icon_url": "https://raw.githubusercontent.com/fuyutsuki/Texter/aed83ff9496896e10729c4a497e6135f8c7ef897/assets/Logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/192684",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/192685",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1662880685,
+    "state": 5,
+    "last_state_change_date": 1662880689,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floatingtextperticle"
+    ],
+    "api": [
+        {
+            "from": "4.7.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Mineflow",
+            "version": "2.9.1",
+            "depRelId": 9453,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Translator": [
+            "SuperAdam47",
+            "SuperYYT",
+            "IvanCraft623",
+            "minijaham",
+            "VicoSilalahi",
+            "No4NaMe",
+            "TERAMMII",
+            "DragonfireHD98"
+        ],
+        "Collaborator": [
+            "fuyutsuki",
+            "xxFLORII"
+        ],
+        "Contributor": [
+            "DaisukeDaisuke",
+            "JoshuaPHYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

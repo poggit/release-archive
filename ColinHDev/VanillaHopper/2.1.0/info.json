@@ -1,0 +1,66 @@
+{
+    "id": 10842,
+    "name": "VanillaHopper",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/VanillaHopper/2.1.0",
+    "tagline": "Event-driven implementation of hopper logic for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/197717",
+    "downloads": 1545,
+    "score": 2,
+    "repo_id": 404104856,
+    "repo_name": "ColinHDev/VanillaHopper",
+    "project_id": 9666,
+    "project_name": "VanillaHopper",
+    "build_id": 148243,
+    "build_number": 18,
+    "build_commit": "e3b9b27ceddda184005bcbe24dcd96e6c2ee1c0c",
+    "description_url": "https://poggit.pmmp.io/r/197714",
+    "icon_url": "https://raw.githubusercontent.com/ColinHDev/VanillaHopper/e3b9b27ceddda184005bcbe24dcd96e6c2ee1c0c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/197716",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1670457222,
+    "state": 5,
+    "last_state_change_date": 1670489048,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "hopper",
+        "hoppers"
+    ],
+    "api": [
+        {
+            "from": "4.11.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ColinHDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

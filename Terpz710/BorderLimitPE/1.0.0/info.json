@@ -1,0 +1,69 @@
+{
+    "id": 12712,
+    "name": "BorderLimitPE",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BorderLimitPE/1.0.0",
+    "tagline": "World border plugin you can set for each worlds",
+    "artifact_url": "https://poggit.pmmp.io/r/230670",
+    "downloads": 144,
+    "score": null,
+    "repo_id": 725940545,
+    "repo_name": "Terpz710/BorderLimitPE",
+    "project_id": 13397,
+    "project_name": "BorderLimitPE",
+    "build_id": 169504,
+    "build_number": 3,
+    "build_commit": "6c63f1fb5629e733b807a9545f07743b50fcc879",
+    "description_url": "https://poggit.pmmp.io/r/230669",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1704060981,
+    "state": 5,
+    "last_state_change_date": 1705590955,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "Border",
+        "BorderLimit",
+        "World",
+        "WorldBorder",
+        "WorldLimit"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

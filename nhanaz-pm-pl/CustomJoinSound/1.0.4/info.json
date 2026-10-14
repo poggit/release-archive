@@ -1,0 +1,69 @@
+{
+    "id": 11411,
+    "name": "CustomJoinSound",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/CustomJoinSound/1.0.4",
+    "tagline": "You will hear \"Welcome to the server!\" sound when joining the server",
+    "artifact_url": "https://poggit.pmmp.io/r/208808",
+    "downloads": 46,
+    "score": null,
+    "repo_id": 409276777,
+    "repo_name": "nhanaz-pm-pl/CustomJoinSound",
+    "project_id": 9773,
+    "project_name": "CustomJoinSound",
+    "build_id": 155723,
+    "build_number": 58,
+    "build_commit": "ac9c342bd0275405f797d64c5ea491c59da221d2",
+    "description_url": "https://poggit.pmmp.io/r/208805",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/CustomJoinSound/ac9c342bd0275405f797d64c5ea491c59da221d2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208807",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685640421,
+    "state": 5,
+    "last_state_change_date": 1685641499,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "customjoinsound",
+        "plugin",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NgLam2911",
+            "taylordevs"
+        ],
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libRegRsp",
+            "project_id": 11316,
+            "repo_id": 488844246,
+            "repo_name": "NhanAZ-Libraries/libRegRsp",
+            "repo_path": "",
+            "build_commit": "2afa7ff5d9b241dd6cfd330fe71a0267c14d4e68",
+            "build_id": 155677
+        }
+    ]
+}

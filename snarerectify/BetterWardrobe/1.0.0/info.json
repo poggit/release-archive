@@ -1,0 +1,114 @@
+{
+    "id": 13514,
+    "name": "BetterWardrobe",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterWardrobe/1.0.0",
+    "tagline": "An advanced wardrobe plugin for Pocketmine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/247312",
+    "downloads": 125,
+    "score": null,
+    "repo_id": 848963241,
+    "repo_name": "snarerectify/BetterWardrobe",
+    "project_id": 14203,
+    "project_name": "BetterWardrobe",
+    "build_id": 180947,
+    "build_number": 20,
+    "build_commit": "4fc1f75ab8696731f7bf82bcd65eeee7347f4a8a",
+    "description_url": "https://poggit.pmmp.io/r/247311",
+    "icon_url": "https://raw.githubusercontent.com/snarerectify/BetterWardrobe/4fc1f75ab8696731f7bf82bcd65eeee7347f4a8a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1725299261,
+    "state": 5,
+    "last_state_change_date": 1730156080,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "wardrobe",
+        "pvp",
+        "set",
+        "sets",
+        "items",
+        "armor",
+        "pv",
+        "enderchest",
+        "echest"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "snarerectify"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 11604,
+            "repo_id": 516498475,
+            "repo_name": "LatamPMDevs/FormAPI",
+            "repo_path": "",
+            "build_commit": "0c88187915cbed1b9de1ddc5534e741214951863",
+            "build_id": 179092
+        }
+    ]
+}

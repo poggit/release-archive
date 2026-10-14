@@ -1,0 +1,78 @@
+{
+    "id": 12218,
+    "name": "VoteParty",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VoteParty/2.0.0",
+    "tagline": "Give rewards to all online players when the server gets a certain amount of votes!",
+    "artifact_url": "https://poggit.pmmp.io/r/219976",
+    "downloads": 576,
+    "score": 4,
+    "repo_id": 678507299,
+    "repo_name": "antbag-pm-pl/VoteParty",
+    "project_id": 12942,
+    "project_name": "VoteParty",
+    "build_id": 161834,
+    "build_number": 1,
+    "build_commit": "494cd442b02cbb46517626df52e33ec7f2eac43d",
+    "description_url": "https://poggit.pmmp.io/r/221722",
+    "icon_url": "https://raw.githubusercontent.com/antbag-pm-pl/VoteParty/494cd442b02cbb46517626df52e33ec7f2eac43d/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692087291,
+    "state": 5,
+    "last_state_change_date": 1693224276,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Scoreboard",
+            "version": "1.5.6",
+            "depRelId": 7671,
+            "isHard": false
+        },
+        {
+            "name": "Voting38",
+            "version": "0.0.2",
+            "depRelId": 9310,
+            "isHard": false
+        },
+        {
+            "name": "ScoreHud",
+            "version": "7.0.1",
+            "depRelId": 9390,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "antbag-dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

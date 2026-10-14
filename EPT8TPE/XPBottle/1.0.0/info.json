@@ -1,0 +1,74 @@
+{
+    "id": 5527,
+    "name": "XPBottle",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/XPBottle/1.0.0",
+    "tagline": "A pocketmine plugin that allows players to bottle their xp with a command.",
+    "artifact_url": "https://poggit.pmmp.io/r/107269",
+    "downloads": 801,
+    "score": 5,
+    "repo_id": 309077214,
+    "repo_name": "EPT8TPE/XPBottle",
+    "project_id": 7953,
+    "project_name": "XPBottle",
+    "build_id": 91105,
+    "build_number": 10,
+    "build_commit": "57d40ba9c6307b13499bcb39cd5b49eadc8f68a9",
+    "description_url": "https://poggit.pmmp.io/r/138987",
+    "icon_url": "https://raw.githubusercontent.com/TPEimperialPE/XPBottle/57d40ba9c6307b13499bcb39cd5b49eadc8f68a9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1604687958,
+    "state": 5,
+    "last_state_change_date": 1604689856,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "bottle",
+        "enchanting",
+        "enchantingbottle",
+        "enchantmentbottle",
+        "experience",
+        "experiencebottle",
+        "extractxp",
+        "xp",
+        "xpbottle",
+        "xpintobottle"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "EPT8TPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

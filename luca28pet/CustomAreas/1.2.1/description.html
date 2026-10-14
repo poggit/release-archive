@@ -1,0 +1,69 @@
+<p>CustomAreas is a PocketMine-MP plugin that provide players a way to protect their buildings using simple commands.</p>
+<p><strong>Current features:</strong></p>
+<ul>
+<li>Create private areas where other players cannot build</li>
+<li>Provide protection for blocks, chests, doors and trapdoors inside the area</li>
+<li>Whitelist for areas: an area owner can choose who can build in his zone</li>
+<li>Support for multi-world</li>
+<li>Bypass feature for OPs: they can edit other players areas (or use permission node customareas.bypass)</li>
+<li>Easy to use</li>
+<li>Configurable</li>
+<li>Limit area size and number</li>
+</ul>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands:</h1>
+<p>Main Command: /customareas
+Aliases: /ca</p>
+<ul>
+<li>
+<em>/ca pos1</em> : set the first corner of the area</li>
+<li>
+<em>/ca pos2</em> : set the second corner of the area</li>
+<li>
+<em>/ca create</em> : create an area with the current selection</li>
+<li>
+<em>/ca delete</em> : delete the area where you are standing in (OPs can delete other players areas)</li>
+<li>
+<em>/ca whitelist add</em> : add a player to the whitelist of the area where you are standing in (OPs can edit other players areas whitelist)</li>
+<li>
+<em>/ca whitelist remove</em> : remove a player to the whitelist of the area where you are standing in (OPs can edit other players areas whitelist)</li>
+<li>
+<em>/ca whitelist list</em> : see the list of the whitelisted players of the area where you are standing in (OPs can see other players areas whitelist)</li>
+</ul>
+<h1>
+<a id="user-content-permission-nodes" class="anchor" href="#permission-nodes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission nodes:</h1>
+<ul>
+<li>
+<em>customareas.command</em> : use command /area (defaut: true)</li>
+<li>
+<em>customareas.bypass</em> : use bypass feature to edit other players' areas (default: op)</li>
+</ul>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<pre><code>---
+# Max distance between the two corners of the area. Set 0 (zero) to disable
+max-distance: 50
+# Max number of areas that a player can have
+area-limit: 2
+
+#Language
+position-conflict: "This position is inside another area"
+pos1-set: "Position 1 set"
+pos2-set: "Position 2 set"
+sel-pos1: "Please select position 1"
+sel-pos2: "Please select position 2"
+different-levels: "Positions are in different levels"
+max-areas: "You have too many areas"
+big-area: "Your area is too big"
+area-created: "Area created succesfully"
+not-owner: "This is not your area"
+area-deleted: "Area deleted"
+stand-inside: "Stand inside your area and type this command to delete it"
+insert-player: "Please specify a player"
+wl-add: "Added to whitelist the player: "
+stand-inside-wl: "Stand inside your area and type this command to modify the whiteList"
+wl-remove: "Removed from whiteList the player: "
+not-in-wl: " was not in this area whiteList"
+notice: "This is {owner}'s private area"
+...
+</code></pre>

@@ -1,0 +1,68 @@
+{
+    "id": 13589,
+    "name": "TrickOrTreat",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TrickOrTreat/1.0.0",
+    "tagline": "A fun plugin for Halloween!",
+    "artifact_url": "https://poggit.pmmp.io/r/248782",
+    "downloads": 101,
+    "score": 5,
+    "repo_id": 871417309,
+    "repo_name": "HBIDamian/TrickOrTreat",
+    "project_id": 14283,
+    "project_name": "TrickOrTreat",
+    "build_id": 182034,
+    "build_number": 1,
+    "build_commit": "5df219249c50cf08231b4102b18ef0a674d530cb",
+    "description_url": "https://poggit.pmmp.io/r/249436",
+    "icon_url": "https://raw.githubusercontent.com/HBIDamian/TrickOrTreat/5df219249c50cf08231b4102b18ef0a674d530cb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1728690681,
+    "state": 5,
+    "last_state_change_date": 1728965299,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "cookie",
+        "halloween",
+        "lmao",
+        "october",
+        "scary",
+        "treat",
+        "trick",
+        "trickortreat",
+        "troll"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "lmao",
+            "version": "0.2.1",
+            "depRelId": 11916,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HBIDamian"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

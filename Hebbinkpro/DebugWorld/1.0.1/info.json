@@ -1,0 +1,69 @@
+{
+    "id": 13647,
+    "name": "DebugWorld",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/DebugWorld/1.0.1",
+    "tagline": "Add a debug world to PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/249968",
+    "downloads": 142,
+    "score": null,
+    "repo_id": 888122297,
+    "repo_name": "Hebbinkpro/DebugWorld",
+    "project_id": 14339,
+    "project_name": "DebugWorld",
+    "build_id": 182789,
+    "build_number": 4,
+    "build_commit": "0448411f4e733a54b6d9c6b39b1b2774f0bf2c79",
+    "description_url": "https://poggit.pmmp.io/r/249965",
+    "icon_url": "https://raw.githubusercontent.com/Hebbinkpro/DebugWorld/0448411f4e733a54b6d9c6b39b1b2774f0bf2c79/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/249967",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1732522527,
+    "state": 5,
+    "last_state_change_date": 1734930070,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "debug",
+        "debug-generator",
+        "debug-mode",
+        "debug-world",
+        "hebbinkpro"
+    ],
+    "api": [
+        {
+            "from": "5.16.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Hebbinkpro"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

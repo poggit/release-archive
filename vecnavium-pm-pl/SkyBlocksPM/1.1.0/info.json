@@ -1,0 +1,104 @@
+{
+    "id": 11755,
+    "name": "SkyBlocksPM",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/SkyBlocksPM/1.1.0",
+    "tagline": "A SkyBlocks plugin for PocketMine-MP, with many features to offer.",
+    "artifact_url": "https://poggit.pmmp.io/r/213237",
+    "downloads": 278,
+    "score": null,
+    "repo_id": 437367239,
+    "repo_name": "vecnavium-pm-pl/SkyBlocksPM",
+    "project_id": 10180,
+    "project_name": "SkyBlocksPM",
+    "build_id": 157800,
+    "build_number": 80,
+    "build_commit": "3fd3706e07e9b8dd9a18c73815cfcde950d448a4",
+    "description_url": "https://poggit.pmmp.io/r/213234",
+    "icon_url": "https://raw.githubusercontent.com/vecnavium-pm-pl/SkyBlocksPM/3fd3706e07e9b8dd9a18c73815cfcde950d448a4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/213236",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687529114,
+    "state": 5,
+    "last_state_change_date": 1688272951,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "skyblocks",
+        "skyblockspm"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "DuoIncure",
+            "cosmicnebula200",
+            "Mintuse",
+            "DaDevGuy"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "d34b2fc71e5a0af130b240c9717c4b05f4b1624f",
+            "build_id": 156932
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "cf06deec50469065abe7994bbb623f2d54ccc965",
+            "build_id": 157740
+        },
+        {
+            "name": "libMarshal",
+            "project_id": 11000,
+            "repo_id": 476062581,
+            "repo_name": "sylvrs/libMarshal",
+            "repo_path": "",
+            "build_commit": "9d237d529d2508128e8f572db894887789f96767",
+            "build_id": 141262
+        }
+    ]
+}

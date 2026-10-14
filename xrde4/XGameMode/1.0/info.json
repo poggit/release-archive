@@ -1,0 +1,85 @@
+{
+    "id": 12267,
+    "name": "XGameMode",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/XGameMode/1.0",
+    "tagline": "The 'XGameMode' plugin enables distinct inventories for creative and survival modes, ensuring secure mode switching and item sep",
+    "artifact_url": "https://poggit.pmmp.io/r/220606",
+    "downloads": 693,
+    "score": 4,
+    "repo_id": 680546898,
+    "repo_name": "xrde4/XGameMode",
+    "project_id": 12958,
+    "project_name": "XGameMode",
+    "build_id": 162165,
+    "build_number": 5,
+    "build_commit": "e519546cc921de331d366151f0adbcc8ba1d055f",
+    "description_url": "https://poggit.pmmp.io/r/220630",
+    "icon_url": "https://raw.githubusercontent.com/xrde4/XGameMode/e519546cc921de331d366151f0adbcc8ba1d055f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692480747,
+    "state": 5,
+    "last_state_change_date": 1693226102,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "and",
+        "Change",
+        "Creative",
+        "Cross-Mode",
+        "Gamemode",
+        "Inventories",
+        "Inventory",
+        "Management",
+        "Mode",
+        "Modes",
+        "Multi-Mode",
+        "on",
+        "Persistent",
+        "Plugin",
+        "Preservation",
+        "Save",
+        "Seamless",
+        "Survival",
+        "Switching",
+        "Sync",
+        "Transition"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "xrde4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

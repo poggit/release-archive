@@ -1,0 +1,55 @@
+{
+    "id": 11134,
+    "name": "CraftManager",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CraftManager/1.0.0",
+    "tagline": "Allows you to create or delete crafts ! Works with the new pocketmine crafting system (>= 4.18)",
+    "artifact_url": "https://poggit.pmmp.io/r/203554",
+    "downloads": 249,
+    "score": 5,
+    "repo_id": 621801140,
+    "repo_name": "roimee6/CraftManager",
+    "project_id": 12300,
+    "project_name": "CraftManager",
+    "build_id": 152299,
+    "build_number": 5,
+    "build_commit": "4ee1bd0c1bb7c09fb8dfa6a2c5ba01cfb6ea3528",
+    "description_url": "https://poggit.pmmp.io/r/203553",
+    "icon_url": "https://raw.githubusercontent.com/roimee6/CraftManager/4ee1bd0c1bb7c09fb8dfa6a2c5ba01cfb6ea3528/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1680448683,
+    "state": 5,
+    "last_state_change_date": 1680475572,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "roimee6"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

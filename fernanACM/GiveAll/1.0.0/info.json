@@ -1,0 +1,109 @@
+{
+    "id": 12692,
+    "name": "GiveAll",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/GiveAll/1.0.0",
+    "tagline": "Give items to all players on your server. Only for PocketMine-MP 5.0",
+    "artifact_url": "https://poggit.pmmp.io/r/230502",
+    "downloads": 769,
+    "score": null,
+    "repo_id": 670955170,
+    "repo_name": "fernanACM/GiveAll",
+    "project_id": 13376,
+    "project_name": "GiveAll",
+    "build_id": 168481,
+    "build_number": 2,
+    "build_commit": "10eb3b4a2bf30c9e5b88788deb570432831108ed",
+    "description_url": "https://poggit.pmmp.io/r/230501",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/GiveAll/10eb3b4a2bf30c9e5b88788deb570432831108ed/icon-giveall.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1703634264,
+    "state": 5,
+    "last_state_change_date": 1705670888,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "give",
+        "Giveall",
+        "itemsall"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        },
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "15ff96f75e4f65892097964587726d1d6b201202",
+            "build_id": 167944
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "706e307d705ef8fe20653bebd04a18b1d9b3e47a",
+            "build_id": 161792
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

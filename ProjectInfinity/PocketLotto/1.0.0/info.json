@@ -1,0 +1,73 @@
+{
+    "id": 536,
+    "name": "PocketLotto",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PocketLotto/1.0.0",
+    "tagline": "A lottery plugin for PocketMine with support for PocketVote.",
+    "artifact_url": "https://poggit.pmmp.io/r/11369",
+    "downloads": 228,
+    "score": 4,
+    "repo_id": 102133742,
+    "repo_name": "ProjectInfinity/PocketLotto",
+    "project_id": 844,
+    "project_name": "PocketLotto",
+    "build_id": 28044,
+    "build_number": 2,
+    "build_commit": "f346c3edbad4505e6e2da38ebad453945e792b37",
+    "description_url": "https://poggit.pmmp.io/r/11368",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1504640305,
+    "state": 5,
+    "last_state_change_date": 1504935240,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "lotto",
+        "lottery",
+        "pocketvote",
+        "pocketlotto"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA6",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-dev1",
+            "depRelId": 394,
+            "isHard": false
+        },
+        {
+            "name": "PocketVote",
+            "version": "2.0.2",
+            "depRelId": 450,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ProjectInfinity"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

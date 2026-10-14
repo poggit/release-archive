@@ -1,0 +1,74 @@
+{
+    "id": 4421,
+    "name": "LoadAllWorlds",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LoadAllWorlds/1.0.0",
+    "tagline": "Load all the worlds at startup or with a command",
+    "artifact_url": "https://poggit.pmmp.io/r/87388",
+    "downloads": 164,
+    "score": 5,
+    "repo_id": 263122220,
+    "repo_name": "koningcool/LoadAllWorlds",
+    "project_id": 6921,
+    "project_name": "loadallworlds",
+    "build_id": 78357,
+    "build_number": 98,
+    "build_commit": "65659d774010b060fd6c3ff85ea3a36c7baff2c1",
+    "description_url": "https://poggit.pmmp.io/r/88177",
+    "icon_url": "https://raw.githubusercontent.com/koningcool/LoadAllWorlds/65659d774010b060fd6c3ff85ea3a36c7baff2c1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/88179",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1589805557,
+    "state": 5,
+    "last_state_change_date": 1590042132,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "command",
+        "koningcool",
+        "load",
+        "loader",
+        "loading",
+        "memory",
+        "plugin",
+        "pocketmine",
+        "update",
+        "world",
+        "worlds"
+    ],
+    "api": [
+        {
+            "from": "3.12.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "TweakM"
+        ],
+        "Collaborator": [
+            "koningcool"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

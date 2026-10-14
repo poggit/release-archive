@@ -1,0 +1,53 @@
+{
+    "id": 9571,
+    "name": "ChatClearPE",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/ChatClearPE/0.0.2",
+    "tagline": "Clean up chats with just one command or auto",
+    "artifact_url": "https://poggit.pmmp.io/r/172691",
+    "downloads": 624,
+    "score": 2,
+    "repo_id": 463729860,
+    "repo_name": "BeeAZ-pm-pl/ChatClearPE",
+    "project_id": 10695,
+    "project_name": "ChatClearPE",
+    "build_id": 130846,
+    "build_number": 10,
+    "build_commit": "db91a031ca5b585f216c4478a637f7efaa33206f",
+    "description_url": "https://poggit.pmmp.io/r/172693",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/ChatClearPE/db91a031ca5b585f216c4478a637f7efaa33206f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/172695",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1650954866,
+    "state": 5,
+    "last_state_change_date": 1651004146,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ChatClearPE"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

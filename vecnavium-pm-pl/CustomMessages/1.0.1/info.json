@@ -1,0 +1,51 @@
+{
+    "id": 8948,
+    "name": "CustomMessages",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/CustomMessages/1.0.1",
+    "tagline": "A PocketMine-MP Plugin that will allow you to freely set custom messages",
+    "artifact_url": "https://poggit.pmmp.io/r/161774",
+    "downloads": 950,
+    "score": null,
+    "repo_id": 407967119,
+    "repo_name": "vecnavium-pm-pl/CustomMessages",
+    "project_id": 9742,
+    "project_name": "CustomMessages",
+    "build_id": 123852,
+    "build_number": 12,
+    "build_commit": "77f879f66a0c0599f3c5351dbc31a9f9bb1d136d",
+    "description_url": "https://poggit.pmmp.io/r/161771",
+    "icon_url": "https://raw.githubusercontent.com/vecnavium-pm-pl/CustomMessages/77f879f66a0c0599f3c5351dbc31a9f9bb1d136d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/161773",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644782843,
+    "state": 5,
+    "last_state_change_date": 1645058761,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

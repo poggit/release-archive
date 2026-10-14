@@ -1,0 +1,62 @@
+{
+    "id": 11745,
+    "name": "HeadsOrTails",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HeadsOrTails/1.0.0",
+    "tagline": "Guess! Heads Or Tails! For PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/213002",
+    "downloads": 31,
+    "score": 5,
+    "repo_id": 653359167,
+    "repo_name": "Kylan1940/HeadsOrTails",
+    "project_id": 12625,
+    "project_name": "HeadsOrTails",
+    "build_id": 157629,
+    "build_number": 5,
+    "build_commit": "7544480631d7fc3e8aa672e4da9c9b084c833c1d",
+    "description_url": "https://poggit.pmmp.io/r/213001",
+    "icon_url": "https://raw.githubusercontent.com/Kylan1940/HeadsOrTails/7544480631d7fc3e8aa672e4da9c9b084c833c1d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687407770,
+    "state": 5,
+    "last_state_change_date": 1687853760,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "CoinFlip",
+        "Heads",
+        "Tails"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Dhaiven"
+        ],
+        "Collaborator": [
+            "Kylan1940"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

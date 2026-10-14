@@ -1,0 +1,133 @@
+{
+    "id": 10147,
+    "name": "RepairUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RepairUI/1.0.0",
+    "tagline": "Repair and customize your item names with RepairUI, for PocketMine-MP 4.0 servers",
+    "artifact_url": "https://poggit.pmmp.io/r/184294",
+    "downloads": 2511,
+    "score": 4,
+    "repo_id": 508864238,
+    "repo_name": "fernanACM/RepairUI",
+    "project_id": 11484,
+    "project_name": "RepairUI",
+    "build_id": 138981,
+    "build_number": 5,
+    "build_commit": "b3918aef566e7db0f2101f8af5cd85f6aef98777",
+    "description_url": "https://poggit.pmmp.io/r/184293",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/RepairUI/b3918aef566e7db0f2101f8af5cd85f6aef98777/icon-repairui.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656644206,
+    "state": 5,
+    "last_state_change_date": 1657552139,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Economy",
+        "experience",
+        "Repair",
+        "RepairUI",
+        "Rp",
+        "UI",
+        "Xp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "f6d7ad676605ce2140a8adaa195e844ebae6715c",
+            "build_id": 120566
+        },
+        {
+            "name": "libEco",
+            "project_id": 10995,
+            "repo_id": 466916160,
+            "repo_name": "David-pm-pl/libEco",
+            "repo_path": "",
+            "build_commit": "83f42cd99eeb0a154909675ee1b1ca29f255cdb7",
+            "build_id": 137758
+        }
+    ]
+}

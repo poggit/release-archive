@@ -1,0 +1,73 @@
+{
+    "id": 4641,
+    "name": "C4-HiroTeam",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/C4-HiroTeam/1.0.0",
+    "tagline": "To add C4 to your server !",
+    "artifact_url": "https://poggit.pmmp.io/r/91531",
+    "downloads": 129,
+    "score": null,
+    "repo_id": 266991273,
+    "repo_name": "HiroshimaTeam/C4-HiroTeam",
+    "project_id": 7042,
+    "project_name": "C4-HiroTeam",
+    "build_id": 80970,
+    "build_number": 4,
+    "build_commit": "bf38972e34af64bbd36fc893bb95665f33758280",
+    "description_url": "https://poggit.pmmp.io/r/91533",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/C4-HiroTeam/bf38972e34af64bbd36fc893bb95665f33758280/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1591838584,
+    "state": 5,
+    "last_state_change_date": 1591843825,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "C4",
+        "explosion"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "WorldGuard",
+            "version": "1.1.0",
+            "depRelId": 4162,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HiroshimaTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

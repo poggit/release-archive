@@ -1,0 +1,85 @@
+{
+    "id": 2231,
+    "name": "MysteryCrate",
+    "version": "7.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MysteryCrate/7.0.0",
+    "tagline": "This plugins adds MysteryCrates with op items.",
+    "artifact_url": "https://poggit.pmmp.io/r/48191",
+    "downloads": 768,
+    "score": 3,
+    "repo_id": 125697309,
+    "repo_name": "JackMD/MysteryCrate",
+    "project_id": 2242,
+    "project_name": "MysteryCrate",
+    "build_id": 53652,
+    "build_number": 88,
+    "build_commit": "87664e728ee6f306940289cabdbcf238179895ad",
+    "description_url": "https://poggit.pmmp.io/r/48188",
+    "icon_url": "https://raw.githubusercontent.com/JackMD/MysteryCrate/87664e728ee6f306940289cabdbcf238179895ad/meta/MysteryCrate.png",
+    "changelog_url": "https://poggit.pmmp.io/r/48190",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1545595858,
+    "state": 5,
+    "last_state_change_date": 1545742395,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chest",
+        "crate-key",
+        "cratechest",
+        "cratekey",
+        "crates",
+        "key",
+        "mystery",
+        "mysterycrate-plugin",
+        "pmmp",
+        "pocketmine-mp",
+        "tap"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "98aae410c391931ac9a4778ba0a0fa436a2991c5",
+            "build_id": 53471
+        }
+    ]
+}

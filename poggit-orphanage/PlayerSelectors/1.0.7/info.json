@@ -1,0 +1,79 @@
+{
+    "id": 3647,
+    "name": "PlayerSelectors",
+    "version": "1.0.7",
+    "html_url": "https://poggit.pmmp.io/p/PlayerSelectors/1.0.7",
+    "tagline": "Minecraft selectors (@a, @p, @r, @e, @s) added to pocketmine.",
+    "artifact_url": "https://poggit.pmmp.io/r/72506",
+    "downloads": 5490,
+    "score": 5,
+    "repo_id": 232447375,
+    "repo_name": "poggit-orphanage/PlayerSelectors",
+    "project_id": 6023,
+    "project_name": "PlayerSelectors",
+    "build_id": 68953,
+    "build_number": 1,
+    "build_commit": "aa2241521dfac9c6660113e1b0c563761b51e7bc",
+    "description_url": "https://poggit.pmmp.io/r/72504",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PlayerSelectors/aa2241521dfac9c6660113e1b0c563761b51e7bc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/72505",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1578446126,
+    "state": 5,
+    "last_state_change_date": 1578446229,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "@a",
+        "@e",
+        "@p",
+        "@r",
+        "@s",
+        "auto",
+        "autofill",
+        "cmd",
+        "command",
+        "selection",
+        "selector"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Ad5001",
+            "jasonw4331"
+        ],
+        "Contributor": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

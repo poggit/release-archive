@@ -1,0 +1,83 @@
+{
+    "id": 8058,
+    "name": "VecnaLeaderboards",
+    "version": "1.2.8",
+    "html_url": "https://poggit.pmmp.io/p/VecnaLeaderboards/1.2.8",
+    "tagline": "A Pocketmine-MP Plugin that allows you to create leaderboards and view player stats",
+    "artifact_url": "https://poggit.pmmp.io/r/149073",
+    "downloads": 262,
+    "score": 3,
+    "repo_id": 363268095,
+    "repo_name": "vecnavium-pm-pl/VecnaLeaderboards",
+    "project_id": 8929,
+    "project_name": "VecnaLeaderboards",
+    "build_id": 116287,
+    "build_number": 331,
+    "build_commit": "f41cfa7b7cf05ba96786168d891e526e90106fb1",
+    "description_url": "https://poggit.pmmp.io/r/149070",
+    "icon_url": "https://raw.githubusercontent.com/Vecnavium/VecnaLeaderboards/f41cfa7b7cf05ba96786168d891e526e90106fb1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/149072",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638314654,
+    "state": 5,
+    "last_state_change_date": 1638315133,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "deaths",
+        "kills",
+        "leaderboard",
+        "leaderboards",
+        "levels",
+        "pvp",
+        "stats"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SpiceX",
+            "DragonfireHD",
+            "Seyrxn",
+            "Endermanbugzjfc",
+            "JavierLeon9966",
+            "cosmicnebula200"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,55 @@
+{
+    "id": 12900,
+    "name": "ReversePositionItem",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/ReversePositionItem/0.0.2",
+    "tagline": "A simple plugin to change your position with your opponent thanks to an item",
+    "artifact_url": "https://poggit.pmmp.io/r/234867",
+    "downloads": 168,
+    "score": null,
+    "repo_id": 728829450,
+    "repo_name": "Yookou/ReversePositionItem",
+    "project_id": 13410,
+    "project_name": "ReversePositionItem",
+    "build_id": 172354,
+    "build_number": 2,
+    "build_commit": "d18a4bcbb5523a8c8fe52acb688d2d1dd23a4899",
+    "description_url": "https://poggit.pmmp.io/r/234866",
+    "icon_url": "https://raw.githubusercontent.com/Yookou/ReversePositionItem/d18a4bcbb5523a8c8fe52acb688d2d1dd23a4899/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1710249327,
+    "state": 5,
+    "last_state_change_date": 1712712674,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Yookou"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

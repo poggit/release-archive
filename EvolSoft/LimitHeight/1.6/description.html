@@ -1,0 +1,36 @@
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p><strong>LimitHeight</strong> is a simple plugin that let you limit the build height on your server.</p>
+<p><strong>New Website:</strong> <a href="https://flavius12.net/pocketmine-plugins/" rel="nofollow">https://flavius12.net/pocketmine-plugins/</a></p>
+<h2>
+<a id="user-content-configuration-configyml" class="anchor" href="#configuration-configyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration (config.yml)</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span>Height limit (by default ops have limitheight.bypass permission set and they can bypass the limit)</span>
+<span class="pl-ent">height-limit</span>: <span class="pl-c1">64</span>
+<span class="pl-c"><span class="pl-c">#</span>Show message on limit reached</span>
+<span class="pl-ent">show-message</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span>Show plugin prefix on message</span>
+<span class="pl-ent">show-prefix</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span>Message</span>
+<span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;cYou can't build over the height of {LIMIT} blocks!<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>World list where limit is disabled</span>
+<span class="pl-c"><span class="pl-c">#</span>For example:</span>
+<span class="pl-c"><span class="pl-c">#</span>disabled-in-worlds:</span>
+<span class="pl-c"><span class="pl-c">#</span> - world</span>
+<span class="pl-c"><span class="pl-c">#</span> - world2</span>
+<span class="pl-ent">disabled-in-worlds</span>: <span class="pl-s">[]</span>
+...</pre></div>
+<h2>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h2>
+<ul>
+<li>
+<dd><i><b>limitheight.*</b> - LimitHeight permissions tree.</i></dd>
+</li>
+<li>
+<dd><i><b>limitheight.bypass</b> - Let players bypass the height limit.</i></dd>
+</li>
+</ul>
+<h2>
+<a id="user-content-donate" class="anchor" href="#donate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Donate</h2>
+<p>Please support the development of this plugin with a small donation by clicking <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=flavius.c.1999@gmail.com&amp;lc=US&amp;item_name=www.evolsoft.tk&amp;no_note=0&amp;cn=&amp;curency_code=EUR&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" rel="nofollow"><g-emoji class="g-emoji" alias="dollar" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4b5.png">💵</g-emoji> here</a>.
+Your small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you <g-emoji class="g-emoji" alias="smile" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png">😄</g-emoji></p>

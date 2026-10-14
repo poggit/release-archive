@@ -1,0 +1,67 @@
+{
+    "id": 6018,
+    "name": "GiftPackage",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/GiftPackage/1.0",
+    "tagline": "Have custom geometry a Gift Package",
+    "artifact_url": "https://poggit.pmmp.io/r/116196",
+    "downloads": 187,
+    "score": null,
+    "repo_id": 312057687,
+    "repo_name": "ByAlperenS/GiftPackage",
+    "project_id": 7995,
+    "project_name": "GiftPackage",
+    "build_id": 96968,
+    "build_number": 38,
+    "build_commit": "53eaf7b0e2272e8dcbbabe4dab579239ff877390",
+    "description_url": "https://poggit.pmmp.io/r/116195",
+    "icon_url": "https://raw.githubusercontent.com/ByAlperenS/GiftPackage/53eaf7b0e2272e8dcbbabe4dab579239ff877390/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614021729,
+    "state": 5,
+    "last_state_change_date": 1614521867,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "altay",
+        "economy",
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pocketmine",
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.9.4",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ByAlperenS"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

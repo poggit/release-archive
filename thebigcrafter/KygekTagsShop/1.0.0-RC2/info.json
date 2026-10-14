@@ -1,0 +1,126 @@
+{
+    "id": 9942,
+    "name": "KygekTagsShop",
+    "version": "1.0.0-RC2",
+    "html_url": "https://poggit.pmmp.io/p/KygekTagsShop/1.0.0-RC2",
+    "tagline": "Allow players to use tags",
+    "artifact_url": "https://poggit.pmmp.io/r/180249",
+    "downloads": 148,
+    "score": 4,
+    "repo_id": 288417314,
+    "repo_name": "thebigcrafter/KygekTagsShop",
+    "project_id": 8006,
+    "project_name": "KygekTagsShop",
+    "build_id": 136235,
+    "build_number": 44,
+    "build_commit": "45e75ac446e932b0bc64babd4baeab11b376abee",
+    "description_url": "https://poggit.pmmp.io/r/180385",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/KygekTagsShop/45e75ac446e932b0bc64babd4baeab11b376abee/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/180387",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654664775,
+    "state": 5,
+    "last_state_change_date": 1654699807,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekraqmak",
+        "kygekraqmakshop",
+        "kygekraqmaktags",
+        "kygekraqmaktagsshop",
+        "kygekraqmaktagsui",
+        "kygekraqmakui",
+        "kygekshop",
+        "kygektags",
+        "kygektagsui",
+        "kygekteamshop",
+        "kygekteamtags",
+        "kygekteamtagsshop",
+        "kygekteamtagsui",
+        "kygekteamui",
+        "kygekui",
+        "shop",
+        "tags",
+        "tagsshop",
+        "tagsui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "SOF3",
+            "UnEnanoMas",
+            "xAliTura01",
+            "Gezou",
+            "ItsToxicGG",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "NhanAZ",
+            "KygekDev",
+            "taylordevs",
+            "Kygekraqmak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        },
+        {
+            "name": "ktpmpl-cfs",
+            "project_id": 9131,
+            "repo_id": 376406148,
+            "repo_name": "thebigcrafter/ktpmpl-cfs",
+            "repo_path": "",
+            "build_commit": "81bc77f89058fbb4f10c8b60c67ca28e78fb66c3",
+            "build_id": 131683
+        }
+    ]
+}

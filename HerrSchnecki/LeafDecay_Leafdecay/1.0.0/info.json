@@ -1,0 +1,59 @@
+{
+    "id": 12466,
+    "name": "LeafDecay",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LeafDecay/1.0.0",
+    "tagline": "Leafdecay is a pocketmine plugin that ensures that leaves floating in the air do not disappear.",
+    "artifact_url": "https://poggit.pmmp.io/r/225044",
+    "downloads": 329,
+    "score": null,
+    "repo_id": 697799552,
+    "repo_name": "HerrSchnecki/LeafDecay",
+    "project_id": 13169,
+    "project_name": "Leafdecay",
+    "build_id": 165252,
+    "build_number": 2,
+    "build_commit": "133f8609a822a31fe522daf3d77de079ce0ea10f",
+    "description_url": "https://poggit.pmmp.io/r/225043",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1695911341,
+    "state": 5,
+    "last_state_change_date": 1697175080,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HerrSchnecki"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

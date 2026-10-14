@@ -1,0 +1,88 @@
+{
+    "id": 5813,
+    "name": "EasyCommandAutofill",
+    "version": "1.0.6",
+    "html_url": "https://poggit.pmmp.io/p/EasyCommandAutofill/1.0.6",
+    "tagline": "A plugin which adds commands to the client's autofill by parsing usage messages",
+    "artifact_url": "https://poggit.pmmp.io/r/112776",
+    "downloads": 4943,
+    "score": null,
+    "repo_id": 231884297,
+    "repo_name": "jasonw4331/EasyCommandAutofill",
+    "project_id": 6012,
+    "project_name": "EasyCommandAutofill",
+    "build_id": 94783,
+    "build_number": 38,
+    "build_commit": "9db195785efe9bc963c64a9550b948ba8f34c9d2",
+    "description_url": "https://poggit.pmmp.io/r/112773",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/EasyCommandAutofill/9db195785efe9bc963c64a9550b948ba8f34c9d2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/112775",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1610061464,
+    "state": 5,
+    "last_state_change_date": 1610061493,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "autofill",
+        "chat",
+        "command",
+        "commands",
+        "fill",
+        "message",
+        "select",
+        "selector",
+        "usage"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PlayerSelectors",
+            "version": "1.0.7",
+            "depRelId": 3647,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ],
+        "Contributor": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

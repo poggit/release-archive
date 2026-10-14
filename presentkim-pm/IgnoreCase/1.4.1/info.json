@@ -1,0 +1,69 @@
+{
+    "id": 12760,
+    "name": "IgnoreCase",
+    "version": "1.4.1",
+    "html_url": "https://poggit.pmmp.io/p/IgnoreCase/1.4.1",
+    "tagline": "Automatically corrects the case of commands",
+    "artifact_url": "https://poggit.pmmp.io/r/231624",
+    "downloads": 899,
+    "score": null,
+    "repo_id": 140988400,
+    "repo_name": "presentkim-pm/IgnoreCase",
+    "project_id": 3687,
+    "project_name": "IgnoreCase",
+    "build_id": 170104,
+    "build_number": 19,
+    "build_commit": "84ea51c8ff0c6f1fbc21886a0ab46618406a31b9",
+    "description_url": "https://poggit.pmmp.io/r/231626",
+    "icon_url": "https://raw.githubusercontent.com/presentkim-pm/IgnoreCase/84ea51c8ff0c6f1fbc21886a0ab46618406a31b9/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/231628",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1705838976,
+    "state": 5,
+    "last_state_change_date": 1705893602,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "case-sensitive",
+        "command",
+        "command-manager",
+        "command-replace",
+        "ignore",
+        "ignorecase",
+        "presentkim"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PresentKim"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "remove-plugin-data-folder",
+            "project_id": 11078,
+            "repo_id": 489182920,
+            "repo_name": "presentkim-pm/remove-plugin-data-folder",
+            "repo_path": "",
+            "build_commit": "e5f9d38b767060c7f2c386119fcc727f684d81b0",
+            "build_id": 132231
+        }
+    ]
+}

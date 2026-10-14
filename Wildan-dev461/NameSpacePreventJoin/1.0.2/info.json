@@ -1,0 +1,51 @@
+{
+    "id": 12197,
+    "name": "NoSpace",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/NoSpace/1.0.2",
+    "tagline": "Prevent a player with space in their name join the server",
+    "artifact_url": "https://poggit.pmmp.io/r/219651",
+    "downloads": 172,
+    "score": 2,
+    "repo_id": 673607738,
+    "repo_name": "Wildan-dev461/NameSpacePreventJoin",
+    "project_id": 12879,
+    "project_name": "NameSpacePreventJoin",
+    "build_id": 161616,
+    "build_number": 26,
+    "build_commit": "3aa61b2c0058391b6a8acd3de135b09c7f7e9b3f",
+    "description_url": "https://poggit.pmmp.io/r/222192",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/222194",
+    "license": "GPL-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": true,
+    "submission_date": 1691732049,
+    "state": 5,
+    "last_state_change_date": 1691745968,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Wildan-dev461"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

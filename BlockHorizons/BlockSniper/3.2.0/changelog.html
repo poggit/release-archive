@@ -1,0 +1,21 @@
+<p>Version 3.2.0: The Selection Update implements selection based world editing.</p>
+<p><strong>New Features:</strong></p>
+<ul>
+<li>Added a new UI option in the Brush section; Brush mode. Use it to toggle between Brush/Selection.</li>
+<li>Added a progress indicator for async brushing/selection filling.</li>
+<li>Added a new configuration setting; Selection Item. Use it to change the item used to select areas for copying and world editing.</li>
+<li>All shapes may be used inside of selections.</li>
+</ul>
+<p><strong>Changes:</strong></p>
+<ul>
+<li>Removed legacy cloning; Cloning now must be done through selection. When cloning, the cloned object will be pasted relative to your target block at the moment of cloning.</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Errors no longer occur when a player quits without a BlockSniper session.</li>
+<li>Errors no longer occur when trying to use the /clone command.</li>
+</ul>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>This update adds new translation keys; Please make sure to remove the old language files from <code>plugin_data/BlockSniper/languages/*</code></li>
+</ul>

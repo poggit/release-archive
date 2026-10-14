@@ -1,0 +1,70 @@
+{
+    "id": 8465,
+    "name": "MuteAll",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MuteAll/1.0.0",
+    "tagline": "A PocketMine-MP plugin to mute all players on the server",
+    "artifact_url": "https://poggit.pmmp.io/r/155155",
+    "downloads": 242,
+    "score": null,
+    "repo_id": 436681468,
+    "repo_name": "AIPTU/MuteAll",
+    "project_id": 10100,
+    "project_name": "MuteAll",
+    "build_id": 119846,
+    "build_number": 3,
+    "build_commit": "f95003fa20c028e5d3e5c7a244af1f5dabb6d161",
+    "description_url": "https://poggit.pmmp.io/r/155154",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/MuteAll/f95003fa20c028e5d3e5c7a244af1f5dabb6d161/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641034080,
+    "state": 5,
+    "last_state_change_date": 1641830294,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

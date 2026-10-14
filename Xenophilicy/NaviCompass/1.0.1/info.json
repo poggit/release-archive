@@ -1,0 +1,70 @@
+{
+    "id": 2420,
+    "name": "NaviCompass",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/NaviCompass/1.0.1",
+    "tagline": "A PocketMine plugin that lets you transfer between your server network with a UI!",
+    "artifact_url": "https://poggit.pmmp.io/r/51074",
+    "downloads": 947,
+    "score": 4,
+    "repo_id": 168095326,
+    "repo_name": "Xenophilicy/NaviCompass",
+    "project_id": 4628,
+    "project_name": "NaviCompass",
+    "build_id": 55512,
+    "build_number": 9,
+    "build_commit": "9647cc2010b905b21179e6c273bea42760926dad",
+    "description_url": "https://poggit.pmmp.io/r/51474",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/NaviCompass/9647cc2010b905b21179e6c273bea42760926dad/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1549104401,
+    "state": 5,
+    "last_state_change_date": 1549789826,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Compass",
+        "FormAPI",
+        "List",
+        "Navi",
+        "Server",
+        "Transfer",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Gianluxx",
+            "JavierLeon9966",
+            "HyperFlareMC",
+            "Superomarking"
+        ],
+        "Collaborator": [
+            "Xenophilicy",
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

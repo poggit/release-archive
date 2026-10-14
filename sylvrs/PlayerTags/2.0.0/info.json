@@ -1,0 +1,124 @@
+{
+    "id": 8226,
+    "name": "PlayerTags",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerTags/2.0.0",
+    "tagline": "A plugin to display a tag below the player's name tag. Packed with lots of customization & external plugin support!",
+    "artifact_url": "https://poggit.pmmp.io/r/151039",
+    "downloads": 1846,
+    "score": 5,
+    "repo_id": 267025390,
+    "repo_name": "sylvrs/PlayerTags",
+    "project_id": 7059,
+    "project_name": "PlayerTags",
+    "build_id": 117257,
+    "build_number": 36,
+    "build_commit": "d5c5684c148f979ee5d6ce6c5aef17d9bd57fc08",
+    "description_url": "https://poggit.pmmp.io/r/151036",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/151038",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638742029,
+    "state": 5,
+    "last_state_change_date": 1639213977,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "nametag",
+        "score",
+        "scoretag",
+        "tag",
+        "tags"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "RankUp",
+            "version": "0.4.0",
+            "depRelId": 1187,
+            "isHard": false
+        },
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "KDR",
+            "version": "1.0.0",
+            "depRelId": 1984,
+            "isHard": false
+        },
+        {
+            "name": "CombatLogger",
+            "version": "0.0.6",
+            "depRelId": 2222,
+            "isHard": false
+        },
+        {
+            "name": "RedSkyBlock",
+            "version": "3.1.1",
+            "depRelId": 2825,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": false
+        },
+        {
+            "name": "SkyBlock",
+            "version": "3.0.0",
+            "depRelId": 4084,
+            "isHard": false
+        },
+        {
+            "name": "AdvancedJobs",
+            "version": "0.2",
+            "depRelId": 4266,
+            "isHard": false
+        },
+        {
+            "name": "PiggyFactions",
+            "version": "1.0.7",
+            "depRelId": 4523,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "sylvrs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

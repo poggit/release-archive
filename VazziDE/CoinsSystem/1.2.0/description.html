@@ -1,0 +1,37 @@
+<h1>
+<a id="user-content-coinssystem" class="anchor" href="#coinssystem" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CoinsSystem</h1>
+<p>CoinsSystem Plugin for PocketMine-MP Server Software.
+This CoinsSystem allows your player to have coins, as a server admin you can add, remove, set, see and get the Coins Amount of a Player.</p>
+<p><a href="https://user-images.githubusercontent.com/45903049/111869857-934cc300-8981-11eb-8b5e-16d18126f526.png" target="_blank" rel="nofollow"><img src="https://user-images.githubusercontent.com/45903049/111869857-934cc300-8981-11eb-8b5e-16d18126f526.png" alt="image" style="max-width:100%;"></a></p>
+<p><a href="https://poggit.pmmp.io/p/CoinsSystem" rel="nofollow"><img src="https://camo.githubusercontent.com/46058b0be15663498dce068915bea10933e9bc9c8a6334902f67ba34cffb5b5b/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f436f696e7353797374656d" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/CoinsSystem" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/CoinsSystem" rel="nofollow"><img src="https://camo.githubusercontent.com/46058b0be15663498dce068915bea10933e9bc9c8a6334902f67ba34cffb5b5b/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f436f696e7353797374656d" data-canonical-src="https://poggit.pmmp.io/shield.state/CoinsSystem" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/CoinsSystem" rel="nofollow"><img src="https://camo.githubusercontent.com/bd56947eb55f6a14cec2257ec48d1844b45122b8cacffaea841e49a7d9eb9471/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f436f696e7353797374656d" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/CoinsSystem" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/CoinsSystem" rel="nofollow"><img src="https://camo.githubusercontent.com/bd56947eb55f6a14cec2257ec48d1844b45122b8cacffaea841e49a7d9eb9471/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f436f696e7353797374656d" data-canonical-src="https://poggit.pmmp.io/shield.api/CoinsSystem" style="max-width:100%;"></a></p>
+<p><strong>HOW TO USE IT?</strong></p>
+<p>Players can see their Coins with the command /coins and server admins can change the coins from players with the following commands.</p>
+<p><em>/coins add playername 5000</em> - to add coins to a player.
+<em>/coins remove playername 5000</em> - to remove coins from a player.
+<em>/coins set playername 5000</em> - to set the Coins Amount of a player.
+<em>/coins see playername</em> - to see how much coins a player have.</p>
+<p><strong>How to get the plugin?</strong></p>
+<ol>
+<li>Download the plugin from here.</li>
+<li>Drag the plugin into your plugin order on the server.</li>
+<li>Start the Server.</li>
+<li>Modify the config, which you find in the plugin_data\CoinsSystem order.</li>
+<li>Have fun with plugin.</li>
+</ol>
+<p><strong>SIMPLY API FOR YOUR PLUGIN</strong></p>
+<p><em>If you want to get the Coins from a Player by a Plugin use this code:</em></p>
+<pre><code>$playercoins = $this-&gt;getServer()-&gt;getPluginManager()-&gt;getPlugin("CoinsSystem")-&gt;getCoins($player-&gt;getName());
+$player-&gt;sendMessage($player-&gt;getName() . $coins);
+</code></pre>
+<p><em>If you want to add Coins to a Player by a Plugin use this code:</em></p>
+<pre><code>$this-&gt;getServer()-&gt;getPluginManager()-&gt;getPlugin("CoinsSystem")-&gt;addCoins($player-&gt;getName(), 1000);
+</code></pre>
+<p><em>If you want to remove Coins from a Player by a Plugin use this code:</em></p>
+<pre><code>$this-&gt;getServer()-&gt;getPluginManager()-&gt;getPlugin("CoinsSystem")-&gt;removeCoins($player-&gt;getName(), 1000);
+</code></pre>
+<p><em>If you want to set Coins Amount from a Player by a Plugin use this code:</em></p>
+<pre><code>$this-&gt;getServer()-&gt;getPluginManager()-&gt;getPlugin("CoinsSystem")-&gt;setCoins($player-&gt;getName(), 1000);
+</code></pre>

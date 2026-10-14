@@ -1,0 +1,68 @@
+{
+    "id": 12333,
+    "name": "DiscordBot",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DiscordBot/3.0.0",
+    "tagline": "A central API plugin to bring discord features to pocketmine plugins!",
+    "artifact_url": "https://poggit.pmmp.io/r/222022",
+    "downloads": 55,
+    "score": null,
+    "repo_id": 314034250,
+    "repo_name": "DiscordBot-PMMP/DiscordBot",
+    "project_id": 9561,
+    "project_name": "DiscordBot",
+    "build_id": 163067,
+    "build_number": 39,
+    "build_commit": "a947fea8f8e62d7fc917dcb7a1b3d6068b510bf1",
+    "description_url": "https://poggit.pmmp.io/r/222106",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/222108",
+    "license": "OSL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1693568633,
+    "state": 5,
+    "last_state_change_date": 1693605452,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "discord",
+        "discordbot",
+        "discordphp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JaxkDev"
+        ],
+        "Contributor": [
+            "Shelly7w7",
+            "Laith98Dev",
+            "D1veer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

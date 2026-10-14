@@ -1,0 +1,53 @@
+<h1>Introductory notes</h1>
+<ul>
+<li><strong>This update is recommended because it contains many improvements and bug fixes.</strong></li>
+<li>The update is backward compatible with <strong>v0.5.x</strong></li>
+<li>If you are already using BedcoreProtect <strong>v0.5.x</strong> and you upgrade to <strong>v0.6.0, you will notice a message of database upgrading</strong>. Don't worry, that's normal. It's the patch manager process that updates the database tables for the new version. <strong>If during the process you got a crash, please open a issue <a href="https://github.com/matcracker/BedcoreProtect/issues/new/choose">here</a>!</strong></li>
+</ul>
+<h1>Changelog</h1>
+<h2>Features</h2>
+<ul>
+<li>Added /bcp undo command <em>(Permission: bcp.subcommand.undo)</em>. Allows to undo the last rollback/restore.</li>
+<li>Now block restrictions works. So, is now possible to include/exclude certain blocks during a rollback or a lookup.</li>
+<li>When a player spawn an entity through a spawn egg is now logged.</li>
+<li>When a entity dies due to a block (e.g. fire, lava, etc...) is now logged.</li>
+<li>When a player ignites a TNT is now logged.</li>
+<li>Code analyzed with PHPStan level 8.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li>With SQLite the data will be saved every 5 minutes (same as worlds) instead of 5 hours.</li>
+<li>Re-wrote query execution code getting a speed up!</li>
+<li>Most of queries when executed are now scheduled in order by preventing missing or wrong logs.</li>
+<li>Improved the QueryGenerator execution.</li>
+<li>Improved painting break tracking.</li>
+<li>Removed tiles when rollback placed blocks.</li>
+<li>General minor improvements.</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>The patch manager is now able to patch a different numbers of patches for each database type.</li>
+<li>From now in the database version of status command (/bcp status) will be applied a suffix indicating if the current database version is backward compatible.<br>
+<em>(e.g. - Database version: v0.6.1 (Backward Compatible))</em></li>
+<li>Default SQLite database file name is now <strong>logs.db</strong>. (This change is backward compatible)</li>
+</ul>
+<h2>Bug fixes</h2>
+<ul>
+<li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="466812743" data-permission-text="Title is private" data-url="https://github.com/matcracker/BedcoreProtect/issues/9" data-hovercard-type="issue" data-hovercard-url="/matcracker/BedcoreProtect/issues/9/hovercard" href="https://github.com/matcracker/BedcoreProtect/issues/9">#9</a></li>
+<li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="541585757" data-permission-text="Title is private" data-url="https://github.com/matcracker/BedcoreProtect/issues/12" data-hovercard-type="issue" data-hovercard-url="/matcracker/BedcoreProtect/issues/12/hovercard" href="https://github.com/matcracker/BedcoreProtect/issues/12">#12</a></li>
+<li>Fixed an issue not allowing inspector to getting logs of the replaced block.</li>
+<li>Fixed crash during the rollback of entities.</li>
+<li>Fixed possible issue with command permission check order.</li>
+<li>Fixed order of plugin data folder creation.</li>
+<li>Fixed wrong position calculation of liquid tracking.</li>
+<li>Fixed correct meta value (damage) when placing block.</li>
+<li>Fixed wrong restore of bed and doors when placed.</li>
+<li>Fixed duplicated door log when breaking.</li>
+<li>Fixed block burning rollback not correctly working some times.</li>
+<li>Fixed purge command not correctly working on SQLite.</li>
+<li>Fixed excessive log during inventory transaction.</li>
+<li>Fixed database file creation on start-up not taking the choosed file name in the config.</li>
+<li>Fixed possibles crashes relative to null values while tracking.</li>
+<li>When rollback an area containing blocks with light source, the light will try to be updated. (This avoid empty light areas)</li>
+<li>Don't log anymore players when they die. It causes a crash while rollback.</li>
+</ul>

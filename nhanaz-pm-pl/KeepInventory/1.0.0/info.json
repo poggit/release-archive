@@ -1,0 +1,59 @@
+{
+    "id": 8203,
+    "name": "KeepInventory",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KeepInventory/1.0.0",
+    "tagline": "Keep inventory after player dies",
+    "artifact_url": "https://poggit.pmmp.io/r/150686",
+    "downloads": 1694,
+    "score": null,
+    "repo_id": 147989977,
+    "repo_name": "nhanaz-pm-pl/KeepInventory",
+    "project_id": 3952,
+    "project_name": "KeepInventory",
+    "build_id": 117042,
+    "build_number": 16,
+    "build_commit": "4bf12f34365f9c126286acdafd15dc0b1c27916c",
+    "description_url": "https://poggit.pmmp.io/r/156278",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/KeepInventory/4bf12f34365f9c126286acdafd15dc0b1c27916c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/156280",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638671973,
+    "state": 5,
+    "last_state_change_date": 1639213234,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "keepinventory",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

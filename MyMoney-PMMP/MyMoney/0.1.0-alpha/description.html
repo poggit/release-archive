@@ -1,0 +1,26 @@
+<h1>MyMoney</h1>
+<h2>NOTE: There are unimplemented features. They are marked with a * (star) in the features list.</h2>
+<p>A simple economy plugin for PMMP.</p>
+<h3>Features</h3>
+<ul>
+<li>Easy money management</li>
+<li>Different Currencies*</li>
+<li>API for plugin developers</li>
+<li>Shop signs</li>
+</ul>
+<h3>Commands</h3>
+<ul>
+<li>/givemoney  </li>
+<li>/setmoney  </li>
+<li>/takemoney  </li>
+</ul>
+<h3>API</h3>
+<p>MyMoney includes a easy to use API.</p>
+<p>In your onEnable, add $myMoney= new API();<br>
+You will need to add use Dog2puppy\MyMoney\API to your list of use statements.<br>
+Lastly, in your plugin.yml add softdepend: "MyMoney" to ensure that MyMoney is enabled before your plugin.</p>
+<p>API functions:</p>
+<p>giveMoney($player, $amount)<br>
+setMoney($player, $amount)<br>
+takeMoney($player, $amount)<br>
+Example: $myMoney-&gt;setMoney("Dog2puppy", "50");</p>

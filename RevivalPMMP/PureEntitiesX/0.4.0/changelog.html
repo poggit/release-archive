@@ -1,0 +1,298 @@
+<ul>
+<li>Add Compatibility Info
+<ul>
+<li>Make it more obvious that updates are target to specific releases of PocketMine-MP.</li>
+</ul>
+</li>
+<li>BaseEntity: Api compatibility update for dataProperties change.</li>
+<li>Fix Projectiles</li>
+<li>Fix XPOrb DataProperties method.</li>
+<li>Fix formatting.</li>
+<li>Fix import of VoxelRayTrace
+<ul>
+<li>Forgot to change this on the last commit.</li>
+</ul>
+</li>
+<li>Fixing <a href="https://github.com/RevivalPMMP/PureEntitiesX/issues/271" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="291405222" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/271">#271</a> (<a href="https://github.com/RevivalPMMP/PureEntitiesX/pull/272" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="291409099" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/272">#272</a>)
+<ul>
+<li>
+<ul>
+<li>Fixing <a href="https://github.com/RevivalPMMP/PureEntitiesX/issues/271" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="291405222" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/271">#271</a></li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>My bad...)</li>
+</ul>
+</li>
+<li></li>
+<li>Thanks <a href="https://github.com/samalero" class="user-mention">@samalero</a>!</li>
+</ul>
+</li>
+<li>It's 2018.  Should have done this a month ago.</li>
+<li>Modify compatible APIs to reflect changes from 1-26-2018.</li>
+<li>Move Logs to SubFolder
+<ul>
+<li>Moved Custom Logs to logs subfolder and updated gitignore to keep logs out of commits.</li>
+</ul>
+</li>
+<li>One more performance update.</li>
+<li>Reduce function calls to increase performance.</li>
+<li>Replace BlockIterator with VoxelRayTrace
+<ul>
+<li>This change brings PureEntitiesX in line with PocketMine-MP after commit <a href="https://github.com/pmmp/PocketMine-MP/commit/71d11c73f061babfdad3caf7a5331ea4acc63453" class="commit-link">pmmp/PocketMine-MP@<tt>71d11c7</tt></a></li>
+</ul>
+</li>
+<li>Sheep: API compatibility update for NBT methods.</li>
+<li>Update DataProperty Methods to use new API.</li>
+<li>Update MobDamageCalculator to work with altered API Methods.</li>
+<li>Update peremove description in plugin.yml</li>
+<li>Update to 3.0.0-ALPHA11 (<a href="https://github.com/RevivalPMMP/PureEntitiesX/pull/278" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="295852287" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/278">#278</a>)
+<ul>
+<li>
+<ul>
+<li>Split Fireball into Large and Small for Ghasts and Blazes - Begin changes for 3.0.0-ALPHA11</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Data: add Large and Small Fireball info and remove outdated data.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>NBTConst: Add new Constants as keys for use with NBT methods update.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>BaseEntity: NBT and DataFlag updates.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Tameable: Update NBT and dataProperties methods.  Merge all common items from tameable mobs.  Update PHPDoc Blocks, Modify onTameSuccess and onTameFail to allow Player to be passed.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Breedable: Update return type hints.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Fix problem where AutoSpawning on maps like SkyBlock style or SkyWars, would cause the server to hang while searching for a valid location.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>BreedingComponent: Update NBT methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Parrot: Update NBT methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Chicken: Update saveNBT() to use configuration settings</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Cow: Remove getNetworkID() and update saveNBT() to use configuration settings.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>MooShroom: Refactor loadFromNBT to be the same as parent class.  Remove unnecessary redundancy.  Update NBT Methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Cow: Remove unused import.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Ocelot: Refactory NBT functions to match parent classes (saveNBT() and loadNBT()).  Remove duplicate Tameable trait items.  Update NBT methods. Update onTameSuccess and onTameFail to be compatible with Tameable udpate.  Ocelots now be in love when tame attempts fail.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Pig: Remove unused getNetworkID() function, update saveNBT() to use configuration settings.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Rabbit: Update saveNBT() to use configuration settings.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Sheep: Refactor NBT functions to match parent classes (saveNBT() and loadNBT()). Update NBT Methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Blaze: Update to use new SmallFireball.  Fix problem where fireballs would spawn at wrong locations.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Blaze: Update to use new SmallFireball.  Fix problem where fireballs would spawn at wrong locations.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Ghast: Update to use new LargeFireball.  Fix problem where fireballs would spawn at wrong locations.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>MagmaCube: Refactor loadFromNBT and update NBT methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Slime: Refactor loadFromNBT.  Update NBT Methods. Use Plugin Configuration for NBT.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>ElderGuardian: Update TODO to keep from being misleading.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Guardian: Update TODO to keep from being misleading.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Creeper: Bring bugfix from Legacy-3.0.0-ALPHA10.  Update NBT methods, Refactor loadFromNBT.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Enderman: Add TODO.  Update Drops.  Update Armor methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Enderman: Fix Import.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>PigZombie: Git rid of a bunch of unnecessary, duplicate code.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>PolarBear: Code cleanup.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>PolarBear: Typo.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Shulker: Code cleanup.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>SnowGolem: Refactor loadFromNBT.  Update NBT Methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Spider: Code Cleanup.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Wolves: FIX COLLAR COLOR PERSISTANCE!!!!! FINALLY!!!! Refactor loadFromNBT.  Update NBT Methods. Remove Tamable items to be compatible with Tameable update.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>ZombiePigman: Remove unused getNetworkId() method.  Clean up imports.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Main: Update NBT method to use new createBaseNBT() method. Clean up imports.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update api version number to reflect breaking changes with ArmorInventory and dataProperties.  Version bump to reflect significant number of changes in code.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update Target PocketMine-MP version</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Update version number to reflect changes changes from 1-26-2018.</li>
+<li>XP Overhaul (<a href="https://github.com/RevivalPMMP/PureEntitiesX/pull/275" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="292676718" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/275">#275</a>)
+<ul>
+<li>
+<ul>
+<li>XP Overhaul removes all PureEntities Internal XP methods and updates entities to use getXpDropAmount().  As xp is now provided by the core, it is currently not able to be turned off.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Missed these in the last commit for XP Overhaul</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>

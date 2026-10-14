@@ -1,0 +1,76 @@
+{
+    "id": 6478,
+    "name": "StopLag",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/StopLag/1.0.0",
+    "tagline": "Stops all laggy things in world(s) that you specified.",
+    "artifact_url": "https://poggit.pmmp.io/r/123029",
+    "downloads": 4042,
+    "score": 2,
+    "repo_id": 359181719,
+    "repo_name": "OguzhanUmutlu/StopLag",
+    "project_id": 8873,
+    "project_name": "StopLag",
+    "build_id": 100714,
+    "build_number": 1,
+    "build_commit": "34ef3147e744204ec1d0f331772f01315f8a030f",
+    "description_url": "https://poggit.pmmp.io/r/123028",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/StopLag/34ef3147e744204ec1d0f331772f01315f8a030f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1618761469,
+    "state": 5,
+    "last_state_change_date": 1618842838,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "lag",
+        "anti",
+        "antilag",
+        "stop",
+        "stoplag",
+        "fps",
+        "tps",
+        "ps"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

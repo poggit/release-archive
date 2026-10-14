@@ -1,0 +1,67 @@
+{
+    "id": 11661,
+    "name": "AutoInventory",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoInventory/1.1.0",
+    "tagline": "Automatically pickup blocks and experience in your Pocketmine-MP server!",
+    "artifact_url": "https://poggit.pmmp.io/r/211894",
+    "downloads": 53,
+    "score": null,
+    "repo_id": 650035484,
+    "repo_name": "ecstsylove/AutoInventory",
+    "project_id": 12587,
+    "project_name": "AutoInventory",
+    "build_id": 157044,
+    "build_number": 15,
+    "build_commit": "207838dce54ddd0484b9520c72e846e46f295d6e",
+    "description_url": "https://poggit.pmmp.io/r/211891",
+    "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/AutoInventory/207838dce54ddd0484b9520c72e846e46f295d6e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/211893",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686627260,
+    "state": 5,
+    "last_state_change_date": 1686637531,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iLVOEWOCK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

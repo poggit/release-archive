@@ -1,0 +1,42 @@
+<h1>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h1>
+<h2>
+<a id="user-content-find-the-file" class="anchor" href="#find-the-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Find the file</h2>
+<p>First of all, Stop your server. <br>
+Go in your plugins directory. Open <code>TimeCommander</code> directory. <br> Open <code>commands.yml</code>. Then edit the file.</p>
+<h2>
+<a id="user-content-edit-the-file" class="anchor" href="#edit-the-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Edit the file</h2>
+<p>When you open up the file, you should see:</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> TimeCommander</span>
+<span class="pl-c"><span class="pl-c">#</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Command: Command to execute</span>
+<span class="pl-c"><span class="pl-c">#</span> Time: Amount of time in ticks until command is executed</span>
+
+<span class="pl-ent">Commands</span>:
+  - <span class="pl-ent">Command</span>: <span class="pl-s">say 1</span>
+    <span class="pl-ent">Time</span>: <span class="pl-c1">100</span>
+  - <span class="pl-ent">Command</span>: <span class="pl-s">say 2</span>
+    <span class="pl-ent">Time</span>: <span class="pl-c1">200</span>
+  - <span class="pl-ent">Command</span>: <span class="pl-s">say 3</span>
+    <span class="pl-ent">Time</span>: <span class="pl-c1">300</span></pre></div>
+<p>All you need to do is:</p>
+<ul>
+<li>replace <code>say 1</code> with a command of your choice.</li>
+<li>replace <code>100</code> with the time of your choice. The time works in ticks. <br>
+1 tick = 50 milliseconds, 20 ticks = 1 Second ...  Quick Maths!</li>
+</ul>
+<h2>
+<a id="user-content-done" class="anchor" href="#done" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Done</h2>
+<p>Start up the server... and Enjoy.</p>
+<h1>
+<a id="user-content-qa" class="anchor" href="#qa" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Q&amp;A</h1>
+<p>Q: Deibo, did you steal LDX's plugin? <br>
+A: No. This is my own rewrite, and written from scratch.</p>
+<p>Q: Deibo, Where can I edit the commands? <br>
+A: Incase you are more blind than me, it is in the <code>Usage</code> tab.</p>
+<p>Q: Why is the time different to the other TimeCommander? <br>
+A: I felt like having it show up as minutes felt too restrictive. The user can choose exactly how long they want.</p>
+<p>Q: How many ticks are in a second? <br>
+A: 20 ticks are in a second. :D.</p>
+<p>Q: how many seconds is one tick? <br>
+A: 50 Miliseconds</p>

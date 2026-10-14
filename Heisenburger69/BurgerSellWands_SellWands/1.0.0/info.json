@@ -1,0 +1,76 @@
+{
+    "id": 3932,
+    "name": "BurgerSellWands",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BurgerSellWands/1.0.0",
+    "tagline": "Plugin implementing fully customizable SellWands for PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/78005",
+    "downloads": 438,
+    "score": 5,
+    "repo_id": 227802145,
+    "repo_name": "Heisenburger69/BurgerSellWands",
+    "project_id": 5900,
+    "project_name": "SellWands",
+    "build_id": 72355,
+    "build_number": 10,
+    "build_commit": "bb398125d65faeff195a43bef2691d2f3be69bf3",
+    "description_url": "https://poggit.pmmp.io/r/78007",
+    "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerSellWands/bb398125d65faeff195a43bef2691d2f3be69bf3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1583665117,
+    "state": 5,
+    "last_state_change_date": 1583685352,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "burger",
+        "burgersellwands",
+        "sale",
+        "sell",
+        "sellwands",
+        "shop",
+        "store",
+        "wand",
+        "wands"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "iZeaoGamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,65 @@
+{
+    "id": 1740,
+    "name": "WorldTP",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldTP/1.1.0",
+    "tagline": "Teleport between worlds with ease",
+    "artifact_url": "https://poggit.pmmp.io/r/38456",
+    "downloads": 249,
+    "score": null,
+    "repo_id": 118230964,
+    "repo_name": "ThunderDoesPlugins/WorldTP",
+    "project_id": 1806,
+    "project_name": "WorldTP",
+    "build_id": 46917,
+    "build_number": 5,
+    "build_commit": "93105816abca3674482a5eb807557302ca50e004",
+    "description_url": "https://poggit.pmmp.io/r/38452",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/38454",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/38455",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1533041834,
+    "state": 5,
+    "last_state_change_date": 1533041921,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "world",
+        "worlds",
+        "teleport",
+        "worldteleport",
+        "worldtp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Thunder33345"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

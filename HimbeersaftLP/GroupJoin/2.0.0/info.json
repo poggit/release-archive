@@ -1,0 +1,78 @@
+{
+    "id": 11902,
+    "name": "GroupJoin",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/GroupJoin/2.0.0",
+    "tagline": "Get notified when a player from a specific RankSystem or GroupSystem group joins.",
+    "artifact_url": "https://poggit.pmmp.io/r/215714",
+    "downloads": 736,
+    "score": 5,
+    "repo_id": 206589542,
+    "repo_name": "HimbeersaftLP/GroupJoin",
+    "project_id": 5521,
+    "project_name": "GroupJoin",
+    "build_id": 159365,
+    "build_number": 20,
+    "build_commit": "0a1fa1a37e2360b19e966b39f60127a33b3f9e9c",
+    "description_url": "https://poggit.pmmp.io/r/215711",
+    "icon_url": "https://raw.githubusercontent.com/HimbeersaftLP/GroupJoin/0a1fa1a37e2360b19e966b39f60127a33b3f9e9c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/215713",
+    "license": "AGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689016590,
+    "state": 5,
+    "last_state_change_date": 1689023759,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "group",
+        "groupsapi",
+        "groupsystem",
+        "join",
+        "leave",
+        "purechat",
+        "pureperms",
+        "quit",
+        "ranksystem"
+    ],
+    "api": [
+        {
+            "from": "4.4.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "RankSystem",
+            "version": "1.1.2",
+            "depRelId": 11686,
+            "isHard": false
+        },
+        {
+            "name": "GroupSystem",
+            "version": "3.2.3",
+            "depRelId": 11757,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HimbeersaftLP"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

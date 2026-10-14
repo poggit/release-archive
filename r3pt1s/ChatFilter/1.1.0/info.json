@@ -1,0 +1,59 @@
+{
+    "id": 11525,
+    "name": "Chat-Filter",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Chat-Filter/1.1.0",
+    "tagline": "A chatfilter for pocketmine-mp",
+    "artifact_url": "https://poggit.pmmp.io/r/209932",
+    "downloads": 406,
+    "score": null,
+    "repo_id": 507523757,
+    "repo_name": "r3pt1s/ChatFilter",
+    "project_id": 11460,
+    "project_name": "ChatFilter",
+    "build_id": 156132,
+    "build_number": 3,
+    "build_commit": "92a946b63d5aefc2a1b6768d63046b289df05c4d",
+    "description_url": "https://poggit.pmmp.io/r/209929",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/209931",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685815771,
+    "state": 5,
+    "last_state_change_date": 1685817426,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "chatfilter",
+        "filter"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "r3pt1s"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

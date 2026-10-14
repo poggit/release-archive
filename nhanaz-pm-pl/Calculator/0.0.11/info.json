@@ -1,0 +1,77 @@
+{
+    "id": 10693,
+    "name": "Calculator",
+    "version": "0.0.11",
+    "html_url": "https://poggit.pmmp.io/p/Calculator/0.0.11",
+    "tagline": "Execute math expressions in the server or console on PocketMine-MP servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/195232",
+    "downloads": 18,
+    "score": null,
+    "repo_id": 540745713,
+    "repo_name": "nhanaz-pm-pl/Calculator",
+    "project_id": 11854,
+    "project_name": "Calculator",
+    "build_id": 146616,
+    "build_number": 38,
+    "build_commit": "d2f24d70f86254251566cd3f4ea2fc51ae11093e",
+    "description_url": "https://poggit.pmmp.io/r/195235",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/Calculator/d2f24d70f86254251566cd3f4ea2fc51ae11093e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/195237",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1666055102,
+    "state": 5,
+    "last_state_change_date": 1666056014,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "calculator",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "arithmexp",
+            "project_id": 9397,
+            "repo_id": 391817412,
+            "repo_name": "Muqsit/arithmexp",
+            "repo_path": "",
+            "build_commit": "328895eee6e9a637f586b42a040cd673ae52a255",
+            "build_id": 146566
+        },
+        {
+            "name": "libBedrock",
+            "project_id": 11911,
+            "repo_id": 551801316,
+            "repo_name": "NhanAZ-Libraries/libBedrock",
+            "repo_path": "",
+            "build_commit": "4a2cc41f2d94a2345dd9e7a116c458186a8f65eb",
+            "build_id": 146615
+        }
+    ]
+}

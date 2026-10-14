@@ -1,0 +1,59 @@
+{
+    "id": 11472,
+    "name": "HealAndFeed",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HealAndFeed/3.0.0",
+    "tagline": "Heal and Feed Command For PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/209352",
+    "downloads": 22,
+    "score": null,
+    "repo_id": 418657033,
+    "repo_name": "Kylan1940/PMMP-HealAndFeed",
+    "project_id": 9859,
+    "project_name": "HealAndFeed",
+    "build_id": 155911,
+    "build_number": 37,
+    "build_commit": "bc97e699a3ce1227d40c55cf846eba195f4fa55d",
+    "description_url": "https://poggit.pmmp.io/r/209349",
+    "icon_url": "https://raw.githubusercontent.com/Kylan1940/HealAndFeed/bc97e699a3ce1227d40c55cf846eba195f4fa55d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209351",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685695666,
+    "state": 5,
+    "last_state_change_date": 1685706263,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Feed",
+        "Heal",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Kylan1940"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

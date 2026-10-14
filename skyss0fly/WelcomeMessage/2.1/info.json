@@ -1,0 +1,72 @@
+{
+    "id": 13676,
+    "name": "WelcomeMessage",
+    "version": "2.1",
+    "html_url": "https://poggit.pmmp.io/p/WelcomeMessage/2.1",
+    "tagline": "A simple welcome message plugin thats customizable",
+    "artifact_url": "https://poggit.pmmp.io/r/250493",
+    "downloads": 480,
+    "score": null,
+    "repo_id": 625416012,
+    "repo_name": "skyss0fly/WelcomeMessage",
+    "project_id": 12329,
+    "project_name": "WelcomeMessage",
+    "build_id": 183236,
+    "build_number": 125,
+    "build_commit": "b68f67f3f01cf6d6c61c52129b2cdf8ca1751673",
+    "description_url": "https://poggit.pmmp.io/r/250778",
+    "icon_url": "https://raw.githubusercontent.com/skyss0fly/WelcomeMessage/b68f67f3f01cf6d6c61c52129b2cdf8ca1751673/Icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/250780",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1734257217,
+    "state": 5,
+    "last_state_change_date": 1735117264,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "Greeter",
+        "JoinMessage",
+        "LeaveMessage",
+        "Welcome",
+        "WelcomeMessage",
+        "Welcomer"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Requester": [
+            "JasonYT110"
+        ],
+        "Collaborator": [
+            "skyss0fly"
+        ],
+        "Contributor": [
+            "Inaay"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

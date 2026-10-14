@@ -1,0 +1,66 @@
+{
+    "id": 6834,
+    "name": "MineraFurnace",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MineraFurnace/2.0.0",
+    "tagline": "Cook, smelt, drie or bake an item in your hand",
+    "artifact_url": "https://poggit.pmmp.io/r/128780",
+    "downloads": 827,
+    "score": 2,
+    "repo_id": 329271286,
+    "repo_name": "HannesTheDev/MineraFurnace",
+    "project_id": 8375,
+    "project_name": "MineraFurnace",
+    "build_id": 104081,
+    "build_number": 25,
+    "build_commit": "b764145e993a46ceeb8021a15ceaad93d71539f8",
+    "description_url": "https://poggit.pmmp.io/r/129816",
+    "icon_url": "https://raw.githubusercontent.com/HannesTheDev/MineraFurnace/b764145e993a46ceeb8021a15ceaad93d71539f8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/129818",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1623597569,
+    "state": 5,
+    "last_state_change_date": 1624653708,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Furnace",
+        "Minera"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HannesTheDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

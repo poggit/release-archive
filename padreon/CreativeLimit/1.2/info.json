@@ -1,0 +1,62 @@
+{
+    "id": 3157,
+    "name": "CreativeLimit",
+    "version": "1.2",
+    "html_url": "https://poggit.pmmp.io/p/CreativeLimit/1.2",
+    "tagline": "Limited creative for player",
+    "artifact_url": "https://poggit.pmmp.io/r/62131",
+    "downloads": 2045,
+    "score": 4,
+    "repo_id": 94966894,
+    "repo_name": "padreon/CreativeLimit",
+    "project_id": 539,
+    "project_name": "CreativeLimit",
+    "build_id": 61899,
+    "build_number": 13,
+    "build_commit": "a8d40f07edbfc6f8552e15a038ba9a38a0ad39c6",
+    "description_url": "https://poggit.pmmp.io/r/62130",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1562857729,
+    "state": 5,
+    "last_state_change_date": 1562858283,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Creative",
+        "Limit"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "padreon"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

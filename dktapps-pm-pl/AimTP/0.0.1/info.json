@@ -1,0 +1,55 @@
+{
+    "id": 2350,
+    "name": "AimTP",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AimTP/0.0.1",
+    "tagline": "Teleport where your crosshair is aiming",
+    "artifact_url": "https://poggit.pmmp.io/r/50057",
+    "downloads": 2682,
+    "score": 4,
+    "repo_id": 152126476,
+    "repo_name": "dktapps-pm-pl/AimTP",
+    "project_id": 4371,
+    "project_name": "AimTP",
+    "build_id": 53090,
+    "build_number": 1,
+    "build_commit": "3cb70ec06935da68fe6029ce8222a3c029edf3c9",
+    "description_url": "https://poggit.pmmp.io/r/50056",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1548332159,
+    "state": 5,
+    "last_state_change_date": 1548640186,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.2.4",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "dktapps"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

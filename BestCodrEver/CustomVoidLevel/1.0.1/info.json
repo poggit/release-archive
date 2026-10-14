@@ -1,0 +1,64 @@
+{
+    "id": 7569,
+    "name": "CustomVoidLevel",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/CustomVoidLevel/1.0.1",
+    "tagline": "Sets a custom y-level as the void!",
+    "artifact_url": "https://poggit.pmmp.io/r/140984",
+    "downloads": 218,
+    "score": 5,
+    "repo_id": 402717356,
+    "repo_name": "BestCodrEver/CustomVoidLevel",
+    "project_id": 9652,
+    "project_name": "CustomVoidLevel",
+    "build_id": 111371,
+    "build_number": 39,
+    "build_commit": "965a7b73e15e0c665d2db34c54d332003d8a8f21",
+    "description_url": "https://poggit.pmmp.io/r/140981",
+    "icon_url": "https://raw.githubusercontent.com/BestCodrEver/CustomVoidLevel/965a7b73e15e0c665d2db34c54d332003d8a8f21/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/140983",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1631140823,
+    "state": 5,
+    "last_state_change_date": 1631182433,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "limit",
+        "void",
+        "y-level"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BestCodrEver"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

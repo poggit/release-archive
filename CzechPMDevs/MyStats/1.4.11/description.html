@@ -1,0 +1,228 @@
+<h3>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API:</h3>
+<ul>
+<li>Get player`s data</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">getData</span>(<span class="pl-c1">Player</span> <span class="pl-smi">$player</span>): <span class="pl-c1">\mystats\utils\</span><span class="pl-c1">Data</span> {</span>
+<span class="pl-s1">    <span class="pl-smi">$api</span> <span class="pl-k">=</span> <span class="pl-c1">\mystats\</span><span class="pl-c1">MyStats</span><span class="pl-k">::</span>getAPI();</span>
+<span class="pl-s1">    <span class="pl-k">return</span> <span class="pl-smi">$api</span><span class="pl-k">-&gt;</span>getPlayerData(<span class="pl-smi">$player</span>);</span>
+<span class="pl-s1">}</span></pre></div>
+<ul>
+<li>Get player`s kills</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">getData</span>(<span class="pl-c1">Player</span> <span class="pl-smi">$player</span>): <span class="pl-c1">\mystats\utils\</span><span class="pl-c1">Data</span> {</span>
+<span class="pl-s1">    <span class="pl-smi">$api</span> <span class="pl-k">=</span> <span class="pl-c1">\mystats\</span><span class="pl-c1">MyStats</span><span class="pl-k">::</span>getAPI();</span>
+<span class="pl-s1">    <span class="pl-k">return</span> <span class="pl-smi">$api</span><span class="pl-k">-&gt;</span>getPlayerData(<span class="pl-smi">$player</span>);</span>
+<span class="pl-s1">}</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">getKills</span>(<span class="pl-c1">Player</span> <span class="pl-smi">$player</span>): <span class="pl-k">int</span> {</span>
+<span class="pl-s1">    <span class="pl-smi">$data</span> <span class="pl-k">=</span> <span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>getData(<span class="pl-smi">$player</span>);</span>
+<span class="pl-s1">    <span class="pl-k">return</span> <span class="pl-smi">$data</span><span class="pl-k">-&gt;</span>getKills();</span>
+<span class="pl-s1">}</span></pre></div>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands:</h3>
+<h4>
+<a id="user-content-stats-command" class="anchor" href="#stats-command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stats command</h4>
+<ul>
+<li>description: Displays your stats</li>
+<li>usage: /stats</li>
+<li>aliases:
+<ul>
+<li>ms</li>
+<li>mystats</li>
+</ul>
+</li>
+<li>permission: ms.cmd.stats</li>
+</ul>
+<h3>
+<a id="user-content-pictures" class="anchor" href="#pictures" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pictures:</h3>
+<p><a href="https://camo.githubusercontent.com/650aa077a48de862c45f71c04619ce3e189d4a96/68747470733a2f2f696d6167652e6962622e636f2f655a6a55476b2f4d7953746174732e706e67" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/650aa077a48de862c45f71c04619ce3e189d4a96/68747470733a2f2f696d6167652e6962622e636f2f655a6a55476b2f4d7953746174732e706e67" alt="MyStats" data-canonical-src="https://image.ibb.co/eZjUGk/MyStats.png" style="max-width:100%;"></a></p>
+<h3>
+<a id="user-content-format-list" class="anchor" href="#format-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Format list:</h3>
+<table>
+<thead>
+<tr>
+<th>format</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%name</td>
+<td>player`s name</td>
+</tr>
+<tr>
+<td>%level</td>
+<td>player`s level</td>
+</tr>
+<tr>
+<td>%x, %y, %z</td>
+<td>player`s coords</td>
+</tr>
+<tr>
+<td>%itemid</td>
+<td>player`s item in hand id</td>
+</tr>
+<tr>
+<td>%itemname</td>
+<td>player`s item in hand name</td>
+</tr>
+<tr>
+<td>%broken</td>
+<td>broken blocks</td>
+</tr>
+<tr>
+<td>%placed</td>
+<td>placed blocks</td>
+</tr>
+<tr>
+<td>%kills</td>
+<td>kills</td>
+</tr>
+<tr>
+<td>%deaths</td>
+<td>deaths</td>
+</tr>
+<tr>
+<td>%money</td>
+<td>player`s money</td>
+</tr>
+<tr>
+<td>%rank</td>
+<td>player`s rank</td>
+</tr>
+<tr>
+<td>%faction</td>
+<td>player`s faction</td>
+</tr>
+<tr>
+<td>%online</td>
+<td>count online players</td>
+</tr>
+<tr>
+<td>%version</td>
+<td>server version</td>
+</tr>
+<tr>
+<td>%ip</td>
+<td>server address</td>
+</tr>
+<tr>
+<td>%port</td>
+<td>server port</td>
+</tr>
+<tr>
+<td>%tps</td>
+<td>server tps</td>
+</tr>
+<tr>
+<td>%ping</td>
+<td>player's ping</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config:</h3>
+<ul>
+<li>default config:</li>
+</ul>
+<div class="highlight highlight-source-yaml"><pre>
+---
+
+<span class="pl-ent">config-version</span>: <span class="pl-s"><span class="pl-pds">'</span>1.4.6<span class="pl-pds">'</span></span>
+
+<span class="pl-ent">prefix</span>: <span class="pl-s"><span class="pl-pds">'</span>&amp;5&amp;l[ &amp;r&amp;2MyStats &amp;l&amp;5]<span class="pl-pds">'</span></span>
+
+<span class="pl-ent">economy</span>: <span class="pl-s"><span class="pl-pds">'</span>false<span class="pl-pds">'</span></span>
+
+<span class="pl-ent">factions</span>: <span class="pl-s"><span class="pl-pds">'</span>false<span class="pl-pds">'</span></span>
+
+<span class="pl-ent">ranks</span>: <span class="pl-s"><span class="pl-pds">'</span>false<span class="pl-pds">'</span></span>
+
+<span class="pl-ent">mainFormat</span>:
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;5-- == &amp;6[&amp;eMyStats&amp;6] &amp;5== ---<span class="pl-pds">'</span></span>
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;3Welcome: &amp;b%name<span class="pl-pds">'</span></span>
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;3You are playing on &amp;b%level<span class="pl-pds">'</span></span>
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;9- &amp;3Kills: %kills<span class="pl-pds">'</span></span>
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;9- &amp;3Deaths: %deaths<span class="pl-pds">'</span></span>
+
+<span class="pl-ent">cmdFormat</span>:
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;5--- == &amp;6[&amp;eMyStats&amp;6] &amp;5== ---<span class="pl-pds">'</span></span>
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;9- &amp;3Name: &amp;b%name<span class="pl-pds">'</span></span>
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;9- &amp;3K/D: &amp;b%kills / %deaths<span class="pl-pds">'</span></span>
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;9- &amp;3Broken Blocks: &amp;b%broken<span class="pl-pds">'</span></span>
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;9- &amp;3Placed Blocks: &amp;b%placed<span class="pl-pds">'</span></span>
+  - <span class="pl-s"><span class="pl-pds">'</span>&amp;9- &amp;3Joins: &amp;b%joins<span class="pl-pds">'</span></span>
+
+<span class="pl-ent">filter</span>: <span class="pl-s"><span class="pl-pds">'</span>false<span class="pl-pds">'</span></span>
+
+<span class="pl-ent">defaultFormat</span>: <span class="pl-s"><span class="pl-pds">'</span>1<span class="pl-pds">'</span></span>
+
+<span class="pl-ent">popupWorlds</span>:
+  - <span class="pl-s">Lobby</span>
+  - <span class="pl-s">Spawn</span>
+  - <span class="pl-s">PlotMe</span>
+
+<span class="pl-ent">tipWorlds</span>:
+  - <span class="pl-s">world</span>
+  - <span class="pl-s">Hub</span>
+...
+</pre></div>
+<h4>
+<a id="user-content-enabling-economy" class="anchor" href="#enabling-economy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Enabling economy:</h4>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> ---------------------------------------------------------------------------- #</span>
+
+<span class="pl-c"><span class="pl-c">#</span>#</span>
+<span class="pl-c"><span class="pl-c">#</span>## Economy</span>
+<span class="pl-c"><span class="pl-c">#</span>#</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Economy types: EconomyAPI</span>
+<span class="pl-c"><span class="pl-c">#</span> To enable economy type Economy type</span>
+<span class="pl-ent">economy</span>: <span class="pl-s"><span class="pl-pds">'</span>EconomyAPI<span class="pl-pds">'</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> ---------------------------------------------------------------------------- #</span></pre></div>
+<ul>
+<li>If the EconomyAPI plugin is not found, the value of the money is set to 0.</li>
+</ul>
+<h4>
+<a id="user-content-enanling-ranks-pureperms-or-factions" class="anchor" href="#enanling-ranks-pureperms-or-factions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Enanling ranks (PurePerms) or factions:</h4>
+<h5>
+<a id="user-content-ranks-pureperms" class="anchor" href="#ranks-pureperms" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ranks (PurePerms):</h5>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> ---------------------------------------------------------------------------- #</span>
+
+
+<span class="pl-c"><span class="pl-c">#</span>#</span>
+<span class="pl-c"><span class="pl-c">#</span>## PurePerms</span>
+<span class="pl-c"><span class="pl-c">#</span>#</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Enable pureperms</span>
+<span class="pl-ent">ranks</span>: <span class="pl-s"><span class="pl-pds">'</span>true<span class="pl-pds">'</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> ---------------------------------------------------------------------------- #</span></pre></div>
+<ul>
+<li>If the PurePerms plugin is not found, the value of the rank is set to ' '.</li>
+</ul>
+<h5>
+<a id="user-content-factions" class="anchor" href="#factions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>factions:</h5>
+<ul>
+<li>Supported Factions plugins:
+<ul>
+<li>FactionsPro</li>
+<li>FactionsProBeta</li>
+</ul>
+</li>
+</ul>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> ---------------------------------------------------------------------------- #</span>
+
+<span class="pl-c"><span class="pl-c">#</span>#</span>
+<span class="pl-c"><span class="pl-c">#</span>## Factions</span>
+<span class="pl-c"><span class="pl-c">#</span>#</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Enable faction</span>
+<span class="pl-ent">factions</span>: <span class="pl-s"><span class="pl-pds">'</span>true<span class="pl-pds">'</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> ---------------------------------------------------------------------------- #</span></pre></div>
+<ul>
+<li>If the factions plugin is not found, the value of the fanction is set to ' '.</li>
+</ul>

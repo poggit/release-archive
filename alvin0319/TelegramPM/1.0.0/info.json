@@ -1,0 +1,53 @@
+{
+    "id": 4613,
+    "name": "TelegramPM",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TelegramPM/1.0.0",
+    "tagline": "A PocketMine-MP Plugin that connect PM server <-> Telegram",
+    "artifact_url": "https://poggit.pmmp.io/r/90863",
+    "downloads": 48,
+    "score": 3,
+    "repo_id": 269866900,
+    "repo_name": "alvin0319/TelegramPM",
+    "project_id": 7131,
+    "project_name": "TelegramPM",
+    "build_id": 80577,
+    "build_number": 3,
+    "build_commit": "69357445aa654f3badb3aca5e4abf859469e4aec",
+    "description_url": "https://poggit.pmmp.io/r/90862",
+    "icon_url": "https://raw.githubusercontent.com/alvin0319/TelegramPM/69357445aa654f3badb3aca5e4abf859469e4aec/Telegram.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1591419279,
+    "state": 5,
+    "last_state_change_date": 1591622375,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "telegram"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,76 @@
+{
+    "id": 10432,
+    "name": "WorldProtect",
+    "version": "2.3.14",
+    "html_url": "https://poggit.pmmp.io/p/WorldProtect/2.3.14",
+    "tagline": "World Protection and more by Aliuly",
+    "artifact_url": "https://poggit.pmmp.io/r/189700",
+    "downloads": 2325,
+    "score": 2,
+    "repo_id": 82859657,
+    "repo_name": "poggit-orphanage/WorldProtect",
+    "project_id": 264,
+    "project_name": "WorldProtect",
+    "build_id": 142732,
+    "build_number": 46,
+    "build_commit": "2de7696660d139e7a73cf0efdc6e111c3e0b63b6",
+    "description_url": "https://poggit.pmmp.io/r/189697",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/WorldProtect/2de7696660d139e7a73cf0efdc6e111c3e0b63b6/worldprotect.png",
+    "changelog_url": "https://poggit.pmmp.io/r/189699",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1660247473,
+    "state": 5,
+    "last_state_change_date": 1660406700,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "antigrief",
+        "banitem",
+        "border",
+        "itemban",
+        "protect",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "alejandroliu",
+            "edwinyoo44",
+            "jasonwynn10",
+            "SOF3",
+            "SuperYYT",
+            "supercrafter333",
+            "ItzStarlxy"
+        ],
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

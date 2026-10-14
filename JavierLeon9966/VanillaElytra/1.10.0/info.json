@@ -1,0 +1,70 @@
+{
+    "id": 11226,
+    "name": "VanillaElytra",
+    "version": "1.10.0",
+    "html_url": "https://poggit.pmmp.io/p/VanillaElytra/1.10.0",
+    "tagline": "A plugin that implements vanilla Elytra into PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/205773",
+    "downloads": 359,
+    "score": 4,
+    "repo_id": 362659821,
+    "repo_name": "JavierLeon9966/VanillaElytra",
+    "project_id": 8936,
+    "project_name": "VanillaElytra",
+    "build_id": 153819,
+    "build_number": 28,
+    "build_commit": "f1ebbd72948dc89f7c9b2d14408b2c351496ce0c",
+    "description_url": "https://poggit.pmmp.io/r/205770",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/VanillaElytra/f1ebbd72948dc89f7c9b2d14408b2c351496ce0c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/205772",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1682615297,
+    "state": 5,
+    "last_state_change_date": 1682615306,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "elytra",
+        "fireworks",
+        "vanilla"
+    ],
+    "api": [
+        {
+            "from": "4.1.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Firework",
+            "version": "0.0.1",
+            "depRelId": 1588,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

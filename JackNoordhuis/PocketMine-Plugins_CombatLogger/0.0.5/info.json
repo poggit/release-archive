@@ -1,0 +1,66 @@
+{
+    "id": 1409,
+    "name": "CombatLogger",
+    "version": "0.0.5",
+    "html_url": "https://poggit.pmmp.io/p/CombatLogger/0.0.5",
+    "tagline": "Simple plugin that allows you to punish combat loggers!",
+    "artifact_url": "https://poggit.pmmp.io/r/30988",
+    "downloads": 931,
+    "score": null,
+    "repo_id": 69350447,
+    "repo_name": "JackNoordhuis/PocketMine-Plugins",
+    "project_id": 205,
+    "project_name": "CombatLogger",
+    "build_id": 41712,
+    "build_number": 10,
+    "build_commit": "b26e03176895ac9a207aec12aae8eac68f25f942",
+    "description_url": "https://poggit.pmmp.io/r/30985",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/30987",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526902429,
+    "state": 5,
+    "last_state_change_date": 1526902469,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "combat",
+        "logger",
+        "log"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA10",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JackNoordhuis"
+        ],
+        "Contributor": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

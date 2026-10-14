@@ -1,0 +1,60 @@
+{
+    "id": 147,
+    "name": "MyAuth",
+    "version": "v1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/MyAuth/v1.2.1",
+    "tagline": "Simple authentication plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/2739",
+    "downloads": 565,
+    "score": null,
+    "repo_id": 82831631,
+    "repo_name": "SuperPuperSteve/MyAuth",
+    "project_id": 279,
+    "project_name": "MyAuth",
+    "build_id": 21190,
+    "build_number": 9,
+    "build_commit": "759c38441092464b0c15f0fdc3732dca47c1d849",
+    "description_url": "https://poggit.pmmp.io/r/2536",
+    "icon_url": "https://raw.githubusercontent.com/SuperPuperSteve/MyAuth/759c38441092464b0c15f0fdc3732dca47c1d849/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/2537",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1488878333,
+    "state": 5,
+    "last_state_change_date": 1519389933,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "auth",
+        "mysql",
+        "sqlite",
+        "database"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA1",
+            "to": "3.0.0-ALPHA4"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SuperPuperSteve"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

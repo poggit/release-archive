@@ -1,0 +1,88 @@
+{
+    "id": 11016,
+    "name": "WFT",
+    "version": "1.4.2",
+    "html_url": "https://poggit.pmmp.io/p/WFT/1.4.2",
+    "tagline": "Create Floating Texts with WFT",
+    "artifact_url": "https://poggit.pmmp.io/r/201281",
+    "downloads": 47,
+    "score": 5,
+    "repo_id": 432994430,
+    "repo_name": "WolfDen133/WFT",
+    "project_id": 10009,
+    "project_name": "WFT",
+    "build_id": 150760,
+    "build_number": 101,
+    "build_commit": "029f6671452e888580fd7c49215355e7c2ba98f9",
+    "description_url": "https://poggit.pmmp.io/r/201287",
+    "icon_url": "https://raw.githubusercontent.com/WolfDen133/WFT/029f6671452e888580fd7c49215355e7c2ba98f9/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/201289",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1678405664,
+    "state": 5,
+    "last_state_change_date": 1678445648,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floating",
+        "floatingtext",
+        "ft",
+        "text",
+        "wft",
+        "wolfies"
+    ],
+    "api": [
+        {
+            "from": "4.16.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WolfDen133"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

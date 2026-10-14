@@ -1,0 +1,68 @@
+{
+    "id": 3154,
+    "name": "PingTag",
+    "version": "0.4",
+    "html_url": "https://poggit.pmmp.io/p/PingTag/0.4",
+    "tagline": "Displays player ping below nametag",
+    "artifact_url": "https://poggit.pmmp.io/r/62077",
+    "downloads": 15742,
+    "score": 5,
+    "repo_id": 196104144,
+    "repo_name": "UnknownBallin/PingTag",
+    "project_id": 5298,
+    "project_name": "PingTag",
+    "build_id": 61854,
+    "build_number": 13,
+    "build_commit": "37b6adc3a20223ea207fb65d5bb836dcd8b0d58e",
+    "description_url": "https://poggit.pmmp.io/r/63429",
+    "icon_url": "https://raw.githubusercontent.com/UnknownBallin/PingTag/37b6adc3a20223ea207fb65d5bb836dcd8b0d58e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1562779396,
+    "state": 5,
+    "last_state_change_date": 1562826485,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "ping",
+        "player",
+        "scoretag",
+        "tag"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "UnknownBallin"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

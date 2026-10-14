@@ -1,0 +1,122 @@
+{
+    "id": 3389,
+    "name": "EasyKits",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/EasyKits/1.1.0",
+    "tagline": "A kit plugin for everyone",
+    "artifact_url": "https://poggit.pmmp.io/r/66727",
+    "downloads": 441,
+    "score": null,
+    "repo_id": 202172646,
+    "repo_name": "AndreasHGK/EasyKits",
+    "project_id": 5444,
+    "project_name": "EasyKits",
+    "build_id": 64930,
+    "build_number": 25,
+    "build_commit": "3d10a3080a71fd63cb3eb5d9d0baa963a49185e6",
+    "description_url": "https://poggit.pmmp.io/r/66904",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/66906",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1570207845,
+    "state": 5,
+    "last_state_change_date": 1570257458,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "chestkit",
+        "easy",
+        "easykits",
+        "gui",
+        "Kit",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "3.9.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "MultiEconomy",
+            "version": "1.1.0",
+            "depRelId": 2393,
+            "isHard": false
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "1.4.6",
+            "depRelId": 3171,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AndreasHGK"
+        ],
+        "Contributor": [
+            "ImDaRealAni",
+            "JavierLeon9966",
+            "TacoNoBurrito"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "d173ee82691b06400d7b17f0f31612d664022ef9",
+            "build_id": 61927
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "3e3d9139ab85f11b0cc7bdc523ebed1d0d1fe014",
+            "build_id": 62031
+        }
+    ]
+}

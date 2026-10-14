@@ -1,0 +1,49 @@
+<h1>
+<a id="user-content-chestrefill" class="anchor" href="#chestrefill" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ChestRefill</h1>
+<ul>
+<li>
+<strong>ChestRefill</strong> is a plugin developed entirely by <strong>Clouds#0667</strong>.</li>
+</ul>
+<h1>
+<a id="user-content-what-is-it-for" class="anchor" href="#what-is-it-for" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is it for?</h1>
+<ul>
+<li>
+<strong>ChestRefill</strong> allows chests to be <em>regenerated automatically</em> when the time is up.</li>
+</ul>
+<h1>
+<a id="user-content-config-file" class="anchor" href="#config-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config File</h1>
+<ul>
+<li>ChestRefill contains a configuration file for more possibilities!</li>
+</ul>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">chest</span>:
+  <span class="pl-c"><span class="pl-c">#</span> schéma x:y:z:worldName exemple</span>
+  <span class="pl-c"><span class="pl-c">#</span> - "0.5:64:0.5:world"</span>
+
+<span class="pl-ent">items</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Items that may appear in the chests</span>
+  <span class="pl-c"><span class="pl-c">#</span> schéma id:meta:count:enchantId:echantLevel exemple</span>
+  <span class="pl-c"><span class="pl-c">#</span> with enchant - "1:0:1:9:5" without enchant - "1:0:1:none:0"</span>
+
+<span class="pl-c"><span class="pl-c">#</span> What is the minimum number of items per box?</span>
+<span class="pl-ent">item-min-per-chest</span>: <span class="pl-c1">1</span>
+<span class="pl-c"><span class="pl-c">#</span> What is the maximum number of items per box?</span>
+<span class="pl-ent">item-max-per-chest</span>: <span class="pl-c1">6</span>
+<span class="pl-c"><span class="pl-c">#</span> Message during the cooldown before the chestrefill {time} = time left</span>
+<span class="pl-ent">before-the-chestrefill</span>: <span class="pl-s"><span class="pl-pds">"</span>The chest refill will take place in §e{time} §fsecond(s).<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Sound during the cooldown of messages before the chestrefill.</span>
+<span class="pl-ent">sound-before-the-chestrefill</span>: <span class="pl-s"><span class="pl-pds">"</span>note.harp<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> When should a message to warn of chestrefill time be sent (in second)</span>
+<span class="pl-ent">time-before-the-chestrefill</span>: <span class="pl-s">[60, 30, 15, 10, 5, 4, 3, 2, 1]</span>
+<span class="pl-c"><span class="pl-c">#</span> Message at the chestrefill.</span>
+<span class="pl-ent">chestrefill-broadcast</span>: <span class="pl-s"><span class="pl-pds">"</span>The chests have been regenerated!<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Sound in chest refill.</span>
+<span class="pl-ent">sound-chestrefill</span>: <span class="pl-s"><span class="pl-pds">"</span>beacon.power<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> How often does a chestrefill take place? (in second)</span>
+<span class="pl-ent">time</span>: <span class="pl-c1">3600</span>
+<span class="pl-c"><span class="pl-c">#</span> Message when running the /chestrefill command.</span>
+<span class="pl-ent">command-chestrefill-message</span>: <span class="pl-s"><span class="pl-pds">"</span>The chest refill will take place in §e{time} §fsecond(s).<span class="pl-pds">"</span></span></pre></div>
+<h1>
+<a id="user-content-support" class="anchor" href="#support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support</h1>
+<ul>
+<li>If you have any <strong>ideas</strong> for additions or a <strong>bug</strong> to report, please join the server discord by clicking <a href="https://discord.gg/kARpD3DsdU" rel="nofollow">here</a>.</li>
+</ul>

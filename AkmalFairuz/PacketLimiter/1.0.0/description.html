@@ -1,0 +1,14 @@
+<h1>
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h1>
+<p>A plugin to limit player from sending many packets. Attacker may sent a lot of packet.<br>
+PocketMine does not provide any level of protection against packet spam.<br>
+As such, individual players can send as many packets as they want.<br>
+The solution was to limit the maximum packets/second a client could send.</p>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> Normal player sent ~200 packet every second</span>
+<span class="pl-ent">packet_per_second</span>: <span class="pl-c1">250</span>
+<span class="pl-c"><span class="pl-c">#</span> If reach limit packet per second they will get warning and if reach maximum warning they kicked.</span>
+<span class="pl-ent">maximum_warning</span>: <span class="pl-c1">5</span>
+
+<span class="pl-ent">kick_message</span>: <span class="pl-s"><span class="pl-pds">"</span>You sending too many packets!<span class="pl-pds">"</span></span></pre></div>

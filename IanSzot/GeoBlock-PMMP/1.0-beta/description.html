@@ -1,0 +1,90 @@
+<h1>
+<a id="user-content-geoblock-pmmp" class="anchor" href="#geoblock-pmmp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GeoBlock-PMMP</h1>
+<p>GeoBlock is a very simple Geo Blocking plugin for PocketMine-MP.
+Everytime a player join your server his IP will be checked against external APIs so we can get his country of origin and block or allow his login.</p>
+<p>Please read the "API Limits" and "IMPORTANT" tab before using this plugin.</p>
+<h2>
+<a id="user-content-api-limits" class="anchor" href="#api-limits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API Limits</h2>
+<p>This plugin uses two APIs. One main API (ip-api.com) and another for failover (extreme-ip-lookup.com).
+ip-api.com has a hard limit of 150 requests per minute and extreme-ip-lookup.com has a limit of 50 request per minute. This means that you have 200 requests per minute available for you.</p>
+<p>Note: ip-api.com WILL block your IP if you send more than 150 requests per minute and you will need to unban your IP <a href="http://ip-api.com/docs/unban" rel="nofollow">here</a> or that will leave you with only 50 requests per minute from extreme-ip-lookup.com.</p>
+<p><strong>One request = one player logging in on the server</strong>. If you have a big server (more than 150 players logging in per minute) please consider actually paying for some GeoIP API and edit the code to suit your new paid API</p>
+<h2>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h2>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>geoblock.bypass</td>
+<td>Players with this permission will bypass Geo Block</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-configyml" class="anchor" href="#configyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>config.yml</h2>
+<p>Configuration is pretty straightforward.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>kickMsg</strong></td>
+<td>Message for kicked player</td>
+</tr>
+<tr>
+<td><strong>action</strong></td>
+<td>deny or allow</td>
+</tr>
+<tr>
+<td></td>
+<td>allow = only players from “countries” will be able to join</td>
+</tr>
+<tr>
+<td></td>
+<td>deny = every player will join except players from “countries”</td>
+</tr>
+<tr>
+<td><strong>countries</strong></td>
+<td>Countries to allow/deny on the server. Uppsercase comma separated</td>
+</tr>
+<tr>
+<td></td>
+<td>Example: [BR, NZ, CN, RU, US]</td>
+</tr>
+<tr>
+<td><strong>fail</strong></td>
+<td>deny or allow. What to do if all APIs fail to return a country?</td>
+</tr>
+<tr>
+<td></td>
+<td>allow = players with invalid country code will be able to join the server</td>
+</tr>
+<tr>
+<td></td>
+<td>deny = players with invalid country code WILL NOT be able to join the server</td>
+</tr>
+<tr>
+<td><strong>failMsg</strong></td>
+<td>Message to show players kicked due to API fail</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-important" class="anchor" href="#important" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IMPORTANT</h2>
+<p>Again, I'd like to remind that if you get many (over 150) players logging in per minute it's VERY recommended that you pay for a good unlimited GeoIP API, there are many on Google, search for one that best suit your needs and budget. You will also have to edit the code to suit your new API.</p>
+<p>Keep in mind this plugin is still in <strong>BETA</strong> and has not been rigorously tested</p>
+<p><em>What happens if all APIs go offline or my IP gets blacklisted?</em></p>
+<p>I don't know. I could not simulate this situation, but the chances of you getting blocked by both API providers are very low</p>
+<p><em>Does this detect VPNs?</em></p>
+<p>No. Players with a proxy or VPN can easily bypass this plugin</p>
+<p><em>Why did you choose these APIs over X API?</em></p>
+<p>I didn't want to play favorites and the APIs I have choosen have pretty decent usage limits</p>

@@ -1,0 +1,67 @@
+{
+    "id": 14488,
+    "name": "UltimatePerms",
+    "version": "1.0.0-beta",
+    "html_url": "https://poggit.pmmp.io/p/UltimatePerms/1.0.0-beta",
+    "tagline": "  An ultimate Permission Management plugin ",
+    "artifact_url": "https://poggit.pmmp.io/r/265216",
+    "downloads": 49,
+    "score": null,
+    "repo_id": 1229419058,
+    "repo_name": "ImAMadDev/UltimatePerms",
+    "project_id": 15270,
+    "project_name": "UltimatePerms",
+    "build_id": 193235,
+    "build_number": 3,
+    "build_commit": "ce6d3299fac3105b578b6f1822f5465b202d7a7b",
+    "description_url": "https://poggit.pmmp.io/r/265215",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1783477580,
+    "state": 5,
+    "last_state_change_date": 1783608734,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "rank",
+        "permission",
+        "groups"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ImAMadDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

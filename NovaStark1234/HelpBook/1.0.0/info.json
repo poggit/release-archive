@@ -1,0 +1,58 @@
+{
+    "id": 8830,
+    "name": "HelpBook",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HelpBook/1.0.0",
+    "tagline": "Add manuals to your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/160050",
+    "downloads": 618,
+    "score": 5,
+    "repo_id": 455889968,
+    "repo_name": "NovaStark1234/HelpBook",
+    "project_id": 10532,
+    "project_name": "HelpBook",
+    "build_id": 122785,
+    "build_number": 2,
+    "build_commit": "f82fd41cd1cf19d992590aa56d585edeb766be54",
+    "description_url": "https://poggit.pmmp.io/r/160049",
+    "icon_url": "https://raw.githubusercontent.com/NovaStark1234/HelpBook/f82fd41cd1cf19d992590aa56d585edeb766be54/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644072683,
+    "state": 5,
+    "last_state_change_date": 1644639241,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "guide",
+        "manual",
+        "manuals",
+        "help",
+        "helpbook",
+        "newbie"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NovaStark1234"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

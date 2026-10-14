@@ -1,0 +1,75 @@
+<ul>
+<li>
+<p>Better cobblegen, many new commands, bug fixes, reformatting:</p>
+<ul>
+<li>
+<p>The cobblestone generator has been improved greatly; it is now made in the same way a vanilla cobblegen is made.</p>
+</li>
+<li>
+<p>Reformatted some of the old code and added all of the new commands to the help menu.</p>
+</li>
+<li>
+<p>New information in the /is info  command</p>
+<ul>
+<li>Now show's the island's value</li>
+<li>Now show's the island's rank among all of the islands.</li>
+</ul>
+</li>
+<li>
+<p>Fixed a /is ban bug.</p>
+<ul>
+<li>Before, when trying to teleport to an island which a player was banned from, the message sent to the player notifying them that they were banned was incorrect. This is fixed.</li>
+</ul>
+</li>
+<li>
+<p>Fixed names being lowercase in /is info, /is top, /is delete, and /is teleport</p>
+</li>
+<li>
+<p>Fixed leaves not decaying on custom islands.</p>
+<ul>
+<li>Before, when a custom island was generated using /is create or /is reset, the leaves generated on the island did not decay. This is fixed.</li>
+</ul>
+</li>
+<li>
+<p>Added an island ranking system and some commands correlating to it.</p>
+<ul>
+<li>Island rank is based on Island value. Island value is increased/decreased depending on the blocks on a player's island.</li>
+<li>The blocks which increase/decrease island value can be edited in config.yml.</li>
+</ul>
+</li>
+<li>
+<p>Added an island leaderboard to view the top islands on a server.</p>
+<ul>
+<li>Shows the 5 highest valued islands on the server and their worth/value.</li>
+</ul>
+</li>
+<li>
+<p>New option in the config to change the initial island boundaries created upon generating an island.</p>
+<ul>
+<li>Originally, the island boundaries of a player were always 100x100. Now, this can be changed in the config.yml.</li>
+</ul>
+</li>
+<li>
+<p>New commands to increase or decrease the island boundaries of players.</p>
+</li>
+<li>
+<p>New command to enable flight in the SkyBlock world.</p>
+<ul>
+<li>Player's must have the permission "skyblock.fly" to use this command.</li>
+<li>This command will only enable flight if the user is in the SkyBlock world set in the config.yml file.</li>
+<li>If a player leaves the SkyBlock world their ability to fly will be disabled until they reenter the SkyBlock world.</li>
+</ul>
+</li>
+<li>
+<p>New commands:</p>
+<ul>
+<li>/is rank: Use this command to calculate your island rank on a server.</li>
+<li>/is top: Use this command to view the top 5 islands on a server.</li>
+<li>/is increase  : Use this command to increase the island boundaries of a player.</li>
+<li>/is decrease  : Use this command to decrease the island boundaries of a player.</li>
+<li>/is fly: Use this command to enable flight in the server's SkyBlock world.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>

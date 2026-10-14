@@ -1,0 +1,408 @@
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p><a href="https://camo.githubusercontent.com/86cd28892359405972cb774a200cf92c7fe6eba6/68747470733a2f2f67656e626f792e6e65742f77702d636f6e74656e742f75706c6f6164732f323031382f30322f666573746976616c5f706c7567696e5f6c6f676f2e706e67" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/86cd28892359405972cb774a200cf92c7fe6eba6/68747470733a2f2f67656e626f792e6e65742f77702d636f6e74656e742f75706c6f6164732f323031382f30322f666573746976616c5f706c7567696e5f6c6f676f2e706e67" alt="Festival plugin logo large" data-canonical-src="https://genboy.net/wp-content/uploads/2018/02/festival_plugin_logo.png" style="max-width:100%;"></a></p>
+<p>Create a festival with this custom area events plugin for Pocketmine Server ALPHA10+:</p>
+<h3>
+<a id="user-content-manage-areas-and-run-commmands-attachted-to-area-events" class="anchor" href="#manage-areas-and-run-commmands-attachted-to-area-events" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Manage area's and run commmands attachted to area events.</h3>
+<p><a href="https://camo.githubusercontent.com/5af438f8e20e962bbf274fb3aeb86c6a07d12a93/68747470733a2f2f67656e626f792e6e65742f77702d636f6e74656e742f75706c6f6164732f323031382f30322f666573746976616c5f75736167655f312e302e322d31312e706e67" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/5af438f8e20e962bbf274fb3aeb86c6a07d12a93/68747470733a2f2f67656e626f792e6e65742f77702d636f6e74656e742f75706c6f6164732f323031382f30322f666573746976616c5f75736167655f312e302e322d31312e706e67" alt="Festival command usage overview" data-canonical-src="https://genboy.net/wp-content/uploads/2018/02/festival_usage_1.0.2-11.png" style="max-width:100%;"></a></p>
+<h6>
+<a id="user-content-copyright-genboy-2018" class="anchor" href="#copyright-genboy-2018" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright <a href="https://genboy.net" rel="nofollow">Genboy</a> 2018</h6>
+<h2>
+<a id="user-content-info" class="anchor" href="#info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Info</h2>
+<h1>
+<a id="user-content-festival" class="anchor" href="#festival" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Festival</h1>
+<p><a href="https://poggit.pmmp.io/p/Festival" rel="nofollow"><img src="https://camo.githubusercontent.com/739d64ab91b700449ef8b923e55dd5d1bdf3d3c2/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f466573746976616c" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/Festival" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/Festival" rel="nofollow"><img src="https://camo.githubusercontent.com/66d065ad8b4f71d37e096cd3f772c3410df42312/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f466573746976616c" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/Festival" style="max-width:100%;"></a></p>
+<p><a href="https://github.com/genboy/Festival/issues">issues @ github</a> and/or <a href="https://poggit.pmmp.io/p/Festival" rel="nofollow">reviews @ poggit</a></p>
+<h4>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h4>
+<ul>
+<li>create and manage area's (like WorldGuard/iProtector)
+<ul>
+<li>define cuboid area with 2 positions and name/create the area</li>
+<li>add an area description</li>
+<li>whitelist players for the area</li>
+<li>set the area flags to true to
+<ul>
+<li>edit: disallow building/breaking</li>
+<li>god: deny players god mode</li>
+<li>touch: disallow interaction with chests etc.</li>
+<li>msg: show enter/leave area messages to non-ops</li>
+<li>barrier: only ops and whitelisted players can enter or leave the area! (new! v1.0.1-11)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>manage area events
+<ul>
+<li>assign commands to area events</li>
+<li>event types: enter, center and leave.</li>
+<li>add/edit/delete area event commands</li>
+<li>change eventtype of commands</li>
+</ul>
+</li>
+</ul>
+<h5>
+<a id="user-content--important-note-each-area-event-holds-an-array-of-commands-to-be-triggered-with-op-permission-from-the-player" class="anchor" href="#-important-note-each-area-event-holds-an-array-of-commands-to-be-triggered-with-op-permission-from-the-player" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>! Important note: Each area event holds an array of commands to be triggered with OP permission from the player.</h5>
+<h6>
+<a id="user-content-created-by-genboy-2018" class="anchor" href="#created-by-genboy-2018" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Created by <a href="https://genboy.net" rel="nofollow">Genboy</a> 2018</h6>
+<p>Credits for most area protection code go to iProtector creator <a href="https://github.com/LDX-MCPE">LDX-MCPE</a> and all <a href="https://github.com/LDX-MCPE/iProtector/network">other iProtector devs</a>.</p>
+<hr>
+<h2>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+<h3>
+<a id="user-content-install--configure" class="anchor" href="#install--configure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Install &amp; Configure</h3>
+<ul>
+<li>
+<p>Standard Plugin installation; Upload .phar file (or .zip if you have latest devtools installed), restart the server, go to  folder plugins/Festival;</p>
+</li>
+<li>
+<p>Edit config.yml; set the defaults for any area and the defaults for area's in specified worlds.</p>
+</li>
+<li>
+<h5>
+<a id="user-content-read-the-config-comments-carefully-about-how-the-flags-work" class="anchor" href="#read-the-config-comments-carefully-about-how-the-flags-work" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Read the config comments carefully about how the flags work!</h5>
+</li>
+</ul>
+<h4>
+<a id="user-content-define-area" class="anchor" href="#define-area" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Define area</h4>
+<p>first select position 1, then select position2,
+the endpoints of the longest diagonal in the area</p>
+<pre><code>/fe pos1
+/fe pos2
+</code></pre>
+<h4>
+<a id="user-content-namesave-the-selected-area" class="anchor" href="#namesave-the-selected-area" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>name/save the selected area</h4>
+<pre><code>/fe create &lt;AREANAME&gt;  
+</code></pre>
+<h4>
+<a id="user-content-set-the-area-flags-defaults-in-configyml" class="anchor" href="#set-the-area-flags-defaults-in-configyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>set the area flags (!defaults in config.yml)</h4>
+<pre><code>/fe flag(f) &lt;AREANAME&gt; &lt;god/build/touch/msg/barrier&gt; &lt;true/false&gt;
+</code></pre>
+<h4>
+<a id="user-content-fast-flag-toggle-new-v101-11" class="anchor" href="#fast-flag-toggle-new-v101-11" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>fast flag toggle (new! v1.0.1-11)</h4>
+<pre><code>/fe &lt;god/build/touch/msg/barrier&gt; &lt;AREANAME&gt; (&lt;true/false&gt;)
+</code></pre>
+<h4>
+<a id="user-content-see-info-on-the-areas-youre-in" class="anchor" href="#see-info-on-the-areas-youre-in" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>see info on the area's you're in</h4>
+<pre><code>/fe here
+</code></pre>
+<h4>
+<a id="user-content-see-a-list-of-all-areas" class="anchor" href="#see-a-list-of-all-areas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>see a list of all area's</h4>
+<pre><code>/fe list
+</code></pre>
+<h4>
+<a id="user-content-teleport-to-an-area" class="anchor" href="#teleport-to-an-area" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>teleport to an area</h4>
+<pre><code>/fe tp &lt;AREANAME&gt;
+</code></pre>
+<h4>
+<a id="user-content-set-area-description" class="anchor" href="#set-area-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>set area description</h4>
+<pre><code>/fe desc &lt;AREANAME&gt; &lt;DESCRIPTION&gt;
+</code></pre>
+<h4>
+<a id="user-content-manage-players-in-area-whitelist" class="anchor" href="#manage-players-in-area-whitelist" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>manage players in area whitelist</h4>
+<pre><code>/fe whitelist &lt;AREANAME&gt; &lt;add/list/remove(del,delete)&gt; &lt;PLAYERNAME&gt;
+</code></pre>
+<h4>
+<a id="user-content-delete-an-area" class="anchor" href="#delete-an-area" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>delete an area</h4>
+<pre><code>/fe delete(del,remove) &lt;AREANAME&gt; 
+</code></pre>
+<h4>
+<a id="user-content-command-to-attach-commands-to-an-area" class="anchor" href="#command-to-attach-commands-to-an-area" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>command to attach commands to an area</h4>
+<pre><code>/fe command &lt;AREANAME&gt; &lt;add/list/edit/event*/del&gt; &lt;COMMANDID&gt; &lt;COMMANDSTRING/enter*/leave*/center*&gt; 
+
+To add a command you need at least;
+  - an areaname, 
+  - an unique id for the command 
+  - make sure the command works! (when you are op).
+</code></pre>
+<h4>
+<a id="user-content-add-a-command-to-an-area" class="anchor" href="#add-a-command-to-an-area" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>add a command to an area:</h4>
+<pre><code>/fe command &lt;AREANAME&gt; add &lt;COMMANDID&gt; &lt;COMMANDSTRING&gt;
+
+  'add' is the default for attaching a command on the 'enter' event. 
+  Using 'enter', 'center' or 'leave' instead of 'add' attaches the new command to 
+  the given eventtype: i.e. /fe command &lt;areaname&gt; center &lt;commandid&gt; &lt;commandstring&gt;
+</code></pre>
+<h4>
+<a id="user-content-list-area-commands" class="anchor" href="#list-area-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>list area commands:</h4>
+<pre><code>/fe command &lt;AREANAME&gt; list
+</code></pre>
+<h4>
+<a id="user-content-edit-a-command" class="anchor" href="#edit-a-command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>edit a command:</h4>
+<pre><code>/fe command &lt;AREANAME&gt; edit &lt;COMMANDID&gt; &lt;COMMANDSTRING&gt;
+</code></pre>
+<h4>
+<a id="user-content-change-command-event" class="anchor" href="#change-command-event" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>change command event:</h4>
+<pre><code>/fe command &lt;AREANAME&gt; event &lt;COMMANDID&gt; &lt;enter/center/leave&gt;
+</code></pre>
+<h4>
+<a id="user-content-remove-command-from-area" class="anchor" href="#remove-command-from-area" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>remove command from area:</h4>
+<pre><code>/fe command &lt;AREANAME&gt; del &lt;COMMANDID&gt;
+</code></pre>
+<hr>
+<h2>
+<a id="user-content-development" class="anchor" href="#development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Development</h2>
+<p>The Festival plugin is in active development.</p>
+<h5>
+<a id="user-content-development-on-githubcomgenboyfestival" class="anchor" href="#development-on-githubcomgenboyfestival" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Development on <a href="https://github.com/genboy/Festival">github.com/genboy/Festival</a>
+</h5>
+<h3>
+<a id="user-content-log" class="anchor" href="#log" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Log</h3>
+<ul>
+<li>
+<p>21 2 2018</p>
+<ul>
+<li>info updates
+<ul>
+<li>readme restyled</li>
+<li>restyled /fe list and /fe here</li>
+<li>added per world area list: /fe list </li>
+<li>added infographic v1.0.1-11</li>
+</ul>
+</li>
+<li>new!: barrier flag
+<ul>
+<li>area act as barrier when flag is true</li>
+<li>whitelisted and ops allowed</li>
+</ul>
+</li>
+<li>new!: short commands for flags
+<ul>
+<li>f for flag: /fe f   &lt;true/false&gt;</li>
+<li>fast toggle: /fe &lt;touch/edit/god/msg/barrier&gt; </li>
+</ul>
+</li>
+<li>and some small tweaks</li>
+</ul>
+</li>
+<li>
+<p>13 2 2018</p>
+<ul>
+<li>Pre-release
+<ul>
+<li>version 1.0.0-11</li>
+<li>submitted plugin to Poggit</li>
+</ul>
+</li>
+<li>Festival area setup and protection based on iprotector
+<ul>
+<li>area enter, leave en center event detection/messages</li>
+<li>area object extended with commandlist and eventlist</li>
+</ul>
+</li>
+<li>Commands to add custom events
+<ul>
+<li>add multiple commandstrings with id attachted to enter, leave or center area event</li>
+<li>list area extended info and manage event commands</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>
+<a id="user-content-milestones" class="anchor" href="#milestones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Milestones</h4>
+<ul>
+<li>
+<p>[x] area protection and flag management is stable
+(core <a href="https://github.com/poggit-orphanage/iProtector">iProtector</a>, <a href="https://github.com/poggit-orphanage/iProtector/commit/9876ca3acd48830599b3715346a1cf8ac964bdbd">9876ca3</a> Dec 2017)</p>
+</li>
+<li>
+<p>[x] Area messages and msg/description management are stable</p>
+</li>
+<li>
+<p>[x] Commands can be attachted to specific events at the area:</p>
+</li>
+<li>
+<p>[x] enter: on entering the area</p>
+</li>
+<li>
+<p>[x] center: when in the center of the area</p>
+</li>
+<li>
+<p>[x] leave: when leaving the area</p>
+</li>
+<li>
+<p>[x] Submit to poggit</p>
+</li>
+<li>
+<p>[x] Testing expected possibilities; use as portals and shields, design a minigame park, create a quest/parcour..</p>
+</li>
+<li>
+<p>[x] Barrier flag; turning the area into a barrier, no one in, no one out.</p>
+</li>
+<li>
+<p>[ ] iProtector area tranformer method - using or copying iProtector areas for Festival events</p>
+</li>
+<li>
+<p>[ ] More area event types</p>
+</li>
+<li>
+<p>[ ] Develop a method to sync/log other plugins/Multiplayer/Timeline/Story/Minigame attachted events in given areas</p>
+</li>
+<li>
+<p>[ ] Add  UI Panel - Help with creating a nice UI panel would be really cool!</p>
+</li>
+</ul>
+<p>If you like to help improve this plugin;</p>
+<ul>
+<li>download/use the plugin and give your feedback</li>
+<li>look at the code and give feedback</li>
+<li>both by submitting <a href="https://github.com/genboy/Festival/issues">issues @ github</a> and/or <a href="https://poggit.pmmp.io/p/Festival" rel="nofollow">reviews @ poggit</a>
+</li>
+</ul>
+<p>or send an email to msg @ genboy.net</p>
+<p>Thank you in advance!</p>
+<hr>
+<h2>
+<a id="user-content-credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+<p>The area code derives from the <a href="https://github.com/LDX-MCPE/iProtector">iProctector plugin</a>. All credits for the area creation and protection code go to the iProtector creator <a href="https://github.com/LDX-MCPE">LDX-MCPE</a> and <a href="https://github.com/LDX-MCPE/iProtector/network">other iProtector devs</a>.</p>
+<p>In a first fork from <a href="https://github.com/poggit-orphanage/iProtector">poggit-orphanage</a> the new code was extending the area with enter and leave messages and lateron also adding options to attach separate event-objects to an area and trigger specific events with commands. These test versions kept the core iProtector areas unchanged (to be able to use excisting area's).</p>
+<p>These first adjustments worked well being a test plugin but keeping iProtector area's while adding separate event data made me create a split command structure (wich isn't logical or handy) and separate event objects are only needed if the original area class should stay the same. So, for a better plugin command structure and performance the iProtector Area code was used to create the setup for what now has become the Festival Plugin.</p>
+<h2>
+<a id="user-content-lgp-license" class="anchor" href="#lgp-license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>LGP License</h2>
+<pre><code>               GNU LESSER GENERAL PUBLIC LICENSE
+                   Version 3, 29 June 2007
+</code></pre>
+<p>Copyright (C) 2007 Free Software Foundation, Inc. <a href="http://fsf.org/" rel="nofollow">http://fsf.org/</a>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.</p>
+<p>This version of the GNU Lesser General Public License incorporates
+the terms and conditions of version 3 of the GNU General Public
+License, supplemented by the additional permissions listed below.</p>
+<ol start="0">
+<li>Additional Definitions.</li>
+</ol>
+<p>As used herein, "this License" refers to version 3 of the GNU Lesser
+General Public License, and the "GNU GPL" refers to version 3 of the GNU
+General Public License.</p>
+<p>"The Library" refers to a covered work governed by this License,
+other than an Application or a Combined Work as defined below.</p>
+<p>An "Application" is any work that makes use of an interface provided
+by the Library, but which is not otherwise based on the Library.
+Defining a subclass of a class defined by the Library is deemed a mode
+of using an interface provided by the Library.</p>
+<p>A "Combined Work" is a work produced by combining or linking an
+Application with the Library.  The particular version of the Library
+with which the Combined Work was made is also called the "Linked
+Version".</p>
+<p>The "Minimal Corresponding Source" for a Combined Work means the
+Corresponding Source for the Combined Work, excluding any source code
+for portions of the Combined Work that, considered in isolation, are
+based on the Application, and not on the Linked Version.</p>
+<p>The "Corresponding Application Code" for a Combined Work means the
+object code and/or source code for the Application, including any data
+and utility programs needed for reproducing the Combined Work from the
+Application, but excluding the System Libraries of the Combined Work.</p>
+<ol>
+<li>Exception to Section 3 of the GNU GPL.</li>
+</ol>
+<p>You may convey a covered work under sections 3 and 4 of this License
+without being bound by section 3 of the GNU GPL.</p>
+<ol start="2">
+<li>Conveying Modified Versions.</li>
+</ol>
+<p>If you modify a copy of the Library, and, in your modifications, a
+facility refers to a function or data to be supplied by an Application
+that uses the facility (other than as an argument passed when the
+facility is invoked), then you may convey a copy of the modified
+version:</p>
+<p>a) under this License, provided that you make a good faith effort to
+ensure that, in the event an Application does not supply the
+function or data, the facility still operates, and performs
+whatever part of its purpose remains meaningful, or</p>
+<p>b) under the GNU GPL, with none of the additional permissions of
+this License applicable to that copy.</p>
+<ol start="3">
+<li>Object Code Incorporating Material from Library Header Files.</li>
+</ol>
+<p>The object code form of an Application may incorporate material from
+a header file that is part of the Library.  You may convey such object
+code under terms of your choice, provided that, if the incorporated
+material is not limited to numerical parameters, data structure
+layouts and accessors, or small macros, inline functions and templates
+(ten or fewer lines in length), you do both of the following:</p>
+<p>a) Give prominent notice with each copy of the object code that the
+Library is used in it and that the Library and its use are
+covered by this License.</p>
+<p>b) Accompany the object code with a copy of the GNU GPL and this license
+document.</p>
+<ol start="4">
+<li>Combined Works.</li>
+</ol>
+<p>You may convey a Combined Work under terms of your choice that,
+taken together, effectively do not restrict modification of the
+portions of the Library contained in the Combined Work and reverse
+engineering for debugging such modifications, if you also do each of
+the following:</p>
+<p>a) Give prominent notice with each copy of the Combined Work that
+the Library is used in it and that the Library and its use are
+covered by this License.</p>
+<p>b) Accompany the Combined Work with a copy of the GNU GPL and this license
+document.</p>
+<p>c) For a Combined Work that displays copyright notices during
+execution, include the copyright notice for the Library among
+these notices, as well as a reference directing the user to the
+copies of the GNU GPL and this license document.</p>
+<p>d) Do one of the following:</p>
+<pre><code>   0) Convey the Minimal Corresponding Source under the terms of this
+   License, and the Corresponding Application Code in a form
+   suitable for, and under terms that permit, the user to
+   recombine or relink the Application with a modified version of
+   the Linked Version to produce a modified Combined Work, in the
+   manner specified by section 6 of the GNU GPL for conveying
+   Corresponding Source.
+
+   1) Use a suitable shared library mechanism for linking with the
+   Library.  A suitable mechanism is one that (a) uses at run time
+   a copy of the Library already present on the user's computer
+   system, and (b) will operate properly with a modified version
+   of the Library that is interface-compatible with the Linked
+   Version.
+</code></pre>
+<p>e) Provide Installation Information, but only if you would otherwise
+be required to provide such information under section 6 of the
+GNU GPL, and only to the extent that such information is
+necessary to install and execute a modified version of the
+Combined Work produced by recombining or relinking the
+Application with a modified version of the Linked Version. (If
+you use option 4d0, the Installation Information must accompany
+the Minimal Corresponding Source and Corresponding Application
+Code. If you use option 4d1, you must provide the Installation
+Information in the manner specified by section 6 of the GNU GPL
+for conveying Corresponding Source.)</p>
+<ol start="5">
+<li>Combined Libraries.</li>
+</ol>
+<p>You may place library facilities that are a work based on the
+Library side by side in a single library together with other library
+facilities that are not Applications and are not covered by this
+License, and convey such a combined library under terms of your
+choice, if you do both of the following:</p>
+<p>a) Accompany the combined library with a copy of the same work based
+on the Library, uncombined with any other library facilities,
+conveyed under the terms of this License.</p>
+<p>b) Give prominent notice with the combined library that part of it
+is a work based on the Library, and explaining where to find the
+accompanying uncombined form of the same work.</p>
+<ol start="6">
+<li>Revised Versions of the GNU Lesser General Public License.</li>
+</ol>
+<p>The Free Software Foundation may publish revised and/or new versions
+of the GNU Lesser General Public License from time to time. Such new
+versions will be similar in spirit to the present version, but may
+differ in detail to address new problems or concerns.</p>
+<p>Each version is given a distinguishing version number. If the
+Library as you received it specifies that a certain numbered version
+of the GNU Lesser General Public License "or any later version"
+applies to it, you have the option of following the terms and
+conditions either of that published version or of any later version
+published by the Free Software Foundation. If the Library as you
+received it does not specify a version number of the GNU Lesser
+General Public License, you may choose any version of the GNU Lesser
+General Public License ever published by the Free Software Foundation.</p>
+<p>If the Library as you received it specifies that a proxy can decide
+whether future versions of the GNU Lesser General Public License shall
+apply, that proxy's public statement of acceptance of any version is
+permanent authorization for you to choose that version for the
+Library.</p>

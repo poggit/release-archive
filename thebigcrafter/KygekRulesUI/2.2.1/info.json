@@ -1,0 +1,108 @@
+{
+    "id": 12223,
+    "name": "KygekRulesUI",
+    "version": "2.2.1",
+    "html_url": "https://poggit.pmmp.io/p/KygekRulesUI/2.2.1",
+    "tagline": "Adds an UI to display server rules.",
+    "artifact_url": "https://poggit.pmmp.io/r/220058",
+    "downloads": 853,
+    "score": null,
+    "repo_id": 282171749,
+    "repo_name": "thebigcrafter/KygekRulesUI",
+    "project_id": 7533,
+    "project_name": "KygekRulesUI",
+    "build_id": 161861,
+    "build_number": 64,
+    "build_commit": "aced95b628dd2777f733310d42aae8baf7116bb0",
+    "description_url": "https://poggit.pmmp.io/r/220055",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/KygekRulesUI/aced95b628dd2777f733310d42aae8baf7116bb0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220057",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692098596,
+    "state": 5,
+    "last_state_change_date": 1692132350,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekraqmak",
+        "kygekraqmakui",
+        "kygekrules",
+        "kygekrulesui",
+        "kygekserver",
+        "kygekserverrules",
+        "kygekserverrulesui",
+        "kygekserverui",
+        "kygekteamrules",
+        "kygekteamrulesui",
+        "kygekteamserver",
+        "kygekteamserverrules",
+        "kygekteamserverui",
+        "kygekteamui",
+        "kygekui",
+        "rules",
+        "rulesui",
+        "server",
+        "serverrules",
+        "serverrulesui",
+        "serverui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ",
+            "KRUNCHSHooT",
+            "Kygekraqmak",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "Hydrogen",
+            "project_id": 12575,
+            "repo_id": 649178263,
+            "repo_name": "thebigcrafter/Hydrogen",
+            "repo_path": "",
+            "build_commit": "36c9b3a3bbe31031bc1c324d96d721cef951086f",
+            "build_id": 158911
+        }
+    ]
+}

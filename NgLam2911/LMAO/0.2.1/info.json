@@ -1,0 +1,86 @@
+{
+    "id": 11916,
+    "name": "lmao",
+    "version": "0.2.1",
+    "html_url": "https://poggit.pmmp.io/p/lmao/0.2.1",
+    "tagline": "An Ultimate Troll plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/216062",
+    "downloads": 447,
+    "score": null,
+    "repo_id": 470932246,
+    "repo_name": "NgLam2911/LMAO",
+    "project_id": 10816,
+    "project_name": "LMAO",
+    "build_id": 159523,
+    "build_number": 42,
+    "build_commit": "2fe7180e333be99b3453c8a57413130ea4386f02",
+    "description_url": "https://poggit.pmmp.io/r/216116",
+    "icon_url": "https://raw.githubusercontent.com/NgLam2911/LMAO/2fe7180e333be99b3453c8a57413130ea4386f02/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/216118",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689241544,
+    "state": 5,
+    "last_state_change_date": 1689243315,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "burn",
+        "fun",
+        "funny",
+        "lmao",
+        "prank",
+        "troll"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HBIDamian",
+            "NgLam2911"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12557,
+            "repo_id": 646082843,
+            "repo_name": "JinodkDevTeam/Commando",
+            "repo_path": "",
+            "build_commit": "32eaceb84259b3d997a47072a6e3446ecc4b51f0",
+            "build_id": 159521
+        },
+        {
+            "name": "libnbs",
+            "project_id": 1402,
+            "repo_id": 114578513,
+            "repo_name": "inxomnyaa/libnbs",
+            "repo_path": "",
+            "build_commit": "7a86e4e6726c3c15ad0cfc6852ad1d03b04940e8",
+            "build_id": 127462
+        }
+    ]
+}

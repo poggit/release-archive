@@ -1,0 +1,56 @@
+{
+    "id": 3882,
+    "name": "Firecracker",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Firecracker/1.0.0",
+    "tagline": "Add firecrackers to your server! Happy new year!",
+    "artifact_url": "https://poggit.pmmp.io/r/77024",
+    "downloads": 1083,
+    "score": 5,
+    "repo_id": 55608440,
+    "repo_name": "thebigsmileXD/Firecracker",
+    "project_id": 492,
+    "project_name": "Firecracker",
+    "build_id": 71750,
+    "build_number": 5,
+    "build_commit": "a6ba1ec94acd1e515186d69d0e4e72ad642bd238",
+    "description_url": "https://poggit.pmmp.io/r/77023",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582645601,
+    "state": 5,
+    "last_state_change_date": 1583196944,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "firecracker",
+        "firework",
+        "fireworks",
+        "newyear"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "thebigsmileXD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

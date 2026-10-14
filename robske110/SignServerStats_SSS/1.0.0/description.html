@@ -1,0 +1,51 @@
+<h1>
+<a id="user-content-signserverstats" class="anchor" href="#signserverstats" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SignServerStats</h1>
+<p>A PocketMine plugin which can display player count and MODT on a sign from any server with query enabled.</p>
+<h2>
+<a id="user-content-info" class="anchor" href="#info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Info:</h2>
+<h3>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage:</h3>
+<p>Anyone with the permission <code>SSS.signs</code> can create a sign with the following content:</p>
+<pre><code>[SSS]
+&lt;serverIP&gt;
+&lt;serverPort&gt;
+</code></pre>
+<p>The plugin will recognize that sign and fill it with colorful stats!</p>
+<p><em>Note: Due to 1.1+ not telling the server when the sign is finished, you now need to tap the sign once to activate it after setting it up.</em></p>
+<h3>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API:</h3>
+<p><strong>This plugin can also be used as a query API. You might want to look into SignServerStats.php, because all the API functions are in there.</strong></p>
+<p>Example plugins are provided in /examples/:</p>
+<ul>
+<li>DumpInfo.php - Dumps all available info about a server.</li>
+</ul>
+<p>Because the following two examples may also be useful for users, so they are also provided as phars in every release:</p>
+<ul>
+<li>WarnOffline/ - Warns if a server has gone offline. Depends on StatusList.</li>
+<li>StatusList/ - Lists online status and player count of multiple servers in a List.</li>
+</ul>
+<p><em>You should always check if your plugin is compatible with the version of StatusList present on the current server with the help of the isCompatible function</em></p>
+<p>Example:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">/*</span>* @var robske_110\SSS\SignServerStats $signServerStats <span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-k">if</span>(<span class="pl-k">!</span><span class="pl-smi">$signServerStats</span><span class="pl-k">-&gt;</span>isCompatible(<span class="pl-s"><span class="pl-pds">"</span>1.0.0<span class="pl-pds">"</span></span>)){</span>
+<span class="pl-s1">   	<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>getLogger()<span class="pl-k">-&gt;</span>critical(<span class="pl-s"><span class="pl-pds">"</span>Your version of <span class="pl-smi">$signServerStats</span> is not compatible with this plugin);</span></span>
+<span class="pl-s1"><span class="pl-s">	<span class="pl-smi">$this</span><span class="pl-k">-&gt;</span><span class="pl-smi">getServer</span>()-&gt;getPluginManager()-&gt;disablePlugin(<span class="pl-smi">$this</span>);</span></span>
+<span class="pl-s1"><span class="pl-s">	return;</span></span>
+<span class="pl-s1"><span class="pl-s">}</span></span></pre></div>
+<h4>
+<a id="user-content-if-you-prefer-just-a-quick-introduction-here-is-one-for-getting-the-the-online-status-of-the-server-examplecom1234" class="anchor" href="#if-you-prefer-just-a-quick-introduction-here-is-one-for-getting-the-the-online-status-of-the-server-examplecom1234" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>If you prefer just a quick introduction, here is one for getting the the online status of the server <code>example.com:1234</code>:</h4>
+<p>Initial, for example onEnable:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">/*</span>* @var $sss robske_110\SSS\SignServerStats <span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$sss</span><span class="pl-k">-&gt;</span>addServer(<span class="pl-s"><span class="pl-pds">"</span>example.com<span class="pl-pds">"</span></span>, <span class="pl-c1">1234</span>);</span></pre></div>
+<p>This tells SSS that it should query that server in its next query.</p>
+<p><strong>IMPORTANT: You have to wait until the information is fetched asynchronously.</strong></p>
+<p>To check if the server is online simply do this, it is recommended to do this in a task.</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">/*</span>* @var $sss robske_110\SSS\SignServerStats <span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$serverOnlineArray</span> <span class="pl-k">=</span> <span class="pl-smi">$sss</span><span class="pl-k">-&gt;</span>getServerOnline();</span>
+<span class="pl-s1"><span class="pl-k">if</span>(<span class="pl-c1">isset</span>(<span class="pl-smi">$serverOnlineArray</span>[<span class="pl-s"><span class="pl-pds">"</span>example.com<span class="pl-pds">"</span></span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">"</span>@<span class="pl-pds">"</span></span><span class="pl-k">.</span><span class="pl-c1">1234</span>])){</span>
+<span class="pl-s1">	<span class="pl-smi">$isOnline</span> <span class="pl-k">=</span> <span class="pl-smi">$serverOnlineArray</span>[<span class="pl-s"><span class="pl-pds">"</span>example.com<span class="pl-pds">"</span></span><span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">"</span>@<span class="pl-pds">"</span></span><span class="pl-k">.</span><span class="pl-c1">1234</span>];</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>isOnline is now a bool (true/false) that reflects the online state of the server (if the server is online and this says false, it probably doesn't have query enabled.)</span></span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>You can now also get additional data with getMODTs() and getPlayerData() in the same way.</span></span>
+<span class="pl-s1">}<span class="pl-k">else</span>{</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>You didn't wait long enough, the information didn't get here yet...</span></span>
+<span class="pl-s1">}</span></pre></div>

@@ -1,0 +1,65 @@
+{
+    "id": 14235,
+    "name": "InvCraft",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/InvCraft/1.1.0",
+    "tagline": "A 6x6 crafting table plugin with customable recipe.",
+    "artifact_url": "https://poggit.pmmp.io/r/260385",
+    "downloads": 80,
+    "score": null,
+    "repo_id": 324686905,
+    "repo_name": "NgLam2911/InvCraft",
+    "project_id": 8681,
+    "project_name": "InvCraft",
+    "build_id": 189832,
+    "build_number": 81,
+    "build_commit": "806b4198006b971b3136623cfcabe193cd15e755",
+    "description_url": "https://poggit.pmmp.io/r/260382",
+    "icon_url": "https://raw.githubusercontent.com/NgLam2911/InvCraft/806b4198006b971b3136623cfcabe193cd15e755/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/260384",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1761562872,
+    "state": 5,
+    "last_state_change_date": 1762285556,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "crafting",
+        "custom-craft",
+        "inventory-craft",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin"
+    ],
+    "api": [
+        {
+            "from": "5.30.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NgLam2911"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

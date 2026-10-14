@@ -1,0 +1,79 @@
+{
+    "id": 172,
+    "name": "SimpleAuth",
+    "version": "1.8",
+    "html_url": "https://poggit.pmmp.io/p/SimpleAuth/1.8",
+    "tagline": "Classic SimpleAuth + PIN codes",
+    "artifact_url": "https://poggit.pmmp.io/r/2770",
+    "downloads": 1661,
+    "score": null,
+    "repo_id": 84246690,
+    "repo_name": "poggit-orphanage/SimpleAuth",
+    "project_id": 315,
+    "project_name": "SimpleAuth",
+    "build_id": 21334,
+    "build_number": 2,
+    "build_commit": "0216d79b6b8661f3a9345948649f76423e41032c",
+    "description_url": "https://poggit.pmmp.io/r/2769",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/SimpleAuth/0216d79b6b8661f3a9345948649f76423e41032c/sa.png",
+    "changelog_url": "https://poggit.pmmp.io/r/2771",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1488929038,
+    "state": 5,
+    "last_state_change_date": 1488927197,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "simpleauth",
+        "simple",
+        "auth",
+        "login",
+        "register",
+        "password"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA4"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SimpleAuthHelper",
+            "version": "2.0.4",
+            "depRelId": 115,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4",
+            "depRelId": 55,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "shoghicp",
+            "awzaw"
+        ],
+        "Contributor": [
+            "sof3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

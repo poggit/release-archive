@@ -1,0 +1,53 @@
+{
+    "id": 1613,
+    "name": "CustomAreas",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/CustomAreas/1.2.1",
+    "tagline": "Protect areas in your server",
+    "artifact_url": "https://poggit.pmmp.io/r/35350",
+    "downloads": 10866,
+    "score": 4,
+    "repo_id": 40265549,
+    "repo_name": "luca28pet/CustomAreas",
+    "project_id": 3235,
+    "project_name": "CustomAreas",
+    "build_id": 44785,
+    "build_number": 1,
+    "build_commit": "4b4ee976e67aaffa3da80c037fb90b5b1760a36f",
+    "description_url": "https://poggit.pmmp.io/r/35348",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/35349",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1530021305,
+    "state": 5,
+    "last_state_change_date": 1530021305,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "protection"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "fycarman"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

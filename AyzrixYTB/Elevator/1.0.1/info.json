@@ -1,0 +1,71 @@
+{
+    "id": 5601,
+    "name": "ElevatorBlock",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ElevatorBlock/1.0.1",
+    "tagline": "That's a simple Elevator plugin with blocks",
+    "artifact_url": "https://poggit.pmmp.io/r/108798",
+    "downloads": 806,
+    "score": 5,
+    "repo_id": 314065650,
+    "repo_name": "AyzrixYTB/Elevator",
+    "project_id": 8043,
+    "project_name": "Elevator",
+    "build_id": 92123,
+    "build_number": 6,
+    "build_commit": "b3c08ba9365758aac366e09c626093ec597920d7",
+    "description_url": "https://poggit.pmmp.io/r/116610",
+    "icon_url": "https://raw.githubusercontent.com/AyzrixYTB/Elevator/b3c08ba9365758aac366e09c626093ec597920d7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1606251957,
+    "state": 5,
+    "last_state_change_date": 1606624236,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "ayzrix",
+        "block",
+        "elevator"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AyzrixYTB"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,237 @@
+<h1>HungerGames</h1>
+<p>=============</p>
+<h2>BIG NOTE</h2>
+<p>COMPILING IT WITH pmt.mcpe.me WILL MAKE THE PLUGIN CORRUPTED. DOWNLOAD FROM <em>RELEASES</em> INSTEAD: <a href="https://github.com/InfinityGamers/HungerGames-UPDATED/releases/tag/Build%2316">https://github.com/InfinityGamers/HungerGames-UPDATED/releases/tag/Build%2316</a></p>
+<h2>A HungerGames plugin for PocketMine-MP developed by xBeastMode</h2>
+<p>#New Features?<br>
+Yes, of course. You can choose between SkyWars or HungerGames!<br>
+How? You can make a game with the following command: /hg add <br>
+Then, run the command "/reload", and check the config inside the folder "arenas", inside the plugin folder. Configure it to your needs, there you will find the "is_sky_wars" option, set it to true to make it skywars ;)</p>
+<h3> 
+When you join a game the plugin will automatically backup the map.
+</h3>
+<ul>
+<li>Other features: Scripts have been added. I did not make any scripts for it yet, maybe in the future.</li>
+</ul>
+<p>#Future updates?<br>
+I am planning to adding many more features to this plugin, if you wish me to add one, please say it in issues, thank you.</p>
+<ul>
+<li>For Devs:</li>
+</ul>
+<p>This plugin comes with a script loader api. You can use this to access game functions, like when player joins, quits, wins, etc. You do not need to enable it, as it loads itself.</p>
+<h3><div>If you wish to create one here's an example code:</div></h3><h3>
+<details>
+<summary>Click here to view example:</summary>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">//</span>Example script:</span></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-k">&lt;</span>?<span class="pl-c1">php</span></span>
+<span class="pl-s1"><span class="pl-k">class</span> <span class="pl-en">ExampleScript</span> <span class="pl-k">extends</span> <span class="pl-c1">\hungergames\api\scripts\</span><span class="pl-e">HGAPIScript</span>{</span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-c1">__construct</span>(){</span>
+<span class="pl-s1">        <span class="pl-k">parent</span><span class="pl-k">::</span>__construct(<span class="pl-s"><span class="pl-pds">"</span>Script names here<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Versions here 1.0<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Authors here xBeastMode<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">onLoad</span>(){</span>
+<span class="pl-s1">        <span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>sendConsoleMessage(<span class="pl-s"><span class="pl-pds">"</span>Test script loaded!<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">}</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">//</span>All function from this script api are:</span></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Creates script config</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> $name</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> array $values</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@return</span> Config</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-c1">void</span> <span class="pl-k">function</span> <span class="pl-en">createConfig</span>(<span class="pl-smi">$name</span>, <span class="pl-k">array</span> <span class="pl-smi">$values</span>)</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Gets script config</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@return</span> Config</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-c1">Config</span> <span class="pl-k">function</span> <span class="pl-en">getConfig</span>()</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Gets the name of the script</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@return</span> string</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">string</span> <span class="pl-k">function</span> <span class="pl-en">getName</span>()</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Gets the name of the script</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@return</span> string</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">string</span> <span class="pl-k">function</span> <span class="pl-en">getVersion</span>()</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Gets the author of the script</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@return</span> string</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">string</span> <span class="pl-k">function</span> <span class="pl-en">getAuthor</span>()</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * disables script</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-c1">void</span> <span class="pl-k">function</span> <span class="pl-en">setDisabled</span>()</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * enables script</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-c1">void</span> <span class="pl-k">function</span> <span class="pl-en">setEnabled</span>();</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * returns whether script is enabled or not</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@return</span> bool</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">bool</span> <span class="pl-k">function</span> <span class="pl-en">isEnabled</span>()</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Sends console message</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> $message</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-c1">void</span> <span class="pl-k">function</span> <span class="pl-en">sendConsoleMessage</span>(<span class="pl-smi">$message</span>)</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Called when script is loaded</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">onLoad</span>(){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>your code here</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * called when player joins game</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> Player $p</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> HungerGames $game</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">onPlayerJoinGame</span>(<span class="pl-c1">Player</span> <span class="pl-smi">$p</span>, <span class="pl-c1">HungerGames</span> <span class="pl-smi">$game</span>){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>your code here</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * called when player quits game</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> Player $p</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> HungerGames $game</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">onPlayerQuitGame</span>(<span class="pl-c1">Player</span> <span class="pl-smi">$p</span>, <span class="pl-c1">HungerGames</span> <span class="pl-smi">$game</span>){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>your code here</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Called when player fails to join full game</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> Player $p</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> HungerGames $game</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">gameIsFull</span>(<span class="pl-c1">Player</span> <span class="pl-smi">$p</span>, <span class="pl-c1">HungerGames</span> <span class="pl-smi">$game</span>){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>your code here</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Called when player is waiting for players</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> array $players</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> HungerGames $game</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">whileWaitingForPlayers</span>(<span class="pl-k">array</span> <span class="pl-smi">$players</span>, <span class="pl-c1">HungerGames</span> <span class="pl-smi">$game</span>){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>your code here</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Called when player is waiting for players</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> array $players</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> HungerGames $game</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">whileWaitingToStart</span>(<span class="pl-k">array</span> <span class="pl-smi">$players</span>, <span class="pl-c1">HungerGames</span> <span class="pl-smi">$game</span>){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>your code here</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Called when game starts</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> array $players</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> HungerGames $game</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">onGameStart</span>(<span class="pl-k">array</span> <span class="pl-smi">$players</span>, <span class="pl-c1">HungerGames</span> <span class="pl-smi">$game</span>){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>your code here</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Called when death match starts</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> array $players</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> HungerGames $game</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">onDeathMatchStart</span>(<span class="pl-k">array</span> <span class="pl-smi">$players</span>, <span class="pl-c1">HungerGames</span> <span class="pl-smi">$game</span>){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>your code here</span></span>
+<span class="pl-s1">    }</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">     * Called when players wins a game</span></span>
+<span class="pl-s1"><span class="pl-c">     *</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> Player $p</span></span>
+<span class="pl-s1"><span class="pl-c">     * <span class="pl-k">@param</span> HungerGames $game</span></span>
+<span class="pl-s1"><span class="pl-c">     <span class="pl-c">*/</span></span></span>
+<span class="pl-s1">    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">onPlayerWinGame</span>(<span class="pl-c1">Player</span> <span class="pl-smi">$p</span>, <span class="pl-c1">HungerGames</span> <span class="pl-smi">$game</span>){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>your code here</span></span>
+<span class="pl-s1">    }</span></pre></div>
+</details>
+</h3><h1>===<br>
+BIG NOTE: after every change you will have to run the command /reload</h1>
+<p>Commands:</p>
+<ul>
+<li>
+<p>/hg add  : adds a new game</p>
+<ul>
+<li>OP perm: hg.command.add</li>
+</ul>
+</li>
+<li>
+<p>/hg del  : deletes a game</p>
+<ul>
+<li>OP perm: hg.command.del</li>
+</ul>
+</li>
+<li>
+<p>/hg min   : changes the number of minimum players required to start a game</p>
+<ul>
+<li>OP perm: hg.command.min</li>
+</ul>
+</li>
+<li>
+<p>/hg max   : changes number of maximum players that can enter a game</p>
+<ul>
+<li>OP perm: hg.command.max</li>
+</ul>
+</li>
+<li>
+<p>/hg level   : changes level of game where players are gonna go</p>
+<ul>
+<li>OP perm: hg.command.level</li>
+</ul>
+</li>
+<li>
+<p>/hg ws   : sets amount of seconds to wait before game starts</p>
+<ul>
+<li>OP perm: hg.command.ws</li>
+</ul>
+</li>
+<li>
+<p>/hg gs   : sets amount of second to wait before death match starts</p>
+<ul>
+<li>OP perm: hg.command.gs</li>
+</ul>
+</li>
+<li>
+<p>/hg addslot   : adds new slot to game (positions sets where you are standing)</p>
+<ul>
+<li>OP perm: hg.command.slot.add</li>
+</ul>
+</li>
+<li>
+<p>/hg delslot   : deletes slot from game by name</p>
+<ul>
+<li>OP perm: hg.command.slot.del</li>
+</ul>
+</li>
+<li>
+<p>/hg leave : leaves game that you are playing</p>
+<ul>
+<li>OP perm: none</li>
+</ul>
+</li>
+</ul>

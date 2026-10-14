@@ -1,0 +1,75 @@
+{
+    "id": 11520,
+    "name": "PluginManager",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/PluginManager/1.0.3",
+    "tagline": "It let you manage the plugins on your server",
+    "artifact_url": "https://poggit.pmmp.io/r/209866",
+    "downloads": 1222,
+    "score": 5,
+    "repo_id": 571003967,
+    "repo_name": "Laith98Dev/PluginManager",
+    "project_id": 11982,
+    "project_name": "PluginManager",
+    "build_id": 156098,
+    "build_number": 16,
+    "build_commit": "c821566c3f98b8b41bc1fceadeb6d600cc045447",
+    "description_url": "https://poggit.pmmp.io/r/209897",
+    "icon_url": "https://raw.githubusercontent.com/Laith98Dev/PluginManager/c821566c3f98b8b41bc1fceadeb6d600cc045447/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209899",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685804918,
+    "state": 5,
+    "last_state_change_date": 1685812998,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "admintools",
+        "laith98dev",
+        "pluginmanager",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        }
+    ]
+}

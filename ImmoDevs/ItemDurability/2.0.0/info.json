@@ -1,0 +1,72 @@
+{
+    "id": 14063,
+    "name": "ItemDurability",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ItemDurability/2.0.0",
+    "tagline": "A plugin displays the durability level of items in the player's hand by displaying the remaining durability.",
+    "artifact_url": "https://poggit.pmmp.io/r/256649",
+    "downloads": 227,
+    "score": null,
+    "repo_id": 958818269,
+    "repo_name": "ImmoDevs/ItemDurability",
+    "project_id": 14645,
+    "project_name": "ItemDurability",
+    "build_id": 187147,
+    "build_number": 3,
+    "build_commit": "de9e500885594c4fe02d1ffb7cfc4e29dfaefd0d",
+    "description_url": "https://poggit.pmmp.io/r/256651",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1749399649,
+    "state": 5,
+    "last_state_change_date": 1749701935,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "armor",
+        "durability",
+        "HUD",
+        "item-durability",
+        "item-lore",
+        "PocketMine-MP",
+        "tools",
+        "weapons"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ImmoDevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

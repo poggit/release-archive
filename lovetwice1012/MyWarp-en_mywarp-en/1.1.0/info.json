@@ -1,0 +1,59 @@
+{
+    "id": 6419,
+    "name": "MyWarp",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/MyWarp/1.1.0",
+    "tagline": "Players can save their own warp points",
+    "artifact_url": "https://poggit.pmmp.io/r/122164",
+    "downloads": 828,
+    "score": null,
+    "repo_id": 353997984,
+    "repo_name": "lovetwice1012/MyWarp-en",
+    "project_id": 8793,
+    "project_name": "mywarp-en",
+    "build_id": 100238,
+    "build_number": 31,
+    "build_commit": "06c8bf3f019f4b76ed04b3ecacf05f45223995a2",
+    "description_url": "https://poggit.pmmp.io/r/122161",
+    "icon_url": "https://raw.githubusercontent.com/lovetwice1012/MyWarp-en/06c8bf3f019f4b76ed04b3ecacf05f45223995a2/mywarp-en/E83B2EE0-6877-40E5-B26B-00A9A2F49452.png",
+    "changelog_url": "https://poggit.pmmp.io/r/122163",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1618103842,
+    "state": 5,
+    "last_state_change_date": 1618266334,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "my",
+        "player",
+        "warp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "lovetwice1012"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,71 @@
+{
+    "id": 9418,
+    "name": "WorldBorder",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldBorder/3.0.0",
+    "tagline": "Simple WorldBorder for your server",
+    "artifact_url": "https://poggit.pmmp.io/r/169443",
+    "downloads": 1788,
+    "score": 3,
+    "repo_id": 474566042,
+    "repo_name": "Hydros01/WorldBorder",
+    "project_id": 10858,
+    "project_name": "WorldBorder",
+    "build_id": 128581,
+    "build_number": 17,
+    "build_commit": "3fc6f7652119195914fb0aaa5c0399871aeab31e",
+    "description_url": "https://poggit.pmmp.io/r/169581",
+    "icon_url": "https://raw.githubusercontent.com/Hydros01/WorldBorder/3fc6f7652119195914fb0aaa5c0399871aeab31e/assets/Border.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648611728,
+    "state": 5,
+    "last_state_change_date": 1652079940,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Area",
+        "Border",
+        "Bypass",
+        "Edge",
+        "Move",
+        "Run",
+        "Stop",
+        "Walk",
+        "World",
+        "WorldBorder",
+        "WorldEdge"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Hydros01"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

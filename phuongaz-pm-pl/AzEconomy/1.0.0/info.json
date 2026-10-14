@@ -1,0 +1,94 @@
+{
+    "id": 12310,
+    "name": "AzEconomy",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AzEconomy/1.0.0",
+    "tagline": "Simple economy plugin designed for Pocketmine-MP servers, offering a multi-economy system.",
+    "artifact_url": "https://poggit.pmmp.io/r/221484",
+    "downloads": 56,
+    "score": null,
+    "repo_id": 683490336,
+    "repo_name": "phuongaz-pm-pl/AzEconomy",
+    "project_id": 12989,
+    "project_name": "AzEconomy",
+    "build_id": 162674,
+    "build_number": 4,
+    "build_commit": "737ddfad05cd9ad8510c831a95a1114c170838ee",
+    "description_url": "https://poggit.pmmp.io/r/221483",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1693239590,
+    "state": 5,
+    "last_state_change_date": 1695078049,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "economy"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Phuongaz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "ac932bc11540277441209c5d60892bc939a09456",
+            "build_id": 157118
+        },
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "90f4dda776eaf9bcb4693599c61c42e4c584a73f",
+            "build_id": 160577
+        },
+        {
+            "name": "libAsyncEvent",
+            "project_id": 10600,
+            "repo_id": 458519104,
+            "repo_name": "ColinHDev/libAsyncEvent",
+            "repo_path": "",
+            "build_commit": "11cee841246697a859c08a7f1b00730181782715",
+            "build_id": 155390
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        }
+    ]
+}

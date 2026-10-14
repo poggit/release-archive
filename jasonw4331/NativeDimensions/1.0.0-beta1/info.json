@@ -1,0 +1,88 @@
+{
+    "id": 8508,
+    "name": "NativeDimensions",
+    "version": "1.0.0-beta1",
+    "html_url": "https://poggit.pmmp.io/p/NativeDimensions/1.0.0-beta1",
+    "tagline": "Every World has Dimensions, Now They're all in one place",
+    "artifact_url": "https://poggit.pmmp.io/r/155725",
+    "downloads": 67,
+    "score": null,
+    "repo_id": 212501561,
+    "repo_name": "jasonw4331/NativeDimensions",
+    "project_id": 5616,
+    "project_name": "NativeDimensions",
+    "build_id": 120168,
+    "build_number": 37,
+    "build_commit": "0224126d7394410aa37d2cae9fa7bb4911e25d63",
+    "description_url": "https://poggit.pmmp.io/r/155724",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641384258,
+    "state": 5,
+    "last_state_change_date": 1641384264,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "dimension",
+        "dimensions",
+        "end",
+        "ender",
+        "hell",
+        "multi",
+        "multiple",
+        "multiworld",
+        "nether",
+        "vanilla",
+        "world",
+        "worlds"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "MultiWorld",
+            "version": "1.7.0-beta4",
+            "depRelId": 8336,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Muqsit",
+            "jasonwynn10"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

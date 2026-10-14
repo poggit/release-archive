@@ -1,0 +1,69 @@
+{
+    "id": 11400,
+    "name": "NoCraftItem",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/NoCraftItem/0.0.2",
+    "tagline": "Prevent players from crafting specified items",
+    "artifact_url": "https://poggit.pmmp.io/r/208739",
+    "downloads": 219,
+    "score": null,
+    "repo_id": 604697378,
+    "repo_name": "nhanaz-pm-pl/NoCraftItem",
+    "project_id": 12177,
+    "project_name": "NoCraftItem",
+    "build_id": 155705,
+    "build_number": 6,
+    "build_commit": "b26575126841e5a6b7acba05a807d9b77b92e11f",
+    "description_url": "https://poggit.pmmp.io/r/210686",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/NoCraftItem/b26575126841e5a6b7acba05a807d9b77b92e11f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685638117,
+    "state": 5,
+    "last_state_change_date": 1685638456,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "nocraft",
+        "nocraftitem",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libBedrock",
+            "project_id": 11911,
+            "repo_id": 551801316,
+            "repo_name": "NhanAZ-Libraries/libBedrock",
+            "repo_path": "",
+            "build_commit": "646109c8300377610f652b4ecaa5255074037bba",
+            "build_id": 155665
+        }
+    ]
+}

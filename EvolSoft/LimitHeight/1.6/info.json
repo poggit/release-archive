@@ -1,0 +1,67 @@
+{
+    "id": 1653,
+    "name": "LimitHeight",
+    "version": "1.6",
+    "html_url": "https://poggit.pmmp.io/p/LimitHeight/1.6",
+    "tagline": "A PocketMine-MP plugin to limit the build height on your server.",
+    "artifact_url": "https://poggit.pmmp.io/r/36244",
+    "downloads": 1399,
+    "score": 4,
+    "repo_id": 34167746,
+    "repo_name": "EvolSoft/LimitHeight",
+    "project_id": 1646,
+    "project_name": "LimitHeight",
+    "build_id": 45378,
+    "build_number": 6,
+    "build_commit": "6bfe27475c6d0d39a704f8443eed763226eb4dc2",
+    "description_url": "https://poggit.pmmp.io/r/124379",
+    "icon_url": "https://raw.githubusercontent.com/EvolSoft/LimitHeight/6bfe27475c6d0d39a704f8443eed763226eb4dc2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1530876531,
+    "state": 5,
+    "last_state_change_date": 1530876531,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "php",
+        "plugin",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Flavius12"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

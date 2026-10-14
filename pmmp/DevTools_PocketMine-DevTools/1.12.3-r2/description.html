@@ -1,0 +1,60 @@
+<h1>
+<a id="user-content-development-tools-for-pocketmine-mp" class="anchor" href="#development-tools-for-pocketmine-mp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Development Tools <em>for PocketMine-MP</em>
+</h1>
+<pre><code>This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</code></pre>
+<h2>
+<a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+<ul>
+<li>Drop it into the PocketMine's <code>plugins/</code> folder.</li>
+<li>Restart the server. The plugin will be loaded</li>
+</ul>
+<h2>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+<ul>
+<li>
+<em>/makeplugin </em>: Creates a Phar plugin archive for its distribution</li>
+<li>
+<em>/makeserver</em>: Creates a PocketMine-MP Phar archive</li>
+<li>
+<em>/checkperm  [playerName]</em>: Checks a permission node</li>
+</ul>
+<h2>
+<a id="user-content-using-consolescript-to-build-a-devtools-phar-from-source-code" class="anchor" href="#using-consolescript-to-build-a-devtools-phar-from-source-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using ConsoleScript to build a DevTools phar from source code</h2>
+<p>Contrary to popular assumption, this is very simple. Assuming you have a php executable in your PATH variable, cd into the DevTools directory (the folder where plugin.yml is located) and simply run the following:</p>
+<pre><code>php -dphar.readonly=0 path/to/ConsoleScript.php --make path/to/DevTools --relative path/to/DevTools --out path/to/put/devtools/phar/in/DevTools.phar
+</code></pre>
+<p>You can then load the phar onto a PocketMine-MP server. A correctly-built DevTools phar can also be executed directly from the command line as if it was the ConsoleScript.</p>
+<h2>
+<a id="user-content-build-phars-from-the-command-line" class="anchor" href="#build-phars-from-the-command-line" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Build phars from the command line</h2>
+<p>You can also use the ConsoleScript or a DevTools phar from the command-line to build PocketMine-MP phars or plugin phars.</p>
+<p>The script currently takes the following arguments:</p>
+<ul>
+<li>
+<code>--make</code>: The path to the files you want to bundle into a phar</li>
+<li>
+<code>--relative</code>: (Optional) Relative path to use when building the phar. This usually isn't necessary for plugins. Used to build PocketMine-MP phars with the <code>src</code> directory without including the files in the repository root.</li>
+<li>
+<code>--entry</code>: (Optional) PHP file within the phar to execute when running the phar from the command-line. Usually not needed for plugins, but required for a PocketMine-MP phar. Used to generate phar stubs.</li>
+<li>
+<code>--stub</code>: (Optional) PHP file to use as a custom phar stub. The stub will be executed when the phar is run from the command line.</li>
+<li>
+<code>--out</code>: Path and filename of the output phar file.</li>
+</ul>
+<p>Example command line for building a plugin:</p>
+<pre><code>php -dphar.readonly=0 path/to/ConsoleScript.php --make path/to/your/plugin/sourcecode --out path/to/put/your/plugin.phar
+</code></pre>
+<p>Example command line for building PocketMine</p>
+<pre><code>php -dphar.readonly=0 path/to/ConsoleScript.php --make path/to/PocketMine-MP/src --relative path/to/PocketMine-MP --entry src/pocketmine/PocketMine.php --out path/to/put/your/PocketMine-MP.phar
+</code></pre>

@@ -1,0 +1,70 @@
+{
+    "id": 4624,
+    "name": "WorldPlayerCount",
+    "version": "2.0-beta",
+    "html_url": "https://poggit.pmmp.io/p/WorldPlayerCount/2.0-beta",
+    "tagline": "Simple PocketMine plugin for showing the count of players of a world(s) in a slapper's nametag",
+    "artifact_url": "https://poggit.pmmp.io/r/91180",
+    "downloads": 17912,
+    "score": 3,
+    "repo_id": 266628029,
+    "repo_name": "xXKHaLeD098Xx/WorldPlayerCount",
+    "project_id": 7033,
+    "project_name": "WorldPlayerCount",
+    "build_id": 80806,
+    "build_number": 69,
+    "build_commit": "1afa6b59b3f7853edbb8b55900c50686321fa9e4",
+    "description_url": "https://poggit.pmmp.io/r/91375",
+    "icon_url": "https://raw.githubusercontent.com/xXKHaLeD098Xx/WorldPlayerCount/1afa6b59b3f7853edbb8b55900c50686321fa9e4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/91377",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1591663317,
+    "state": 5,
+    "last_state_change_date": 1591757345,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Count",
+        "Player",
+        "WorldPlayerCount"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "1.5.20-uhappynow",
+            "depRelId": 4317,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "xXKHaLeD098Xx"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

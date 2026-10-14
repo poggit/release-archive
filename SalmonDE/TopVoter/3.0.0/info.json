@@ -1,0 +1,68 @@
+{
+    "id": 1673,
+    "name": "TopVoter",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TopVoter/3.0.0",
+    "tagline": "Do you want to honour the voters of your server? This plugin will list them on a floating text particle!",
+    "artifact_url": "https://poggit.pmmp.io/r/36810",
+    "downloads": 224,
+    "score": 5,
+    "repo_id": 70970139,
+    "repo_name": "SalmonDE/TopVoter",
+    "project_id": 240,
+    "project_name": "TopVoter",
+    "build_id": 45812,
+    "build_number": 27,
+    "build_commit": "498f9c821f777f010bd95a971425e2663b1e4610",
+    "description_url": "https://poggit.pmmp.io/r/36807",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/36809",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1531583957,
+    "state": 5,
+    "last_state_change_date": 1531704150,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floatingtext",
+        "toplist",
+        "vote"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SalmonDE"
+        ],
+        "Contributor": [
+            "Aericio",
+            "SOF3",
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

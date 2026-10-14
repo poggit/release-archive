@@ -1,0 +1,74 @@
+{
+    "id": 2232,
+    "name": "Hotbar",
+    "version": "1.1.6",
+    "html_url": "https://poggit.pmmp.io/p/Hotbar/1.1.6",
+    "tagline": "Hotbar Items!",
+    "artifact_url": "https://poggit.pmmp.io/r/48227",
+    "downloads": 577,
+    "score": null,
+    "repo_id": 152776802,
+    "repo_name": "artulloss/Hotbar",
+    "project_id": 4081,
+    "project_name": "Hotbar",
+    "build_id": 53683,
+    "build_number": 44,
+    "build_commit": "49bad431850402ca14748a98533615b42262d991",
+    "description_url": "https://poggit.pmmp.io/r/48224",
+    "icon_url": "https://raw.githubusercontent.com/artulloss/Hotbar/49bad431850402ca14748a98533615b42262d991/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/48226",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1545664086,
+    "state": 5,
+    "last_state_change_date": 1545744587,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "hotbar",
+        "items"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "KielKing",
+            "DuoIncure"
+        ],
+        "Collaborator": [
+            "artulloss"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,50 @@
+<h1>
+<a id="user-content-vehicles" class="anchor" href="#vehicles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Vehicles</h1>
+<p>[WIP] A <a href="https://github.com/pmmp/PocketMine-MP">PocketMine-MP</a> plugin that brings vehicles to your server, made by <a href="https://github.com/JaxkDev">JaxkDev</a></p>
+<h4>
+<a id="user-content-default-vehicles" class="anchor" href="#default-vehicles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Default Vehicles:</h4>
+<ul>
+<li>Basic-Car</li>
+</ul>
+<h1>
+<a id="user-content-notice-" class="anchor" href="#notice-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NOTICE !</h1>
+<p>This is a experimental plugin and is not for performance and 100% not the best way to do such plugin but this is great experience for myself.</p>
+<h1>
+<a id="user-content-for-developers" class="anchor" href="#for-developers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>For Developers</h1>
+<p>Feel free to add custom vehicle classes in another plugin to customise it even more (only so much you can do in a config) or implement your own system on top of the current logic.</p>
+<p>Vehicle NBT Structure (not including base entity data):</p>
+<pre><code>CompoundTag EntityNBT
+ - vehicle(int) (Vehicle Version)
+ - VehicleData(CompundTag)
+   - type(int)
+   - name(string)
+   - design(string)
+   - gravity(float)
+   - scale(float)
+   - baseOffset(float)
+   - forwardSpeeed(float)
+   - backwardSpeed(float)
+   - leftSpeed(float)
+   - rightSpeed(float)
+   - bbox(ListTag)
+     - x(float)
+     - y(float)
+     - z(float)
+     - x2(float)
+     - y2(float)
+     - z2(float)
+   - driverSeat(ListTag)
+     - x(float)
+     - y(float)
+     - z(float)
+   - passengerSeats(ListTag)
+     - (ListTag) x How many seats there are
+       - x(float)
+       - y(float)
+       - z(float)
+</code></pre>
+<p>Events will be added in the near future.</p>
+<h1>
+<a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License:</h1>
+<p>Code provided is licensed under the Open Software License ("OSL") v. 3.0
+The default resource's license can be found in the resources folder.</p>

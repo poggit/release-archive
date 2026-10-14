@@ -1,0 +1,72 @@
+{
+    "id": 13731,
+    "name": "Casino",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Casino/1.0.0",
+    "tagline": "Allowing players to engage in exciting games like Blackjack, Coin Flip, and Number Guess! ",
+    "artifact_url": "https://poggit.pmmp.io/r/251342",
+    "downloads": 345,
+    "score": null,
+    "repo_id": 911264101,
+    "repo_name": "SoyDavs/Casino",
+    "project_id": 14445,
+    "project_name": "Casino",
+    "build_id": 183755,
+    "build_number": 3,
+    "build_commit": "9db95e5be72ad0007e15ac8db482d6422f418b34",
+    "description_url": "https://poggit.pmmp.io/r/251341",
+    "icon_url": "https://raw.githubusercontent.com/SoyDavs/Casino/9db95e5be72ad0007e15ac8db482d6422f418b34/casino.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "AFL-1.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736037049,
+    "state": 5,
+    "last_state_change_date": 1736037335,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "SoyDavs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        }
+    ]
+}

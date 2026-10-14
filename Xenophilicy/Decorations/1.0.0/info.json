@@ -1,0 +1,82 @@
+{
+    "id": 5292,
+    "name": "Decorations",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Decorations/1.0.0",
+    "tagline": "Add awesome custom geometry to spice up your worlds purchasable by players!",
+    "artifact_url": "https://poggit.pmmp.io/r/102845",
+    "downloads": 172,
+    "score": 5,
+    "repo_id": 292450733,
+    "repo_name": "Xenophilicy/Decorations",
+    "project_id": 7701,
+    "project_name": "Decorations",
+    "build_id": 87942,
+    "build_number": 14,
+    "build_commit": "a6395dabfb4ebecfcde7cbccafa44c64be6967be",
+    "description_url": "https://poggit.pmmp.io/r/102844",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/Decorations/a6395dabfb4ebecfcde7cbccafa44c64be6967be/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1600017424,
+    "state": 5,
+    "last_state_change_date": 1602442764,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "deco",
+        "decorate",
+        "decoration",
+        "entities",
+        "entity",
+        "gemetry",
+        "geo",
+        "shop"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "95CivicSi"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libDynamicForms",
+            "project_id": 5378,
+            "repo_id": 198849996,
+            "repo_name": "BreathTakinglyBinary/libDynamicForms",
+            "repo_path": "",
+            "build_commit": "50a9e47fba875f36a9187f54afff2b322b50c245",
+            "build_id": 87504
+        }
+    ]
+}

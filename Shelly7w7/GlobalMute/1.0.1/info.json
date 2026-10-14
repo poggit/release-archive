@@ -1,0 +1,67 @@
+{
+    "id": 3393,
+    "name": "GlobalMute",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/GlobalMute/1.0.1",
+    "tagline": "Mute the global chat! Meaning no one will be able to chat.",
+    "artifact_url": "https://poggit.pmmp.io/r/66753",
+    "downloads": 4585,
+    "score": 5,
+    "repo_id": 181902417,
+    "repo_name": "Shelly7w7/GlobalMute",
+    "project_id": 4937,
+    "project_name": "GlobalMute",
+    "build_id": 64937,
+    "build_number": 6,
+    "build_commit": "a9eb89b2c9bfc948e38c5db17f15d4c52850e849",
+    "description_url": "https://poggit.pmmp.io/r/66750",
+    "icon_url": "https://raw.githubusercontent.com/Shelly7w7/GlobalMute/a9eb89b2c9bfc948e38c5db17f15d4c52850e849/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/66752",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1570221249,
+    "state": 5,
+    "last_state_change_date": 1570257606,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Shelly7w7"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

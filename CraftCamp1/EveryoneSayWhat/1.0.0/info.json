@@ -1,0 +1,65 @@
+{
+    "id": 10934,
+    "name": "EveryoneSayWhat",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EveryoneSayWhat/1.0.0",
+    "tagline": "make everyone on a server say whatever you want",
+    "artifact_url": "https://poggit.pmmp.io/r/199903",
+    "downloads": 94,
+    "score": null,
+    "repo_id": 594096898,
+    "repo_name": "CraftCamp1/EveryoneSayWhat",
+    "project_id": 12125,
+    "project_name": "EveryoneSayWhat",
+    "build_id": 149886,
+    "build_number": 21,
+    "build_commit": "9c2c7e6770f59f5359d88446afea379d429ba2ff",
+    "description_url": "https://poggit.pmmp.io/r/199902",
+    "icon_url": "https://raw.githubusercontent.com/CraftCamp1/EveryoneSayWhat/9c2c7e6770f59f5359d88446afea379d429ba2ff/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1674888422,
+    "state": 5,
+    "last_state_change_date": 1675457332,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "everyone",
+        "everyonesaywhat",
+        "say",
+        "sudo",
+        "what"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "CraftCamp1"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

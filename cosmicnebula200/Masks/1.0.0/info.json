@@ -1,0 +1,66 @@
+{
+    "id": 5974,
+    "name": "Masks",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Masks/1.0.0",
+    "tagline": "A simple Masks plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/115750",
+    "downloads": 8620,
+    "score": 4,
+    "repo_id": 332233522,
+    "repo_name": "cosmicnebula200/Masks",
+    "project_id": 8431,
+    "project_name": "Masks",
+    "build_id": 96717,
+    "build_number": 9,
+    "build_commit": "32f97b93a0efe28cfe5dbbb451e406abb1c25f31",
+    "description_url": "https://poggit.pmmp.io/r/115749",
+    "icon_url": "https://raw.githubusercontent.com/cosmicnebula200/Masks/32f97b93a0efe28cfe5dbbb451e406abb1c25f31/OIP.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1613476188,
+    "state": 5,
+    "last_state_change_date": 1614007006,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "TPEimperialPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,67 @@
+{
+    "id": 10806,
+    "name": "CustomVanillaEnchants",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/CustomVanillaEnchants/0.0.2",
+    "tagline": "A PocketMine-MP plugin that lets you customize vanilla enchantment values",
+    "artifact_url": "https://poggit.pmmp.io/r/197253",
+    "downloads": 510,
+    "score": null,
+    "repo_id": 565464688,
+    "repo_name": "Muqsit/CustomVanillaEnchants",
+    "project_id": 11965,
+    "project_name": "CustomVanillaEnchants",
+    "build_id": 147951,
+    "build_number": 11,
+    "build_commit": "56e7a55be7b19dfaf90fc36379ca2e69d6bb78b2",
+    "description_url": "https://poggit.pmmp.io/r/197252",
+    "icon_url": "https://raw.githubusercontent.com/Muqsit/CustomVanillaEnchants/56e7a55be7b19dfaf90fc36379ca2e69d6bb78b2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1669031766,
+    "state": 5,
+    "last_state_change_date": 1669077878,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "config",
+        "configure",
+        "custom",
+        "enchantments",
+        "enchants"
+    ],
+    "api": [
+        {
+            "from": "4.10.1",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "arithmexp",
+            "project_id": 9397,
+            "repo_id": 391817412,
+            "repo_name": "Muqsit/arithmexp",
+            "repo_path": "",
+            "build_commit": "62c7d51e00c8f4e725e6fa2a574f303ab31419e0",
+            "build_id": 147796
+        }
+    ]
+}

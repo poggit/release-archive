@@ -1,0 +1,81 @@
+{
+    "id": 10726,
+    "name": "HypixelBow",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/HypixelBow/1.1.1",
+    "tagline": "Sound when hitting a player",
+    "artifact_url": "https://poggit.pmmp.io/r/195801",
+    "downloads": 105,
+    "score": 5,
+    "repo_id": 361417995,
+    "repo_name": "kostamax27/Hypixel-Bow",
+    "project_id": 8902,
+    "project_name": "Hypixel-Bow",
+    "build_id": 146984,
+    "build_number": 49,
+    "build_commit": "c1c537718132ccbe94ebae97c095cb9936648f25",
+    "description_url": "https://poggit.pmmp.io/r/195798",
+    "icon_url": "https://raw.githubusercontent.com/kostamax27/Hypixel-Bow/c1c537718132ccbe94ebae97c095cb9936648f25/Hypixel-Bow.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/195800",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1666808782,
+    "state": 5,
+    "last_state_change_date": 1666910205,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Bow",
+        "hit",
+        "sound"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "kostamax27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

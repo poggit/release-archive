@@ -1,0 +1,97 @@
+{
+    "id": 12762,
+    "name": "BedrockEconomy",
+    "version": "4.0.3",
+    "html_url": "https://poggit.pmmp.io/p/BedrockEconomy/4.0.3",
+    "tagline": "An economy plugin focused on stability and simplicity",
+    "artifact_url": "https://poggit.pmmp.io/r/231664",
+    "downloads": 647,
+    "score": null,
+    "repo_id": 400814840,
+    "repo_name": "cooldogepm/BedrockEconomy",
+    "project_id": 10670,
+    "project_name": "BedrockEconomy",
+    "build_id": 170130,
+    "build_number": 113,
+    "build_commit": "779a5ee335ded13e0a7d26dc34b7cbe26332c13f",
+    "description_url": "https://poggit.pmmp.io/r/234902",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/234904",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1705860135,
+    "state": 5,
+    "last_state_change_date": 1710351875,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "api",
+        "economy",
+        "mcbe",
+        "minecraft",
+        "mysql",
+        "php",
+        "pmmp",
+        "pocketmine",
+        "sql",
+        "sqlite"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "udachin26",
+            "SOF3",
+            "Endermanbugzjfc",
+            "NhanAZ",
+            "brokiem",
+            "KygekDev",
+            "fadheldev",
+            "TheRealDeveloper",
+            "AIPTU",
+            "MrBlasyMSK",
+            "borvn",
+            "Nakidori",
+            "Betsthebest"
+        ],
+        "Collaborator": [
+            "cooldogedev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,114 @@
+{
+    "id": 137,
+    "name": "EconomyAPI",
+    "version": "5.0",
+    "html_url": "https://poggit.pmmp.io/p/EconomyAPI/5.0",
+    "tagline": "EconomyS by OneBone",
+    "artifact_url": "https://poggit.pmmp.io/r/2566",
+    "downloads": 1565,
+    "score": 3,
+    "repo_id": 82867467,
+    "repo_name": "poggit-orphanage/EconomyS",
+    "project_id": 266,
+    "project_name": "EconomyAPI",
+    "build_id": 21109,
+    "build_number": 6,
+    "build_commit": "c65d1527a52e807fa3ef169d7bd3a24fed172948",
+    "description_url": "https://poggit.pmmp.io/r/2430",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/2431",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1489366472,
+    "state": 5,
+    "last_state_change_date": 1488285073,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "airport",
+        "economy",
+        "economyplus",
+        "economyS",
+        "land",
+        "money",
+        "onebone",
+        "tax"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA4"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyLand",
+            "version": "2.0.9",
+            "depRelId": 149,
+            "isHard": false
+        },
+        {
+            "name": "EconomyShop",
+            "version": "2.0.7",
+            "depRelId": 150,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "shoghicp",
+            "luthfianto",
+            "llronaldoll",
+            "Bamuel",
+            "edwinyoo44",
+            "HmHmmHm",
+            "Thunder33345",
+            "chalkpe",
+            "dog194",
+            "Creeperface01",
+            "Awzaw",
+            "Conankun17",
+            "kvetinac97",
+            "Pub4Game",
+            "laurobeleche",
+            "dktapps",
+            "SleepSpace9",
+            "Ad5001",
+            "SOF3",
+            "nnnlog",
+            "MasterOfTheRealm",
+            "Cathesda-Server-Studios",
+            "zKoz210",
+            "kairusds",
+            "PJZ9n",
+            "PJK12",
+            "supercrafter333"
+        ],
+        "Collaborator": [
+            "onebone"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

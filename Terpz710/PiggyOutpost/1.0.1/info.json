@@ -1,0 +1,79 @@
+{
+    "id": 12921,
+    "name": "PiggyOutpost",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PiggyOutpost/1.0.1",
+    "tagline": "Outpost features for PiggyFactions",
+    "artifact_url": "https://poggit.pmmp.io/r/235268",
+    "downloads": 472,
+    "score": 3,
+    "repo_id": 758622294,
+    "repo_name": "Terpz710/PiggyOutpost",
+    "project_id": 13570,
+    "project_name": "PiggyOutpost",
+    "build_id": 172635,
+    "build_number": 18,
+    "build_commit": "951ba87a092af68757726f2e01aeb48d7f5beeec",
+    "description_url": "https://poggit.pmmp.io/r/235265",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/PiggyOutpost/951ba87a092af68757726f2e01aeb48d7f5beeec/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/235267",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1711040644,
+    "state": 5,
+    "last_state_change_date": 1711405289,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Faction",
+        "FactionOutpost",
+        "Factions",
+        "Outpost",
+        "PiggyFaction",
+        "PiggyOutpost",
+        "Simple",
+        "SimpleFaction"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyFactions",
+            "version": "2.1.0",
+            "depRelId": 11971,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

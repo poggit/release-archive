@@ -1,0 +1,71 @@
+{
+    "id": 12829,
+    "name": "ProperDuels",
+    "version": "2.8.1",
+    "html_url": "https://poggit.pmmp.io/p/ProperDuels/2.8.1",
+    "tagline": "A properly made duels plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/233433",
+    "downloads": 154,
+    "score": null,
+    "repo_id": 366160241,
+    "repo_name": "JavierLeon9966/ProperDuels",
+    "project_id": 9157,
+    "project_name": "ProperDuels",
+    "build_id": 171448,
+    "build_number": 45,
+    "build_commit": "7999bfb3282b6fc4de0306a56ac032ce964d72d8",
+    "description_url": "https://poggit.pmmp.io/r/233430",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/ProperDuels/7999bfb3282b6fc4de0306a56ac032ce964d72d8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/233432",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1708454112,
+    "state": 5,
+    "last_state_change_date": 1708454150,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "1vs1",
+        "arena",
+        "custom",
+        "duel",
+        "duels",
+        "kit",
+        "pvp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

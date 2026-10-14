@@ -1,0 +1,61 @@
+{
+    "id": 6833,
+    "name": "DynamitePala",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DynamitePala/1.0.0",
+    "tagline": "Plugin to have a dynamite on your server",
+    "artifact_url": "https://poggit.pmmp.io/r/128768",
+    "downloads": 410,
+    "score": 4,
+    "repo_id": 376562705,
+    "repo_name": "Refaltor77/Dynamite",
+    "project_id": 9118,
+    "project_name": "Dynamite",
+    "build_id": 104074,
+    "build_number": 1,
+    "build_commit": "65d1480c9ed989ef8bb33a999167b31b2a7d41c6",
+    "description_url": "https://poggit.pmmp.io/r/130283",
+    "icon_url": "https://raw.githubusercontent.com/Refaltor77/Dynamite/65d1480c9ed989ef8bb33a999167b31b2a7d41c6/dynamite.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1623596263,
+    "state": 5,
+    "last_state_change_date": 1624897781,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Dynamite",
+        "explode",
+        "plugin",
+        "tnt",
+        "TNTN"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

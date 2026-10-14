@@ -1,0 +1,68 @@
+{
+    "id": 6489,
+    "name": "gravity",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/gravity/3.0.0",
+    "tagline": "Plugin that allows to simulate the graviter of the moon as well as are oxygen",
+    "artifact_url": "https://poggit.pmmp.io/r/123216",
+    "downloads": 82,
+    "score": 1,
+    "repo_id": 358740803,
+    "repo_name": "Refaltor77/gravity",
+    "project_id": 8863,
+    "project_name": "gravity",
+    "build_id": 100840,
+    "build_number": 28,
+    "build_commit": "d96f3bd9d52fbcbdc682c0609c92dc626da0ee60",
+    "description_url": "https://poggit.pmmp.io/r/123242",
+    "icon_url": "https://raw.githubusercontent.com/Refaltor77/gravity/d96f3bd9d52fbcbdc682c0609c92dc626da0ee60/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/123244",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1618929534,
+    "state": 5,
+    "last_state_change_date": 1619301256,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "gravity",
+        "Moon",
+        "o²",
+        "Space"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,63 @@
+<h1>
+<a id="user-content-ranks" class="anchor" href="#ranks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ranks</h1>
+<p>Ranks by IvanCraft623 is a plugin that with conjunction of <a href="https://github.com/poggit-orphanage/PurePerms/">PurePerms</a> allow set Temporal Ranks to players.
+It is necessary have the <a href="https://github.com/poggit-orphanage/PurePerms/">PurePerms</a> plugin!</p>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Permission</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/ranks settemprank &lt;player&gt; &lt;rank&gt; &lt;time in days&gt;</code></td>
+<td>Set a TempRank to a player.</td>
+<td>ranks.cmd.settemprank</td>
+</tr>
+<tr>
+<td><code>/ranks createcode &lt;code&gt; &lt;rank&gt; &lt;max uses&gt; &lt;time in days&gt;</code></td>
+<td>Create a code to claim a rank.</td>
+<td>ranks.cmd.createcode</td>
+</tr>
+<tr>
+<td><code>/ranks deletecode &lt;code&gt;</code></td>
+<td>Delete a code.</td>
+<td>ranks.cmd.deletecode</td>
+</tr>
+<tr>
+<td><code>/ranks manage</code></td>
+<td>Open an UI to manage.</td>
+<td>ranks.cmd.manage</td>
+</tr>
+<tr>
+<td><code>/ranks claim</code></td>
+<td>Open an UI to claim a code</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<div class="highlight highlight-source-yaml"><pre>
+<span class="pl-c"><span class="pl-c">#</span>Ranks by IvanCraft623 (Twitter: @IvanCraft623)</span>
+
+<span class="pl-c"><span class="pl-c">#</span>Do not edit this value, only internal use</span>
+<span class="pl-ent">Config Version</span>: <span class="pl-s">1.0.0</span>
+
+<span class="pl-c"><span class="pl-c">#</span>Behaviour when a rank expires</span>
+<span class="pl-c"><span class="pl-c">#</span> - setdefaultrank: When a rank expires the player will be set to the default rank</span>
+<span class="pl-c"><span class="pl-c">#</span> - setlastrank: When a rank expires the player will be given the rank he had previously</span>
+<span class="pl-ent">mode</span>: <span class="pl-s">setlastrank</span>
+
+<span class="pl-c"><span class="pl-c">#</span>Custom messages coming soon... :D</span></pre></div>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>You can set Temporal Ranks to players!</li>
+<li>You can add codes to claim temporal ranks!</li>
+<li>If when you are creating a code you set code "random" a random code will be generated</li>
+</ul>

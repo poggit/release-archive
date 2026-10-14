@@ -1,0 +1,70 @@
+{
+    "id": 1408,
+    "name": "TimeStopper",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/TimeStopper/1.0.2",
+    "tagline": "Sets and Stops Server Time on Restart",
+    "artifact_url": "https://poggit.pmmp.io/r/30898",
+    "downloads": 234,
+    "score": null,
+    "repo_id": 117295291,
+    "repo_name": "RevivalPMMP/TimeStopper",
+    "project_id": 1761,
+    "project_name": "TimeStopper",
+    "build_id": 41629,
+    "build_number": 11,
+    "build_commit": "91af2ec36cd4f6033cd164d352ebf47fd1c94848",
+    "description_url": "https://poggit.pmmp.io/r/30895",
+    "icon_url": "https://raw.githubusercontent.com/RevivalPMMP/TimeStopper/91af2ec36cd4f6033cd164d352ebf47fd1c94848/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/30897",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526785730,
+    "state": 5,
+    "last_state_change_date": 1526785730,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Day",
+        "Night",
+        "TIme"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA10",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "95CivicSi"
+        ],
+        "Contributor": [
+            "jasonwynn10"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

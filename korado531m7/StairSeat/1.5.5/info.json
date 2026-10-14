@@ -1,0 +1,54 @@
+{
+    "id": 5121,
+    "name": "StairSeat",
+    "version": "1.5.5",
+    "html_url": "https://poggit.pmmp.io/p/StairSeat/1.5.5",
+    "tagline": "Enable to sit on the stair block",
+    "artifact_url": "https://poggit.pmmp.io/r/99955",
+    "downloads": 9193,
+    "score": 5,
+    "repo_id": 160235581,
+    "repo_name": "korado531m7/StairSeat",
+    "project_id": 4348,
+    "project_name": "StairSeat",
+    "build_id": 86233,
+    "build_number": 30,
+    "build_commit": "fe52d897dc8192fa8de27c179f5699844e372af5",
+    "description_url": "https://poggit.pmmp.io/r/99952",
+    "icon_url": "https://raw.githubusercontent.com/korado531m7/StairSeat/fe52d897dc8192fa8de27c179f5699844e372af5/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/99954",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1597328437,
+    "state": 5,
+    "last_state_change_date": 1597672032,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "seat",
+        "stair"
+    ],
+    "api": [
+        {
+            "from": "3.14.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "korado531m7"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

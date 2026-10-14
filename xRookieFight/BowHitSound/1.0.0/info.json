@@ -1,0 +1,60 @@
+{
+    "id": 11287,
+    "name": "BowHitSound",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BowHitSound/1.0.0",
+    "tagline": "A PocketMine 4 plugin that does if someone hits a player with a bow, it throws a sound and says how much health target have.",
+    "artifact_url": "https://poggit.pmmp.io/r/207063",
+    "downloads": 267,
+    "score": 5,
+    "repo_id": 640872495,
+    "repo_name": "xRookieFight/BowHitSound",
+    "project_id": 12462,
+    "project_name": "BowHitSound",
+    "build_id": 154703,
+    "build_number": 5,
+    "build_commit": "99efc300465739df50c776037754ff0413d42484",
+    "description_url": "https://poggit.pmmp.io/r/207062",
+    "icon_url": "https://raw.githubusercontent.com/xRookieFight/BowHitSound/99efc300465739df50c776037754ff0413d42484/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1684153361,
+    "state": 5,
+    "last_state_change_date": 1684174413,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bedwars",
+        "bow",
+        "hit",
+        "hypixel",
+        "minigames",
+        "pvp",
+        "skywars",
+        "sound"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "xRookieFight"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

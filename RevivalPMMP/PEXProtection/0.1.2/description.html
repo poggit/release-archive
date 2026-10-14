@@ -1,0 +1,44 @@
+<h2>
+<a id="user-content-intro" class="anchor" href="#intro" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Intro</h2>
+<p>This is a companion plugin for PureEntitiesX that gives you the ability to keep mobs from spawning in areas you select.</p>
+<h2>
+<a id="user-content-whats-new" class="anchor" href="#whats-new" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What's New</h2>
+<ul>
+<li>Updated to be Compatible with API Version 3.0.0-ALPHA11</li>
+</ul>
+<h2>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+<p>Protected areas can currently be added by commands in game or by modifying the centers.yml file. To add a protected area in game use the <code>pexprotection</code> command (this can be shortened to <code>pexp</code>).  This will required you to name the area to be protected and give a radius for how much area should be protected from the center of the protection area.  An example command to add an area called "ForPoggit" with a radius of 100 blocks from center would look like this:
+<code>/pexp add ForPoggit 100</code>
+When you execute the command, you will be prompted to tap a block to designate the center of the protection area.  After tapping the center block, you will receive a confirmation message letting you know that the protection area has been assigned.</p>
+<p><code>Successfully added a protection center block with radius of 100.</code></p>
+<p>To modify the centers.yml file directly, you will need to know:</p>
+<ul>
+<li>A Name for the Protection Area</li>
+<li>The X,Y,Z Coordinate of the Center Block</li>
+<li>The folder of the World where the Protection Area Should Be</li>
+<li>The Radius from the Center Block to Protect</li>
+<li>Whether You Want to Block All Mobs or Just Hostile Mobs</li>
+</ul>
+<p>An Example:</p>
+<pre lang="---"><code>ForPoggit:
+  xPos: 273
+  yPos: 72
+  zPos: 366
+  level: world
+  radius: 20
+  all-mobs: true
+ForPoggit2:
+  xPos: 276
+  yPos: 69
+  zPos: 355
+  level: world
+  radius: 200
+  all-mobs: false
+...```
+
+## Help
+If you need help, check our GitHub pages or hit us up on Gitter and Discord!
+[![Join the chat at https://gitter.im/RevivalPMMP/Lobby](https://badges.gitter.im/RevivalPMMP/PureEntitiesX.svg)](https://gitter.im/RevivalPMMP/Lobby?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge)
+[![Chat](https://img.shields.io/badge/chat-on+discord-7289da.svg)](https://discord.gg/6Kcx3kK)
+</code></pre>

@@ -1,0 +1,130 @@
+{
+    "id": 14240,
+    "name": "BetterRewards",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BetterRewards/2.0.1",
+    "tagline": "Daily and monthly rewards, depending on the day of the week. Available for PocketMine-MP 5.0 servers",
+    "artifact_url": "https://poggit.pmmp.io/r/260445",
+    "downloads": 192,
+    "score": null,
+    "repo_id": 614586026,
+    "repo_name": "fernanACM/BetterRewards",
+    "project_id": 12403,
+    "project_name": "BetterRewards",
+    "build_id": 189855,
+    "build_number": 19,
+    "build_commit": "5b507523ae26e33712ef40f21d26de7b9eb8672c",
+    "description_url": "https://poggit.pmmp.io/r/260442",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/BetterRewards/5b507523ae26e33712ef40f21d26de7b9eb8672c/icon-btrewards.png",
+    "changelog_url": "https://poggit.pmmp.io/r/260444",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1761637403,
+    "state": 5,
+    "last_state_change_date": 1762285583,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Better",
+        "Diary",
+        "Monthly",
+        "Rewards"
+    ],
+    "api": [
+        {
+            "from": "5.36.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "NhanAz",
+            "GamerMJay"
+        ],
+        "Collaborator": [
+            "fernanACM"
+        ],
+        "Contributor": [
+            "jacob3105"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 14674,
+            "repo_id": 968903825,
+            "repo_name": "ACM-PocketMine-MP/FormsUI",
+            "repo_path": "",
+            "build_commit": "48d74981c6440b7a52a016f515c7b91d6b56fd23",
+            "build_id": 186177
+        },
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "6166cf148ca5b882800ba4a43e12fe76e9a39569",
+            "build_id": 189829
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "3400302e0d77757e716ac69a4099561bde5634b3",
+            "build_id": 184973
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "d2dc7f2219fb5306416c144d4a774883efa82da7",
+            "build_id": 188715
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        }
+    ]
+}

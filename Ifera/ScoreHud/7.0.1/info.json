@@ -1,0 +1,102 @@
+{
+    "id": 9390,
+    "name": "ScoreHud",
+    "version": "7.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ScoreHud/7.0.1",
+    "tagline": "A highly customizable plugin to add Scoreboards on your Minecraft: Bedrock Server.",
+    "artifact_url": "https://poggit.pmmp.io/r/168927",
+    "downloads": 25699,
+    "score": 4,
+    "repo_id": 155634166,
+    "repo_name": "Ifera/ScoreHud",
+    "project_id": 4143,
+    "project_name": "ScoreHud",
+    "build_id": 128240,
+    "build_number": 79,
+    "build_commit": "1ff48287130a98774c76fa4f22a0cf7d6656dcb2",
+    "description_url": "https://poggit.pmmp.io/r/168924",
+    "icon_url": "https://raw.githubusercontent.com/Ifera/ScoreHud/1ff48287130a98774c76fa4f22a0cf7d6656dcb2/meta/ScoreHud.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/168926",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648328935,
+    "state": 5,
+    "last_state_change_date": 1648328945,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "customizable",
+        "scoreboards",
+        "scorehud"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EcoAPIScore",
+            "version": "1.1.0",
+            "depRelId": 8996,
+            "isHard": false
+        },
+        {
+            "name": "PurePermsScore",
+            "version": "1.1.0",
+            "depRelId": 8997,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "alvin0319",
+            "Shelly7w7",
+            "JohnathenHampton",
+            "AtlanticDany"
+        ],
+        "Collaborator": [
+            "Ifera"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ScoreFactory",
+            "project_id": 4142,
+            "repo_id": 155632824,
+            "repo_name": "Ifera/ScoreFactory",
+            "repo_path": "",
+            "build_commit": "cfb6e88b3534bbd29699c7a1b245dd86fd8886d3",
+            "build_id": 124262
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "ce75bc58d640c15af95bd24a3be053d57608092c",
+            "build_id": 124216
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "id": 12179,
+    "name": "Profile-Ui",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Profile-Ui/1.0.0",
+    "tagline": "A Player Profile Plugin For Pocketmine",
+    "artifact_url": "https://poggit.pmmp.io/r/219340",
+    "downloads": 50,
+    "score": null,
+    "repo_id": 662065258,
+    "repo_name": "GabBiswajit/Profile-ui",
+    "project_id": 12731,
+    "project_name": "Profile-ui",
+    "build_id": 161426,
+    "build_number": 26,
+    "build_commit": "00c33040d4554271462628d8f5bea0cca2c9f524",
+    "description_url": "https://poggit.pmmp.io/r/219339",
+    "icon_url": "https://raw.githubusercontent.com/GabBiswajit/Profile-ui/00c33040d4554271462628d8f5bea0cca2c9f524/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691520566,
+    "state": 5,
+    "last_state_change_date": 1691545056,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Profile-ui",
+        "Skyblock-Plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "2.0.2",
+            "depRelId": 9210,
+            "isHard": true
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Amitminer",
+            "GabBiswajit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "26fac36e585c1b6d5a10a99bdcb70f6539b397aa",
+            "build_id": 157517
+        }
+    ]
+}

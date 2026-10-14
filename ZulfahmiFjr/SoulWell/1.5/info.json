@@ -1,0 +1,71 @@
+{
+    "id": 14061,
+    "name": "SoulWell",
+    "version": "1.5",
+    "html_url": "https://poggit.pmmp.io/p/SoulWell/1.5",
+    "tagline": "SoullWell for PocketMine Server.",
+    "artifact_url": "https://poggit.pmmp.io/r/256630",
+    "downloads": 156,
+    "score": null,
+    "repo_id": 263468495,
+    "repo_name": "ZulfahmiFjr/SoulWell",
+    "project_id": 7290,
+    "project_name": "SoulWell",
+    "build_id": 187136,
+    "build_number": 77,
+    "build_commit": "e2fa9fe4779d698e68dafa9958984d9f83565105",
+    "description_url": "https://poggit.pmmp.io/r/256632",
+    "icon_url": "https://raw.githubusercontent.com/ZulfahmiFjr/SoulWell/e2fa9fe4779d698e68dafa9958984d9f83565105/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1749319229,
+    "state": 5,
+    "last_state_change_date": 1749745447,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "SoulWell"
+    ],
+    "api": [
+        {
+            "from": "5.27.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ZulfahmiFjr"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "2b2eb5101934a3cbe20b521367147890c28b8bd9",
+            "build_id": 185919
+        }
+    ]
+}

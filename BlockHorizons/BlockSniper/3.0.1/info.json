@@ -1,0 +1,103 @@
+{
+    "id": 1835,
+    "name": "BlockSniper",
+    "version": "3.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BlockSniper/3.0.1",
+    "tagline": "An innovative long range brush world editor.",
+    "artifact_url": "https://poggit.pmmp.io/r/41090",
+    "downloads": 206,
+    "score": null,
+    "repo_id": 77737799,
+    "repo_name": "BlockHorizons/BlockSniper",
+    "project_id": 95,
+    "project_name": "BlockSniper",
+    "build_id": 48832,
+    "build_number": 380,
+    "build_commit": "dd223e5e3da1311954cf0bd43d928367d4c8e9d0",
+    "description_url": "https://poggit.pmmp.io/r/41087",
+    "icon_url": "https://raw.githubusercontent.com/BlockHorizons/BlockSniper/dd223e5e3da1311954cf0bd43d928367d4c8e9d0/resources/BlockSniperLogo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/41089",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1535788063,
+    "state": 5,
+    "last_state_change_date": 1535788106,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "brush",
+        "edit",
+        "world",
+        "worldedit"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "MyPlot",
+            "version": "1.3.6",
+            "depRelId": 1745,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "Spajker7",
+            "matcracker",
+            "Johnmacrocraft",
+            "archie426",
+            "jojoe77777",
+            "dktapps",
+            "HimbeersaftLP",
+            "jerryzooyoyo",
+            "aquaminer",
+            "MrKiaN",
+            "etherein",
+            "SOF3",
+            "nnnlog",
+            "KevinLong021",
+            "Kris-Driv",
+            "shdudwns",
+            "clrxbl",
+            "lukeeey",
+            "alvin0319",
+            "Ifera",
+            "natsunasi"
+        ],
+        "Collaborator": [
+            "Sandertv"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

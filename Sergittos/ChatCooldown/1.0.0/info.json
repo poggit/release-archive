@@ -1,0 +1,73 @@
+{
+    "id": 6922,
+    "name": "ChatCooldown",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatCooldown/1.0.0",
+    "tagline": "A simple Chat Cooldown plugin for pocketmine servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/130225",
+    "downloads": 270,
+    "score": null,
+    "repo_id": 378195038,
+    "repo_name": "Sergittos/ChatCooldown",
+    "project_id": 9152,
+    "project_name": "ChatCooldown",
+    "build_id": 104980,
+    "build_number": 8,
+    "build_commit": "90c331f7b7443d59607bf4626ff6900e4e35fbd7",
+    "description_url": "https://poggit.pmmp.io/r/130938",
+    "icon_url": "https://raw.githubusercontent.com/Sergittos/ChatCooldown/90c331f7b7443d59607bf4626ff6900e4e35fbd7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1624656779,
+    "state": 5,
+    "last_state_change_date": 1624660076,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "cooldown"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "didacdelolmo",
+            "Sergittos"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEasyUI",
+            "project_id": 7632,
+            "repo_id": 281477433,
+            "repo_name": "dresnite/easyui",
+            "repo_path": "",
+            "build_commit": "3226d11c591d98b987bfbdf4999ea27761f6ca87",
+            "build_id": 103297
+        }
+    ]
+}

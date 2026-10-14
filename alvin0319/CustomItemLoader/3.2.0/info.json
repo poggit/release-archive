@@ -1,0 +1,77 @@
+{
+    "id": 10767,
+    "name": "CustomItemLoader",
+    "version": "3.2.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomItemLoader/3.2.0",
+    "tagline": "A PocketMine-MP plugin that implements custom item",
+    "artifact_url": "https://poggit.pmmp.io/r/196781",
+    "downloads": 290,
+    "score": null,
+    "repo_id": 320115479,
+    "repo_name": "alvin0319/CustomItemLoader",
+    "project_id": 8224,
+    "project_name": "CustomItemLoader",
+    "build_id": 147669,
+    "build_number": 118,
+    "build_commit": "c3373dcbc09ed108898986943663f39394850bd3",
+    "description_url": "https://poggit.pmmp.io/r/196778",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/196780",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1667879386,
+    "state": 5,
+    "last_state_change_date": 1667884459,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "customitem"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SleepSpace9",
+            "jasonw4331",
+            "PJZ9n",
+            "iteplenky",
+            "UnknownOre",
+            "sqmatheus",
+            "HGRgamer",
+            "sky-min"
+        ],
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "f621559a4214a8112cde8ff67d6c84137291e559",
+            "build_id": 116667
+        }
+    ]
+}

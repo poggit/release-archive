@@ -1,0 +1,92 @@
+{
+    "id": 12756,
+    "name": "FFA",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FFA/2.0.0",
+    "tagline": "FreeForAll MiniGame",
+    "artifact_url": "https://poggit.pmmp.io/r/231581",
+    "downloads": 1275,
+    "score": 5,
+    "repo_id": 421845254,
+    "repo_name": "Laith98Dev/FFA",
+    "project_id": 9891,
+    "project_name": "FFA",
+    "build_id": 170093,
+    "build_number": 64,
+    "build_commit": "61d3604a5868861fd37e319dc1384149ba19c79d",
+    "description_url": "https://poggit.pmmp.io/r/231578",
+    "icon_url": "https://raw.githubusercontent.com/Laith98Dev/FFA/61d3604a5868861fd37e319dc1384149ba19c79d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/231580",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1705779836,
+    "state": 5,
+    "last_state_change_date": 1705796707,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ffa",
+        "freeforall",
+        "laith98dev",
+        "pmmp",
+        "pocketmine-mp",
+        "minigame"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BanCommands",
+            "version": "2.0.0",
+            "depRelId": 12065,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "ad64704777ad417d7ac69918199bfcb46c24a1ca",
+            "build_id": 168994
+        },
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "2241e708ba6b0cac0216fc10aeb3d8cf217a797a",
+            "build_id": 169438
+        }
+    ]
+}

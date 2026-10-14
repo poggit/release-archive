@@ -1,0 +1,85 @@
+<p>Jail</p>
+<p>A fully featured jail plugin for <a href="https://github.com/pmmp/PocketMine-MP">PocketMine</a> servers</p>
+<blockquote>
+<p>Secure and advanced jail player-punishment system!</p>
+</blockquote>
+<p>###Features:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Supports multiple languages (Community edited)</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Multiple jails support</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Anti-escape support</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Beautiful GUI for prisoners</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Jail players for a period or infinite time</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Setting jails by entering jail setting mode</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Bail! Allows players to bail to unjail</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> UUID Checker! Prevents IGN changes (Experimental)</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Customizable time unit</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Jail-vote! Players voting players into jail</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Mines support. Mine and gain money to bail!</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Sign support! Bail/SellHand/ResetMine</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Saves prisoner's inventory, and return upon unjail</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Customizable time unit!</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> API for developers to access externally</li>
+</ul>
+<p>###Commands:<br>
+| Command | Usage | Description | Remark |<br>
+| ------- | ----------- | ----- | ----- |<br>
+| Deljail command | /deljail &lt;jail&gt; | Delete the specified jail | / |<br>
+| Setjail command | /setjail &lt;jail&gt; | Start setting a jail | Takes the player into jail-setting mode |<br>
+| Jails command | /jails | Get a list of all available jails | / |<br>
+| Jail command | /jail &lt;player&gt; &lt;jail&gt; &lt;time&gt; &lt;reason..&gt; | Jail a player into a jail for a period | / |<br>
+| Unjail command | /unjail &lt;player&gt; | Unjail a jailed player | / |<br>
+| Jailed command | /jailed | Get a list of all jailed players | / |<br>
+| Switchjail command | /switchjail &lt;player&gt; &lt;jail&gt; | Switch a specified player to another jail | / |<br>
+| Tpjail command | /tpjail &lt;jail&gt; &lt;player&gt; | Teleports a player to a jail | / |<br>
+| Bail command | /bail | Bail by paying money | Disabled for servers without compatible economy plugin |<br>
+| Votejail command | /votejail &lt;player&gt; | Vote a player | A player will be jailed while their votes have exceeded a limit |<br>
+| Jailmine command | /jailmine reset|set|remove|check &lt;jail&gt; | Manage the mine inside particular jails | There is 1 mine per jail, so you manipulate the mine by specifying a jail |<br>
+| Jailsellhand command | /jailsellhand | Sell the ores obtained from the mine in a jail | Only for prisoners |<br>
+| Jailresetmine command | /jailresetmine | Reset the mine in a specified jail | Only for prisoners |<br>
+| Jailinfo command | /jailinfo | Obtain detailed information of a jail | / |<br>
+| Prisonerinfo command | /prisonerinfo | Obtain detailed information of a prisoner | / |<br>
+<em>&lt;&gt; with words inside are parameters of the commands.</em></p>
+<p>###Permission nodes:<br>
+| Permission node | Default assignment | Description | Remark |<br>
+| ----- | ----- | ----- | ----- |<br>
+| jail.command.setjail | OP players | For command: /setjail | / |<br>
+| jail.command.deljail | OP players | For command: /deljail | / |<br>
+| jail.command.jails | OP players | For command: /jails | / |<br>
+| jail.command.jail | OP players | For command: /jail | / |<br>
+| jail.command.unjail | OP players | For command: /unjail | / |<br>
+| jail.command.jailed | OP players | For command: /jailed | / |<br>
+| jail.command.switchjail | OP players | For command: /switchjail | / |<br>
+| jail.command.jailtp | OP players | For command: /tpjail | / |<br>
+| jail.command.bail| players | For command: /bail | Only usable by prisoners |<br>
+| jail.command.jailmine | OP players | For command: /jailmine | / |<br>
+| jail.command.votejail | players | For command: /votejail | / |<br>
+| jail.command.jailsellhand | players | For command: /jailsellhand | Only usable by prisoners |<br>
+| jail.command.jailresetmine | players | For command: /jailresetmine | Only usable by prisoners |<br>
+| jail.command.jailinfo | OP players | For command: /jailinfo | / |<br>
+| jail.command.prisonerinfo | OP players | For command: /prisonerinfo | / |<br>
+| jail.modify.bypass | OP players | Players with such permission are allowed to place/destroy blocks in a jail | USE WITH <em>CAUTION</em> |<br>
+| jail.sign.destroy | OP players | Players with such permission are allowed to destroy signs of this plugin | / |<br>
+| jail.sign.create | OP players | Players with such permission are allowed to create signs of this plugin | / |<br>
+| jail.sign.use | players | Players with such permission are allowed to interact and use signs in jails | / |<br>
+| jail.override.restrictions | not assigned for any groups | Players with such permission are excluded from jail anti-escape restrictions | USE WITH <em>CAUTION</em>! |<br>
+| jail.uuidcheck.bypass | not assigned for any groups | Players with such permission are excluded from uuid check upon login | USE WITH <em>CAUTION</em> |<br>
+| jail.showInOutMessage | players | Players with such permission receive jail enter/leave notification | NOT shown to prisoners <em>ANYWAY</em> |<br>
+<em>Permission nodes with 'USE WITH CAUTION' remark are extremely dangerous giving access to any players</em></p>
+<h3>Tutorials of some particular features:</h3>
+<p>Click <a href="https://github.com/hoyinm14mc/Jail/wiki/Tutorials">here</a></p>
+<p>###Youtube Tutorials:</p>
+<ul>
+<li>
+<p><a href="https://youtu.be/HR8XhOizd-c">Building and setting a jail</a></p>
+</li>
+<li>
+<p><a href="https://youtu.be/EtmXwf4Oivs">Jailing a player</a></p>
+</li>
+</ul>
+<p>###Compatible economic plugins:</p>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> EconomyS (EconomyAPI)</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> EconomyPlus</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> PocketMoney (PocketMoneyAPI)</li>
+</ul>

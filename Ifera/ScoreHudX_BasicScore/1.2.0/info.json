@@ -1,0 +1,56 @@
+{
+    "id": 7216,
+    "name": "BasicScore",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/BasicScore/1.2.0",
+    "tagline": "A plugin implementing some basic tags for ScoreHud.",
+    "artifact_url": "https://poggit.pmmp.io/r/134713",
+    "downloads": 305,
+    "score": null,
+    "repo_id": 300368823,
+    "repo_name": "Ifera/ScoreHudX",
+    "project_id": 7935,
+    "project_name": "BasicScore",
+    "build_id": 106377,
+    "build_number": 9,
+    "build_commit": "e33462462323e580225073baebfe79af364a1258",
+    "description_url": "https://poggit.pmmp.io/r/135195",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/135197",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1627802269,
+    "state": 5,
+    "last_state_change_date": 1627917127,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "scoreboard",
+        "scorehud",
+        "sh"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Ifera"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

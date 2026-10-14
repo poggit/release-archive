@@ -1,0 +1,56 @@
+{
+    "id": 12867,
+    "name": "PlayerGravePE",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PlayerGravePE/1.0.1",
+    "tagline": "Plugin for PocketMine-MP that creates graves for players when they die!",
+    "artifact_url": "https://poggit.pmmp.io/r/234243",
+    "downloads": 904,
+    "score": null,
+    "repo_id": 762667930,
+    "repo_name": "Terpz710/PlayerGrave",
+    "project_id": 13614,
+    "project_name": "PlayerGrave",
+    "build_id": 171950,
+    "build_number": 4,
+    "build_commit": "0755f8a20151a764443d5d08e3d94799ddd1dd03",
+    "description_url": "https://poggit.pmmp.io/r/240720",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/PlayerGrave/0755f8a20151a764443d5d08e3d94799ddd1dd03/assets/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1709515653,
+    "state": 5,
+    "last_state_change_date": 1717701759,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "playergrave",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

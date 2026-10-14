@@ -1,0 +1,104 @@
+{
+    "id": 9496,
+    "name": "AdvanceDeaths",
+    "version": "4.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AdvanceDeaths/4.0.1",
+    "tagline": "A plugin to customize the death messages, enable new features. With support for discord!",
+    "artifact_url": "https://poggit.pmmp.io/r/171179",
+    "downloads": 753,
+    "score": 4,
+    "repo_id": 283014127,
+    "repo_name": "ErikPDev/AdvanceDeaths",
+    "project_id": 7513,
+    "project_name": "AdvanceDeaths",
+    "build_id": 129507,
+    "build_number": 144,
+    "build_commit": "2eb62f8111ef192d73751c0a8258effdffebcc58",
+    "description_url": "https://poggit.pmmp.io/r/171181",
+    "icon_url": "https://raw.githubusercontent.com/ErikPDev/AdvanceDeaths/2eb62f8111ef192d73751c0a8258effdffebcc58/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/171183",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1649924234,
+    "state": 5,
+    "last_state_change_date": 1649973283,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "advance",
+        "deaths",
+        "instant",
+        "kill",
+        "money",
+        "respawn",
+        "SQLite"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        },
+        {
+            "name": "ScoreHud",
+            "version": "7.0.1",
+            "depRelId": 9390,
+            "isHard": false
+        },
+        {
+            "name": "DiscordBot",
+            "version": "2.1.2",
+            "depRelId": 9455,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ErikPDev"
+        ],
+        "Contributor": [
+            "lazyperson0710",
+            "IvanCraft623",
+            "UnEnanoMas",
+            "MrBlasyMSK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "f3bb152c1ea85dd851c50410e0c8ee1b56b31ac4",
+            "build_id": 122258
+        }
+    ]
+}

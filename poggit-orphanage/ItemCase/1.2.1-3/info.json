@@ -1,0 +1,61 @@
+{
+    "id": 1385,
+    "name": "ItemCase",
+    "version": "1.2.1-3",
+    "html_url": "https://poggit.pmmp.io/p/ItemCase/1.2.1-3",
+    "tagline": "The Original ItemCasePE",
+    "artifact_url": "https://poggit.pmmp.io/r/30477",
+    "downloads": 299,
+    "score": null,
+    "repo_id": 93272662,
+    "repo_name": "poggit-orphanage/ItemCase",
+    "project_id": 510,
+    "project_name": "ItemCase",
+    "build_id": 41333,
+    "build_number": 14,
+    "build_commit": "d207910266763da7a516e99d1305a3fc10512591",
+    "description_url": "https://poggit.pmmp.io/r/30474",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/ItemCase/d207910266763da7a516e99d1305a3fc10512591/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/30476",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526416554,
+    "state": 5,
+    "last_state_change_date": 1526416558,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "itemcasepe"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA8",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alejandroliu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,59 @@
+{
+    "id": 3940,
+    "name": "PlayerAdmin",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerAdmin/1.0.0",
+    "tagline": "Easy player management",
+    "artifact_url": "https://poggit.pmmp.io/r/78161",
+    "downloads": 26836,
+    "score": 4,
+    "repo_id": 245585178,
+    "repo_name": "alvin0319/PlayerAdmin",
+    "project_id": 6424,
+    "project_name": "PlayerAdmin",
+    "build_id": 72393,
+    "build_number": 8,
+    "build_commit": "1fdddd0040a0e42fddd39c370984af7782f95028",
+    "description_url": "https://poggit.pmmp.io/r/78160",
+    "icon_url": "https://raw.githubusercontent.com/alvin0319/PlayerAdmin/1fdddd0040a0e42fddd39c370984af7782f95028/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1583750484,
+    "state": 5,
+    "last_state_change_date": 1583783569,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "manage",
+        "playermanage",
+        "playermanagement"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

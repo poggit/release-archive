@@ -1,0 +1,73 @@
+{
+    "id": 11428,
+    "name": "AsyncWorldReset",
+    "version": "1.0.3+pm5",
+    "html_url": "https://poggit.pmmp.io/p/AsyncWorldReset/1.0.3+pm5",
+    "tagline": "A PocketMine-MP plugin that allows you to reset your worlds at specific times. It's asynchronous and therefore extremely fast.",
+    "artifact_url": "https://poggit.pmmp.io/r/208935",
+    "downloads": 1718,
+    "score": 3,
+    "repo_id": 467912484,
+    "repo_name": "supercrafter333/AsyncWorldReset",
+    "project_id": 10764,
+    "project_name": "AsyncWorldReset",
+    "build_id": 148140,
+    "build_number": 10,
+    "build_commit": "a2535f33ef3df139ba2a5dad11951d6b1ebd43de",
+    "description_url": "https://poggit.pmmp.io/r/208932",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/AsyncWorldReset/a2535f33ef3df139ba2a5dad11951d6b1ebd43de/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208934",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685645387,
+    "state": 5,
+    "last_state_change_date": 1685646514,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "async",
+        "reset",
+        "worldreset"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "DiscordWebhooksX",
+            "project_id": 10742,
+            "repo_id": 466212876,
+            "repo_name": "supercrafter333/DiscordWebhooksX",
+            "repo_path": "",
+            "build_commit": "74f05990c45057b8d5238ce9583b38defcb61c80",
+            "build_id": 125920
+        }
+    ]
+}

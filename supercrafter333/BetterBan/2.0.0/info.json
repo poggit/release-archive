@@ -1,0 +1,73 @@
+{
+    "id": 6526,
+    "name": "BetterBan",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterBan/2.0.0",
+    "tagline": "A plugin for PocketMine-MP to simply ban players for a certain period of time.",
+    "artifact_url": "https://poggit.pmmp.io/r/123906",
+    "downloads": 934,
+    "score": 5,
+    "repo_id": 358927948,
+    "repo_name": "supercrafter333/BetterBan",
+    "project_id": 8869,
+    "project_name": "BetterBan",
+    "build_id": 101237,
+    "build_number": 18,
+    "build_commit": "71b8cdf3a0a3659ba55d98c3d7398c36350030ad",
+    "description_url": "https://poggit.pmmp.io/r/123905",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1619304766,
+    "state": 5,
+    "last_state_change_date": 1619304916,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Ban",
+        "form",
+        "Kick",
+        "TempBan",
+        "TempBanUI",
+        "TimeBan",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SOF3",
+            "tobiaskirchmaier",
+            "xqwtxon",
+            "xwertxy"
+        ],
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

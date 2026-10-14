@@ -1,0 +1,12 @@
+<h1>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h1>
+<p>This plugin is very simple that the only thing you need is one command:</p>
+<p><code>/monitor [entity|tile] [ticking: bool]</code></p>
+<p>It returns every world with a chunk XY and the amount of entities/tiles and if they are ticking. This could be used as an anti-grief plugin so you can see where players are making lag machines or summoning too many entities to save your server performance.</p>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<p>If you want to access this plugin api you can do the following:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-k">use</span> <span class="pl-v">JavierLeon9966</span>\<span class="pl-v">EntityMonitor</span>\<span class="pl-v">EntityMonitor</span>;
+<span class="pl-k">use</span> pocketmine\level\<span class="pl-v">Level</span>;
+
+<span class="pl-s1"><span class="pl-c1">$</span>chunk</span> = <span class="pl-v">EntityMonitor</span>::getMonitoredEntities(<span class="pl-v">Level</span> <span class="pl-s1"><span class="pl-c1">$</span>level</span>, bool <span class="pl-s1"><span class="pl-c1">$</span>entities</span> = <span class="pl-c1">true</span>, bool <span class="pl-s1"><span class="pl-c1">$</span>ticking</span> = <span class="pl-c1">false</span>, ?int &amp;<span class="pl-s1"><span class="pl-c1">$</span>count</span> = <span class="pl-c1">null</span>): ?<span class="pl-v">Chunk</span>;</pre></div>

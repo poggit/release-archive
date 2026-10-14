@@ -1,0 +1,130 @@
+{
+    "id": 10970,
+    "name": "PvPShop",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PvPShop/1.0.0",
+    "tagline": "Basic shop to buy items for PvP. For PocketMine-MP 4.0 server only",
+    "artifact_url": "https://poggit.pmmp.io/r/200713",
+    "downloads": 527,
+    "score": null,
+    "repo_id": 587161263,
+    "repo_name": "fernanACM/PvPShop",
+    "project_id": 12120,
+    "project_name": "PvPShop",
+    "build_id": 150435,
+    "build_number": 20,
+    "build_commit": "3e4409179ac85e9efa3e77e4356ca0e2a9c3bdc8",
+    "description_url": "https://poggit.pmmp.io/r/200712",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/PvPShop/3e4409179ac85e9efa3e77e4356ca0e2a9c3bdc8/icon-pvpshop.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1677714109,
+    "state": 5,
+    "last_state_change_date": 1678091649,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "PvPShop",
+        "shop",
+        "pvp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "NhanAZ",
+            "GamerMJay"
+        ],
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "16c3cfe3ddf833cdf244fa38fa8760fccdead640",
+            "build_id": 140406
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "af1113d60b99a1467a0a9c3acdb1eeed57fa4065",
+            "build_id": 144029
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "e56e534dbb698dd3eb320cc135fd3633bbab87f1",
+            "build_id": 134118
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 10652,
+            "repo_id": 462073633,
+            "repo_name": "DaPigGuy/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "cdae30371374145ab430c1cff6bf32bf10a2e646",
+            "build_id": 124883
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

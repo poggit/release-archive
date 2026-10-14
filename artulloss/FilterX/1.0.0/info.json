@@ -1,0 +1,84 @@
+{
+    "id": 3254,
+    "name": "FilterX",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FilterX/1.0.0",
+    "tagline": "The next generation chat filter",
+    "artifact_url": "https://poggit.pmmp.io/r/64106",
+    "downloads": 855,
+    "score": 4,
+    "repo_id": 197308130,
+    "repo_name": "artulloss/FilterX",
+    "project_id": 5352,
+    "project_name": "FilterX",
+    "build_id": 63199,
+    "build_number": 19,
+    "build_commit": "8cfa7ea8f17d38ab4dacb74a69779323d14353c6",
+    "description_url": "https://poggit.pmmp.io/r/64108",
+    "icon_url": "https://raw.githubusercontent.com/artulloss/FilterX/8cfa7ea8f17d38ab4dacb74a69779323d14353c6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1565402941,
+    "state": 5,
+    "last_state_change_date": 1565594685,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "filter",
+        "mysql",
+        "plugin",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "StaffChat",
+            "version": "1.1.4",
+            "depRelId": 1812,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "artulloss"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "524660bb59d639719ba5a9d807f1e9768e78dab3",
+            "build_id": 62736
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "id": 9548,
+    "name": "OneBlockScore",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/OneBlockScore/1.0.0",
+    "tagline": "Support tag tier of Oneblock plugin on ScoreHud",
+    "artifact_url": "https://poggit.pmmp.io/r/172172",
+    "downloads": 618,
+    "score": 5,
+    "repo_id": 484422942,
+    "repo_name": "BeeAZ-pm-pl/OneBlockScore",
+    "project_id": 11003,
+    "project_name": "OneBlockScore",
+    "build_id": 130403,
+    "build_number": 1,
+    "build_commit": "38388927d6bd12c5050a37b6b148e6a0b8db8041",
+    "description_url": "https://poggit.pmmp.io/r/172171",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/OneBlockScore/38388927d6bd12c5050a37b6b148e6a0b8db8041/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1650630694,
+    "state": 5,
+    "last_state_change_date": 1652082303,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ScoreHud",
+            "version": "7.0.1",
+            "depRelId": 9390,
+            "isHard": true
+        },
+        {
+            "name": "Oneblock",
+            "version": "0.0.8",
+            "depRelId": 9524,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

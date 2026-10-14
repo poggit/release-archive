@@ -1,0 +1,79 @@
+{
+    "id": 12097,
+    "name": "LaunchACM",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LaunchACM/2.0.0",
+    "tagline": "The best LaunchPad for PocketMine-MP 5.0, easy to use.",
+    "artifact_url": "https://poggit.pmmp.io/r/218481",
+    "downloads": 537,
+    "score": 4,
+    "repo_id": 489163800,
+    "repo_name": "fernanACM/LaunchACM",
+    "project_id": 11079,
+    "project_name": "LaunchACM",
+    "build_id": 160963,
+    "build_number": 7,
+    "build_commit": "a6c6cfe0af6043d343c54166bc187051c8c40561",
+    "description_url": "https://poggit.pmmp.io/r/218478",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/LaunchACM/a6c6cfe0af6043d343c54166bc187051c8c40561/icon-acm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/218480",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1690979806,
+    "state": 5,
+    "last_state_change_date": 1690995020,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "ACM",
+        "Launch",
+        "LaunchACM",
+        "LaunchPad",
+        "Pad"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

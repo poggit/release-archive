@@ -1,0 +1,59 @@
+{
+    "id": 9632,
+    "name": "InvisibleSkinBlocker",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/InvisibleSkinBlocker/0.0.3",
+    "tagline": "Block players with invisible skins from joining the server.",
+    "artifact_url": "https://poggit.pmmp.io/r/174493",
+    "downloads": 145,
+    "score": 5,
+    "repo_id": 349969036,
+    "repo_name": "Unickorn/InvisibleSkinBlocker",
+    "project_id": 8723,
+    "project_name": "InvisibleSkinBlocker",
+    "build_id": 132377,
+    "build_number": 4,
+    "build_commit": "a35848d6ebd960775d7de772c8679b3cac1ea352",
+    "description_url": "https://poggit.pmmp.io/r/174491",
+    "icon_url": "https://raw.githubusercontent.com/Unickorn/InvisibleSkinBlocker/a35848d6ebd960775d7de772c8679b3cac1ea352/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/174492",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1651861146,
+    "state": 5,
+    "last_state_change_date": 1652078968,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "invisible",
+        "protection",
+        "skin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Unickorn"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

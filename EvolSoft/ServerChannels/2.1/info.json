@@ -1,0 +1,71 @@
+{
+    "id": 1145,
+    "name": "ServerChannels",
+    "version": "2.1",
+    "html_url": "https://poggit.pmmp.io/p/ServerChannels/2.1",
+    "tagline": "A powerful chat channelling plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/23804",
+    "downloads": 135,
+    "score": 4,
+    "repo_id": 28588183,
+    "repo_name": "EvolSoft/ServerChannels",
+    "project_id": 2006,
+    "project_name": "ServerChannels",
+    "build_id": 36413,
+    "build_number": 4,
+    "build_commit": "a76683db4ebc88ef2f549ffe18f0a8b922f55768",
+    "description_url": "https://poggit.pmmp.io/r/23801",
+    "icon_url": "https://raw.githubusercontent.com/EvolSoft/ServerChannels/a76683db4ebc88ef2f549ffe18f0a8b922f55768/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/23803",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518699290,
+    "state": 5,
+    "last_state_change_date": 1518702901,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "php",
+        "plugin",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Flavius12"
+        ],
+        "Contributor": [
+            "letsplaydev",
+            "matcracker"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

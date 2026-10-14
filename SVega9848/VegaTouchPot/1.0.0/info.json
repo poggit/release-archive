@@ -1,0 +1,65 @@
+{
+    "id": 11297,
+    "name": "VegaTouchPot",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VegaTouchPot/1.0.0",
+    "tagline": "Just tap to use a pot instead of using right click! Useful to touch players in PvP!",
+    "artifact_url": "https://poggit.pmmp.io/r/207285",
+    "downloads": 119,
+    "score": 4,
+    "repo_id": 641051872,
+    "repo_name": "SVega9848/VegaTouchPot",
+    "project_id": 12463,
+    "project_name": "VegaTouchPot",
+    "build_id": 154831,
+    "build_number": 3,
+    "build_commit": "94ba2790e57a2e504e11d44c024494955fbc0e34",
+    "description_url": "https://poggit.pmmp.io/r/207284",
+    "icon_url": "https://raw.githubusercontent.com/SVega9848/VegaTouchPot/94ba2790e57a2e504e11d44c024494955fbc0e34/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1684538720,
+    "state": 5,
+    "last_state_change_date": 1684548990,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "mcpe",
+        "mcpe-plugins",
+        "php",
+        "pmmp",
+        "pmmp-plugins",
+        "pocketmine",
+        "pot",
+        "pvp",
+        "pvp-plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SVega9848"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

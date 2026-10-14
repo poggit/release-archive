@@ -1,0 +1,41 @@
+<h1>
+<a id="user-content-information" class="anchor" href="#information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Information</h1>
+<p><a href="https://poggit.pmmp.io/p/MaxEnchants" rel="nofollow"><img src="https://camo.githubusercontent.com/e498fdc9de13fac5cc74bfab6b9b38289d343061/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f4d6178456e6368616e7473" alt="Poggit State" data-canonical-src="https://poggit.pmmp.io/shield.state/MaxEnchants" style="max-width:100%;"></a>
+<a href="http://hits.dwyl.io/Xenophilicy/MaxEnchants" rel="nofollow"><img src="https://camo.githubusercontent.com/16ef1853020f411e0af6ceff4d345686bd20f42f/687474703a2f2f686974732e6477796c2e696f2f58656e6f7068696c6963792f4d6178456e6368616e74732e737667" alt="HitCount" data-canonical-src="http://hits.dwyl.io/Xenophilicy/MaxEnchants.svg" style="max-width:100%;"></a>
+<a href="https://discord.gg/hNVehXe" rel="nofollow"><img src="https://camo.githubusercontent.com/243faa22213bc12c1369911255ea322c1c2c923c/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e737667" alt="Discord Chat" data-canonical-src="https://img.shields.io/discord/490677165289897995.svg" style="max-width:100%;"></a></p>
+<p><a href=""><img src="https://camo.githubusercontent.com/889b71e28b7fabd30fb7ebffdd3d22a3beca48ef/68747470733a2f2f66696c652e78656e6f736572766572732e6e65742f5265736f75726365732f4769744875622d5265736f75726365732f4d6178456e6368616e74732f73637265656e73686f742e706e67" alt="Xenophilicy" data-canonical-src="https://file.xenoservers.net/Resources/GitHub-Resources/MaxEnchants/screenshot.png" style="max-width:100%;"></a></p>
+<hr>
+<p>MaxEnchants is a simple plugin to allow servers to take full advantage of the enchanting of items. You can enchant items and blocks with any level of enchantment and they will perform just as if that was enchanted with the normal server command! You use the same command to enchant with and the exact same syntax, the only difference here is that the enchantment levels can be had up to 32767! If you want to use a different command, simply change it in the config file. You can also set things like permission nodes, max allowed levels, and the default command override to prevent two of the same command!</p>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<p>This is the max allowed enchanting level with the command in-game
+Minecraft: Bedrock Edition has a maximum of 32767 enchantment levels</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Max-Level</span>: <span class="pl-c1">5000</span></pre></div>
+<p>Here you can list enchantments that should have specific max levels</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Custom-Max-Levels</span>:
+  <span class="pl-ent">4</span>: <span class="pl-c1">3500</span> <span class="pl-c"><span class="pl-c">#</span> Projectile Protection (4) has a max level of 3500</span>
+  <span class="pl-ent">15</span>: <span class="pl-c1">7000</span> <span class="pl-c"><span class="pl-c">#</span> Efficiency (15) has a max level of 7000</span>
+  <span class="pl-ent">22</span>: <span class="pl-c1">1</span> <span class="pl-c"><span class="pl-c">#</span> Infinity (22) has a max level of 1</span></pre></div>
+<h3>
+<a id="user-content-broadcast" class="anchor" href="#broadcast" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Broadcast:</h3>
+<p>Choose who should receive the broadcast messages</p>
+<div class="highlight highlight-source-yaml"><pre>  <span class="pl-ent">SendTo</span>:
+  - <span class="pl-s"><span class="pl-pds">"</span>sender<span class="pl-pds">"</span></span>
+  - <span class="pl-s"><span class="pl-pds">"</span>console<span class="pl-pds">"</span></span></pre></div>
+<p>This is the message that will be broadcasted to the selected recipients</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Message</span>: <span class="pl-s"><span class="pl-pds">"</span>§a{sender} added §b{name} §alevel §b{level} §afor {target}<span class="pl-pds">"</span></span></pre></div>
+<h3>
+<a id="user-content-command" class="anchor" href="#command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command:</h3>
+<p>This is name of the command that will be executed to use the plugin</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Name</span>: <span class="pl-s"><span class="pl-pds">"</span>/enchant<span class="pl-pds">"</span></span></pre></div>
+<p>This is the command's description shown in the command window</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Description</span>: <span class="pl-s"><span class="pl-pds">"</span>Enchant items up to level 5000<span class="pl-pds">"</span></span></pre></div>
+<h3>
+<a id="user-content-permission" class="anchor" href="#permission" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission:</h3>
+<p>Choose whether to require users to have permission to execute the command</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Enabled</span>: <span class="pl-c1">false</span></pre></div>
+<p>This is the command's usage permission</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Node</span>: <span class="pl-s"><span class="pl-pds">"</span>maxenchants.enchant<span class="pl-pds">"</span></span></pre></div>
+<p>This is an option to override an existing command with the one from MaxEnchants
+Keeping this true makes sure that there are not two types of the same command</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Override</span>: <span class="pl-c1">true</span></pre></div>

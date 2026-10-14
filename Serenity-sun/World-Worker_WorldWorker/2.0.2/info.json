@@ -1,0 +1,65 @@
+{
+    "id": 13143,
+    "name": "World-Worker",
+    "version": "2.0.2",
+    "html_url": "https://poggit.pmmp.io/p/World-Worker/2.0.2",
+    "tagline": "Manage worlds conveniently and quickly with the World-Worker plugin.",
+    "artifact_url": "https://poggit.pmmp.io/r/240992",
+    "downloads": 367,
+    "score": null,
+    "repo_id": 774289230,
+    "repo_name": "Serenity-sun/World-Worker",
+    "project_id": 13659,
+    "project_name": "WorldWorker",
+    "build_id": 176557,
+    "build_number": 25,
+    "build_commit": "39ca147250cc3786b875a922d3ef776465b98033",
+    "description_url": "https://poggit.pmmp.io/r/240991",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1717925722,
+    "state": 5,
+    "last_state_change_date": 1717950303,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "world-generator"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Serenity-sun"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,69 @@
+{
+    "id": 6334,
+    "name": "SimpleFaction",
+    "version": "1.4.4",
+    "html_url": "https://poggit.pmmp.io/p/SimpleFaction/1.4.4",
+    "tagline": "Fully factions system",
+    "artifact_url": "https://poggit.pmmp.io/r/120887",
+    "downloads": 24,
+    "score": 5,
+    "repo_id": 347215321,
+    "repo_name": "AyzrixYTB/SimpleFaction",
+    "project_id": 8675,
+    "project_name": "SimpleFaction",
+    "build_id": 99573,
+    "build_number": 50,
+    "build_commit": "ffdc0dc03f74d3a7a307ceb431600226a7090c23",
+    "description_url": "https://poggit.pmmp.io/r/120968",
+    "icon_url": "https://raw.githubusercontent.com/AyzrixYTB/SimpleFaction/ffdc0dc03f74d3a7a307ceb431600226a7090c23/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/120970",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1617408649,
+    "state": 5,
+    "last_state_change_date": 1617509495,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ayzrix",
+        "faction",
+        "factions",
+        "simplefaction",
+        "system"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "max-xoo",
+            "Se7en-dev"
+        ],
+        "Translator": [
+            "UnEnanoMas",
+            "Santid05"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,64 @@
+{
+    "id": 8864,
+    "name": "RenameItems",
+    "version": "3.0",
+    "html_url": "https://poggit.pmmp.io/p/RenameItems/3.0",
+    "tagline": "A simple rename plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/160611",
+    "downloads": 2043,
+    "score": 4,
+    "repo_id": 192073976,
+    "repo_name": "Wertzui123/RenameItems",
+    "project_id": 5201,
+    "project_name": "RenameItems",
+    "build_id": 122762,
+    "build_number": 30,
+    "build_commit": "4cf12007a2564f4efe6bbf9696b06acb07d4df23",
+    "description_url": "https://poggit.pmmp.io/r/160617",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/160619",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644250696,
+    "state": 5,
+    "last_state_change_date": 1644633754,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "items",
+        "rename",
+        "renameitems",
+        "wertzui123"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

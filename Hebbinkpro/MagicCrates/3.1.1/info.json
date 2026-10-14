@@ -1,0 +1,119 @@
+{
+    "id": 13682,
+    "name": "MagicCrates",
+    "version": "3.1.1",
+    "html_url": "https://poggit.pmmp.io/p/MagicCrates/3.1.1",
+    "tagline": "Add crates to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/250645",
+    "downloads": 593,
+    "score": 5,
+    "repo_id": 312696703,
+    "repo_name": "Hebbinkpro/MagicCrates",
+    "project_id": 8011,
+    "project_name": "MagicCrates",
+    "build_id": 183354,
+    "build_number": 54,
+    "build_commit": "188643a9cee063cf8b69df86970e04ab6ec73766",
+    "description_url": "https://poggit.pmmp.io/r/250642",
+    "icon_url": "https://raw.githubusercontent.com/Hebbinkpro/MagicCrates/188643a9cee063cf8b69df86970e04ab6ec73766/MagicCrates-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/250644",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1734721633,
+    "state": 5,
+    "last_state_change_date": 1734929844,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "chest",
+        "commands",
+        "crate",
+        "crates",
+        "items",
+        "rewards"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Customies",
+            "version": "1.3.2",
+            "depRelId": 11928,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Hebbinkpro"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "7e0555abdcdb6c3535fcabbf8c1f3e220db0c6c7",
+            "build_id": 182000
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "76aa3b4cdd856d1cf7ea3498eee921414e01fb97",
+            "build_id": 167816
+        }
+    ]
+}

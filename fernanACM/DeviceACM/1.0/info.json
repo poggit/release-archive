@@ -1,0 +1,78 @@
+{
+    "id": 9429,
+    "name": "DeviceACM",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/DeviceACM/1.0",
+    "tagline": "DeviceACM: Simple tag to see your health, hunger, connection and device you use.",
+    "artifact_url": "https://poggit.pmmp.io/r/169639",
+    "downloads": 744,
+    "score": 5,
+    "repo_id": 466277026,
+    "repo_name": "fernanACM/DeviceACM",
+    "project_id": 10743,
+    "project_name": "DeviceACM",
+    "build_id": 125932,
+    "build_number": 5,
+    "build_commit": "75bcd588371068ffb7a36a60472cddb5aea87cee",
+    "description_url": "https://poggit.pmmp.io/r/169638",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/DeviceACM/75bcd588371068ffb7a36a60472cddb5aea87cee/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648756461,
+    "state": 5,
+    "last_state_change_date": 1651694663,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "ACM",
+        "Device",
+        "DeviceACM",
+        "Plataform",
+        "Scoretag",
+        "Tag"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

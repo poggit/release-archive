@@ -1,0 +1,67 @@
+{
+    "id": 12684,
+    "name": "ItemStacker",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/ItemStacker/1.0.2",
+    "tagline": "Stack item entities",
+    "artifact_url": "https://poggit.pmmp.io/r/230371",
+    "downloads": 381,
+    "score": null,
+    "repo_id": 690942420,
+    "repo_name": "Terpz710/ItemStacker",
+    "project_id": 13079,
+    "project_name": "ItemStacker",
+    "build_id": 169332,
+    "build_number": 17,
+    "build_commit": "69b0756e6a139c171f65e6bb1be95f10767eec46",
+    "description_url": "https://poggit.pmmp.io/r/230368",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/ItemStacker/69b0756e6a139c171f65e6bb1be95f10767eec46/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/230370",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1703291367,
+    "state": 5,
+    "last_state_change_date": 1703411370,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "Item",
+        "ItemStack",
+        "Stacked",
+        "Stacker"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "davidgamingzz"
+        ],
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

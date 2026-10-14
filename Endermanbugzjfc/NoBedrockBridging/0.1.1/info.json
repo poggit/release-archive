@@ -1,0 +1,75 @@
+{
+    "id": 12387,
+    "name": "NoBedrockBridging",
+    "version": "0.1.1",
+    "html_url": "https://poggit.pmmp.io/p/NoBedrockBridging/0.1.1",
+    "tagline": "This plugin pops an NPC dialogue to warn players that they cannot be Bedrock bridging, with a guiding animation.",
+    "artifact_url": "https://poggit.pmmp.io/r/222896",
+    "downloads": 188,
+    "score": 5,
+    "repo_id": 685520919,
+    "repo_name": "Endermanbugzjfc/NoBedrockBridging",
+    "project_id": 13022,
+    "project_name": "NoBedrockBridging",
+    "build_id": 163637,
+    "build_number": 7,
+    "build_commit": "c93e94b0f22da14ec5d06d3bbf4b7d9d8b53bf3d",
+    "description_url": "https://poggit.pmmp.io/r/222925",
+    "icon_url": "https://raw.githubusercontent.com/Endermanbugzjfc/NoBedrockBridging/c93e94b0f22da14ec5d06d3bbf4b7d9d8b53bf3d/poggit_stage/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1694483867,
+    "state": 5,
+    "last_state_change_date": 1694537476,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "animation",
+        "bridge",
+        "dialog",
+        "entity",
+        "npc"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Customies",
+            "version": "1.3.2",
+            "depRelId": 11928,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Translator": [
+            "Bqleine"
+        ],
+        "Collaborator": [
+            "Endermanbugzjfc"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,170 @@
+<h1>
+<a id="user-content-multieconomy" class="anchor" href="#multieconomy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MultiEconomy</h1>
+<p><strong>MultiEconomy is an Economy system with multiple currencies!</strong></p>
+<h2>
+<a id="user-content-installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+<ul>
+<li>You can get the compiled <code>.phar</code> in releases by clicking <a href="https://github.com/TwistedAsylumMC/MultiEconomy/releases">here</a>
+</li>
+<li>Add the <code>.phar</code> to your <code>/plugins</code> directory &amp; restart your server.</li>
+</ul>
+<blockquote>
+<p>Note: This plugin has been tested on PocketMine-MP 3.2.0. Additional support for forks will not happen</p>
+</blockquote>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<p>MultiEconomy is still a work-in-progress but it has a few commands!</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Aliases</th>
+<th>Description</th>
+<th>Permission</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/addtobalance &lt;player&gt; &lt;currency&gt; &lt;amount&gt;</td>
+<td>/addtobal</td>
+<td>Add to a players balance</td>
+<td>multieconomy.addtobalance</td>
+</tr>
+<tr>
+<td>/balance [player/currency] [currency]</td>
+<td>/bal</td>
+<td>Check yours or another players balance</td>
+<td>None</td>
+</tr>
+<tr>
+<td>/balancetop [currency] [page]</td>
+<td>/baltop</td>
+<td>Show the top balances for a currency</td>
+<td>None</td>
+</tr>
+<tr>
+<td>/pay &lt;player&gt; &lt;currency&gt; &lt;amount&gt;</td>
+<td>None</td>
+<td>Pay another player money for a currency</td>
+<td>None</td>
+</tr>
+<tr>
+<td>/removefrombalance &lt;player&gt; &lt;currency&gt; &lt;amount&gt;</td>
+<td>/remfrombal</td>
+<td>Remove from a players balance</td>
+<td>multieconomy.removefrombalance</td>
+</tr>
+<tr>
+<td>/setbalance &lt;player&gt; &lt;currency&gt; &lt;balance&gt;</td>
+<td>/setbal</td>
+<td>Set a player's balance for a currency</td>
+<td>multieconomy.setbalance</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-languages" class="anchor" href="#languages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Languages</h2>
+<p>MultiEconomy has a language system, the list below are implemented languages and their 3 digit code</p>
+<ul>
+<li>English: <code>eng</code>
+</li>
+</ul>
+<blockquote>
+<p>Create a Pull Request with the language name, and a proper translation of <code>eng.yml</code> to request another language</p>
+</blockquote>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>MultiEconomy has a built in API, so you can interrogate MultiEconomy with your own plugins
+To get the API class, you have to use <code>PluginManager::getPlugin()</code> to get an instance of MultiEconomy's main class.</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">/*</span>* @var PluginBase $this <span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$plugin</span> <span class="pl-k">=</span> <span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>getServer()<span class="pl-k">-&gt;</span>getPluginManager()<span class="pl-k">-&gt;</span>getPlugin(<span class="pl-s"><span class="pl-pds">"</span>MultiEconomy<span class="pl-pds">"</span></span>);</span></pre></div>
+<p>Now you have an instance of the main class, you can use the <code>getAPI()</code> function</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$api</span> <span class="pl-k">=</span> <span class="pl-smi">$plugin</span><span class="pl-k">-&gt;</span>getAPI();</span></pre></div>
+<p>To create a new currency in order to register it, you can do the following:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$name</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Dollars<span class="pl-pds">"</span></span>; <span class="pl-c"><span class="pl-c">//</span> Currency name</span></span>
+<span class="pl-s1"><span class="pl-smi">$symbol</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>$<span class="pl-pds">"</span></span>; <span class="pl-c"><span class="pl-c">//</span> Symbol for currency amounts </span></span>
+<span class="pl-s1"><span class="pl-smi">$symbolAfter</span> <span class="pl-k">=</span> <span class="pl-c1">false</span>; <span class="pl-c"><span class="pl-c">//</span> Wether the symbol comes before or after the amount</span></span>
+<span class="pl-s1"><span class="pl-smi">$startingAmount</span> <span class="pl-k">=</span> <span class="pl-c1">0</span>; <span class="pl-c"><span class="pl-c">//</span> The amount a player starts on when they first get a balance</span></span>
+<span class="pl-s1"><span class="pl-smi">$minAmount</span> <span class="pl-k">=</span> <span class="pl-c1">0</span>; <span class="pl-c"><span class="pl-c">//</span> Minimum amount a player can have in the currency</span></span>
+<span class="pl-s1"><span class="pl-smi">$maxAmount</span> <span class="pl-k">=</span> <span class="pl-c1">999999</span>; <span class="pl-c"><span class="pl-c">//</span> Maximum amount a player can have in the currency</span></span>
+<span class="pl-s1"><span class="pl-smi">$currency</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-c1">Twisted\MultiEconomy\</span><span class="pl-c1">Currency</span>(<span class="pl-smi">$name</span>, <span class="pl-smi">$symbol</span>, <span class="pl-smi">$symbolAfter</span>, <span class="pl-smi">$startingAmount</span>, <span class="pl-smi">$minAmount</span>, <span class="pl-smi">$maxAmount</span>);</span></pre></div>
+<h3>
+<a id="user-content-functions" class="anchor" href="#functions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Functions</h3>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Parameters</th>
+<th>Return Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>registerCurrency</td>
+<td>Twisted\MultiEconomy\Currency $currency</td>
+<td>\Boolean</td>
+<td>Register a currency to the plugin, returns true/false on success/failure</td>
+</tr>
+<tr>
+<td>getLangData</td>
+<td>\string $language</td>
+<td>pocketmine\config\Config</td>
+<td>Get config file for a certain language</td>
+</tr>
+<tr>
+<td>getMessage</td>
+<td>\string $key, \array $values</td>
+<td>Get a translated message to servers language</td>
+<td>\string</td>
+</tr>
+<tr>
+<td>getCurrencies</td>
+<td>None</td>
+<td>Twisted\MultiEconomy\Currency[]</td>
+<td>Get all the registered currencies</td>
+</tr>
+<tr>
+<td>getCurrencyNames</td>
+<td>None</td>
+<td>\string[]</td>
+<td>Get all the registered currencies' names</td>
+</tr>
+<tr>
+<td>checkBalance</td>
+<td>\string $player, \string $currency</td>
+<td>\void</td>
+<td>Sets a players balance to the starting amount for given currency if they don't have a balance</td>
+</tr>
+<tr>
+<td>addToBalance</td>
+<td>\string $player, \string $currency, \int $amount</td>
+<td>\void</td>
+<td>Adds to a players balance for a currency</td>
+</tr>
+<tr>
+<td>getBalance</td>
+<td>\string $player, \string $currency</td>
+<td>\null \int</td>
+<td>Returns the players balance for a currency, null if they don't have a balance</td>
+</tr>
+<tr>
+<td>getBalances</td>
+<td>\string $currency</td>
+<td>pocketmine\config\Config</td>
+<td>Returns a config with all balances for the currency</td>
+</tr>
+<tr>
+<td>setBalance</td>
+<td>\string $player, \string $currency, \int $amount</td>
+<td>\void</td>
+<td>Set a players balance for a currency</td>
+</tr>
+<tr>
+<td>takeFromBalance</td>
+<td>\string $player, \string $currency, \string $amount</td>
+<td>\void</td>
+<td>Takes from a players balance for a currency</td>
+</tr>
+</tbody>
+</table>

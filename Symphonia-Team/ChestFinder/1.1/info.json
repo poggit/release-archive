@@ -1,0 +1,63 @@
+{
+    "id": 2622,
+    "name": "ChestFinder",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/ChestFinder/1.1",
+    "tagline": "ChestFinder plugin for PocketMine-MP server.",
+    "artifact_url": "https://poggit.pmmp.io/r/54056",
+    "downloads": 165,
+    "score": null,
+    "repo_id": 174227709,
+    "repo_name": "Symphonia-Team/ChestFinder",
+    "project_id": 4803,
+    "project_name": "ChestFinder",
+    "build_id": 57204,
+    "build_number": 14,
+    "build_commit": "ac50ff67af343f0157cadfaeb0a5782356d8f75c",
+    "description_url": "https://poggit.pmmp.io/r/54052",
+    "icon_url": "https://raw.githubusercontent.com/Bluzzi/ChestFinder/ac50ff67af343f0157cadfaeb0a5782356d8f75c/icon-cf.png",
+    "changelog_url": "https://poggit.pmmp.io/r/54054",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/54055",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1552917661,
+    "state": 5,
+    "last_state_change_date": 1552961267,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "chest",
+        "finder"
+    ],
+    "api": [
+        {
+            "from": "3.6.4",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Symphonia-Team"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

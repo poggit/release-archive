@@ -1,0 +1,77 @@
+{
+    "id": 1032,
+    "name": "StatusList",
+    "version": "1.1.0-0.alpha11",
+    "html_url": "https://poggit.pmmp.io/p/StatusList/1.1.0-0.alpha11",
+    "tagline": "A plugin which displays a list of servers with their online status and player stats associated with them.",
+    "artifact_url": "https://poggit.pmmp.io/r/22266",
+    "downloads": 189,
+    "score": null,
+    "repo_id": 70623426,
+    "repo_name": "robske110/SignServerStats",
+    "project_id": 842,
+    "project_name": "StatusList",
+    "build_id": 35501,
+    "build_number": 12,
+    "build_commit": "740fcc576308c19365ce82de6b746007ba26786b",
+    "description_url": "https://poggit.pmmp.io/r/26112",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/26114",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1517773082,
+    "state": 5,
+    "last_state_change_date": 1517773099,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "List",
+        "Player",
+        "query",
+        "Server",
+        "stats",
+        "Status"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SignServerStats",
+            "version": "1.1.0-0.alpha11",
+            "depRelId": 1031,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "robske110"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

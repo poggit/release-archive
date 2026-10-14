@@ -1,0 +1,92 @@
+{
+    "id": 9468,
+    "name": "theSpawn",
+    "version": "1.8.1",
+    "html_url": "https://poggit.pmmp.io/p/theSpawn/1.8.1",
+    "tagline": "A PocketMine-MP plugin as an much better alternative to MSpawns.",
+    "artifact_url": "https://poggit.pmmp.io/r/170553",
+    "downloads": 167,
+    "score": 5,
+    "repo_id": 293540265,
+    "repo_name": "supercrafter333/theSpawn",
+    "project_id": 8640,
+    "project_name": "theSpawn",
+    "build_id": 129272,
+    "build_number": 144,
+    "build_commit": "24407ea0e1bc2a60443ac306b4dfccef8c7e0509",
+    "description_url": "https://poggit.pmmp.io/r/170559",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/theSpawn/24407ea0e1bc2a60443ac306b4dfccef8c7e0509/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/170561",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1649586074,
+    "state": 5,
+    "last_state_change_date": 1649604917,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "home",
+        "hubs",
+        "mspawns",
+        "php",
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pocketmine",
+        "random-hubs",
+        "spawns",
+        "thespawn",
+        "tpa",
+        "warp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "AyzrixYTB",
+            "BlusteryS",
+            "MrBlasyMSK"
+        ],
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 10808,
+            "repo_id": 305493004,
+            "repo_name": "supercrafter333/FormAPI",
+            "repo_path": "",
+            "build_commit": "b349f1390ea1bb117458211c0cd758372355295c",
+            "build_id": 127249
+        }
+    ]
+}

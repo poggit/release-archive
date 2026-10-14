@@ -1,0 +1,67 @@
+{
+    "id": 2695,
+    "name": "MakeMeAdmin",
+    "version": "1.5.2",
+    "html_url": "https://poggit.pmmp.io/p/MakeMeAdmin/1.5.2",
+    "tagline": "Quickly switch your group from PurePerms, inside a simple UI.",
+    "artifact_url": "https://poggit.pmmp.io/r/55205",
+    "downloads": 3902,
+    "score": null,
+    "repo_id": 154268237,
+    "repo_name": "Xenophilicy/MakeMeAdmin",
+    "project_id": 4454,
+    "project_name": "MakeMeAdmin",
+    "build_id": 57890,
+    "build_number": 22,
+    "build_commit": "02333fe6d6aaed76fe92f5e0a61e9688aff0c0e2",
+    "description_url": "https://poggit.pmmp.io/r/55202",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/MakeMeAdmin/02333fe6d6aaed76fe92f5e0a61e9688aff0c0e2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/55204",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1554568418,
+    "state": 5,
+    "last_state_change_date": 1554576765,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Manage",
+        "PurePerms",
+        "Ranks",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.2-c2a",
+            "depRelId": 2129,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Xenophilicy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

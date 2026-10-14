@@ -1,0 +1,61 @@
+{
+    "id": 653,
+    "name": "superBAR",
+    "version": "1.6.5-1",
+    "html_url": "https://poggit.pmmp.io/p/superBAR/1.6.5-1",
+    "tagline": "Just good and customizable HUD",
+    "artifact_url": "https://poggit.pmmp.io/r/13587",
+    "downloads": 1473,
+    "score": null,
+    "repo_id": 104886931,
+    "repo_name": "poggit-orphanage/superBAR",
+    "project_id": 886,
+    "project_name": "superBAR",
+    "build_id": 29543,
+    "build_number": 4,
+    "build_commit": "a430d8937ab4256e9ba0589eb46e6258d2027a33",
+    "description_url": "https://poggit.pmmp.io/r/13584",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/superBAR/a430d8937ab4256e9ba0589eb46e6258d2027a33/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/13586",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507537667,
+    "state": 5,
+    "last_state_change_date": 1508768932,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "hud",
+        "headsup"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA8",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "erkam2002"
+        ],
+        "Collaborator": [
+            "FaigerSYS"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

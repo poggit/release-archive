@@ -1,0 +1,78 @@
+{
+    "id": 10121,
+    "name": "WorldGuard",
+    "version": "1.34-beta2",
+    "html_url": "https://poggit.pmmp.io/p/WorldGuard/1.34-beta2",
+    "tagline": "The fastest world protector in town for your PocketMine server!",
+    "artifact_url": "https://poggit.pmmp.io/r/183858",
+    "downloads": 262,
+    "score": 1,
+    "repo_id": 85119472,
+    "repo_name": "MihaiChirculete/WorldGuard",
+    "project_id": 327,
+    "project_name": "WorldGuard",
+    "build_id": 138715,
+    "build_number": 262,
+    "build_commit": "61e55e81f1dba97c7fd2641a411a5ee7c67e850a",
+    "description_url": "https://poggit.pmmp.io/r/183855",
+    "icon_url": "https://raw.githubusercontent.com/MihaiChirculete/WorldGuard/61e55e81f1dba97c7fd2641a411a5ee7c67e850a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/183857",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656328056,
+    "state": 5,
+    "last_state_change_date": 1656494894,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "anti-grief",
+        "defined-regions",
+        "minecraft-plugin",
+        "pocketmine-mp",
+        "worldguard"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "MihaiChirculete"
+        ],
+        "Collaborator": [
+            "awgybop1",
+            "suerion"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

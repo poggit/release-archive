@@ -1,0 +1,61 @@
+{
+    "id": 3204,
+    "name": "MapImageEngine",
+    "version": "1.1.3",
+    "html_url": "https://poggit.pmmp.io/p/MapImageEngine/1.1.3",
+    "tagline": "Image engine for MC:BE",
+    "artifact_url": "https://poggit.pmmp.io/r/62998",
+    "downloads": 10200,
+    "score": 3,
+    "repo_id": 98783247,
+    "repo_name": "FaigerSYS/MapImageEngine",
+    "project_id": 732,
+    "project_name": "MapImageEngine",
+    "build_id": 62514,
+    "build_number": 26,
+    "build_commit": "ef7c458912d7012c2cf4158928fcfbe9f322ed8c",
+    "description_url": "https://poggit.pmmp.io/r/62995",
+    "icon_url": "https://raw.githubusercontent.com/FaigerSYS/MapImageEngine/ef7c458912d7012c2cf4158928fcfbe9f322ed8c/MapImageEngine/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/62997",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1563727426,
+    "state": 5,
+    "last_state_change_date": 1564466036,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "Johnmacrocraft",
+            "nnnlog",
+            "nikoskon2003"
+        ],
+        "Contributor": [
+            "SleepSpace9",
+            "aquaminer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

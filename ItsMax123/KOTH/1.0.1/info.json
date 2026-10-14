@@ -1,0 +1,81 @@
+{
+    "id": 8000,
+    "name": "MaxKOTH",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/MaxKOTH/1.0.1",
+    "tagline": "A King Of The Hill (KOTH) event plugin.",
+    "artifact_url": "https://poggit.pmmp.io/r/147773",
+    "downloads": 655,
+    "score": null,
+    "repo_id": 413184254,
+    "repo_name": "ItsMax123/KOTH",
+    "project_id": 9820,
+    "project_name": "KOTH",
+    "build_id": 115417,
+    "build_number": 18,
+    "build_commit": "bdb13c148d438a15ca7971392a0c000771e7d0ae",
+    "description_url": "https://poggit.pmmp.io/r/147770",
+    "icon_url": "https://raw.githubusercontent.com/ItsMax123/KOTH/bdb13c148d438a15ca7971392a0c000771e7d0ae/koth.png",
+    "changelog_url": "https://poggit.pmmp.io/r/147772",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1636920791,
+    "state": 5,
+    "last_state_change_date": 1636996950,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Event",
+        "Hill",
+        "King",
+        "KOTH",
+        "Max",
+        "Of",
+        "The"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ItsMax123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "DiscordWebhookAPI",
+            "project_id": 4428,
+            "repo_id": 162234790,
+            "repo_name": "CortexPE/DiscordWebhookAPI",
+            "repo_path": "",
+            "build_commit": "49f569fbce17f4a53cbeba49c01e4bf2613fb551",
+            "build_id": 103643
+        }
+    ]
+}

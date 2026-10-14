@@ -1,0 +1,113 @@
+{
+    "id": 9311,
+    "name": "ChestShop",
+    "version": "5.3.3",
+    "html_url": "https://poggit.pmmp.io/p/ChestShop/5.3.3",
+    "tagline": "Create GUI-based shops",
+    "artifact_url": "https://poggit.pmmp.io/r/167559",
+    "downloads": 2034,
+    "score": 4,
+    "repo_id": 80020239,
+    "repo_name": "Muqsit/ChestShop",
+    "project_id": 239,
+    "project_name": "ChestShop",
+    "build_id": 127360,
+    "build_number": 61,
+    "build_commit": "e1fcf40da82886ca08a9634f7a635a2262ea33b6",
+    "description_url": "https://poggit.pmmp.io/r/167556",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/167558",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647548117,
+    "state": 5,
+    "last_state_change_date": 1647560793,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "buy",
+        "chestshop",
+        "economy",
+        "gui",
+        "sell"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.7",
+            "depRelId": 9137,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "fycarman",
+            "Adam1609",
+            "XDqrkneZ",
+            "AIPTU",
+            "test-compte"
+        ],
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "b1b1f53ab6abdb6927c108d41f81b407fa072aee",
+            "build_id": 121224
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "f3bb152c1ea85dd851c50410e0c8ee1b56b31ac4",
+            "build_id": 122258
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "id": 12385,
+    "name": "FakePearl",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/FakePearl/1.1.0",
+    "tagline": "A PMMP plugin that allows you to throw a fake ender pearl and desorient your opponent",
+    "artifact_url": "https://poggit.pmmp.io/r/222887",
+    "downloads": 644,
+    "score": null,
+    "repo_id": 681890674,
+    "repo_name": "Joestarfish/FakePearl",
+    "project_id": 12968,
+    "project_name": "FakePearl",
+    "build_id": 163636,
+    "build_number": 5,
+    "build_commit": "b698febe50786afa0fca2d36fa5e0bf6041f470b",
+    "description_url": "https://poggit.pmmp.io/r/222884",
+    "icon_url": "https://raw.githubusercontent.com/Joestarfish/FakePearl/b698febe50786afa0fca2d36fa5e0bf6041f470b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/222886",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1694477496,
+    "state": 5,
+    "last_state_change_date": 1694503583,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "ender_pearl",
+        "fake_ender_pearl",
+        "fake_pearl",
+        "pearl",
+        "teleportation"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Customies",
+            "version": "1.3.2",
+            "depRelId": 11928,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Joestarfish"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

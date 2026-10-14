@@ -1,0 +1,65 @@
+{
+    "id": 7439,
+    "name": "EnderCooldown",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EnderCooldown/1.0.0",
+    "tagline": "Add cooldown to the EnderPearl | Plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/138454",
+    "downloads": 867,
+    "score": 5,
+    "repo_id": 396222908,
+    "repo_name": "JonyGamesYT9/EnderCooldown",
+    "project_id": 9517,
+    "project_name": "EnderCooldown",
+    "build_id": 109187,
+    "build_number": 9,
+    "build_commit": "146162ba2855d832177d5802f758e81dd33dcb78",
+    "description_url": "https://poggit.pmmp.io/r/138453",
+    "icon_url": "https://raw.githubusercontent.com/JonyGamesYT9/EnderCooldown/146162ba2855d832177d5802f758e81dd33dcb78/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1629758966,
+    "state": 5,
+    "last_state_change_date": 1629776394,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "enderpearl"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JonyGamesYT9"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

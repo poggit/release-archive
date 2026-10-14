@@ -1,0 +1,87 @@
+{
+    "id": 13869,
+    "name": "TokensAPI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TokensAPI/1.0.0",
+    "tagline": "Adds tokens support",
+    "artifact_url": "https://poggit.pmmp.io/r/253393",
+    "downloads": 307,
+    "score": null,
+    "repo_id": 762696757,
+    "repo_name": "Terpz710/TokensAPI",
+    "project_id": 13592,
+    "project_name": "TokensAPI",
+    "build_id": 185025,
+    "build_number": 81,
+    "build_commit": "212434fb7917732ef5e08e1a6867e5652c9bff41",
+    "description_url": "https://poggit.pmmp.io/r/253390",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/TokensAPI/212434fb7917732ef5e08e1a6867e5652c9bff41/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/253392",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1739956558,
+    "state": 5,
+    "last_state_change_date": 1740849388,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "BedrockEconomy",
+        "Economy",
+        "EconomyAPI",
+        "Money",
+        "MoneyAPI",
+        "Token",
+        "TokenAPI",
+        "Tokens",
+        "TokensAPI"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        }
+    ]
+}

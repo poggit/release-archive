@@ -1,0 +1,69 @@
+{
+    "id": 904,
+    "name": "Turrets",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Turrets/1.0.0",
+    "tagline": "A Portals 2 Inspired Turrets plugin for PMMP!",
+    "artifact_url": "https://poggit.pmmp.io/r/17990",
+    "downloads": 2424,
+    "score": null,
+    "repo_id": 113027436,
+    "repo_name": "IOTADevs/Turrets",
+    "project_id": 1364,
+    "project_name": "Turrets",
+    "build_id": 31977,
+    "build_number": 2,
+    "build_commit": "8615eae2c6f1d67475819f7ddd4a601708131866",
+    "description_url": "https://poggit.pmmp.io/r/17989",
+    "icon_url": "https://raw.githubusercontent.com/IOTADevs/Turrets/8615eae2c6f1d67475819f7ddd4a601708131866/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1512885930,
+    "state": 5,
+    "last_state_change_date": 1512938652,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "pocketmine",
+        "pocketmine-plugins",
+        "portals",
+        "turrets"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA9",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "CortexPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

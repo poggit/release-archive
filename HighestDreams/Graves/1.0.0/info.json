@@ -1,0 +1,56 @@
+{
+    "id": 6245,
+    "name": "Graves",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Graves/1.0.0",
+    "tagline": "A pocket-mine plugin, that spawn graves of players when they die.",
+    "artifact_url": "https://poggit.pmmp.io/r/119711",
+    "downloads": 590,
+    "score": 4,
+    "repo_id": 349046077,
+    "repo_name": "HighestDreams/Graves",
+    "project_id": 8709,
+    "project_name": "Graves",
+    "build_id": 98983,
+    "build_number": 6,
+    "build_commit": "1e13fd56c16accfaf070e8197caa845e4d25c07c",
+    "description_url": "https://poggit.pmmp.io/r/119710",
+    "icon_url": "https://raw.githubusercontent.com/HighestDreams/Graves/1e13fd56c16accfaf070e8197caa845e4d25c07c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616752337,
+    "state": 5,
+    "last_state_change_date": 1616890240,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "cemetery",
+        "death",
+        "fun",
+        "graves"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HighestDreams"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

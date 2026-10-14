@@ -1,0 +1,67 @@
+{
+    "id": 9790,
+    "name": "TheBridge",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/TheBridge/1.1",
+    "tagline": "A  TheBridge Plugin For PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/177118",
+    "downloads": 530,
+    "score": 3,
+    "repo_id": 463751808,
+    "repo_name": "SandhyR/TheBridge",
+    "project_id": 10697,
+    "project_name": "TheBridge",
+    "build_id": 131338,
+    "build_number": 29,
+    "build_commit": "888d2c2f48dd09b08d6085451a07e67a35565788",
+    "description_url": "https://poggit.pmmp.io/r/177248",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/177250",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653375216,
+    "state": 5,
+    "last_state_change_date": 1653500172,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "thebridge"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SandhyR"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ScoreFactory",
+            "project_id": 4142,
+            "repo_id": 155632824,
+            "repo_name": "Ifera/ScoreFactory",
+            "repo_path": "",
+            "build_commit": "cfb6e88b3534bbd29699c7a1b245dd86fd8886d3",
+            "build_id": 124262
+        }
+    ]
+}

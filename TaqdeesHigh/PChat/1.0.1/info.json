@@ -1,0 +1,63 @@
+{
+    "id": 13888,
+    "name": "PChat",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PChat/1.0.1",
+    "tagline": "A feature-rich chat management plugin for PocketMine-MP servers with channels, colors, and cooldown control.",
+    "artifact_url": "https://poggit.pmmp.io/r/253587",
+    "downloads": 113,
+    "score": null,
+    "repo_id": 929819972,
+    "repo_name": "TaqdeesHigh/PChat",
+    "project_id": 14539,
+    "project_name": "PChat",
+    "build_id": 185132,
+    "build_number": 3,
+    "build_commit": "be3f4c8b44a450bc6b0a44b1e1f075b080015e3e",
+    "description_url": "https://poggit.pmmp.io/r/253586",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1740322135,
+    "state": 5,
+    "last_state_change_date": 1743042194,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "chatcolor",
+        "chatcooldown",
+        "chatsetting",
+        "color",
+        "cooldown",
+        "settings"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TaqdeesHigh"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

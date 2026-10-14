@@ -1,0 +1,82 @@
+{
+    "id": 9772,
+    "name": "TPAll-PM4",
+    "version": "1.3",
+    "html_url": "https://poggit.pmmp.io/p/TPAll-PM4/1.3",
+    "tagline": "Teleport all player to you!",
+    "artifact_url": "https://poggit.pmmp.io/r/176705",
+    "downloads": 550,
+    "score": null,
+    "repo_id": 479544852,
+    "repo_name": "fernanACM/TPAll",
+    "project_id": 11113,
+    "project_name": "TPAll",
+    "build_id": 133760,
+    "build_number": 6,
+    "build_commit": "ed42d500bc443163272d05b3725b14e515959d36",
+    "description_url": "https://poggit.pmmp.io/r/176704",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/TPAll/ed42d500bc443163272d05b3725b14e515959d36/TPAll/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652988649,
+    "state": 5,
+    "last_state_change_date": 1654236394,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "PM5",
+        "Teleport",
+        "TP",
+        "TPALL",
+        "TPALL-PM5"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "matymare",
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

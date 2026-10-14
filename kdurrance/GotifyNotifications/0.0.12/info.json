@@ -1,0 +1,63 @@
+{
+    "id": 4329,
+    "name": "GotifyNotifications",
+    "version": "0.0.12",
+    "html_url": "https://poggit.pmmp.io/p/GotifyNotifications/0.0.12",
+    "tagline": "Post Pocketmine notifications to a Gotify server",
+    "artifact_url": "https://poggit.pmmp.io/r/85312",
+    "downloads": 530,
+    "score": 4,
+    "repo_id": 242291362,
+    "repo_name": "kdurrance/GotifyNotifications",
+    "project_id": 6356,
+    "project_name": "GotifyNotifications",
+    "build_id": 77133,
+    "build_number": 30,
+    "build_commit": "bd203fdea06c44bb9034fa1760520e47c118c6df",
+    "description_url": "https://poggit.pmmp.io/r/85817",
+    "icon_url": "https://raw.githubusercontent.com/kdurrance/GotifyNotifications/bd203fdea06c44bb9034fa1760520e47c118c6df/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588722932,
+    "state": 5,
+    "last_state_change_date": 1588738421,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "events",
+        "Gotify",
+        "monitoring"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "kdurrance"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,57 @@
+{
+    "id": 860,
+    "name": "GrabBag",
+    "version": "2.4.0-4",
+    "html_url": "https://poggit.pmmp.io/p/GrabBag/2.4.0-4",
+    "tagline": "Collection of miscellaneous commands and listener modules",
+    "artifact_url": "https://poggit.pmmp.io/r/17631",
+    "downloads": 398,
+    "score": null,
+    "repo_id": 110096030,
+    "repo_name": "poggit-orphanage/GrabBag",
+    "project_id": 1102,
+    "project_name": "GrabBag",
+    "build_id": 31837,
+    "build_number": 8,
+    "build_commit": "4cbb2e5ea291551d4156e6fe8f5747d14bf7cbca",
+    "description_url": "https://poggit.pmmp.io/r/17628",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/GrabBag/4cbb2e5ea291551d4156e6fe8f5747d14bf7cbca/media/GrabBag-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/17630",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1512722083,
+    "state": 5,
+    "last_state_change_date": 1512722088,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "grab",
+        "burn",
+        "freeze",
+        "mute"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA9",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alejandroliu",
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

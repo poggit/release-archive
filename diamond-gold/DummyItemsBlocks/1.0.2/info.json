@@ -1,0 +1,66 @@
+{
+    "id": 12448,
+    "name": "DummyItemsBlocks",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/DummyItemsBlocks/1.0.2",
+    "tagline": "Adds items and blocks for decoration purposes",
+    "artifact_url": "https://poggit.pmmp.io/r/224213",
+    "downloads": 89,
+    "score": null,
+    "repo_id": 649264031,
+    "repo_name": "diamond-gold/DummyItemsBlocks",
+    "project_id": 12577,
+    "project_name": "DummyItemsBlocks",
+    "build_id": 164594,
+    "build_number": 18,
+    "build_commit": "5ad9e4ee14d88f0dec19c73b702deeb9c308cb5c",
+    "description_url": "https://poggit.pmmp.io/r/224963",
+    "icon_url": "https://raw.githubusercontent.com/diamond-gold/DummyItemsBlocks/5ad9e4ee14d88f0dec19c73b702deeb9c308cb5c/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/224965",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1695313024,
+    "state": 5,
+    "last_state_change_date": 1695543702,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        }
+    ],
+    "keywords": [
+        "decor",
+        "decoration"
+    ],
+    "api": [
+        {
+            "from": "5.6.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "diamond-gold"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

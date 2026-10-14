@@ -1,0 +1,80 @@
+{
+    "id": 13956,
+    "name": "MTrim",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MTrim/1.0.0",
+    "tagline": "A PocketMine-MP plugin that allows players to add trims to their armor using a UI.",
+    "artifact_url": "https://poggit.pmmp.io/r/254990",
+    "downloads": 229,
+    "score": null,
+    "repo_id": 824108179,
+    "repo_name": "MagmaZ3637/MTrim",
+    "project_id": 14608,
+    "project_name": "MTrim",
+    "build_id": 186045,
+    "build_number": 9,
+    "build_commit": "8047a09568e6e4a00ed610400c9fe7d68793d790",
+    "description_url": "https://poggit.pmmp.io/r/255076",
+    "icon_url": "https://raw.githubusercontent.com/MagmaZ3637/MTrim/8047a09568e6e4a00ed610400c9fe7d68793d790/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1744381531,
+    "state": 5,
+    "last_state_change_date": 1747406152,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        }
+    ],
+    "keywords": [
+        "armor",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine",
+        "trim"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MagmaZ3637"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        },
+        {
+            "name": "LibTrimArmor",
+            "project_id": 12661,
+            "repo_id": 655667667,
+            "repo_name": "KRUNCHSHooT/LibTrimArmor",
+            "repo_path": "",
+            "build_commit": "961acf99dc892424c3414517da748fd12de05ba5",
+            "build_id": 178002
+        }
+    ]
+}

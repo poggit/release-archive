@@ -1,0 +1,79 @@
+{
+    "id": 5174,
+    "name": "KygekPingTPS",
+    "version": "1.0.0-beta.1",
+    "html_url": "https://poggit.pmmp.io/p/KygekPingTPS/1.0.0-beta.1",
+    "tagline": "See the server TPS and a player's ping",
+    "artifact_url": "https://poggit.pmmp.io/r/100716",
+    "downloads": 250,
+    "score": 4,
+    "repo_id": 289434454,
+    "repo_name": "thebigcrafter/KygekPingTPS",
+    "project_id": 7651,
+    "project_name": "KygekPingTPS",
+    "build_id": 86682,
+    "build_number": 2,
+    "build_commit": "cbf60eb52d8a1b6941066f3fc7d2ed1c44fd07d8",
+    "description_url": "https://poggit.pmmp.io/r/102307",
+    "icon_url": "https://raw.githubusercontent.com/Kygekraqmak/KygekPingTPS/cbf60eb52d8a1b6941066f3fc7d2ed1c44fd07d8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1598082225,
+    "state": 5,
+    "last_state_change_date": 1599408471,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekping",
+        "kygekpingtps",
+        "kygekraqmak",
+        "kygekraqmakping",
+        "kygekraqmakpingtps",
+        "kygekraqmaktps",
+        "kygektps",
+        "ping",
+        "pingtps",
+        "playerping",
+        "servertps",
+        "tps"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "KygekDev"
+        ],
+        "Contributor": [
+            "KRUNCHSHooT",
+            "Kygekraqmak",
+            "tobydev27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

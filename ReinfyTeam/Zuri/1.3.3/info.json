@@ -1,0 +1,109 @@
+{
+    "id": 13951,
+    "name": "Zuri",
+    "version": "1.3.3",
+    "html_url": "https://poggit.pmmp.io/p/Zuri/1.3.3",
+    "tagline": "A powerful anticheat made to destroy hackers from your server for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/254853",
+    "downloads": 325,
+    "score": null,
+    "repo_id": 758851513,
+    "repo_name": "ReinfyTeam/Zuri",
+    "project_id": 13726,
+    "project_name": "Zuri",
+    "build_id": 185929,
+    "build_number": 81,
+    "build_commit": "b45f6ef15fad25fb61a2fdf8f30a868a60bbc06b",
+    "description_url": "https://poggit.pmmp.io/r/254850",
+    "icon_url": "https://raw.githubusercontent.com/ReinfyTeam/Zuri/b45f6ef15fad25fb61a2fdf8f30a868a60bbc06b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/254852",
+    "license": "LGPL-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1743939209,
+    "state": 5,
+    "last_state_change_date": 1743993535,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ac",
+        "anticheat",
+        "minecraft-anticheat",
+        "php-anticheat",
+        "pmmp-anticheat",
+        "pmmp-plugin",
+        "reinfyteam",
+        "zuri"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "UnknownNull",
+            "TrinitroToluen0",
+            "xRodzMC",
+            "AzliRynz",
+            "GroXzaLYs",
+            "4d5e",
+            "ItsToxicV2"
+        ],
+        "Collaborator": [
+            "rodolfoorlandajr"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

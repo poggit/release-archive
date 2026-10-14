@@ -1,0 +1,79 @@
+{
+    "id": 8867,
+    "name": "EffectSee",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/EffectSee/1.0.1",
+    "tagline": "See Player effects on UI",
+    "artifact_url": "https://poggit.pmmp.io/r/160666",
+    "downloads": 661,
+    "score": null,
+    "repo_id": 452147148,
+    "repo_name": "MulqiGaming64/EffectSee",
+    "project_id": 10417,
+    "project_name": "EffectSee",
+    "build_id": 123134,
+    "build_number": 3,
+    "build_commit": "ab0a0761033a10b9c7255ca07ca9cfc111c0d5b1",
+    "description_url": "https://poggit.pmmp.io/r/160663",
+    "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/EffectSee/ab0a0761033a10b9c7255ca07ca9cfc111c0d5b1/icons.png",
+    "changelog_url": "https://poggit.pmmp.io/r/160665",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644275488,
+    "state": 5,
+    "last_state_change_date": 1644638783,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "effectsee"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MulqiGaming64"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "bb178fbe96e80db7eb42d303d94e77497948b187",
+            "build_id": 118466
+        }
+    ]
+}

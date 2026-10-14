@@ -1,0 +1,187 @@
+{
+    "id": 8094,
+    "name": "MagicWE2",
+    "version": "10.2.0",
+    "html_url": "https://poggit.pmmp.io/p/MagicWE2/10.2.0",
+    "tagline": "Lag free asynchronous world editor for PMMP with plenty of options",
+    "artifact_url": "https://poggit.pmmp.io/r/149494",
+    "downloads": 4770,
+    "score": 5,
+    "repo_id": 96718078,
+    "repo_name": "inxomnyaa/MagicWE",
+    "project_id": 993,
+    "project_name": "MagicWE2",
+    "build_id": 116473,
+    "build_number": 546,
+    "build_commit": "409811fb7bea555b17fc264912ebf1b729e7e93e",
+    "description_url": "https://poggit.pmmp.io/r/149493",
+    "icon_url": "https://raw.githubusercontent.com/thebigsmileXD/MagicWE2/409811fb7bea555b17fc264912ebf1b729e7e93e/resources/magicwe_icon_square_small.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638443565,
+    "state": 5,
+    "last_state_change_date": 1639105852,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "brushes",
+        "clipboard",
+        "copy",
+        "magicwe",
+        "magicwe2",
+        "mcpe",
+        "paste",
+        "plugin",
+        "pocketmine",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin",
+        "pocketmine-plugins",
+        "poggit",
+        "rotate",
+        "thebigsmilexd",
+        "undo",
+        "wand",
+        "worldedit",
+        "xenialdan"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "dainsilv",
+            "golfiti",
+            "cinziaa",
+            "AlesJiranek",
+            "hustlahusky",
+            "kerlos",
+            "hapidjus",
+            "CedArctic",
+            "soymariomoreno",
+            "carewdavid",
+            "TomG777",
+            "GEveloper",
+            "Johnmacrocraft",
+            "AninditaBasu",
+            "camilocf",
+            "dingyifei",
+            "rapirent",
+            "bantya",
+            "JoaquinMontesinos",
+            "rodrigobustamante",
+            "KelseyJr",
+            "nulf",
+            "LuisPaGarcia",
+            "JeromerT",
+            "SergiyGolov",
+            "TheBlackPlague",
+            "TIMMYPPV",
+            "CAT-ID"
+        ],
+        "Collaborator": [
+            "thebigsmileXD",
+            "Aericio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libschematic",
+            "project_id": 576,
+            "repo_id": 88090206,
+            "repo_name": "BlockHorizons/libschematic",
+            "repo_path": "",
+            "build_commit": "d714b5d8961be14d48d19751719b49c96baf401d",
+            "build_id": 109140
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 9807,
+            "repo_id": 380830855,
+            "repo_name": "WolvesFortress/FormAPI",
+            "repo_path": "",
+            "build_commit": "aad89483466dfc884e4caf38d8d8324333d70159",
+            "build_id": 112956
+        },
+        {
+            "name": "apibossbar",
+            "project_id": 5118,
+            "repo_id": 190287218,
+            "repo_name": "inxomnyaa/apibossbar",
+            "repo_path": "",
+            "build_commit": "a1acea6d2d01561c9a1888f4dcc93fa37085594b",
+            "build_id": 115623
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "03557115ff8aeee324443d1dd40989d64780614e",
+            "build_id": 114839
+        },
+        {
+            "name": "libstructure",
+            "project_id": 5494,
+            "repo_id": 204774106,
+            "repo_name": "inxomnyaa/libstructure",
+            "repo_path": "",
+            "build_commit": "844a48f24743959e62c964bb1b9664c84f182935",
+            "build_id": 115753
+        },
+        {
+            "name": "libblockstate",
+            "project_id": 9931,
+            "repo_id": 413167146,
+            "repo_name": "thebigsmileXD/libblockstate",
+            "repo_path": "",
+            "build_commit": "cd6828781319cfe2dd341f889e6c63c2148be46d",
+            "build_id": 115771
+        },
+        {
+            "name": "ScoreFactory",
+            "project_id": 4142,
+            "repo_id": 155632824,
+            "repo_name": "Ifera/ScoreFactory",
+            "repo_path": "",
+            "build_commit": "aa7f154a3dab127d9d5696653d126e7f01454197",
+            "build_id": 114394
+        }
+    ]
+}

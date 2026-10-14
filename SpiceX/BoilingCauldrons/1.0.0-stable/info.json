@@ -1,0 +1,69 @@
+{
+    "id": 7491,
+    "name": "BoilingCauldrons",
+    "version": "1.0.0-stable",
+    "html_url": "https://poggit.pmmp.io/p/BoilingCauldrons/1.0.0-stable",
+    "tagline": "Makes water in cauldrons boil when there's fire under it and allows players to cook food in the boil",
+    "artifact_url": "https://poggit.pmmp.io/r/139514",
+    "downloads": 78,
+    "score": 5,
+    "repo_id": 401423486,
+    "repo_name": "SpiceX/BoilingCauldrons",
+    "project_id": 9627,
+    "project_name": "BoilingCauldrons",
+    "build_id": 110494,
+    "build_number": 3,
+    "build_commit": "3830274aa8ff1509465088c9fab21c25428f8cf9",
+    "description_url": "https://poggit.pmmp.io/r/139513",
+    "icon_url": "https://raw.githubusercontent.com/SpiceX/BoilingCauldrons/3830274aa8ff1509465088c9fab21c25428f8cf9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1630346532,
+    "state": 5,
+    "last_state_change_date": 1630348259,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "boiling",
+        "cauldron",
+        "cauldrons",
+        "cook",
+        "food"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SpiceX"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

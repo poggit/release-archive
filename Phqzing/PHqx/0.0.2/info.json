@@ -1,0 +1,90 @@
+{
+    "id": 10390,
+    "name": "PHqx-Client",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/PHqx-Client/0.0.2",
+    "tagline": "Say no more to getting destroyed everytime you PvP, download and add this plugin to your server and become a GOD at PvP!",
+    "artifact_url": "https://poggit.pmmp.io/r/188890",
+    "downloads": 220,
+    "score": 5,
+    "repo_id": 507634889,
+    "repo_name": "Phqzing/PHqx",
+    "project_id": 11464,
+    "project_name": "PHqx",
+    "build_id": 142194,
+    "build_number": 15,
+    "build_commit": "836470ad9c1213be96a4a41dfe021ae9999bc7de",
+    "description_url": "https://poggit.pmmp.io/r/188887",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/188889",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1659665200,
+    "state": 5,
+    "last_state_change_date": 1660075615,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Client",
+        "Hack",
+        "Phqzing"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Phqzing"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "a55ecceb73e6aa99b80bbec2a78aed0c6341170c",
+            "build_id": 134155
+        }
+    ]
+}

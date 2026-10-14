@@ -1,0 +1,86 @@
+{
+    "id": 12364,
+    "name": "VBasket",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/VBasket/1.0.2",
+    "tagline": "A plugin that makes your server interesting by growing crops quickly.",
+    "artifact_url": "https://poggit.pmmp.io/r/222609",
+    "downloads": 396,
+    "score": 5,
+    "repo_id": 669207564,
+    "repo_name": "VennDev/VBasket",
+    "project_id": 12821,
+    "project_name": "VBasket",
+    "build_id": 163473,
+    "build_number": 16,
+    "build_commit": "4f7539eea1556c73c66765e9282a4841f90808ae",
+    "description_url": "https://poggit.pmmp.io/r/222606",
+    "icon_url": "https://raw.githubusercontent.com/VennDev/VBasket/4f7539eea1556c73c66765e9282a4841f90808ae/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/222608",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1694198978,
+    "state": 5,
+    "last_state_change_date": 1694249218,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VennDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "LibVapmPMMP",
+            "project_id": 12771,
+            "repo_id": 663585245,
+            "repo_name": "VennDev/LibVapmPMMP",
+            "repo_path": "",
+            "build_commit": "cfeb41d082f56a65aa985053c57e16f567cae773",
+            "build_id": 163242
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "706e307d705ef8fe20653bebd04a18b1d9b3e47a",
+            "build_id": 161792
+        }
+    ]
+}

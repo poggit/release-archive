@@ -1,0 +1,107 @@
+{
+    "id": 4037,
+    "name": "ChestShop",
+    "version": "5.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ChestShop/5.0.1",
+    "tagline": "Create GUI-based shops",
+    "artifact_url": "https://poggit.pmmp.io/r/79388",
+    "downloads": 3873,
+    "score": 4,
+    "repo_id": 80020239,
+    "repo_name": "Muqsit/ChestShop",
+    "project_id": 239,
+    "project_name": "ChestShop",
+    "build_id": 73020,
+    "build_number": 31,
+    "build_commit": "b4d71b13ab9ff39c818ab692b4d0bd26e54839ff",
+    "description_url": "https://poggit.pmmp.io/r/79390",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/79392",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1584728341,
+    "state": 5,
+    "last_state_change_date": 1584728536,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "buy",
+        "chestshop",
+        "economy",
+        "gui",
+        "sell"
+    ],
+    "api": [
+        {
+            "from": "3.11.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-5",
+            "depRelId": 1107,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "fycarman",
+            "Adam1609",
+            "XDqrkneZ",
+            "AIPTU",
+            "test-compte"
+        ],
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "7219b8f5ffb01eee0b4fe645a27fb35df28c085e",
+            "build_id": 70930
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "8f56c71ef5c5236d6791213952623b8288eb0151",
+            "build_id": 70498
+        }
+    ]
+}

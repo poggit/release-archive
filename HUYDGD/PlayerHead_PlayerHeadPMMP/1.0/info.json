@@ -1,0 +1,68 @@
+{
+    "id": 1898,
+    "name": "PlayerHead",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerHead/1.0",
+    "tagline": "PlayerHead for PMMP 3.2.3!",
+    "artifact_url": "https://poggit.pmmp.io/r/42647",
+    "downloads": 14605,
+    "score": 4,
+    "repo_id": 151187631,
+    "repo_name": "HUYDGD/PlayerHead",
+    "project_id": 4019,
+    "project_name": "PlayerHeadPMMP",
+    "build_id": 49994,
+    "build_number": 3,
+    "build_commit": "b92c1ce7bd33cddcc9ffc609a085553804cb4fd5",
+    "description_url": "https://poggit.pmmp.io/r/42654",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1538448061,
+    "state": 5,
+    "last_state_change_date": 1540400291,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "playerhead",
+        "playerheadpmmp",
+        "pocketmine",
+        "plugin"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA12",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Enes5519"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

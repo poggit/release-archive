@@ -1,0 +1,89 @@
+{
+    "id": 10318,
+    "name": "AutoSellPE",
+    "version": "3.1.1",
+    "html_url": "https://poggit.pmmp.io/p/AutoSellPE/3.1.1",
+    "tagline": "A PocketMine-MP plugin which automatically sells blocks as you mine.",
+    "artifact_url": "https://poggit.pmmp.io/r/187314",
+    "downloads": 152,
+    "score": null,
+    "repo_id": 345158245,
+    "repo_name": "MCPEAbdu77/AutoSellPE",
+    "project_id": 8788,
+    "project_name": "AutoSellPE",
+    "build_id": 141064,
+    "build_number": 23,
+    "build_commit": "12dd7aa602cb094b32e79c384b2c521e7c3e128d",
+    "description_url": "https://poggit.pmmp.io/r/187654",
+    "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/AutoSellPE/12dd7aa602cb094b32e79c384b2c521e7c3e128d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/187656",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1658649156,
+    "state": 5,
+    "last_state_change_date": 1658769030,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Auto",
+        "Autosell",
+        "bedrockeconomy",
+        "Capital",
+        "Economy",
+        "EconomyAPI",
+        "items",
+        "money",
+        "Prison",
+        "Sell"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MCPEAbdu77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

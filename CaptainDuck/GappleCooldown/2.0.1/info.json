@@ -1,0 +1,63 @@
+{
+    "id": 1956,
+    "name": "GappleCooldown",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/GappleCooldown/2.0.1",
+    "tagline": "GappleCooldown for PocketMine (MCPE) Servers, support for latest PMMP API",
+    "artifact_url": "https://poggit.pmmp.io/r/43952",
+    "downloads": 454,
+    "score": null,
+    "repo_id": 126025665,
+    "repo_name": "CaptainDuck/GappleCooldown",
+    "project_id": 2244,
+    "project_name": "GappleCooldown",
+    "build_id": 50818,
+    "build_number": 14,
+    "build_commit": "9d50ede0244b0c59fd8cead5c23c8061a1de6d2a",
+    "description_url": "https://poggit.pmmp.io/r/43949",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/43951",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1540378699,
+    "state": 5,
+    "last_state_change_date": 1540400380,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Gapple",
+        "Cooldown",
+        "PVP"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "CaptainDuck"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

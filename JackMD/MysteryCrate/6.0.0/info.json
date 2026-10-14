@@ -1,0 +1,75 @@
+{
+    "id": 1419,
+    "name": "MysteryCrate",
+    "version": "6.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MysteryCrate/6.0.0",
+    "tagline": "This plugins adds MysteryCrates with op items.",
+    "artifact_url": "https://poggit.pmmp.io/r/31548",
+    "downloads": 531,
+    "score": 5,
+    "repo_id": 125697309,
+    "repo_name": "JackMD/MysteryCrate",
+    "project_id": 2242,
+    "project_name": "MysteryCrate",
+    "build_id": 42222,
+    "build_number": 72,
+    "build_commit": "74e4b9bc0f4fbc1996225bbc14cfe50db4517d56",
+    "description_url": "https://poggit.pmmp.io/r/31551",
+    "icon_url": "https://raw.githubusercontent.com/JackMD/MysteryCrate/74e4b9bc0f4fbc1996225bbc14cfe50db4517d56/meta/MysteryCrate.png",
+    "changelog_url": "https://poggit.pmmp.io/r/31553",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1527403396,
+    "state": 5,
+    "last_state_change_date": 1527403396,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chest",
+        "crate-key",
+        "cratechest",
+        "cratekey",
+        "crates",
+        "key",
+        "mystery",
+        "mysterycrate-plugin",
+        "pmmp",
+        "pocketmine-mp",
+        "tap"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA12",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

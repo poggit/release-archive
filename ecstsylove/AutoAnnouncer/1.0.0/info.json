@@ -1,0 +1,67 @@
+{
+    "id": 11713,
+    "name": "AutoAnnouncer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoAnnouncer/1.0.0",
+    "tagline": "An automated announcement plugin for your Pocketmine-MP server!",
+    "artifact_url": "https://poggit.pmmp.io/r/212631",
+    "downloads": 766,
+    "score": null,
+    "repo_id": 655214849,
+    "repo_name": "ecstsylove/AutoAnnouncer",
+    "project_id": 12655,
+    "project_name": "AutoAnnouncer",
+    "build_id": 157450,
+    "build_number": 8,
+    "build_commit": "81ca78bfe5f9e43b507007dfa2a60228a795d53f",
+    "description_url": "https://poggit.pmmp.io/r/212861",
+    "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/AutoAnnouncer/81ca78bfe5f9e43b507007dfa2a60228a795d53f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687110885,
+    "state": 5,
+    "last_state_change_date": 1687242627,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iLVOEWOCK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

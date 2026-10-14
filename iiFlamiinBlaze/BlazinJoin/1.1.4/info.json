@@ -1,0 +1,67 @@
+{
+    "id": 1585,
+    "name": "BlazinJoin",
+    "version": "1.1.4",
+    "html_url": "https://poggit.pmmp.io/p/BlazinJoin/1.1.4",
+    "tagline": "A join enhancement plugin!",
+    "artifact_url": "https://poggit.pmmp.io/r/34683",
+    "downloads": 226,
+    "score": null,
+    "repo_id": 126067423,
+    "repo_name": "iiFlamiinBlaze/BlazinJoin",
+    "project_id": 2619,
+    "project_name": "BlazinJoin",
+    "build_id": 43970,
+    "build_number": 8,
+    "build_commit": "38c3140ab17759cf2f7ea2fa1e397718584b2638",
+    "description_url": "https://poggit.pmmp.io/r/34680",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/34682",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529615428,
+    "state": 5,
+    "last_state_change_date": 1529877587,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "iiflamiinblaze",
+        "pmmp-plugins",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iiFlamiinBlaze"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

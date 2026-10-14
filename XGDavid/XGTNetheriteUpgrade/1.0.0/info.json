@@ -1,0 +1,65 @@
+{
+    "id": 13286,
+    "name": "XGTNetheriteUpgrade",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/XGTNetheriteUpgrade/1.0.0",
+    "tagline": "Upgrade your diamond items",
+    "artifact_url": "https://poggit.pmmp.io/r/243453",
+    "downloads": 467,
+    "score": null,
+    "repo_id": 826957956,
+    "repo_name": "XGDavid/XGTNetheriteUpgrade",
+    "project_id": 14017,
+    "project_name": "XGTNetheriteUpgrade",
+    "build_id": 178202,
+    "build_number": 2,
+    "build_commit": "d8e72c5b573813176307c7f6c5885cceb6e03673",
+    "description_url": "https://poggit.pmmp.io/r/243452",
+    "icon_url": "https://raw.githubusercontent.com/XGDavid/XGTNetheriteUpgrade/d8e72c5b573813176307c7f6c5885cceb6e03673/netherite.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1720635618,
+    "state": 5,
+    "last_state_change_date": 1721781510,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "netherite"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "XGDavid"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,105 @@
+{
+    "id": 10914,
+    "name": "KDR2",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KDR2/1.0.0",
+    "tagline": "Simple Kill Death Ratio plugin for Pocketmine-MP Servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/199107",
+    "downloads": 163,
+    "score": null,
+    "repo_id": 582748202,
+    "repo_name": "Aboshxm2/KDR2",
+    "project_id": 12045,
+    "project_name": "KDR2",
+    "build_id": 149190,
+    "build_number": 9,
+    "build_commit": "d3e850b9f8c27f40425b9a0682e25f1bcbda98fb",
+    "description_url": "https://poggit.pmmp.io/r/199106",
+    "icon_url": "https://raw.githubusercontent.com/Aboshxm2/KDR2/d3e850b9f8c27f40425b9a0682e25f1bcbda98fb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1673200369,
+    "state": 5,
+    "last_state_change_date": 1673448788,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Death",
+        "Deaths",
+        "Kill",
+        "Kills",
+        "Killstreak",
+        "Ratio"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ScoreHud",
+            "version": "7.0.1",
+            "depRelId": 9390,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Aboshxm2"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "ce75bc58d640c15af95bd24a3be053d57608092c",
+            "build_id": 124216
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "36d1a816ac724d30f0801ef322ade86039059d25",
+            "build_id": 142604
+        }
+    ]
+}

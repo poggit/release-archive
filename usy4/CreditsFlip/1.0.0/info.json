@@ -1,0 +1,68 @@
+{
+    "id": 10808,
+    "name": "CreditsFlip",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CreditsFlip/1.0.0",
+    "tagline": "Try your luck in credits with this plugin!",
+    "artifact_url": "https://poggit.pmmp.io/r/197265",
+    "downloads": 116,
+    "score": null,
+    "repo_id": 568005746,
+    "repo_name": "usy4/CreditsFlip",
+    "project_id": 11974,
+    "project_name": "CreditsFlip",
+    "build_id": 147955,
+    "build_number": 7,
+    "build_commit": "3625d0b4ed921d80cce4e6d725e8636426fbfd74",
+    "description_url": "https://poggit.pmmp.io/r/197264",
+    "icon_url": "https://raw.githubusercontent.com/usy4/CreditsFlip/3625d0b4ed921d80cce4e6d725e8636426fbfd74/icon_cf.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1669039885,
+    "state": 5,
+    "last_state_change_date": 1669077837,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Flip"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Credits",
+            "version": "1.0.1",
+            "depRelId": 8139,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Requester": [
+            "Laith98Dev",
+            "RealYXNG"
+        ],
+        "Collaborator": [
+            "usy4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

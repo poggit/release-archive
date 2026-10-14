@@ -1,0 +1,88 @@
+{
+    "id": 12875,
+    "name": "BedwarsPM",
+    "version": "1.0.9",
+    "html_url": "https://poggit.pmmp.io/p/BedwarsPM/1.0.9",
+    "tagline": "🛏️ A BedWars plugin for PocketMine-MP servers",
+    "artifact_url": "https://poggit.pmmp.io/r/234396",
+    "downloads": 2590,
+    "score": 4,
+    "repo_id": 692592307,
+    "repo_name": "Sergittos/BedWars",
+    "project_id": 13628,
+    "project_name": "BedwarsPM",
+    "build_id": 172068,
+    "build_number": 2,
+    "build_commit": "84e5abe7e4d25397d792d1bead990e4e81ca709b",
+    "description_url": "https://poggit.pmmp.io/r/234461",
+    "icon_url": "https://raw.githubusercontent.com/Sergittos/BedWars/84e5abe7e4d25397d792d1bead990e4e81ca709b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1709667396,
+    "state": 5,
+    "last_state_change_date": 1717950811,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bed",
+        "bedwars",
+        "fun",
+        "gamemode",
+        "minecraft",
+        "minigame",
+        "mysql",
+        "pocketmine-mp-plugin",
+        "sql",
+        "sqlite",
+        "wars"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Sergittos"
+        ],
+        "Contributor": [
+            "UnknownNull"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEasyUI",
+            "project_id": 7632,
+            "repo_id": 281477433,
+            "repo_name": "dresnite/easyui",
+            "repo_path": "",
+            "build_commit": "1ff6a12b00ad6741217b25d200d4a0d564dee995",
+            "build_id": 166263
+        }
+    ]
+}

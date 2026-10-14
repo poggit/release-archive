@@ -1,0 +1,76 @@
+{
+    "id": 11648,
+    "name": "BlockDataRecorder",
+    "version": "0.0.6",
+    "html_url": "https://poggit.pmmp.io/p/BlockDataRecorder/0.0.6",
+    "tagline": "The data of an item block will not be lost when the block is placed",
+    "artifact_url": "https://poggit.pmmp.io/r/211572",
+    "downloads": 18,
+    "score": null,
+    "repo_id": 631963023,
+    "repo_name": "NhanAZ/BlockDataRecorder",
+    "project_id": 12377,
+    "project_name": "BlockDataRecorder",
+    "build_id": 156858,
+    "build_number": 12,
+    "build_commit": "84d6d000072d7d1c9945ec5a69bc41f0de9308f4",
+    "description_url": "https://poggit.pmmp.io/r/211569",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/BlockDataRecorder/84d6d000072d7d1c9945ec5a69bc41f0de9308f4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/211571",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686444706,
+    "state": 5,
+    "last_state_change_date": 1686637581,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "blockdata",
+        "blockdatarecorder",
+        "php",
+        "plugin",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "BlockData",
+            "project_id": 12375,
+            "repo_id": 631571608,
+            "repo_name": "NhanAZ-Libraries/BlockData",
+            "repo_path": "",
+            "build_commit": "b1d1e45eb0249d6ff1562145a07db60ce4186824",
+            "build_id": 155191
+        },
+        {
+            "name": "libBedrock",
+            "project_id": 11911,
+            "repo_id": 551801316,
+            "repo_name": "NhanAZ-Libraries/libBedrock",
+            "repo_path": "",
+            "build_commit": "c6836411d5175cd84a4aa86c5c55430d50205c5d",
+            "build_id": 156857
+        }
+    ]
+}

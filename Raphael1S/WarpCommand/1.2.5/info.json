@@ -1,0 +1,63 @@
+{
+    "id": 12145,
+    "name": "WarpCommand",
+    "version": "1.2.5",
+    "html_url": "https://poggit.pmmp.io/p/WarpCommand/1.2.5",
+    "tagline": "A simple yet powerful Warp plugin!",
+    "artifact_url": "https://poggit.pmmp.io/r/219020",
+    "downloads": 35,
+    "score": null,
+    "repo_id": 661033164,
+    "repo_name": "Raphael1S/WarpCommand",
+    "project_id": 12712,
+    "project_name": "WarpCommand",
+    "build_id": 161276,
+    "build_number": 37,
+    "build_commit": "1a7a35998842cceabb3e056d6d6dd80a71b1b910",
+    "description_url": "https://poggit.pmmp.io/r/219206",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/219208",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691333468,
+    "state": 5,
+    "last_state_change_date": 1691350421,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Teleport",
+        "Warp",
+        "Warps"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Raphael1S"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

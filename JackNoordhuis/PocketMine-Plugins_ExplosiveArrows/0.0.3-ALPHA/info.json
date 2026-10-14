@@ -1,0 +1,59 @@
+{
+    "id": 553,
+    "name": "ExplosiveArrows",
+    "version": "0.0.3-ALPHA",
+    "html_url": "https://poggit.pmmp.io/p/ExplosiveArrows/0.0.3-ALPHA",
+    "tagline": "Bows? More like explosive fun!",
+    "artifact_url": "https://poggit.pmmp.io/r/11856",
+    "downloads": 1751,
+    "score": null,
+    "repo_id": 69350447,
+    "repo_name": "JackNoordhuis/PocketMine-Plugins",
+    "project_id": 207,
+    "project_name": "ExplosiveArrows",
+    "build_id": 28408,
+    "build_number": 6,
+    "build_commit": "ee684accc059693b89bb7b04be92b922f7298104",
+    "description_url": "https://poggit.pmmp.io/r/11853",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/11855",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1505499176,
+    "state": 5,
+    "last_state_change_date": 1505499415,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "explosive",
+        "arrows",
+        "arrow"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA6",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JackNoordhuis"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

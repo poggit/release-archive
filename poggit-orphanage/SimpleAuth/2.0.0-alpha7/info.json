@@ -1,0 +1,79 @@
+{
+    "id": 473,
+    "name": "SimpleAuth",
+    "version": "2.0.0-alpha7",
+    "html_url": "https://poggit.pmmp.io/p/SimpleAuth/2.0.0-alpha7",
+    "tagline": "Classic SimpleAuth + PIN codes",
+    "artifact_url": "https://poggit.pmmp.io/r/9452",
+    "downloads": 1300,
+    "score": null,
+    "repo_id": 84246690,
+    "repo_name": "poggit-orphanage/SimpleAuth",
+    "project_id": 315,
+    "project_name": "SimpleAuth",
+    "build_id": 26438,
+    "build_number": 6,
+    "build_commit": "0f15ae697bf8eef929b9c25bc40b59d74db17bae",
+    "description_url": "https://poggit.pmmp.io/r/9449",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/SimpleAuth/0f15ae697bf8eef929b9c25bc40b59d74db17bae/sa.png",
+    "changelog_url": "https://poggit.pmmp.io/r/9451",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1501607534,
+    "state": 5,
+    "last_state_change_date": 1506452770,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "simpleauth",
+        "simple",
+        "auth",
+        "login",
+        "register",
+        "password"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SimpleAuthHelper",
+            "version": "2.0.5-dev1",
+            "depRelId": 397,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.1-dev2",
+            "depRelId": 463,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "shoghicp",
+            "awzaw"
+        ],
+        "Contributor": [
+            "sof3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

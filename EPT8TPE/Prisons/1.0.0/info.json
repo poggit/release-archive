@@ -1,0 +1,120 @@
+{
+    "id": 5773,
+    "name": "Prisons",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Prisons/1.0.0",
+    "tagline": "A pocketmine plugin implementing the legacy prison rank up system in addition to a form of prestiging.",
+    "artifact_url": "https://poggit.pmmp.io/r/112055",
+    "downloads": 327,
+    "score": null,
+    "repo_id": 325329117,
+    "repo_name": "EPT8TPE/Prisons",
+    "project_id": 8274,
+    "project_name": "Prisons",
+    "build_id": 94304,
+    "build_number": 35,
+    "build_commit": "b9fb063d7fb7d34db322bfcd2a56d5263c29e2b4",
+    "description_url": "https://poggit.pmmp.io/r/112660",
+    "icon_url": "https://raw.githubusercontent.com/TPEimperialPE/Prisons/b9fb063d7fb7d34db322bfcd2a56d5263c29e2b4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609326512,
+    "state": 5,
+    "last_state_change_date": 1609777281,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "addon",
+        "ascend",
+        "eco",
+        "economy",
+        "jail",
+        "mines",
+        "mining",
+        "money",
+        "prestige",
+        "prestiging",
+        "prison",
+        "prisons",
+        "prisonscorehud",
+        "rank",
+        "rankup",
+        "scorehud",
+        "up"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PureChat",
+            "version": "1.4.11",
+            "depRelId": 1547,
+            "isHard": false
+        },
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "EPT8TPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

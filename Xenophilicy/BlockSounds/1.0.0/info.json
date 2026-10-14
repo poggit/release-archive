@@ -1,0 +1,62 @@
+{
+    "id": 5086,
+    "name": "BlockSounds",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockSounds/1.0.0",
+    "tagline": "PocketMine plugin to add sounds to blocks!",
+    "artifact_url": "https://poggit.pmmp.io/r/99446",
+    "downloads": 2267,
+    "score": 5,
+    "repo_id": 285484231,
+    "repo_name": "Xenophilicy/BlockSounds",
+    "project_id": 7570,
+    "project_name": "BlockSounds",
+    "build_id": 85909,
+    "build_number": 4,
+    "build_commit": "39545b2424f803e087d7fb05c4a47cef1268d3df",
+    "description_url": "https://poggit.pmmp.io/r/99445",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/BlockSounds/39545b2424f803e087d7fb05c4a47cef1268d3df/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1597005286,
+    "state": 5,
+    "last_state_change_date": 1597005643,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "sound",
+        "sounds",
+        "block",
+        "noteblock",
+        "play",
+        "note"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Xenophilicy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

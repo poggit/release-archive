@@ -1,0 +1,40 @@
+<h1>
+<a id="user-content-information" class="anchor" href="#information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Information</h1>
+<p><a href="https://poggit.pmmp.io/p/FoodEffects" rel="nofollow"><img src="https://camo.githubusercontent.com/fc1a2dc9f9746859af06cc55d040d2428756480b/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f466f6f6445666665637473" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/FoodEffects" style="max-width:100%;"></a>
+<a href="http://hits.dwyl.io/Xenophilicy/FoodEffects" rel="nofollow"><img src="https://camo.githubusercontent.com/00b5dd0db7c5af4bf92784d8e45ca264dc3e6931/687474703a2f2f686974732e6477796c2e696f2f58656e6f7068696c6963792f466f6f64456666656374732e737667" alt="HitCount" data-canonical-src="http://hits.dwyl.io/Xenophilicy/FoodEffects.svg" style="max-width:100%;"></a>
+<a href="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" alt="" data-canonical-src="https://img.shields.io/discord/490677165289897995.svg?style=flat-square" style="max-width:100%;"></a></p>
+<p>With this plugin, you are able to assign different effects to items so that when a player consumes that item, they are given the effect for a set duration at a set effect level! All of these options can be set in the <em>items.json</em> file. The format for the item listing can be found in both the <em>config.yml</em> file and down below if you ever get confused. You can also find examples inside the default <em>items.json</em> file. If you would like a video example of the plugin in action, click <a href="https://youtu.be/SbITnMk8jVE" rel="nofollow">here</a></p>
+<h1>
+<a id="user-content-item-formatting" class="anchor" href="#item-formatting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Item Formatting</h1>
+<h3>
+<a id="user-content-in-json-this-is-how-your-formatting-should-look" class="anchor" href="#in-json-this-is-how-your-formatting-should-look" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>In JSON, this is how your formatting should look:</h3>
+<pre><code>{
+    "Items":{
+        "Item-ID":[
+            [Effect-ID,Effect-Amplifier,Effect-Duration]
+        ]
+    }
+}
+</code></pre>
+<hr>
+<h2>
+<a id="user-content-item-listing-example" class="anchor" href="#item-listing-example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Item Listing Example</h2>
+<p>Desired configuration:</p>
+<ul>
+<li>When steak(364) is consumed, give blindness(15) level 1 for 10 seconds and strength(5) level 2 for 30 seconds</li>
+<li>When an apple(260) is consumed, give speed(1) level 3 for 15 seconds and infinite(0) night vision(16) level 1</li>
+</ul>
+<h3>
+<a id="user-content-configuration-in-json" class="anchor" href="#configuration-in-json" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration in JSON:</h3>
+<div class="highlight highlight-source-json"><pre>{
+    <span class="pl-s"><span class="pl-pds">"</span>Items<span class="pl-pds">"</span></span>:{
+        <span class="pl-s"><span class="pl-pds">"</span>364<span class="pl-pds">"</span></span>:[
+            [<span class="pl-c1">15</span>,<span class="pl-c1">1</span>,<span class="pl-c1">10</span>],
+            [<span class="pl-c1">5</span>,<span class="pl-c1">2</span>,<span class="pl-c1">30</span>]
+        ],
+        <span class="pl-s"><span class="pl-pds">"</span>260<span class="pl-pds">"</span></span>:[
+            [<span class="pl-c1">1</span>,<span class="pl-c1">3</span>,<span class="pl-c1">15</span>],
+            [<span class="pl-c1">16</span>,<span class="pl-c1">1</span>,<span class="pl-c1">0</span>]
+        ]
+    }
+}</pre></div>

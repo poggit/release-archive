@@ -1,0 +1,80 @@
+<p><a href="https://poggit.pmmp.io/p/CustomQuery" rel="nofollow"><img src="https://camo.githubusercontent.com/a9e097ad0c200c6cc5d035bc4d20ba9e606cd1c2/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f437573746f6d5175657279" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/CustomQuery" style="max-width:100%;"></a></p>
+<p>Custom Query, is one of the most customizable query plugins for MCPE that you'll ever find publicly and that is free for the MCPE Community.
+Custom Query aims for servers to make themselves more better, and allow people to recognize the customisable server.
+We at Custom Query, are a benefical to the MCPE Community, and dedicate our time to make this system work.
+Here with Custom Query, you can do the following:
+Fake player slots, set a list of plugins that can be displayable for your players, server name - Change your server name right from config! How great is that?, customize min-max fake player count/slots, infinity slots, enable/disable each option! Right from config.yml, so you can enable/disable the things you do or don't want.</p>
+<h3>
+<a id="user-content-planned--finished-updates" class="anchor" href="#planned--finished-updates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PLANNED / FINISHED UPDATES</h3>
+<ul>
+<li>[x] Infinity slots.</li>
+<li>[x] Fake your player slots.</li>
+<li>[x] Set which plugins other players can see.</li>
+<li>[x] Enable/disable options to suit your needs.</li>
+<li>[x] set min-max player slots (fake query system)</li>
+<li>[x] Added color coding support for server names.</li>
+<li>[x] Set variables for server names.</li>
+<li>[x] Customizable server list MOTD (When posting your server) (Untested)</li>
+<li>[x] Add a task file. (Untested)</li>
+<li>[x] Add commands to edit the query settings.</li>
+<li>[x] Add /customquery reload to reload the configurations without the need of a server restart.</li>
+<li>[x] Add /customquery help for a list of main commands you can use.</li>
+<li>[x] Add an option to enable/disable query commands use in game to set your settings.</li>
+<li>[x] Configure permission nodes from config.yml.</li>
+<li>[x] Completely revamp the ideas of commands, and putting it onto a seperate file (CustomQueryCommand class).</li>
+<li>[x] Register the command without the need of using plugin.yml to do it for you.</li>
+<li>[x] Register the permission without the need of using plugin.yml to do it for you - We'll do more relating to this soon to support it even better.</li>
+<li>[x] Notify you on any releases with this plugin from poggit to console.</li>
+<li>[x] Add config versioning.</li>
+<li>[x] Fix dependency issue.</li>
+<li>[x] Add virions section in plugin.yml, allowing the server to know what virions are in this plugin.</li>
+<li>[x] Add more requirements for virions in poggit.yml</li>
+<li>[x] Move all utils related to CustomQuery\iZeaoGamer\Utils.php. This is so we can keep the updaters seperated with the main class file. Things such as: Virions check, check for config updaters, and Update notifier will be in the Utils class.</li>
+<li>[x] Release out of the ALPHA stages.</li>
+<li>[x] Remove SpoonDetector due to its brokenness.</li>
+<li>[x] Allow spaces for each messages. At the moment, you can use: "" for spaces in the message/value section after the name of the option. We'll see if we can add such support soon.</li>
+<li>[x] Fix onEnable() state errors + Move isPhar() to Main class.</li>
+<li>[ ] Make messages configurable.</li>
+<li>[ ] Add formsapi support - not confirmed.</li>
+<li>[ ] Add an option whether to add support for formsapi or use command arguments instead.</li>
+</ul>
+<h3>
+<a id="user-content-note" class="anchor" href="#note" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NOTE</h3>
+<h2>
+<a id="user-content-this-plugin-is-currently-in-the-beta-stages-if-you-find-any-errors-or-issues-please-open-a-new-issue-with-the-error-log" class="anchor" href="#this-plugin-is-currently-in-the-beta-stages-if-you-find-any-errors-or-issues-please-open-a-new-issue-with-the-error-log" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>This plugin is currently in the BETA stages, If you find any errors or issues, please open a new issue with the error log.</h2>
+<h3>
+<a id="user-content-how-to-install" class="anchor" href="#how-to-install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HOW TO INSTALL</h3>
+<ol>
+<li>Simply download this plugin either from <a href="https://poggit.pmmp.io/p/CustomQuery/" rel="nofollow">https://poggit.pmmp.io/p/CustomQuery/</a> (More stable.) or from one of the dev builds (Bleeding edge builds), which you can get fom this link: <a href="https://poggit.pmmp.io/ci/iZeaoGamer/CustomQuery/CustomQuery" rel="nofollow">https://poggit.pmmp.io/ci/iZeaoGamer/CustomQuery/CustomQuery</a>
+</li>
+<li>Once installed, drop the plugin into plugins folder.</li>
+<li>Start/restart your server from console or terminal.</li>
+<li>Done. If any errors display, please open a new issue containing the error log.
+If you want to know about how to setup the plugin (IN GAME), then please go to HOW TO SETUP section.</li>
+</ol>
+<h3>
+<a id="user-content-how-to-setup" class="anchor" href="#how-to-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HOW TO SETUP</h3>
+<ol>
+<li>If the plugin is successfully installed, and working on your server, then go to plugin_data.</li>
+<li>Then go to where it says CustomQuery folder, the config should be available to you.</li>
+<li>Go to the config.yml file.</li>
+<li>Now, here's where all of the config options should be available to you. Now, this tutorial is mainly discussing about setting up your settings in game.</li>
+<li>So once you're on your config.yml file, copy one of the options (that you would like to add / setup) to in game. We'll use fake-slots as an example.</li>
+<li>Then, use /customquery fake-slots true, which would set up the fake slots option to true. You can use the option as false as well if you prefer not to use such options.</li>
+</ol>
+<p>Want to setup min-max player slots of your fake querying? Then great! Here's how:</p>
+<ol>
+<li>Go to the config.yml file (as instructed above from before.)</li>
+<li>Copy the option: min-slots and use /customquery min-slots 10, which will set up 10 as the minimum slots as lowest player slots you can go to.</li>
+<li>Then copy the option: max-slots and use /customquery max-slots 1000, which will set up 1,000 as the maximum slots as highest player slots you can go up to.</li>
+</ol>
+<p>These are just examples of how to setup your config options.
+To know more about setting up as more examples, please head over to OPTIONS EXPLAINATION section.</p>
+<h3>
+<a id="user-content-options-explaination" class="anchor" href="#options-explaination" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OPTIONS EXPLAINATION</h3>
+<p>The usages to the settings system, is: /customquery  
+ is the setting specified and provided to you from config.yml, and value is the value of the option. It could be: true or false if it's enabling a option or feature.
+If you're setting a message such as server list motd message, then that'd be a string, leading to a message for that option.
+If you're setting a numeric option such as: min-slots - 10 or max-slots 1000, then that'd be a int, which is a number-type option.
+If you're setting a array option (Arrays, meaning [] which you'd have to enter such as: set-plugins, then that'd be an array, which allows you to set multiple plugins as to what the server will display/show.
+boolean is true/false or a return type. So if you're setting a option that allows you to enable/disable a option / feature, which would either be: true, or false, then that's a boolean. If you're still having issues with setting up, then please open an issue regarding so. I'll make it easier soon by displaying all command usages (including settings which are validable from the /customquery help command.</p>

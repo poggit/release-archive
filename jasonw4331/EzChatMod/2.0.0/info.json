@@ -1,0 +1,64 @@
+{
+    "id": 10989,
+    "name": "EzChatMod",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EzChatMod/2.0.0",
+    "tagline": "A plugin for blocking server chat spam",
+    "artifact_url": "https://poggit.pmmp.io/r/200937",
+    "downloads": 273,
+    "score": null,
+    "repo_id": 241174087,
+    "repo_name": "jasonw4331/EzChatMod",
+    "project_id": 6330,
+    "project_name": "EzChatMod",
+    "build_id": 146452,
+    "build_number": 8,
+    "build_commit": "2d4d68d2eb32a89a43c2d305e0d7329f99925584",
+    "description_url": "https://poggit.pmmp.io/r/200934",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/EzChatMod/2d4d68d2eb32a89a43c2d305e0d7329f99925584/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/200936",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1677891831,
+    "state": 5,
+    "last_state_change_date": 1678093304,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "block",
+        "chat",
+        "message",
+        "spam"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

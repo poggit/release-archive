@@ -1,0 +1,68 @@
+<p>Block a specific type of device from entering your PMMP server!
+Due to this plugin being a very simple one, I will try my best
+to make it as customizable as I can, and bug-less as well.</p>
+<h2>
+<a id="user-content-disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DISCLAIMER</h2>
+<p>This plugin helps you block specific types of devices from entering your server, but it CAN still be
+BYPASSED if the user MODIFIES the type of their DEVICE using mods. You SHOULD be aware of such
+POSSIBILITY, even though MOST users probably do NOT know how to bypass it.</p>
+<h2>
+<a id="user-content-overall-description" class="anchor" href="#overall-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overall Description</h2>
+<pre><code>With this plugin, you may choose which types of devices should not be able
+to access your PMMP server (Join your server). You may select the devices 
+to be blocked in config.yml, and also change the kick message for each 
+device in there. More customization will come in future updates, so 
+I am open to any suggestions :)
+</code></pre>
+<h2>
+<a id="user-content-todo" class="anchor" href="#todo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TODO</h2>
+<p>[X] Test the plugin</p>
+<p>[] Fix bugs</p>
+<p>[] Implement support for more OS types</p>
+<p>[X] Basic implementation
+(Include basic OS types, make the plugin functional)</p>
+<p>[X] Color Support for Config</p>
+<p>[] More configuration :D</p>
+<h2>
+<a id="user-content-why-is-it-useful" class="anchor" href="#why-is-it-useful" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why is it useful?</h2>
+<p>For a very long time, many players have complained about how the PvP between W10
+players and PE players is very unfair. W10 users have better control over the player which
+is claimed to grant them a strong advantage in PvP. With this plugin, you can now make
+your server only allow mobile players, or only allow W10 players, or disallow both.
+This plugin basically gives you full control over what type of devices should be
+able to access your server!</p>
+<h2>
+<a id="user-content-settings" class="anchor" href="#settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Settings</h2>
+<p>Written Like This:
+parameter: value - description</p>
+<ul>
+<li>
+<p>w10: true - When enabled, W10 players will not be able to join the server.</p>
+</li>
+<li>
+<p>w10-kick-reason: "&amp;cPlease change your device to play on this server" - The kick reason given to the player for using W10. Not functional if W10 players are allowed to play.</p>
+</li>
+<li>
+<p>w10-quit-message: "&amp;cA Player was kicked for being a W10 player" - Leave message of the player broadcasted to everyone when the player gets kicked for being W10. Not functional if W10 players are allowed to play. ( Color support, tags: currently broken )</p>
+</li>
+<li>
+<p>android: false - When enabled, Android players will not be able to join the server.</p>
+</li>
+<li>
+<p>android-kick-reason: "&amp;cPlease change your device to play on this server" - The kick reason given to the player for using an Android device. Not functional if Android players are allowed to play.</p>
+</li>
+<li>
+<p>android-quit-message: "&amp;cA Player was kicked for being an Android player" - Leave message of the player broadcasted to everyone when the player gets kicked for being an IOS user. Not functional if Android players are allowed to play. ( Color support, tags: currently broken )</p>
+</li>
+<li>
+<p>ios: false - When enabled, IOS players will not be able to join the server.</p>
+</li>
+<li>
+<p>ios-kick-reason: "&amp;cPlease change your device to play on this server" - The kick reason given to the player for using an IOS device. Not functional if IOS players are allowed to play.</p>
+</li>
+<li>
+<p>ios-quit-message: "&amp;cA Player was kicked for being an IOS player" - Leave message of the player broadcasted to everyone when the player got kicked for being an IOS user. Not functional if IOS players are allowed to play. ( Color support, tags: currently broken )</p>
+</li>
+</ul>
+<p>-Report bugs in issues on Github, and suggest more customization features there as well :D
+-P.S. Currently the {player} tag for quit messages does not work, most likely due to a packet issue. I am fully aware of that issue, so there is no need to report it!</p>

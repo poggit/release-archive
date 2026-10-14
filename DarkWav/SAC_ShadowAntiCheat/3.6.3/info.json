@@ -1,0 +1,71 @@
+{
+    "id": 1965,
+    "name": "ShadowAntiCheat",
+    "version": "3.6.3",
+    "html_url": "https://poggit.pmmp.io/p/ShadowAntiCheat/3.6.3",
+    "tagline": "A powerfull AntiCheat software for MC:BE made to detect unfair gamplay advantages.",
+    "artifact_url": "https://poggit.pmmp.io/r/44153",
+    "downloads": 1944,
+    "score": 5,
+    "repo_id": 68397840,
+    "repo_name": "DarkWav/SAC",
+    "project_id": 3311,
+    "project_name": "ShadowAntiCheat",
+    "build_id": 51075,
+    "build_number": 58,
+    "build_commit": "5756bd94118da10d16b9fcce160cd97664711cb0",
+    "description_url": "https://poggit.pmmp.io/r/44152",
+    "icon_url": "https://raw.githubusercontent.com/DarkWav/SAC/5756bd94118da10d16b9fcce160cd97664711cb0/meta/poggit-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1540708606,
+    "state": 5,
+    "last_state_change_date": 1540714361,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "anticheat"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "AntiInstaBreak",
+            "version": "0.1.2",
+            "depRelId": 1525,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Requester": [
+            "Matthww",
+            "Prisane",
+            "infernus101",
+            "teracube"
+        ],
+        "Contributor": [
+            "EmReTr1",
+            "kairusds"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

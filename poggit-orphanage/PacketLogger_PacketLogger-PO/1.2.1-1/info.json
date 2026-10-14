@@ -1,0 +1,64 @@
+{
+    "id": 674,
+    "name": "PacketLogger-PO",
+    "version": "1.2.1-1",
+    "html_url": "https://poggit.pmmp.io/p/PacketLogger-PO/1.2.1-1",
+    "tagline": "Log network packets as you want",
+    "artifact_url": "https://poggit.pmmp.io/r/13784",
+    "downloads": 1884,
+    "score": 3,
+    "repo_id": 79981949,
+    "repo_name": "poggit-orphanage/PacketLogger",
+    "project_id": 192,
+    "project_name": "PacketLogger-PO",
+    "build_id": 29604,
+    "build_number": 5,
+    "build_commit": "34a4f186c971616b9a6898dcc0df7969c0929f4e",
+    "description_url": "https://poggit.pmmp.io/r/13781",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PacketLogger/34a4f186c971616b9a6898dcc0df7969c0929f4e/packetlogger.png",
+    "changelog_url": "https://poggit.pmmp.io/r/13783",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507573172,
+    "state": 5,
+    "last_state_change_date": 1507573179,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "capture",
+        "debug",
+        "logger",
+        "packet",
+        "protocol"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "shoghicp"
+        ],
+        "Contributor": [
+            "Intyre"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

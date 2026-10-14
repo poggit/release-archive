@@ -1,0 +1,99 @@
+<h1>
+<a id="user-content-bettervoting" class="anchor" href="#bettervoting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BetterVoting</h1>
+<p>BetterVoting is a PocketMine-MP plugin for letting players claim their rewards from voting for your server.</p>
+<h2>
+<a id="user-content-why-bettervoting-over-others" class="anchor" href="#why-bettervoting-over-others" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why BetterVoting over others?</h2>
+<p>BetterVoting uses your server's api key which means you don't need to download any VRC files. BetterVoting is also an active project which means any issues can be resolved as quickly as possible.</p>
+<h2>
+<a id="user-content-how-to-configure-bettervoting" class="anchor" href="#how-to-configure-bettervoting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to configure BetterVoting?</h2>
+<p>When you first install BetterVoting, you will get a default config that looks like this:</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> API Key from https://minecraftpocket-servers.com</span>
+<span class="pl-ent">api-key</span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+<span class="pl-ent">claim</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Message Variables:</span>
+  <span class="pl-c"><span class="pl-c">#</span> {real-name} - The voter's full username</span>
+  <span class="pl-c"><span class="pl-c">#</span> {display-name} - The voter's display name</span>
+  <span class="pl-c"><span class="pl-c">#</span> &amp; - Change message color</span>
+  <span class="pl-c"><span class="pl-c">#</span> {x} - Voter's X coordinate</span>
+  <span class="pl-c"><span class="pl-c">#</span> {floor-x} - Voter's X coordinate rounded</span>
+  <span class="pl-c"><span class="pl-c">#</span> {y} - Voter's Y coordinate</span>
+  <span class="pl-c"><span class="pl-c">#</span> {floor-y} - Voter's Y coordinate rounded</span>
+  <span class="pl-c"><span class="pl-c">#</span> {z} - Voter's Z coordinate</span>
+  <span class="pl-c"><span class="pl-c">#</span> {floor-z} - Voter's Z coordinate rounded</span>
+  <span class="pl-ent">broadcast</span>: <span class="pl-s"><span class="pl-pds">"</span>{real-name} has voted for free rewards!<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> Message to be broadcast when a player votes</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>Thanks for voting for our server<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> Message to send to the player who voted</span>
+  <span class="pl-ent">items</span>:
+    <span class="pl-c"><span class="pl-c">#</span> Items to be given to the player when they vote</span>
+    <span class="pl-c"><span class="pl-c">#</span> Item format: "ItemName:Damage:ICount:CustomName:EnchantName:EnchantLevel"</span>
+    <span class="pl-c"><span class="pl-c">#</span> Item IDs are not supported, use the item names instead</span>
+    <span class="pl-c"><span class="pl-c">#</span> Replace spaces with "_" for item names</span>
+    <span class="pl-c"><span class="pl-c">#</span> For no custom name/default item name, put "default"</span>
+    <span class="pl-c"><span class="pl-c">#</span> First 4 fields are required, enchants are optional</span>
+    <span class="pl-c"><span class="pl-c">#</span> You can have unlimited enchants, just follow the format "EnchantName:EnchantLevel:EnchantName:EnchantLevel" etc</span>
+    <span class="pl-c"><span class="pl-c">#</span> There is also support for PiggyCustomEnchants, use same format as normal enchants</span>
+    - <span class="pl-s"><span class="pl-pds">"</span>diamond_sword:0:1:Vote Sword:sharpness:5:unbreaking:3<span class="pl-pds">"</span></span>
+    - <span class="pl-s"><span class="pl-pds">"</span>diamond_pickaxe:0:1:default:efficiency:2:driller:3<span class="pl-pds">"</span></span>
+  <span class="pl-ent">commands</span>:
+    <span class="pl-c"><span class="pl-c">#</span> Commands to be executed by console when a player votes</span>
+    <span class="pl-c"><span class="pl-c">#</span> Do not include "/" at the start of the command</span>
+    - <span class="pl-s"><span class="pl-pds">"</span>title {real-name} title &amp;aVote<span class="pl-pds">"</span></span>
+    - <span class="pl-s"><span class="pl-pds">"</span>title {real-name} subtitle &amp;7Thanks for voting!<span class="pl-pds">"</span></span></pre></div>
+<p>The first thing you can see in the config is <code>api-key</code>. This is what BetterVoting uses to connect to the vote website and claim players' votes.
+To get your API key, go to <a href="https://minecraftpocket-servers.com/servers/manage/" rel="nofollow">Manage Your Servers</a> on minecraftpocket-servers and paste in your API key.</p>
+<blockquote>
+<p>Notice: As of now, BetterVoting only supports minecraftpocket-servers, and 1 server. Multi website support is a planned feature</p>
+</blockquote>
+<p>Next in the config you will see claim information. The <code>broadcast</code> key, this is the message that get's broadcasted to the server when a player votes
+The <code>message</code> key is the message sent to the player after they vote</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>{real-name}</td>
+<td>The voter's full username</td>
+</tr>
+<tr>
+<td>{display-name}</td>
+<td>The voter's display name</td>
+</tr>
+<tr>
+<td>&amp;</td>
+<td>Change message color</td>
+</tr>
+<tr>
+<td>{x}</td>
+<td>Voter's X coordinate</td>
+</tr>
+<tr>
+<td>{floor-x}</td>
+<td>Voter's X coordinate rounded</td>
+</tr>
+<tr>
+<td>{y}</td>
+<td>Voter's Y coordinate</td>
+</tr>
+<tr>
+<td>{floor-y}</td>
+<td>Voter's Y coordinate rounded</td>
+</tr>
+<tr>
+<td>{z}</td>
+<td>Voter's Z coordinate</td>
+</tr>
+<tr>
+<td>{floor-z}</td>
+<td>Voter's Z coordinate rounded</td>
+</tr>
+</tbody>
+</table>
+<p>The <code>items</code> array is the items the player will be given for voting. If you follow the guidelines you shouldn't have any problems.</p>
+<blockquote>
+<p>Notice: Issues regarding items not working will be closed, as it works fine if you follow the guidelines</p>
+</blockquote>
+<p>The <code>commands</code> array is the commands to be executed by console when a player votes. Don't include the <code>/</code> in commands.
+You can use the message variables in commands aswell</p>

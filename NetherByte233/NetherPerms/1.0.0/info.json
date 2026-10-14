@@ -1,0 +1,70 @@
+{
+    "id": 14222,
+    "name": "NetherPerms",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/NetherPerms/1.0.0",
+    "tagline": "NetherPerms allows server admins to control what features players can use by creating groups and assigning permissions.",
+    "artifact_url": "https://poggit.pmmp.io/r/259973",
+    "downloads": 92,
+    "score": null,
+    "repo_id": 1056191532,
+    "repo_name": "NetherByte233/NetherPerms",
+    "project_id": 14914,
+    "project_name": "NetherPerms",
+    "build_id": 189500,
+    "build_number": 9,
+    "build_commit": "644c949db73c6681b0310d214b8b97eda20a5622",
+    "description_url": "https://poggit.pmmp.io/r/259972",
+    "icon_url": "https://raw.githubusercontent.com/NetherByte233/NetherPerms/644c949db73c6681b0310d214b8b97eda20a5622/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1759578942,
+    "state": 5,
+    "last_state_change_date": 1772439428,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PlaceholderAPI_NB",
+            "version": "1.0.0",
+            "depRelId": 14216,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "NetherByte233"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

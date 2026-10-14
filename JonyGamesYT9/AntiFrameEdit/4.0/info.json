@@ -1,0 +1,61 @@
+{
+    "id": 7748,
+    "name": "AntiFrameEdit",
+    "version": "4.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiFrameEdit/4.0",
+    "tagline": "A plugin so that players on your server cannot use Frames.",
+    "artifact_url": "https://poggit.pmmp.io/r/143611",
+    "downloads": 545,
+    "score": 5,
+    "repo_id": 399911918,
+    "repo_name": "JonyGamesYT9/AntiFrameEdit",
+    "project_id": 9588,
+    "project_name": "AntiFrameEdit",
+    "build_id": 112974,
+    "build_number": 36,
+    "build_commit": "63e6a203ce5466b2a55d125da8765ee2fa106435",
+    "description_url": "https://poggit.pmmp.io/r/143608",
+    "icon_url": "https://raw.githubusercontent.com/JonyGamesYT9/AntiFrameEdit/63e6a203ce5466b2a55d125da8765ee2fa106435/frame.png",
+    "changelog_url": "https://poggit.pmmp.io/r/143610",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1633051235,
+    "state": 5,
+    "last_state_change_date": 1633182749,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "frame"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JonyGamesYT9"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

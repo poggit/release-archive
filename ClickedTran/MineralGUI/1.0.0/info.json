@@ -1,0 +1,102 @@
+{
+    "id": 11880,
+    "name": "MineralGUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MineralGUI/1.0.0",
+    "tagline": "MineralGUI on PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/215151",
+    "downloads": 36,
+    "score": null,
+    "repo_id": 660940537,
+    "repo_name": "ClickedTran/MineralGUI",
+    "project_id": 12711,
+    "project_name": "MineralGUI",
+    "build_id": 158923,
+    "build_number": 20,
+    "build_commit": "4836ae85d07ab4fac324a09132179e7afecb6981",
+    "description_url": "https://poggit.pmmp.io/r/215150",
+    "icon_url": "https://raw.githubusercontent.com/Clickedtran/MineralGUI/4836ae85d07ab4fac324a09132179e7afecb6981/mineral.jpg",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688728504,
+    "state": 5,
+    "last_state_change_date": 1688985208,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "gui",
+        "mineral",
+        "mineralgui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.1",
+            "depRelId": 11649,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Clickedtran"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "800f8c34f23e2aa1805b0dd97a5f47e0b1979bb9",
+            "build_id": 156926
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "65f9ab5d12f885fa51a609fe18df57c99b79ca80",
+            "build_id": 156595
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "f0ef2ec116d065e5dba3b83646b3bc97d5f433c4",
+            "build_id": 157532
+        }
+    ]
+}

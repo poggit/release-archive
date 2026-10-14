@@ -1,0 +1,46 @@
+<h3>
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h3>
+<p>Define chests which auto-refill according to the config.</p>
+<p>Define "chestmodes" in treasture.yml with an Item, MaxAmount and Probability for each of the 27 slots, and TreasureChest will refill according to that chestmode every x seconds, defined in config.txt</p>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<p><code>/tchest list</code> : list all configured treasure chestmodes</p>
+<p><code>/tchest common</code> : start using the 'common' setting</p>
+<p><code>/tchest {chestmode}</code> and start tapping chests...</p>
+<p><code>/tchest off</code> to stop making Treasure Chests</p>
+<p>Define the refill rate in seconds in the config.txt file</p>
+<h3>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h3>
+<p>Define your own "chestmodes" in treasure.yml; three are predefined to get you started: <code>common</code>, <code>uncommon</code> and <code>rare</code></p>
+<p>Tap chests to enable automatic refill according to the chosen chestmode. The format for each chestmode slot must be ID:AMOUNT:PROBABILITY, for example:</p>
+<pre><code>---
+common:
+ - "17:64:100"
+ - "5:20:80"
+ - "100:1:80"
+ - "2:64:80"
+ - "5:20:90"
+ - "100:1:80"
+uncommon:
+ - "104:1:50"
+ - "5:20:30"
+ - "100:1:40"
+rare:
+ - "64:64:1"
+ - "276:1:10"
+ - "264:1:10"
+ - "19:1:10"
+ - "25:20:10"
+ - "43:1:5"
+diamond:
+ - "264:64:5"
+...
+
+</code></pre>
+<p>RandomizeAmount Setting:</p>
+<p>In prefs.yml you can define whether the AMOUNT of an item (the second number) is a fixed amount to be added to chests, or a random number between 1 and the amount.</p>
+<p>In the above chestmode example, <code>/tchest diamond</code> would make treasure chests that have a 5% chance of being filled with a random number of diamonds between 1 and 64, unless <code>RandomizeAmount</code> was set to false... in which case there would be a 5% chance that <code>diamond</code> treasure chests would be refilled with (always) 64 Diamonds.</p>
+<p>You can define up to 27 slots for each chestmode</p>
+<h3>
+<a id="user-content-credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h3>
+<p>Idea by 17bhata, Inspired by Falkirk's "ChestRefill"</p>

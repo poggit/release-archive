@@ -1,0 +1,49 @@
+<ul>
+<li>Brand new extensions now available over on this <a href="https://github.com/jackthehack21/koth-extensions">repo</a>
+</li>
+<li>Database options (default Sqlite3, only two options as of now [sqlite3, yaml])</li>
+<li>Massive changes in message formats, almost all messages can be changed in messages.yml</li>
+<li>options in config.yml to:
+<ul>
+<li>Broadcast events server wide</li>
+<li>Option to auto-start arena or wait for /koth start</li>
+<li>Countdown options are now configurable</li>
+<li>The following are now optional:
+<ul>
+<li>block_commands (NEW !)</li>
+<li>prevent_place</li>
+<li>prevent_break</li>
+<li>prevent_gamemode_change</li>
+<li>keep_inventory</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Massive changes to the update feature:
+<ul>
+<li>Check for updates on server start (you can change URL for those who take it to the next level <em>wink</em>)</li>
+<li>Download updates and install updates automatically no need to do anything except restart server !
+<em>Notice: This option is disabled by default by enabling it you accept the risk that the plugin may become corrupt or worse. (but good news is its been tested ALOT, and not once has anything caused lasting damage)</em>
+</li>
+</ul>
+</li>
+<li>For those over the seas, the help files got translated to a few modern foreign languages (more to come)</li>
+<li>You can now re-set position 1 and 2 of the hill if you need to move the arena (spawn points aren't removable yet)</li>
+</ul>
+<p><strong>For developers:</strong></p>
+<ul>
+<li>Notice: The GameTimer task seconds played has been switched to seconds left to cater for events and extending game play.</li>
+<li>The plugin got some housecleaning now almost everything has type hints for your ease and Koth events are now in use.</li>
+<li>The following events are used, please check the source for their individual vars:
+<ul>
+<li>KothEvent (base, all events extend)</li>
+<li>ArenaCreateEvent</li>
+<li>ArenaDeleteEvent</li>
+<li>ArenaEndEvent</li>
+<li>ArenaPreStartEvent</li>
+<li>ArenaStartEvent</li>
+<li>ArenaRemovePlayerEvent</li>
+<li>ArenaAddPlayerEvent</li>
+</ul>
+</li>
+</ul>

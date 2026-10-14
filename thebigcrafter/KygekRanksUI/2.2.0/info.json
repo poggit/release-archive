@@ -1,0 +1,113 @@
+{
+    "id": 12225,
+    "name": "KygekRanksUI",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/KygekRanksUI/2.2.0",
+    "tagline": "Shows information about available ranks in the server",
+    "artifact_url": "https://poggit.pmmp.io/r/220074",
+    "downloads": 1413,
+    "score": null,
+    "repo_id": 292841512,
+    "repo_name": "thebigcrafter/KygekRanksUI",
+    "project_id": 7714,
+    "project_name": "KygekRanksUI",
+    "build_id": 161867,
+    "build_number": 27,
+    "build_commit": "76727a4d83c7e90bda378e9ca87f1109c582dffa",
+    "description_url": "https://poggit.pmmp.io/r/220071",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/KygekRanksUI/76727a4d83c7e90bda378e9ca87f1109c582dffa/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220073",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692099781,
+    "state": 5,
+    "last_state_change_date": 1692132282,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "infoui",
+        "kygek",
+        "kygekranks",
+        "kygekranksinfo",
+        "kygekranksinfoui",
+        "kygekrankslist",
+        "kygekrankslistui",
+        "kygekraqmak",
+        "kygekraqmakranks",
+        "kygekraqmakranksinfo",
+        "kygekraqmakrankslist",
+        "kygekraqmakranksui",
+        "kygekraqmakui",
+        "kygekteamranks",
+        "kygekteamranksinfo",
+        "kygekteamranksinfoui",
+        "kygekteamrankslist",
+        "kygekteamrankslistui",
+        "kygekteamranksui",
+        "kygekteamui",
+        "kygekui",
+        "listui",
+        "ranks",
+        "ranksinfo",
+        "ranksinfoui",
+        "rankslist",
+        "rankslistui",
+        "ranksui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "KygekDev",
+            "Kygekraqmak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "Hydrogen",
+            "project_id": 12575,
+            "repo_id": 649178263,
+            "repo_name": "thebigcrafter/Hydrogen",
+            "repo_path": "",
+            "build_commit": "36c9b3a3bbe31031bc1c324d96d721cef951086f",
+            "build_id": 158911
+        }
+    ]
+}

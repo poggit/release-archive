@@ -1,0 +1,101 @@
+{
+    "id": 9004,
+    "name": "CustomShopUI",
+    "version": "5.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomShopUI/5.0.0",
+    "tagline": "Easy To Use Customizable ShopUI for PocketMine.",
+    "artifact_url": "https://poggit.pmmp.io/r/162603",
+    "downloads": 434,
+    "score": 3,
+    "repo_id": 155371768,
+    "repo_name": "AlexPads/ShopUI-FormAPI-Working",
+    "project_id": 4155,
+    "project_name": "ShopUI-FormAPI-Working",
+    "build_id": 124328,
+    "build_number": 82,
+    "build_commit": "b52411888f7f0e75c36ebde8b29ea52290fc80aa",
+    "description_url": "https://poggit.pmmp.io/r/162600",
+    "icon_url": "https://raw.githubusercontent.com/AlexPads/ShopUI-FormAPI-Working/b52411888f7f0e75c36ebde8b29ea52290fc80aa/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/162602",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645267744,
+    "state": 5,
+    "last_state_change_date": 1645273535,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Commands",
+        "Custom",
+        "Easy",
+        "Shop",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.4",
+            "depRelId": 8999,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "shelly7w7",
+            "AngelliaX",
+            "cooldogedev",
+            "LetCute",
+            "LordFit",
+            "yuzhizn"
+        ],
+        "Collaborator": [
+            "AlexPads"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "a853efdf20aa1dc9af7009a9a67b1d27b5446a9e",
+            "build_id": 124323
+        }
+    ]
+}

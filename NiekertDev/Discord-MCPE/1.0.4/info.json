@@ -1,0 +1,81 @@
+{
+    "id": 611,
+    "name": "DiscordMCPE",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/DiscordMCPE/1.0.4",
+    "tagline": "Connect PMMP with Discord!",
+    "artifact_url": "https://poggit.pmmp.io/r/12931",
+    "downloads": 643,
+    "score": 2,
+    "repo_id": 85476134,
+    "repo_name": "NiekertDev/Discord-MCPE",
+    "project_id": 339,
+    "project_name": "Discord-MCPE",
+    "build_id": 28992,
+    "build_number": 27,
+    "build_commit": "81b62dbc7cbeae58bb7905ba7216761570c88b65",
+    "description_url": "https://poggit.pmmp.io/r/12928",
+    "icon_url": "https://raw.githubusercontent.com/NiekertDev/Discord-MCPE/81b62dbc7cbeae58bb7905ba7216761570c88b65/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/12930",
+    "license": "custom",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1506856161,
+    "state": 5,
+    "last_state_change_date": 1507731076,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "discord",
+        "MCPE",
+        "Discord-MCPE",
+        "Minecraft",
+        "Connect",
+        "Webhooks",
+        "Bot"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA8"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "UltiGB",
+            "Aericio",
+            "AvgZing"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

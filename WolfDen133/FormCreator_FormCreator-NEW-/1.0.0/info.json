@@ -1,0 +1,73 @@
+{
+    "id": 6796,
+    "name": "FormCreator",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FormCreator/1.0.0",
+    "tagline": "A simple plugin for creating simple forms through config",
+    "artifact_url": "https://poggit.pmmp.io/r/128166",
+    "downloads": 36,
+    "score": null,
+    "repo_id": 375054325,
+    "repo_name": "WolfDen133/FormCreator",
+    "project_id": 9104,
+    "project_name": "FormCreator-NEW-",
+    "build_id": 103735,
+    "build_number": 4,
+    "build_commit": "c8799cf5ef56af18633bac4591a50b1e868d0581",
+    "description_url": "https://poggit.pmmp.io/r/128165",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1623193341,
+    "state": 5,
+    "last_state_change_date": 1623370622,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WolfDen133"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

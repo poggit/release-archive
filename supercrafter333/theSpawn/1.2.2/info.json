@@ -1,0 +1,82 @@
+{
+    "id": 6368,
+    "name": "theSpawn",
+    "version": "1.2.2",
+    "html_url": "https://poggit.pmmp.io/p/theSpawn/1.2.2",
+    "tagline": "A PocketMine-MP plugin as an alternative to MSpawns.",
+    "artifact_url": "https://poggit.pmmp.io/r/121487",
+    "downloads": 86,
+    "score": null,
+    "repo_id": 293540265,
+    "repo_name": "supercrafter333/theSpawn",
+    "project_id": 8640,
+    "project_name": "theSpawn",
+    "build_id": 99911,
+    "build_number": 27,
+    "build_commit": "4ef9c0b214d89d044a037138f23ba3c11168673f",
+    "description_url": "https://poggit.pmmp.io/r/121588",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/theSpawn/4ef9c0b214d89d044a037138f23ba3c11168673f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/121590",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1617735289,
+    "state": 5,
+    "last_state_change_date": 1617956958,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "home",
+        "hubs",
+        "mspawns",
+        "php",
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pocketmine",
+        "random-hubs",
+        "spawns",
+        "thespawn",
+        "tpa",
+        "warp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "AyzrixYTB",
+            "BlusteryS",
+            "MrBlasyMSK"
+        ],
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

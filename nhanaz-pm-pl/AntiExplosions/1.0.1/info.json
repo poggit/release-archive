@@ -1,0 +1,51 @@
+{
+    "id": 10192,
+    "name": "AntiExplosions",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AntiExplosions/1.0.1",
+    "tagline": "Prevent explosions from destroying blocks",
+    "artifact_url": "https://poggit.pmmp.io/r/184920",
+    "downloads": 1266,
+    "score": null,
+    "repo_id": 456594234,
+    "repo_name": "nhanaz-pm-pl/AntiExplosions",
+    "project_id": 10553,
+    "project_name": "AntiExplosions",
+    "build_id": 139334,
+    "build_number": 4,
+    "build_commit": "df11dec1f62396e11b1540bea4ce4818947199b6",
+    "description_url": "https://poggit.pmmp.io/r/184917",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/AntiExplosions/df11dec1f62396e11b1540bea4ce4818947199b6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/184919",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1657056024,
+    "state": 5,
+    "last_state_change_date": 1657062461,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

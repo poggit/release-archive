@@ -1,0 +1,84 @@
+{
+    "id": 6846,
+    "name": "DeathEffect",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/DeathEffect/1.0",
+    "tagline": "DeathEffect Plugin for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/129073",
+    "downloads": 688,
+    "score": 3,
+    "repo_id": 377039796,
+    "repo_name": "Pedhot-Dev/DeathEffect",
+    "project_id": 9134,
+    "project_name": "DeathEffect",
+    "build_id": 104302,
+    "build_number": 5,
+    "build_commit": "8d4b04ea23550e00187a51c5b5c6fce95de8c905",
+    "description_url": "https://poggit.pmmp.io/r/129072",
+    "icon_url": "https://raw.githubusercontent.com/Pedhot-Dev/DeathEffect/8d4b04ea23550e00187a51c5b5c6fce95de8c905/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1623737285,
+    "state": 5,
+    "last_state_change_date": 1624103984,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "death",
+        "effect"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Pedhot-Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "a3bf0562b6b35f8d96b5c81a962fa550677baaf0",
+            "build_id": 90357
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

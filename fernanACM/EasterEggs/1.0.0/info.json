@@ -1,0 +1,121 @@
+{
+    "id": 13821,
+    "name": "EasterEggs",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EasterEggs/1.0.0",
+    "tagline": "Easter eggs for PocketMine-MP 5.0 servers",
+    "artifact_url": "https://poggit.pmmp.io/r/252437",
+    "downloads": 255,
+    "score": 5,
+    "repo_id": 894862142,
+    "repo_name": "fernanACM/EasterEggs",
+    "project_id": 14519,
+    "project_name": "EasterEggs",
+    "build_id": 184394,
+    "build_number": 2,
+    "build_commit": "61f72e49f2641b971cc6b971ef79c3f3b628bf65",
+    "description_url": "https://poggit.pmmp.io/r/252436",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/EasterEggs/61f72e49f2641b971cc6b971ef79c3f3b628bf65/icon-eastereggs.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1738132267,
+    "state": 5,
+    "last_state_change_date": 1739051002,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "ACM",
+        "Easter",
+        "EasterEggs",
+        "Eggs"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ScoreHud",
+            "version": "8.0.0",
+            "depRelId": 12550,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        },
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "476235381a3908847c069496d04ec5b07b3011e8",
+            "build_id": 176854
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "7e0555abdcdb6c3535fcabbf8c1f3e220db0c6c7",
+            "build_id": 182000
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "id": 8800,
+    "name": "PlayerScale",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerScale/1.0.0",
+    "tagline": "PlayerScale Allows You To Change The Size Of Players!",
+    "artifact_url": "https://poggit.pmmp.io/r/159676",
+    "downloads": 1087,
+    "score": 5,
+    "repo_id": 434995978,
+    "repo_name": "ElectroGamesYT/PlayerScale",
+    "project_id": 10060,
+    "project_name": "PlayerScale",
+    "build_id": 122558,
+    "build_number": 10,
+    "build_commit": "ef913e5c458904ba6cf21ba8b174db0423e00fd4",
+    "description_url": "https://poggit.pmmp.io/r/159675",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/PlayerScale/ef913e5c458904ba6cf21ba8b174db0423e00fd4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643783435,
+    "state": 5,
+    "last_state_change_date": 1644657185,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "scale",
+        "scaleui",
+        "size",
+        "sizeui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

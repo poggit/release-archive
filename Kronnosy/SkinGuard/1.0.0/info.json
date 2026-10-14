@@ -1,0 +1,58 @@
+{
+    "id": 13596,
+    "name": "SkinGuard",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SkinGuard/1.0.0",
+    "tagline": "SkinGuard is a plugin that protects players from invalid skins and 4D skins.",
+    "artifact_url": "https://poggit.pmmp.io/r/248902",
+    "downloads": 224,
+    "score": null,
+    "repo_id": 874252045,
+    "repo_name": "Kronnosy/SkinGuard",
+    "project_id": 14291,
+    "project_name": "SkinGuard",
+    "build_id": 182113,
+    "build_number": 1,
+    "build_commit": "baf1d2923d97f13c5decf8f604ae3c194ac353e7",
+    "description_url": "https://poggit.pmmp.io/r/248901",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1729174216,
+    "state": 5,
+    "last_state_change_date": 1732246463,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pmmp5",
+        "pocketmine",
+        "pocketmine-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Kronnosy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

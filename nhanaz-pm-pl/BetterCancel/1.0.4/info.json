@@ -1,0 +1,72 @@
+{
+    "id": 11479,
+    "name": "BetterCancel",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/BetterCancel/1.0.4",
+    "tagline": "BlockBreakEvent and BlockPlaceEvent is better when canceled!",
+    "artifact_url": "https://poggit.pmmp.io/r/209424",
+    "downloads": 256,
+    "score": null,
+    "repo_id": 495544116,
+    "repo_name": "nhanaz-pm-pl/BetterCancel",
+    "project_id": 11204,
+    "project_name": "BetterCancel",
+    "build_id": 155950,
+    "build_number": 18,
+    "build_commit": "744ba04eda48e0d59f65f7c5ce413239a6e22a33",
+    "description_url": "https://poggit.pmmp.io/r/209421",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/BetterCancel/744ba04eda48e0d59f65f7c5ce413239a6e22a33/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209423",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685709938,
+    "state": 5,
+    "last_state_change_date": 1685715810,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bettercancel",
+        "deny",
+        "forcefield",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "sky-min"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libBedrock",
+            "project_id": 11911,
+            "repo_id": 551801316,
+            "repo_name": "NhanAZ-Libraries/libBedrock",
+            "repo_path": "",
+            "build_commit": "646109c8300377610f652b4ecaa5255074037bba",
+            "build_id": 155665
+        }
+    ]
+}

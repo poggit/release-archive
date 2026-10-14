@@ -1,0 +1,70 @@
+{
+    "id": 2393,
+    "name": "MultiEconomy",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/MultiEconomy/1.1.0",
+    "tagline": "Economy plugin with multiple currencies",
+    "artifact_url": "https://poggit.pmmp.io/r/50694",
+    "downloads": 1657,
+    "score": null,
+    "repo_id": 158875803,
+    "repo_name": "TwistedAsylumMC/MultiEconomy",
+    "project_id": 4270,
+    "project_name": "MultiEconomy",
+    "build_id": 55265,
+    "build_number": 3,
+    "build_commit": "d33762760d13aa1065f54c27bbc50244270a1d18",
+    "description_url": "https://poggit.pmmp.io/r/50962",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1548798810,
+    "state": 5,
+    "last_state_change_date": 1549084395,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "balancetop",
+        "eco",
+        "economy",
+        "money",
+        "multi",
+        "multiple"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TwistedAsylumMC"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

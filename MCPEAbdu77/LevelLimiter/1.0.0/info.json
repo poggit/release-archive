@@ -1,0 +1,77 @@
+{
+    "id": 6450,
+    "name": "LevelLimiter",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LevelLimiter/1.0.0",
+    "tagline": "A PocketMine-MP plugin which let's you whitelist specific commands on specific worlds.",
+    "artifact_url": "https://poggit.pmmp.io/r/122648",
+    "downloads": 67,
+    "score": 5,
+    "repo_id": 356379935,
+    "repo_name": "MCPEAbdu77/LevelLimiter",
+    "project_id": 8836,
+    "project_name": "LevelLimiter",
+    "build_id": 100527,
+    "build_number": 13,
+    "build_commit": "e4a357779ec23e2636163c5d7e3ea45dd45ae74d",
+    "description_url": "https://poggit.pmmp.io/r/122652",
+    "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/LevelLimiter/e4a357779ec23e2636163c5d7e3ea45dd45ae74d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1618515296,
+    "state": 5,
+    "last_state_change_date": 1618527307,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Block",
+        "Blocker",
+        "blocking",
+        "cmd",
+        "command",
+        "CommandLimiter",
+        "level",
+        "LevelLimiter",
+        "limiter",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MCPEAbdu77"
+        ],
+        "Contributor": [
+            "ErikPDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

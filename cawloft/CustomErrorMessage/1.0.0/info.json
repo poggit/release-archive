@@ -1,0 +1,61 @@
+{
+    "id": 2577,
+    "name": "CustomErrorMessage",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomErrorMessage/1.0.0",
+    "tagline": "Customized error message",
+    "artifact_url": "https://poggit.pmmp.io/r/53389",
+    "downloads": 1761,
+    "score": 5,
+    "repo_id": 174191023,
+    "repo_name": "cawloft/CustomErrorMessage",
+    "project_id": 4802,
+    "project_name": "CustomErrorMessage",
+    "build_id": 56828,
+    "build_number": 1,
+    "build_commit": "659a79e5e134318adb26e835f3452243bad16b1a",
+    "description_url": "https://poggit.pmmp.io/r/53717",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1551899560,
+    "state": 5,
+    "last_state_change_date": 1552269359,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "error"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "cawloft"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,59 @@
+{
+    "id": 12022,
+    "name": "OnePlayerSleep",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/OnePlayerSleep/1.0.0",
+    "tagline": "Only one player needs to sleep to skip the night!",
+    "artifact_url": "https://poggit.pmmp.io/r/217511",
+    "downloads": 2502,
+    "score": null,
+    "repo_id": 665770430,
+    "repo_name": "ecstsylove/OnePlayerSleep",
+    "project_id": 12776,
+    "project_name": "OnePlayerSleep",
+    "build_id": 160339,
+    "build_number": 10,
+    "build_commit": "e95aa47ae7a75cc9a319c1deda48a223adf46e9d",
+    "description_url": "https://poggit.pmmp.io/r/217516",
+    "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/OnePlayerSleep/e95aa47ae7a75cc9a319c1deda48a223adf46e9d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1690006100,
+    "state": 5,
+    "last_state_change_date": 1690827279,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine",
+        "pocketmine-api",
+        "pocketmine-mp",
+        "pocketmine-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iLVOEWOCK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,70 @@
+{
+    "id": 13737,
+    "name": "LangManager",
+    "version": "1.0.5",
+    "html_url": "https://poggit.pmmp.io/p/LangManager/1.0.5",
+    "tagline": "A language management plugin for PocketMine-MP with multi-language support and variable translation.",
+    "artifact_url": "https://poggit.pmmp.io/r/251363",
+    "downloads": 238,
+    "score": null,
+    "repo_id": 886778863,
+    "repo_name": "matdsolar/LangManager",
+    "project_id": 14334,
+    "project_name": "LangManager",
+    "build_id": 183761,
+    "build_number": 38,
+    "build_commit": "abe0ae637bf16188528eeb487b819d0014e6ac21",
+    "description_url": "https://poggit.pmmp.io/r/251588",
+    "icon_url": "https://raw.githubusercontent.com/matiasdamiandelsolar/LangManager/abe0ae637bf16188528eeb487b819d0014e6ac21/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736038482,
+    "state": 5,
+    "last_state_change_date": 1736103724,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "lang",
+        "language",
+        "manager",
+        "multi",
+        "translation",
+        "variable"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "matiasdamiandelsolar"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

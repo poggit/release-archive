@@ -1,0 +1,100 @@
+{
+    "id": 4053,
+    "name": "BurgerSpawners",
+    "version": "0.0.7",
+    "html_url": "https://poggit.pmmp.io/p/BurgerSpawners/0.0.7",
+    "tagline": "Plugin implementing a Stackable Spawner System for PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/79660",
+    "downloads": 88,
+    "score": null,
+    "repo_id": 236162930,
+    "repo_name": "Heisenburger69/BurgerSpawners",
+    "project_id": 6168,
+    "project_name": "BurgerSpawners",
+    "build_id": 73181,
+    "build_number": 50,
+    "build_commit": "b91e2fd384014206182625354e96d7b6bef8d895",
+    "description_url": "https://poggit.pmmp.io/r/79657",
+    "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerSpawners/b91e2fd384014206182625354e96d7b6bef8d895/Spawner_JE3.png",
+    "changelog_url": "https://poggit.pmmp.io/r/79659",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1584981425,
+    "state": 5,
+    "last_state_change_date": 1584982124,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "bee",
+        "bees",
+        "burgerspawners",
+        "fox",
+        "mobs",
+        "plugin",
+        "plugins",
+        "pmmp",
+        "pocketmine",
+        "silktouch",
+        "spawn",
+        "spawners",
+        "stackable",
+        "stacked",
+        "zombie"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "iZeaoGamer",
+            "Unickorn"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "d173ee82691b06400d7b17f0f31612d664022ef9",
+            "build_id": 61927
+        }
+    ]
+}

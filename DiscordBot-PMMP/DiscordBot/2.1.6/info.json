@@ -1,0 +1,68 @@
+{
+    "id": 10874,
+    "name": "DiscordBot",
+    "version": "2.1.6",
+    "html_url": "https://poggit.pmmp.io/p/DiscordBot/2.1.6",
+    "tagline": "Plugin to host a discord bot using DiscordPHP with an extensive API !",
+    "artifact_url": "https://poggit.pmmp.io/r/198330",
+    "downloads": 498,
+    "score": null,
+    "repo_id": 314034250,
+    "repo_name": "DiscordBot-PMMP/DiscordBot",
+    "project_id": 9561,
+    "project_name": "DiscordBot",
+    "build_id": 148621,
+    "build_number": 33,
+    "build_commit": "b0092fbc09c64b419ed16dab7c76d82c03004052",
+    "description_url": "https://poggit.pmmp.io/r/198326",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/198328",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/198329",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1671815001,
+    "state": 5,
+    "last_state_change_date": 1671815053,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "discord",
+        "discordbot",
+        "discordphp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JaxkDev"
+        ],
+        "Contributor": [
+            "Shelly7w7",
+            "Laith98Dev",
+            "D1veer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

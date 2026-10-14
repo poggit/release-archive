@@ -1,0 +1,78 @@
+{
+    "id": 5745,
+    "name": "Friends",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Friends/1.0.0",
+    "tagline": "A plugin for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/111572",
+    "downloads": 1754,
+    "score": 5,
+    "repo_id": 324139500,
+    "repo_name": "OguzhanUmutlu/FriendSystem",
+    "project_id": 8251,
+    "project_name": "FriendSystem",
+    "build_id": 94004,
+    "build_number": 20,
+    "build_commit": "324527fd661a77f7718352461063d55c2d9168ec",
+    "description_url": "https://poggit.pmmp.io/r/113118",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/FriendSystem/324527fd661a77f7718352461063d55c2d9168ec/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1608985069,
+    "state": 5,
+    "last_state_change_date": 1608997042,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "friend",
+        "friends"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

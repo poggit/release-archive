@@ -1,0 +1,74 @@
+{
+    "id": 13369,
+    "name": "DiscordControlPanel",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DiscordControlPanel/1.0.0",
+    "tagline": "DiscordControlPanel gives admins the power to manage their Minecraft servers directly from Discord.",
+    "artifact_url": "https://poggit.pmmp.io/r/244951",
+    "downloads": 378,
+    "score": 3,
+    "repo_id": 835153069,
+    "repo_name": "MyFreds/DiscordControlPanel",
+    "project_id": 14105,
+    "project_name": "DiscordControlPanel",
+    "build_id": 179337,
+    "build_number": 6,
+    "build_commit": "f5ee09e8151c8d28cabc068ea22bd7b92fffeedb",
+    "description_url": "https://poggit.pmmp.io/r/246235",
+    "icon_url": "https://raw.githubusercontent.com/MyFreds/DiscordControlPanel/f5ee09e8151c8d28cabc068ea22bd7b92fffeedb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1722254002,
+    "state": 5,
+    "last_state_change_date": 1724520848,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "discord",
+        "discordcontrolpanel",
+        "mcpetodiscord"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "DiscordBot",
+            "version": "3.0.5",
+            "depRelId": 13321,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MyFreds"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

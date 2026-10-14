@@ -1,0 +1,75 @@
+{
+    "id": 1656,
+    "name": "CustomAlerts",
+    "version": "2.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomAlerts/2.0",
+    "tagline": "Customize or hide alerts (join/leave messages, whitelist messages, outdated server/client messages, etc...) plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/36265",
+    "downloads": 477,
+    "score": 5,
+    "repo_id": 28587034,
+    "repo_name": "EvolSoft/CustomAlerts",
+    "project_id": 1767,
+    "project_name": "CustomAlerts",
+    "build_id": 45385,
+    "build_number": 5,
+    "build_commit": "ab09befd7b5656bf1554829c9183bed0254e094d",
+    "description_url": "https://poggit.pmmp.io/r/36748",
+    "icon_url": "https://raw.githubusercontent.com/EvolSoft/CustomAlerts/ab09befd7b5656bf1554829c9183bed0254e094d/CustomAlerts/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/36750",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1530892388,
+    "state": 5,
+    "last_state_change_date": 1531214936,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "customalerts",
+        "php",
+        "plugin",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Flavius12"
+        ],
+        "Contributor": [
+            "letsplaydev",
+            "Pub4Game",
+            "samalero",
+            "iTzAnTiFTW",
+            "lukeeey"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

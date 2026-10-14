@@ -1,0 +1,63 @@
+{
+    "id": 438,
+    "name": "Sheep",
+    "version": "5.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Sheep/5.0.0",
+    "tagline": "A terrible PocketMine-MP plugin manager",
+    "artifact_url": "https://poggit.pmmp.io/r/8454",
+    "downloads": 177,
+    "score": null,
+    "repo_id": 13890641,
+    "repo_name": "KnownUnown/Sheep",
+    "project_id": 158,
+    "project_name": "Sheep",
+    "build_id": 25679,
+    "build_number": 10,
+    "build_commit": "e104d8885bdec13414cd12cb7f4dfbe60c1028ed",
+    "description_url": "https://poggit.pmmp.io/r/8452",
+    "icon_url": null,
+    "changelog_url": null,
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": true,
+    "is_abandoned": false,
+    "submission_date": 1500178388,
+    "state": 5,
+    "last_state_change_date": 1502213890,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "plugin",
+        "plugin-manager",
+        "cli"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA4",
+            "to": "3.0.0-ALPHA5"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KnownUnown"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

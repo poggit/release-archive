@@ -1,0 +1,66 @@
+{
+    "id": 2881,
+    "name": "GunGame",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/GunGame/1.2.1",
+    "tagline": "A MiniGame Plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/57992",
+    "downloads": 597,
+    "score": 5,
+    "repo_id": 182985105,
+    "repo_name": "tim03we/GunGame",
+    "project_id": 4959,
+    "project_name": "GunGame",
+    "build_id": 59362,
+    "build_number": 7,
+    "build_commit": "13dd9e1acb63d61469f71a126929993bfa4cfb88",
+    "description_url": "https://poggit.pmmp.io/r/57991",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1557935868,
+    "state": 5,
+    "last_state_change_date": 1558120435,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Gun",
+        "GunGame",
+        "MiniGame"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "KDR",
+            "version": "1.0.0",
+            "depRelId": 1984,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "tim03we"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

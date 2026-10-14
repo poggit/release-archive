@@ -1,0 +1,58 @@
+{
+    "id": 10018,
+    "name": "KeepExp",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/KeepExp/0.0.1",
+    "tagline": "Prevents players from losing experience on death",
+    "artifact_url": "https://poggit.pmmp.io/r/182008",
+    "downloads": 482,
+    "score": null,
+    "repo_id": 504371845,
+    "repo_name": "nhanaz-pm-pl/KeepExp",
+    "project_id": 11391,
+    "project_name": "KeepExp",
+    "build_id": 137562,
+    "build_number": 1,
+    "build_commit": "9699d1d2bf126380712cc0b7e1673e1880879ac4",
+    "description_url": "https://poggit.pmmp.io/r/183228",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/KeepExp/9699d1d2bf126380712cc0b7e1673e1880879ac4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1655434588,
+    "state": 5,
+    "last_state_change_date": 1655445472,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "keepexp",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.5.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

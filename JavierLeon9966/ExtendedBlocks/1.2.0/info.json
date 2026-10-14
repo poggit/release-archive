@@ -1,0 +1,75 @@
+{
+    "id": 7666,
+    "name": "ExtendedBlocks",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/ExtendedBlocks/1.2.0",
+    "tagline": "Adds support to implements blocks with ID's 255+",
+    "artifact_url": "https://poggit.pmmp.io/r/142355",
+    "downloads": 714,
+    "score": null,
+    "repo_id": 341304825,
+    "repo_name": "JavierLeon9966/ExtendedBlocks",
+    "project_id": 8585,
+    "project_name": "ExtendedBlocks",
+    "build_id": 112244,
+    "build_number": 51,
+    "build_commit": "97a58146ef28a752c821a9f0d70318492263a2c0",
+    "description_url": "https://poggit.pmmp.io/r/142432",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/ExtendedBlocks/97a58146ef28a752c821a9f0d70318492263a2c0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/142434",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632255263,
+    "state": 5,
+    "last_state_change_date": 1632290816,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "api",
+        "blocks",
+        "developer",
+        "feature"
+    ],
+    "api": [
+        {
+            "from": "3.14.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "fuyutsuki"
+        ],
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

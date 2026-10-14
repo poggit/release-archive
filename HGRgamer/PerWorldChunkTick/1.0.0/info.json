@@ -1,0 +1,83 @@
+{
+    "id": 13419,
+    "name": "PerWorldChunkTick",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PerWorldChunkTick/1.0.0",
+    "tagline": "Allows to set chunk-tick radius per world to reduce lag",
+    "artifact_url": "https://poggit.pmmp.io/r/245741",
+    "downloads": 171,
+    "score": null,
+    "repo_id": 839322892,
+    "repo_name": "HGRgamer/PerWorldChunkTick",
+    "project_id": 14134,
+    "project_name": "PerWorldChunkTick",
+    "build_id": 179827,
+    "build_number": 1,
+    "build_commit": "f3e79b60869be1cde4d8ad9f5bc3994cc13c9e4b",
+    "description_url": "https://poggit.pmmp.io/r/245769",
+    "icon_url": "https://raw.githubusercontent.com/HGRgamer/PerWorldChunkTick/f3e79b60869be1cde4d8ad9f5bc3994cc13c9e4b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1723060185,
+    "state": 5,
+    "last_state_change_date": 1724767183,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "bedrock",
+        "bedwars",
+        "chunk",
+        "chunk-ticking",
+        "distance",
+        "growth",
+        "lighting",
+        "optimization",
+        "optimize",
+        "per-world",
+        "performance",
+        "plant",
+        "radius",
+        "simulation",
+        "skywars",
+        "stop",
+        "tick-radius",
+        "world",
+        "lag"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HGRgamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

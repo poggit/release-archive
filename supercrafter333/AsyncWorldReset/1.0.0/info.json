@@ -1,0 +1,73 @@
+{
+    "id": 9290,
+    "name": "AsyncWorldReset",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AsyncWorldReset/1.0.0",
+    "tagline": "A PocketMine-MP plugin that allows you to reset your worlds at specific times. It's asynchronous and therefore extremely fast.",
+    "artifact_url": "https://poggit.pmmp.io/r/167120",
+    "downloads": 202,
+    "score": null,
+    "repo_id": 467912484,
+    "repo_name": "supercrafter333/AsyncWorldReset",
+    "project_id": 10764,
+    "project_name": "AsyncWorldReset",
+    "build_id": 127081,
+    "build_number": 4,
+    "build_commit": "196ca651c248ed2562e1f5a885542e8907a5e4bb",
+    "description_url": "https://poggit.pmmp.io/r/167119",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/AsyncWorldReset/196ca651c248ed2562e1f5a885542e8907a5e4bb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647341020,
+    "state": 5,
+    "last_state_change_date": 1650104294,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "async",
+        "reset",
+        "worldreset"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "DiscordWebhooksX",
+            "project_id": 10742,
+            "repo_id": 466212876,
+            "repo_name": "supercrafter333/DiscordWebhooksX",
+            "repo_path": "",
+            "build_commit": "74f05990c45057b8d5238ce9583b38defcb61c80",
+            "build_id": 125920
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "id": 501,
+    "name": "BlockPets",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockPets/1.1.0",
+    "tagline": "An advanced pets plugin, implementing features such as riding and inventories",
+    "artifact_url": "https://poggit.pmmp.io/r/10058",
+    "downloads": 1515,
+    "score": 5,
+    "repo_id": 87449874,
+    "repo_name": "BlockHorizons/BlockPets",
+    "project_id": 389,
+    "project_name": "BlockPets",
+    "build_id": 26812,
+    "build_number": 207,
+    "build_commit": "01d33c6fe18aefbec82871e3298901e25e01a44a",
+    "description_url": "https://poggit.pmmp.io/r/10055",
+    "icon_url": "https://raw.githubusercontent.com/BlockHorizons/BlockPets/01d33c6fe18aefbec82871e3298901e25e01a44a/resources/BlockPetsLogo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/10057",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1502530462,
+    "state": 5,
+    "last_state_change_date": 1502764610,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "animal",
+        "blockpets",
+        "entity",
+        "inventory",
+        "pet"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "edwinyoo44",
+            "Johnmacrocraft",
+            "jojoe77777",
+            "TheDiamondYT1",
+            "Muqsit",
+            "xBeastMode",
+            "Adam1609",
+            "djdisodo",
+            "CyanKelv",
+            "SOF3",
+            "nnnlog",
+            "DenielWorld",
+            "nikipuh",
+            "MalakasPlayzMC",
+            "lukeeey",
+            "Yexeed",
+            "Ifera",
+            "NgLam2911",
+            "0xliam627",
+            "ByPaps",
+            "WenoxGB"
+        ],
+        "Collaborator": [
+            "Sandertv"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "spoondetector",
+            "project_id": 443,
+            "repo_id": 91121812,
+            "repo_name": "Falkirks/spoondetector",
+            "repo_path": "",
+            "build_commit": "c1107b03b48658789a9fd55143ccf5c5c4f971f5",
+            "build_id": 26087
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+<p align="center">
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9661b6613848c7278cedbd9635a1da851b05ab25bd14af8f4ee0602a620cb985/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c7567696e2d537570706c7944726f70732d626c756576696f6c65743f7374796c653d666f722d7468652d6261646765"><img src="https://camo.githubusercontent.com/9661b6613848c7278cedbd9635a1da851b05ab25bd14af8f4ee0602a620cb985/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c7567696e2d537570706c7944726f70732d626c756576696f6c65743f7374796c653d666f722d7468652d6261646765" data-canonical-src="https://img.shields.io/badge/plugin-SupplyDrops-blueviolet?style=for-the-badge" style="max-width: 100%;"></a>
+  <br><br>
+  <a href="https://paypal.me/FrostCheatMC?country.x=CO&amp;locale.x=es_XC" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/59998b8a5834d48e53429456ac72bce6e44091a6c9e0ae4a2aebb4747c67f6f1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f6e6174652d70617970616c2d6666363962343f7374796c653d666f722d7468652d6261646765266c6f676f3d70617970616c" data-canonical-src="https://img.shields.io/badge/donate-paypal-ff69b4?style=for-the-badge&amp;logo=paypal" style="max-width: 100%;">
+  </a>
+  <a href="https://discord.gg/k8X7CG2kFv" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/e6d7b9e495a8a4cc388ed72160ac0f30dd10d3bda4cdd3b0e5dcb16eeedaecd9/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313338343333373436333937313032303931313f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d7768697465266c6f676f53697a653d313226636f6c6f723d626c7565" data-canonical-src="https://img.shields.io/discord/1384337463971020911?style=for-the-badge&amp;logo=discord&amp;logoColor=white&amp;logoSize=12&amp;color=blue" style="max-width: 100%;">  
+  </a>
+  <a href="https://poggit.pmmp.io/ci/FrostCheat/SupplyDrops/SupplyDrops" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/9cb7dc4ec7e630c01ef8c4da0a27d1a345ffde5122e987d428eca738f27c3afe/68747470733a2f2f706f676769742e706d6d702e696f2f63692e736869656c642f46726f737443686561742f537570706c7944726f70732f537570706c7944726f70733f7374796c653d666f722d7468652d6261646765" data-canonical-src="https://poggit.pmmp.io/ci.shield/FrostCheat/SupplyDrops/SupplyDrops?style=for-the-badge" style="max-width: 100%;">
+  </a>
+  <a href="https://poggit.pmmp.io/p/SupplyDrops" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/86ef580d50c7852e72262f06a9002f573491c74a150c168b595a380336695056/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646f776e6c6f6164732f537570706c7944726f70733f7374796c653d666f722d7468652d6261646765" data-canonical-src="https://poggit.pmmp.io/shield.downloads/SupplyDrops?style=for-the-badge" style="max-width: 100%;">
+  </a>
+</p>
+<div class="markdown-heading"><h1 align="center" class="heading-element">📦 SupplyDrops</h1><a id="user-content--supplydrops" class="anchor" aria-label="Permalink: 📦 SupplyDrops" href="#-supplydrops"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p align="center">A modern and lightweight plugin for PocketMine-MP that spawns randomized supply drops across your world with configurable loot and spawn mechanics.</p>
+<hr>
+<div class="markdown-heading"><h2 class="heading-element">🌟 Features</h2><a id="user-content--features" class="anchor" aria-label="Permalink: 🌟 Features" href="#-features"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<ul>
+<li>🔀 Random chest spawn within configurable X/Z radius</li>
+<li>📍 Dynamic height calculation</li>
+<li>📦 Random loot selection from a YAML-configured item pool</li>
+<li>⚙️ Asynchronous chunk generation (safe spawn even in unexplored worlds)</li>
+<li>🔒 Fully safe from crashes (even if chunks are ungenerated or items are empty)</li>
+<li>🗃️ Chest tiles auto-placed with fallback handling</li>
+<li>🌍 World-independent (supports any PocketMine world)</li>
+</ul>
+<hr>
+<div class="markdown-heading"><h2 class="heading-element">📜 Commands</h2><a id="user-content--commands" class="anchor" aria-label="Permalink: 📜 Commands" href="#-commands"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Permission</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<code>/supplydrops help</code> or <code>/sdrop help</code>
+</td>
+<td>Shows this list menu</td>
+<td><code>supplydrops.command.help</code></td>
+</tr>
+<tr>
+<td>
+<code>/supplydrops edit</code> or <code>/sdrop edit</code>
+</td>
+<td>Edits the supplydrops items</td>
+<td><code>supplydrops.command.edit</code></td>
+</tr>
+<tr>
+<td>
+<code>/supplydrops spawn</code> or <code>/sdrop spawn</code>
+</td>
+<td>Spawns a supplydrop</td>
+<td><code>supplydrops.command.spawn</code></td>
+</tr>
+<tr>
+<td>
+<code>/supplydrops reload</code> or <code>/sdrop reload</code>
+</td>
+<td>Reloads the plugin configuration</td>
+<td><code>supplydrops.command.reload</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="markdown-heading"><h2 class="heading-element">🧱 Supported Software</h2><a id="user-content--supported-software" class="anchor" aria-label="Permalink: 🧱 Supported Software" href="#-supported-software"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<blockquote>
+<p>✅ This plugin is only compatible with <strong>PocketMine-MP</strong><br>
+❌ It will NOT work on Nukkit, Altay, or other forks</p>
+</blockquote>
+<hr>
+<div class="markdown-heading"><h2 class="heading-element">📥 Installation</h2><a id="user-content--installation" class="anchor" aria-label="Permalink: 📥 Installation" href="#-installation"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<ol>
+<li>📦 <a href="https://poggit.pmmp.io/p/SupplyDrops" rel="nofollow">Download SupplyDrops</a> from Poggit</li>
+<li>📁 Place both <code>.phar</code> files inside your <code>/plugins/</code> directory</li>
+<li>🔁 Restart your server</li>
+<li>✅ Ready to go! Use <code>/sdrop</code> to open the auction menu</li>
+</ol>
+<hr>
+<div class="markdown-heading"><h2 class="heading-element">📖 License</h2><a id="user-content--license" class="anchor" aria-label="Permalink: 📖 License" href="#-license"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Licensed under the <a href="https://github.com/FrostCheatMC/supplydrops/blob/master/LICENSE">MIT License</a>
+You are free to fork, contribute, or suggest changes.</p>
+<hr>
+<div class="markdown-heading"><h2 class="heading-element">☕ Support &amp; Donate</h2><a id="user-content--support--donate" class="anchor" aria-label="Permalink: ☕ Support &amp; Donate" href="#-support--donate"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>If this plugin helped you, or you want to support future updates:</p>
+<blockquote>
+<p>💖 <a href="https://paypal.me/FrostCheatMC?country.x=CO&amp;locale.x=es_XC" rel="nofollow">Donate via PayPal</a></p>
+</blockquote>
+<p>Any support is greatly appreciated!</p>
+<hr>
+<p align="center"><b>Made with 💙 by FrostCheatMC</b></p>

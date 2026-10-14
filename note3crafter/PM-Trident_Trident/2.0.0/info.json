@@ -1,0 +1,59 @@
+{
+    "id": 10709,
+    "name": "PM-Trident",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PM-Trident/2.0.0",
+    "tagline": "Add Trident to Server",
+    "artifact_url": "https://poggit.pmmp.io/r/195494",
+    "downloads": 1100,
+    "score": 5,
+    "repo_id": 229110800,
+    "repo_name": "note3crafter/PM-Trident",
+    "project_id": 5916,
+    "project_name": "Trident",
+    "build_id": 146772,
+    "build_number": 19,
+    "build_commit": "4f8fb2edc8935d0aab251fc4706ca5add0af0e29",
+    "description_url": "https://poggit.pmmp.io/r/195493",
+    "icon_url": "https://raw.githubusercontent.com/note3crafter/PM-Trident/4f8fb2edc8935d0aab251fc4706ca5add0af0e29/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1666525043,
+    "state": 5,
+    "last_state_change_date": 1666911500,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "note3crafter"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

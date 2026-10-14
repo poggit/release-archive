@@ -1,0 +1,55 @@
+{
+    "id": 8012,
+    "name": "Welcome",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Welcome/1.0.0",
+    "tagline": "Welcome the new player!",
+    "artifact_url": "https://poggit.pmmp.io/r/148042",
+    "downloads": 531,
+    "score": null,
+    "repo_id": 429093846,
+    "repo_name": "MoonTeamsDevs/Welcome",
+    "project_id": 9972,
+    "project_name": "Welcome",
+    "build_id": 115597,
+    "build_number": 4,
+    "build_commit": "2bd83ae79b680e23dbccd8c7f27148529890b907",
+    "description_url": "https://poggit.pmmp.io/r/148041",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1637359529,
+    "state": 5,
+    "last_state_change_date": 1637361994,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MoonTeamsDevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

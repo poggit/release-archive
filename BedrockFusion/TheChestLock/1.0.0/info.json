@@ -1,0 +1,83 @@
+{
+    "id": 13630,
+    "name": "TheChestLock",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TheChestLock/1.0.0",
+    "tagline": "Want to lock your chests?",
+    "artifact_url": "https://poggit.pmmp.io/r/249667",
+    "downloads": 287,
+    "score": null,
+    "repo_id": 889670051,
+    "repo_name": "BedrockFusion/TheChestLock",
+    "project_id": 14344,
+    "project_name": "TheChestLock",
+    "build_id": 182672,
+    "build_number": 1,
+    "build_commit": "a765a19f0e4233a81bdd89a166e4812969cbba2c",
+    "description_url": "https://poggit.pmmp.io/r/249666",
+    "icon_url": "https://raw.githubusercontent.com/BedrockFusion/TheChestLock/a765a19f0e4233a81bdd89a166e4812969cbba2c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1731798775,
+    "state": 5,
+    "last_state_change_date": 1736032020,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "chestlock",
+        "lock",
+        "chest",
+        "ches",
+        "locking"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "nxpinhum5326"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        }
+    ]
+}

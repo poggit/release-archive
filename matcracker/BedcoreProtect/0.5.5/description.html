@@ -1,0 +1,202 @@
+<h1>
+<a id="user-content-bedcoreprotect" class="anchor" href="#bedcoreprotect" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BedcoreProtect</h1>
+<p>BedcoreProtect is a fast, efficient, data logging and anti-griefing tool for PocketMine servers. Rollback and restore any amount of damage.</p>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<ul>
+<li>Fast efficient data logging.</li>
+<li>Fast rollbacks.</li>
+<li>No configuration required. Put the plugin on your server, and you're good to go.</li>
+<li>Multi-language support.</li>
+<li>User interface (UI) support.</li>
+<li>SQLite based data storage.</li>
+<li>Optional MySQL support.</li>
+<li>Easy to use commands.</li>
+<li>Perform rollbacks AND restores. Undo any rollback, anytime.</li>
+<li>Easy to use block inspector</li>
+<li>Advanced search-based lookup tool.</li>
+<li>Paginated logs.</li>
+<li>Automatic update checker.</li>
+<li>Multi-world support.</li>
+<li>Enable or disable any aspect of logging in the configuration file.</li>
+<li>Rollback per-player all damage around you.</li>
+<li>Specify certain block types to skip in rollbacks/restores.</li>
+<li>Restrict rollbacks/restores to specific block types</li>
+<li>Log basic player actions (such as when a player opens a door)</li>
+<li>Liquid tracking. Associate liquid flow with players</li>
+<li>Restrict rollbacks/restores to a radius area.</li>
+<li>Able to track blocks that fall off of other blocks. If a player breaks a block that had a sign on it, both the block and the sign can be rolled back.</li>
+<li>Easily delete old log data.</li>
+<li>Safe default parameters.
+Rollback or restore multiple players at once.</li>
+<li>Lookup, rollback, or restore by a specific action.</li>
+<li>Exclude multiple blocks.</li>
+<li>BlockSniper support.</li>
+</ul>
+<p>...and much more!!</p>
+<h2>
+<a id="user-content-what-does-it-log" class="anchor" href="#what-does-it-log" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What does it log?</h2>
+<ul>
+<li>Log blocks broken by players</li>
+<li>Log blocks placed by players</li>
+<li>Log natural block breakage (ex: if a sign pops off a dirt block that was broken)</li>
+<li>Log bucket usage</li>
+<li>Log liquid flow</li>
+<li>Log explosions</li>
+<li>Log flint &amp; steel</li>
+<li>Log fire igniting blocks</li>
+<li>Log blocks burning up in fires</li>
+<li>Log block movement (Falling sand/gravel)</li>
+<li>Log leaves decay</li>
+<li>Log player interactions</li>
+<li>Log items taken or placed in chests, furnaces, dispensers, etc.</li>
+<li>Log paintings and item frames. (With rollback support!)</li>
+<li>Log entities killed by players (animals/monsters)</li>
+</ul>
+<p>...and the list is still expanding!</p>
+<h1>
+<a id="user-content-database-minimum-requirements" class="anchor" href="#database-minimum-requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Database Minimum Requirements</h1>
+<ul>
+<li>
+<strong>SQLite</strong> version must be &gt;= <strong>3.28.0</strong> (not tested with older versions)</li>
+</ul>
+<p>OR</p>
+<ul>
+<li>
+<strong>MySQL</strong> version must be &gt;= <strong>5.6.4</strong>
+</li>
+</ul>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<p>The main command is <strong>/bedcoreprotect</strong> but it accepts the folllowing aliases: <strong>/bcp, /core, /co</strong> (<strong>Main permission:</strong> <em>bcp.command.bedcoreprotect</em>)</p>
+<p><strong>Quick command overview:</strong></p>
+<ul>
+<li>
+<strong>/bcp help - <em>Display a list of commands</em></strong> (<strong>Permission:</strong> <em>bcp.subcommand.help</em>)</li>
+<li>
+<strong>/bcp inspect - <em>Toggle the inspector mode</em></strong> (<strong>Permission:</strong> <em>bcp.subcommand.inspect</em>)</li>
+<li>
+<strong>/bcp menu - <em>Display a graphic interface to use the plugin (UI).</em></strong> (<strong>Permission:</strong> <em>bcp.subcommand.menu</em>)</li>
+<li>
+<strong>/bcp rollback &lt;params&gt; - <em>Rollback block data</em></strong> (<strong>Permission:</strong> <em>bcp.subcommand.rollback</em>)</li>
+<li>
+<strong>/bcp restore &lt;params&gt; - <em>Restore block data</em></strong> (<strong>Permission:</strong> <em>bcp.subcommand.restore</em>)</li>
+<li>
+<strong>/bcp lookup &lt;params&gt; - <em>Advanced block data lookup</em></strong> (<strong>Permission:</strong> <em>bcp.subcommand.lookup</em>)</li>
+<li>
+<strong>/bcp purge &lt;params&gt; - <em>Delete old block data</em></strong> (<strong>Permission:</strong> <em>bcp.subcommand.purge</em>)</li>
+<li>
+<strong>/bcp reload - <em>Reload the configuration file</em></strong> (<strong>Permission:</strong> <em>bcp.subcommand.reload</em>)</li>
+<li>
+<strong>/bcp status - <em>View the plugin status</em></strong> (<strong>Permission:</strong> <em>bcp.subcommand.status</em>)</li>
+</ul>
+<p><strong>Shortcut commands:</strong></p>
+<ul>
+<li>
+<strong>/bcp near [value]</strong>: <em>Performs a lookup with radius (default 5)</em> (<strong>Permission:</strong> <em>bcp.subcommand.near</em>)</li>
+</ul>
+<hr>
+<p><strong>Advanced command overview:</strong></p>
+<blockquote>
+<p><strong>/bcp help</strong><br>
+<em>Diplay a list of commands in-game</em></p>
+</blockquote>
+<blockquote>
+<p><strong>/bpc inspect</strong><br>
+<em>Enable the inspector. Type the command again to disable it. You can also use just <strong>"/bcp i"</strong></em></p>
+</blockquote>
+<blockquote>
+<p><strong>/bpc menu</strong><br>
+<em>Display a graphic interface to simplify the plugin commands usage. You can also use just <strong>"/bcp ui"</strong></em></p>
+</blockquote>
+<blockquote>
+<p><strong>/bcp rollback u=&lt;user&gt; t=&lt;time&gt; r=&lt;radius&gt; a=&lt;action&gt; b=&lt;blocks&gt; e=&lt;exclude&gt;</strong><br>
+<em>Nearly all of the parameters are optional. Shortcut: <strong>"/bcp rb"</strong>.</em></p>
+</blockquote>
+<blockquote>
+<blockquote>
+<p><strong>u=&lt;user&gt;</strong> - Specify a user to rollback.<br>
+<em>Example: u=Shoghi u=Shoghi,#zombie</em></p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p><strong>t=&lt;time&gt;</strong> - Specify the amount of time to rollback.<br>
+You can specify weeks,days,hours,minutes, and seconds.<br><br>
+<em>Example: t=4w5d2h7m20s</em><br><br>
+You can pick and choose time amounts. <br>
+<em>Example: t=5d2h</em></p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p><strong>r=&lt;radius&gt;</strong> - Specify a radius.<br>
+You can use this to only rollback blocks near you.<br><br>
+For example, the following would only rollback damage within 10 blocks of where you are standing: r=10</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p><strong>a=&lt;action&gt;</strong> - Restrict the lookup to a certain action.<br>
+For example, if you wanted to only rollback blocks placed, you would use a:+block<br><br>
+Here's a list of all the actions:<br>
+• a=block (blocks placed/broken)<br>
+• a=+block (blocks placed)<br>
+• a=-block (blocks broken)<br>
+• a=click (player interactions)<br>
+• a=container (items taken from or put in chests, etc.)<br>
+• a=+container (items put in chests, etc.) <br>
+• a=-container (items taken from chests, etc.)<br>
+• a=kill (mobs/animals killed)<br></p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p><strong>b=&lt;blocks&gt;</strong> - Restrict the rollback to certain block types.<br>
+For example, if you wanted to only rollback stone, you would use b=1<br>
+You can specify multiple items, such as b=1,5,7<br>
+or b=stone,planks,bedrock<br><br>
+You can find a list of block type IDs at <a href="https://minecraft.gamepedia.com/Bedrock_Edition_data_values" rel="nofollow">https://minecraft.gamepedia.com/Bedrock_Edition_data_values</a></p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p><strong>e=&lt;exclude&gt;</strong> - Exclude certain block types from the rollback.<br>
+For example, if you don't want TNT to come back during a rollback, you would type e:46</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><strong>/bpc restore u=&lt;user&gt; t=&lt;time&gt; r=&lt;radius&gt; a=&lt;action&gt; b=&lt;blocks&gt; e=&lt;exclude&gt;</strong><br>
+<em>Same parameters as /bcp rollback. Shortcut: <strong>"/bcp rs"</strong>.</em><br><br>
+Restoring can be used to undo rollbacks.</p>
+</blockquote>
+<blockquote>
+<p><strong>/bcp lookup u=&lt;user&gt; t=&lt;time&gt; r=&lt;radius&gt; a=&lt;action&gt; b=&lt;blocks&gt; e=&lt;exclude&gt;</strong><br>
+<em>Search through block data using the same parameters as /bcp rollback. Shortcut: <strong>"/bcp l"</strong>.</em><br><br>
+If multiple pages are returned, use the command <strong>"/bcp lookup &lt;page&gt;"</strong> to switch pages.<br>
+To change the number of lines displayed on a page, use the command <strong>"/bcp lookup &lt;page&gt;:&lt;lines&gt;"</strong>.<br><br>
+For example, <strong>"/bcp l 1:10"</strong> will return 10 lines of data, starting at the first page.</p>
+</blockquote>
+<blockquote>
+<p><strong>/bcp purge t=&lt;time&gt;</strong><br>
+<em>Purge old block data. Useful for freeing up space on your HDD if you don't need the older data.</em><br><br>
+For example, "/co purge t:30d" will delete all data older than one month, and only keep the last 30 days of data.</p>
+</blockquote>
+<h1>
+<a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h1>
+<p><strong>I found a bug, where can I report it?</strong></p>
+<ul>
+<li>
+<blockquote>
+<p>You can report <a href="https://github.com/matcracker/BedcoreProtect/issues/new/choose">here</a> by clicking button <strong>"Get Started"</strong> on <strong>Bug report</strong>.</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>Where can I request a new feature?</strong></p>
+<ul>
+<li>
+<blockquote>
+<p>You can ask a new feature <a href="https://github.com/matcracker/BedcoreProtect/issues/new/choose">here</a> by clicking button <strong>"Get Started"</strong> on <strong>Feature request</strong>.</p>
+</blockquote>
+</li>
+</ul>

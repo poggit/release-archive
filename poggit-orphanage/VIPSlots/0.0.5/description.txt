@@ -1,0 +1,9 @@
+This plugin allows players on VIPSlots whitelist to enter the server even it's full.
+
+Usage:
+/vips <add/remove/list>
+
+breakdown:
+add <player> : Adds player to the whitelist.
+remove <player> : Removes player from the whitelist.
+list : Shows all players on the whitelist.

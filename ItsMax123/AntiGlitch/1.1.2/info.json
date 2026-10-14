@@ -1,0 +1,72 @@
+{
+    "id": 7346,
+    "name": "AntiGlitch",
+    "version": "1.1.2",
+    "html_url": "https://poggit.pmmp.io/p/AntiGlitch/1.1.2",
+    "tagline": "A plugin to prevent players from glitching.",
+    "artifact_url": "https://poggit.pmmp.io/r/136748",
+    "downloads": 652,
+    "score": 3,
+    "repo_id": 386358491,
+    "repo_name": "ItsMax123/AntiGlitch",
+    "project_id": 9269,
+    "project_name": "AntiGlitch",
+    "build_id": 108723,
+    "build_number": 17,
+    "build_commit": "03ce71944637e282def63974dfa0efee40250921",
+    "description_url": "https://poggit.pmmp.io/r/136745",
+    "icon_url": "https://raw.githubusercontent.com/ItsMax123/AntiGlitch/03ce71944637e282def63974dfa0efee40250921/AntiGlitch.png",
+    "changelog_url": "https://poggit.pmmp.io/r/136747",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628722789,
+    "state": 5,
+    "last_state_change_date": 1628777003,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Anti",
+        "Anti-Glitch",
+        "AntiGlitch",
+        "BlockGlitch",
+        "CommandGlitch",
+        "DoorGlitch",
+        "Glitch",
+        "PearlGlitch"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ItsMax123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

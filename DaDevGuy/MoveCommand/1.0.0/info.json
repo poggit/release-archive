@@ -1,0 +1,59 @@
+{
+    "id": 10054,
+    "name": "MoveCommand",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MoveCommand/1.0.0",
+    "tagline": "Execute Command As Player When Player Moves.",
+    "artifact_url": "https://poggit.pmmp.io/r/182613",
+    "downloads": 214,
+    "score": 1,
+    "repo_id": 505421533,
+    "repo_name": "DaDevGuy/MoveCommand",
+    "project_id": 11424,
+    "project_name": "MoveCommand",
+    "build_id": 137937,
+    "build_number": 2,
+    "build_commit": "9995eaf21dbfc69c51f9a1fb4a473bc53d5e2de2",
+    "description_url": "https://poggit.pmmp.io/r/182612",
+    "icon_url": "https://raw.githubusercontent.com/DaDevGuy/MoveCommand/9995eaf21dbfc69c51f9a1fb4a473bc53d5e2de2/assets/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1655726532,
+    "state": 5,
+    "last_state_change_date": 1656150802,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DaDevGuy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

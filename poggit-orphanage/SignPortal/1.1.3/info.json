@@ -1,0 +1,68 @@
+{
+    "id": 245,
+    "name": "SignPortal",
+    "version": "1.1.3",
+    "html_url": "https://poggit.pmmp.io/p/SignPortal/1.1.3",
+    "tagline": "Classic Portal Plugin by 99leonchang",
+    "artifact_url": "https://poggit.pmmp.io/r/4066",
+    "downloads": 456,
+    "score": null,
+    "repo_id": 89003557,
+    "repo_name": "poggit-orphanage/SignPortal",
+    "project_id": 392,
+    "project_name": "SignPortal",
+    "build_id": 22388,
+    "build_number": 1,
+    "build_commit": "85b1c42495c86bd2e590034050a4bfb71ea1d104",
+    "description_url": "https://poggit.pmmp.io/r/4065",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/SignPortal/85b1c42495c86bd2e590034050a4bfb71ea1d104/signportal.png",
+    "changelog_url": "https://poggit.pmmp.io/r/4067",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1492798784,
+    "state": 5,
+    "last_state_change_date": 1492798669,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "portal",
+        "generate",
+        "teleport",
+        "sign"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA5"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "99leonchang"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

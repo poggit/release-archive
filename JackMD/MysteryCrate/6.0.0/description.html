@@ -1,0 +1,88 @@
+<h1>
+<a id="user-content-mysterycrate" class="anchor" href="#mysterycrate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MysteryCrate</h1>
+<p>A MysteryCrate plugin for PocketMine-MP // McPe 1.2</p>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>This plugin adds custom <strong>crates</strong> to your server.</li>
+<li>Crates can be opened with a custom <strong>key</strong>.</li>
+<li>Easy to use <code>crates.yml</code> for adding custom items to the crate.</li>
+<li>Upon <strong>opening</strong> the crate <strong>particles</strong> are generated telling player someone opened the crate.</li>
+<li>Ability to give enchanted item to players.</li>
+<li>Ability to give custom enchanted items to players. Requires <a href="https://github.com/DaPigGuy/PiggyCustomEnchants">PiggyCustomEnchants</a> by <a href="https://github.com/DaPigGuy">@DaPigGuy</a>
+</li>
+<li>Fool proof. Players cannot grief it.</li>
+<li>You can set multiple crates using the pattern set in <code>crates.yml</code>.</li>
+<li>The entire plugin is suited for <a href="https://github.com/pmmp/PocketMine-MP">PocketMine-MP</a> latest API.</li>
+</ul>
+<h1>
+<a id="user-content-how-to-setup" class="anchor" href="#how-to-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to setup?</h1>
+<ul>
+<li>For adding enchants that are not registered by PocketMine-MP you may use <strong><a href="https://github.com/TheAz928/VanillaEnchantments">VanillaEnchantments</a></strong> by <a href="https://github.com/TheAz928">@TheAz928</a> or <strong><a href="https://github.com/CortexPE/TeaSpoon">TeaSpoon</a></strong> by <a href="https://github.com/CortexPE">@CortexPE</a> for adding enchants on the items.</li>
+<li>Additionally you can also add <strong>CustomEnchants</strong> to the items. For this you require <strong><a href="https://github.com/DaPigGuy/PiggyCustomEnchants">PiggyCustomEnchants</a></strong> by <a href="https://github.com/DaPigGuy">@DaPigGuy</a>.</li>
+<li>Get the <a href="https://poggit.pmmp.io/ci/JackMD/MysteryCrate/MysteryCrate" rel="nofollow">.phar</a> and drop the into your <code>plugins</code> folder.</li>
+<li>Next navigate to the <code>crates.yml</code> file and edit/set the block you want the crate to be recognized with under <code>block: "ID:META"</code> key.</li>
+<li><strong>Make sure that name of the world where crate is located is same as the world folder name.</strong></li>
+<li>Now mention the <code>name</code> of the<code>world</code> where the crate is located in <code>crateWorld</code>.</li>
+<li>Reload the server.</li>
+<li>Place the block down you initially set in <code>crates.yml</code> under <code>block: "ID:META"</code> key.</li>
+<li>Place a chest <code>ID: 54</code> on top of that block.</li>
+<li>To open the crate you require a <code>crateKey</code>.</li>
+<li>To get the key use <code>/key [type] [player] [amount]</code> in-game and then tap the crate with it. You can set/see the crate type in <code>crates.yml</code> file.</li>
+</ul>
+<h1>
+<a id="user-content-faqs" class="anchor" href="#faqs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQs</h1>
+<p><strong>Q: How to setup the crates?</strong><br>
+A: Please read <a href="https://github.com/JackMD/MysteryCrate#how-to-setup">this</a>.<br><br>
+<strong>Q: How to add particles?</strong><br>
+A: Its very simple. When you place a chest on top of the block you set in <code>crates.yml</code> the plugin will automatically add its coordinates to the <code>blocks.yml</code> file. You will just need to restart the server for the particles to show.<br><br>
+<strong>Q: How to remove the particles?</strong><br>
+A: Just destroy the chest whose particles you want to remove. Restart the server and the particles will be removed.<br><br>
+<strong>Q: Will the crates have floating text above them?</strong><br>
+A: Yes, they will have Floating Text. <br><br>
+<strong>Q: Can I edit the floating text that appears above the crate?</strong><br>
+A: Yes you can. Navigate to <code>blocks.yml</code> and edit the crate text you see. For example, you want to edit the floating text of legendary crate then there would be a key\heading of <code>legendary:</code> in the <code>blocks.yml</code> file. Edit the text after the <code>:</code> to edit\change the floating text.<br><br>
+<strong>Q: I found a issue in the plugin what do I do?</strong><br>
+A: Please open an issue <a href="https://github.com/JackMD/MysteryCrate/issues">here</a> and give as much detail as possible.<br><br>
+<strong>Q: I would like a new feature to be added. How do I report?</strong><br>
+A: Enter the feature in <a href="https://github.com/JackMD/MysteryCrate/issues/34">#34</a>. Give as much detail as possible and I will see what I can come up with.<br><br>
+<strong>Q: What to do with the <code>blocks.yml</code> file?</strong><br>
+A: You need not to do anything with it unless you want to edit the floatiing text. The plugin automatically generates stuff within the file to make the setup for the user easier.</p>
+<h1>
+<a id="user-content-commands-and-permissions" class="anchor" href="#commands-and-permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands and Permissions</h1>
+<table>
+<thead>
+<tr>
+<th align="center">Description</th>
+<th align="center">Command</th>
+<th align="center">Permission</th>
+<th align="center">Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Crate Key</td>
+<td align="center"><code>/key [playerName] [amount]</code></td>
+<td align="center"><code>mc.command.key</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+<tr>
+<td align="center">Use a crate</td>
+<td align="center"><code>~</code></td>
+<td align="center"><code>mc.crates.use</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center">Destroy a crate</td>
+<td align="center"><code>~</code></td>
+<td align="center"><code>mc.crates.destroy</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+<tr>
+<td align="center">Create a crate</td>
+<td align="center"><code>~</code></td>
+<td align="center"><code>mc.crates.create</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+</tbody>
+</table>

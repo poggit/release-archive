@@ -1,0 +1,96 @@
+{
+    "id": 6991,
+    "name": "PlayerVaults",
+    "version": "3.3.1",
+    "html_url": "https://poggit.pmmp.io/p/PlayerVaults/3.3.1",
+    "tagline": "Per-player GUI-based vaults plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/131498",
+    "downloads": 1426,
+    "score": 5,
+    "repo_id": 89708028,
+    "repo_name": "Muqsit/PlayerVaults",
+    "project_id": 411,
+    "project_name": "PlayerVaults",
+    "build_id": 105733,
+    "build_number": 51,
+    "build_commit": "aa4fb6e8cdf1ebc600ca5b1720f512420366f91a",
+    "description_url": "https://poggit.pmmp.io/r/131495",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/131497",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626016862,
+    "state": 5,
+    "last_state_change_date": 1626261181,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "inventory",
+        "playervault",
+        "playervaults",
+        "portable",
+        "privatevault",
+        "privatevaults",
+        "pv",
+        "vaults"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ],
+        "Contributor": [
+            "Sandertv",
+            "Enrick3344",
+            "MasterOfTheRealm"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "a3b121f31e2816639174da8f1c10a0a0e58643b5",
+            "build_id": 105482
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "0192bcd58db0ef25160ec49f309eb2417e4726ac",
+            "build_id": 87596
+        }
+    ]
+}

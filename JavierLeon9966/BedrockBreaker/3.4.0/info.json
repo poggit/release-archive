@@ -1,0 +1,76 @@
+{
+    "id": 8172,
+    "name": "BedrockBreaker",
+    "version": "3.4.0",
+    "html_url": "https://poggit.pmmp.io/p/BedrockBreaker/3.4.0",
+    "tagline": "Allow breaking bedrock with TNT",
+    "artifact_url": "https://poggit.pmmp.io/r/150355",
+    "downloads": 1072,
+    "score": null,
+    "repo_id": 290057293,
+    "repo_name": "JavierLeon9966/BedrockBreaker",
+    "project_id": 7673,
+    "project_name": "BedrockBreaker",
+    "build_id": 116887,
+    "build_number": 20,
+    "build_commit": "44f8288ba553ba5bbcb80d74983dfa776c81be37",
+    "description_url": "https://poggit.pmmp.io/r/150373",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/BedrockBreaker/44f8288ba553ba5bbcb80d74983dfa776c81be37/resources/Bedrock.png",
+    "changelog_url": "https://poggit.pmmp.io/r/150375",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638636349,
+    "state": 5,
+    "last_state_change_date": 1638654604,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bedrock",
+        "break",
+        "custom",
+        "destroy",
+        "permission",
+        "tnt"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "fad28e38ec2c7703c5780617fafadb4d16755932",
+            "build_id": 110165
+        }
+    ]
+}

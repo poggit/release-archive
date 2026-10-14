@@ -1,0 +1,89 @@
+{
+    "id": 13668,
+    "name": "MartianEmotes",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MartianEmotes/1.0.0",
+    "tagline": "MartianEmotes enhances your Minecraft server with customizable chat emotes, adding fun expressions and interactions for players!",
+    "artifact_url": "https://poggit.pmmp.io/r/250385",
+    "downloads": 123,
+    "score": 5,
+    "repo_id": 901171601,
+    "repo_name": "MrEcstsy/MartianEmotes",
+    "project_id": 14392,
+    "project_name": "MartianEmotes",
+    "build_id": 183178,
+    "build_number": 6,
+    "build_commit": "1de7c612a767e432843297e1cb7e71970f14ddd1",
+    "description_url": "https://poggit.pmmp.io/r/250388",
+    "icon_url": "https://raw.githubusercontent.com/MrEcstsy/MartianEmotes/1de7c612a767e432843297e1cb7e71970f14ddd1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1733816161,
+    "state": 5,
+    "last_state_change_date": 1736033684,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "emoji",
+        "emote",
+        "emotes",
+        "fun",
+        "martian"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MrEcstsy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "76aa3b4cdd856d1cf7ea3498eee921414e01fb97",
+            "build_id": 167816
+        }
+    ]
+}

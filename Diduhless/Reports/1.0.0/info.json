@@ -1,0 +1,76 @@
+{
+    "id": 6002,
+    "name": "Reports",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Reports/1.0.0",
+    "tagline": "📢 A reports plugin for pocketmine servers",
+    "artifact_url": "https://poggit.pmmp.io/r/116076",
+    "downloads": 582,
+    "score": 5,
+    "repo_id": 254297247,
+    "repo_name": "Diduhless/Reports",
+    "project_id": 8583,
+    "project_name": "Reports",
+    "build_id": 96914,
+    "build_number": 5,
+    "build_commit": "5691b31d169287f84893614096280f17e35bc755",
+    "description_url": "https://poggit.pmmp.io/r/116075",
+    "icon_url": "https://raw.githubusercontent.com/Diduhless/Reports/5691b31d169287f84893614096280f17e35bc755/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614000798,
+    "state": 5,
+    "last_state_change_date": 1614011515,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "report",
+        "reports"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Diduhless"
+        ],
+        "Contributor": [
+            "Sergittos"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEasyUI",
+            "project_id": 7632,
+            "repo_id": 281477433,
+            "repo_name": "dresnite/easyui",
+            "repo_path": "",
+            "build_commit": "58f6fc4a735974b1a67d7d33cc8e294d45ff562a",
+            "build_id": 87224
+        },
+        {
+            "name": "DiscordWebhookAPI",
+            "project_id": 4428,
+            "repo_id": 162234790,
+            "repo_name": "CortexPE/DiscordWebhookAPI",
+            "repo_path": "",
+            "build_commit": "d06085f45131b6ea96373f011fd842fa6960a51a",
+            "build_id": 73791
+        }
+    ]
+}

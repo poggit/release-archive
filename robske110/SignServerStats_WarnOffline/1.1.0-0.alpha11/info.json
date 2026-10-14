@@ -1,0 +1,83 @@
+{
+    "id": 1038,
+    "name": "WarnOffline",
+    "version": "1.1.0-0.alpha11",
+    "html_url": "https://poggit.pmmp.io/p/WarnOffline/1.1.0-0.alpha11",
+    "tagline": "A plugin which displays a warning when a Server from the StatusList has gone offline.",
+    "artifact_url": "https://poggit.pmmp.io/r/22512",
+    "downloads": 112,
+    "score": null,
+    "repo_id": 70623426,
+    "repo_name": "robske110/SignServerStats",
+    "project_id": 843,
+    "project_name": "WarnOffline",
+    "build_id": 35502,
+    "build_number": 10,
+    "build_commit": "740fcc576308c19365ce82de6b746007ba26786b",
+    "description_url": "https://poggit.pmmp.io/r/22545",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/22547",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518020444,
+    "state": 5,
+    "last_state_change_date": 1518025357,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Info",
+        "Notification",
+        "Offline",
+        "Server",
+        "Warn",
+        "Warning"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SignServerStats",
+            "version": "1.1.0-0.alpha11",
+            "depRelId": 1031,
+            "isHard": true
+        },
+        {
+            "name": "StatusList",
+            "version": "1.1.0-0.alpha11",
+            "depRelId": 1032,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "robske110"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

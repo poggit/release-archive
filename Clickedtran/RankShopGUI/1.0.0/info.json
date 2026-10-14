@@ -1,0 +1,103 @@
+{
+    "id": 12632,
+    "name": "RankShopGUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RankShopGUI/1.0.0",
+    "tagline": "RankShop for PocketMine-MP 5.0.0",
+    "artifact_url": "https://poggit.pmmp.io/r/229553",
+    "downloads": 2594,
+    "score": 5,
+    "repo_id": 720324795,
+    "repo_name": "Clickedtran/RankShopGUI",
+    "project_id": 13354,
+    "project_name": "RankShopGUI",
+    "build_id": 168779,
+    "build_number": 20,
+    "build_commit": "25e5fc2f7f169481fb6cc0e7727d2376f9132420",
+    "description_url": "https://poggit.pmmp.io/r/237035",
+    "icon_url": "https://raw.githubusercontent.com/Clickedtran/RankShopGUI/25e5fc2f7f169481fb6cc0e7727d2376f9132420/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1701833915,
+    "state": 5,
+    "last_state_change_date": 1704028691,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "customrankshop",
+        "rankshopgui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Clickedtran"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "706e307d705ef8fe20653bebd04a18b1d9b3e47a",
+            "build_id": 161792
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "3c4e02b52f275cf5f2cf83a31e8e651eb9901ae0",
+            "build_id": 162907
+        },
+        {
+            "name": "libRanks",
+            "project_id": 13399,
+            "repo_id": 727165671,
+            "repo_name": "ClickedTran/libRanks",
+            "repo_path": "",
+            "build_commit": "8169876f749505622358c6c9340ac2887c269bc8",
+            "build_id": 168733
+        }
+    ]
+}

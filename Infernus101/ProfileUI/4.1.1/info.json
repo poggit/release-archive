@@ -1,0 +1,72 @@
+{
+    "id": 1062,
+    "name": "ProfileUI",
+    "version": "4.1.1",
+    "html_url": "https://poggit.pmmp.io/p/ProfileUI/4.1.1",
+    "tagline": "Get any player's profile on a Modal Form!",
+    "artifact_url": "https://poggit.pmmp.io/r/22917",
+    "downloads": 705,
+    "score": 5,
+    "repo_id": 106823270,
+    "repo_name": "Infernus101/ProfileUI",
+    "project_id": 1008,
+    "project_name": "ProfileUI",
+    "build_id": 35965,
+    "build_number": 44,
+    "build_commit": "91a99ee560c5f8658a589b03a2fbbdba47710233",
+    "description_url": "https://poggit.pmmp.io/r/22914",
+    "icon_url": "https://raw.githubusercontent.com/Infernus101/ProfileUI/91a99ee560c5f8658a589b03a2fbbdba47710233/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/22916",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518272543,
+    "state": 5,
+    "last_state_change_date": 1518331812,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "mcpe",
+        "mcpe-plugin",
+        "phar",
+        "php",
+        "plugin",
+        "pmmp",
+        "poggit",
+        "profileui"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA1",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Infernus101"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

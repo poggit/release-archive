@@ -1,0 +1,59 @@
+{
+    "id": 9257,
+    "name": "NoSleep",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/NoSleep/1.0",
+    "tagline": "No Sleeping Plugin For PM-4",
+    "artifact_url": "https://poggit.pmmp.io/r/166505",
+    "downloads": 299,
+    "score": null,
+    "repo_id": 469045211,
+    "repo_name": "deadbushmc/NoSleep",
+    "project_id": 10785,
+    "project_name": "NoSleep",
+    "build_id": 126641,
+    "build_number": 7,
+    "build_commit": "377f378e7dea1929bc719f901712e6f41eb78243",
+    "description_url": "https://poggit.pmmp.io/r/166504",
+    "icon_url": "https://raw.githubusercontent.com/deadbushmc/NoSleep/377f378e7dea1929bc719f901712e6f41eb78243/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647080568,
+    "state": 5,
+    "last_state_change_date": 1649581602,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "Sleeping",
+        "NoSleep",
+        "NoSleeping"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "deadbushmc"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

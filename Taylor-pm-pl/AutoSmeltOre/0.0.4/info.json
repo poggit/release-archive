@@ -1,0 +1,72 @@
+{
+    "id": 11457,
+    "name": "AutoSmeltOre",
+    "version": "0.0.4",
+    "html_url": "https://poggit.pmmp.io/p/AutoSmeltOre/0.0.4",
+    "tagline": "Auto smelt ore when break!",
+    "artifact_url": "https://poggit.pmmp.io/r/209209",
+    "downloads": 1663,
+    "score": null,
+    "repo_id": 462232367,
+    "repo_name": "Taylor-pm-pl/AutoSmeltOre",
+    "project_id": 10659,
+    "project_name": "AutoSmeltOre",
+    "build_id": 155857,
+    "build_number": 11,
+    "build_commit": "9d62c31104ee17cf7724abf21b423b594dd5f9d8",
+    "description_url": "https://poggit.pmmp.io/r/209467",
+    "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/AutoSmeltOre/9d62c31104ee17cf7724abf21b423b594dd5f9d8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209469",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685670311,
+    "state": 5,
+    "last_state_change_date": 1685675314,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "block",
+        "ore",
+        "plugin",
+        "smelt"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NgLam2911"
+        ],
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

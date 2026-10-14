@@ -1,0 +1,58 @@
+{
+    "id": 13618,
+    "name": "DoubleSlabs",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/DoubleSlabs/0.0.1",
+    "tagline": "Pocketmine plugin that allows for a different top half and bottom half of a slab (BETA)",
+    "artifact_url": "https://poggit.pmmp.io/r/249446",
+    "downloads": 350,
+    "score": 5,
+    "repo_id": 884022370,
+    "repo_name": "GameParrot/DoubleSlabs",
+    "project_id": 14327,
+    "project_name": "DoubleSlabs",
+    "build_id": 182513,
+    "build_number": 4,
+    "build_commit": "203fcce2a75e2a9b061c9a236c5f3c837c542255",
+    "description_url": "https://poggit.pmmp.io/r/249445",
+    "icon_url": "https://raw.githubusercontent.com/GameParrot/DoubleSlabs/203fcce2a75e2a9b061c9a236c5f3c837c542255/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1730858729,
+    "state": 6,
+    "last_state_change_date": 1736031715,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "multislab",
+        "slab"
+    ],
+    "api": [
+        {
+            "from": "5.8.1",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GameParrot"
+        ]
+    },
+    "state_name": "Featured",
+    "virions": []
+}

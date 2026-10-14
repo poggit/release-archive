@@ -1,0 +1,68 @@
+{
+    "id": 4709,
+    "name": "CoinFlip",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/CoinFlip/0.0.2",
+    "tagline": "A PocketMine-MP plugin that allows players to gamble with their money",
+    "artifact_url": "https://poggit.pmmp.io/r/92655",
+    "downloads": 1850,
+    "score": 5,
+    "repo_id": 234954213,
+    "repo_name": "KingOfTurkey38/CoinFlip",
+    "project_id": 6164,
+    "project_name": "CoinFlip",
+    "build_id": 81520,
+    "build_number": 7,
+    "build_commit": "d45b7cb642e0b5a3259e68fa8f67922ecc771148",
+    "description_url": "https://poggit.pmmp.io/r/92652",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/92654",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1592388411,
+    "state": 5,
+    "last_state_change_date": 1592466924,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "coinflip"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "KingOfTurkey38"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

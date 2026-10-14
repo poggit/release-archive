@@ -1,0 +1,55 @@
+{
+    "id": 2851,
+    "name": "MultiPort",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MultiPort/1.0.0",
+    "tagline": "Open multiple ports for your server",
+    "artifact_url": "https://poggit.pmmp.io/r/57470",
+    "downloads": 2402,
+    "score": 4,
+    "repo_id": 185060064,
+    "repo_name": "AndreasHGK/MultiPort",
+    "project_id": 4986,
+    "project_name": "MultiPort",
+    "build_id": 59049,
+    "build_number": 1,
+    "build_commit": "52cc3b2bed01160117ad1f47cde59db4de473343",
+    "description_url": "https://poggit.pmmp.io/r/57469",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1557076587,
+    "state": 5,
+    "last_state_change_date": 1557850440,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.7.3",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AndreasHGK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

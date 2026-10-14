@@ -1,0 +1,18 @@
+<p>This update includes API breaking and configuration file changes.</p>
+<ul>
+<li>Added events
+<ul>
+<li><code>Kygekraqmak\KygekTagsShop\event\TagBuyEvent</code></li>
+<li><code>Kygekraqmak\KygekTagsShop\event\TagSellEvent</code></li>
+</ul>
+</li>
+<li>Deprecated <code>TagsActions-&gt;getAPIVersion()</code> method has been removed in favor of the <code>TagsActions::API_VERSION</code> constant</li>
+<li>Methods that has been changed from public to private
+<ul>
+<li><code>TagsActions-&gt;getData()</code></li>
+<li><code>TagsActions-&gt;setData()</code></li>
+<li><code>TagsActions-&gt;removeData()</code></li>
+</ul>
+</li>
+<li>Added option to disable/enable no EconomyAPI plugin notice on startup in <code>config.yml</code> (Enabled by default)</li>
+</ul>

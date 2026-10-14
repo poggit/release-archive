@@ -1,0 +1,54 @@
+{
+    "id": 6198,
+    "name": "Drawer-HiroTeam",
+    "version": "4.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Drawer-HiroTeam/4.0.0",
+    "tagline": "Drawer PocketMine Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/119128",
+    "downloads": 560,
+    "score": null,
+    "repo_id": 271780722,
+    "repo_name": "HiroshimaTeam/Drawer-HiroTeam",
+    "project_id": 7182,
+    "project_name": "Drawer-HiroTeam",
+    "build_id": 98693,
+    "build_number": 17,
+    "build_commit": "66c435729a7f64bc480da2b9b4bc827a4e6236da",
+    "description_url": "https://poggit.pmmp.io/r/119125",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/Drawer-HiroTeam/66c435729a7f64bc480da2b9b4bc827a4e6236da/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/119127",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616355382,
+    "state": 5,
+    "last_state_change_date": 1616420532,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "drawer",
+        "storage"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HiroshimaTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

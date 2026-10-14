@@ -1,0 +1,77 @@
+{
+    "id": 8239,
+    "name": "PurePerms",
+    "version": "1.4.4",
+    "html_url": "https://poggit.pmmp.io/p/PurePerms/1.4.4",
+    "tagline": "Permissions manager by #64FF00",
+    "artifact_url": "https://poggit.pmmp.io/r/151223",
+    "downloads": 2040,
+    "score": 5,
+    "repo_id": 80404184,
+    "repo_name": "poggit-orphanage/PurePerms",
+    "project_id": 203,
+    "project_name": "PurePerms",
+    "build_id": 117355,
+    "build_number": 24,
+    "build_commit": "73969f6d4a4f7bcf0039598fe986a659acbb19e8",
+    "description_url": "https://poggit.pmmp.io/r/151220",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PurePerms/73969f6d4a4f7bcf0039598fe986a659acbb19e8/icon128.png",
+    "changelog_url": "https://poggit.pmmp.io/r/151222",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638815053,
+    "state": 5,
+    "last_state_change_date": 1639107014,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "manager",
+        "permissions",
+        "perms"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PureChat",
+            "version": "1.4.10-6",
+            "depRelId": 1374,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "Thunder33345",
+            "Awzaw",
+            "Pub4Game",
+            "jasonwynn10",
+            "SOF3"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

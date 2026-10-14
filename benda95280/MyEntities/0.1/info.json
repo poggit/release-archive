@@ -1,0 +1,77 @@
+{
+    "id": 3345,
+    "name": "MyEntities",
+    "version": "0.1",
+    "html_url": "https://poggit.pmmp.io/p/MyEntities/0.1",
+    "tagline": "Gives/Spawn Head and Custom entities with skin suppport and Geometry, EASILY !",
+    "artifact_url": "https://poggit.pmmp.io/r/65681",
+    "downloads": 662,
+    "score": 5,
+    "repo_id": 205447707,
+    "repo_name": "benda95280/MyEntities",
+    "project_id": 5539,
+    "project_name": "MyEntities",
+    "build_id": 64190,
+    "build_number": 1,
+    "build_commit": "cf5bc23eda11345d501ebe4f5a1cf8da125182d0",
+    "description_url": "https://poggit.pmmp.io/r/66425",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1568319077,
+    "state": 5,
+    "last_state_change_date": 1568732525,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "block",
+        "blocks",
+        "entities",
+        "entity",
+        "head",
+        "heads",
+        "item",
+        "items",
+        "skin",
+        "skins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "thebigsmileXD"
+        ],
+        "Contributor": [
+            "HimbeersaftLP"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

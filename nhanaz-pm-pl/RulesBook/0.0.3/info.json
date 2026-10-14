@@ -1,0 +1,71 @@
+{
+    "id": 11641,
+    "name": "RulesBook",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/RulesBook/0.0.3",
+    "tagline": "Show preview rules book when a player first joins the server or uses /rulesbook command",
+    "artifact_url": "https://poggit.pmmp.io/r/211516",
+    "downloads": 370,
+    "score": null,
+    "repo_id": 542032944,
+    "repo_name": "nhanaz-pm-pl/RulesBook",
+    "project_id": 11865,
+    "project_name": "RulesBook",
+    "build_id": 156831,
+    "build_number": 9,
+    "build_commit": "0f3213f48963ac5bb535d1bb659aa028ef7a0642",
+    "description_url": "https://poggit.pmmp.io/r/211513",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/RulesBook/0f3213f48963ac5bb535d1bb659aa028ef7a0642/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/211515",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686417075,
+    "state": 5,
+    "last_state_change_date": 1686626302,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "rule",
+        "rulebook",
+        "rules",
+        "rulesbook"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libBook",
+            "project_id": 11860,
+            "repo_id": 541800167,
+            "repo_name": "cooldogepm/libBook",
+            "repo_path": "",
+            "build_commit": "a79149041987047c082c9dffc70557bcb2c2b687",
+            "build_id": 156769
+        }
+    ]
+}

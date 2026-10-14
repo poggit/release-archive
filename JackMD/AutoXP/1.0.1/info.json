@@ -1,0 +1,60 @@
+{
+    "id": 1831,
+    "name": "AutoXP",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AutoXP/1.0.1",
+    "tagline": "Say goodbye to xp orbs, now they come directly to your inventory.",
+    "artifact_url": "https://poggit.pmmp.io/r/40976",
+    "downloads": 841,
+    "score": null,
+    "repo_id": 138354353,
+    "repo_name": "JackMD/AutoXP",
+    "project_id": 3150,
+    "project_name": "AutoXP",
+    "build_id": 48744,
+    "build_number": 4,
+    "build_commit": "a15db24d9e6b5e15b27ac93dad27cd614af8696f",
+    "description_url": "https://poggit.pmmp.io/r/40973",
+    "icon_url": "https://raw.githubusercontent.com/JackMD/AutoXP/a15db24d9e6b5e15b27ac93dad27cd614af8696f/meta/AutoXP.png",
+    "changelog_url": "https://poggit.pmmp.io/r/40975",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1535679053,
+    "state": 5,
+    "last_state_change_date": 1535705846,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "automatic",
+        "autoxp",
+        "experience",
+        "orbs",
+        "pmmp",
+        "pocketmine-mp",
+        "xp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JackMD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

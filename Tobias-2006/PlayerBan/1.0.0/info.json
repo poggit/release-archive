@@ -1,0 +1,74 @@
+{
+    "id": 6683,
+    "name": "PlayerBan",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerBan/1.0.0",
+    "tagline": "BanSystem Plugin for Pocketmine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/126330",
+    "downloads": 245,
+    "score": 5,
+    "repo_id": 352942843,
+    "repo_name": "Tobias-2006/PlayerBan",
+    "project_id": 8993,
+    "project_name": "PlayerBan",
+    "build_id": 102745,
+    "build_number": 5,
+    "build_commit": "15bce4f023b2e08444e91aaf324435b0a89c8b56",
+    "description_url": "https://poggit.pmmp.io/r/126568",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1621794476,
+    "state": 5,
+    "last_state_change_date": 1621801837,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "address",
+        "ban",
+        "bansystem",
+        "playerban"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Tobias-2006"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

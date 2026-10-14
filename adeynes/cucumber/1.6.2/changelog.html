@@ -1,0 +1,14 @@
+<h3>
+<a id="user-content-new-features-in-v162-up-from-v150" class="anchor" href="#new-features-in-v162-up-from-v150" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>New features in v1.6.2 (up from v1.5.0)</h3>
+<h4>
+<a id="user-content-v162" class="anchor" href="#v162" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>v1.6.2</h4>
+<p>This patch sends a message to muted players who attempt to chat. It does not require a language file update, as the default mute message (<code>moderation.mute.mute.message</code>) will be used if the chat attempt message (<code>moderation.mute.chat-attempt</code>) is not present. The message file version is now 2.1, but only 2.0 is required.</p>
+<h4>
+<a id="user-content-v161" class="anchor" href="#v161" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>v1.6.1</h4>
+<p>This patch adds support for the French language (<code>fr.yml</code>).</p>
+<h4>
+<a id="user-content-v160" class="anchor" href="#v160" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>v1.6.0</h4>
+<p>This release adds support for languages. It is a breaking change for message files, so their version has been bumped to 2.0. They are now located at <code>cucumber/lang</code>. A language can be specified in <code>config.yml</code>.</p>
+<h4>
+<a id="user-content-v151" class="anchor" href="#v151" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>v1.5.1</h4>
+<p>This patch switches over to <code>parsecmd</code> v4.0. Despite the major version bump, this is mostly an internal change and will not change the way the plugin behaves, except for a few bug fixes. This upgrade fixes a minor bug with the duration parser crashing when a duration was not in ascending order (e.g. <code>15d1M</code> instead of <code>1M15d</code>). A critical bug where the server would freeze shortly after a punishment save has also been patched. It was caused by a bug with <code>pthreads</code>'s garbage collector when scheduling too many <code>libasynql</code> queries at once, which created too many threads. This was fixed by a <code>libasynql</code> update which changed <code>pthreads</code> inheritance settings. The threads were started when the punishment save executed <code>INSERT</code>s and <code>DELETE</code>s for every new/old punishment instead of bulk insertions and deletions. Punishments are now saved when they are set/pardoned, which also fixes a bug where pardoning a player and re-punishing them before the punishment save kicked in would leave the player pardoned after a restart.</p>

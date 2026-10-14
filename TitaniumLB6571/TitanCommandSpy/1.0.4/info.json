@@ -1,0 +1,75 @@
+{
+    "id": 9298,
+    "name": "CommandSpy",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/CommandSpy/1.0.4",
+    "tagline": "Spy on other peoples commands",
+    "artifact_url": "https://poggit.pmmp.io/r/167350",
+    "downloads": 696,
+    "score": 3,
+    "repo_id": 289074238,
+    "repo_name": "TitaniumLB6571/TitanCommandSpy",
+    "project_id": 7645,
+    "project_name": "TitanCommandSpy",
+    "build_id": 127260,
+    "build_number": 7,
+    "build_commit": "c0730442636d9b57ede58a77783bb1571aaa0dca",
+    "description_url": "https://poggit.pmmp.io/r/167347",
+    "icon_url": "https://raw.githubusercontent.com/TitaniumLB6571/TitanCommandSpy/c0730442636d9b57ede58a77783bb1571aaa0dca/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/167349",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647439305,
+    "state": 5,
+    "last_state_change_date": 1647480203,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "CommandSpy",
+        "Socialspy",
+        "Spy"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TitaniumLB6571"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

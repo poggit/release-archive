@@ -1,0 +1,64 @@
+{
+    "id": 4886,
+    "name": "status",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/status/1.0.0",
+    "tagline": "allow player to create a status",
+    "artifact_url": "https://poggit.pmmp.io/r/96031",
+    "downloads": 2535,
+    "score": 4,
+    "repo_id": 273686116,
+    "repo_name": "Arcoz0308/pmmp-status",
+    "project_id": 7242,
+    "project_name": "pmmp-status",
+    "build_id": 83724,
+    "build_number": 21,
+    "build_commit": "b20c2da811b134784e843e623d3a83d1fef076c1",
+    "description_url": "https://poggit.pmmp.io/r/125655",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1594627921,
+    "state": 5,
+    "last_state_change_date": 1594651096,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "discord",
+        "fun",
+        "player",
+        "status"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Arcoz0308"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,64 @@
+{
+    "id": 13438,
+    "name": "WaterLogging",
+    "version": "1.2",
+    "html_url": "https://poggit.pmmp.io/p/WaterLogging/1.2",
+    "tagline": "Add waterlogging to your PocketMine-MP server!",
+    "artifact_url": "https://poggit.pmmp.io/r/246094",
+    "downloads": 619,
+    "score": 5,
+    "repo_id": 502784581,
+    "repo_name": "platz1de/Waterlogging",
+    "project_id": 11473,
+    "project_name": "Waterlogging",
+    "build_id": 180102,
+    "build_number": 13,
+    "build_commit": "b5e30ff57a1a4ca2e5d2981cbf20aaf859bba83a",
+    "description_url": "https://poggit.pmmp.io/r/246091",
+    "icon_url": "https://raw.githubusercontent.com/platz1de/Waterlogging/b5e30ff57a1a4ca2e5d2981cbf20aaf859bba83a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/246093",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1723501555,
+    "state": 6,
+    "last_state_change_date": 1723556406,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "snow",
+        "snowlogging",
+        "water",
+        "waterlogging"
+    ],
+    "api": [
+        {
+            "from": "5.8.1",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "platz1de"
+        ]
+    },
+    "state_name": "Featured",
+    "virions": []
+}

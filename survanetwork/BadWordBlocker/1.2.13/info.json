@@ -1,0 +1,67 @@
+{
+    "id": 8118,
+    "name": "BadWordBlocker",
+    "version": "1.2.13",
+    "html_url": "https://poggit.pmmp.io/p/BadWordBlocker/1.2.13",
+    "tagline": "A chat filter which can block certain things",
+    "artifact_url": "https://poggit.pmmp.io/r/149802",
+    "downloads": 1282,
+    "score": null,
+    "repo_id": 46267931,
+    "repo_name": "survanetwork/BadWordBlocker",
+    "project_id": 385,
+    "project_name": "BadWordBlocker",
+    "build_id": 116643,
+    "build_number": 54,
+    "build_commit": "dd7eef3f0a147b2ad83ec46f3901683b68cf0425",
+    "description_url": "https://poggit.pmmp.io/r/149798",
+    "icon_url": "https://raw.githubusercontent.com/survanetwork/BadWordBlocker/dd7eef3f0a147b2ad83ec46f3901683b68cf0425/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/149800",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/149801",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638531744,
+    "state": 5,
+    "last_state_change_date": 1638546480,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "caps",
+        "chat",
+        "filter",
+        "spam"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jarne"
+        ],
+        "Contributor": [
+            "robske110",
+            "XuPaperCup",
+            "BlackD14",
+            "KygekDev",
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

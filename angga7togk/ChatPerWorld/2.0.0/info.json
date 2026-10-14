@@ -1,0 +1,64 @@
+{
+    "id": 11340,
+    "name": "ChatPerWorld",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatPerWorld/2.0.0",
+    "tagline": "To Split Words In Specific Word",
+    "artifact_url": "https://poggit.pmmp.io/r/208203",
+    "downloads": 24,
+    "score": null,
+    "repo_id": 621700231,
+    "repo_name": "angga7togk/ChatPerWorld",
+    "project_id": 12296,
+    "project_name": "ChatPerWorld",
+    "build_id": 155491,
+    "build_number": 21,
+    "build_commit": "200cb0151b06d53ef8f3677c91e3c2709a08567d",
+    "description_url": "https://poggit.pmmp.io/r/208200",
+    "icon_url": "https://raw.githubusercontent.com/angga7togk/ChatPerWorld/200cb0151b06d53ef8f3677c91e3c2709a08567d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208202",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685473134,
+    "state": 5,
+    "last_state_change_date": 1685487856,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chatperworld",
+        "perworldchat",
+        "perworldplayer",
+        "worldchat"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "angga7togk"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

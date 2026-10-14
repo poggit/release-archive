@@ -1,0 +1,73 @@
+{
+    "id": 737,
+    "name": "AdvancedKits",
+    "version": "5.1.0-6",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedKits/5.1.0-6",
+    "tagline": "Add kits to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/15082",
+    "downloads": 386,
+    "score": 3,
+    "repo_id": 93638300,
+    "repo_name": "poggit-orphanage/AdvancedKits",
+    "project_id": 515,
+    "project_name": "AdvancedKits",
+    "build_id": 30338,
+    "build_number": 13,
+    "build_commit": "b4ad9b1103141edbf09aa84e69cc240a86f309fe",
+    "description_url": "https://poggit.pmmp.io/r/15238",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1509144564,
+    "state": 5,
+    "last_state_change_date": 1509144570,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "kits",
+        "enchantments"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA8",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "1.0.3",
+            "depRelId": 743,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "tnpxxsheepdog",
+            "luca28pet"
+        ],
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

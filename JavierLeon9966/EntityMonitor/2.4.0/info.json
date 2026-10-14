@@ -1,0 +1,72 @@
+{
+    "id": 12526,
+    "name": "EntityMonitor",
+    "version": "2.4.0",
+    "html_url": "https://poggit.pmmp.io/p/EntityMonitor/2.4.0",
+    "tagline": "Plugin that monitors every chunk for potential amount of entities and tiles",
+    "artifact_url": "https://poggit.pmmp.io/r/227639",
+    "downloads": 56,
+    "score": null,
+    "repo_id": 382135376,
+    "repo_name": "JavierLeon9966/EntityMonitor",
+    "project_id": 9218,
+    "project_name": "EntityMonitor",
+    "build_id": 167450,
+    "build_number": 15,
+    "build_commit": "fffcb251c313c58a8c6cae7fae31ea93b9f724b3",
+    "description_url": "https://poggit.pmmp.io/r/227636",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/EntityMonitor/fffcb251c313c58a8c6cae7fae31ea93b9f724b3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/227638",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1698342684,
+    "state": 5,
+    "last_state_change_date": 1698342706,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "chunk",
+        "count",
+        "entity",
+        "monitor",
+        "tick",
+        "tile"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "ed6b4e814566e2393ab84ce4a72b81739674e294",
+            "build_id": 163313
+        }
+    ]
+}

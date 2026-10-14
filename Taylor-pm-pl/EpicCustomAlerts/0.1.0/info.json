@@ -1,0 +1,83 @@
+{
+    "id": 11471,
+    "name": "EpicCustomAlerts",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/EpicCustomAlerts/0.1.0",
+    "tagline": "It allows you to customize the messages",
+    "artifact_url": "https://poggit.pmmp.io/r/209344",
+    "downloads": 39,
+    "score": null,
+    "repo_id": 489679364,
+    "repo_name": "Taylor-pm-pl/EpicCustomAlerts",
+    "project_id": 11092,
+    "project_name": "EpicCustomAlerts",
+    "build_id": 155908,
+    "build_number": 19,
+    "build_commit": "e0a774cac7599b60a77d7c22124d89d60804bfc4",
+    "description_url": "https://poggit.pmmp.io/r/209341",
+    "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/EpicCustomAlerts/e0a774cac7599b60a77d7c22124d89d60804bfc4/assets/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209343",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685693245,
+    "state": 5,
+    "last_state_change_date": 1685695095,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "alerts",
+        "customalerts",
+        "epiccustomalerts",
+        "info",
+        "message",
+        "player",
+        "pmmp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

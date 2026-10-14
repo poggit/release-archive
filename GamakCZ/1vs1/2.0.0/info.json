@@ -1,0 +1,66 @@
+{
+    "id": 9826,
+    "name": "1vs1",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/1vs1/2.0.0",
+    "tagline": "1vs1 minigame plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/178066",
+    "downloads": 7238,
+    "score": null,
+    "repo_id": 163742737,
+    "repo_name": "GamakCZ/1vs1",
+    "project_id": 4472,
+    "project_name": "1vs1",
+    "build_id": 134753,
+    "build_number": 4,
+    "build_commit": "1b678055dffccefae13b325009075fbde6a6820e",
+    "description_url": "https://poggit.pmmp.io/r/178063",
+    "icon_url": "https://raw.githubusercontent.com/GamakCZ/1vs1/1b678055dffccefae13b325009075fbde6a6820e/1vs1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/178065",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653810312,
+    "state": 5,
+    "last_state_change_date": 1653847801,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "1vs1",
+        "battle",
+        "duel",
+        "fight"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GamakCZ",
+            "VixikHD",
+            "zOmArRD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

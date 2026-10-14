@@ -1,0 +1,61 @@
+{
+    "id": 13324,
+    "name": "AzusaNametag",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AzusaNametag/1.0.0",
+    "tagline": "A Pocketmine-MP plugin that removes player nametag on the server",
+    "artifact_url": "https://poggit.pmmp.io/r/244393",
+    "downloads": 436,
+    "score": 5,
+    "repo_id": 826309055,
+    "repo_name": "KumaaDeveloper/AzusaNametag",
+    "project_id": 14013,
+    "project_name": "AzusaNametag",
+    "build_id": 178169,
+    "build_number": 3,
+    "build_commit": "dbef3b31e73a0e2a049a6757ec02e354b6a13710",
+    "description_url": "https://poggit.pmmp.io/r/244474",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaNametag/dbef3b31e73a0e2a049a6757ec02e354b6a13710/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721670486,
+    "state": 5,
+    "last_state_change_date": 1721783810,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Hide",
+        "HideNametag",
+        "Nametag",
+        "Player",
+        "Show"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

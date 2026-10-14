@@ -1,0 +1,120 @@
+{
+    "id": 10240,
+    "name": "EconomyEnchant",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/EconomyEnchant/1.0.1",
+    "tagline": "a EconomyEnchant Shop in UI",
+    "artifact_url": "https://poggit.pmmp.io/r/186002",
+    "downloads": 242,
+    "score": 5,
+    "repo_id": 464841168,
+    "repo_name": "XanderID-MC/EconomyEnchant",
+    "project_id": 10731,
+    "project_name": "EconomyEnchant",
+    "build_id": 140176,
+    "build_number": 12,
+    "build_commit": "a5a604a1a358917f63db05fe1dba197093fdacbd",
+    "description_url": "https://poggit.pmmp.io/r/186006",
+    "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/EconomyEnchant/a5a604a1a358917f63db05fe1dba197093fdacbd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1657588612,
+    "state": 5,
+    "last_state_change_date": 1657594360,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "enchant",
+        "enchant-shop",
+        "pocketmine-mp",
+        "shop"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "Capital",
+            "version": "0.1.2",
+            "depRelId": 9198,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        },
+        {
+            "name": "VanillaEC",
+            "version": "0.0.2",
+            "depRelId": 9919,
+            "isHard": false
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "3.0.3",
+            "depRelId": 9998,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "SOF3"
+        ],
+        "Collaborator": [
+            "XanderID"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        }
+    ]
+}

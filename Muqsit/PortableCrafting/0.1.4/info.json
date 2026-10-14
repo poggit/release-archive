@@ -1,0 +1,75 @@
+{
+    "id": 11354,
+    "name": "PortableCrafting",
+    "version": "0.1.4",
+    "html_url": "https://poggit.pmmp.io/p/PortableCrafting/0.1.4",
+    "tagline": "/workbench plugin for PocketMine-MP API 4",
+    "artifact_url": "https://poggit.pmmp.io/r/208450",
+    "downloads": 1314,
+    "score": 4,
+    "repo_id": 336244446,
+    "repo_name": "Muqsit/PortableCrafting",
+    "project_id": 8506,
+    "project_name": "PortableCrafting",
+    "build_id": 155657,
+    "build_number": 25,
+    "build_commit": "ff3f8253d977f4a4ff555ab13ffcb0d9ea36dce6",
+    "description_url": "https://poggit.pmmp.io/r/208447",
+    "icon_url": "https://raw.githubusercontent.com/Muqsit/PortableCrafting/ff3f8253d977f4a4ff555ab13ffcb0d9ea36dce6/poggit/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208449",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685633555,
+    "state": 5,
+    "last_state_change_date": 1685637561,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "invmenu",
+        "plugin",
+        "pmmp",
+        "pocketmine-mp",
+        "portable"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "20ffa94a2dde27d51274e43d498835d608a6f861",
+            "build_id": 155625
+        }
+    ]
+}

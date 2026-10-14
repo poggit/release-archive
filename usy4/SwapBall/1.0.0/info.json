@@ -1,0 +1,59 @@
+{
+    "id": 10841,
+    "name": "SwapBall",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SwapBall/1.0.0",
+    "tagline": "When you throw the swapball on someone, your locations swap.",
+    "artifact_url": "https://poggit.pmmp.io/r/197672",
+    "downloads": 118,
+    "score": 5,
+    "repo_id": 569164834,
+    "repo_name": "usy4/SwapBall",
+    "project_id": 11978,
+    "project_name": "SwapBall",
+    "build_id": 148206,
+    "build_number": 17,
+    "build_commit": "87e56092fa4d3eb3c612a8699257157c69145482",
+    "description_url": "https://poggit.pmmp.io/r/197671",
+    "icon_url": "https://raw.githubusercontent.com/usy4/SwapBall/87e56092fa4d3eb3c612a8699257157c69145482/SwapBall.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1670276083,
+    "state": 5,
+    "last_state_change_date": 1671059142,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "swap",
+        "switch",
+        "ball"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "usy4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

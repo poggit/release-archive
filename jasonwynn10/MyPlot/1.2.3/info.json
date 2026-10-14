@@ -1,0 +1,133 @@
+{
+    "id": 1167,
+    "name": "MyPlot",
+    "version": "1.2.3",
+    "html_url": "https://poggit.pmmp.io/p/MyPlot/1.2.3",
+    "tagline": "Plot Generation Plugin for PocketMine-MP Servers",
+    "artifact_url": "https://poggit.pmmp.io/r/24269",
+    "downloads": 2416,
+    "score": 5,
+    "repo_id": 56465224,
+    "repo_name": "jasonwynn10/MyPlot",
+    "project_id": 48,
+    "project_name": "MyPlot",
+    "build_id": 36751,
+    "build_number": 194,
+    "build_commit": "7b54854a077c2126281cb8791a13f17f2ae9e50e",
+    "description_url": "https://poggit.pmmp.io/r/24266",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/MyPlot/7b54854a077c2126281cb8791a13f17f2ae9e50e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/24268",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1519055366,
+    "state": 5,
+    "last_state_change_date": 1519055366,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "claim",
+        "creative",
+        "land",
+        "merge",
+        "merging",
+        "MyPlot",
+        "Plot",
+        "PlotMe",
+        "plotmerge",
+        "PlotSquared",
+        "property",
+        "deprecated"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-3",
+            "depRelId": 634,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "iksaku",
+            "Exxarion",
+            "thelucyclub",
+            "daany123",
+            "Johnmacrocraft",
+            "NyaomiDEV",
+            "Jelly9912",
+            "SalmonDE",
+            "HimbeersaftLP",
+            "jerryzooyoyo",
+            "Aericio",
+            "eqMFqfFd",
+            "MorpheusTP",
+            "HighTecDev",
+            "MineSenpai",
+            "Lentou",
+            "AngelliaX",
+            "Crasher508",
+            "Wertzui123",
+            "HimmelKreis4865",
+            "supercrafter333",
+            "HyperEnte",
+            "DerDevHD",
+            "RomnSD",
+            "xAliTura01",
+            "MrBlasyMSK"
+        ],
+        "Collaborator": [
+            "jasonwynn10"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "spoondetector",
+            "project_id": 443,
+            "repo_id": 91121812,
+            "repo_name": "Falkirks/spoondetector",
+            "repo_path": "",
+            "build_commit": "7667ede0e77960dc1cf29c6c0af67003789ed95e",
+            "build_id": 23779
+        }
+    ]
+}

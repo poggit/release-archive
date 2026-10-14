@@ -1,0 +1,136 @@
+{
+    "id": 11045,
+    "name": "JoinACM",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/JoinACM/2.0.0",
+    "tagline": "Simple custom JoinUI for PocketMine-MP 4.0 by fernanACM",
+    "artifact_url": "https://poggit.pmmp.io/r/201708",
+    "downloads": 312,
+    "score": 4,
+    "repo_id": 435824033,
+    "repo_name": "fernanACM/JoinACM",
+    "project_id": 10090,
+    "project_name": "JoinACM",
+    "build_id": 151021,
+    "build_number": 51,
+    "build_commit": "161d61c63520eb65302c7157e84845473877d595",
+    "description_url": "https://poggit.pmmp.io/r/201705",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/JoinACM/161d61c63520eb65302c7157e84845473877d595/icon-joinacm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/201707",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1678914508,
+    "state": 5,
+    "last_state_change_date": 1678970213,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Animaton",
+        "Book",
+        "Join",
+        "JoinACM",
+        "JoinUI"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "d6ff9251b49d8c54e48e469a6a456bb51beeb94b",
+            "build_id": 150884
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "af1113d60b99a1467a0a9c3acdb1eeed57fa4065",
+            "build_id": 144029
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 10652,
+            "repo_id": 462073633,
+            "repo_name": "DaPigGuy/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "cdae30371374145ab430c1cff6bf32bf10a2e646",
+            "build_id": 124883
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "libBook",
+            "project_id": 11860,
+            "repo_id": 541800167,
+            "repo_name": "cooldogepm/libBook",
+            "repo_path": "",
+            "build_commit": "94d886fbb67ded333f503871bd7753c78e6808ca",
+            "build_id": 145652
+        }
+    ]
+}

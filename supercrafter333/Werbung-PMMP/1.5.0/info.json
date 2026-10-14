@@ -1,0 +1,74 @@
+{
+    "id": 6031,
+    "name": "Werbung-PMMP",
+    "version": "1.5.0",
+    "html_url": "https://poggit.pmmp.io/p/Werbung-PMMP/1.5.0",
+    "tagline": "This is a plugin that players can use to advertise!",
+    "artifact_url": "https://poggit.pmmp.io/r/116472",
+    "downloads": 251,
+    "score": 5,
+    "repo_id": 289763194,
+    "repo_name": "supercrafter333/Werbung-PMMP",
+    "project_id": 7668,
+    "project_name": "Werbung-PMMP",
+    "build_id": 97146,
+    "build_number": 64,
+    "build_commit": "c6489a24839c006c6a5ff13a6d0ac9c6698d3661",
+    "description_url": "https://poggit.pmmp.io/r/116478",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/116480",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614281234,
+    "state": 5,
+    "last_state_change_date": 1614523593,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "ad",
+        "adversting",
+        "advertisements",
+        "advertising",
+        "cooldown",
+        "werbung",
+        "werbung-pmmp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

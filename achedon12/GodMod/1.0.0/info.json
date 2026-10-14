@@ -1,0 +1,59 @@
+{
+    "id": 10571,
+    "name": "GodMod",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/GodMod/1.0.0",
+    "tagline": "simple plugin de godmod api PM4",
+    "artifact_url": "https://poggit.pmmp.io/r/193018",
+    "downloads": 616,
+    "score": null,
+    "repo_id": 535221524,
+    "repo_name": "achedon12/GodMod",
+    "project_id": 11827,
+    "project_name": "GodMod",
+    "build_id": 145177,
+    "build_number": 2,
+    "build_commit": "b01103fbab531d98e744c807a56635e8e8b97946",
+    "description_url": "https://poggit.pmmp.io/r/193124",
+    "icon_url": "https://raw.githubusercontent.com/achedon12/GodMod/b01103fbab531d98e744c807a56635e8e8b97946/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1663436536,
+    "state": 5,
+    "last_state_change_date": 1663606179,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "degat",
+        "god",
+        "mod"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "achedon12"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

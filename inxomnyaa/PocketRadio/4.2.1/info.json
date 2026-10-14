@@ -1,0 +1,84 @@
+{
+    "id": 3992,
+    "name": "PocketRadio",
+    "version": "4.2.1",
+    "html_url": "https://poggit.pmmp.io/p/PocketRadio/4.2.1",
+    "tagline": "A lightweight .NBS song player for PocketMine Servers",
+    "artifact_url": "https://poggit.pmmp.io/r/78732",
+    "downloads": 2860,
+    "score": 4,
+    "repo_id": 114782344,
+    "repo_name": "inxomnyaa/PocketRadio",
+    "project_id": 1415,
+    "project_name": "PocketRadio",
+    "build_id": 72246,
+    "build_number": 14,
+    "build_commit": "25ebc6fcfeaf5ae3166d98ed7810a9833189664e",
+    "description_url": "https://poggit.pmmp.io/r/78729",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/78731",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1584244361,
+    "state": 5,
+    "last_state_change_date": 1584279181,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "music",
+        "nbs",
+        "note",
+        "noteblock",
+        "noteblockstudio",
+        "player",
+        "radio",
+        "song"
+    ],
+    "api": [
+        {
+            "from": "3.11.4",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "DeathCamel57",
+            "jaylac2000",
+            "brokiem"
+        ],
+        "Collaborator": [
+            "inxomnyaa"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libnbs",
+            "project_id": 1402,
+            "repo_id": 114578513,
+            "repo_name": "inxomnyaa/libnbs",
+            "repo_path": "",
+            "build_commit": "7f93e953c40270c07efdf4590dbc009a1f7ec3d2",
+            "build_id": 72245
+        },
+        {
+            "name": "customui",
+            "project_id": 772,
+            "repo_id": 99797082,
+            "repo_name": "thebigsmileXD/customui",
+            "repo_path": "customui/",
+            "build_commit": "97a8e73470057f8786e4a1f993d1971ed87cc59b",
+            "build_id": 51353
+        }
+    ]
+}

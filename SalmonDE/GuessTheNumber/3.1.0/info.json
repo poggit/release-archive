@@ -1,0 +1,71 @@
+{
+    "id": 1968,
+    "name": "GuessTheNumber",
+    "version": "3.1.0",
+    "html_url": "https://poggit.pmmp.io/p/GuessTheNumber/3.1.0",
+    "tagline": "Chat games about simple maths and guessing",
+    "artifact_url": "https://poggit.pmmp.io/r/44193",
+    "downloads": 1542,
+    "score": 5,
+    "repo_id": 61964431,
+    "repo_name": "SalmonDE/GuessTheNumber",
+    "project_id": 738,
+    "project_name": "GuessTheNumber",
+    "build_id": 51097,
+    "build_number": 15,
+    "build_commit": "bd5402c0334c8ccbe82e52c30306ed1659ed43ee",
+    "description_url": "https://poggit.pmmp.io/r/44190",
+    "icon_url": "https://raw.githubusercontent.com/SalmonDE/GuessTheNumber/bd5402c0334c8ccbe82e52c30306ed1659ed43ee/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/44192",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1540739536,
+    "state": 5,
+    "last_state_change_date": 1540740831,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "numbers",
+        "math",
+        "game"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SalmonDE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

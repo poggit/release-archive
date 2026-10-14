@@ -1,0 +1,78 @@
+{
+    "id": 9850,
+    "name": "PersonaSkin",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/PersonaSkin/1.2.0",
+    "tagline": "Support for persona skin (it created via character creators)",
+    "artifact_url": "https://poggit.pmmp.io/r/178515",
+    "downloads": 2820,
+    "score": 5,
+    "repo_id": 285251608,
+    "repo_name": "presentkim-pm/PersonaSkin",
+    "project_id": 7566,
+    "project_name": "PersonaSkin",
+    "build_id": 135013,
+    "build_number": 16,
+    "build_commit": "1b19cceffcf3b554152d2e9e87612a8f11fa1fa6",
+    "description_url": "https://poggit.pmmp.io/r/178755",
+    "icon_url": "https://raw.githubusercontent.com/presentkim-pm/PersonaSkin/1b19cceffcf3b554152d2e9e87612a8f11fa1fa6/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/178757",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653972612,
+    "state": 5,
+    "last_state_change_date": 1654013426,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "charactor",
+        "charactor-creator",
+        "charactor-skin",
+        "persona",
+        "personaskin",
+        "presentkim",
+        "skin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PresentKim"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "png-converter",
+            "project_id": 8012,
+            "repo_id": 312723395,
+            "repo_name": "presentkim-pm/png-converter",
+            "repo_path": "",
+            "build_commit": "fef67ea822343066e5cb4d43237dcd81f17bebf0",
+            "build_id": 135003
+        },
+        {
+            "name": "remove-plugin-data-folder",
+            "project_id": 11078,
+            "repo_id": 489182920,
+            "repo_name": "presentkim-pm/remove-plugin-data-folder",
+            "repo_path": "",
+            "build_commit": "e5f9d38b767060c7f2c386119fcc727f684d81b0",
+            "build_id": 132231
+        }
+    ]
+}

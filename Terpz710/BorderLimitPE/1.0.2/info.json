@@ -1,0 +1,97 @@
+{
+    "id": 13903,
+    "name": "BorderLimitPE",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/BorderLimitPE/1.0.2",
+    "tagline": "World border plugin you can set for each worlds",
+    "artifact_url": "https://poggit.pmmp.io/r/253899",
+    "downloads": 263,
+    "score": null,
+    "repo_id": 725940545,
+    "repo_name": "Terpz710/BorderLimitPE",
+    "project_id": 13397,
+    "project_name": "BorderLimitPE",
+    "build_id": 185365,
+    "build_number": 23,
+    "build_commit": "346bc8b936b328f3ec9fc8d9ebe1b02a993ba2bb",
+    "description_url": "https://poggit.pmmp.io/r/253896",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/253898",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1741121028,
+    "state": 5,
+    "last_state_change_date": 1741182778,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "Border",
+        "BorderLimit",
+        "World",
+        "WorldBorder",
+        "WorldLimit"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        },
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "476235381a3908847c069496d04ec5b07b3011e8",
+            "build_id": 176854
+        },
+        {
+            "name": "libMessages",
+            "project_id": 14498,
+            "repo_id": 917052658,
+            "repo_name": "Terpz710/libMessages",
+            "repo_path": "",
+            "build_commit": "e43a8d1d992403ab18143fce386544a85fafddaa",
+            "build_id": 184161
+        }
+    ]
+}

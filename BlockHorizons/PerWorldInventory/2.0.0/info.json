@@ -1,0 +1,79 @@
+{
+    "id": 7384,
+    "name": "PerWorldInventory",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PerWorldInventory/2.0.0",
+    "tagline": "A full-featured per world inventory plugin for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/137409",
+    "downloads": 864,
+    "score": 4,
+    "repo_id": 97337434,
+    "repo_name": "BlockHorizons/PerWorldInventory",
+    "project_id": 623,
+    "project_name": "PerWorldInventory",
+    "build_id": 109150,
+    "build_number": 18,
+    "build_commit": "dc3dbb1a80459637f4be948ca9718a0f33eb0d05",
+    "description_url": "https://poggit.pmmp.io/r/137408",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1629049249,
+    "state": 5,
+    "last_state_change_date": 1629119615,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "inventory-save",
+        "mcpe",
+        "per-world",
+        "per-world-inventory",
+        "plugin",
+        "pocketmine-mp",
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit",
+            "Sandertv",
+            "lukeeey"
+        ],
+        "Contributor": [
+            "JaxkDev",
+            "thewalker0"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "307c779746e347724e9477b386d92859d1e36bcc",
+            "build_id": 109013
+        }
+    ]
+}

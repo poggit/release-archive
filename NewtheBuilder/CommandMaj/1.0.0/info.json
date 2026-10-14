@@ -1,0 +1,51 @@
+{
+    "id": 9139,
+    "name": "CommandMaj",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CommandMaj/1.0.0",
+    "tagline": "allows players to do uppercase commands",
+    "artifact_url": "https://poggit.pmmp.io/r/164445",
+    "downloads": 277,
+    "score": 5,
+    "repo_id": 463873609,
+    "repo_name": "NewtheBuilder/CommandMaj",
+    "project_id": 10700,
+    "project_name": "CommandMaj",
+    "build_id": 125365,
+    "build_number": 1,
+    "build_commit": "c3f6138e266acc617769b978f4c8eb4b5af88176",
+    "description_url": "https://poggit.pmmp.io/r/164444",
+    "icon_url": "https://raw.githubusercontent.com/NewtheBuilder/CommandMaj/c3f6138e266acc617769b978f4c8eb4b5af88176/Icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645885596,
+    "state": 5,
+    "last_state_change_date": 1649089734,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NewtheBuilder"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

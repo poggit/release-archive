@@ -1,0 +1,71 @@
+{
+    "id": 9003,
+    "name": "Mineflow",
+    "version": "2.8.1",
+    "html_url": "https://poggit.pmmp.io/p/Mineflow/2.8.1",
+    "tagline": "Easily create and execute the original flow like a plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/162595",
+    "downloads": 236,
+    "score": 4,
+    "repo_id": 219424179,
+    "repo_name": "aieuo/Mineflow",
+    "project_id": 5860,
+    "project_name": "Mineflow",
+    "build_id": 124325,
+    "build_number": 242,
+    "build_commit": "94956f82b7b59a7e530d440b28284820e971dbb9",
+    "description_url": "https://poggit.pmmp.io/r/162591",
+    "icon_url": "https://raw.githubusercontent.com/aieuo/Mineflow/94956f82b7b59a7e530d440b28284820e971dbb9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/162593",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/162594",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645262924,
+    "state": 5,
+    "last_state_change_date": 1645273565,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "command",
+        "form",
+        "if",
+        "mineflow"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "fuyutsuki",
+            "Adam1609",
+            "DaisukeDaisuke",
+            "PJZ9n",
+            "Lawless1011",
+            "ByPaps",
+            "LanternServer",
+            "TheGamingSnail"
+        ],
+        "Collaborator": [
+            "aieuo"
+        ],
+        "Translator": [
+            "NhanAZ",
+            "keenanyafiqy",
+            "Tweaky349"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

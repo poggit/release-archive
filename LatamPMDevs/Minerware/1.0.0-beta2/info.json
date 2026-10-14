@@ -1,0 +1,92 @@
+{
+    "id": 9613,
+    "name": "Minerware",
+    "version": "1.0.0-beta2",
+    "html_url": "https://poggit.pmmp.io/p/Minerware/1.0.0-beta2",
+    "tagline": "Minerware plugin inspired in CubeCraft's",
+    "artifact_url": "https://poggit.pmmp.io/r/174116",
+    "downloads": 210,
+    "score": 4,
+    "repo_id": 376601560,
+    "repo_name": "LatamPMDevs/Minerware",
+    "project_id": 10942,
+    "project_name": "Minerware",
+    "build_id": 132083,
+    "build_number": 50,
+    "build_commit": "7e69edb0031f5eaefb8798ab3f8581f4f50ecc1b",
+    "description_url": "https://poggit.pmmp.io/r/174115",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1651707749,
+    "state": 5,
+    "last_state_change_date": 1656142778,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "cubecraft",
+        "fun",
+        "game",
+        "microgames",
+        "minigame",
+        "says",
+        "simon",
+        "simonsays"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "shoghicp",
+            "IvanCraft623"
+        ],
+        "Contributor": [
+            "JustJ0rd4n",
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "languages",
+            "project_id": 10928,
+            "repo_id": 479753777,
+            "repo_name": "IvanCraft623/languages",
+            "repo_path": "",
+            "build_commit": "48d5bb20dd935ee2d2e87e880844551dc74e9ffa",
+            "build_id": 129273
+        }
+    ]
+}

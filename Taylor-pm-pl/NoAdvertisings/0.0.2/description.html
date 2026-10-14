@@ -1,0 +1,99 @@
+<div align="center">
+<h1>
+<a id="user-content-noadvertisings-v002" class="anchor" href="#noadvertisings-v002" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NoAdvertisings| v0.0.2<h1>
+<a id="" class="anchor" href="#" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>
+</h1>
+</h1>
+<p>Block ads for other servers.</p>
+</div>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<ul>
+<li>Block server ads.</li>
+<li>Easy to setup.</li>
+<li>Block server address ads when chatting, using commands, using sign.</li>
+</ul>
+<h2>
+<a id="user-content-all-noadvertisings-commands" class="anchor" href="#all-noadvertisings-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>All NoAdvertisings Commands:</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Command</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>/noadvertisings</strong></td>
+<td><strong>NoAdvertisings Control</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Aliases:
+<ul>
+<li>/na</li>
+<li>/noads</li>
+</ul>
+</li>
+</ul>
+<h2>
+<a id="user-content---permissions" class="anchor" href="#--permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji>  Permissions:</h2>
+<ul>
+<li>You can use permission <code>noadvertisings.blocked</code> for command /noadvertisings</li>
+</ul>
+<h2>
+<a id="user-content-configs" class="anchor" href="#configs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configs</h2>
+<pre><code>---
+# Main config for NoAdvertisings
+# Message when players advertise
+Message: "Please don't ads."
+# Messages when adding domain
+Domain-exists: "That domain already exist!."
+Domain-added-successfully: "Successfully added {domain} into config."
+# Messages when removing domain
+Domain-not-exists: "That domain not exist!."
+Domain-removed-successfully: "Successfully removed {domain} from config."
+# The domains that allowed to use
+allowed.domain:
+ - "youripserver.net"
+ - "yourip.net"
+# Blocked domain names
+domain:
+ - ".net"
+ - ".com"
+ - ".tk"
+ - ".ddns.net"
+# Lines that will change if player advertise on sign
+lines:
+ - '============='
+ - 'No Advertising!'
+ - '============='
+ - ''
+# The command that will protected from advertising
+blocked.cmd:
+ - "/me"
+ - "/tell"
+ - "/w"
+...
+</code></pre>
+<h2>
+<a id="user-content-project-infomation" class="anchor" href="#project-infomation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Project Infomation</h2>
+<table>
+<thead>
+<tr>
+<th>Plugin Version</th>
+<th>Pocketmine API</th>
+<th>PHP Version</th>
+<th>Plugin Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.0.2</td>
+<td>3.x.x</td>
+<td>7.4</td>
+<td>Completed</td>
+</tr>
+</tbody>
+</table>

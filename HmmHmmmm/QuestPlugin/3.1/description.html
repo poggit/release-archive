@@ -1,0 +1,98 @@
+<h2>
+<a id="user-content-questplugin" class="anchor" href="#questplugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>QuestPlugin</h2>
+<p><a href="#english">Language English</a></p>
+<p>Create quest has unlimited And can create many forms</p>
+<p><a href="https://github.com/HmmHmmmm/QuestPlugin/blob/master/images/3.1/1.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/HmmHmmmm/QuestPlugin/raw/master/images/3.1/1.jpg" alt="1" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-english" class="anchor" href="#english" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>English</h1>
+<div class="highlight highlight-source-diff"><pre>You must install the plugin
+<span class="pl-md"><span class="pl-md">-</span> Slapper</span>
+this plugin will work</pre></div>
+<p>Download the plugin Slapper <a href="https://poggit.pmmp.io/p/slapper" rel="nofollow">Click here</a></p>
+<p><strong>Features of plugin</strong><br></p>
+<ul>
+<li>Is a plugin to create quests using <a href="#event">Event</a>
+</li>
+<li>support database Yaml and SQLite</li>
+<li>Have language thai and english (You can edit the language you don't like at, <code>plugin_data/QuestPlugin/language</code>)</li>
+</ul>
+<p><strong>How to use</strong><br></p>
+<ul>
+<li><a href="https://youtu.be/jw8HKls-H4w" rel="nofollow">https://youtu.be/jw8HKls-H4w</a></li>
+</ul>
+<p><strong>Command</strong><br></p>
+<ul>
+<li>
+<code>/quest</code> : open ui</li>
+</ul>
+<h1>
+<a id="user-content-event" class="anchor" href="#event" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Event</h1>
+<ul>
+<li>breakblock (Break Block)</li>
+<li>placeblock (Place Block)</li>
+<li>kill_entity (Kill living things)</li>
+<li>kill_player (Kill players)</li>
+<li>trading (Trading#Please hold item.)</li>
+<li>online (Online)</li>
+</ul>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<pre><code>#thai=ภาษาไทยนะจ้ะ
+#english=English language
+#You can edit in plugin_data/QuestPlugin/language
+language: english
+
+#yml=Yaml, Information will be in plugin_data/QuestPlugin/quest.yml
+#sqlite=SQLite3, Information will be in plugin_data/QuestPlugin/quest.sqlite3
+questdata-database: sqlite
+
+#yml=Yaml, Information will be in plugin_data/QuestPlugin/account
+#sqlite=SQLite3, Information will be in plugin_data/QuestPlugin/players.sqlite3
+playerdata-database: yml
+
+slapper-update: 10
+
+slapper-type: Human
+
+#It is now not unusable.
+#MySQL-Info:
+  #Host: 127.0.0.1
+  #User: Admin
+  #Password: Admin
+  #Database: QuestPlugin
+  #Port: 3306
+</code></pre>
+<h1>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h1>
+<pre><code>/*
+*
+* Command /quest it can be typed by everyone.
+*
+*/
+quest.command.info:
+  default: op
+quest.command.list:
+  default: true
+quest.command.remove:
+  default: true
+quest.command.add:
+  default: op
+quest.command.data:
+  default: false
+quest.command.data.gui:
+  default: op
+quest.command.data.event:
+  default: op
+quest.command.data.create:
+  default: op
+quest.command.data.remove:
+  default: op
+quest.command.data.list:
+  default: op
+quest.command.data.setlimit:
+  default: op
+quest.command.data.addlimit:
+  default: op
+quest.command.data.slapperget:
+  default: op
+</code></pre>

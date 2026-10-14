@@ -1,0 +1,60 @@
+{
+    "id": 722,
+    "name": "ChatChannel",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ChatChannel/2.0.1",
+    "tagline": " A secret conversation with a friend.",
+    "artifact_url": "https://poggit.pmmp.io/r/14626",
+    "downloads": 895,
+    "score": 4,
+    "repo_id": 106929337,
+    "repo_name": "famima65536/ChatChannel",
+    "project_id": 1026,
+    "project_name": "ChatChannel",
+    "build_id": 30127,
+    "build_number": 14,
+    "build_commit": "eb159aec420a1d797110a86df17c46be6664f84b",
+    "description_url": "https://poggit.pmmp.io/r/14628",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1508718305,
+    "state": 5,
+    "last_state_change_date": 1508718305,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "group",
+        "channel",
+        "fun"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "famima65536"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

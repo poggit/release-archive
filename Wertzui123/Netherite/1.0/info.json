@@ -1,0 +1,57 @@
+{
+    "id": 5441,
+    "name": "Netherite",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/Netherite/1.0",
+    "tagline": "A plugin to add netherite to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/105817",
+    "downloads": 1744,
+    "score": 5,
+    "repo_id": 303783361,
+    "repo_name": "Wertzui123/Netherite",
+    "project_id": 7855,
+    "project_name": "Netherite",
+    "build_id": 90112,
+    "build_number": 6,
+    "build_commit": "6790bdd38f10490bf2faa45d30c017b46432bb20",
+    "description_url": "https://poggit.pmmp.io/r/105937",
+    "icon_url": "https://raw.githubusercontent.com/Wertzui123/Netherite/6790bdd38f10490bf2faa45d30c017b46432bb20/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1602938670,
+    "state": 5,
+    "last_state_change_date": 1603040039,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "netherite"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

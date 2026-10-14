@@ -1,0 +1,78 @@
+{
+    "id": 14151,
+    "name": "PearlMotion",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PearlMotion/1.0.0",
+    "tagline": "Change the motion of pearls",
+    "artifact_url": "https://poggit.pmmp.io/r/258490",
+    "downloads": 74,
+    "score": null,
+    "repo_id": 1035720922,
+    "repo_name": "TrixNEW/PearlMotion",
+    "project_id": 14862,
+    "project_name": "PearlMotion",
+    "build_id": 188446,
+    "build_number": 2,
+    "build_commit": "3e03e05d39a703cb18544b721f78fa1d393384e5",
+    "description_url": "https://poggit.pmmp.io/r/258492",
+    "icon_url": "https://raw.githubusercontent.com/TrixNEW/PearlMotion/3e03e05d39a703cb18544b721f78fa1d393384e5/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1754879850,
+    "state": 5,
+    "last_state_change_date": 1755994753,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pearl",
+        "speed"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TrixNEW"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

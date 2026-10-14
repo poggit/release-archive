@@ -1,0 +1,60 @@
+{
+    "id": 13627,
+    "name": "ServerCensored",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/ServerCensored/1.1.0",
+    "tagline": "A Pocketmine-MP plugin that serves to censor messages containing the domain or ip of the server/website",
+    "artifact_url": "https://poggit.pmmp.io/r/249647",
+    "downloads": 129,
+    "score": null,
+    "repo_id": 834696748,
+    "repo_name": "KumaaDeveloper/ServerCensored",
+    "project_id": 14100,
+    "project_name": "ServerCensored",
+    "build_id": 182663,
+    "build_number": 3,
+    "build_commit": "e2f4a1bbbc5a65e9b257bec30fadd4f5c29d774f",
+    "description_url": "https://poggit.pmmp.io/r/249644",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/ServerCensored/e2f4a1bbbc5a65e9b257bec30fadd4f5c29d774f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/249646",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1731775260,
+    "state": 5,
+    "last_state_change_date": 1731949263,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "Block",
+        "Censor",
+        "Chat",
+        "Server"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

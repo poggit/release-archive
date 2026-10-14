@@ -1,0 +1,63 @@
+{
+    "id": 11041,
+    "name": "Shield",
+    "version": "1.15.0",
+    "html_url": "https://poggit.pmmp.io/p/Shield/1.15.0",
+    "tagline": "A PocketMine-MP plugin which adds functionable shields",
+    "artifact_url": "https://poggit.pmmp.io/r/201678",
+    "downloads": 373,
+    "score": null,
+    "repo_id": 361290113,
+    "repo_name": "JavierLeon9966/Shield",
+    "project_id": 8908,
+    "project_name": "Shield",
+    "build_id": 151009,
+    "build_number": 31,
+    "build_commit": "6e1c21592d192ca0dc3b17ec6ca8cc377f721b9a",
+    "description_url": "https://poggit.pmmp.io/r/201675",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/Shield/6e1c21592d192ca0dc3b17ec6ca8cc377f721b9a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/201677",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1678893591,
+    "state": 5,
+    "last_state_change_date": 1678893595,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "pvp",
+        "shield",
+        "vanilla"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

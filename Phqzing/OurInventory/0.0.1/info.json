@@ -1,0 +1,64 @@
+{
+    "id": 7799,
+    "name": "OurInventory",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/OurInventory/0.0.1",
+    "tagline": "With this plugin you can copy other peoples inventory.",
+    "artifact_url": "https://poggit.pmmp.io/r/144501",
+    "downloads": 93,
+    "score": 5,
+    "repo_id": 415318694,
+    "repo_name": "Phqzing/OurInventory",
+    "project_id": 9830,
+    "project_name": "OurInventory",
+    "build_id": 113499,
+    "build_number": 6,
+    "build_commit": "a24d32f28b166a74ecf2d86689a1c6e91a7faf47",
+    "description_url": "https://poggit.pmmp.io/r/144500",
+    "icon_url": "https://raw.githubusercontent.com/Phqzing/OurInventory/a24d32f28b166a74ecf2d86689a1c6e91a7faf47/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1633788165,
+    "state": 5,
+    "last_state_change_date": 1634264583,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Copy",
+        "Inventory",
+        "InventoryCopy",
+        "Our"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Phqzing"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

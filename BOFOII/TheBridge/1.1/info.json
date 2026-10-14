@@ -1,0 +1,91 @@
+{
+    "id": 11986,
+    "name": "S-TheBridge",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/S-TheBridge/1.1",
+    "tagline": "A  TheBridge Plugin For PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/217048",
+    "downloads": 541,
+    "score": null,
+    "repo_id": 658500343,
+    "repo_name": "BOFOII/TheBridge",
+    "project_id": 12705,
+    "project_name": "TheBridge",
+    "build_id": 159609,
+    "build_number": 10,
+    "build_commit": "6510e13e8653b6ed728db29cc02725a1161b1a5e",
+    "description_url": "https://poggit.pmmp.io/r/217047",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689636276,
+    "state": 5,
+    "last_state_change_date": 1691006947,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "bedwars",
+        "minigame",
+        "pmmp-plugin",
+        "pocketmine",
+        "the-bridge"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SandhyR",
+            "BOFOII"
+        ],
+        "Contributor": [
+            "AIPTU",
+            "ItsToxicGG",
+            "RandomNonDev",
+            "XDRYX"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "bc68c93d91f0099e1d8ae724e133b42f3dac36cb",
+            "build_id": 159503
+        },
+        {
+            "name": "ScoreFactory",
+            "project_id": 4142,
+            "repo_id": 155632824,
+            "repo_name": "Ifera/ScoreFactory",
+            "repo_path": "",
+            "build_commit": "cfb6e88b3534bbd29699c7a1b245dd86fd8886d3",
+            "build_id": 124262
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "id": 7245,
+    "name": "AutoSmelt",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoSmelt/1.0.0",
+    "tagline": "A plugin that makes ore drops ingots.",
+    "artifact_url": "https://poggit.pmmp.io/r/135191",
+    "downloads": 3106,
+    "score": null,
+    "repo_id": 392603892,
+    "repo_name": "OguzhanUmutlu/AutoSmelt",
+    "project_id": 9423,
+    "project_name": "AutoSmelt",
+    "build_id": 107811,
+    "build_number": 4,
+    "build_commit": "db8ca5fb378bec537356c7e72302cdeea98dca81",
+    "description_url": "https://poggit.pmmp.io/r/135190",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/AutoSmelt/db8ca5fb378bec537356c7e72302cdeea98dca81/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628068656,
+    "state": 5,
+    "last_state_change_date": 1628121663,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "smelt",
+        "ore",
+        "ingot",
+        "iron",
+        "gold",
+        "furnace"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

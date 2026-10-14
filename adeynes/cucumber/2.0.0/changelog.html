@@ -1,0 +1,41 @@
+<p>Alright, this is a big changelog.</p>
+<h3>Setup</h3>
+<p>Although v2.0 changes a lot of things, configuration files (<code>config.yml</code>, lang files) do <strong>NOT</strong> need to be deleted before updating. Just drop the new <code>.phar</code> in, and the plugin will take care of updating them while keeping your old settings.</p>
+<h3>Functionality</h3>
+<p>Punishments now automatically synchronize with the database: you can enforce your iron fist on several servers at once by using the same database for all of them. There will also no longer be database connection timeouts when the server is inactive for too long.</p>
+<p>Infinite durations are no longer stored as <code>2038-01-19T03:14:07</code>. They will no longer actually expire on that date, and will display by default as <code>until the Big Crunch</code> (configurable in the lang files). Note that punishments created before version 2.0.0 will not be updated to the new infinite duration format. The default time format has also been changed to <code>17:53:45 on September 26 2020</code>, from <code>2020-09-26T17:53:45</code>.</p>
+<p>Punishment histories: it is now possible to view all of a player's punishments (including expired ones) with the <code>/history</code> command. See below.</p>
+<p>Warning system: <code>/warn</code> and the associated commands have been added. See below.</p>
+<p>We've decided that it was time to infringe on <code>Alias</code>'s market share: <code>/ip</code> now shows a list of accounts with the same IP as the specified player.</p>
+<h3>Commands</h3>
+<p><code>duration</code> is now a required argument and no longer requires a <code>-d</code> flag. A punishment that never expires has a duration of <code>inf</code>.</p>
+<ul>
+<li><code>/ban &lt;player&gt; &lt;duration&gt;|inf [reason]</code></li>
+<li><code>/mute &lt;player&gt; &lt;duration&gt;|inf [reason]</code></li>
+</ul>
+<p>The <code>-player</code> and <code>-ip</code> flags no longer exist for IP ban and uban; cucumber always infers which was entered using a serverless machine learning algorithm.</p>
+<ul>
+<li><code>/ipban &lt;player&gt;|&lt;ip&gt; &lt;duration&gt;|inf [reason]</code></li>
+<li><code>/uban &lt;player&gt;|&lt;ip&gt; [reason]</code></li>
+</ul>
+<p>There is a <code>-all</code> flag for punishment list commands to specify that expired punishments should be displayed.</p>
+<ul>
+<li><code>/banlist [-all|-a]</code></li>
+<li><code>/ipbanlist [-all|-a]</code></li>
+<li><code>/mutelist [-all|-a]</code></li>
+</ul>
+<p>Warning system!</p>
+<ul>
+<li><code>/warn &lt;player&gt; &lt;duration&gt;|inf [reason]</code></li>
+<li><code>/warnings &lt;player&gt; [-all|-a]</code></li>
+<li><code>/mywarnings [-all|-a]</code></li>
+</ul>
+<p>Each warning has a warning ID for easy warning deletion which is displayed on warning creation and in <code>/warnings</code>:</p>
+<ul>
+<li><code>/delwarn &lt;id&gt;</code></li>
+</ul>
+<p>Were the previous versions of cucumber not reminiscent enough of <em>1984</em> to your taste? Good news, with punishment histories, players will no longer be able to escape your omniscience:</p>
+<ul>
+<li><code>/history &lt;player&gt;</code></li>
+</ul>
+<p>This should be a comprehensive list of changes, but check out the <a href="https://github.com/adeynes/cucumber/blob/stable/README.md">README</a> for excruciatingly detailed information.</p>

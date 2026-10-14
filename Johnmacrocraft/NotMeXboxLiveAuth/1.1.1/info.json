@@ -1,0 +1,61 @@
+{
+    "id": 1954,
+    "name": "NotMeXboxLiveAuth",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/NotMeXboxLiveAuth/1.1.1",
+    "tagline": "Allow specified players to bypass Xbox Live authentication!",
+    "artifact_url": "https://poggit.pmmp.io/r/43944",
+    "downloads": 200,
+    "score": null,
+    "repo_id": 105439068,
+    "repo_name": "Johnmacrocraft/NotMeXboxLiveAuth",
+    "project_id": 1237,
+    "project_name": "NotMeXboxLiveAuth",
+    "build_id": 50033,
+    "build_number": 24,
+    "build_commit": "7ded1967853f0fa622488ea75834862502e0907f",
+    "description_url": "https://poggit.pmmp.io/r/92629",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/92631",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1540375245,
+    "state": 5,
+    "last_state_change_date": 1540399428,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "auth",
+        "authentication",
+        "notmexboxliveauth",
+        "xboxlive",
+        "xboxliveauth"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA11",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Johnmacrocraft"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

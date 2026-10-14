@@ -1,0 +1,69 @@
+{
+    "id": 1788,
+    "name": "TicTacToe",
+    "version": "0.1.5",
+    "html_url": "https://poggit.pmmp.io/p/TicTacToe/0.1.5",
+    "tagline": "A minigame which provides a way to play TicTacToe with item frames.",
+    "artifact_url": "https://poggit.pmmp.io/r/39715",
+    "downloads": 5469,
+    "score": 5,
+    "repo_id": 103785261,
+    "repo_name": "robske110/TicTacToe",
+    "project_id": 1060,
+    "project_name": "TicTacToe",
+    "build_id": 47805,
+    "build_number": 12,
+    "build_commit": "96d45d6e9901bb57629cc17191eb2b3089ee38c1",
+    "description_url": "https://poggit.pmmp.io/r/39712",
+    "icon_url": "https://raw.githubusercontent.com/robske110/TicTacToe/96d45d6e9901bb57629cc17191eb2b3089ee38c1/TicTacToe/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/39714",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1534155007,
+    "state": 5,
+    "last_state_change_date": 1534237533,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "TicTacToe",
+        "Game",
+        "Minigame",
+        "ItemFrames",
+        "Item",
+        "Frames",
+        "Tic",
+        "Tac",
+        "Toe"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "robske110"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

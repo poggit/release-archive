@@ -1,0 +1,93 @@
+<h1>
+<a id="user-content-resourcepacktools" class="anchor" href="#resourcepacktools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ResourcePackTools</h1>
+<p>Tool (library) for easy use of resource packs from plugins</p>
+<h3>
+<a id="user-content-command" class="anchor" href="#command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command</h3>
+<table>
+<thead>
+<tr>
+<th>command name</th>
+<th>description</th>
+<th>parameter</th>
+<th>permission</th>
+<th>alias</th>
+<th>only player</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>resourcepack</td>
+<td>Manage ResourcePack</td>
+<td>---</td>
+<td>resourcepacktools.command.resourcepack</td>
+<td>rp</td>
+<td>no</td>
+</tr>
+<tr>
+<td>resourcepack register</td>
+<td>Register the ResourcePack</td>
+<td>&lt;filename&gt;</td>
+<td>---</td>
+<td>r</td>
+<td>no</td>
+</tr>
+<tr>
+<td>resourcepack unregisterbyindex</td>
+<td>Unregister the ResourcePack by index</td>
+<td>&lt;index&gt;</td>
+<td>---</td>
+<td>urbi</td>
+<td>no</td>
+</tr>
+<tr>
+<td>resourcepack unregisterbyuuid</td>
+<td>Unregister the ResourcePack by uuid</td>
+<td>&lt;uuid&gt;</td>
+<td>---</td>
+<td>urbu</td>
+<td>no</td>
+</tr>
+<tr>
+<td>resourcepack list</td>
+<td>Show the ResourcePack list</td>
+<td>pack(p):uuid(u)</td>
+<td>---</td>
+<td>l</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-example-of-plugin" class="anchor" href="#example-of-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example of plugin</h3>
+<ul>
+<li><a href="https://github.com/PJZ9n/ResourcePackTools/tree/master/examples/resourceexample">ResourceExample</a></li>
+</ul>
+<h3>
+<a id="user-content-directory-structure" class="anchor" href="#directory-structure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Directory structure</h3>
+<pre><code>plugin.phar(Plugin)/
+   ├ resources/
+   │   ├ info.png
+   │   └ test/
+   │       └ server.png
+   └ src/
+       └ ...
+test1.zip(ResourcePack)/
+   ├ server.png
+   ├ manifest.json
+   └ pack_icon.png
+</code></pre>
+<h3>
+<a id="user-content-generate-resourcepack" class="anchor" href="#generate-resourcepack" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generate ResourcePack</h3>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>pack</span> = <span class="pl-k">new</span> <span class="pl-v">SimpleResourcePack</span>(<span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>, <span class="pl-k">new</span> <span class="pl-v">Version</span>(<span class="pl-c1">1</span>, <span class="pl-c1">0</span>, <span class="pl-c1">0</span>));
+<span class="pl-s1"><span class="pl-c1">$</span>pack</span>-&gt;<span class="pl-en">setPackIcon</span>(<span class="pl-s">"info.png"</span>);
+<span class="pl-s1"><span class="pl-c1">$</span>pack</span>-&gt;<span class="pl-en">addFile</span>(<span class="pl-s">"test/server.png"</span>, <span class="pl-s">"server.png"</span>);
+<span class="pl-s1"><span class="pl-c1">$</span>pack</span>-&gt;<span class="pl-en">generate</span>(<span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">getDataFolder</span>() . <span class="pl-s">"test1.zip"</span>);</pre></div>
+<h3>
+<a id="user-content-register-resourcepack" class="anchor" href="#register-resourcepack" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Register ResourcePack</h3>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-v">ResourcePack</span>::<span class="pl-en">register</span>(<span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">getDataFolder</span>() . <span class="pl-s">"test1.zip"</span>);</pre></div>
+<h3>
+<a id="user-content-update-resourcepack" class="anchor" href="#update-resourcepack" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Update ResourcePack</h3>
+<p>When changing the contents of the ResourcePack, please change the version of the ResourcePack.</p>
+<p>e.g.<code>new Version(1, 1, 0);</code></p>
+<p>This is similar to general ResourcePack development.</p>
+<p>ResourcePack that have been downloaded once will be cached, but will be re-downloaded by increasing the version.</p>

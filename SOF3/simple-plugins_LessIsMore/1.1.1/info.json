@@ -1,0 +1,73 @@
+{
+    "id": 8151,
+    "name": "LessIsMore",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/LessIsMore/1.1.1",
+    "tagline": "Create your own commands",
+    "artifact_url": "https://poggit.pmmp.io/r/150101",
+    "downloads": 547,
+    "score": 5,
+    "repo_id": 72737686,
+    "repo_name": "SOF3/simple-plugins",
+    "project_id": 1974,
+    "project_name": "LessIsMore",
+    "build_id": 116771,
+    "build_number": 37,
+    "build_commit": "8864dc3fe4872ddba568d8dfce65cf4875e95abd",
+    "description_url": "https://poggit.pmmp.io/r/150098",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/150100",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638592801,
+    "state": 5,
+    "last_state_change_date": 1638852760,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "command",
+        "custom",
+        "form",
+        "message",
+        "rule",
+        "rules",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SOF3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

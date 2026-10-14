@@ -1,0 +1,95 @@
+{
+    "id": 10226,
+    "name": "XPShop",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/XPShop/2.0.0",
+    "tagline": "Buy and sell XP",
+    "artifact_url": "https://poggit.pmmp.io/r/185771",
+    "downloads": 813,
+    "score": 4,
+    "repo_id": 348621950,
+    "repo_name": "thebigcrafter/XPShop",
+    "project_id": 8701,
+    "project_name": "XPShop",
+    "build_id": 140009,
+    "build_number": 51,
+    "build_commit": "95f62c48043a846c5cc3b1162f6bbb139513f043",
+    "description_url": "https://poggit.pmmp.io/r/185768",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/XPShop/95f62c48043a846c5cc3b1162f6bbb139513f043/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/185770",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1657474754,
+    "state": 5,
+    "last_state_change_date": 1657548840,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "exp",
+        "shop",
+        "xp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "taylordevs"
+        ],
+        "Contributor": [
+            "Ihsan48"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 7446,
+            "repo_id": 254187997,
+            "repo_name": "FallentechPE/FormAPI",
+            "repo_path": "",
+            "build_commit": "4861b61759a656c8e01fc043f8efb736d6828c84",
+            "build_id": 130953
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "260f0cee8615ac6eedc46922a5e7b4319214f8e4",
+            "build_id": 108000
+        },
+        {
+            "name": "libMCUnicodeChars",
+            "project_id": 9851,
+            "repo_id": 417484694,
+            "repo_name": "mintodev/libMCUnicodeChars",
+            "repo_path": "",
+            "build_commit": "a9252870f2d6aad3151cd9a61679289f08fb1b22",
+            "build_id": 139397
+        }
+    ]
+}

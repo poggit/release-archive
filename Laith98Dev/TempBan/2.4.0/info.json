@@ -1,0 +1,82 @@
+{
+    "id": 9610,
+    "name": "TempBan",
+    "version": "2.4.0",
+    "html_url": "https://poggit.pmmp.io/p/TempBan/2.4.0",
+    "tagline": "Advance Temporary Ban with UI",
+    "artifact_url": "https://poggit.pmmp.io/r/174085",
+    "downloads": 4168,
+    "score": 5,
+    "repo_id": 475113447,
+    "repo_name": "Laith98Dev/TempBan",
+    "project_id": 10878,
+    "project_name": "TempBan",
+    "build_id": 132063,
+    "build_number": 35,
+    "build_commit": "b99d59e3f4761f51a57b8fc414e7f6ae0014e644",
+    "description_url": "https://poggit.pmmp.io/r/174084",
+    "icon_url": "https://raw.githubusercontent.com/Laith98Dev/TempBan/b99d59e3f4761f51a57b8fc414e7f6ae0014e644/images/20220331_180103.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1651699281,
+    "state": 5,
+    "last_state_change_date": 1652075853,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "banui",
+        "laith98dev",
+        "sonsayt",
+        "tempban",
+        "tempbanui",
+        "temporaryban"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Sonsa04",
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "49aebed5c95c493b0ec2ab06f08be672584c523c",
+            "build_id": 131840
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "id": 12080,
+    "name": "EasyAnnouncement",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/EasyAnnouncement/1.0.2",
+    "tagline": "EasyAnnouncement plugin for PocketMine-MP, including auto and manuel announcements",
+    "artifact_url": "https://poggit.pmmp.io/r/218291",
+    "downloads": 936,
+    "score": 4,
+    "repo_id": 661803846,
+    "repo_name": "HakanBabus/EasyAnnouncement",
+    "project_id": 12726,
+    "project_name": "EasyAnnouncement",
+    "build_id": 159973,
+    "build_number": 16,
+    "build_commit": "a30f59365c1d82ff2ff7341936cec7b12f68950a",
+    "description_url": "https://poggit.pmmp.io/r/218680",
+    "icon_url": "https://raw.githubusercontent.com/HakanBabus/EasyAnnouncement/a30f59365c1d82ff2ff7341936cec7b12f68950a/image.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1690820917,
+    "state": 5,
+    "last_state_change_date": 1690961315,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "announce",
+        "announcement",
+        "moderator"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HakanBabus"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

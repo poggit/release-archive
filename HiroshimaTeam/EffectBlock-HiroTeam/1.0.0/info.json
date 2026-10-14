@@ -1,0 +1,61 @@
+{
+    "id": 4732,
+    "name": "EffectBlock-HiroTeam",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EffectBlock-HiroTeam/1.0.0",
+    "tagline": "Plugin EffectBlock",
+    "artifact_url": "https://poggit.pmmp.io/r/92919",
+    "downloads": 815,
+    "score": 5,
+    "repo_id": 272750274,
+    "repo_name": "HiroshimaTeam/EffectBlock-HiroTeam",
+    "project_id": 7226,
+    "project_name": "EffectBlock-HiroTeam",
+    "build_id": 81647,
+    "build_number": 4,
+    "build_commit": "56357acb32ca5e567a39da45a01f2a6d3c431076",
+    "description_url": "https://poggit.pmmp.io/r/93093",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/EffectBlock-HiroTeam/56357acb32ca5e567a39da45a01f2a6d3c431076/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1592513125,
+    "state": 5,
+    "last_state_change_date": 1592569561,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HiroshimaTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

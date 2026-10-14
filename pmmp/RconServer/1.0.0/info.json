@@ -1,0 +1,59 @@
+{
+    "id": 8142,
+    "name": "RconServer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RconServer/1.0.0",
+    "tagline": "Control your PocketMine-MP server remotely using RCON tools",
+    "artifact_url": "https://poggit.pmmp.io/r/150013",
+    "downloads": 1454,
+    "score": 4,
+    "repo_id": 167246766,
+    "repo_name": "pmmp/RconServer",
+    "project_id": 4560,
+    "project_name": "RconServer",
+    "build_id": 116740,
+    "build_number": 20,
+    "build_commit": "8883602a46a980f83c077523902880c9047d47e0",
+    "description_url": "https://poggit.pmmp.io/r/150011",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/150012",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": true,
+    "is_abandoned": false,
+    "submission_date": 1638568099,
+    "state": 5,
+    "last_state_change_date": 1638568128,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-plugin",
+        "rcon",
+        "rcon-server"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Frago9876543210",
+            "CortexPE"
+        ],
+        "Collaborator": [
+            "dktapps"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

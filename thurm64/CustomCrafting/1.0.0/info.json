@@ -1,0 +1,69 @@
+{
+    "id": 6238,
+    "name": "CustomCrafting",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomCrafting/1.0.0",
+    "tagline": "Custom crafting recipes for PMMP.",
+    "artifact_url": "https://poggit.pmmp.io/r/119644",
+    "downloads": 370,
+    "score": 5,
+    "repo_id": 324828388,
+    "repo_name": "thurm64/CustomCrafting",
+    "project_id": 8267,
+    "project_name": "CustomCrafting",
+    "build_id": 98962,
+    "build_number": 23,
+    "build_commit": "161fa25f87a9464761ea84297670f74e1b771794",
+    "description_url": "https://poggit.pmmp.io/r/119643",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616729596,
+    "state": 5,
+    "last_state_change_date": 1616892539,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "crafting",
+        "items",
+        "recipes"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "thurm64"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "7f2db9dd194ef54c6ae072bd18eda7664bff91bf",
+            "build_id": 85494
+        }
+    ]
+}

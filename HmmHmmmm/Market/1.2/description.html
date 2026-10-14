@@ -1,0 +1,66 @@
+<h2>
+<a id="user-content-market" class="anchor" href="#market" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Market</h2>
+<p><a href="#english">Language English</a></p>
+<p>This plugin uses Libraries <code>CustomUI</code> and <code>InvMenu</code> No need to install that plugin
+Just load this plugin as .phar</p>
+<h1>
+<a id="user-content-english" class="anchor" href="#english" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>English</h1>
+<div class="highlight highlight-source-diff"><pre>You must install the plugin
+<span class="pl-md"><span class="pl-md">-</span> EconomyAPI</span>
+this plugin will work</pre></div>
+<p>Download the plugin EconomyAPI <a href="https://poggit.pmmp.io/p/economyapi" rel="nofollow">Click here</a></p>
+<p><strong>Features of plugin</strong><br></p>
+<ul>
+<li>Is a plugin create shop in market</li>
+<li>have gui chest</li>
+<li>have gui form</li>
+<li>Have language thai and english (You can edit the language you don't like at, <code>/resources/language</code>)</li>
+</ul>
+<p><strong>How to use</strong><br></p>
+<ul>
+<li><a href="https://youtu.be/xWnYEI-nwxc" rel="nofollow">https://youtu.be/xWnYEI-nwxc</a></li>
+</ul>
+<p><strong>Command</strong><br></p>
+<ul>
+<li>
+<code>/market</code> : open gui chest</li>
+<li>
+<code>/market addshop &lt;Price&gt; &lt;Description&gt;</code> : Create shop</li>
+<li>
+<code>/market removeshop &lt;ShopId&gt;</code> : Delete shop</li>
+<li>
+<code>/market settext &lt;ShopId&gt; &lt;Description&gt;</code> : Set shop description</li>
+<li>
+<code>/market setprice &lt;ShopId&gt; &lt;Price&gt;</code> : Set price of shop</li>
+</ul>
+<p><strong>Images</strong><br>
+<a href="https://github.com/HmmHmmmm/Market/blob/master/images/1.1/1.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/HmmHmmmm/Market/raw/master/images/1.1/1.jpg" alt="1" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<pre><code>
+#Language
+#thai=ภาษาไทย
+#english=English language
+language: english
+
+database: yml
+
+</code></pre>
+<h1>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h1>
+<pre><code>/*
+*
+* Command /market it can be typed by everyone.
+*
+*/
+market.command.info:
+  default: op
+market.command.addshop:
+  default: true
+market.command.removeshop:
+  default: true
+market.command.settext:
+  default: true
+market.command.setprice:
+  default: true
+</code></pre>

@@ -1,0 +1,62 @@
+{
+    "id": 11522,
+    "name": "HumanNPC",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/HumanNPC/0.0.3",
+    "tagline": "Create NPCs With Player Skins For PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/209895",
+    "downloads": 419,
+    "score": 5,
+    "repo_id": 586216096,
+    "repo_name": "BeeAZ-pm-pl/HumanNPC",
+    "project_id": 12084,
+    "project_name": "HumanNPC",
+    "build_id": 156112,
+    "build_number": 15,
+    "build_commit": "3c5af1e1c72d346ca3c3462df808ca04c54c3d05",
+    "description_url": "https://poggit.pmmp.io/r/210829",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/HumanNPC/3c5af1e1c72d346ca3c3462df808ca04c54c3d05/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/210831",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685811088,
+    "state": 5,
+    "last_state_change_date": 1685840856,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "HumanNPC",
+        "NPC"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ],
+        "Contributor": [
+            "pandaaaBE",
+            "victhorcaius"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

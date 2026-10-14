@@ -1,0 +1,86 @@
+{
+    "id": 4101,
+    "name": "PCEAllyChecks",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PCEAllyChecks/1.0.1",
+    "tagline": "    Implements AllyChecks feature for PiggyCustomEnchants.",
+    "artifact_url": "https://poggit.pmmp.io/r/80503",
+    "downloads": 60,
+    "score": null,
+    "repo_id": 242069266,
+    "repo_name": "Aericio/PCEAllyChecks",
+    "project_id": 6349,
+    "project_name": "PCEAllyChecks",
+    "build_id": 73761,
+    "build_number": 6,
+    "build_commit": "cbe5deae48733ca776be89195d54748fa9e7a266",
+    "description_url": "https://poggit.pmmp.io/r/81353",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/81355",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1585739721,
+    "state": 5,
+    "last_state_change_date": 1586100612,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "piggyce",
+        "piggycustomenchants",
+        "pmmp"
+    ],
+    "api": [
+        {
+            "from": "3.11.2",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "FactionsPE",
+            "version": "1.2.4",
+            "depRelId": 1941,
+            "isHard": false
+        },
+        {
+            "name": "FactionsPro",
+            "version": "1.3.20",
+            "depRelId": 3283,
+            "isHard": false
+        },
+        {
+            "name": "Slapper",
+            "version": "1.5.2",
+            "depRelId": 3572,
+            "isHard": false
+        },
+        {
+            "name": "WorldGuard",
+            "version": "1.0.5",
+            "depRelId": 3656,
+            "isHard": false
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.1.0",
+            "depRelId": 3851,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Aericio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

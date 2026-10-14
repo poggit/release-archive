@@ -1,0 +1,71 @@
+{
+    "id": 6825,
+    "name": "CommandFix",
+    "version": "1.2",
+    "html_url": "https://poggit.pmmp.io/p/CommandFix/1.2",
+    "tagline": "Fix the glitch on pmmp servers who allow you to use blocked commands",
+    "artifact_url": "https://poggit.pmmp.io/r/128609",
+    "downloads": 840,
+    "score": 3,
+    "repo_id": 290587751,
+    "repo_name": "sqrrrrl/CommandFix",
+    "project_id": 7680,
+    "project_name": "CommandFix",
+    "build_id": 103998,
+    "build_number": 7,
+    "build_commit": "d8a44101284e1e9aa1157feb5bd3014d96285c27",
+    "description_url": "https://poggit.pmmp.io/r/130631",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/130633",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1623450082,
+    "state": 5,
+    "last_state_change_date": 1623668357,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "block",
+        "combat",
+        "combatlogger",
+        "command",
+        "commandblocker",
+        "commandfix",
+        "glitch"
+    ],
+    "api": [
+        {
+            "from": "3.15.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "superbobby2000"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

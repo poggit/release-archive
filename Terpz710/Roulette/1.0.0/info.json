@@ -1,0 +1,97 @@
+{
+    "id": 13964,
+    "name": "Roulette",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Roulette/1.0.0",
+    "tagline": "Take a chance and spin the wheel to win ingame money!",
+    "artifact_url": "https://poggit.pmmp.io/r/255144",
+    "downloads": 185,
+    "score": null,
+    "repo_id": 967246840,
+    "repo_name": "Terpz710/Roulette",
+    "project_id": 14669,
+    "project_name": "Roulette",
+    "build_id": 186155,
+    "build_number": 10,
+    "build_commit": "cf77ecd226c084839b03b52dfe56df5f16b6105a",
+    "description_url": "https://poggit.pmmp.io/r/255143",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/Roulette/cf77ecd226c084839b03b52dfe56df5f16b6105a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1744875893,
+    "state": 5,
+    "last_state_change_date": 1747406498,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Casino",
+        "Economy",
+        "BedrockEconomy",
+        "EconomyAPI",
+        "Roulette"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "476235381a3908847c069496d04ec5b07b3011e8",
+            "build_id": 176854
+        },
+        {
+            "name": "libMessages",
+            "project_id": 14498,
+            "repo_id": 917052658,
+            "repo_name": "Terpz710/libMessages",
+            "repo_path": "",
+            "build_commit": "e43a8d1d992403ab18143fce386544a85fafddaa",
+            "build_id": 184161
+        },
+        {
+            "name": "libEconomy",
+            "project_id": 14670,
+            "repo_id": 967905246,
+            "repo_name": "Terpz710/libEconomy",
+            "repo_path": "",
+            "build_commit": "1d545cb03e8f69c20fb3751a8ba9c39928ee28a7",
+            "build_id": 186147
+        }
+    ]
+}

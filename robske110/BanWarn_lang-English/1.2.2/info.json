@@ -1,0 +1,66 @@
+{
+    "id": 1066,
+    "name": "BanWarn",
+    "version": "1.2.2",
+    "html_url": "https://poggit.pmmp.io/p/BanWarn/1.2.2",
+    "tagline": "Bans players if they have more than an specific amount Warn Points",
+    "artifact_url": "https://poggit.pmmp.io/r/23040",
+    "downloads": 414,
+    "score": 5,
+    "repo_id": 54557913,
+    "repo_name": "robske110/BanWarn",
+    "project_id": 106,
+    "project_name": "lang-English",
+    "build_id": 35498,
+    "build_number": 5,
+    "build_commit": "b08049547b799da7d3fb59b1d4f1d3723837f88a",
+    "description_url": "https://poggit.pmmp.io/r/23787",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518335291,
+    "state": 5,
+    "last_state_change_date": 1518656921,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Ban",
+        "Warn",
+        "CID",
+        "IP",
+        "ClientID"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "dktapps"
+        ],
+        "Translator": [
+            "SalmonDE",
+            "Aericio",
+            "brandonlui19"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

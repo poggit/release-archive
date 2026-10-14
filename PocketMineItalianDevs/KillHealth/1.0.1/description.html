@@ -1,0 +1,34 @@
+<h1>
+<a id="user-content-killhealth" class="anchor" href="#killhealth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>KillHealth</h1>
+<p>• A simple plugin to restore the health of a player when it kills another player.
+You can specify (config.yml) in which worlds the plugin should work and custom messages to send to the killer and killed players.</p>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<pre><code>---
+#ITA
+#Seleziona i mondi in cui vuoi che KillHealth funzioni
+#
+#ENG
+#Select the worlds where you want KillHealth to work
+worlds:
+  - Test123
+#ITA
+#killer-message: è il messaggio che viene mandato al player
+#death-message: è il messaggio che viene mandato a tutto il server
+#Questi sono i messaggi che appariranno alla morte del player:
+#{player} è il nome del player,
+#{killername} è il nome del player che uccide
+#
+#ENG
+#killer-message: is the message that is sent to the player
+#death-message: is the message that is sent to the whole server
+#These are the messages that will appear when a player dies:
+#{player} is the name of the player,
+#{killername} is the name of the player who kills
+killer-message: "{killername} killed {player} and you got healed!"
+death-message: "{player} was killed by {killername}"
+...
+</code></pre>
+<h1>
+<a id="user-content-info" class="anchor" href="#info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Info</h1>
+<p>• Made by: Vale914</p>

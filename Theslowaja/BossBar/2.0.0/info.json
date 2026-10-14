@@ -1,0 +1,83 @@
+{
+    "id": 9877,
+    "name": "BossBar",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BossBar/2.0.0",
+    "tagline": "showing the BossBar to the player",
+    "artifact_url": "https://poggit.pmmp.io/r/179214",
+    "downloads": 1140,
+    "score": 5,
+    "repo_id": 491576796,
+    "repo_name": "Theslowaja/BossBar",
+    "project_id": 11136,
+    "project_name": "BossBar",
+    "build_id": 135553,
+    "build_number": 29,
+    "build_commit": "0dbb84d067bd855f162560bba620f28ee1cdadac",
+    "description_url": "https://poggit.pmmp.io/r/201461",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/201463",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654257241,
+    "state": 5,
+    "last_state_change_date": 1654358808,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Bar",
+        "Boss",
+        "bossannouncement",
+        "bossbar",
+        "BossBarColor",
+        "color",
+        "pm4"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Theslowaja",
+            "RevandDev",
+            "RolandHeriyanto"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "apibossbar",
+            "project_id": 11294,
+            "repo_id": 499420024,
+            "repo_name": "BladeNetwork-MC/apibossbar",
+            "repo_path": "",
+            "build_commit": "a9ebf5ed1096158a9a2cb6b3e20d7f9e633e9588",
+            "build_id": 135550
+        }
+    ]
+}

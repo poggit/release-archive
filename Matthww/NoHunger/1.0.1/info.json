@@ -1,0 +1,57 @@
+{
+    "id": 1249,
+    "name": "NoHunger",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/NoHunger/1.0.1",
+    "tagline": "A simple Plugin, which disables hunger.",
+    "artifact_url": "https://poggit.pmmp.io/r/26618",
+    "downloads": 436,
+    "score": null,
+    "repo_id": 93411394,
+    "repo_name": "Matthww/NoHunger",
+    "project_id": 1967,
+    "project_name": "NoHunger",
+    "build_id": 38361,
+    "build_number": 6,
+    "build_commit": "983f65aef52146e045d4eaaa1683ab085b1967af",
+    "description_url": "https://poggit.pmmp.io/r/26617",
+    "icon_url": "https://raw.githubusercontent.com/Matthww/NoHunger/983f65aef52146e045d4eaaa1683ab085b1967af/steak.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1522163471,
+    "state": 5,
+    "last_state_change_date": 1522169673,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Hunger",
+        "Anti",
+        "No",
+        "Disable",
+        "Stop"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA10",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Matthww"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

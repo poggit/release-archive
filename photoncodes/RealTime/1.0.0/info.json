@@ -1,0 +1,68 @@
+{
+    "id": 1645,
+    "name": "RealTime",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RealTime/1.0.0",
+    "tagline": "A plugin that cycles time in vanilla as in real life",
+    "artifact_url": "https://poggit.pmmp.io/r/36131",
+    "downloads": 578,
+    "score": null,
+    "repo_id": 139771904,
+    "repo_name": "photoncodes/RealTime",
+    "project_id": 3315,
+    "project_name": "RealTime",
+    "build_id": 45320,
+    "build_number": 1,
+    "build_commit": "6a0ff9b2b8167729a38df808abecdab79b2aaab2",
+    "description_url": "https://poggit.pmmp.io/r/36130",
+    "icon_url": "https://raw.githubusercontent.com/killer549/RealTime/6a0ff9b2b8167729a38df808abecdab79b2aaab2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1530747175,
+    "state": 5,
+    "last_state_change_date": 1530908017,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "clock",
+        "day",
+        "hour",
+        "location",
+        "moon",
+        "sun",
+        "time",
+        "watch"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "photoncodes"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

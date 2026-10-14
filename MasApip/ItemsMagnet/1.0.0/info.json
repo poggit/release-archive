@@ -1,0 +1,55 @@
+{
+    "id": 8010,
+    "name": "ItemsMagnet",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ItemsMagnet/1.0.0",
+    "tagline": "Make items a magnet",
+    "artifact_url": "https://poggit.pmmp.io/r/148020",
+    "downloads": 92,
+    "score": null,
+    "repo_id": 429741236,
+    "repo_name": "MasApip/ItemsMagnet",
+    "project_id": 9978,
+    "project_name": "ItemsMagnet",
+    "build_id": 115585,
+    "build_number": 1,
+    "build_commit": "275be12288f39883a7896fe6ad5166989dbc5c2d",
+    "description_url": "https://poggit.pmmp.io/r/148070",
+    "icon_url": "https://raw.githubusercontent.com/MasApip/ItemsMagnet/275be12288f39883a7896fe6ad5166989dbc5c2d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1637315345,
+    "state": 5,
+    "last_state_change_date": 1637416749,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MasApip"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

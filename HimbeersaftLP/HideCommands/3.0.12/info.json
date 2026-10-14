@@ -1,0 +1,63 @@
+{
+    "id": 13661,
+    "name": "HideCommands",
+    "version": "3.0.12",
+    "html_url": "https://poggit.pmmp.io/p/HideCommands/3.0.12",
+    "tagline": "Remove specific commands from the in-game command suggestions. Supports different settings per world.",
+    "artifact_url": "https://poggit.pmmp.io/r/250286",
+    "downloads": 124,
+    "score": null,
+    "repo_id": 254875029,
+    "repo_name": "HimbeersaftLP/HideCommands",
+    "project_id": 6694,
+    "project_name": "HideCommands",
+    "build_id": 183115,
+    "build_number": 49,
+    "build_commit": "24777985993de2de221c71985d3ee73335792457",
+    "description_url": "https://poggit.pmmp.io/r/250283",
+    "icon_url": "https://raw.githubusercontent.com/HimbeersaftLP/HideCommands/24777985993de2de221c71985d3ee73335792457/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/250285",
+    "license": "AGPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1733417850,
+    "state": 5,
+    "last_state_change_date": 1733449208,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "blacklist",
+        "command",
+        "commands",
+        "hide",
+        "suggestions",
+        "whitelist"
+    ],
+    "api": [
+        {
+            "from": "4.4.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HimbeersaftLP"
+        ],
+        "Contributor": [
+            "KygekDev",
+            "JoshuaPHYT",
+            "TheGamingSnail"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,18 @@
+<h1>
+<a id="user-content-playervaults" class="anchor" href="#playervaults" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PlayerVaults</h1>
+<p><a href="https://poggit.pmmp.io/p/PlayerVaults" rel="nofollow"><img src="https://camo.githubusercontent.com/5e2c64e0e6cbceb8b9c9eb731cc84fff01c7222a/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f506c617965725661756c7473" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/PlayerVaults" style="max-width:100%;"></a></p>
+<p>Per-player inventory-based vaults plugin for PocketMine-MP</p>
+<p>PlayerVaults is a plugin that allows players on your server to have another online inventory. It works like ender chest inventories EXCEPT you can view your vault inventory anywhere you want.</p>
+<h3>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features:</h3>
+<ul>
+<li>
+<strong>Lag-free</strong>: PlayerVaults saves inventory contents asynchronously so the server doesn't need to halt for get-set operations.</li>
+<li>
+<strong>Less harddrive space</strong>: The inventories are compressed using zlib and takes very less hard drive space. To attain maximum compression, use MySQL. JSON and YAML require the data to be base64-encoded so MySQL takes nearly 66% lesser space than JSON and YAML. base64-encoding is required for JSON and YAML because they aren't binary safe.</li>
+<li>
+<strong>Fake-inventory mechanisms</strong>: PlayerVaults sends a fake Chest tile and a fake Chest block packet to the client so there's no way for other clients to view or even know of the existence of a fake Chest tile or a fake Chest block.</li>
+</ul>
+<h3>
+<a id="user-content-how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use:</h3>
+<p>The usage is very simple. Just execute <strong>/pv [vault-number]</strong> in-game to access your private vault. You can store anything you like in it. It uses the same mechanism of storing and fetching as PocketMine so the items are saved along with their NBT tags.</p>

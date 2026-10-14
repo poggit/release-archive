@@ -1,0 +1,55 @@
+{
+    "id": 11838,
+    "name": "FixValidationXUID",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/FixValidationXUID/1.0.1",
+    "tagline": "Strange fix for \"XUID possible impersonation\" problem, but it works!",
+    "artifact_url": "https://poggit.pmmp.io/r/214403",
+    "downloads": 340,
+    "score": 4,
+    "repo_id": 661325243,
+    "repo_name": "Gewinum/xuid-impersonation-fixer",
+    "project_id": 12720,
+    "project_name": "xuid-impersonation-fixer",
+    "build_id": 158462,
+    "build_number": 11,
+    "build_commit": "c4d1cbd9c38fdc917c0259b61debccecb8fada06",
+    "description_url": "https://poggit.pmmp.io/r/214405",
+    "icon_url": "https://raw.githubusercontent.com/Gewinum/xuid-impersonation-fixer/c4d1cbd9c38fdc917c0259b61debccecb8fada06/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688376651,
+    "state": 5,
+    "last_state_change_date": 1688376656,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Gewinum"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

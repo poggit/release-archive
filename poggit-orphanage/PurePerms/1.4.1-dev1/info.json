@@ -1,0 +1,77 @@
+{
+    "id": 396,
+    "name": "PurePerms",
+    "version": "1.4.1-dev1",
+    "html_url": "https://poggit.pmmp.io/p/PurePerms/1.4.1-dev1",
+    "tagline": "Permissions manager by #64FF00",
+    "artifact_url": "https://poggit.pmmp.io/r/7612",
+    "downloads": 830,
+    "score": null,
+    "repo_id": 80404184,
+    "repo_name": "poggit-orphanage/PurePerms",
+    "project_id": 203,
+    "project_name": "PurePerms",
+    "build_id": 25051,
+    "build_number": 7,
+    "build_commit": "8a03c9fbe2b863aeab3c6eade9600e653425007f",
+    "description_url": "https://poggit.pmmp.io/r/7608",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PurePerms/8a03c9fbe2b863aeab3c6eade9600e653425007f/icon128.png",
+    "changelog_url": "https://poggit.pmmp.io/r/7610",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1498750108,
+    "state": 5,
+    "last_state_change_date": 1498750114,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "manager",
+        "permissions",
+        "perms"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA5",
+            "to": "3.0.0-ALPHA6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PureChat",
+            "version": "1.4.1-dev1",
+            "depRelId": 392,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "Thunder33345",
+            "Awzaw",
+            "Pub4Game",
+            "jasonwynn10",
+            "SOF3"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

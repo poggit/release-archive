@@ -1,0 +1,70 @@
+{
+    "id": 10132,
+    "name": "ToastBroadcaster",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ToastBroadcaster/1.0.0",
+    "tagline": "Create toast style notifications for all your players",
+    "artifact_url": "https://poggit.pmmp.io/r/183985",
+    "downloads": 376,
+    "score": 5,
+    "repo_id": 508182805,
+    "repo_name": "NoobMCBG/ToastBroadcaster",
+    "project_id": 11474,
+    "project_name": "ToastBroadcaster",
+    "build_id": 138777,
+    "build_number": 5,
+    "build_commit": "f770b085ab35a570639e887a94726dc5895938c9",
+    "description_url": "https://poggit.pmmp.io/r/184001",
+    "icon_url": "https://raw.githubusercontent.com/NoobMCBG/ToastBroadcaster/f770b085ab35a570639e887a94726dc5895938c9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656399659,
+    "state": 5,
+    "last_state_change_date": 1657551816,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "broadcast",
+        "broadcaster",
+        "broadcasttoast",
+        "toast",
+        "toastbroadcast",
+        "toastbroadcaster"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NoobMCBG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

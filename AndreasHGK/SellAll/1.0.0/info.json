@@ -1,0 +1,71 @@
+{
+    "id": 1912,
+    "name": "SellAll",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SellAll/1.0.0",
+    "tagline": "Sell all items in your hand or all items in your inventory with the same type as in your hand",
+    "artifact_url": "https://poggit.pmmp.io/r/43032",
+    "downloads": 958,
+    "score": 5,
+    "repo_id": 148973335,
+    "repo_name": "AndreasHGK/SellAll",
+    "project_id": 3969,
+    "project_name": "SellAll",
+    "build_id": 49462,
+    "build_number": 3,
+    "build_commit": "78a0cd4e4e1f2d481195190bc3316f3674d9ac3f",
+    "description_url": "https://poggit.pmmp.io/r/43029",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/43031",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1538920950,
+    "state": 5,
+    "last_state_change_date": 1539268762,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "sell",
+        "hand",
+        "all",
+        "inventory"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Requester": [
+            "Hricxo"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,74 @@
+{
+    "id": 10430,
+    "name": "GetPing",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/GetPing/0.1.0",
+    "tagline": "Get your current ping on the server!",
+    "artifact_url": "https://poggit.pmmp.io/r/189681",
+    "downloads": 2575,
+    "score": null,
+    "repo_id": 512298789,
+    "repo_name": "SVega9848/GetPing",
+    "project_id": 11548,
+    "project_name": "GetPing",
+    "build_id": 142720,
+    "build_number": 12,
+    "build_commit": "07e02f82f025633106ac818e8e1f58db6df74d64",
+    "description_url": "https://poggit.pmmp.io/r/189680",
+    "icon_url": "https://raw.githubusercontent.com/SVega9848/GetPing/07e02f82f025633106ac818e8e1f58db6df74d64/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1660218923,
+    "state": 5,
+    "last_state_change_date": 1660675666,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "php",
+        "ping",
+        "pmmp",
+        "pocketmine",
+        "server"
+    ],
+    "api": [
+        {
+            "from": "4.1.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SVega9848"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

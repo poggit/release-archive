@@ -1,0 +1,86 @@
+{
+    "id": 9656,
+    "name": "BetterItemID",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterItemID/1.0",
+    "tagline": "The best ItemID for PocketMine-MP 4.0 servers. Special use for builders.",
+    "artifact_url": "https://poggit.pmmp.io/r/174919",
+    "downloads": 84,
+    "score": 5,
+    "repo_id": 489835591,
+    "repo_name": "fernanACM/BetterItemID",
+    "project_id": 11099,
+    "project_name": "BetterItemID",
+    "build_id": 132673,
+    "build_number": 13,
+    "build_commit": "94737bfd52bacbceb1666b5f5a3d4d9cebfc38d6",
+    "description_url": "https://poggit.pmmp.io/r/174921",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/BetterItemID/94737bfd52bacbceb1666b5f5a3d4d9cebfc38d6/icon-betteritemid.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652085729,
+    "state": 5,
+    "last_state_change_date": 1652110479,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "BetterID",
+        "BetterItem",
+        "Block",
+        "ID",
+        "Item",
+        "ItemID"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

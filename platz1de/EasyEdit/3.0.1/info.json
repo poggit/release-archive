@@ -1,0 +1,83 @@
+{
+    "id": 12276,
+    "name": "EasyEdit",
+    "version": "3.0.1",
+    "html_url": "https://poggit.pmmp.io/p/EasyEdit/3.0.1",
+    "tagline": "A feature-rich World Editor for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/220836",
+    "downloads": 5960,
+    "score": 4,
+    "repo_id": 308292500,
+    "repo_name": "platz1de/EasyEdit",
+    "project_id": 8510,
+    "project_name": "EasyEdit",
+    "build_id": 162278,
+    "build_number": 487,
+    "build_commit": "1e692a2d8419cf4edf76d7a9c6dd33a16d70e579",
+    "description_url": "https://poggit.pmmp.io/r/220838",
+    "icon_url": "https://raw.githubusercontent.com/platz1de/EasyEdit/1e692a2d8419cf4edf76d7a9c6dd33a16d70e579/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220840",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692608618,
+    "state": 5,
+    "last_state_change_date": 1692609371,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "brush",
+        "easyedit",
+        "ee",
+        "schematic",
+        "wand",
+        "we",
+        "worldedit"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "fuyutsuki",
+            "BlusteryS",
+            "NhanAZ",
+            "Kylan1940",
+            "SnowysOficial"
+        ],
+        "Contributor": [
+            "Matze997",
+            "JavierLeon9966",
+            "matsuyuki1231"
+        ],
+        "Collaborator": [
+            "platz1de"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,138 @@
+<h1>
+<a id="user-content-bravoclan" class="anchor" href="#bravoclan" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BravoClan<a href="https://raw.githubusercontent.com/Itzdvbravo/BravoClan/05b09668a38155ad2eeeb9633c35625459dfc241/1588520980287.jpg" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/Itzdvbravo/BravoClan/05b09668a38155ad2eeeb9633c35625459dfc241/1588520980287.jpg" height="64" width="64" align="left" style="max-width:100%;"></a>
+</h1>
+<p><a href="https://poggit.pmmp.io/p/BravoClan" rel="nofollow"><img src="https://camo.githubusercontent.com/0a610aedd80c77329c5c29dae0b6c8527288ccfb/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f427261766f436c616e" alt="Poggit" data-canonical-src="https://poggit.pmmp.io/shield.state/BravoClan" style="max-width:100%;"></a></p>
+<p>This is a simple clan plugin, it was made because there is very few (or no) working clan plugin without claims, just simple grouping system with levels.</p>
+<h3>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h3>
+<ul>
+<li>[x] <a href="https://github.com/JackMD/ScoreHud-Addons">Scorehud compatible</a>
+</li>
+<li>[x] Clan system, obviously.</li>
+<li>[x] Earn XP on kill, Lose XP on death</li>
+<li>[x] Level up after you reach a certian XP <a href="https://github.com/Itzdvbravo/BravoClan/blob/master/README.md#clan-system">Click Here for how the system works</a>
+</li>
+<li>[x] Get more space for clan members as you level up</li>
+<li>[x] Get clan info, clan member info.</li>
+<li>[x] Clan chat</li>
+</ul>
+<p>###Latest Version Changes</p>
+<ul>
+<li>More configurable through config.yml.</li>
+<li>Adds 2 members after every 5 level.</li>
+</ul>
+<h3>
+<a id="user-content-clan-system" class="anchor" href="#clan-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Clan System</h3>
+<ul>
+<li>
+<p><strong>Level System</strong><br>
+The clan level system is quite basic but interestic and kindof different than others <em>(Currently the amount of xp needed to level up isn't configurable however The amount of xp you lose, you gain can be configured in config.yml)</em>.<br>
+The first level is 100 xp (Leader can invite 2 members only), after the clan has more than 100 xp, they will level up and reach level 2.
+Now, After every 5 levelup it will open 2 more member space. After you level up, the xp needed to levelup + 250 xp will be needed for next level up i.e, to get level 3 you need to get 350xp (100 + 250).<br>
+If you die you lose xp.</p>
+</li>
+<li>
+<p><strong>Rank System</strong><br>
+There are only two ranks in the clan, leader and members.</p>
+</li>
+</ul>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<ul>
+<li>
+<p>[x] /clan info</p>
+</li>
+<li>
+<p>[x] /clan create</p>
+</li>
+<li>
+<p>[x] /clan invite</p>
+</li>
+<li>
+<p>[x] /clan chat</p>
+</li>
+<li>
+<p>[x] /clan members</p>
+</li>
+<li>
+<p>[x] /clan kick</p>
+</li>
+<li>
+<p>[x] /clan delete</p>
+</li>
+<li>
+<p>[x] /clan leave</p>
+</li>
+<li>
+<p>[x] /clan accept</p>
+</li>
+<li>
+<p>[x] /clan top</p>
+</li>
+<li>
+<p><strong>Info</strong><br><br>
+Get your or others clan info, don't provide a clan name if you want to get info about your clan.<br>
+<strong>Usuage</strong> - /clan info .<br>
+<em><strong>NOTE:</strong></em> Will send an error message to the player using if he ain't in a clan and doesn't provide any clan name.</p>
+</li>
+<li>
+<p><strong>Create</strong><br><br>
+Create a clan if you aren't already in a clan.<br>
+<strong>Usage</strong> - /clan create .<br>
+<em><strong>NOTE:</strong></em> Clan name can only contain letters</p>
+</li>
+<li>
+<p><strong>Invite</strong><br><br>
+Invite members to your clan<br>
+<strong>Usage</strong> - /clan invite .<br>
+<em><strong>NOTE:</strong></em> Only for clan leaders, won't be able to invite if the clan member limit has reached, will send a message to the player you're inviting, lasts for 30 second</p>
+</li>
+<li>
+<p><strong>Chat</strong><br><br>
+Join your clan chat.<br>
+<strong>Usage</strong> - /clan chat<br>
+<em><strong>NOTE:</strong></em> Works only if you're in a clan, every online member of your clan can see it even if they ain't in a clan</p>
+</li>
+<li>
+<p><strong>Members</strong><br><br>
+Get member info of your or others clan.<br>
+<strong>Usage</strong> - /clan members <br>
+<em><strong>NOTE:</strong></em> Won't work if player doesn't provide a clan and isn't in a clan, will show if they're online/offline thier kill/deaths in the clan.</p>
+</li>
+<li>
+<p><strong>Kick</strong><br><br>
+Kick a member from a clan.<br>
+<strong>Usage</strong> - /clan kick<br>
+<em><strong>NOTE:</strong></em> Only for clan leaders</p>
+</li>
+<li>
+<p><strong>Delete</strong><br><br>
+Delete your clan.<br>
+<strong>Usage</strong> - /clan delete<br>
+<em><strong>NOTE:</strong></em> Only for clan leaders</p>
+</li>
+<li>
+<p><strong>Leave</strong><br><br>
+Leave your clan.<br>
+<strong>Usage</strong> - /clan leave<br>
+<em><strong>NOTE:</strong></em> Only works for members, works if you're in a clan.</p>
+</li>
+<li>
+<p><strong>Accept</strong><br><br>
+Accept an invitation from a clan.<br>
+<strong>Usage</strong> - /clan accept<br>
+<em><strong>NOTE:</strong></em> Only works if you're not in a clan, if you don't do it in under the 30 second if invitation time it will give expire error.</p>
+</li>
+<li>
+<p><strong>Top</strong><br><br>
+Get top 10 clans<br>
+<strong>Usage</strong> - /clan top</p>
+</li>
+</ul>
+<h3>
+<a id="user-content-upcoming-projects" class="anchor" href="#upcoming-projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Upcoming Projects</h3>
+<ul>
+<li>[x] More configurable</li>
+<li>[ ] Purechat compatible (Requested)</li>
+<li>[ ] More efficient member limit system</li>
+</ul>

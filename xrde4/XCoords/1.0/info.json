@@ -1,0 +1,82 @@
+{
+    "id": 12293,
+    "name": "XCoords",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/XCoords/1.0",
+    "tagline": "XCoords: Minecraft BE plugin, toggle coordinates display for players with permissions.",
+    "artifact_url": "https://poggit.pmmp.io/r/221168",
+    "downloads": 2444,
+    "score": 5,
+    "repo_id": 682978265,
+    "repo_name": "xrde4/XCoords",
+    "project_id": 12979,
+    "project_name": "XCoords",
+    "build_id": 162471,
+    "build_number": 1,
+    "build_commit": "f54f0c5d835e0ef6a1fd91ace867aa55ed3873d1",
+    "description_url": "https://poggit.pmmp.io/r/221167",
+    "icon_url": "https://raw.githubusercontent.com/xrde4/XCoords/f54f0c5d835e0ef6a1fd91ace867aa55ed3873d1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692957930,
+    "state": 5,
+    "last_state_change_date": 1692960949,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Compatibility",
+        "Convenience",
+        "Coordinates",
+        "Customization",
+        "Donations",
+        "Features.",
+        "Gameplay",
+        "Gamerule",
+        "MCBE",
+        "Multi-language",
+        "plugin",
+        "PM5",
+        "Privileges",
+        "Server."
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "xrde4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

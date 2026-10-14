@@ -1,0 +1,76 @@
+{
+    "id": 9900,
+    "name": "FFA",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/FFA/1.0.3",
+    "tagline": "FFA MiniGame",
+    "artifact_url": "https://poggit.pmmp.io/r/179629",
+    "downloads": 1158,
+    "score": 4,
+    "repo_id": 421845254,
+    "repo_name": "Laith98Dev/FFA",
+    "project_id": 9891,
+    "project_name": "FFA",
+    "build_id": 135842,
+    "build_number": 60,
+    "build_commit": "28bde5ba188aa30ece04f21d9827a6bb4f5f1249",
+    "description_url": "https://poggit.pmmp.io/r/179626",
+    "icon_url": "https://raw.githubusercontent.com/Laith98Dev/FFA/28bde5ba188aa30ece04f21d9827a6bb4f5f1249/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/179628",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654392961,
+    "state": 5,
+    "last_state_change_date": 1654420698,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ffa",
+        "freeforall",
+        "laith98dev",
+        "pmmp",
+        "pocketmine-mp",
+        "minigame"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "a55ecceb73e6aa99b80bbec2a78aed0c6341170c",
+            "build_id": 134155
+        }
+    ]
+}

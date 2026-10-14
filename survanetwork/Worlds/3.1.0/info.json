@@ -1,0 +1,84 @@
+{
+    "id": 8113,
+    "name": "Worlds",
+    "version": "3.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Worlds/3.1.0",
+    "tagline": "Easy to use but feature rich World Guard Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/149765",
+    "downloads": 3070,
+    "score": 4,
+    "repo_id": 55313075,
+    "repo_name": "survanetwork/Worlds",
+    "project_id": 387,
+    "project_name": "Worlds",
+    "build_id": 116630,
+    "build_number": 73,
+    "build_commit": "b51ceb62bf56c288e9c766100489a4eb8c4f7044",
+    "description_url": "https://poggit.pmmp.io/r/149761",
+    "icon_url": "https://raw.githubusercontent.com/survanetwork/Worlds/b51ceb62bf56c288e9c766100489a4eb8c4f7044/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/149763",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/149764",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638530634,
+    "state": 5,
+    "last_state_change_date": 1638545056,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "game",
+        "managment",
+        "rule",
+        "teleport",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jarne"
+        ],
+        "Contributor": [
+            "jasonw4331",
+            "xXSirGamesXx",
+            "SuperYYT",
+            "nomadjimbob",
+            "EEHoveckis",
+            "NhanAZ",
+            "alitura1",
+            "KygekDev",
+            "Brice-Harper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

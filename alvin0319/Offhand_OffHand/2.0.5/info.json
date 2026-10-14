@@ -1,0 +1,63 @@
+{
+    "id": 7021,
+    "name": "OffHand",
+    "version": "2.0.5",
+    "html_url": "https://poggit.pmmp.io/p/OffHand/2.0.5",
+    "tagline": "A PocketMine-MP Plugin that implements OffHand (and OffHandInventory)",
+    "artifact_url": "https://poggit.pmmp.io/r/131854",
+    "downloads": 228,
+    "score": null,
+    "repo_id": 257515741,
+    "repo_name": "alvin0319/Offhand",
+    "project_id": 6765,
+    "project_name": "OffHand",
+    "build_id": 105892,
+    "build_number": 37,
+    "build_commit": "231989b5fcac3474f02c86e328610be4193b169d",
+    "description_url": "https://poggit.pmmp.io/r/131851",
+    "icon_url": "https://raw.githubusercontent.com/alvin0319/Offhand/231989b5fcac3474f02c86e328610be4193b169d/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/131853",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626222939,
+    "state": 5,
+    "last_state_change_date": 1626260682,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "lefthand",
+        "offhand"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "WORTI3",
+            "Wertzui123",
+            "PechenkaPM",
+            "DragonfireHD",
+            "JavierLeon9966",
+            "ipad54",
+            "MrNinja008"
+        ],
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

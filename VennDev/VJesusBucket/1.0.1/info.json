@@ -1,0 +1,77 @@
+{
+    "id": 12114,
+    "name": "VJesusBucket",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/VJesusBucket/1.0.1",
+    "tagline": "Help you speed up tasks such as building a field or simply filling holes with water.",
+    "artifact_url": "https://poggit.pmmp.io/r/218646",
+    "downloads": 294,
+    "score": 5,
+    "repo_id": 669012350,
+    "repo_name": "VennDev/VJesusBucket",
+    "project_id": 12817,
+    "project_name": "VJesusBucket",
+    "build_id": 161052,
+    "build_number": 4,
+    "build_commit": "073e1eba650d735bea3219d68e579a2625756d86",
+    "description_url": "https://poggit.pmmp.io/r/218690",
+    "icon_url": "https://raw.githubusercontent.com/VennDev/VJesusBucket/073e1eba650d735bea3219d68e579a2625756d86/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691176308,
+    "state": 5,
+    "last_state_change_date": 1691787128,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VennDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "LibVapmPMMP",
+            "project_id": 12771,
+            "repo_id": 663585245,
+            "repo_name": "VennDev/LibVapmPMMP",
+            "repo_path": "",
+            "build_commit": "271ebfeaa17c0d22c2f0906cf674c884d9171d0d",
+            "build_id": 161048
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "id": 9490,
+    "name": "LoadAllWorlds",
+    "version": "1.1.3",
+    "html_url": "https://poggit.pmmp.io/p/LoadAllWorlds/1.1.3",
+    "tagline": "Load all your worlds with this plugin!",
+    "artifact_url": "https://poggit.pmmp.io/r/170970",
+    "downloads": 2333,
+    "score": null,
+    "repo_id": 263122220,
+    "repo_name": "koningcool/LoadAllWorlds",
+    "project_id": 6921,
+    "project_name": "loadallworlds",
+    "build_id": 129576,
+    "build_number": 224,
+    "build_commit": "03bf7f96fe4a94aa36275c9e34acf15b1886921d",
+    "description_url": "https://poggit.pmmp.io/r/170972",
+    "icon_url": "https://raw.githubusercontent.com/koningcool/LoadAllWorlds/03bf7f96fe4a94aa36275c9e34acf15b1886921d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/170974",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1649790587,
+    "state": 5,
+    "last_state_change_date": 1649866896,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "command",
+        "koningcool",
+        "load",
+        "loader",
+        "loading",
+        "memory",
+        "plugin",
+        "pocketmine",
+        "update",
+        "world",
+        "worlds"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "TweakM"
+        ],
+        "Collaborator": [
+            "koningcool"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 10652,
+            "repo_id": 462073633,
+            "repo_name": "DaPigGuy/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "cdae30371374145ab430c1cff6bf32bf10a2e646",
+            "build_id": 124883
+        }
+    ]
+}

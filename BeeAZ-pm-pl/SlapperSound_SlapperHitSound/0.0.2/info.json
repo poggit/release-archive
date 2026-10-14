@@ -1,0 +1,60 @@
+{
+    "id": 11384,
+    "name": "SlapperHitSound",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/SlapperHitSound/0.0.2",
+    "tagline": "Custom sound when you clicking slapper",
+    "artifact_url": "https://poggit.pmmp.io/r/208615",
+    "downloads": 433,
+    "score": null,
+    "repo_id": 464042746,
+    "repo_name": "BeeAZ-pm-pl/SlapperSound",
+    "project_id": 11104,
+    "project_name": "SlapperHitSound",
+    "build_id": 150036,
+    "build_number": 7,
+    "build_commit": "691bbe9ce36b73cd1b748153f33d18edaa72593d",
+    "description_url": "https://poggit.pmmp.io/r/208612",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/SlapperSound/691bbe9ce36b73cd1b748153f33d18edaa72593d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208614",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685635158,
+    "state": 5,
+    "last_state_change_date": 1685637614,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "SlapperHitSound"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "2.0.7",
+            "depRelId": 9553,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

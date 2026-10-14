@@ -1,0 +1,72 @@
+{
+    "id": 2621,
+    "name": "PlayerInfo",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerInfo/2.1.0",
+    "tagline": "PlayerInfo, Show info about the player's OS, Model/Device, UI and so much more!",
+    "artifact_url": "https://poggit.pmmp.io/r/54043",
+    "downloads": 402,
+    "score": null,
+    "repo_id": 92602192,
+    "repo_name": "Matthww/PlayerInfo",
+    "project_id": 482,
+    "project_name": "PlayerInfo",
+    "build_id": 57197,
+    "build_number": 28,
+    "build_commit": "9093219a29ef1dc4e6e717981c25ed7fc84e9544",
+    "description_url": "https://poggit.pmmp.io/r/55565",
+    "icon_url": "https://raw.githubusercontent.com/Matthww/PlayerInfo/9093219a29ef1dc4e6e717981c25ed7fc84e9544/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/55567",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1552852206,
+    "state": 5,
+    "last_state_change_date": 1552874377,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "android",
+        "config",
+        "Control",
+        "Coords",
+        "Device",
+        "GUI",
+        "health",
+        "HP",
+        "ios",
+        "Model",
+        "OS",
+        "PlayerInfo",
+        "Position",
+        "Scale",
+        "UI",
+        "windows"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Matthww"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

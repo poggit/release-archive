@@ -1,0 +1,65 @@
+{
+    "id": 7469,
+    "name": "Track",
+    "version": "0.0.4",
+    "html_url": "https://poggit.pmmp.io/p/Track/0.0.4",
+    "tagline": "Help staffs track players using commands.",
+    "artifact_url": "https://poggit.pmmp.io/r/139178",
+    "downloads": 39,
+    "score": 5,
+    "repo_id": 393250439,
+    "repo_name": "nhanaz-pm-pl/Stalker",
+    "project_id": 9444,
+    "project_name": "Track",
+    "build_id": 110308,
+    "build_number": 118,
+    "build_commit": "8c761bc39d8ec3f505c6cd169d48eba12d6362a0",
+    "description_url": "https://poggit.pmmp.io/r/139581",
+    "icon_url": "https://raw.githubusercontent.com/NhanAZ/Track/8c761bc39d8ec3f505c6cd169d48eba12d6362a0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/139583",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1630226938,
+    "state": 5,
+    "last_state_change_date": 1630241896,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "track"
+    ],
+    "api": [
+        {
+            "from": "3.21.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Endermanbugzjfc"
+        ],
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

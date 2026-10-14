@@ -1,0 +1,40 @@
+<h1>
+<a id="user-content-kdr" class="anchor" href="#kdr" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>KDR</h1>
+<p>A KDR, Kill Death Ratio  plugin for your Minecraft Bedrock Server. Allows you to keep track of players kills, deaths and kill to death ratio.</p>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>Keep track of players kills.</li>
+<li>Keep track of players deaths.</li>
+<li>Keep track of players kill to death ratio.</li>
+<li>Two storage ways are supported:
+- Yaml
+- SQLite3</li>
+<li>Simple and neat API for developers.</li>
+</ul>
+<h1>
+<a id="user-content-how-to-setup" class="anchor" href="#how-to-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to setup?</h1>
+<ul>
+<li>Put the plugin in your plugins folder.</li>
+<li>Start and then stop the server.</li>
+<li>Edit the <code>config.yml</code> to suit your needs.</li>
+<li>Restart and enjoy...</li>
+</ul>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<p>KDR provides a simple way api for the developers.<br></p>
+<p>First of all you need to get the <code>KDR</code> Instance.</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">KDR</span><span class="pl-k">::</span>getInstance();</span></pre></div>
+<ul>
+<li>To get the kill count of a player:</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">KDR</span><span class="pl-k">::</span>getInstance()<span class="pl-k">-&gt;</span>getProvider()<span class="pl-k">-&gt;</span>getPlayerKillPoints(<span class="pl-smi">$player</span>);</span></pre></div>
+<ul>
+<li>To get the death count of a player:</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">KDR</span><span class="pl-k">::</span>getInstance()<span class="pl-k">-&gt;</span>getProvider()<span class="pl-k">-&gt;</span>getPlayerDeathPoints(<span class="pl-smi">$player</span>);</span></pre></div>
+<ul>
+<li>To get the kill to death ratio of a player:</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">KDR</span><span class="pl-k">::</span>getInstance()<span class="pl-k">-&gt;</span>getProvider()<span class="pl-k">-&gt;</span>getKillToDeathRatio(<span class="pl-smi">$player</span>);</span></pre></div>
+<p>And thats about it. Let me know if I missed out on something.</p>

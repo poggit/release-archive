@@ -1,0 +1,80 @@
+{
+    "id": 3757,
+    "name": "LightningDeath",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/LightningDeath/1.1.1",
+    "tagline": "Shows a lightning strike when a player dies",
+    "artifact_url": "https://poggit.pmmp.io/r/74710",
+    "downloads": 950,
+    "score": 5,
+    "repo_id": 234561310,
+    "repo_name": "provsalt/LightningDeath",
+    "project_id": 6117,
+    "project_name": "LightningDeath",
+    "build_id": 70302,
+    "build_number": 12,
+    "build_commit": "30ad0eff99abe4723cbd33e2e3a699d7c42e8d62",
+    "description_url": "https://poggit.pmmp.io/r/74712",
+    "icon_url": "https://raw.githubusercontent.com/provsalt/LightningDeath/30ad0eff99abe4723cbd33e2e3a699d7c42e8d62/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/74714",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1580518865,
+    "state": 5,
+    "last_state_change_date": 1580519035,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "dead",
+        "death",
+        "die",
+        "lightning",
+        "oof",
+        "strike",
+        "thunder",
+        "thunder33345"
+    ],
+    "api": [
+        {
+            "from": "3.11.4",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Requester": [
+            "ItsBlueey"
+        ],
+        "Collaborator": [
+            "provsalt"
+        ],
+        "Contributor": [
+            "mmm545"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "d173ee82691b06400d7b17f0f31612d664022ef9",
+            "build_id": 61927
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+<h3>Implemented and Planned Features</h3>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Authentication by typing password into chat
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> sorry, no alternative, but there is an option to disallow passwords starting with slashes</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Blocks player from talking password into chat directly
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> disable this in config</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Players can choose not to register (but using the /register command to start registering)
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> enable this in config</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Advanced session control system over PocketMine's default one
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> PocketMine by default kicks the old player if a player joins with the same name as an online player.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> HereAuth checks if the players have the same client secret (and IP address too, optional in config). If they do, that means it is from the same genuine player, so kick the old player. If they aren't, this most likely means that the new player is trying to get the old player kicked.</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Multiple database types supported
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> MySQL</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> filesystem (zlib-encoded JSON + SQLite3)</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> External database through other plugins</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Count-limit or rate-limit accounts per IP (account-throttle)</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Time-based and attempts-based brute-force protection</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Customized automatic authentication methods
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> By "customized", I mean to customize <em>per player</em>! This basically refers to <code>/opt</code></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Customized multi-factor authentication methods</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Customized data masking when player is not authenticated
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Don't let impostors see what is in your inventory!</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Don't let impostors see where you are!</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Don't let impostors see what chat messages are sent to you!</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Account management commands
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> <code>/chpw</code>: change password</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> <code>/unreg</code>: unregister account</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> <code>/opt</code>: change account options (things in <code>config.yml</code>:<code>DefaultSettings</code>)</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> <code>/lock</code>: temporarily logout (deauthenticate) without entirely leaving the server</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> <code>/rename</code>: rename account</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Server-customized events to block when not authenticated
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Only blocks events that you want to block!</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Enforced password control
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Maybe we are being nanny, but we should disallow players to have weak passwords!</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Require custom extra information from players</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> Server-customized messages</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Extensive audit logging</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Database importing
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> AccountReader
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> SimpleAuth
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> YAML</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> SQLite3</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> MySQL</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> ServerAuth
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> ServerAuth hash algorithm detection</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> YAML</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> MySQL</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> AccountWriter
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> JSON</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> MySQL</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> An extensive API (W.I.P.)</li>
+</ul>
+<h2>Entry script</h2>
+<p>Open this phar directly with PHP binaries to automatically extract the config files.</p>

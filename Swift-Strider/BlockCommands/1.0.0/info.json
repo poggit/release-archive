@@ -1,0 +1,67 @@
+{
+    "id": 7111,
+    "name": "BlockCommands",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockCommands/1.0.0",
+    "tagline": "This plugin allows commands to run when people punch, break, step, or interact with blocks.",
+    "artifact_url": "https://poggit.pmmp.io/r/133026",
+    "downloads": 1048,
+    "score": null,
+    "repo_id": 387078086,
+    "repo_name": "Swift-Strider/BlockCommands",
+    "project_id": 9294,
+    "project_name": "BlockCommands",
+    "build_id": 106497,
+    "build_number": 7,
+    "build_commit": "eb6b28e2704850f05da468fe41cf755410e39eb1",
+    "description_url": "https://poggit.pmmp.io/r/133025",
+    "icon_url": "https://raw.githubusercontent.com/Swift-Strider/BlockCommands/eb6b28e2704850f05da468fe41cf755410e39eb1/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626815890,
+    "state": 5,
+    "last_state_change_date": 1627178727,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "blocks",
+        "commands",
+        "events",
+        "interact",
+        "jump",
+        "punch",
+        "step"
+    ],
+    "api": [
+        {
+            "from": "3.21.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Swift-Strider"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

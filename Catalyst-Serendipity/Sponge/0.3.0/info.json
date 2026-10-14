@@ -1,0 +1,62 @@
+{
+    "id": 12853,
+    "name": "Sponge",
+    "version": "0.3.0",
+    "html_url": "https://poggit.pmmp.io/p/Sponge/0.3.0",
+    "tagline": "A PocketMine-MP plugin implementing sponge functionality for water absorption. ",
+    "artifact_url": "https://poggit.pmmp.io/r/233886",
+    "downloads": 335,
+    "score": null,
+    "repo_id": 751983693,
+    "repo_name": "Catalyst-Serendipity/Sponge",
+    "project_id": 13540,
+    "project_name": "Sponge",
+    "build_id": 171723,
+    "build_number": 7,
+    "build_commit": "81dd9bcc1969f84150239f75108735ace2bcbd80",
+    "description_url": "https://poggit.pmmp.io/r/233883",
+    "icon_url": "https://raw.githubusercontent.com/Catalyst-Serendipity/Sponge/81dd9bcc1969f84150239f75108735ace2bcbd80/assets/sponge.png",
+    "changelog_url": "https://poggit.pmmp.io/r/233885",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1709085024,
+    "state": 5,
+    "last_state_change_date": 1709223489,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "sponge",
+        "sponges"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "nicholass003"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

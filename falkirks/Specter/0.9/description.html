@@ -1,0 +1,59 @@
+<h1>
+<a id="user-content-specter" class="anchor" href="#specter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Specter</h1>
+<p><strong>Real people suck. Use fake ones instead.</strong></p>
+<p>Specter eliminates the need to get additional people to test a plugin and the horrible alternative. Specter generates players which can be used by PocketMine and plugins as if they were real players.</p>
+<p>Players can be managed via an API or through a command.</p>
+<h4>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h4>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>dummy</span> = <span class="pl-k">new</span> \specter\api\<span class="pl-v">DummyPlayer</span>(<span class="pl-s">"Playername"</span>);
+<span class="pl-s1"><span class="pl-c1">$</span>dummy</span>-&gt;<span class="pl-en">getPlayer</span>()-&gt;<span class="pl-en">sendMessage</span>(<span class="pl-s">"hello"</span>);
+<span class="pl-s1"><span class="pl-c1">$</span>dummy</span>-&gt;<span class="pl-en">close</span>();</pre></div>
+<h4>
+<a id="user-content-command" class="anchor" href="#command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command</h4>
+<div class="highlight highlight-source-shell"><pre>specter spawn Playername <span class="pl-c"><span class="pl-c">#</span> The full command to spawn a new dummy</span>
+s s playername <span class="pl-c"><span class="pl-c">#</span> Luckily there is shorthand</span>
+s c playername /spawn <span class="pl-c"><span class="pl-c">#</span> Execute /spawn as player</span></pre></div>
+<h4>
+<a id="user-content-detailed-commands" class="anchor" href="#detailed-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Detailed Commands</h4>
+<h5>
+<a id="user-content-spawning" class="anchor" href="#spawning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Spawning</h5>
+<pre><code>s
+add
+new
+spawn
+</code></pre>
+<h5>
+<a id="user-content-removing" class="anchor" href="#removing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Removing</h5>
+<pre><code>q
+close
+quit
+kick
+</code></pre>
+<h5>
+<a id="user-content-teleporting" class="anchor" href="#teleporting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Teleporting</h5>
+<pre><code>m
+tp
+move
+teleport
+</code></pre>
+<h5>
+<a id="user-content-attacking" class="anchor" href="#attacking" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Attacking</h5>
+<pre><code>a
+attack
+</code></pre>
+<h5>
+<a id="user-content-chatcommand" class="anchor" href="#chatcommand" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chat/Command</h5>
+<pre><code>c
+chat
+command
+</code></pre>
+<h5>
+<a id="user-content-icu" class="anchor" href="#icu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ICU</h5>
+<pre><code>icu
+control
+</code></pre>
+<h5>
+<a id="user-content-respawn" class="anchor" href="#respawn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Respawn</h5>
+<pre><code>r
+respawn
+</code></pre>

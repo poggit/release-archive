@@ -1,0 +1,60 @@
+{
+    "id": 10570,
+    "name": "ItemSender",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ItemSender/0.0.1",
+    "tagline": "Sending the item in hand to someone",
+    "artifact_url": "https://poggit.pmmp.io/r/193006",
+    "downloads": 32,
+    "score": null,
+    "repo_id": 537789065,
+    "repo_name": "nhanaz-pm-pl/ItemSender",
+    "project_id": 11845,
+    "project_name": "ItemSender",
+    "build_id": 145170,
+    "build_number": 1,
+    "build_commit": "a5bbbf8041088129badb27e8d613d8a9c93838bc",
+    "description_url": "https://poggit.pmmp.io/r/193005",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/ItemSender/a5bbbf8041088129badb27e8d613d8a9c93838bc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1663415459,
+    "state": 5,
+    "last_state_change_date": 1664044168,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "itemsend",
+        "itemsender",
+        "itemsending",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

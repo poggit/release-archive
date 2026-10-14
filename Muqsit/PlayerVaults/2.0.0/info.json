@@ -1,0 +1,87 @@
+{
+    "id": 1255,
+    "name": "PlayerVaults",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerVaults/2.0.0",
+    "tagline": "Per-player inventory-based vaults plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/27004",
+    "downloads": 790,
+    "score": 5,
+    "repo_id": 89708028,
+    "repo_name": "Muqsit/PlayerVaults",
+    "project_id": 411,
+    "project_name": "PlayerVaults",
+    "build_id": 38694,
+    "build_number": 28,
+    "build_commit": "20c7017b72d21b3559170d5c011bffa609269823",
+    "description_url": "https://poggit.pmmp.io/r/27001",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/27003",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1522671184,
+    "state": 5,
+    "last_state_change_date": 1522690753,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "inventory",
+        "playervault",
+        "playervaults",
+        "portable",
+        "privatevault",
+        "privatevaults",
+        "pv",
+        "vaults"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA11",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ],
+        "Contributor": [
+            "Sandertv",
+            "Enrick3344",
+            "MasterOfTheRealm"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "f123bccef3bfebb7599f4fd860ae59b6cf6f35dc",
+            "build_id": 38693
+        }
+    ]
+}

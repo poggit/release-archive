@@ -1,0 +1,57 @@
+{
+    "id": 96,
+    "name": "ChatFilter",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatFilter/1.0.0",
+    "tagline": "Filters your chat!",
+    "artifact_url": "https://poggit.pmmp.io/r/1952",
+    "downloads": 425,
+    "score": null,
+    "repo_id": 80804807,
+    "repo_name": "InspectorGadget/ChatFilter",
+    "project_id": 250,
+    "project_name": "ChatFilter",
+    "build_id": 20757,
+    "build_number": 3,
+    "build_commit": "ac917d1e4c3182ba582f39244cced2c093ed131d",
+    "description_url": "https://poggit.pmmp.io/r/1951",
+    "icon_url": null,
+    "changelog_url": null,
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1487466278,
+    "state": 5,
+    "last_state_change_date": 1487466278,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Filter"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA3"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "InspectorGadget"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

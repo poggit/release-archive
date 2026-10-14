@@ -1,0 +1,92 @@
+<h1>
+<a id="user-content-multiversion" class="anchor" href="#multiversion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MultiVersion</h1>
+<p><a href="https://poggit.pmmp.io/p/MultiVersion" rel="nofollow"><img src="https://camo.githubusercontent.com/e444ee9a31664d25a2016ae202891984bbf3de9d9e1ec0dfd9d353b2240db283/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f4d756c746956657273696f6e" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/MultiVersion" style="max-width:100%;"></a> <a href="https://poggit.pmmp.io/p/MultiVersion" rel="nofollow"><img src="https://camo.githubusercontent.com/857011696dd70da05acb49e2614bbf099d56a308b52e912fbad5314ae8cbcb6e/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f4d756c746956657273696f6e" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/MultiVersion" style="max-width:100%;"></a> <a href="https://discord.gg/NGsNaj54d6" rel="nofollow"><img src="https://camo.githubusercontent.com/5205fd8dd20ca29ead1bff228f47a6951290459f3a96b0fede1db649078740b8/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3930323131333930313731323337393934353f636f6c6f723d373338394438266c6162656c3d646973636f7264" alt="Discord" data-canonical-src="https://img.shields.io/discord/902113901712379945?color=7389D8&amp;label=discord" style="max-width:100%;"></a> <a href="https://github.com/AkmalFairuz/MultiVersion/stargazers"><img src="https://camo.githubusercontent.com/2b6556a70139769c797db4106b5aa7dafd60596c34c8a382ded63aeb6fa9e960/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f416b6d616c46616972757a2f4d756c746956657273696f6e" alt="Stars" data-canonical-src="https://img.shields.io/github/stars/AkmalFairuz/MultiVersion" style="max-width:100%;"></a></p>
+<p>Allows the connection of lower client versions to higher PocketMine-MP server versions.
+Your server player count dropped when Minecraft update? You should use this plugin.</p>
+<ul>
+<li>Not a spoon/fork
+<ul>
+<li>Just use a plugin to support multi protocol without changing PMMP API.</li>
+</ul>
+</li>
+<li>Performance
+<ul>
+<li>Use asynchronous to compress and decompress packet.</li>
+</ul>
+</li>
+<li>Stable
+<ul>
+<li>Almost all packets are converted.</li>
+<li>Client won't crash.</li>
+</ul>
+</li>
+<li>Scalability
+<ul>
+<li>Easy to implement future versions.</li>
+</ul>
+</li>
+</ul>
+<h1>
+<a id="user-content-supported-versions" class="anchor" href="#supported-versions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Supported Versions</h1>
+<table>
+<thead>
+<tr>
+<th>Minecraft Version</th>
+<th>Protocol</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.16.220</td>
+<td>431</td>
+</tr>
+<tr>
+<td>1.17.0</td>
+<td>440</td>
+</tr>
+<tr>
+<td>1.17.10</td>
+<td>448</td>
+</tr>
+<tr>
+<td>1.17.30</td>
+<td>465</td>
+</tr>
+<tr>
+<td>1.17.40</td>
+<td>471</td>
+</tr>
+<tr>
+<td>1.18.0</td>
+<td>475</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-command" class="anchor" href="#command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command</h1>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Help</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/multiversion player <code>&lt;player&gt;</code>
+</td>
+<td>Get player version</td>
+</tr>
+<tr>
+<td>/multiversion all</td>
+<td>Get all players version</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API:</h1>
+<ul>
+<li>Get player protocol:</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-c">/** @var Player $player */</span>
+<span class="pl-v">MultiVersion</span>::<span class="pl-en">getProtocol</span>(<span class="pl-s1"><span class="pl-c1">$</span>player</span>);</pre></div>

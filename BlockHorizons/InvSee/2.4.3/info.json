@@ -1,0 +1,81 @@
+{
+    "id": 14173,
+    "name": "InvSee",
+    "version": "2.4.3",
+    "html_url": "https://poggit.pmmp.io/p/InvSee/2.4.3",
+    "tagline": "A PocketMine plugin that lets you view and modify player's inventory and ender inventory realtime.",
+    "artifact_url": "https://poggit.pmmp.io/r/258925",
+    "downloads": 849,
+    "score": null,
+    "repo_id": 138355281,
+    "repo_name": "BlockHorizons/InvSee",
+    "project_id": 3152,
+    "project_name": "InvSee",
+    "build_id": 185921,
+    "build_number": 91,
+    "build_commit": "86ea96a53b27a03cf2ec82bde46dfb3c39e07491",
+    "description_url": "https://poggit.pmmp.io/r/258922",
+    "icon_url": "https://raw.githubusercontent.com/BlockHorizons/InvSee/86ea96a53b27a03cf2ec82bde46dfb3c39e07491/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/258924",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1755756884,
+    "state": 5,
+    "last_state_change_date": 1755779592,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "inv",
+        "inventory",
+        "modify",
+        "viewing"
+    ],
+    "api": [
+        {
+            "from": "5.27.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ],
+        "Contributor": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "2b2eb5101934a3cbe20b521367147890c28b8bd9",
+            "build_id": 185919
+        }
+    ]
+}

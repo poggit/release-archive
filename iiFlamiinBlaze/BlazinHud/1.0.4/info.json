@@ -1,0 +1,67 @@
+{
+    "id": 1583,
+    "name": "BlazinHud",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/BlazinHud/1.0.4",
+    "tagline": "An advanced custom hud plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/34673",
+    "downloads": 788,
+    "score": 2,
+    "repo_id": 131454947,
+    "repo_name": "iiFlamiinBlaze/BlazinHud",
+    "project_id": 2725,
+    "project_name": "BlazinHud",
+    "build_id": 43969,
+    "build_number": 6,
+    "build_commit": "b7154ea7413ca947868219d46039fa87d5f9bdec",
+    "description_url": "https://poggit.pmmp.io/r/34670",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/34672",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529615331,
+    "state": 5,
+    "last_state_change_date": 1529615331,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "iiflamiinblaze",
+        "pmmp-plugins",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Unickorn"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

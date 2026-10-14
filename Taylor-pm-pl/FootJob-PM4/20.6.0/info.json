@@ -1,0 +1,63 @@
+{
+    "id": 9361,
+    "name": "FootJob-PM4",
+    "version": "20.6.0",
+    "html_url": "https://poggit.pmmp.io/p/FootJob-PM4/20.6.0",
+    "tagline": "Creating a portal that execute command as console and player",
+    "artifact_url": "https://poggit.pmmp.io/r/168483",
+    "downloads": 428,
+    "score": null,
+    "repo_id": 472801947,
+    "repo_name": "Taylor-pm-pl/FootJob-PM4",
+    "project_id": 10836,
+    "project_name": "FootJob-PM4",
+    "build_id": 127958,
+    "build_number": 9,
+    "build_commit": "2f0cf1b8c331e83ac43b25d327cd2b2c040cfb3b",
+    "description_url": "https://poggit.pmmp.io/r/168482",
+    "icon_url": "https://raw.githubusercontent.com/David-pm-pl/FootJob-PM4/2f0cf1b8c331e83ac43b25d327cd2b2c040cfb3b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648021420,
+    "state": 5,
+    "last_state_change_date": 1652130542,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "portal",
+        "teleport"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AngelliaX",
+            "DavidGlitch04"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

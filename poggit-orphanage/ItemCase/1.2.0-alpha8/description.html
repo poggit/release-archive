@@ -1,0 +1,114 @@
+<h1>
+<a id="user-content-itemcasepe" class="anchor" href="#itemcasepe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ItemCasePE</h1>
+<ul>
+<li>Summary: An implementation of Bukkit's ItemCase</li>
+<li>Dependency Plugins: n/a</li>
+<li>PocketMine-MP version: 1.7Dev - API 3.0.0-ALPHA8</li>
+<li>OptionalPlugins:</li>
+<li>Categories: General</li>
+<li>Plugin Access: Tile Entities, Items/Blocks</li>
+<li>WebSite: <a href="https://github.com/Muirfield/ItemCasePE/releases">github</a>
+</li>
+</ul>
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p>A simplistic implementation of Bukkit's ItemCase.</p>
+<p>Command:</p>
+<ul>
+<li>/itemcase add</li>
+</ul>
+<p>Then while holding an item, tap on a slab or glass block.  This will create an
+itemcase with that item.</p>
+<p>To destroy, just destroy the block where the itemcase was placed.</p>
+<h2>
+<a id="user-content-documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h2>
+<p>Case data is placed on a file in the world folder.  This is
+loaded during world load and unloaded during unload.</p>
+<p>Available sub-commands:</p>
+<ul>
+<li>/itemcase add<br>
+Adds an ItemCase with object on hand.</li>
+<li>/itemcase cancel<br>
+Aborts an <code>add</code> operation.</li>
+<li>/itemcase respawn<br>
+Debug sub-command.  Re-creates all ItemCases.</li>
+</ul>
+<h3>
+<a id="user-content-configuring" class="anchor" href="#configuring" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuring</h3>
+<p>By default you need to place items on Slabs or on Glass blocks.  This
+is <strong>classic</strong> mode.  You can, if you want, enable <strong>new wave</strong> mode.
+This would let you place items on any type of blocks.  To enable this,
+modify the <code>config.yml</code> file:</p>
+<pre><code>settings:
+  classic: true
+</code></pre>
+<p>Change the line <code>classic</code> from <code>true</code> to <code>false</code>.  Note that <strong>new
+wave</strong> mode is experimental and has not been fully tested.</p>
+<h3>
+<a id="user-content-permission-nodes" class="anchor" href="#permission-nodes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission Nodes:</h3>
+<ul>
+<li>itemcase.cmd: allow players access to the itemcase command</li>
+<li>itemcase.destroy: allow players destroy cases</li>
+</ul>
+<h2>
+<a id="user-content-changes" class="anchor" href="#changes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Changes</h2>
+<ul>
+<li>1.0.8 : No AIR cases
+<ul>
+<li>Do not allow to place cases with AIR only.  Reported by @Pub4Game.
+Closes #30.</li>
+</ul>
+</li>
+<li>1.0.7 : Update for PM1.6dev
+<ul>
+<li>Checks which function to call (isPlaceable/canBePlaced) without having
+to check version.</li>
+</ul>
+</li>
+<li>1.0.6 : Update for PM1.6dev
+<ul>
+<li>changed isPlaceable for canBePlaced</li>
+</ul>
+</li>
+<li>1.0.5 : BugFix
+<ul>
+<li>Fixed a small bug related to new wave mode.</li>
+</ul>
+</li>
+<li>1.0.4 : new wave vs classic
+<ul>
+<li>Added new wave mode that allows you to place itemcases everywhere.</li>
+<li>Removed callbacktask deprecation warning</li>
+</ul>
+</li>
+<li>1.0.2 : Bugfix
+<ul>
+<li>Fixed bugs and improved permissions.</li>
+</ul>
+</li>
+<li>1.0.1 : Bugfix
+<ul>
+<li>Fixed despawn when chunk unloads</li>
+</ul>
+</li>
+<li>1.0.0 : First release</li>
+</ul>
+<h1>
+<a id="user-content-copyright" class="anchor" href="#copyright" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright</h1>
+<pre><code>ItemCasePE
+Copyright (C) 2015 Alejandro Liu  
+All Rights Reserved.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</code></pre>

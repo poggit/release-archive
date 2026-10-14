@@ -1,0 +1,67 @@
+{
+    "id": 74,
+    "name": "HereAuth",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/HereAuth/1.0",
+    "tagline": "Your auth plugin is here, for you. The PocketMine auth plugin with the most customization ever.",
+    "artifact_url": "https://poggit.pmmp.io/r/1700",
+    "downloads": 1413,
+    "score": null,
+    "repo_id": 49703912,
+    "repo_name": "PEMapModder/HereAuth",
+    "project_id": 225,
+    "project_name": "HereAuth",
+    "build_id": 20564,
+    "build_number": 5,
+    "build_commit": "49c634cea4d04726884f67742e5102bf6ec5e2a3",
+    "description_url": "https://poggit.pmmp.io/r/1699",
+    "icon_url": "https://github.com/PEMapModder/HereAuth/raw/master/hereauth.png",
+    "changelog_url": null,
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1486378051,
+    "state": 5,
+    "last_state_change_date": 1486378051,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "auth",
+        "brute-force",
+        "session-control"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "2.1.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PEMapModder"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

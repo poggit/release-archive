@@ -1,0 +1,73 @@
+{
+    "id": 4015,
+    "name": "WorldLimits",
+    "version": "1.1.2",
+    "html_url": "https://poggit.pmmp.io/p/WorldLimits/1.1.2",
+    "tagline": "Worldborder plugin for PMMP.",
+    "artifact_url": "https://poggit.pmmp.io/r/79043",
+    "downloads": 197,
+    "score": null,
+    "repo_id": 185613983,
+    "repo_name": "iZeaoGamer/WorldBorder",
+    "project_id": 5000,
+    "project_name": "WorldBorder",
+    "build_id": 72843,
+    "build_number": 27,
+    "build_commit": "fe32d3ae2fe7d771d0c00e4cb3dfaef6a58ec8d3",
+    "description_url": "https://poggit.pmmp.io/r/79045",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/79047",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1584463017,
+    "state": 5,
+    "last_state_change_date": 1584493769,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "border",
+        "limit",
+        "teleportation",
+        "world",
+        "worldborder",
+        "worldlimit"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "MultiWorld",
+            "version": "1.5.2",
+            "depRelId": 3577,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "iZeaoGamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

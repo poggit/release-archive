@@ -1,0 +1,74 @@
+{
+    "id": 4767,
+    "name": "CommandLogger",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/CommandLogger/0.0.2",
+    "tagline": "A simple plugin for PocketMine-MP to log all commands, registered or not, sent by players into Console!",
+    "artifact_url": "https://poggit.pmmp.io/r/93590",
+    "downloads": 259,
+    "score": 5,
+    "repo_id": 271897169,
+    "repo_name": "HyperFlareMC/CommandLogger",
+    "project_id": 7180,
+    "project_name": "CommandLogger",
+    "build_id": 81992,
+    "build_number": 5,
+    "build_commit": "ad865732328c8ff3540970cf6efd32cc92e99072",
+    "description_url": "https://poggit.pmmp.io/r/93587",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/93589",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1592976133,
+    "state": 5,
+    "last_state_change_date": 1593197739,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "command",
+        "commandlogger",
+        "logger"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HyperFlareMC"
+        ],
+        "Contributor": [
+            "AGTHARN"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

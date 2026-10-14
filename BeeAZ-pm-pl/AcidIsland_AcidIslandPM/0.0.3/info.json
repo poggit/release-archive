@@ -1,0 +1,66 @@
+{
+    "id": 11548,
+    "name": "AcidIsland",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/AcidIsland/0.0.3",
+    "tagline": "Survival on an island surrounded by acid water",
+    "artifact_url": "https://poggit.pmmp.io/r/210179",
+    "downloads": 3018,
+    "score": 5,
+    "repo_id": 492553609,
+    "repo_name": "BeeAZ-pm-pl/AcidIsland",
+    "project_id": 11185,
+    "project_name": "AcidIslandPM",
+    "build_id": 156241,
+    "build_number": 48,
+    "build_commit": "8f79cd3ffbfe57539200bb7da87be5e4169da2d4",
+    "description_url": "https://poggit.pmmp.io/r/210700",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/AcidIsland/8f79cd3ffbfe57539200bb7da87be5e4169da2d4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685864548,
+    "state": 5,
+    "last_state_change_date": 1687023620,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "AcidIsland",
+        "AcidIslandPM"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

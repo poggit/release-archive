@@ -1,0 +1,74 @@
+{
+    "id": 1688,
+    "name": "SignServerStats",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/SignServerStats/1.1.1",
+    "tagline": "This plugin displays player count and MODT from any server on a sign.",
+    "artifact_url": "https://poggit.pmmp.io/r/37119",
+    "downloads": 17312,
+    "score": 4,
+    "repo_id": 70623426,
+    "repo_name": "robske110/SignServerStats",
+    "project_id": 625,
+    "project_name": "SSS",
+    "build_id": 46043,
+    "build_number": 34,
+    "build_commit": "54f6dc8f62a6efbb2e85dcbc66629ebd68645775",
+    "description_url": "https://poggit.pmmp.io/r/37149",
+    "icon_url": "https://raw.githubusercontent.com/robske110/SignServerStats/54f6dc8f62a6efbb2e85dcbc66629ebd68645775/SSS/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/37151",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1531858821,
+    "state": 5,
+    "last_state_change_date": 1531936204,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "SignServerStats",
+        "Query",
+        "Signs",
+        "Sign",
+        "Display",
+        "Server",
+        "Status",
+        "Stats",
+        "MODT",
+        "Statistics"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "robske110"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

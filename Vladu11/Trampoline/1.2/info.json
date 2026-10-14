@@ -1,0 +1,76 @@
+{
+    "id": 1856,
+    "name": "Trampoline",
+    "version": "1.2",
+    "html_url": "https://poggit.pmmp.io/p/Trampoline/1.2",
+    "tagline": "A Pocketmine Plugin that can turn any block into a trampoline",
+    "artifact_url": "https://poggit.pmmp.io/r/41470",
+    "downloads": 8114,
+    "score": 4,
+    "repo_id": 145970862,
+    "repo_name": "Vladu11/Trampoline",
+    "project_id": 3829,
+    "project_name": "Trampoline",
+    "build_id": 49109,
+    "build_number": 17,
+    "build_commit": "a02ad5481126304c4727fddec270fbdd830d2a59",
+    "description_url": "https://poggit.pmmp.io/r/41469",
+    "icon_url": "https://raw.githubusercontent.com/Vladu11/Trampoline/a02ad5481126304c4727fddec270fbdd830d2a59/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "bsd-2-clause",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1536479245,
+    "state": 5,
+    "last_state_change_date": 1536479245,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "trampoline",
+        "players",
+        "jump",
+        "bounce",
+        "bouncy",
+        "jumpy",
+        "throw",
+        "teleport"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Vladu11"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

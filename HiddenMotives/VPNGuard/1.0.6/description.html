@@ -1,0 +1,129 @@
+<h1>
+<a id="user-content-vpnguard" class="anchor" href="#vpnguard" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>VPNGuard</h1>
+<p>PocketMine-MP Plugin: VPNGuard will prevent players from joining your server behind any type of anonymizer.</p>
+<p>VPNGuard will prevent players from joining your server behind any type of anonymizer (whether it be a VPN or a Proxy). This will effectively help reduce spammers/bots and Miscellaneous individuals from joining your server by kicking them if they have an IP address which belongs to a hosting organization.</p>
+<p>VPNGuard uses a privately managed blocking list which is updated almost daily to Combat new threats
+Easy installation requires almost no configuration, simply download and install.</p>
+<p>Updated for: <strong>3.0.0-ALPHA7 +</strong></p>
+<p>Latest Plugin Release: <strong>VPNGuard v1.0.6</strong></p>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Command</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">vpnguard</td>
+<td align="left"><strong>The main command for VPNGuard.</strong></td>
+</tr>
+<tr>
+<td align="left">vpnguard clearcache</td>
+<td align="left"><strong>Deletes all locally saved cache files</strong></td>
+</tr>
+<tr>
+<td align="left">vpnguard clearip {ip}</td>
+<td align="left"><strong>Deletes the locally saved cache file for the specified IP address</strong></td>
+</tr>
+<tr>
+<td align="left">vpnguard lookup {ip/player}</td>
+<td align="left"><strong>Allows you to search any IP address or online player in-game and view IP details</strong></td>
+</tr>
+<tr>
+<td align="left">vpnguard subnet {ban/unban} {ip/subnet block}</td>
+<td align="left"><strong>Allows you to ban or unban a IP address subnet</strong></td>
+</tr>
+<tr>
+<td align="left">vpnguard country {add/remove} {cc}</td>
+<td align="left"><strong>Allows you to add or remove a country from your blacklist or whitelist</strong></td>
+</tr>
+<tr>
+<td align="left">vpnguard about</td>
+<td align="left"><strong>Information about the plugin</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Node</th>
+<th align="left">Default</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">vpnguard.command.vpnguard</td>
+<td align="left">true</td>
+<td align="left">Allows you to use the <strong>/vpnguard</strong> command</td>
+</tr>
+<tr>
+<td align="left">vpnguard.command.clearcache</td>
+<td align="left">op</td>
+<td align="left">Allows you to use the <strong>/vpnguard clearcache</strong> command</td>
+</tr>
+<tr>
+<td align="left">vpnguard.command.clearip</td>
+<td align="left">op</td>
+<td align="left">Allows you to use the <strong>/vpnguard clearip</strong> command</td>
+</tr>
+<tr>
+<td align="left">vpnguard.command.lookup</td>
+<td align="left">op</td>
+<td align="left">Allows you to use the <strong>/vpnguard lookup</strong> command</td>
+</tr>
+<tr>
+<td align="left">vpnguard.command.subnet</td>
+<td align="left">op</td>
+<td align="left">Allows you to use the <strong>/vpnguard subnet</strong> command</td>
+</tr>
+<tr>
+<td align="left">vpnguard.command.country</td>
+<td align="left">op</td>
+<td align="left">Allows you to use the <strong>/vpnguard country</strong> command</td>
+</tr>
+<tr>
+<td align="left">vpnguard.command.about</td>
+<td align="left">true</td>
+<td align="left">Allows you to use the <strong>/vpnguard about</strong> command</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-frequently-asked-questions" class="anchor" href="#frequently-asked-questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Frequently Asked Questions</h3>
+<p><strong>Q</strong>. The plugin API is outdated when will you make an update?</p>
+<p>A. Please update/bump the API version in the plugin.yml, the plugin should still work. If not please open a Github Issue and let me know.</p>
+<p><strong>Q</strong>. How many players can the plugin look information up for?</p>
+<p>A. At the time of writing this the backend API provider has a 500 monthly request limit. Which means if you enable api-cache within config.yml you can get 500 monthly unique players and lookup information regarding them with no problem!</p>
+<p><strong>Q</strong>. What happens when the API monthly limit is reached?</p>
+<p>A. The API server will no longer provide information regarding additional/new users who attempt to join your server, from there those users would be either allowed to join your server without any sort of checking or they would be kicked, this is based on the value specified in the config.yml under bypass-check.</p>
+<p><strong>Q</strong>. I have a server and more than 500 new users join per month is it possible I can get more monthly requests?</p>
+<p>A. Yes you can you would need to purchase an API key, at the time of writing this its only $5/mo</p>
+<p><strong>Q</strong>. I have more than one server can I use the API key on more than one server at a time?</p>
+<p>A. Yes you can use a single API key on as many servers as you wish, that you own.</p>
+<p><strong>Q</strong>. Why can't this be completely free for unlimited requests?</p>
+<p>A. It costs money to maintain and upkeep such a service. You are not paying for the plugin but are paying for the service to use the API if you choose to do so.</p>
+<p><strong>Q</strong>. Where can I view details/purchase the API that is being used?</p>
+<p>A. You can visit the homepage by the API provider located at: <a href="http://bit.ly/host-blocker">http://bit.ly/host-blocker</a></p>
+<p><strong>Q</strong>. Right after I installed the plugin it says "Monthly Limit Reached" but this is the first time im running it what do I do?</p>
+<p>A. You most likely are on shared hosting and chances are someone already has used up the 500 Free Monthly Request Limit for the IP Address. You would need to either test the plugin locally on your computer, on a different server or purchase a API Key.</p>
+<p><strong>Q</strong>. I just installed the plugin I need help configuring command section in the config.</p>
+<p>A. Configuring the plugin commands is super simple! Take a look at the config file: <a href="https://github.com/HiddenMotives/VPNGuard/blob/master/resources/config.yml">https://github.com/HiddenMotives/VPNGuard/blob/master/resources/config.yml</a> it is pretty straight forward, the command section is a list of commands to run when a user joins with a VPN. %p represents the player name connecting and gets replaced automatically.</p>
+<pre><code>command:
+- kick %p You seem to be using a VPN or Proxy
+</code></pre>
+<p>The above command to run would kick the player trying to connect with a VPN with the message "You seem to be using a VPN or Proxy". Or you could specify more than one command by adding another line like:</p>
+<pre><code>command:
+- kick %p You seem to be using a VPN or Proxy
+- say %p is a naughty crafter.
+</code></pre>
+<p>Which would both kick the player trying to connect to the server and broadcast "playerName is a naughty crafter"</p>
+<p><strong>Q</strong>. I found a IP from a VPN organization not blocked what do I do?</p>
+<p>A. Contact the API provider</p>
+<p><strong>Q</strong>. My question is not listed here</p>
+<p>A. Contact me with your Question!</p>

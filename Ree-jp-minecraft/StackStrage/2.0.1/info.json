@@ -1,0 +1,96 @@
+{
+    "id": 11940,
+    "name": "StackStorage",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/StackStorage/2.0.1",
+    "tagline": "Simple Virtual storage",
+    "artifact_url": "https://poggit.pmmp.io/r/216313",
+    "downloads": 1561,
+    "score": null,
+    "repo_id": 224436247,
+    "repo_name": "Ree-jp-minecraft/StackStrage",
+    "project_id": 6525,
+    "project_name": "StackStrage",
+    "build_id": 159624,
+    "build_number": 183,
+    "build_commit": "03c88db8962d8dbf23cd77431443c5137518e460",
+    "description_url": "https://poggit.pmmp.io/r/216310",
+    "icon_url": "https://raw.githubusercontent.com/Ree-jp-minecraft/StackStrage/03c88db8962d8dbf23cd77431443c5137518e460/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/216312",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689345915,
+    "state": 5,
+    "last_state_change_date": 1689351386,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "cloud",
+        "item",
+        "pmmp",
+        "stackstorage",
+        "storage"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "DaisukeDaisuke"
+        ],
+        "Collaborator": [
+            "Ree-jp"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "463ab795418a230e89f8c461f64cfb6fd37eca7a",
+            "build_id": 117925
+        },
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "d6b666c72b89a05b9d72c60fd1063b6c7ebdbd46",
+            "build_id": 154020
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "75cfeeebce4583ca8f4975d57728ee165cf6b77e",
+            "build_id": 159576
+        }
+    ]
+}

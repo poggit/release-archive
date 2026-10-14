@@ -1,0 +1,63 @@
+{
+    "id": 1572,
+    "name": "TreasureChest",
+    "version": "1.2.2",
+    "html_url": "https://poggit.pmmp.io/p/TreasureChest/1.2.2",
+    "tagline": "Custom chest refill",
+    "artifact_url": "https://poggit.pmmp.io/r/34575",
+    "downloads": 211,
+    "score": null,
+    "repo_id": 60052303,
+    "repo_name": "Awzaw/TreasureChest",
+    "project_id": 235,
+    "project_name": "TreasureChest",
+    "build_id": 44216,
+    "build_number": 23,
+    "build_commit": "c972b652ee7ed47f0a531c5ff79d26d347bcbcbd",
+    "description_url": "https://poggit.pmmp.io/r/34572",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/TreasureChest/c972b652ee7ed47f0a531c5ff79d26d347bcbcbd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/34574",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529594913,
+    "state": 5,
+    "last_state_change_date": 1529594917,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "treasure",
+        "chest",
+        "refill"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

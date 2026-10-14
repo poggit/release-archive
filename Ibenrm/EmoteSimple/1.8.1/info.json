@@ -1,0 +1,61 @@
+{
+    "id": 8873,
+    "name": "EmoteSimple",
+    "version": "1.8.1",
+    "html_url": "https://poggit.pmmp.io/p/EmoteSimple/1.8.1",
+    "tagline": "EmoteSimple for pocketmine 4.0",
+    "artifact_url": "https://poggit.pmmp.io/r/160774",
+    "downloads": 27,
+    "score": null,
+    "repo_id": 455621866,
+    "repo_name": "Ibenrm/EmoteSimple",
+    "project_id": 10550,
+    "project_name": "EmoteSimple",
+    "build_id": 123221,
+    "build_number": 5,
+    "build_commit": "c36b407ebf4d509b2af5274e51674a68e8b567a2",
+    "description_url": "https://poggit.pmmp.io/r/160773",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644325820,
+    "state": 5,
+    "last_state_change_date": 1645729866,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "emotesimple"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Ibenrm"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

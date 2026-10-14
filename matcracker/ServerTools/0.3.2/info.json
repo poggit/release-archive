@@ -1,0 +1,95 @@
+{
+    "id": 7284,
+    "name": "ServerTools",
+    "version": "0.3.2",
+    "html_url": "https://poggit.pmmp.io/p/ServerTools/0.3.2",
+    "tagline": "ServerTools is a set of tools that allows you to manage your server directly from the game!",
+    "artifact_url": "https://poggit.pmmp.io/r/135874",
+    "downloads": 2468,
+    "score": 4,
+    "repo_id": 243097095,
+    "repo_name": "matcracker/ServerTools",
+    "project_id": 6376,
+    "project_name": "ServerTools",
+    "build_id": 108215,
+    "build_number": 39,
+    "build_commit": "453faf87af3c70461d7de32ee74282c11c3c2877",
+    "description_url": "https://poggit.pmmp.io/r/135871",
+    "icon_url": "https://raw.githubusercontent.com/matcracker/ServerTools/453faf87af3c70461d7de32ee74282c11c3c2877/resources/servertools_logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/135873",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628280311,
+    "state": 5,
+    "last_state_change_date": 1628296450,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "cloner",
+        "file-explorer",
+        "file-manager",
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "server-tools"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "matcracker"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "260f0cee8615ac6eedc46922a5e7b4319214f8e4",
+            "build_id": 108000
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "7e3f47d0fb5f2c11e91591de92f563773e8b21e3",
+            "build_id": 108003
+        },
+        {
+            "name": "FormLib",
+            "project_id": 5424,
+            "repo_id": 201458155,
+            "repo_name": "matcracker/FormLib",
+            "repo_path": "",
+            "build_commit": "5e236b4c665417997bf37d53422f72757709d718",
+            "build_id": 81718
+        }
+    ]
+}

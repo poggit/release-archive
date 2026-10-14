@@ -1,0 +1,64 @@
+{
+    "id": 5954,
+    "name": "BlocksConverter",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/BlocksConverter/2.2.0",
+    "tagline": "A PocketMine-MP plugin allows you to convert Minecraft PC maps to MCPE/Bedrock maps or vice-versa.",
+    "artifact_url": "https://poggit.pmmp.io/r/115465",
+    "downloads": 390,
+    "score": 4,
+    "repo_id": 107702611,
+    "repo_name": "matcracker/BlocksConverter",
+    "project_id": 1032,
+    "project_name": "BlocksConverter",
+    "build_id": 96527,
+    "build_number": 31,
+    "build_commit": "69779af1f66e3959ea72d0d91c3951bcffa3006b",
+    "description_url": "https://poggit.pmmp.io/r/115475",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/115477",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1613155866,
+    "state": 5,
+    "last_state_change_date": 1613408211,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "backup",
+        "conversion",
+        "converter",
+        "mcpc-to-mcpe",
+        "minecraft",
+        "pmmp-plugin",
+        "pocketmine-mp-plugin",
+        "world-converter"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "matcracker"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

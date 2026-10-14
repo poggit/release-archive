@@ -1,0 +1,67 @@
+{
+    "id": 11449,
+    "name": "TimeCommander",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/TimeCommander/1.2.0",
+    "tagline": "Allows the user to set commands to a timer for the server to run.",
+    "artifact_url": "https://poggit.pmmp.io/r/209151",
+    "downloads": 100,
+    "score": null,
+    "repo_id": 125562755,
+    "repo_name": "HBIDamian/TimeCommander",
+    "project_id": 2233,
+    "project_name": "TimeCommander",
+    "build_id": 155839,
+    "build_number": 8,
+    "build_commit": "211b56959846c60c9d9a3d977357235906af48fa",
+    "description_url": "https://poggit.pmmp.io/r/209148",
+    "icon_url": "https://raw.githubusercontent.com/HBIDamian/TimeCommander/211b56959846c60c9d9a3d977357235906af48fa/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209150",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685667083,
+    "state": 5,
+    "last_state_change_date": 1685667976,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Commander",
+        "Time",
+        "TimeCommander"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HBIDamian"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

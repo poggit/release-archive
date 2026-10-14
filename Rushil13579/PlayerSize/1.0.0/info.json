@@ -1,0 +1,74 @@
+{
+    "id": 6052,
+    "name": "PlayerSize",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerSize/1.0.0",
+    "tagline": "A plugin for PocketMine 3.0.0 and above which allows players change the sizes of other players!",
+    "artifact_url": "https://poggit.pmmp.io/r/116829",
+    "downloads": 456,
+    "score": 5,
+    "repo_id": 342926311,
+    "repo_name": "Rushil13579/PlayerSize",
+    "project_id": 8611,
+    "project_name": "PlayerSize",
+    "build_id": 97349,
+    "build_number": 17,
+    "build_commit": "9b3711c4f12ab9df9834fae3d357f27870c7d9ff",
+    "description_url": "https://poggit.pmmp.io/r/117109",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614606827,
+    "state": 5,
+    "last_state_change_date": 1614609201,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Player",
+        "PlayerSize",
+        "Size",
+        "Small"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Rushil13579"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

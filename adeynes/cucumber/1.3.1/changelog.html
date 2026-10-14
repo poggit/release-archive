@@ -1,0 +1,11 @@
+<h3>New features in v1.3.1 (up from v1.2.1)</h3>
+<h4>v1.3.1</h4>
+<p>This patch introduces asynchronous logging for the BaseLogger class. Instead of being logged on the main thread as they come in, messages are now queued and logged asynchronously every 10 seconds. Everything is still the same as before this patch, including correct timestamps (they are calculated when submitting the message, not when writing to the file).</p>
+<h4>v1.3.0</h4>
+<p>This release implements /vanish, which renders a player invisible from others. Running /vanish while already vanished will toggle the vanish status to off. Quitting while vanished will conserve the vanish status when re-joining.</p>
+<h4>v1.2.3</h4>
+<p>This release introduces the ability to IP ban and uban players who are offline, using the IP stored in the database. The syntax is the same as for an online player.<br>
+Bug fixes have also been made.</p>
+<h4>Config versions</h4>
+<p><strong><code>config.yml</code></strong>: 2.0<br><br>
+<strong><code>messages.yml</code></strong>: 1.3</p>

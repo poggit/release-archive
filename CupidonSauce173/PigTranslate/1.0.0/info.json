@@ -1,0 +1,55 @@
+{
+    "id": 7754,
+    "name": "PigTranslate",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PigTranslate/1.0.0",
+    "tagline": "Real-time translation system for the chat",
+    "artifact_url": "https://poggit.pmmp.io/r/143715",
+    "downloads": 260,
+    "score": 4,
+    "repo_id": 405774943,
+    "repo_name": "CupidonSauce173/PigTranslate",
+    "project_id": 9707,
+    "project_name": "PigTranslate",
+    "build_id": 113034,
+    "build_number": 10,
+    "build_commit": "c0b23df3d4e689f24c6618a87e6a26a233911709",
+    "description_url": "https://poggit.pmmp.io/r/143717",
+    "icon_url": "https://raw.githubusercontent.com/CupidonSauce173/PigTranslate/c0b23df3d4e689f24c6618a87e6a26a233911709/PigTranslateIcon.jpg",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1633109846,
+    "state": 5,
+    "last_state_change_date": 1633708187,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "Chat",
+        "LibreTranslate",
+        "MultiThread"
+    ],
+    "api": [
+        {
+            "from": "3.22.5",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "CupidonSauce173"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,61 @@
+{
+    "id": 14398,
+    "name": "ArabicFixerPE",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ArabicFixerPE/2.0.0",
+    "tagline": "This plugin fixes the arabic lang in PocketMine ( pmmp )",
+    "artifact_url": "https://poggit.pmmp.io/r/263413",
+    "downloads": 741,
+    "score": null,
+    "repo_id": 996059365,
+    "repo_name": "MEMOxiiii/ArabicFixerPE",
+    "project_id": 14753,
+    "project_name": "ArabicFixerPE",
+    "build_id": 191894,
+    "build_number": 27,
+    "build_commit": "cca9f328c117b632afb28991f444effcd5874709",
+    "description_url": "https://poggit.pmmp.io/r/263415",
+    "icon_url": "https://raw.githubusercontent.com/MEMOxiiii/ArabicFixerPE/cca9f328c117b632afb28991f444effcd5874709/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/263417",
+    "license": "AGPL-3.0-only",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1772790300,
+    "state": 5,
+    "last_state_change_date": 1773774885,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "arabic"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MEMOxiiii"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

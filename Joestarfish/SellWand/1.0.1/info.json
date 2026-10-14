@@ -1,0 +1,101 @@
+{
+    "id": 12471,
+    "name": "SellWand",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SellWand/1.0.1",
+    "tagline": "A PMMP plugin that add an item which can sell the contents of containers (Chest, Hopper, Furnace, etc.)",
+    "artifact_url": "https://poggit.pmmp.io/r/225252",
+    "downloads": 556,
+    "score": null,
+    "repo_id": 691820096,
+    "repo_name": "Joestarfish/SellWand",
+    "project_id": 13088,
+    "project_name": "SellWand",
+    "build_id": 165422,
+    "build_number": 4,
+    "build_commit": "db593fd3c9c4708b7206f460a763f7eb7fc9f9f9",
+    "description_url": "https://poggit.pmmp.io/r/225249",
+    "icon_url": "https://raw.githubusercontent.com/Joestarfish/SellWand/db593fd3c9c4708b7206f460a763f7eb7fc9f9f9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/225251",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1696187829,
+    "state": 5,
+    "last_state_change_date": 1696891136,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "chest",
+        "container",
+        "market",
+        "sell",
+        "sellwand",
+        "sell_wand",
+        "shop"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "Customies",
+            "version": "1.3.2",
+            "depRelId": 11928,
+            "isHard": true
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Joestarfish"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "3c4e02b52f275cf5f2cf83a31e8e651eb9901ae0",
+            "build_id": 162907
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "id": 10921,
+    "name": "theRankShop",
+    "version": "1.3.1",
+    "html_url": "https://poggit.pmmp.io/p/theRankShop/1.3.1",
+    "tagline": "A simple and user-friendly rank shop plugin with extension support and multi-language-system.",
+    "artifact_url": "https://poggit.pmmp.io/r/199396",
+    "downloads": 37,
+    "score": null,
+    "repo_id": 419343100,
+    "repo_name": "supercrafter333/theRankShop",
+    "project_id": 9867,
+    "project_name": "theRankShop",
+    "build_id": 149443,
+    "build_number": 48,
+    "build_commit": "e98fccf6668bfbd0b37027cf3db4dd4d4547bf9c",
+    "description_url": "https://poggit.pmmp.io/r/199393",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/theRankShop/e98fccf6668bfbd0b37027cf3db4dd4d4547bf9c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/199395",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1673981707,
+    "state": 5,
+    "last_state_change_date": 1673996470,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "rank",
+        "ranks",
+        "rankshop",
+        "ranksystem",
+        "temprank"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "2.0.2",
+            "depRelId": 9210,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        },
+        {
+            "name": "GroupsAPI",
+            "version": "2.0.0",
+            "depRelId": 9904,
+            "isHard": false
+        },
+        {
+            "name": "GroupSystem",
+            "version": "3.0.0",
+            "depRelId": 10294,
+            "isHard": false
+        },
+        {
+            "name": "RankSystem",
+            "version": "1.1.0",
+            "depRelId": 10415,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 7316,
+            "repo_id": 276418041,
+            "repo_name": "CLADevs/FormAPI-4.0",
+            "repo_path": "",
+            "build_commit": "ba0e7649b954a084e1c179a8011c0187c974cf33",
+            "build_id": 85750
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 11152,
+            "repo_id": 489968830,
+            "repo_name": "supercrafter333/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "5334e65c68040434b42016663f87bf3cc6758fb3",
+            "build_id": 133246
+        },
+        {
+            "name": "yamlcomments",
+            "project_id": 10793,
+            "repo_id": 469366366,
+            "repo_name": "Arisify/yamlcomments",
+            "repo_path": "",
+            "build_commit": "eb75247b571664454fe2a215757feea282ac5e56",
+            "build_id": 137137
+        }
+    ]
+}

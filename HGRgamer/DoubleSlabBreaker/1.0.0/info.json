@@ -1,0 +1,69 @@
+{
+    "id": 13427,
+    "name": "DoubleSlabBreaker",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DoubleSlabBreaker/1.0.0",
+    "tagline": "This Pocketmine-MP plugin allows you to break only one half of a double slab",
+    "artifact_url": "https://poggit.pmmp.io/r/245859",
+    "downloads": 156,
+    "score": 5,
+    "repo_id": 840353423,
+    "repo_name": "HGRgamer/DoubleSlabBreaker",
+    "project_id": 14143,
+    "project_name": "DoubleSlabBreaker",
+    "build_id": 179916,
+    "build_number": 1,
+    "build_commit": "315d35ef91204cda4cfaef204e50ebd968f370b3",
+    "description_url": "https://poggit.pmmp.io/r/245858",
+    "icon_url": "https://raw.githubusercontent.com/HGRgamer/DoubleSlabBreaker/315d35ef91204cda4cfaef204e50ebd968f370b3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1723214595,
+    "state": 5,
+    "last_state_change_date": 1723219462,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "slab",
+        "doubleslab",
+        "breaker",
+        "half",
+        "block"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HGRgamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

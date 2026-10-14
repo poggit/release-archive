@@ -1,0 +1,94 @@
+{
+    "id": 13779,
+    "name": "ClaimAndProtect",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ClaimAndProtect/1.0.0",
+    "tagline": "PocketMine plugin to manage each player's land",
+    "artifact_url": "https://poggit.pmmp.io/r/251792",
+    "downloads": 106,
+    "score": null,
+    "repo_id": 907421072,
+    "repo_name": "Jasson44/ClaimAndProtect",
+    "project_id": 14490,
+    "project_name": "ClaimAndProtect",
+    "build_id": 184009,
+    "build_number": 14,
+    "build_commit": "dfdd4b082b654238817b326231288f4f05adf88f",
+    "description_url": "https://poggit.pmmp.io/r/251791",
+    "icon_url": "https://raw.githubusercontent.com/Jasson44/ClaimAndProtect/dfdd4b082b654238817b326231288f4f05adf88f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736658125,
+    "state": 5,
+    "last_state_change_date": 1739049650,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "EconomyLand",
+        "Land",
+        "LandEconomy",
+        "LandProtect",
+        "Protect",
+        "ProtectLand"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "LuqmanDv"
+        ],
+        "Collaborator": [
+            "Jasson44"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        }
+    ]
+}

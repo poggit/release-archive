@@ -1,0 +1,16 @@
+<p>Sick of checking your log file or console for what is happening on your Pocketmine server? This Pocketmine plugin will push events to a Gotify notification server, allowing you to monitor activity via Gotify! (<a href="https://github.com/gotify/server">https://github.com/gotify/server</a>)</p>
+<p>Step 1. Setup and host a Gotify server (<a href="https://github.com/gotify/server">https://github.com/gotify/server</a>)</p>
+<p>Step 2. Within Gotify, create a new App for Pocketmine, record the App token</p>
+<p>Step 3. Update config.yml for this plugin with the Gotify configuration</p>
+<p><a href="https://github.com/kdurrance/GotifyNotifications/raw/master/Screenshot.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/kdurrance/GotifyNotifications/raw/master/Screenshot.jpg" alt="Gotify screenshot" style="max-width:100%;"></a></p>
+<p>The following events will be pushed in real time:</p>
+<ul>
+<li>PlayerQuitEvent (when a player leaves the server)</li>
+<li>PlayerJoinEvent (when a player joins the server)</li>
+<li>PlayerKickEvent (when a player is kicked from the server)</li>
+<li>PlayerLoginEvent (when the player commences login)</li>
+<li>PlayerGameModeChangeEvent (when the player changes their game mode)</li>
+<li>CommandEvent (when a player executes a command, and what the command was)</li>
+<li>LowMemoryEvent (when the server is low on memory)</li>
+<li>UpdateNotifyEvent (when a server update is available)</li>
+</ul>

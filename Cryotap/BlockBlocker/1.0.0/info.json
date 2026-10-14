@@ -1,0 +1,69 @@
+{
+    "id": 12095,
+    "name": "BlockBlocker",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockBlocker/1.0.0",
+    "tagline": "Block using blocks in selected worlds.",
+    "artifact_url": "https://poggit.pmmp.io/r/218463",
+    "downloads": 722,
+    "score": null,
+    "repo_id": 670763646,
+    "repo_name": "Cryotap/BlockBlocker",
+    "project_id": 12838,
+    "project_name": "BlockBlocker",
+    "build_id": 160957,
+    "build_number": 5,
+    "build_commit": "d7608f27319d5cffbd6304e34bf2fa852184ff0f",
+    "description_url": "https://poggit.pmmp.io/r/218465",
+    "icon_url": "https://raw.githubusercontent.com/Cryotap/BlockBlocker/d7608f27319d5cffbd6304e34bf2fa852184ff0f/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1690977392,
+    "state": 5,
+    "last_state_change_date": 1691179386,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "block",
+        "BlockBlocker",
+        "Blocker"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Cryotap"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "id": 9603,
+    "name": "EconomyRename",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EconomyRename/2.0.0",
+    "tagline": "Easy Economy Rename Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/173836",
+    "downloads": 27,
+    "score": null,
+    "repo_id": 486863773,
+    "repo_name": "DaDevGuy/EconomyRename",
+    "project_id": 11034,
+    "project_name": "EconomyRename",
+    "build_id": 131869,
+    "build_number": 29,
+    "build_commit": "4c1e6265dfc1a60fb51bd55f470dd8a9c86f92e8",
+    "description_url": "https://poggit.pmmp.io/r/175043",
+    "icon_url": "https://raw.githubusercontent.com/DaDevGuy/EconomyRename/4c1e6265dfc1a60fb51bd55f470dd8a9c86f92e8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1651585260,
+    "state": 5,
+    "last_state_change_date": 1652083334,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "economyrename",
+        "rename",
+        "renameitems"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "DaisukeDaisuke"
+        ],
+        "Collaborator": [
+            "DavidGlitch04",
+            "DaDevGuy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEco",
+            "project_id": 10995,
+            "repo_id": 466916160,
+            "repo_name": "David-pm-pl/libEco",
+            "repo_path": "",
+            "build_commit": "f82f60fe75d6d925478342f98d99a04609f47af1",
+            "build_id": 131856
+        }
+    ]
+}

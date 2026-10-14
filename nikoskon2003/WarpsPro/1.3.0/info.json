@@ -1,0 +1,56 @@
+{
+    "id": 3027,
+    "name": "WarpsPro",
+    "version": "1.3.0",
+    "html_url": "https://poggit.pmmp.io/p/WarpsPro/1.3.0",
+    "tagline": "A simple warp plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/60199",
+    "downloads": 18144,
+    "score": 3,
+    "repo_id": 116423159,
+    "repo_name": "nikoskon2003/WarpsPro",
+    "project_id": 1654,
+    "project_name": "WarpsPro",
+    "build_id": 60640,
+    "build_number": 15,
+    "build_commit": "1469f757b3f6a22f708b7d62968d0a2f86fac0aa",
+    "description_url": "https://poggit.pmmp.io/r/60196",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/60198",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1560362067,
+    "state": 5,
+    "last_state_change_date": 1560495013,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "warp",
+        "warps",
+        "pro",
+        "teleport"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "nikoskon2003"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

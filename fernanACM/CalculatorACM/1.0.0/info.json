@@ -1,0 +1,104 @@
+{
+    "id": 9872,
+    "name": "CalculatorACM",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CalculatorACM/1.0.0",
+    "tagline": "Use a calculator in a form for PocketMine-MP 4.0 servers. Add addition, subtraction, multiplication and division.",
+    "artifact_url": "https://poggit.pmmp.io/r/179143",
+    "downloads": 33,
+    "score": 5,
+    "repo_id": 499387687,
+    "repo_name": "fernanACM/CalculatorACM",
+    "project_id": 11292,
+    "project_name": "CalculatorACM",
+    "build_id": 135511,
+    "build_number": 12,
+    "build_commit": "3bdbd05cbb9a339766113aee3010e50452f5e44b",
+    "description_url": "https://poggit.pmmp.io/r/179142",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/CalculatorACM/3bdbd05cbb9a339766113aee3010e50452f5e44b/icon-calculatoracm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654236370,
+    "state": 5,
+    "last_state_change_date": 1654422094,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "ACM",
+        "Addition",
+        "Calculator",
+        "CalculatorACM",
+        "Division",
+        "Multiplication",
+        "Subtraction",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "f6d7ad676605ce2140a8adaa195e844ebae6715c",
+            "build_id": 120566
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        }
+    ]
+}

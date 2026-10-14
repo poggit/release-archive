@@ -1,0 +1,56 @@
+{
+    "id": 13021,
+    "name": "GmInventories",
+    "version": "0.7",
+    "html_url": "https://poggit.pmmp.io/p/GmInventories/0.7",
+    "tagline": "Separate inventories for each gamemode",
+    "artifact_url": "https://poggit.pmmp.io/r/238446",
+    "downloads": 222,
+    "score": 5,
+    "repo_id": 769280997,
+    "repo_name": "Taskov1ch/GmInventories",
+    "project_id": 13638,
+    "project_name": "GmInventories",
+    "build_id": 174906,
+    "build_number": 3,
+    "build_commit": "cb6e88ea9b37071752b1e0b58f808dfcd641269f",
+    "description_url": "https://poggit.pmmp.io/r/238443",
+    "icon_url": "https://raw.githubusercontent.com/Taskov1ch/GmInventories/cb6e88ea9b37071752b1e0b58f808dfcd641269f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/238445",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1715006426,
+    "state": 5,
+    "last_state_change_date": 1715352006,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp5",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Taskov1ch"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

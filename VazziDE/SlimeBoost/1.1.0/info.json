@@ -1,0 +1,55 @@
+{
+    "id": 6728,
+    "name": "SlimeBoost",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/SlimeBoost/1.1.0",
+    "tagline": "SlimeBoost Plugin to create a Boost Block",
+    "artifact_url": "https://poggit.pmmp.io/r/127180",
+    "downloads": 553,
+    "score": null,
+    "repo_id": 371428943,
+    "repo_name": "VazziDE/SlimeBoost",
+    "project_id": 9038,
+    "project_name": "SlimeBoost",
+    "build_id": 103204,
+    "build_number": 4,
+    "build_commit": "deadcc53d0efbdabec4d1e52c7cfce1e204027d6",
+    "description_url": "https://poggit.pmmp.io/r/127177",
+    "icon_url": "https://raw.githubusercontent.com/VazziDE/SlimeBoost/deadcc53d0efbdabec4d1e52c7cfce1e204027d6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/127179",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1622482530,
+    "state": 5,
+    "last_state_change_date": 1622587877,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "boost",
+        "boostblock",
+        "slimeboost"
+    ],
+    "api": [
+        {
+            "from": "3.19.2",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VazziDE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

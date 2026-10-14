@@ -1,0 +1,86 @@
+{
+    "id": 9345,
+    "name": "BetterMute",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterMute/1.1.0",
+    "tagline": "A PocketMine-MP plugin that allows you to mute players permanently and for a specific time.",
+    "artifact_url": "https://poggit.pmmp.io/r/168201",
+    "downloads": 188,
+    "score": 5,
+    "repo_id": 450098054,
+    "repo_name": "supercrafter333/BetterMute",
+    "project_id": 10375,
+    "project_name": "BetterMute",
+    "build_id": 127802,
+    "build_number": 9,
+    "build_commit": "158da54b53cfc7ff3b95b730d7f6a884cf85f56c",
+    "description_url": "https://poggit.pmmp.io/r/168203",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/BetterMute/158da54b53cfc7ff3b95b730d7f6a884cf85f56c/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/168205",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647892127,
+    "state": 5,
+    "last_state_change_date": 1647921236,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "mute",
+        "muteui",
+        "tempmute"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "DiscordWebhooksX",
+            "project_id": 10742,
+            "repo_id": 466212876,
+            "repo_name": "supercrafter333/DiscordWebhooksX",
+            "repo_path": "",
+            "build_commit": "74f05990c45057b8d5238ce9583b38defcb61c80",
+            "build_id": 125920
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "id": 2161,
+    "name": "CustomShopUI",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomShopUI/3.0.0",
+    "tagline": "ShopUI plugin fully Configureable and Easy to use!",
+    "artifact_url": "https://poggit.pmmp.io/r/47316",
+    "downloads": 524,
+    "score": null,
+    "repo_id": 155371768,
+    "repo_name": "AlexPads/ShopUI-FormAPI-Working",
+    "project_id": 4155,
+    "project_name": "ShopUI-FormAPI-Working",
+    "build_id": 53227,
+    "build_number": 32,
+    "build_commit": "e7829200053c97c8bdb9f75acbc6c1a9ad65aa23",
+    "description_url": "https://poggit.pmmp.io/r/47313",
+    "icon_url": "https://raw.githubusercontent.com/AlexPads/ShopUI-FormAPI-Working/e7829200053c97c8bdb9f75acbc6c1a9ad65aa23/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/47315",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1544734684,
+    "state": 5,
+    "last_state_change_date": 1544784100,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Commands",
+        "Custom",
+        "Easy",
+        "Shop",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.3.2",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "shelly7w7",
+            "AngelliaX",
+            "cooldogedev",
+            "LetCute",
+            "LordFit",
+            "yuzhizn"
+        ],
+        "Collaborator": [
+            "AlexPads"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "f2b57646cb85fef2e7bee48862bd8d04ada05133",
+            "build_id": 52331
+        }
+    ]
+}

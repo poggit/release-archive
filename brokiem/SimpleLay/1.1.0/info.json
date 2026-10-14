@@ -1,0 +1,68 @@
+{
+    "id": 5762,
+    "name": "SimpleLay",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleLay/1.1.0",
+    "tagline": "PocketMine-MP Plugin which allows to Lay on the Ground!",
+    "artifact_url": "https://poggit.pmmp.io/r/111827",
+    "downloads": 2542,
+    "score": 4,
+    "repo_id": 319871445,
+    "repo_name": "brokiem/SimpleLay",
+    "project_id": 8155,
+    "project_name": "SimpleLay",
+    "build_id": 94161,
+    "build_number": 24,
+    "build_commit": "10b7409ad541c7decf11e7328fa490363abac17b",
+    "description_url": "https://poggit.pmmp.io/r/111826",
+    "icon_url": "https://raw.githubusercontent.com/brokiem/SimpleLay/10b7409ad541c7decf11e7328fa490363abac17b/assets/logo.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609169036,
+    "state": 5,
+    "last_state_change_date": 1609187196,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "brokiem",
+        "ground",
+        "lay",
+        "laying",
+        "lying",
+        "player",
+        "pocketmine",
+        "roleplay",
+        "seat",
+        "sit",
+        "sitting",
+        "smp"
+    ],
+    "api": [
+        {
+            "from": "3.13.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "brokiem"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

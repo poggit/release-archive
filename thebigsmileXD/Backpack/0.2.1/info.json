@@ -1,0 +1,85 @@
+{
+    "id": 3881,
+    "name": "Backpack",
+    "version": "0.2.1",
+    "html_url": "https://poggit.pmmp.io/p/Backpack/0.2.1",
+    "tagline": "Customizable backpacks with custom geometry and texture support for your PocketMine-MP server!",
+    "artifact_url": "https://poggit.pmmp.io/r/77006",
+    "downloads": 58065,
+    "score": 3,
+    "repo_id": 216821185,
+    "repo_name": "thebigsmileXD/Backpack",
+    "project_id": 5684,
+    "project_name": "Backpack",
+    "build_id": 70014,
+    "build_number": 6,
+    "build_commit": "2d76456ed0e5238697cf6a78bd3a9bbf6801f9e6",
+    "description_url": "https://poggit.pmmp.io/r/77003",
+    "icon_url": "https://raw.githubusercontent.com/thebigsmileXD/Backpack/2d76456ed0e5238697cf6a78bd3a9bbf6801f9e6/resources/github/backpack.png",
+    "changelog_url": "https://poggit.pmmp.io/r/77005",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582633531,
+    "state": 5,
+    "last_state_change_date": 1582633986,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "backpack",
+        "crate",
+        "geometry",
+        "private",
+        "vault",
+        "wear"
+    ],
+    "api": [
+        {
+            "from": "3.9.3",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "5ee4d2eb8fc471c33e3b881b3a54c5012d0dca54",
+            "build_id": 64432
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "7e5f7f239b2b4da2fea1653f0a77eb7993f05a61",
+            "build_id": 67969
+        }
+    ]
+}

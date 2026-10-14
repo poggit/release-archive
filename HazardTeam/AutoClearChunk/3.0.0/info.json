@@ -1,0 +1,92 @@
+{
+    "id": 11866,
+    "name": "AutoClearChunk",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoClearChunk/3.0.0",
+    "tagline": "Auto clears chunks when there are no players present",
+    "artifact_url": "https://poggit.pmmp.io/r/214863",
+    "downloads": 2306,
+    "score": null,
+    "repo_id": 408124160,
+    "repo_name": "HazardTeam/AutoClearChunk",
+    "project_id": 9747,
+    "project_name": "AutoClearChunk",
+    "build_id": 158743,
+    "build_number": 19,
+    "build_commit": "b8163f2357063c407cc33d4e6ca19b67825cdf27",
+    "description_url": "https://poggit.pmmp.io/r/214860",
+    "icon_url": "https://raw.githubusercontent.com/HazardTeam/AutoClearChunk/b8163f2357063c407cc33d4e6ca19b67825cdf27/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/214862",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688640694,
+    "state": 5,
+    "last_state_change_date": 1688775099,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Endermanbugzjfc",
+            "XanderID"
+        ],
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 12635,
+            "repo_id": 653680934,
+            "repo_name": "LatamPMDevs/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c3a71ae577df5b5f174e4c2bb99d76182d05b420",
+            "build_id": 157396
+        }
+    ]
+}

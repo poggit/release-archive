@@ -1,0 +1,62 @@
+{
+    "id": 9075,
+    "name": "NicknameColors",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/NicknameColors/1.1",
+    "tagline": "A PocketMine MP Plugin that allow you to change your nickname to specific colors",
+    "artifact_url": "https://poggit.pmmp.io/r/163623",
+    "downloads": 1055,
+    "score": 5,
+    "repo_id": 462239864,
+    "repo_name": "ZhorifCraft451/Nickname-Colors",
+    "project_id": 10660,
+    "project_name": "Nickname-Colors",
+    "build_id": 124933,
+    "build_number": 2,
+    "build_commit": "52b09eb6f11d71f2812183a07c587661d4f19c87",
+    "description_url": "https://poggit.pmmp.io/r/163622",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645525036,
+    "state": 5,
+    "last_state_change_date": 1645525248,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BabosApple",
+            "ZhorifCraft451"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "a853efdf20aa1dc9af7009a9a67b1d27b5446a9e",
+            "build_id": 124323
+        }
+    ]
+}

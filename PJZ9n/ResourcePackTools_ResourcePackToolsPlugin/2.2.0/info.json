@@ -1,0 +1,55 @@
+{
+    "id": 4786,
+    "name": "ResourcePackToolsPlugin",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/ResourcePackToolsPlugin/2.2.0",
+    "tagline": "Apply resource packs easily from plugins!",
+    "artifact_url": "https://poggit.pmmp.io/r/93934",
+    "downloads": 3940,
+    "score": 5,
+    "repo_id": 273966378,
+    "repo_name": "PJZ9n/ResourcePackTools",
+    "project_id": 7249,
+    "project_name": "ResourcePackToolsPlugin",
+    "build_id": 82231,
+    "build_number": 24,
+    "build_commit": "113ef4dbc98b7cf0362cc8f35304b950192110a2",
+    "description_url": "https://poggit.pmmp.io/r/93939",
+    "icon_url": "https://raw.githubusercontent.com/PJZ9n/ResourcePackTools/113ef4dbc98b7cf0362cc8f35304b950192110a2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1593203322,
+    "state": 5,
+    "last_state_change_date": 1594572614,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PJZ9n"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

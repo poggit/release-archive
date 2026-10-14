@@ -1,0 +1,60 @@
+{
+    "id": 10725,
+    "name": "MCPEToDiscord",
+    "version": "2.2.0-Beta",
+    "html_url": "https://poggit.pmmp.io/p/MCPEToDiscord/2.2.0-Beta",
+    "tagline": "a message will be sent on discord when a player joins and leaves the server and dies",
+    "artifact_url": "https://poggit.pmmp.io/r/195794",
+    "downloads": 95,
+    "score": null,
+    "repo_id": 451988936,
+    "repo_name": "GamerMJay/MCPEToDiscord",
+    "project_id": 10412,
+    "project_name": "MCPEToDiscord",
+    "build_id": 146982,
+    "build_number": 19,
+    "build_commit": "6ae651b47f961293415931bad12d87fcf6d41313",
+    "description_url": "https://poggit.pmmp.io/r/195791",
+    "icon_url": "https://raw.githubusercontent.com/GamerMJay/MCPEToDiscord/6ae651b47f961293415931bad12d87fcf6d41313/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/195793",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1666806435,
+    "state": 5,
+    "last_state_change_date": 1666807053,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JaxkDev",
+            "GamerMJay"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,105 @@
+{
+    "id": 7224,
+    "name": "ComplexPets",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ComplexPets/1.0.0",
+    "tagline": "This plugin adds custom pets to game for PocketMine-MP!",
+    "artifact_url": "https://poggit.pmmp.io/r/134850",
+    "downloads": 4989,
+    "score": 4,
+    "repo_id": 391434734,
+    "repo_name": "OguzhanUmutlu/ComplexPets",
+    "project_id": 9393,
+    "project_name": "ComplexPets",
+    "build_id": 107572,
+    "build_number": 17,
+    "build_commit": "650ba06c5d705c9c457b276e54ad15b10e80c6b1",
+    "description_url": "https://poggit.pmmp.io/r/134849",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/ComplexPets/650ba06c5d705c9c457b276e54ad15b10e80c6b1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1627903876,
+    "state": 5,
+    "last_state_change_date": 1627923115,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pet",
+        "mob",
+        "entity",
+        "vanilla",
+        "complex",
+        "entiti",
+        "entities",
+        "ai",
+        "cat",
+        "dog"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Requester": [
+            "MrNinja008"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "eab8ac0adec2e2b094d141a9b711200183bbf268",
+            "build_id": 86018
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "a3b121f31e2816639174da8f1c10a0a0e58643b5",
+            "build_id": 105482
+        }
+    ]
+}

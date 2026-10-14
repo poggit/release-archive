@@ -1,0 +1,164 @@
+<h1>
+<a id="user-content-cucumber" class="anchor" href="#cucumber" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>cucumber</h1>
+<p><a href="https://poggit.pmmp.io/p/cucumber" rel="nofollow"><img src="https://camo.githubusercontent.com/50c527c5ffab07241dfb08bcb43921c1efb82cf1/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f637563756d626572" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/cucumber" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/cucumber" rel="nofollow"><img src="https://camo.githubusercontent.com/ce9c94f9df6d3930d97a1f6e257b5d68deb9bf67/68747470733a2f2f706f676769742e706d6d702e696f2f63692e736869656c642f616465796e65732f637563756d6265722f637563756d626572" alt="" data-canonical-src="https://poggit.pmmp.io/ci.shield/adeynes/cucumber/cucumber" style="max-width:100%;"></a></p>
+<p><strong>cucumber</strong> is a featureful moderation plugin for PocketMine-MP.
+New features are always being developed. As of now, cucumber's main components are <code>1</code> logging and <code>2</code> punishment (ban/mute) management.</p>
+<h3>
+<a id="user-content-logging" class="anchor" href="#logging" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Logging</h3>
+<p>cucumber logs various events¹ to a path specified in <code>config.yml</code>. Several loggers (including custom ones) can also be defined in <code>config.yml</code>. (By default, a BaseLogger exists that logs to <code>log_out.txt</code>.)
+<em>Upcoming feature: toggle different log categories (traffic, chat, command)</em></p>
+<p>¹ cucumber logs the following: join, join attempt (if a player attempts to join while banned), quit, chat, chat attempt (if a player attempts to chat while muted), command</p>
+<h3>
+<a id="user-content-punishment-management" class="anchor" href="#punishment-management" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Punishment Management</h3>
+<p>cucumber enables advanced banning of players and IPs, as well as muting.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Command</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Usage</strong></th>
+<th><strong>Tags</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/ban</code></td>
+<td>Ban a player by name</td>
+<td><code>/ban &lt;player&gt; [reason] [-d &lt;duration&gt;]</code></td>
+<td>
+<code>-d</code> specifies the amount of time until the ban expires</td>
+</tr>
+<tr>
+<td><code>/banlist</code></td>
+<td>See the list of bans</td>
+<td><code>/banlist</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/pardon</code></td>
+<td>Pardon a player</td>
+<td><code>/pardon &lt;player&gt;</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/ipban</code></td>
+<td>Ban an IP</td>
+<td><code>/ipban &lt;-p &lt;player&gt;|-ip &lt;ip&gt;&gt; [reason] [-d &lt;duration&gt;]</code></td>
+<td>
+<code>-p</code> specifies the player whose IP will be banned<br><code>-ip</code> specifies the IP that will be banned<br><em>At least one of <code>-p</code> and <code>-ip</code> must be set</em><br><code>-d</code> specifies the amount of time until the ban expires</td>
+</tr>
+<tr>
+<td><code>/ipbanlist</code></td>
+<td>See the list of IP bans</td>
+<td><code>/ipbanlist</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/ippardon</code></td>
+<td>Pardon an IP</td>
+<td><code>/ippardon &lt;ip&gt;</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/uban</code></td>
+<td>Ban any player that joins using an IP. Irreversible</td>
+<td><code>/uban &lt;-p &lt;player&gt;|-ip &lt;ip&gt;&gt; [reason]</code></td>
+<td>
+<code>-p</code> specifies the player whose IP will be banned<br><code>-ip</code> specifies the IP that will be banned<br><em>At least one of <code>-p</code> and <code>-ip</code> must be set</em>
+</td>
+</tr>
+<tr>
+<td><code>/mute</code></td>
+<td>Mute a player</td>
+<td><code>/mute &lt;player&gt; [reason] [-d &lt;duration&gt;]</code></td>
+<td>
+<code>-d</code> specifies the amount of time until the ban expires</td>
+</tr>
+<tr>
+<td><code>/mutelist</code></td>
+<td>See the list of mutes</td>
+<td><code>/mutelist</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/unmute</code></td>
+<td>Unmute a player</td>
+<td><code>/unmute &lt;player&gt;</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4>
+<a id="user-content-duration" class="anchor" href="#duration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Duration</h4>
+<p>In a duration tag:</p>
+<ul>
+<li>
+<code>y</code>: year</li>
+<li>
+<code>M</code>: month</li>
+<li>
+<code>w</code>: week</li>
+<li>
+<code>d</code>: day</li>
+<li>
+<code>h</code>: hour</li>
+<li>
+<code>m</code>: minute</li>
+</ul>
+<p>For instance, <code>1y3M</code> means one year and three months (a year and a quarter). <code>1w2d12h</code> means one week, two days, and twelve hours (nine days and a half).</p>
+<h3>
+<a id="user-content-miscellaneous" class="anchor" href="#miscellaneous" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Miscellaneous</h3>
+<p>cucumber also has miscellaneous moderation commands that are not related to punishment management.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Command</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Usage</strong></th>
+<th><strong>Tags</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/rawtell</code></td>
+<td>Send a raw message to a player</td>
+<td><code>/rawtell &lt;player&gt; &lt;message&gt; [-nom] [-p] [-t]</code></td>
+<td>
+<code>-nom</code> does not send a chat message<br><code>-p</code> sends a popup<br><code>-t</code>sends a title</td>
+</tr>
+<tr>
+<td><code>/log</code></td>
+<td>Log a message</td>
+<td><code>/log &lt;message&gt; [-s &lt;severity&gt;]</code></td>
+<td>
+<code>-s</code> specifies the severity at which to log the message</td>
+</tr>
+<tr>
+<td><code>/alert</code></td>
+<td>Broadcast a message to the server</td>
+<td><code>/alert &lt;message&gt; [-nom] [-p] [-t]</code></td>
+<td>
+<code>-nom</code> does not send a chat message<br><code>-p</code> sends a popup<br><code>-t</code> sends a title</td>
+</tr>
+<tr>
+<td><code>/ip</code></td>
+<td>Get a player's IP</td>
+<td><code>/ip &lt;player&gt;</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4>
+<a id="user-content-severity" class="anchor" href="#severity" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Severity</h4>
+<p>In a severity tag:</p>
+<ul>
+<li>
+<code>log</code>: Normal, ordinary events</li>
+<li>
+<code>notice</code>: Normal but noticeable events</li>
+<li>
+<code>important</code>: Significant events</li>
+<li>
+<code>alert</code>: Exceptional events that likely require monitoring</li>
+</ul>

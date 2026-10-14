@@ -1,0 +1,67 @@
+{
+    "id": 12830,
+    "name": "WarzoneEnvoys",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WarzoneEnvoys/1.0.0",
+    "tagline": "Adds in envoys to your PMMP server",
+    "artifact_url": "https://poggit.pmmp.io/r/233442",
+    "downloads": 362,
+    "score": null,
+    "repo_id": 748868667,
+    "repo_name": "Terpz710/WarzoneEnvoys",
+    "project_id": 13520,
+    "project_name": "WarzoneEnvoys",
+    "build_id": 171455,
+    "build_number": 75,
+    "build_commit": "48f78ae4bb23f7a5323a9db46f33be49596b7b2e",
+    "description_url": "https://poggit.pmmp.io/r/233441",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/WarzoneEnvoys/48f78ae4bb23f7a5323a9db46f33be49596b7b2e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1708460798,
+    "state": 5,
+    "last_state_change_date": 1709949302,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "Crates",
+        "Envoy",
+        "Envoys",
+        "LootBox",
+        "War",
+        "WarzoneCrates",
+        "WarzoneEnvoys"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

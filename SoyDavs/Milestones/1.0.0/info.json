@@ -1,0 +1,66 @@
+{
+    "id": 13732,
+    "name": "Milestone",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Milestone/1.0.0",
+    "tagline": "Custom milestone rewards plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/251345",
+    "downloads": 90,
+    "score": null,
+    "repo_id": 911689524,
+    "repo_name": "SoyDavs/Milestones",
+    "project_id": 14457,
+    "project_name": "Milestones",
+    "build_id": 183753,
+    "build_number": 3,
+    "build_commit": "6783dcfcda72eb6f6f412b891916b8c06e0aaddf",
+    "description_url": "https://poggit.pmmp.io/r/251344",
+    "icon_url": "https://raw.githubusercontent.com/SoyDavs/Milestones/6783dcfcda72eb6f6f412b891916b8c06e0aaddf/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "AFL-1.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736037066,
+    "state": 5,
+    "last_state_change_date": 1736037352,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "SoyDavs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

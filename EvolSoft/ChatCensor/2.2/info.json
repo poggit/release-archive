@@ -1,0 +1,68 @@
+{
+    "id": 1317,
+    "name": "ChatCensor",
+    "version": "2.2",
+    "html_url": "https://poggit.pmmp.io/p/ChatCensor/2.2",
+    "tagline": "A powerful chat censoring plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/28728",
+    "downloads": 259,
+    "score": null,
+    "repo_id": 28538685,
+    "repo_name": "EvolSoft/ChatCensor",
+    "project_id": 1709,
+    "project_name": "ChatCensor",
+    "build_id": 40027,
+    "build_number": 5,
+    "build_commit": "7ed5de0e47cc76177b43cafa486f83ca5f2c9522",
+    "description_url": "https://poggit.pmmp.io/r/28725",
+    "icon_url": "https://raw.githubusercontent.com/EvolSoft/ChatCensor/7ed5de0e47cc76177b43cafa486f83ca5f2c9522/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/28727",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1524750250,
+    "state": 5,
+    "last_state_change_date": 1524752776,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "php",
+        "plugin",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "sarhatabaot",
+            "letsplaydev"
+        ],
+        "Collaborator": [
+            "Flavius12"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,63 @@
+{
+    "id": 6617,
+    "name": "PlayerTrade",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PlayerTrade/1.0.1",
+    "tagline": "A PocketMine-MP plugin that implements trade like PC server!",
+    "artifact_url": "https://poggit.pmmp.io/r/125359",
+    "downloads": 1317,
+    "score": 5,
+    "repo_id": 365401774,
+    "repo_name": "alvin0319/PlayerTrade",
+    "project_id": 8965,
+    "project_name": "PlayerTrade",
+    "build_id": 102095,
+    "build_number": 5,
+    "build_commit": "19e2e0211a1fbc033f4eed7ab49669d81b2d5252",
+    "description_url": "https://poggit.pmmp.io/r/125356",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/125358",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1620689984,
+    "state": 5,
+    "last_state_change_date": 1620694085,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "trade"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "68790d2d220c9b1ac27154552d2e012a76c843ed",
+            "build_id": 93958
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "id": 1691,
+    "name": "WarnOffline",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/WarnOffline/1.1.1",
+    "tagline": "A plugin which displays a warning when a Server from the StatusList has gone offline.",
+    "artifact_url": "https://poggit.pmmp.io/r/37146",
+    "downloads": 1462,
+    "score": null,
+    "repo_id": 70623426,
+    "repo_name": "robske110/SignServerStats",
+    "project_id": 843,
+    "project_name": "WarnOffline",
+    "build_id": 46046,
+    "build_number": 14,
+    "build_commit": "54f6dc8f62a6efbb2e85dcbc66629ebd68645775",
+    "description_url": "https://poggit.pmmp.io/r/131620",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/131622",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1531859329,
+    "state": 5,
+    "last_state_change_date": 1531936212,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Info",
+        "Notification",
+        "Offline",
+        "Server",
+        "Warn",
+        "Warning"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SignServerStats",
+            "version": "1.1.1",
+            "depRelId": 1688,
+            "isHard": true
+        },
+        {
+            "name": "StatusList",
+            "version": "1.1.1",
+            "depRelId": 1690,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "robske110"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

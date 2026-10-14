@@ -1,0 +1,115 @@
+{
+    "id": 13913,
+    "name": "EnderKits",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EnderKits/1.0.0",
+    "tagline": "EnderKits plugin for Pocketmine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/254087",
+    "downloads": 231,
+    "score": null,
+    "repo_id": 702986717,
+    "repo_name": "Terpz710/EnderKits",
+    "project_id": 13236,
+    "project_name": "EnderKits",
+    "build_id": 185489,
+    "build_number": 91,
+    "build_commit": "cbd8fc271d4cd105eae634e2e63e036f668d60f1",
+    "description_url": "https://poggit.pmmp.io/r/254089",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/EnderKits/cbd8fc271d4cd105eae634e2e63e036f668d60f1/icon.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/254091",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1741655721,
+    "state": 5,
+    "last_state_change_date": 1741829805,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "AdvancedKit",
+        "ChestKit",
+        "EasyKit",
+        "Ender",
+        "EnderKit",
+        "Kit",
+        "Kits"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BankNotesPlus",
+            "version": "1.0.5",
+            "depRelId": 13870,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        },
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "476235381a3908847c069496d04ec5b07b3011e8",
+            "build_id": 176854
+        },
+        {
+            "name": "libMessages",
+            "project_id": 14498,
+            "repo_id": 917052658,
+            "repo_name": "Terpz710/libMessages",
+            "repo_path": "",
+            "build_commit": "e43a8d1d992403ab18143fce386544a85fafddaa",
+            "build_id": 184161
+        },
+        {
+            "name": "PocketForms",
+            "project_id": 14596,
+            "repo_id": 942413221,
+            "repo_name": "Terpz710/PocketForms",
+            "repo_path": "",
+            "build_commit": "0bdc5e74bc4a2d0fcd610004ecf638d0e391b8df",
+            "build_id": 185338
+        }
+    ]
+}

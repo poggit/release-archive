@@ -1,0 +1,97 @@
+{
+    "id": 9761,
+    "name": "theRankShop",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/theRankShop/1.2.1",
+    "tagline": "A simple and user-friendly rank shop plugin with extension support and multi-language-system.",
+    "artifact_url": "https://poggit.pmmp.io/r/176508",
+    "downloads": 475,
+    "score": null,
+    "repo_id": 419343100,
+    "repo_name": "supercrafter333/theRankShop",
+    "project_id": 9867,
+    "project_name": "theRankShop",
+    "build_id": 133625,
+    "build_number": 32,
+    "build_commit": "02eed1cc9c320e090c5ed37e3c75121527a51aaf",
+    "description_url": "https://poggit.pmmp.io/r/176505",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/theRankShop/02eed1cc9c320e090c5ed37e3c75121527a51aaf/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/176507",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652876556,
+    "state": 5,
+    "last_state_change_date": 1652892082,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "rank",
+        "ranks",
+        "rankshop",
+        "ranksystem",
+        "temprank"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 7316,
+            "repo_id": 276418041,
+            "repo_name": "CLADevs/FormAPI-4.0",
+            "repo_path": "",
+            "build_commit": "ba0e7649b954a084e1c179a8011c0187c974cf33",
+            "build_id": 85750
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 11152,
+            "repo_id": 489968830,
+            "repo_name": "supercrafter333/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "5334e65c68040434b42016663f87bf3cc6758fb3",
+            "build_id": 133246
+        },
+        {
+            "name": "yamlcomments",
+            "project_id": 10793,
+            "repo_id": 469366366,
+            "repo_name": "Arisify/yamlcomments",
+            "repo_path": "",
+            "build_commit": "912460cee251ccd852a0a9837fc7e0c961007343",
+            "build_id": 129836
+        }
+    ]
+}

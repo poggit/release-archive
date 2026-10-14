@@ -1,0 +1,60 @@
+{
+    "id": 8433,
+    "name": "JailMate",
+    "version": "1.1.7",
+    "html_url": "https://poggit.pmmp.io/p/JailMate/1.1.7",
+    "tagline": "Smart plugin that will allow you to safely check suspicious players",
+    "artifact_url": "https://poggit.pmmp.io/r/154649",
+    "downloads": 2511,
+    "score": 4,
+    "repo_id": 436041926,
+    "repo_name": "J0k3rrWild/JailMate",
+    "project_id": 10204,
+    "project_name": "JailMate",
+    "build_id": 119590,
+    "build_number": 4,
+    "build_commit": "8ce77262e51250b6b50b7d59763fbeb336faf769",
+    "description_url": "https://poggit.pmmp.io/r/155335",
+    "icon_url": "https://raw.githubusercontent.com/J0k3rrWild/JailMate/8ce77262e51250b6b50b7d59763fbeb336faf769/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1640795384,
+    "state": 5,
+    "last_state_change_date": 1641830929,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "admin",
+        "arrest",
+        "jail",
+        "security"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "J0k3rrWild"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

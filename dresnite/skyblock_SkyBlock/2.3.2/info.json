@@ -1,0 +1,69 @@
+{
+    "id": 2468,
+    "name": "SkyBlock",
+    "version": "2.3.2",
+    "html_url": "https://poggit.pmmp.io/p/SkyBlock/2.3.2",
+    "tagline": "A powerful core for SkyBlock servers",
+    "artifact_url": "https://poggit.pmmp.io/r/51887",
+    "downloads": 4510,
+    "score": 4,
+    "repo_id": 68941408,
+    "repo_name": "dresnite/skyblock",
+    "project_id": 59,
+    "project_name": "SkyBlock",
+    "build_id": 55998,
+    "build_number": 90,
+    "build_commit": "74ca295ae6d410e1490a2bed1db76df3c8099dd7",
+    "description_url": "https://poggit.pmmp.io/r/51884",
+    "icon_url": "https://raw.githubusercontent.com/GiantQuartz/SkyBlock/74ca295ae6d410e1490a2bed1db76df3c8099dd7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/51886",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1550097986,
+    "state": 5,
+    "last_state_change_date": 1550331781,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "minecraft",
+        "pocketmine-mp-plugin",
+        "skyblock"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "CortexPE",
+            "Shelly7w7",
+            "T14Raptor"
+        ],
+        "Collaborator": [
+            "dresnite"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

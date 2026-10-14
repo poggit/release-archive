@@ -1,0 +1,29 @@
+<p>This plugin will provide some protection against malicious players who try to crash your server using input in signs and books.</p>
+<h2>
+<a id="user-content-summary" class="anchor" href="#summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summary</h2>
+<p>The plugin checks to see if the character input is within the allowed maximum and doesn't exceed storage size limits.  The following actions are taken when bad input is detected.</p>
+<blockquote>
+<ul>
+<li>Sign and Book Text is cleared.</li>
+<li>Signs are removed.</li>
+<li>Player that is trying to input bad text is banned.</li>
+</ul>
+</blockquote>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<p>The maximum number of characters to allow on a sign or in a book. When checking a book, this will be applied per page. The default is 1000. Which accounts for the possibility of a max of 59 characters per line with 1 text format on each character when dealing with signs.
+<code>max-character-limit: 1000</code></p>
+<p>Setting ban-violators to true, will automatically ban players who try to create signs, or pages in books, that exceed the max-character-limit.  When this happens, a message will be logged in the server log that shows the player who was banned and the text that was considered in violation.
+<code>ban-violators: true</code></p>
+<p>When set to true, signs that exceed the character limit will be removed.
+remove-bad-signs: true;</p>
+<p>Set to true to check updates made to writable books.
+check-book-updates: true;</p>
+<h2>
+<a id="user-content-sign-test-case" class="anchor" href="#sign-test-case" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sign Test Case</h2>
+<p>This was the text used to determine maximum viewable characters on a sign with formatting.  There are 59 visible characters per line.  Each character has 1 text format code with it. When counting a new-line character at the end of all 4 lines, this comes to about 712 character.  The maximum was set to allow for this to be reached with a little head room, but still doesn't allow signs (or other imput) that cause players or servers to crash.</p>
+<pre><code>§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ
+§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ
+§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ
+§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ§fǀ§1ǀ§2ǀ§3ǀ§4ǀ§5ǀ§6ǀ§7ǀ§8ǀ§9ǀ§aǀ§bǀ§cǀ§dǀ§eǀ
+</code></pre>

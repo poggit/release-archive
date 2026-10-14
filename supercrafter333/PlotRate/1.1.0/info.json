@@ -1,0 +1,73 @@
+{
+    "id": 7195,
+    "name": "PlotRate",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/PlotRate/1.1.0",
+    "tagline": "A simple PocketMine-MP plugin to rate plots on your plotworld. Works with MyPlot.",
+    "artifact_url": "https://poggit.pmmp.io/r/134224",
+    "downloads": 30,
+    "score": 5,
+    "repo_id": 390151699,
+    "repo_name": "supercrafter333/PlotRate",
+    "project_id": 9362,
+    "project_name": "PlotRate",
+    "build_id": 107227,
+    "build_number": 7,
+    "build_commit": "1378d82f0f140ba7996e5e653445fdd74fda173c",
+    "description_url": "https://poggit.pmmp.io/r/134894",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/PlotRate/1378d82f0f140ba7996e5e653445fdd74fda173c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1627493943,
+    "state": 5,
+    "last_state_change_date": 1627920912,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "MyPlot",
+        "Plot",
+        "PlotRate",
+        "PlotRating",
+        "Rate",
+        "Rating"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "MyPlot",
+            "version": "1.10.1",
+            "depRelId": 5941,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

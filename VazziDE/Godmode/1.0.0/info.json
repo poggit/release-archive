@@ -1,0 +1,64 @@
+{
+    "id": 7265,
+    "name": "Godmode",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Godmode/1.0.0",
+    "tagline": "Godmode is a Plugin which allows players to put themselves in Godmode and to be immortal.",
+    "artifact_url": "https://poggit.pmmp.io/r/135545",
+    "downloads": 1916,
+    "score": 5,
+    "repo_id": 393148858,
+    "repo_name": "VazziDE/Godmode",
+    "project_id": 9433,
+    "project_name": "Godmode",
+    "build_id": 108011,
+    "build_number": 3,
+    "build_commit": "a76297de22528d2c529b796ca3447081bad42852",
+    "description_url": "https://poggit.pmmp.io/r/135544",
+    "icon_url": "https://raw.githubusercontent.com/VazziDE/Godmode/a76297de22528d2c529b796ca3447081bad42852/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628192813,
+    "state": 5,
+    "last_state_change_date": 1628202313,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "godmode",
+        "god",
+        "fun",
+        "playergodmode"
+    ],
+    "api": [
+        {
+            "from": "3.22.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VazziDE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

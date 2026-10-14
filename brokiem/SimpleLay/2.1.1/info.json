@@ -1,0 +1,78 @@
+{
+    "id": 6051,
+    "name": "SimpleLay",
+    "version": "2.1.1",
+    "html_url": "https://poggit.pmmp.io/p/SimpleLay/2.1.1",
+    "tagline": "Plugin which allows to Lay or Sit on the Block!",
+    "artifact_url": "https://poggit.pmmp.io/r/116823",
+    "downloads": 695,
+    "score": null,
+    "repo_id": 319871445,
+    "repo_name": "brokiem/SimpleLay",
+    "project_id": 8155,
+    "project_name": "SimpleLay",
+    "build_id": 97344,
+    "build_number": 62,
+    "build_commit": "8c72781474a4120f382c1dec23ed10fa8737b560",
+    "description_url": "https://poggit.pmmp.io/r/116820",
+    "icon_url": "https://raw.githubusercontent.com/brokiem/SimpleLay/8c72781474a4120f382c1dec23ed10fa8737b560/assets/logo.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/116822",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614606522,
+    "state": 5,
+    "last_state_change_date": 1614609126,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "brokiem",
+        "ground",
+        "lay",
+        "laying",
+        "lying",
+        "player",
+        "pocketmine",
+        "roleplay",
+        "seat",
+        "sit",
+        "sitting",
+        "smp"
+    ],
+    "api": [
+        {
+            "from": "3.14.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "brokiem"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

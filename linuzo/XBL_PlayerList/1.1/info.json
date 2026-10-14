@@ -1,0 +1,61 @@
+{
+    "id": 902,
+    "name": "XBL_PlayerList",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/XBL_PlayerList/1.1",
+    "tagline": "XBL PlayerList Enabled",
+    "artifact_url": "https://poggit.pmmp.io/r/17958",
+    "downloads": 662,
+    "score": 5,
+    "repo_id": 112054693,
+    "repo_name": "linuzo/XBL_PlayerList",
+    "project_id": 1191,
+    "project_name": "XBL_PlayerList",
+    "build_id": 31957,
+    "build_number": 11,
+    "build_commit": "f92ead7d8c3f9660e60e9d89a3cd6c01175ae005",
+    "description_url": "https://poggit.pmmp.io/r/17955",
+    "icon_url": "https://raw.githubusercontent.com/linuzo/XBL_PlayerList/f92ead7d8c3f9660e60e9d89a3cd6c01175ae005/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/17957",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1512841593,
+    "state": 5,
+    "last_state_change_date": 1512841593,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "xbox",
+        "XBL",
+        "Xbox",
+        "Playerlist",
+        "PlayerList"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA9",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "linuzo"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

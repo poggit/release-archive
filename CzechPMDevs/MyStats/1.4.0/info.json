@@ -1,0 +1,76 @@
+{
+    "id": 526,
+    "name": "MyStats",
+    "version": "1.4.0",
+    "html_url": "https://poggit.pmmp.io/p/MyStats/1.4.0",
+    "tagline": "Simple ScoreboardStats plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/11001",
+    "downloads": 210,
+    "score": null,
+    "repo_id": 88903500,
+    "repo_name": "CzechPMDevs/MyStats",
+    "project_id": 391,
+    "project_name": "MyStats",
+    "build_id": 27753,
+    "build_number": 57,
+    "build_commit": "43cb07fa14b598c1f9b0ac4ca45f99aef976562a",
+    "description_url": "https://poggit.pmmp.io/r/11000",
+    "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/MyStats/43cb07fa14b598c1f9b0ac4ca45f99aef976562a/MyStats/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1504024535,
+    "state": 5,
+    "last_state_change_date": 1504025962,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "stats"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1",
+            "depRelId": 203,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "GamakCZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

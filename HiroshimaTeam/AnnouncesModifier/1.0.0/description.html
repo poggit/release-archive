@@ -1,0 +1,36 @@
+<h1>
+<a id="user-content-announcesmodifier" class="anchor" href="#announcesmodifier" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AnnouncesModifier</h1>
+<p><g-emoji class="g-emoji" alias="crossed_swords" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2694.png">⚔️</g-emoji> Edit your announces as you wish</p>
+<p>Modify the texts that the basic commands send to make the texts of your server ads more attractive</p>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>Change the default command messages (SAY and ME) which are both unchangeable from pocketmine.yml</li>
+<li>Assign tags to the say command which will allow you to change the prefix of the message!</li>
+</ul>
+<h1>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h1>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> Please do not move these numbers</span>
+<span class="pl-ent">version</span>: <span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span>
+
+<span class="pl-ent">commands</span>:
+  <span class="pl-ent">me</span>:
+    <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>Send a message with your name<span class="pl-pds">"</span></span>
+    <span class="pl-ent">permission</span>: <span class="pl-s"><span class="pl-pds">"</span>pocketmine.command.me<span class="pl-pds">"</span></span>
+
+    <span class="pl-c"><span class="pl-c">#</span> set permission: none for EVERYONE can use command</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>[ME] {SENDER}: {MESSAGE}<span class="pl-pds">"</span></span>
+  <span class="pl-ent">say</span>:
+    <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>Send a message<span class="pl-pds">"</span></span>
+    <span class="pl-ent">permission</span>: <span class="pl-s"><span class="pl-pds">"</span>pocketmine.command.say<span class="pl-pds">"</span></span>
+
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>[{PREFIX}] {MESSAGE}<span class="pl-pds">"</span></span>
+    <span class="pl-ent">types</span>:
+      <span class="pl-ent">server</span>: <span class="pl-c"><span class="pl-c">#</span> This is the default tag, update the "show" if you want</span>
+        <span class="pl-ent">show</span>: <span class="pl-s"><span class="pl-pds">"</span>SERVER<span class="pl-pds">"</span></span>
+      <span class="pl-c"><span class="pl-c">#</span> The type argument modifies the word SERVER in front of the SAY message, if you want to create several prefixes define here</span>
+      <span class="pl-c"><span class="pl-c">#</span> Default: server (no type, just message /say blablablabla)</span>
+      <span class="pl-c"><span class="pl-c">#</span> Exemple: /say test MY CAT IS BEAUTIFUL</span>
+      <span class="pl-c"><span class="pl-c">#</span> Chat: [TESTT] MY CAT IS BEAUTIFUL</span>
+      <span class="pl-ent">test</span>:
+        <span class="pl-ent">show</span>: <span class="pl-s"><span class="pl-pds">"</span>TESTT<span class="pl-pds">"</span></span></pre></div>

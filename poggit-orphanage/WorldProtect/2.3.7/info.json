@@ -1,0 +1,76 @@
+{
+    "id": 1647,
+    "name": "WorldProtect",
+    "version": "2.3.7",
+    "html_url": "https://poggit.pmmp.io/p/WorldProtect/2.3.7",
+    "tagline": "World Protection and more by Aliuly",
+    "artifact_url": "https://poggit.pmmp.io/r/36167",
+    "downloads": 836,
+    "score": 5,
+    "repo_id": 82859657,
+    "repo_name": "poggit-orphanage/WorldProtect",
+    "project_id": 264,
+    "project_name": "WorldProtect",
+    "build_id": 45334,
+    "build_number": 33,
+    "build_commit": "85eb11b98d4e7aa38b3e1ff889eb43c32e360172",
+    "description_url": "https://poggit.pmmp.io/r/36164",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/WorldProtect/85eb11b98d4e7aa38b3e1ff889eb43c32e360172/worldprotect.png",
+    "changelog_url": "https://poggit.pmmp.io/r/36166",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1530785879,
+    "state": 5,
+    "last_state_change_date": 1530785905,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "antigrief",
+        "banitem",
+        "border",
+        "itemban",
+        "protect",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "alejandroliu",
+            "edwinyoo44",
+            "jasonwynn10",
+            "SOF3",
+            "SuperYYT",
+            "supercrafter333",
+            "ItzStarlxy"
+        ],
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

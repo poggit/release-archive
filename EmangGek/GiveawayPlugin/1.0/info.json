@@ -1,0 +1,67 @@
+{
+    "id": 6848,
+    "name": "GiveawayPlugin",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/GiveawayPlugin/1.0",
+    "tagline": "A Plugin for adding giveaway on your server",
+    "artifact_url": "https://poggit.pmmp.io/r/129131",
+    "downloads": 768,
+    "score": 5,
+    "repo_id": 377404666,
+    "repo_name": "EmangGek/GiveawayPlugin",
+    "project_id": 9136,
+    "project_name": "GiveawayPlugin",
+    "build_id": 104341,
+    "build_number": 3,
+    "build_commit": "8e38fed8e05afda126d111a6ff019120e4cacee2",
+    "description_url": "https://poggit.pmmp.io/r/129130",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1623830601,
+    "state": 5,
+    "last_state_change_date": 1624115942,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "giveaway"
+    ],
+    "api": [
+        {
+            "from": "3.5.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "EmangGek"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

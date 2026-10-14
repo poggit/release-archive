@@ -1,0 +1,55 @@
+{
+    "id": 5747,
+    "name": "VanillaPickBlock",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/VanillaPickBlock/1.1.0",
+    "tagline": "Make PickBlock work the same as vanilla.",
+    "artifact_url": "https://poggit.pmmp.io/r/111665",
+    "downloads": 1072,
+    "score": 4,
+    "repo_id": 318289105,
+    "repo_name": "presentkim-pm/VanillaPickBlock",
+    "project_id": 8103,
+    "project_name": "VanillaPickBlock",
+    "build_id": 93784,
+    "build_number": 2,
+    "build_commit": "1e31cbf67c4e27a7ea40223d3c0e7fa4c651c31e",
+    "description_url": "https://poggit.pmmp.io/r/178530",
+    "icon_url": "https://raw.githubusercontent.com/PresentKim/VanillaPickBlock/1e31cbf67c4e27a7ea40223d3c0e7fa4c651c31e/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609092832,
+    "state": 5,
+    "last_state_change_date": 1609093453,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pickblock",
+        "pickup",
+        "selectblock"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PresentKim"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

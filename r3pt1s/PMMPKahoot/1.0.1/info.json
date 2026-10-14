@@ -1,0 +1,67 @@
+{
+    "id": 13315,
+    "name": "PMMPKahoot",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PMMPKahoot/1.0.1",
+    "tagline": "Kahoot-based / Quiz-based minigame for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/244132",
+    "downloads": 98,
+    "score": null,
+    "repo_id": 803698390,
+    "repo_name": "r3pt1s/PMMPKahoot",
+    "project_id": 13828,
+    "project_name": "PMMPKahoot",
+    "build_id": 178748,
+    "build_number": 19,
+    "build_commit": "e16f4c0c4c3199f00025ea37d7bd9535fd12dad2",
+    "description_url": "https://poggit.pmmp.io/r/244129",
+    "icon_url": "https://raw.githubusercontent.com/r3pt1s/PMMPKahoot/e16f4c0c4c3199f00025ea37d7bd9535fd12dad2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/244131",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721466133,
+    "state": 5,
+    "last_state_change_date": 1721663712,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "kahoot"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "r3pt1s"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        }
+    ]
+}

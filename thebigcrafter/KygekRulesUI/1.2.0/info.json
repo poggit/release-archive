@@ -1,0 +1,108 @@
+{
+    "id": 5534,
+    "name": "KygekRulesUI",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/KygekRulesUI/1.2.0",
+    "tagline": "Adds an UI to display server rules.",
+    "artifact_url": "https://poggit.pmmp.io/r/107393",
+    "downloads": 3906,
+    "score": 5,
+    "repo_id": 282171749,
+    "repo_name": "thebigcrafter/KygekRulesUI",
+    "project_id": 7533,
+    "project_name": "KygekRulesUI",
+    "build_id": 91172,
+    "build_number": 46,
+    "build_commit": "36d523efdd18f526e523147aa98bcae42f682278",
+    "description_url": "https://poggit.pmmp.io/r/114244",
+    "icon_url": "https://raw.githubusercontent.com/Kygekraqmak/KygekRulesUI/36d523efdd18f526e523147aa98bcae42f682278/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1604790458,
+    "state": 5,
+    "last_state_change_date": 1604790832,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekraqmak",
+        "kygekraqmakui",
+        "kygekrules",
+        "kygekrulesui",
+        "kygekserver",
+        "kygekserverrules",
+        "kygekserverrulesui",
+        "kygekserverui",
+        "kygekteamrules",
+        "kygekteamrulesui",
+        "kygekteamserver",
+        "kygekteamserverrules",
+        "kygekteamserverui",
+        "kygekteamui",
+        "kygekui",
+        "rules",
+        "rulesui",
+        "server",
+        "serverrules",
+        "serverrulesui",
+        "serverui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ",
+            "KRUNCHSHooT",
+            "Kygekraqmak",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

@@ -1,0 +1,240 @@
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<ul>
+<li>async Editing prevents server lag</li>
+<li>split big areas, so the server doesn't get overloaded</li>
+<li>lots of different Commands</li>
+<li>support for unique Patterns</li>
+<li>Wooden Axe as Wand</li>
+<li>undo &amp; redo</li>
+<li>various Brushes</li>
+</ul>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<p>&lt;argument&gt; - required Argument<br>
+[argument] - optional Argument</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Permission</th>
+<th>Aliases/Notice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>//pos1</td>
+<td>Set the first Position</td>
+<td>easyedit.position</td>
+<td>//1<br>left click a block in creative with a wooden axe</td>
+</tr>
+<tr>
+<td>//pos2</td>
+<td>Set the first Position</td>
+<td>easyedit.position</td>
+<td>//2<br>break a block in creative with a wooden axe</td>
+</tr>
+<tr>
+<td>//set &lt;pattern&gt;</td>
+<td>Set the selected Area</td>
+<td>easyedit.command.set</td>
+<td></td>
+</tr>
+<tr>
+<td>//replace &lt;block&gt; &lt;pattern&gt;</td>
+<td>Replace the selected Area</td>
+<td>easyedit.command.set</td>
+<td></td>
+</tr>
+<tr>
+<td>//naturalize [pattern] [pattern] [pattern]</td>
+<td>Naturalize the selected Area</td>
+<td>easyedit.command.set</td>
+<td></td>
+</tr>
+<tr>
+<td>//smooth</td>
+<td>Smooth the selected Area</td>
+<td>easyedit.command.set</td>
+<td></td>
+</tr>
+<tr>
+<td>//brush sphere [radius] [pattern]<br>//brush smooth [radius]<br>//brush naturalize [radius] [topBlock] [middleBlock] [bottomBlock]</td>
+<td>Create a new Brush</td>
+<td>easyedit.command.brush</td>
+<td>//br</td>
+</tr>
+<tr>
+<td>//undo &lt;count&gt;</td>
+<td>Revert your latest change</td>
+<td>easyedit.command.undo</td>
+<td></td>
+</tr>
+<tr>
+<td>//redo &lt;count&gt;</td>
+<td>Revert your latest undo</td>
+<td>easyedit.command.redo</td>
+<td></td>
+</tr>
+<tr>
+<td>//copy</td>
+<td>Copy the selected Area</td>
+<td>easyedit.command.copy</td>
+<td></td>
+</tr>
+<tr>
+<td>//paste</td>
+<td>Paste the Clipboard</td>
+<td>easyedit.command.paste</td>
+<td></td>
+</tr>
+<tr>
+<td>//insert</td>
+<td>Insert the Clipboard</td>
+<td>easyedit.command.paste</td>
+<td></td>
+</tr>
+<tr>
+<td>//center [block]</td>
+<td>Set the center Blocks (1-8)</td>
+<td>easyedit.command.set</td>
+<td>//middle</td>
+</tr>
+<tr>
+<td>//move </td>
+<td>Move the selected area</td>
+<td>easyedit.command.paste</td>
+<td>Look into the direction you want the selected blocks to move into</td>
+</tr>
+<tr>
+<td>//stack </td>
+<td>Stack the selected area</td>
+<td>easyedit.command.paste</td>
+<td>Look into the direction you want the selected blocks to stack into</td>
+</tr>
+<tr>
+<td>//extend [count|vertical]</td>
+<td>Extend the selected Area</td>
+<td>easyedit.position</td>
+<td>//expand<br>Look into the direction you want to extend to</td>
+</tr>
+<tr>
+<td>//sphere &lt;radius&gt; &lt;pattern&gt;</td>
+<td>Set a sphere</td>
+<td>easyedit.command.set</td>
+<td></td>
+</tr>
+<tr>
+<td>//hsphere &lt;radius&gt; &lt;pattern&gt; [thickness]</td>
+<td>Set a hollow sphere</td>
+<td>easyedit.command.set</td>
+<td>/hollowsphere</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-patterns" class="anchor" href="#patterns" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Patterns</h2>
+<p>Patterns allow the creation of complex editing rules.</p>
+<p>Usage of Patterns: #patternName;arg1;arg2...(block1, block2...)</p>
+<h3>
+<a id="user-content-block-patterns" class="anchor" href="#block-patterns" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Block Patterns</h3>
+<p>Block Patterns are just blocks, they just consist out of the name of the block or its numeric ID</p>
+<p>Examples:</p>
+<ul>
+<li>stone</li>
+<li>4</li>
+<li>command_block</li>
+<li>stone:1</li>
+</ul>
+<h3>
+<a id="user-content-random-pattern" class="anchor" href="#random-pattern" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Random Pattern</h3>
+<p>The Random Pattern as it name suggests selects a random Pattern</p>
+<p>Example:</p>
+<pre><code>#random(dirt,stone,air)
+</code></pre>
+<p>It can also be used with Logic Patterns, note that it only selects once if the pattern is not valid, nothing is changed</p>
+<p>It also works nested:</p>
+<pre><code>#random(#random(stone,stone:1,stone:2),#random(dirt,grass))
+</code></pre>
+<h3>
+<a id="user-content-logic-patterns" class="anchor" href="#logic-patterns" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Logic Patterns</h3>
+<p>These Patterns allow control over when which Block is used</p>
+<p>If one Pattern is not valid, the next one is being used (separated by a comma)</p>
+<p>Example:</p>
+<pre><code>#block;stone(dirt),#around;stone(grass)
+</code></pre>
+<p>-&gt; stone and blocks next to stone get replaced with dirt/grass, otherwise nothing happens</p>
+<p>They can also be nested:</p>
+<pre><code>#block;stone(#around;dirt(grass)),air
+</code></pre>
+<p>-&gt; stone blocks which also have dirt blocks next to them get replaced with grass, other stone blocks stay as they are, non-stone blocks are set to air</p>
+<p>&lt;argument&gt; - required Argument<br>
+[argument] - optional Argument
+patterns - children patterns, can be separated by a comma</p>
+<table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>#block;&lt;block&gt;(patterns)</td>
+<td>Executes Patterns if the block is the same as the specified block (like in //replace)</td>
+</tr>
+<tr>
+<td>#above;&lt;block&gt;(patterns)</td>
+<td>Executes Patterns if the block is above the specified block</td>
+</tr>
+<tr>
+<td>#around;&lt;block&gt;(patterns)</td>
+<td>Executes Patterns if the block is next to the specified block</td>
+</tr>
+<tr>
+<td>#below;&lt;block&gt;(patterns)</td>
+<td>Executes Patterns if the block is below the specified block</td>
+</tr>
+<tr>
+<td>#not(condition(patterns))</td>
+<td>Executes Patterns of next Pattern is false (only works when nested)</td>
+</tr>
+<tr>
+<td>#odd;[x];[y];[z](patterns)</td>
+<td>Executes Patterns if the block is at odd coordinates at x, y and z Axis, the x, y and z can be left out (only given ones will be checked)</td>
+</tr>
+<tr>
+<td>#even;[x];[y];[z](patterns)</td>
+<td>Executes Patterns if the block is at even coordinates (see odd for more info)</td>
+</tr>
+<tr>
+<td>#divisible;&lt;number&gt;;[x];[y];[z](patterns)</td>
+<td>Executes Patterns if the block is at coordinates which are divisible by the given number (see odd for more info)</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-functional-patterns" class="anchor" href="#functional-patterns" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Functional Patterns</h3>
+<p>These Patterns have an own use</p>
+<p>&lt;argument&gt; - required Argument<br>
+[argument] - optional Argument
+patterns - children patterns, can be separated by a comma</p>
+<table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>#smooth</td>
+<td>makes your terrain smoother</td>
+</tr>
+<tr>
+<td>#naturalize([pattern],[pattern],[pattern])</td>
+<td>makes your selection more natural (1 layer pattern1, 3 layers pattern2, pattern3)</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,55 @@
+{
+    "id": 2733,
+    "name": "CrashFixer",
+    "version": "1",
+    "html_url": "https://poggit.pmmp.io/p/CrashFixer/1",
+    "tagline": "CrashFixer is a plugin that allows you to protect your server by vulnerabilities that cause your server to crash.",
+    "artifact_url": "https://poggit.pmmp.io/r/55650",
+    "downloads": 8237,
+    "score": 4,
+    "repo_id": 180914020,
+    "repo_name": "wiligangster/CrashFixer",
+    "project_id": 4910,
+    "project_name": "CrashFixer",
+    "build_id": 58128,
+    "build_number": 4,
+    "build_commit": "c2e1625993effaacf88e8388c6dc15f682bb19b3",
+    "description_url": "https://poggit.pmmp.io/r/55709",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1555126994,
+    "state": 5,
+    "last_state_change_date": 1555184996,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "php7",
+        "pmmp-plugin",
+        "poggit"
+    ],
+    "api": [
+        {
+            "from": "3.7.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "wiligangster"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

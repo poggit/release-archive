@@ -1,0 +1,62 @@
+{
+    "id": 3838,
+    "name": "MorphX",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/MorphX/1.1.0",
+    "tagline": " This plugin allows you to transform yourself into an entity",
+    "artifact_url": "https://poggit.pmmp.io/r/76407",
+    "downloads": 6444,
+    "score": 4,
+    "repo_id": 240793902,
+    "repo_name": "roci33/MorphX",
+    "project_id": 6320,
+    "project_name": "MorphX",
+    "build_id": 71367,
+    "build_number": 13,
+    "build_commit": "1363c33c6930cd39435f6113d4c09a2a59a8114f",
+    "description_url": "https://poggit.pmmp.io/r/76413",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/76415",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582132155,
+    "state": 5,
+    "last_state_change_date": 1582191442,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "AImob",
+        "entities",
+        "entity",
+        "mob",
+        "Morph",
+        "MorphX"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "roci33"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

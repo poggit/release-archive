@@ -1,0 +1,66 @@
+{
+    "id": 11799,
+    "name": "Tr-BookNotice",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Tr-BookNotice/1.0.0",
+    "tagline": "Opens the book UI when join to the server.",
+    "artifact_url": "https://poggit.pmmp.io/r/213728",
+    "downloads": 177,
+    "score": null,
+    "repo_id": 648906721,
+    "repo_name": "TrueToneTeam/Tr-BookNotice",
+    "project_id": 12566,
+    "project_name": "Tr-BookNotice",
+    "build_id": 158030,
+    "build_number": 3,
+    "build_commit": "9350d69ff8b1e527cfd0e0706aa30b7acf8ef6bf",
+    "description_url": "https://poggit.pmmp.io/r/213727",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687904103,
+    "state": 5,
+    "last_state_change_date": 1687904323,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Book",
+        "Hypixel"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TrueToneTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

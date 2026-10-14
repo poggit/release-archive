@@ -1,0 +1,60 @@
+{
+    "id": 1213,
+    "name": "MIE_Converter",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/MIE_Converter/1.0.2",
+    "tagline": "Addon for MapImageEngine to convert images to .mie format",
+    "artifact_url": "https://poggit.pmmp.io/r/25480",
+    "downloads": 914,
+    "score": 3,
+    "repo_id": 98783247,
+    "repo_name": "FaigerSYS/MapImageEngine",
+    "project_id": 730,
+    "project_name": "MIE_Converter",
+    "build_id": 37494,
+    "build_number": 6,
+    "build_commit": "36dd8f4dbecad41c392978c0748bd07840d0ec53",
+    "description_url": "https://poggit.pmmp.io/r/25479",
+    "icon_url": "https://raw.githubusercontent.com/FaigerSYS/MapImageEngine/36dd8f4dbecad41c392978c0748bd07840d0ec53/MIE_Converter/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1520572769,
+    "state": 5,
+    "last_state_change_date": 1520572769,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "images",
+        "mcpe",
+        "mie",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "aquaminer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

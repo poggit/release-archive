@@ -1,0 +1,56 @@
+{
+    "id": 4298,
+    "name": "ArrowTrails",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/ArrowTrails/1.2.0",
+    "tagline": "Spawns particles for player's arrows with permissions system ",
+    "artifact_url": "https://poggit.pmmp.io/r/84775",
+    "downloads": 3442,
+    "score": 4,
+    "repo_id": 257072200,
+    "repo_name": "dim-pm-plugins/ProjectileTrails",
+    "project_id": 6746,
+    "project_name": "ArrowTrails",
+    "build_id": 76154,
+    "build_number": 18,
+    "build_commit": "d2faf70aa8cb850002dab51327d7e1f8285a608d",
+    "description_url": "https://poggit.pmmp.io/r/91314",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588422994,
+    "state": 5,
+    "last_state_change_date": 1588699158,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "mcbe",
+        "mcpe",
+        "minecraft-plugin",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "dim-pm-plugins"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

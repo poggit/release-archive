@@ -1,0 +1,64 @@
+{
+    "id": 6029,
+    "name": "IgnorePlayer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/IgnorePlayer/1.0.0",
+    "tagline": "IgnorePlayers is a plugin for PocketMine 3.0.0 and above which allows Players to ignore messages from other players",
+    "artifact_url": "https://poggit.pmmp.io/r/116380",
+    "downloads": 222,
+    "score": null,
+    "repo_id": 341625750,
+    "repo_name": "Rushil13579/IgnorePlayers",
+    "project_id": 8592,
+    "project_name": "IgnorePlayers",
+    "build_id": 97071,
+    "build_number": 10,
+    "build_commit": "4ba8532b77ef813e52433604eee45770336c5a1f",
+    "description_url": "https://poggit.pmmp.io/r/116388",
+    "icon_url": "https://raw.githubusercontent.com/Rushil13579/IgnorePlayers/4ba8532b77ef813e52433604eee45770336c5a1f/IgnorePlayers.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614158329,
+    "state": 5,
+    "last_state_change_date": 1614523411,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "ignore",
+        "ignoreplayers",
+        "msg"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Rushil13579"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

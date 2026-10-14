@@ -1,0 +1,71 @@
+{
+    "id": 8652,
+    "name": "EmoteCommands",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EmoteCommands/1.0.0",
+    "tagline": "Setup commands to execute when a player performs an emote!",
+    "artifact_url": "https://poggit.pmmp.io/r/157959",
+    "downloads": 669,
+    "score": null,
+    "repo_id": 451262790,
+    "repo_name": "Swift-Strider/EmoteCommands",
+    "project_id": 10402,
+    "project_name": "EmoteCommands",
+    "build_id": 121583,
+    "build_number": 6,
+    "build_commit": "48143c6db85462265d48339f0cbed5d92e9e14a3",
+    "description_url": "https://poggit.pmmp.io/r/157961",
+    "icon_url": "https://raw.githubusercontent.com/Swift-Strider/EmoteCommands/48143c6db85462265d48339f0cbed5d92e9e14a3/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643002365,
+    "state": 5,
+    "last_state_change_date": 1643570113,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "command",
+        "dance",
+        "emote",
+        "emotecommand",
+        "emotecommands",
+        "fun",
+        "plugin",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Swift-Strider"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

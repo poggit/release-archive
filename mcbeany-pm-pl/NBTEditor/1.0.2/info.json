@@ -1,0 +1,64 @@
+{
+    "id": 9832,
+    "name": "NBTEditor",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/NBTEditor/1.0.2",
+    "tagline": "A plugin that helps you to edit item's NBT in-game",
+    "artifact_url": "https://poggit.pmmp.io/r/178148",
+    "downloads": 325,
+    "score": null,
+    "repo_id": 452585342,
+    "repo_name": "mcbeany-pm-pl/NBTEditor",
+    "project_id": 10435,
+    "project_name": "NBTEditor",
+    "build_id": 134777,
+    "build_number": 14,
+    "build_commit": "d645483e50c83d060ef8b720c54444d3eb3a43ef",
+    "description_url": "https://poggit.pmmp.io/r/178145",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/178147",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653836620,
+    "state": 5,
+    "last_state_change_date": 1653847932,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "form",
+        "nbt"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Mcbeany"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "id": 11516,
+    "name": "AdminLogin",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AdminLogin/1.1.0",
+    "tagline": "A PocketMine-MP plugin to let your admins and moderators login by a password.",
+    "artifact_url": "https://poggit.pmmp.io/r/209834",
+    "downloads": 10794,
+    "score": null,
+    "repo_id": 337507455,
+    "repo_name": "supercrafter333/AdminLogin",
+    "project_id": 8529,
+    "project_name": "AdminLogin",
+    "build_id": 156091,
+    "build_number": 15,
+    "build_commit": "8a742763ea7afb6777c9b6931c032ea5240c0212",
+    "description_url": "https://poggit.pmmp.io/r/210594",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/AdminLogin/8a742763ea7afb6777c9b6931c032ea5240c0212/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/210596",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685796061,
+    "state": 5,
+    "last_state_change_date": 1685796342,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "GroupSystem",
+            "version": "3.0.1",
+            "depRelId": 11316,
+            "isHard": false
+        },
+        {
+            "name": "RankSystem",
+            "version": "1.1.1",
+            "depRelId": 11338,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 10808,
+            "repo_id": 305493004,
+            "repo_name": "supercrafter333/FormAPI",
+            "repo_path": "",
+            "build_commit": "519c1669331864082ce82f97745aaf2f8f9565b7",
+            "build_id": 149527
+        }
+    ]
+}

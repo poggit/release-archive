@@ -1,0 +1,75 @@
+<ul>
+<li>!== MINOR FIX UPDATE !==
+<ul>
+<li>
+<ul>
+<li>Whoops, fixed some config written updates - it isn't list-plugins anymore, why didn't i see that in the first place?</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Renamed set-plugins to set-fake-plugins because then, it won't be more like real plugins. It'll be more like fake plugins if that was the case.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>!== NEW UPDATE AVAILABLE v1.1.1-BETA !==
+<ul>
+<li>
+<ul>
+<li>Added new option: show-plugins - Allows you to toggle on/off showing real plugins to the voting websites.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Renamed option from: list-plugins to fake-plugins. This was becayse show-plugins and list-plugins would've seemed the same thing (Option name wise.). So fake plugins would be more of a unique name, since it is fake plugins if set to true.</li>
+</ul>
+</li>
+<li>Bump plugin version to v1.1.1-BETA.</li>
+<li>Updated config options description.</li>
+<li>Bug fixes and some improvements.</li>
+</ul>
+</li>
+<li>Add a to-do: Spoon detection
+<ul>
+<li>this is so we can provide PMMP only, as spoons are third parties of a server software, and are not meant to be used for others. This is so we can fully support PMMP / poggit without the need of another third party spoon.</li>
+</ul>
+</li>
+<li>Add typehints to Util functions</li>
+<li>Add use import for Player.
+<ul>
+<li>yes, this is needed for instances of Player for the console update.</li>
+</ul>
+</li>
+<li>Added a more explained typehints
+<ul>
+<li>allowing everyone to understand the meaning of each/most functions, that way, they know what this plugin's about, and how we code it. :&gt;</li>
+</ul>
+</li>
+<li>Added allow-console option
+<ul>
+<li>This is so server owners can decide whether to allow console execution or not.</li>
+</ul>
+</li>
+<li>Fixed no permission error not working
+<ul>
+<li>This bug was only implemented in the recent dev builds. If the player had the right permission to use the command, it’d say the no permission message. The no permission message is only meant to occur if the player doesn’t have permission to use this command.</li>
+</ul>
+</li>
+<li>Whoops my mistake
+<ul>
+<li>how could i not see that any sooner? silly me.</li>
+</ul>
+</li>
+<li>made construct private.
+<ul>
+<li>We don’t need it public, when currently, no other classes are using this file. This class is implemented so we can check for configs, plugin updates, and virions and installations.</li>
+<li>If we use this class for other classes, we will make it public again.</li>
+</ul>
+</li>
+<li>whoops.
+<ul>
+<li>a bit of a typo there. what was i thinking? ;-;</li>
+</ul>
+</li>
+</ul>

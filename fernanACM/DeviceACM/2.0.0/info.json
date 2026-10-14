@@ -1,0 +1,78 @@
+{
+    "id": 10681,
+    "name": "DeviceACM",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DeviceACM/2.0.0",
+    "tagline": "A simple and customizable tag via 'config.yml'. Shows your health, hunger, connection, device, cps and faction.",
+    "artifact_url": "https://poggit.pmmp.io/r/195080",
+    "downloads": 1797,
+    "score": 4,
+    "repo_id": 466277026,
+    "repo_name": "fernanACM/DeviceACM",
+    "project_id": 10743,
+    "project_name": "DeviceACM",
+    "build_id": 146548,
+    "build_number": 9,
+    "build_commit": "b3c3070b8a0dac23e3cc1faca0091b7e2cd8cb70",
+    "description_url": "https://poggit.pmmp.io/r/195103",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/DeviceACM/b3c3070b8a0dac23e3cc1faca0091b7e2cd8cb70/icon-deviceacm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/195105",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1665770629,
+    "state": 5,
+    "last_state_change_date": 1665786452,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "ACM",
+        "Device",
+        "DeviceACM",
+        "Plataform",
+        "Scoretag",
+        "Tag"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

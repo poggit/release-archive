@@ -1,0 +1,76 @@
+{
+    "id": 806,
+    "name": "Texter",
+    "version": "2.2.5",
+    "html_url": "https://poggit.pmmp.io/p/Texter/2.2.5",
+    "tagline": "This is a PocketMine-MP plugin that can add, remove and update FloatingTextParticle.",
+    "artifact_url": "https://poggit.pmmp.io/r/16189",
+    "downloads": 271,
+    "score": 3,
+    "repo_id": 109834830,
+    "repo_name": "fuyutsuki/Texter",
+    "project_id": 1101,
+    "project_name": "Texter",
+    "build_id": 30821,
+    "build_number": 10,
+    "build_commit": "9e2db580f1dd8f78818b05cddead87a2beedf3ec",
+    "description_url": "https://poggit.pmmp.io/r/16188",
+    "icon_url": "https://raw.githubusercontent.com/fuyutsuki/Texter/9e2db580f1dd8f78818b05cddead87a2beedf3ec/assets/Logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1510755676,
+    "state": 5,
+    "last_state_change_date": 1510755676,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floatingtextperticle"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA9",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "SuperAdam47",
+            "SuperYYT",
+            "IvanCraft623",
+            "minijaham",
+            "VicoSilalahi",
+            "No4NaMe",
+            "TERAMMII",
+            "DragonfireHD98"
+        ],
+        "Collaborator": [
+            "fuyutsuki",
+            "xxFLORII"
+        ],
+        "Contributor": [
+            "DaisukeDaisuke",
+            "JoshuaPHYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

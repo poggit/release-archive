@@ -1,0 +1,69 @@
+{
+    "id": 670,
+    "name": "CustomAlerts",
+    "version": "1.7.2",
+    "html_url": "https://poggit.pmmp.io/p/CustomAlerts/1.7.2",
+    "tagline": "Customize alerts (join/leave messages, etc...)",
+    "artifact_url": "https://poggit.pmmp.io/r/13755",
+    "downloads": 358,
+    "score": null,
+    "repo_id": 106307520,
+    "repo_name": "poggit-orphanage/CustomAlerts",
+    "project_id": 996,
+    "project_name": "CustomAlerts",
+    "build_id": 29588,
+    "build_number": 1,
+    "build_commit": "d601c934e82b966d2640cb77018b9d4f0da469bb",
+    "description_url": "https://poggit.pmmp.io/r/15740",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/CustomAlerts/d601c934e82b966d2640cb77018b9d4f0da469bb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507569303,
+    "state": 5,
+    "last_state_change_date": 1507569313,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "alerts",
+        "notify"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PopupAlerts",
+            "version": "1.4.1",
+            "depRelId": 671,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Flavius12"
+        ],
+        "Contributor": [
+            "letsplaydev",
+            "Pub4Game",
+            "samalero",
+            "iTzAnTiFTW",
+            "lukeeey"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

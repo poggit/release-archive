@@ -1,0 +1,72 @@
+{
+    "id": 8016,
+    "name": "CoinsFlipUI",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/CoinsFlipUI/1.0.2",
+    "tagline": "Gambling plugin.",
+    "artifact_url": "https://poggit.pmmp.io/r/148083",
+    "downloads": 405,
+    "score": 5,
+    "repo_id": 428802095,
+    "repo_name": "MoonTeamsDevs/CoinsFlipUI",
+    "project_id": 9970,
+    "project_name": "CoinsFlipUI",
+    "build_id": 115614,
+    "build_number": 11,
+    "build_commit": "c1f7d9cd495e3af65025f56676d137b7e0fdcafe",
+    "description_url": "https://poggit.pmmp.io/r/148082",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1637408142,
+    "state": 5,
+    "last_state_change_date": 1637416924,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MoonTeamsDevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

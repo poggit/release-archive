@@ -1,0 +1,97 @@
+{
+    "id": 12923,
+    "name": "BedrockEconomy",
+    "version": "4.0.4",
+    "html_url": "https://poggit.pmmp.io/p/BedrockEconomy/4.0.4",
+    "tagline": "An economy plugin focused on stability and simplicity",
+    "artifact_url": "https://poggit.pmmp.io/r/235332",
+    "downloads": 10129,
+    "score": 3,
+    "repo_id": 400814840,
+    "repo_name": "cooldogepm/BedrockEconomy",
+    "project_id": 10670,
+    "project_name": "BedrockEconomy",
+    "build_id": 172661,
+    "build_number": 121,
+    "build_commit": "59d264933dc0928c9b349e0ab5eb841c437b5f50",
+    "description_url": "https://poggit.pmmp.io/r/237298",
+    "icon_url": "https://raw.githubusercontent.com/cooldogepm/BedrockEconomy/59d264933dc0928c9b349e0ab5eb841c437b5f50/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/237300",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1711209853,
+    "state": 6,
+    "last_state_change_date": 1713381835,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "api",
+        "economy",
+        "mcbe",
+        "minecraft",
+        "mysql",
+        "php",
+        "pmmp",
+        "pocketmine",
+        "sql",
+        "sqlite"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "udachin26",
+            "SOF3",
+            "Endermanbugzjfc",
+            "NhanAZ",
+            "brokiem",
+            "KygekDev",
+            "fadheldev",
+            "TheRealDeveloper",
+            "AIPTU",
+            "MrBlasyMSK",
+            "borvn",
+            "Nakidori",
+            "Betsthebest"
+        ],
+        "Collaborator": [
+            "cooldogedev"
+        ]
+    },
+    "state_name": "Featured",
+    "virions": []
+}

@@ -1,0 +1,68 @@
+{
+    "id": 686,
+    "name": "Cameraman",
+    "version": "1.1.0-3",
+    "html_url": "https://poggit.pmmp.io/p/Cameraman/1.1.0-3",
+    "tagline": "Automatic Motion Control",
+    "artifact_url": "https://poggit.pmmp.io/r/13912",
+    "downloads": 94,
+    "score": null,
+    "repo_id": 92656789,
+    "repo_name": "poggit-orphanage/Cameraman",
+    "project_id": 483,
+    "project_name": "Cameraman",
+    "build_id": 29642,
+    "build_number": 9,
+    "build_commit": "fa4095c686c0447867c1fe442a2fa0620f0114ca",
+    "description_url": "https://poggit.pmmp.io/r/13909",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/Cameraman/fa4095c686c0447867c1fe442a2fa0620f0114ca/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/13911",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507713836,
+    "state": 5,
+    "last_state_change_date": 1507713843,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "YouTube",
+        "camera",
+        "video"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA8",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "HmHmmHm",
+            "robske110"
+        ],
+        "Collaborator": [
+            "ChalkPE",
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

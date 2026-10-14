@@ -1,0 +1,56 @@
+{
+    "id": 1558,
+    "name": "BasicHUD",
+    "version": "1.0.7",
+    "html_url": "https://poggit.pmmp.io/p/BasicHUD/1.0.7",
+    "tagline": "A configurable heads up display",
+    "artifact_url": "https://poggit.pmmp.io/r/34494",
+    "downloads": 245,
+    "score": null,
+    "repo_id": 106467733,
+    "repo_name": "poggit-orphanage/BasicHUD",
+    "project_id": 1007,
+    "project_name": "BasicHUD",
+    "build_id": 44247,
+    "build_number": 9,
+    "build_commit": "1dbae3d814dd1934786a7068e62326b3ec4944a3",
+    "description_url": "https://poggit.pmmp.io/r/34491",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/BasicHUD/1dbae3d814dd1934786a7068e62326b3ec4944a3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/34493",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529593898,
+    "state": 5,
+    "last_state_change_date": 1529593901,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "hud",
+        "headsup",
+        "stats"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alejandroliu",
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

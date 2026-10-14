@@ -1,0 +1,69 @@
+{
+    "id": 13751,
+    "name": "CustomAreas",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomAreas/2.0.0",
+    "tagline": "A powerful plugin for server administrators to enhance region security. ",
+    "artifact_url": "https://poggit.pmmp.io/r/251457",
+    "downloads": 473,
+    "score": null,
+    "repo_id": 909892997,
+    "repo_name": "SoyDavs/Custom-Areas",
+    "project_id": 14437,
+    "project_name": "CustomAreas",
+    "build_id": 183803,
+    "build_number": 21,
+    "build_commit": "1fa72c03ba1350c1ace5d8f91c0aaf8e63e66655",
+    "description_url": "https://poggit.pmmp.io/r/251459",
+    "icon_url": "https://raw.githubusercontent.com/SoyDavs/Custom-Areas/1fa72c03ba1350c1ace5d8f91c0aaf8e63e66655/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736105336,
+    "state": 5,
+    "last_state_change_date": 1736178068,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SoyDavs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        }
+    ]
+}

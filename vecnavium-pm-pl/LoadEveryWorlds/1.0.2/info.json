@@ -1,0 +1,54 @@
+{
+    "id": 9485,
+    "name": "LoadEveryWorlds",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/LoadEveryWorlds/1.0.2",
+    "tagline": "LoadEveryWorlds plugin that loads every single world on your server",
+    "artifact_url": "https://poggit.pmmp.io/r/170903",
+    "downloads": 309,
+    "score": null,
+    "repo_id": 405736962,
+    "repo_name": "vecnavium-pm-pl/LoadEveryWorlds",
+    "project_id": 9704,
+    "project_name": "LoadEveryWorlds",
+    "build_id": 129532,
+    "build_number": 16,
+    "build_commit": "a4eaa98d0b0562f8bbcb9e48121faa9aa6485e2b",
+    "description_url": "https://poggit.pmmp.io/r/170900",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/170902",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1649738948,
+    "state": 5,
+    "last_state_change_date": 1649755190,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "cosmicnebula200"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

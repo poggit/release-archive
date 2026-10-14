@@ -1,0 +1,70 @@
+{
+    "id": 8840,
+    "name": "CustomBow",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/CustomBow/0.0.1",
+    "tagline": "Create features when hit player with bow.",
+    "artifact_url": "https://poggit.pmmp.io/r/160229",
+    "downloads": 755,
+    "score": 5,
+    "repo_id": 456042387,
+    "repo_name": "Taylor-pm-pl/CustomBow",
+    "project_id": 10538,
+    "project_name": "CustomBow",
+    "build_id": 122875,
+    "build_number": 2,
+    "build_commit": "82a50d965a22b6f92157cf00b2e4c2b3fbe9358f",
+    "description_url": "https://poggit.pmmp.io/r/167494",
+    "icon_url": "https://raw.githubusercontent.com/JeroGamingYT-pm-pl/CustomBow/82a50d965a22b6f92157cf00b2e4c2b3fbe9358f/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644117232,
+    "state": 5,
+    "last_state_change_date": 1644658844,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "bow",
+        "hit",
+        "player",
+        "plugin",
+        "pmmp",
+        "shoot"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

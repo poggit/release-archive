@@ -1,0 +1,59 @@
+{
+    "id": 13017,
+    "name": "MineSystem",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MineSystem/2.0.0",
+    "tagline": "Mine system for Pocketmine servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/238385",
+    "downloads": 987,
+    "score": 1,
+    "repo_id": 700565414,
+    "repo_name": "ValresMC/MineSystem",
+    "project_id": 13200,
+    "project_name": "MineSystem",
+    "build_id": 174867,
+    "build_number": 35,
+    "build_commit": "dde23adf0ec0fe063ca5100f84370d5105b62808",
+    "description_url": "https://poggit.pmmp.io/r/263433",
+    "icon_url": "https://raw.githubusercontent.com/ValresMC/MineSystem/dde23adf0ec0fe063ca5100f84370d5105b62808/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1714840194,
+    "state": 5,
+    "last_state_change_date": 1717358017,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "area",
+        "minage",
+        "mine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ValresMC"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,53 @@
+{
+    "id": 11370,
+    "name": "Spider",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Spider/2.0.0",
+    "tagline": "Climb walls like spiderman!",
+    "artifact_url": "https://poggit.pmmp.io/r/208541",
+    "downloads": 317,
+    "score": 5,
+    "repo_id": 455634049,
+    "repo_name": "BeeAZ-pm-pl/Spider",
+    "project_id": 10523,
+    "project_name": "Spider",
+    "build_id": 150042,
+    "build_number": 17,
+    "build_commit": "7bd82fdea39d1c69d2618ca3a0691bbdc16aba14",
+    "description_url": "https://poggit.pmmp.io/r/208538",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/Spider/7bd82fdea39d1c69d2618ca3a0691bbdc16aba14/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208540",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685634710,
+    "state": 5,
+    "last_state_change_date": 1685637711,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "spider"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

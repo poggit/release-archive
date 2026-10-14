@@ -1,0 +1,82 @@
+{
+    "id": 7655,
+    "name": "AutoClearChunk",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoClearChunk/2.0.0",
+    "tagline": "clear the chunk if there is no player in chunk",
+    "artifact_url": "https://poggit.pmmp.io/r/142246",
+    "downloads": 62,
+    "score": 5,
+    "repo_id": 408124160,
+    "repo_name": "HazardTeam/AutoClearChunk",
+    "project_id": 9747,
+    "project_name": "AutoClearChunk",
+    "build_id": 112160,
+    "build_number": 7,
+    "build_commit": "44912524d25a57e28bbfee28a95d79a3866eed8c",
+    "description_url": "https://poggit.pmmp.io/r/142243",
+    "icon_url": "https://raw.githubusercontent.com/HazardTeam/AutoClearChunk/44912524d25a57e28bbfee28a95d79a3866eed8c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/142245",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632218207,
+    "state": 5,
+    "last_state_change_date": 1632218280,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.21.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Endermanbugzjfc",
+            "XanderID"
+        ],
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

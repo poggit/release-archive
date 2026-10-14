@@ -1,0 +1,58 @@
+{
+    "id": 7099,
+    "name": "randomOre",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/randomOre/1.0.0",
+    "tagline": "Simple plugin to add random minerals",
+    "artifact_url": "https://poggit.pmmp.io/r/132930",
+    "downloads": 474,
+    "score": null,
+    "repo_id": 374758242,
+    "repo_name": "Refaltor77/randomOre",
+    "project_id": 9099,
+    "project_name": "randomOre",
+    "build_id": 106455,
+    "build_number": 2,
+    "build_commit": "8cd937855270b39a9f7d5e3b2b6d5ef266fd3353",
+    "description_url": "https://poggit.pmmp.io/r/133787",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626768941,
+    "state": 5,
+    "last_state_change_date": 1628050585,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "aleatoire",
+        "lapis",
+        "minerais",
+        "Ore",
+        "Random",
+        "RandomOre"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

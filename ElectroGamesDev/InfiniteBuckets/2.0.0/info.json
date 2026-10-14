@@ -1,0 +1,66 @@
+{
+    "id": 8197,
+    "name": "InfiniteBuckets",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/InfiniteBuckets/2.0.0",
+    "tagline": "This Plugin Adds Infinite Water and Lava Buckets To Your Server!",
+    "artifact_url": "https://poggit.pmmp.io/r/150613",
+    "downloads": 545,
+    "score": 5,
+    "repo_id": 388303945,
+    "repo_name": "ElectroGamesDev/InfiniteBuckets",
+    "project_id": 9327,
+    "project_name": "InfiniteBuckets",
+    "build_id": 117003,
+    "build_number": 6,
+    "build_commit": "6016e946b82138ecec350586dc36ff9f0a2c1734",
+    "description_url": "https://poggit.pmmp.io/r/150610",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/InfiniteBuckets/6016e946b82138ecec350586dc36ff9f0a2c1734/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/150612",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638657895,
+    "state": 5,
+    "last_state_change_date": 1638658042,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "bucket",
+        "buckets",
+        "infinite",
+        "infinitebucket",
+        "infinitebuckets",
+        "lava",
+        "water"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesDev"
+        ],
+        "Contributor": [
+            "GabBiswajit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

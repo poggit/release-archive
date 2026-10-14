@@ -1,0 +1,83 @@
+{
+    "id": 12346,
+    "name": "BankNote",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BankNote/1.0.0",
+    "tagline": "A Bank Note Plugin Which Convert Your Money To Note.",
+    "artifact_url": "https://poggit.pmmp.io/r/222315",
+    "downloads": 697,
+    "score": null,
+    "repo_id": 686961871,
+    "repo_name": "GabBiswajit/BankNote",
+    "project_id": 13034,
+    "project_name": "BankNote",
+    "build_id": 163264,
+    "build_number": 2,
+    "build_commit": "bbe37c85e041daa540ca6356b5b8b8c6231cdffd",
+    "description_url": "https://poggit.pmmp.io/r/222717",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1693825097,
+    "state": 5,
+    "last_state_change_date": 1694406743,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "banknote",
+        "econommy",
+        "plugin",
+        "note"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": true
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "GabBiswajit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEco",
+            "project_id": 10995,
+            "repo_id": 466916160,
+            "repo_name": "David-pm-pl/libEco",
+            "repo_path": "",
+            "build_commit": "83f42cd99eeb0a154909675ee1b1ca29f255cdb7",
+            "build_id": 137758
+        }
+    ]
+}

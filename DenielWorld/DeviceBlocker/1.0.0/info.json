@@ -1,0 +1,57 @@
+{
+    "id": 3260,
+    "name": "DeviceBlocker",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DeviceBlocker/1.0.0",
+    "tagline": "Block specific device types from entering your PMMP server!",
+    "artifact_url": "https://poggit.pmmp.io/r/64172",
+    "downloads": 3885,
+    "score": 3,
+    "repo_id": 201618545,
+    "repo_name": "DenielWorld/DeviceBlocker",
+    "project_id": 5434,
+    "project_name": "DeviceBlocker",
+    "build_id": 63234,
+    "build_number": 8,
+    "build_commit": "f4e0924e3af92b83e0cf68639ae9cee7aa8c5831",
+    "description_url": "https://poggit.pmmp.io/r/64231",
+    "icon_url": "https://raw.githubusercontent.com/DenielWorld/DeviceBlocker/f4e0924e3af92b83e0cf68639ae9cee7aa8c5831/blocker.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1565511504,
+    "state": 5,
+    "last_state_change_date": 1565940843,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "block",
+        "blocker",
+        "device",
+        "deviceblocker",
+        "w10"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DenielWorld"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

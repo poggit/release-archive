@@ -1,0 +1,93 @@
+{
+    "id": 6677,
+    "name": "VecnaLeaderboards",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VecnaLeaderboards/1.0.0",
+    "tagline": "A Pocketmine-MP Plugin that keeps track of Player Statistics",
+    "artifact_url": "https://poggit.pmmp.io/r/126283",
+    "downloads": 237,
+    "score": 4,
+    "repo_id": 363268095,
+    "repo_name": "vecnavium-pm-pl/VecnaLeaderboards",
+    "project_id": 8929,
+    "project_name": "VecnaLeaderboards",
+    "build_id": 102722,
+    "build_number": 37,
+    "build_commit": "0199ea253c10bb2c9534938d622d852d5e88ade8",
+    "description_url": "https://poggit.pmmp.io/r/127961",
+    "icon_url": "https://raw.githubusercontent.com/Vecnavium/VecnaLeaderboards/0199ea253c10bb2c9534938d622d852d5e88ade8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1621788343,
+    "state": 5,
+    "last_state_change_date": 1621789459,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "deaths",
+        "kills",
+        "leaderboard",
+        "leaderboards",
+        "levels",
+        "pvp",
+        "stats"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SpiceX",
+            "DragonfireHD",
+            "Seyrxn",
+            "Endermanbugzjfc",
+            "JavierLeon9966",
+            "cosmicnebula200"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

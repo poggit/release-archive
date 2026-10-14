@@ -1,0 +1,69 @@
+{
+    "id": 14262,
+    "name": "WorldManager",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldManager/1.1.0",
+    "tagline": "Advanced world management plugin for PocketMine-MP 5.x.",
+    "artifact_url": "https://poggit.pmmp.io/r/260871",
+    "downloads": 420,
+    "score": null,
+    "repo_id": 999137725,
+    "repo_name": "PocketMine-Community/WorldManager",
+    "project_id": 14760,
+    "project_name": "WorldManager",
+    "build_id": 190147,
+    "build_number": 7,
+    "build_commit": "bfac237a74d821cc9aa9167ee8eb0a9b8933fa2b",
+    "description_url": "https://poggit.pmmp.io/r/260868",
+    "icon_url": "https://raw.githubusercontent.com/PocketMine-Community/WorldManager/bfac237a74d821cc9aa9167ee8eb0a9b8933fa2b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/260870",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1763143409,
+    "state": 5,
+    "last_state_change_date": 1764182050,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "multiworld",
+        "world",
+        "worldmanager",
+        "worlds"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "xRookieFight",
+            "TaqdeesHigh"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

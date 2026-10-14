@@ -1,0 +1,54 @@
+{
+    "id": 11351,
+    "name": "BulkLayerEditor",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/BulkLayerEditor/1.0",
+    "tagline": "Quickly remove block layers on your PocketMine-MP Server",
+    "artifact_url": "https://poggit.pmmp.io/r/208435",
+    "downloads": 186,
+    "score": null,
+    "repo_id": 646613090,
+    "repo_name": "platz1de/BulkLayerEditor",
+    "project_id": 12532,
+    "project_name": "BulkLayerEditor",
+    "build_id": 155391,
+    "build_number": 1,
+    "build_commit": "7deee6dee61d44c1a51fafaf8bc536a46501269e",
+    "description_url": "https://poggit.pmmp.io/r/208837",
+    "icon_url": "https://raw.githubusercontent.com/platz1de/BulkLayerEditor/7deee6dee61d44c1a51fafaf8bc536a46501269e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685633431,
+    "state": 5,
+    "last_state_change_date": 1685641616,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "fix",
+        "waterlogging"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "platz1de"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

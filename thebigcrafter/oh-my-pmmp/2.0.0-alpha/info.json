@@ -1,0 +1,86 @@
+{
+    "id": 11754,
+    "name": "oh-my-pmmp",
+    "version": "2.0.0-alpha",
+    "html_url": "https://poggit.pmmp.io/p/oh-my-pmmp/2.0.0-alpha",
+    "tagline": "A plugin manager for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/213226",
+    "downloads": 90,
+    "score": 5,
+    "repo_id": 450681213,
+    "repo_name": "thebigcrafter/oh-my-pmmp",
+    "project_id": 10383,
+    "project_name": "oh-my-pmmp",
+    "build_id": 157802,
+    "build_number": 190,
+    "build_commit": "be234814c3447669ebe52f6415530ef14250816f",
+    "description_url": "https://poggit.pmmp.io/r/220123",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/oh-my-pmmp/be234814c3447669ebe52f6415530ef14250816f/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220125",
+    "license": "GPL-3.0-only",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687528358,
+    "state": 5,
+    "last_state_change_date": 1687555323,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "plugin",
+        "plugin-manager"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Phuongaz",
+            "Lunarelly",
+            "kotyaralih",
+            "andrew47-c",
+            "AIPTU",
+            "tobydev27",
+            "toby7002"
+        ],
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "Hydrogen",
+            "project_id": 12575,
+            "repo_id": 649178263,
+            "repo_name": "thebigcrafter/Hydrogen",
+            "repo_path": "",
+            "build_commit": "c0222f8cefd715559eba25f137ba2331f5ca5ff3",
+            "build_id": 156699
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "id": 524,
+    "name": "CustomBar",
+    "version": "0.8",
+    "html_url": "https://poggit.pmmp.io/p/CustomBar/0.8",
+    "tagline": "CustomHUD for your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/10987",
+    "downloads": 145,
+    "score": null,
+    "repo_id": 100204385,
+    "repo_name": "SuperKali/CustomBar",
+    "project_id": 794,
+    "project_name": "CustomBar",
+    "build_id": 27748,
+    "build_number": 27,
+    "build_commit": "9603a104a9ddc5eed0f8a1661927bb8a8336a68d",
+    "description_url": "https://poggit.pmmp.io/r/11117",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1504017020,
+    "state": 5,
+    "last_state_change_date": 1504281521,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1",
+            "depRelId": 203,
+            "isHard": true
+        },
+        {
+            "name": "FactionsPro",
+            "version": "1.3.9",
+            "depRelId": 220,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "SuperKali"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

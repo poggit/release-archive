@@ -1,0 +1,66 @@
+{
+    "id": 9920,
+    "name": "PMJellyLegs",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PMJellyLegs/1.0.0",
+    "tagline": "A Pocketmine-MP plugin that disables fall-damage per player or all together.",
+    "artifact_url": "https://poggit.pmmp.io/r/179934",
+    "downloads": 136,
+    "score": null,
+    "repo_id": 500288386,
+    "repo_name": "iRainDropp/PMJellyLegs",
+    "project_id": 11324,
+    "project_name": "PMJellyLegs",
+    "build_id": 136023,
+    "build_number": 4,
+    "build_commit": "660cb3fbbbb29463a1181883a9d833ec2622a492",
+    "description_url": "https://poggit.pmmp.io/r/179933",
+    "icon_url": "https://raw.githubusercontent.com/iRainDropp/PMJellyLegs/660cb3fbbbb29463a1181883a9d833ec2622a492/jellylegs.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654493870,
+    "state": 5,
+    "last_state_change_date": 1654808669,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "NoFall",
+        "Anti-Fall",
+        "NoFallDamage",
+        "JellyLegs",
+        "PMJellyLegs",
+        "FallDamage"
+    ],
+    "api": [
+        {
+            "from": "4.3.2",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iRainDropp"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

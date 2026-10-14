@@ -1,0 +1,61 @@
+{
+    "id": 4693,
+    "name": "BravoClan",
+    "version": "0.7",
+    "html_url": "https://poggit.pmmp.io/p/BravoClan/0.7",
+    "tagline": "A Simple Clan Plugin Different From Those Already Present In Poggit",
+    "artifact_url": "https://poggit.pmmp.io/r/92297",
+    "downloads": 261,
+    "score": 5,
+    "repo_id": 267247661,
+    "repo_name": "Itzdvbravo/BravoClan",
+    "project_id": 7050,
+    "project_name": "BravoClan",
+    "build_id": 81352,
+    "build_number": 70,
+    "build_commit": "2aa4e17ec0ca7b448359b303f829785a13af2d31",
+    "description_url": "https://poggit.pmmp.io/r/92303",
+    "icon_url": "https://raw.githubusercontent.com/Itzdvbravo/BravoClan/2aa4e17ec0ca7b448359b303f829785a13af2d31/new.png",
+    "changelog_url": "https://poggit.pmmp.io/r/92305",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1592234730,
+    "state": 5,
+    "last_state_change_date": 1592467330,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "clan"
+    ],
+    "api": [
+        {
+            "from": "3.12.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Itzdvbravo"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

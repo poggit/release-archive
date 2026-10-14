@@ -1,0 +1,70 @@
+{
+    "id": 8251,
+    "name": "NoSprint",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/NoSprint/1.1.0",
+    "tagline": "A PocketMine-MP plugin to cancel the player's sprint",
+    "artifact_url": "https://poggit.pmmp.io/r/151411",
+    "downloads": 245,
+    "score": null,
+    "repo_id": 410163866,
+    "repo_name": "AIPTU/NoSprint",
+    "project_id": 9788,
+    "project_name": "NoSprint",
+    "build_id": 117430,
+    "build_number": 5,
+    "build_commit": "afd50ff406cb8288753de6fb1b1ed4979c7cd5b1",
+    "description_url": "https://poggit.pmmp.io/r/151408",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/NoSprint/afd50ff406cb8288753de6fb1b1ed4979c7cd5b1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/151410",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638940122,
+    "state": 5,
+    "last_state_change_date": 1638943181,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

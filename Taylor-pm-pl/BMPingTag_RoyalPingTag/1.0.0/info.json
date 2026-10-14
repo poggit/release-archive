@@ -1,0 +1,74 @@
+{
+    "id": 8651,
+    "name": "RoyalPingTag",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RoyalPingTag/1.0.0",
+    "tagline": "show player's ping number under their name",
+    "artifact_url": "https://poggit.pmmp.io/r/157951",
+    "downloads": 498,
+    "score": 5,
+    "repo_id": 451290384,
+    "repo_name": "Taylor-pm-pl/BMPingTag",
+    "project_id": 10401,
+    "project_name": "RoyalPingTag",
+    "build_id": 121580,
+    "build_number": 8,
+    "build_commit": "f071e56c059e80f843f9cdec9978028a9460e803",
+    "description_url": "https://poggit.pmmp.io/r/177625",
+    "icon_url": "https://raw.githubusercontent.com/RoyalTeamDeveloper/RoyalPingTag/f071e56c059e80f843f9cdec9978028a9460e803/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643002047,
+    "state": 5,
+    "last_state_change_date": 1643569904,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "info",
+        "ping",
+        "player",
+        "pmmp",
+        "tag"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DavidGlitch04",
+            "LidoOfficial"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

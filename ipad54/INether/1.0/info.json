@@ -1,0 +1,62 @@
+{
+    "id": 8565,
+    "name": "INether",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/INether/1.0",
+    "tagline": "This plugin implements the functionality of items & blocks that were added in 1.16",
+    "artifact_url": "https://poggit.pmmp.io/r/156573",
+    "downloads": 264,
+    "score": 5,
+    "repo_id": 437382315,
+    "repo_name": "ipad54/INether",
+    "project_id": 10117,
+    "project_name": "INether",
+    "build_id": 120665,
+    "build_number": 12,
+    "build_commit": "26bf4735f4cc72996102c8445ef3b3a787307926",
+    "description_url": "https://poggit.pmmp.io/r/156577",
+    "icon_url": "https://raw.githubusercontent.com/ipad54/INether/26bf4735f4cc72996102c8445ef3b3a787307926/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641909703,
+    "state": 5,
+    "last_state_change_date": 1643304593,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        }
+    ],
+    "keywords": [
+        "Basalt",
+        "INether",
+        "Nether",
+        "Netherite",
+        "netherite_armor",
+        "Shroomlight"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ipad54"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,94 @@
+{
+    "id": 2452,
+    "name": "MysteryCrate",
+    "version": "9.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MysteryCrate/9.0.0",
+    "tagline": "Add unlimited number of MysteryCrates with full customization.",
+    "artifact_url": "https://poggit.pmmp.io/r/51618",
+    "downloads": 552,
+    "score": 5,
+    "repo_id": 125697309,
+    "repo_name": "JackMD/MysteryCrate",
+    "project_id": 2242,
+    "project_name": "MysteryCrate",
+    "build_id": 55823,
+    "build_number": 95,
+    "build_commit": "7752c65fca7833f9547789f1b832a36721dc2465",
+    "description_url": "https://poggit.pmmp.io/r/51615",
+    "icon_url": "https://raw.githubusercontent.com/JackMD/MysteryCrate/7752c65fca7833f9547789f1b832a36721dc2465/meta/MysteryCrate.png",
+    "changelog_url": "https://poggit.pmmp.io/r/51617",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1549743286,
+    "state": 5,
+    "last_state_change_date": 1549825433,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chest",
+        "crate-key",
+        "cratechest",
+        "cratekey",
+        "crates",
+        "key",
+        "mystery",
+        "mysterycrate-plugin",
+        "pmmp",
+        "pocketmine-mp",
+        "tap"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "98aae410c391931ac9a4778ba0a0fa436a2991c5",
+            "build_id": 53471
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "e60f0c63a281a95e3a0702d2986cc5f39bc0c483",
+            "build_id": 55596
+        }
+    ]
+}

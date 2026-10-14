@@ -1,0 +1,76 @@
+{
+    "id": 3880,
+    "name": "ItemFrameCommands",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/ItemFrameCommands/1.2.0",
+    "tagline": "Run commands via item frames",
+    "artifact_url": "https://poggit.pmmp.io/r/77001",
+    "downloads": 1336,
+    "score": 3,
+    "repo_id": 101313505,
+    "repo_name": "thebigsmileXD/ItemFrameCommands",
+    "project_id": 1091,
+    "project_name": "ItemFrameCommands",
+    "build_id": 65026,
+    "build_number": 4,
+    "build_commit": "9f805133b731d5340147cba84ec910c684f492bb",
+    "description_url": "https://poggit.pmmp.io/r/77000",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582633220,
+    "state": 5,
+    "last_state_change_date": 1582992640,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "frame",
+        "itemframe",
+        "command",
+        "runas",
+        "sudo",
+        "item"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "thebigsmileXD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "5ee4d2eb8fc471c33e3b881b3a54c5012d0dca54",
+            "build_id": 64432
+        }
+    ]
+}

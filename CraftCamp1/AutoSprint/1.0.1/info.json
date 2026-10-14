@@ -1,0 +1,60 @@
+{
+    "id": 10208,
+    "name": "AutoSprint",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AutoSprint/1.0.1",
+    "tagline": "AutoSprint Plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/185442",
+    "downloads": 829,
+    "score": null,
+    "repo_id": 510233145,
+    "repo_name": "CraftCamp1/AutoSprint",
+    "project_id": 11499,
+    "project_name": "AutoSprint",
+    "build_id": 139776,
+    "build_number": 8,
+    "build_commit": "1af5cdc03bba4f1d81314e7082c5f25e5435b4d5",
+    "description_url": "https://poggit.pmmp.io/r/185441",
+    "icon_url": "https://raw.githubusercontent.com/CraftCamp1/AutoSprint/1af5cdc03bba4f1d81314e7082c5f25e5435b4d5/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1657327573,
+    "state": 5,
+    "last_state_change_date": 1657554891,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "AutoSprint",
+        "craftcamp",
+        "sprint"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "CraftCamp1"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

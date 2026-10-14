@@ -1,0 +1,115 @@
+{
+    "id": 13923,
+    "name": "KitSystem",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/KitSystem/1.0.3",
+    "tagline": "Easy to create kits",
+    "artifact_url": "https://poggit.pmmp.io/r/254364",
+    "downloads": 238,
+    "score": null,
+    "repo_id": 878813100,
+    "repo_name": "Jorgebyte/KitSystem",
+    "project_id": 14312,
+    "project_name": "KitSystem",
+    "build_id": 185653,
+    "build_number": 9,
+    "build_commit": "1ab953a56a3629e68cdb7c69226645dafd738f19",
+    "description_url": "https://poggit.pmmp.io/r/254361",
+    "icon_url": "https://raw.githubusercontent.com/Jorgebyte/KitSystem/1ab953a56a3629e68cdb7c69226645dafd738f19/Icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/254363",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1742285518,
+    "state": 5,
+    "last_state_change_date": 1742831957,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Jorgebyte"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12585,
+            "repo_id": 649339852,
+            "repo_name": "LatamPMDevs/Commando",
+            "repo_path": "",
+            "build_commit": "adc7b7e14a86e7e36ea32024d6fba3cace1b72e9",
+            "build_id": 159643
+        },
+        {
+            "name": "languages",
+            "project_id": 10928,
+            "repo_id": 479753777,
+            "repo_name": "IvanCraft623/languages",
+            "repo_path": "",
+            "build_commit": "b4c0fdf09da84c477aef9ac8b8b9ca76779cd0ce",
+            "build_id": 157385
+        },
+        {
+            "name": "libEasyUI",
+            "project_id": 7632,
+            "repo_id": 281477433,
+            "repo_name": "dresnite/easyui",
+            "repo_path": "",
+            "build_commit": "1ff6a12b00ad6741217b25d200d4a0d564dee995",
+            "build_id": 166263
+        },
+        {
+            "name": "item-serialize-utils",
+            "project_id": 13579,
+            "repo_id": 760325012,
+            "repo_name": "presentkim-pm/item-serialize-utils",
+            "repo_path": "",
+            "build_commit": "1f55c1afd29f7b130aaf66803d0b46d797447050",
+            "build_id": 184201
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "9a22d3aa3a74d195b2c4ee52fbbb121a2c270dbe",
+            "build_id": 172169
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        }
+    ]
+}

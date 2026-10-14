@@ -1,0 +1,82 @@
+{
+    "id": 13525,
+    "name": "AmazingSell",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AmazingSell/1.0.0",
+    "tagline": "SellAll, SellInv, SellHand",
+    "artifact_url": "https://poggit.pmmp.io/r/247491",
+    "downloads": 223,
+    "score": null,
+    "repo_id": 851935492,
+    "repo_name": "CosmicDevTeam/AmazingSell",
+    "project_id": 14216,
+    "project_name": "AmazingSell",
+    "build_id": 181073,
+    "build_number": 4,
+    "build_commit": "d4f076efa4b8c2c39b3ddfc1f05e30775f6a190d",
+    "description_url": "https://poggit.pmmp.io/r/247490",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1725473215,
+    "state": 5,
+    "last_state_change_date": 1728967222,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "CosmicDevTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "800f8c34f23e2aa1805b0dd97a5f47e0b1979bb9",
+            "build_id": 156926
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "id": 4318,
+    "name": "EasyHomesTeleportWarmup",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EasyHomesTeleportWarmup/1.0.0",
+    "tagline": "Add warm-up timer to EasyHomes whereby players need to wait for a certain time period before they get teleported.",
+    "artifact_url": "https://poggit.pmmp.io/r/85032",
+    "downloads": 1849,
+    "score": null,
+    "repo_id": 261132730,
+    "repo_name": "AntiCores/EasyHomesTeleportWarmup",
+    "project_id": 6867,
+    "project_name": "EasyHomesTeleportWarmup",
+    "build_id": 76921,
+    "build_number": 2,
+    "build_commit": "5a978a8d598fd280b44d4de63a5049727a0d4e53",
+    "description_url": "https://poggit.pmmp.io/r/85585",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588600248,
+    "state": 5,
+    "last_state_change_date": 1588828888,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EasyHomes",
+            "version": "3.0.0",
+            "depRelId": 4330,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "JackMD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

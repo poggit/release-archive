@@ -1,0 +1,62 @@
+{
+    "id": 14140,
+    "name": "ClearLagg",
+    "version": "1.3.3",
+    "html_url": "https://poggit.pmmp.io/p/ClearLagg/1.3.3",
+    "tagline": "A plugin to reduce lag by clearing dropped items.",
+    "artifact_url": "https://poggit.pmmp.io/r/258270",
+    "downloads": 387,
+    "score": null,
+    "repo_id": 816294009,
+    "repo_name": "ClousClouds/ClearLagg",
+    "project_id": 13940,
+    "project_name": "ClearLagg",
+    "build_id": 188282,
+    "build_number": 199,
+    "build_commit": "ec8e24461f82b95f42c7baa1b563e80be3c054f9",
+    "description_url": "https://poggit.pmmp.io/r/258267",
+    "icon_url": "https://raw.githubusercontent.com/ClousClouds/ClearLagg/ec8e24461f82b95f42c7baa1b563e80be3c054f9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/258269",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1754048194,
+    "state": 5,
+    "last_state_change_date": 1754369214,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "ClearLag",
+        "ClearLagg"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AzliRynz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

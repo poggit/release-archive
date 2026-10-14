@@ -1,0 +1,51 @@
+{
+    "id": 3010,
+    "name": "MobStacker",
+    "version": "0.2.3",
+    "html_url": "https://poggit.pmmp.io/p/MobStacker/0.2.3",
+    "tagline": "a super simple but highly effective plugin designed to reduce lag both for the server and clients.",
+    "artifact_url": "https://poggit.pmmp.io/r/59807",
+    "downloads": 4105,
+    "score": 4,
+    "repo_id": 189791072,
+    "repo_name": "UnknownOre/MobStacker",
+    "project_id": 5104,
+    "project_name": "MobStacker",
+    "build_id": 60399,
+    "build_number": 31,
+    "build_commit": "956d2416ea4b68e2fb87694790e69e00477e9a1f",
+    "description_url": "https://poggit.pmmp.io/r/59804",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/59806",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1559911763,
+    "state": 5,
+    "last_state_change_date": 1559992212,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.8.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "UnknownOre"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

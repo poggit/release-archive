@@ -1,0 +1,58 @@
+{
+    "id": 10292,
+    "name": "GuardianJoin",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/GuardianJoin/0.0.1",
+    "tagline": "Show Guardian Curse effect when player joins server",
+    "artifact_url": "https://poggit.pmmp.io/r/186800",
+    "downloads": 273,
+    "score": null,
+    "repo_id": 515288538,
+    "repo_name": "nhanaz-pm-pl/GuardianJoin",
+    "project_id": 11588,
+    "project_name": "GuardianJoin",
+    "build_id": 140710,
+    "build_number": 2,
+    "build_commit": "4b4d35845a9e190ef12f19cc99122b033bbf8a2b",
+    "description_url": "https://poggit.pmmp.io/r/186799",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/GuardianJoin/4b4d35845a9e190ef12f19cc99122b033bbf8a2b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1658189267,
+    "state": 5,
+    "last_state_change_date": 1659485954,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "guardianjoin",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

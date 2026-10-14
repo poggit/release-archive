@@ -1,0 +1,60 @@
+{
+    "id": 8742,
+    "name": "ErrorLog",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/ErrorLog/1.0",
+    "tagline": "Log errors into a file",
+    "artifact_url": "https://poggit.pmmp.io/r/158977",
+    "downloads": 114,
+    "score": 5,
+    "repo_id": 453452817,
+    "repo_name": "AkmalFairuz/ErrorLog",
+    "project_id": 10470,
+    "project_name": "ErrorLog",
+    "build_id": 122173,
+    "build_number": 2,
+    "build_commit": "95cc7bc15aafbfe4e63d41aa047aa9bf47975559",
+    "description_url": "https://poggit.pmmp.io/r/158979",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643475402,
+    "state": 5,
+    "last_state_change_date": 1644639856,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "error",
+        "log",
+        "logger",
+        "logging"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AkmalFairuz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,67 @@
+{
+    "id": 7390,
+    "name": "OTroll",
+    "version": "1.0.0-alpha",
+    "html_url": "https://poggit.pmmp.io/p/OTroll/1.0.0-alpha",
+    "tagline": "The troll plugin with the most features and a modern GUI interface for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/137480",
+    "downloads": 721,
+    "score": 5,
+    "repo_id": 396585352,
+    "repo_name": "SpiceX/OTroll",
+    "project_id": 9520,
+    "project_name": "OTroll",
+    "build_id": 109201,
+    "build_number": 7,
+    "build_commit": "899e686512ace242c795f27e174518544a274e30",
+    "description_url": "https://poggit.pmmp.io/r/137479",
+    "icon_url": "https://raw.githubusercontent.com/SpiceX/OTroll/899e686512ace242c795f27e174518544a274e30/logo-min.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1629083142,
+    "state": 5,
+    "last_state_change_date": 1629083351,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "admin-fun",
+        "otroll",
+        "troll"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SpiceX"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

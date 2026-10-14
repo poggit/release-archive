@@ -1,0 +1,66 @@
+{
+    "id": 11458,
+    "name": "TextReplacer",
+    "version": "1.3.0",
+    "html_url": "https://poggit.pmmp.io/p/TextReplacer/1.3.0",
+    "tagline": "Replaces text with new custom text.",
+    "artifact_url": "https://poggit.pmmp.io/r/209219",
+    "downloads": 242,
+    "score": null,
+    "repo_id": 186387616,
+    "repo_name": "HBIDamian/TextReplacer",
+    "project_id": 5013,
+    "project_name": "TextReplacer",
+    "build_id": 155858,
+    "build_number": 12,
+    "build_commit": "d740e6d80bdfedf282ab816ba03fcca319a9963d",
+    "description_url": "https://poggit.pmmp.io/r/209216",
+    "icon_url": "https://raw.githubusercontent.com/HBIDamian/TextReplacer/d740e6d80bdfedf282ab816ba03fcca319a9963d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209218",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685670467,
+    "state": 5,
+    "last_state_change_date": 1685675325,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "emoji",
+        "emojis",
+        "text",
+        "textreplacer",
+        "words"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HBIDamian"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

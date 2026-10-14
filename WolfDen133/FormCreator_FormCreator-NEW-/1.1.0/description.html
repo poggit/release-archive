@@ -1,0 +1,93 @@
+<p><a href="https://poggit.pmmp.io/p/FormCreator" rel="nofollow"><img src="https://camo.githubusercontent.com/d8d114e216189d50be238aeb6565545eb8537a826fd85f393753facd7b17d472/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f466f726d43726561746f72" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/FormCreator" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-formcreator-new" class="anchor" href="#formcreator-new" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FormCreator (NEW)</h1>
+<p>A simple plugin for creating simple forms through config</p>
+<p>WildCards currently don't refresh so don't use them.</p>
+<h2>
+<a id="user-content-info" class="anchor" href="#info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Info</h2>
+<p>This is a simple plugin to create simple forms using config, if you want to create forms easly then this is the plugin for you.</p>
+<p>The way you use it is, you open config (You can also edit the system messages in there) and under <code>forms:</code> you can create your forms, there is already an example form in there.</p>
+<p>If you find any bugs report them <a href="https://github.com/WolfDen133/WFT/issues">here</a>.</p>
+<h2>
+<a id="user-content-example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h2>
+<div class="highlight highlight-source-yaml"><pre>  <span class="pl-ent">example</span>:
+  
+    <span class="pl-ent">command</span>:
+      <span class="pl-ent">label</span>: <span class="pl-s"><span class="pl-pds">"</span>openexample<span class="pl-pds">"</span></span>
+      <span class="pl-ent">description</span>: <span class="pl-s"><span class="pl-pds">"</span>Opens the example ui<span class="pl-pds">"</span></span>
+      <span class="pl-ent">permission</span>: <span class="pl-s"><span class="pl-pds">"</span>example.command.use<span class="pl-pds">"</span></span>
+
+    <span class="pl-ent">title</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;eHello world<span class="pl-pds">"</span></span>
+    <span class="pl-ent">content</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;aHello {PLAYER}! :) {LINE} &amp;bOnline players&amp;7: &amp;l&amp;3{ONLINE_PLAYERS}&amp;8/&amp;3{MAX_PLAYERS} {LINE}{LINE} This plugin is cool :)<span class="pl-pds">"</span></span>
+
+    <span class="pl-ent">buttons</span>:
+
+      <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">&amp;eButton 1{LINE}&amp;eClick me!!</span><span class="pl-pds">"</span></span>:
+
+        <span class="pl-ent">image-type</span>: <span class="pl-c1">0</span>
+        <span class="pl-ent">image-path</span>: <span class="pl-s"><span class="pl-pds">"</span>textures/ui/MashupIcon<span class="pl-pds">"</span></span>
+
+        <span class="pl-ent">commands</span>:
+          - <span class="pl-ent">label</span>: <span class="pl-s"><span class="pl-pds">"</span>title {player} title Welcome!<span class="pl-pds">"</span></span>
+            <span class="pl-ent">sender</span>: <span class="pl-s"><span class="pl-pds">"</span>console<span class="pl-pds">"</span></span>
+            
+          - <span class="pl-ent">label</span>: <span class="pl-s"><span class="pl-pds">"</span>say &amp;bHello {player}!<span class="pl-pds">"</span></span>
+            <span class="pl-ent">sender</span>: <span class="pl-s"><span class="pl-pds">"</span>player<span class="pl-pds">"</span></span>
+
+
+      <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">&amp;cButton 2</span><span class="pl-pds">"</span></span>:
+        <span class="pl-ent">commands</span>:
+          - <span class="pl-ent">label</span>: <span class="pl-s"><span class="pl-pds">"</span>title {player} title Awesome!<span class="pl-pds">"</span></span>
+            <span class="pl-ent">sender</span>: <span class="pl-s"><span class="pl-pds">"</span>console<span class="pl-pds">"</span></span>
+
+          - <span class="pl-ent">label</span>: <span class="pl-s"><span class="pl-pds">"</span>say &amp;bThis plugin is cool!<span class="pl-pds">"</span></span>
+            <span class="pl-ent">sender</span>: <span class="pl-s"><span class="pl-pds">"</span>player<span class="pl-pds">"</span></span> </pre></div>
+<h2>
+<a id="user-content-wild-cards" class="anchor" href="#wild-cards" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wild-Cards</h2>
+<table>
+<thead>
+<tr>
+<th>WildCard</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{PLAYER}</code></td>
+<td>Opening player name</td>
+</tr>
+<tr>
+<td><code>{LINE}</code></td>
+<td>Line break</td>
+</tr>
+<tr>
+<td><code>{ONLINE_PLAYERS}</code></td>
+<td>Current online player count</td>
+</tr>
+<tr>
+<td><code>{MAX_PLAYERS}</code></td>
+<td>Maximum online player count</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<blockquote>
+<p>This will open the form with the name <code>$formname</code> to the player <code>$player</code></p>
+</blockquote>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">getServer</span>()-&gt;<span class="pl-en">getPluginManager</span>(<span class="pl-s">"FormCreator"</span>)-&gt;<span class="pl-en">openForm</span>(<span class="pl-s1"><span class="pl-c1">$</span>player</span>, <span class="pl-s1"><span class="pl-c1">$</span>formname</span>);</pre></div>
+<blockquote>
+<p>If you wish to add any more wild cards (string replacements e.g. "{PLAYER}" will replace to the player name)</p>
+</blockquote>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">getServer</span>()-&gt;<span class="pl-en">getPluginManager</span>(<span class="pl-s">"FormCreator"</span>)-&gt;<span class="pl-en">addWildCard</span>(<span class="pl-s">"{FIND}"</span>, <span class="pl-s">"{REPLACE}"</span>);</pre></div>
+<h2>
+<a id="user-content-todo" class="anchor" href="#todo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TODO</h2>
+<ul>
+<li>Custom forms</li>
+<li>Advanced output cases</li>
+<li>Code cleanup</li>
+</ul>
+<h2>
+<a id="user-content-thanks" class="anchor" href="#thanks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Thanks</h2>
+<p>This plugin was fully hand coded by WolfDen133, so come to me for help, my discord is <a href="https://dsc.bio/WolfDen133" rel="nofollow">here</a>.</p>
+<p>All of the code is commented so feel free to look at the code.</p>

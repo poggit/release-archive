@@ -1,0 +1,60 @@
+<h2>
+<a id="user-content-description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h2>
+<p>Detects the number of chests around you and tells you the number of blocks between you and the nearest one.</p>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<h3>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config:</h3>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>The id and meta of the item</td>
+<td>455:0</td>
+</tr>
+<tr>
+<td>radius</td>
+<td>The radius of detection</td>
+<td>70</td>
+</tr>
+<tr>
+<td>repeat</td>
+<td>The time between each search in seconds (the lower it is, the more risk there is of lag; Recommanded: 3)</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>
+<a id="user-content-messages" class="anchor" href="#messages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Messages:</h3>
+<p>Tags:</p>
+<ul>
+<li>{chestCount} to indicate the number of vaults around the player.</li>
+<li>{chestDistance} to indicate the distance between player and the chest.</li>
+<li>{lineBreak} to make a line break.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>no-chest</td>
+<td>No chest around you</td>
+</tr>
+<tr>
+<td>chest-detected</td>
+<td>There are {chestCount} chest(s) near you...{lineBreak}The closest chest near you is at {chestDistance} block(s) !</td>
+</tr>
+</tbody>
+</table>

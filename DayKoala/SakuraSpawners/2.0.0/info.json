@@ -1,0 +1,69 @@
+{
+    "id": 11795,
+    "name": "SakuraSpawners",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SakuraSpawners/2.0.0",
+    "tagline": "Monster Spawner plugin with some different and useful functions.",
+    "artifact_url": "https://poggit.pmmp.io/r/213672",
+    "downloads": 1948,
+    "score": 5,
+    "repo_id": 597615016,
+    "repo_name": "DayKoala/SakuraSpawners",
+    "project_id": 12206,
+    "project_name": "SakuraSpawners",
+    "build_id": 157996,
+    "build_number": 18,
+    "build_commit": "a56f0e9684e8e209929cfd5a6065c70be2ffe305",
+    "description_url": "https://poggit.pmmp.io/r/213669",
+    "icon_url": "https://raw.githubusercontent.com/DayKoala/SakuraSpawners/a56f0e9684e8e209929cfd5a6065c70be2ffe305/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/213671",
+    "license": "GPL-2.0-or-later",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687847038,
+    "state": 5,
+    "last_state_change_date": 1687852597,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "php",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DayKoala"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

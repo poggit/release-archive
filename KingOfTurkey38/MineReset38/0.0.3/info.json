@@ -1,0 +1,97 @@
+{
+    "id": 10174,
+    "name": "minereset38",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/minereset38/0.0.3",
+    "tagline": "High performance mine reset plugin for PocketMine-MP 4.0.0",
+    "artifact_url": "https://poggit.pmmp.io/r/184645",
+    "downloads": 972,
+    "score": null,
+    "repo_id": 491595459,
+    "repo_name": "KingOfTurkey38/MineReset38",
+    "project_id": 11137,
+    "project_name": "MineReset38",
+    "build_id": 139161,
+    "build_number": 13,
+    "build_commit": "10c2b243ab4b79d3c56b97ecb33cf7e4bb58f0f5",
+    "description_url": "https://poggit.pmmp.io/r/184642",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/184644",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656879146,
+    "state": 5,
+    "last_state_change_date": 1656946853,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "mine",
+        "minereset",
+        "prison",
+        "prisons",
+        "reset"
+    ],
+    "api": [
+        {
+            "from": "4.3.1",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KingOfTurkey38"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "05f14d8d5122edb2e0e4058770f7f36756062b9c",
+            "build_id": 136894
+        },
+        {
+            "name": "await-std",
+            "project_id": 6900,
+            "repo_id": 262278389,
+            "repo_name": "SOF3/await-std",
+            "repo_path": "",
+            "build_commit": "6abd0dc7c509545eafefd38c30729467c4a647e0",
+            "build_id": 134382
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

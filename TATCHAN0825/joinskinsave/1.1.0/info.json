@@ -1,0 +1,58 @@
+{
+    "id": 6572,
+    "name": "joinskinsave",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/joinskinsave/1.1.0",
+    "tagline": "Save participants' skins when they join",
+    "artifact_url": "https://poggit.pmmp.io/r/124645",
+    "downloads": 2120,
+    "score": 5,
+    "repo_id": 361375049,
+    "repo_name": "TATCHAN0825/joinskinsave",
+    "project_id": 8909,
+    "project_name": "joinskinsave",
+    "build_id": 101624,
+    "build_number": 9,
+    "build_commit": "07b911da9d2a9aba4481547968bea91a1afe90cc",
+    "description_url": "https://poggit.pmmp.io/r/124647",
+    "icon_url": "https://raw.githubusercontent.com/TATCHAN0825/joinskinsave/07b911da9d2a9aba4481547968bea91a1afe90cc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1619965942,
+    "state": 5,
+    "last_state_change_date": 1620674117,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "suinua"
+        ],
+        "Contributor": [
+            "pjz9n"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

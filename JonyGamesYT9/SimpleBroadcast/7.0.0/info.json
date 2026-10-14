@@ -1,0 +1,65 @@
+{
+    "id": 12942,
+    "name": "SimpleBroadcast",
+    "version": "7.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleBroadcast/7.0.0",
+    "tagline": "An easy-to-use automated messaging system",
+    "artifact_url": "https://poggit.pmmp.io/r/236430",
+    "downloads": 633,
+    "score": 5,
+    "repo_id": 383687010,
+    "repo_name": "JonyGamesYT9/SimpleBroadcast",
+    "project_id": 9225,
+    "project_name": "SimpleBroadcast",
+    "build_id": 173628,
+    "build_number": 56,
+    "build_commit": "05aac11b07c086e3a9e13f5124b2e1d0f12015e6",
+    "description_url": "https://poggit.pmmp.io/r/236427",
+    "icon_url": "https://raw.githubusercontent.com/JonyGamesYT9/SimpleBroadcast/05aac11b07c086e3a9e13f5124b2e1d0f12015e6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/236429",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1712437345,
+    "state": 5,
+    "last_state_change_date": 1712707829,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "broadcast"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JonyGamesYT9"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

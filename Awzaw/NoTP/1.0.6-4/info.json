@@ -1,0 +1,62 @@
+{
+    "id": 1103,
+    "name": "NoTP",
+    "version": "1.0.6-4",
+    "html_url": "https://poggit.pmmp.io/p/NoTP/1.0.6-4",
+    "tagline": "Control who can teleport whom",
+    "artifact_url": "https://poggit.pmmp.io/r/23257",
+    "downloads": 159,
+    "score": null,
+    "repo_id": 59972220,
+    "repo_name": "Awzaw/NoTP",
+    "project_id": 12,
+    "project_name": "NoTP",
+    "build_id": 35917,
+    "build_number": 15,
+    "build_commit": "249ee850433d7c4ff70b3c6b3148816043ab61fc",
+    "description_url": "https://poggit.pmmp.io/r/23254",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/NoTP/249ee850433d7c4ff70b3c6b3148816043ab61fc/notp.png",
+    "changelog_url": "https://poggit.pmmp.io/r/23256",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518365874,
+    "state": 5,
+    "last_state_change_date": 1518365877,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "teleport",
+        "tp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

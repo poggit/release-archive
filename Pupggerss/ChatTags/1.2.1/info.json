@@ -1,0 +1,82 @@
+{
+    "id": 14014,
+    "name": "ChatTags",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/ChatTags/1.2.1",
+    "tagline": "Custom Chat Prefixes",
+    "artifact_url": "https://poggit.pmmp.io/r/256025",
+    "downloads": 45,
+    "score": null,
+    "repo_id": 980921219,
+    "repo_name": "Pupggerss/ChatTags",
+    "project_id": 14718,
+    "project_name": "ChatTags",
+    "build_id": 186797,
+    "build_number": 13,
+    "build_commit": "d6b15377af9931515fbc4cb96a17a137eed523fa",
+    "description_url": "https://poggit.pmmp.io/r/256024",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1747746614,
+    "state": 5,
+    "last_state_change_date": 1748364275,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Pupggerss"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "70082f430c722b868dfdfeab7337ba6b944d21dd",
+            "build_id": 185750
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        }
+    ]
+}

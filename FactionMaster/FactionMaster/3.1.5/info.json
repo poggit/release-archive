@@ -1,0 +1,128 @@
+{
+    "id": 8353,
+    "name": "FactionMaster",
+    "version": "3.1.5",
+    "html_url": "https://poggit.pmmp.io/p/FactionMaster/3.1.5",
+    "tagline": "Full configurable and modulable faction plugin with a lot of configuration",
+    "artifact_url": "https://poggit.pmmp.io/r/153230",
+    "downloads": 422,
+    "score": 5,
+    "repo_id": 369857329,
+    "repo_name": "FactionMaster/FactionMaster",
+    "project_id": 9615,
+    "project_name": "FactionMaster",
+    "build_id": 118739,
+    "build_number": 176,
+    "build_commit": "044835159df2d6f08dc004ec15155ecb9a77ee2d",
+    "description_url": "https://poggit.pmmp.io/r/153330",
+    "icon_url": "https://raw.githubusercontent.com/FactionMaster/FactionMaster/044835159df2d6f08dc004ec15155ecb9a77ee2d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/153332",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1639921070,
+    "state": 5,
+    "last_state_change_date": 1639984570,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "alliance",
+        "chat",
+        "extension",
+        "faction",
+        "leaderboard",
+        "modular",
+        "pocketmine",
+        "purechat",
+        "scoreboard",
+        "scorehud",
+        "translation"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ScoreHud",
+            "version": "6.3.1",
+            "depRelId": 7108,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "HugoLeBoss91",
+            "AIPTU"
+        ],
+        "Translator": [
+            "xAliTura01",
+            "RaidoxxMPH",
+            "MrBlasyMSK"
+        ],
+        "Collaborator": [
+            "ShockedPlot7560"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "6b3b6e15fdbd3cdef44b52cbd56023b76dddac60",
+            "build_id": 111074
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "260f0cee8615ac6eedc46922a5e7b4319214f8e4",
+            "build_id": 108000
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "a585d75533030579ffef873c1eebbe73c3b17661",
+            "build_id": 113967
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "id": 5345,
+    "name": "ViewDistance",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ViewDistance/1.0.0",
+    "tagline": "A simple pocketmine plugin that allows players to change their view distance with a command",
+    "artifact_url": "https://poggit.pmmp.io/r/103724",
+    "downloads": 154,
+    "score": 4,
+    "repo_id": 298676181,
+    "repo_name": "EPT8TPE/ViewDistance",
+    "project_id": 7783,
+    "project_name": "ViewDistance",
+    "build_id": 88544,
+    "build_number": 11,
+    "build_commit": "468c09e0e8bb15805019064ea3dd429499ccac5b",
+    "description_url": "https://poggit.pmmp.io/r/103723",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1601152859,
+    "state": 5,
+    "last_state_change_date": 1602118607,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "distance",
+        "far",
+        "render",
+        "renderdistance",
+        "view",
+        "viewdistance",
+        "vision"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "EPT8TPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

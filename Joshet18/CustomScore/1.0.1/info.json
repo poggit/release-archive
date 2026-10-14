@@ -1,0 +1,76 @@
+{
+    "id": 12189,
+    "name": "CustomScore",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/CustomScore/1.0.1",
+    "tagline": "a plugin that allows you to display and customize scoreboards to your liking",
+    "artifact_url": "https://poggit.pmmp.io/r/219510",
+    "downloads": 6917,
+    "score": 5,
+    "repo_id": 653493843,
+    "repo_name": "Joshet18/CustomScore",
+    "project_id": 12628,
+    "project_name": "CustomScore",
+    "build_id": 161553,
+    "build_number": 8,
+    "build_commit": "c1eef7650bfc89565fbcfde01dc6adcf67026887",
+    "description_url": "https://poggit.pmmp.io/r/219507",
+    "icon_url": "https://raw.githubusercontent.com/Joshet18/CustomScore/c1eef7650bfc89565fbcfde01dc6adcf67026887/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/219509",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691642698,
+    "state": 5,
+    "last_state_change_date": 1691659903,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "Scoreboard"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "RankSystem",
+            "version": "1.1.3",
+            "depRelId": 11942,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": false
+        },
+        {
+            "name": "LunarRanks",
+            "version": "2.1.1",
+            "depRelId": 12162,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Joshet18"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

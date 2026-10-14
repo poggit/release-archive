@@ -1,0 +1,86 @@
+{
+    "id": 2032,
+    "name": "Texter",
+    "version": "3.0.4",
+    "html_url": "https://poggit.pmmp.io/p/Texter/3.0.4",
+    "tagline": "This is a PocketMine-MP plugin that can add, edit, move and remove FloatingTextParticle.",
+    "artifact_url": "https://poggit.pmmp.io/r/45749",
+    "downloads": 380,
+    "score": null,
+    "repo_id": 109834830,
+    "repo_name": "fuyutsuki/Texter",
+    "project_id": 1101,
+    "project_name": "Texter",
+    "build_id": 52312,
+    "build_number": 97,
+    "build_commit": "1d16b75b243dadac7fa5577989a33a9d4bb747ef",
+    "description_url": "https://poggit.pmmp.io/r/45746",
+    "icon_url": "https://raw.githubusercontent.com/fuyutsuki/Texter/1d16b75b243dadac7fa5577989a33a9d4bb747ef/assets/Logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/45748",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1542570154,
+    "state": 5,
+    "last_state_change_date": 1542590643,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floatingtextperticle"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "SuperAdam47",
+            "SuperYYT",
+            "IvanCraft623",
+            "minijaham",
+            "VicoSilalahi",
+            "No4NaMe",
+            "TERAMMII",
+            "DragonfireHD98"
+        ],
+        "Collaborator": [
+            "fuyutsuki",
+            "xxFLORII"
+        ],
+        "Contributor": [
+            "DaisukeDaisuke",
+            "JoshuaPHYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libform",
+            "project_id": 2234,
+            "repo_id": 125590119,
+            "repo_name": "fuyutsuki/libform",
+            "repo_path": "",
+            "build_commit": "14f7273181f8be77c309206d9bcaa73ff31add72",
+            "build_id": 52114
+        }
+    ]
+}

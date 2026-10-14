@@ -1,0 +1,76 @@
+{
+    "id": 6009,
+    "name": "AdminLogin",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AdminLogin/1.0.0",
+    "tagline": "A PocketMine-MP Plugin to Login your Admins, Moderators and other Teammates.",
+    "artifact_url": "https://poggit.pmmp.io/r/116137",
+    "downloads": 7074,
+    "score": 4,
+    "repo_id": 337507455,
+    "repo_name": "supercrafter333/AdminLogin",
+    "project_id": 8529,
+    "project_name": "AdminLogin",
+    "build_id": 96933,
+    "build_number": 7,
+    "build_commit": "c86feeb6861dc18947a668cdb487da3ffa76d19c",
+    "description_url": "https://poggit.pmmp.io/r/131295",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/AdminLogin/c86feeb6861dc18947a668cdb487da3ffa76d19c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614012332,
+    "state": 5,
+    "last_state_change_date": 1614012964,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

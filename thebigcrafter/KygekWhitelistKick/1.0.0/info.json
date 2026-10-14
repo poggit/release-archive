@@ -1,0 +1,81 @@
+{
+    "id": 5417,
+    "name": "KygekWhitelistKick",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KygekWhitelistKick/1.0.0",
+    "tagline": "Kicks not whitelisted players when server whitelist turned on",
+    "artifact_url": "https://poggit.pmmp.io/r/105393",
+    "downloads": 99,
+    "score": null,
+    "repo_id": 298542362,
+    "repo_name": "thebigcrafter/KygekWhitelistKick",
+    "project_id": 7786,
+    "project_name": "KygekWhitelistKick",
+    "build_id": 89698,
+    "build_number": 5,
+    "build_commit": "d6d53e237ce67f719abebbbd6055ecc04b3e65c6",
+    "description_url": "https://poggit.pmmp.io/r/108049",
+    "icon_url": "https://raw.githubusercontent.com/Kygekraqmak/KygekWhitelistKick/d6d53e237ce67f719abebbbd6055ecc04b3e65c6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1602508494,
+    "state": 5,
+    "last_state_change_date": 1604977543,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "autokick",
+        "kick",
+        "kygek",
+        "kygekautokick",
+        "kygekkick",
+        "kygekraqmak",
+        "kygekraqmakautokick",
+        "kygekraqmakkick",
+        "kygekraqmakwhitelist",
+        "kygekteamautokick",
+        "kygekteamkick",
+        "kygekteamwhitelist",
+        "kygekwhitelist",
+        "whitelist",
+        "whitelistkick"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "KygekDev",
+            "Kygekraqmak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

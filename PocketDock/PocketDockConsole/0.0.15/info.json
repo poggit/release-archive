@@ -1,0 +1,59 @@
+{
+    "id": 3177,
+    "name": "PocketDockConsole",
+    "version": "0.0.15",
+    "html_url": "https://poggit.pmmp.io/p/PocketDockConsole/0.0.15",
+    "tagline": "A web console that uses WebSockets",
+    "artifact_url": "https://poggit.pmmp.io/r/62440",
+    "downloads": 3107,
+    "score": 4,
+    "repo_id": 24833686,
+    "repo_name": "PocketDock/PocketDockConsole",
+    "project_id": 5328,
+    "project_name": "PocketDockConsole",
+    "build_id": 62119,
+    "build_number": 4,
+    "build_commit": "e1a17fac776a9bbfb2d74ff0bfff00e3246deee2",
+    "description_url": "https://poggit.pmmp.io/r/62439",
+    "icon_url": "https://raw.githubusercontent.com/PocketDock/PocketDockConsole/e1a17fac776a9bbfb2d74ff0bfff00e3246deee2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1563124348,
+    "state": 5,
+    "last_state_change_date": 1563128749,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.4.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "brandon15811",
+            "shoghicp"
+        ],
+        "Collaborator": [
+            "Humerus"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

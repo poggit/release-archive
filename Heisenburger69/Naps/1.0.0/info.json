@@ -1,0 +1,61 @@
+{
+    "id": 3489,
+    "name": "Naps",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Naps/1.0.0",
+    "tagline": "A simple plugin to send a message in chat whenever a player sleeps/wakes up",
+    "artifact_url": "https://poggit.pmmp.io/r/68993",
+    "downloads": 841,
+    "score": 5,
+    "repo_id": 220789682,
+    "repo_name": "Heisenburger69/Naps",
+    "project_id": 5776,
+    "project_name": "Naps",
+    "build_id": 66457,
+    "build_number": 2,
+    "build_commit": "71c566559e97696d95ef239725bc5b829048919f",
+    "description_url": "https://poggit.pmmp.io/r/68992",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1573464664,
+    "state": 5,
+    "last_state_change_date": 1573561556,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "bed",
+        "naps",
+        "roleplay",
+        "sleep",
+        "wakeup"
+    ],
+    "api": [
+        {
+            "from": "3.9.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Heisenburger69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,129 @@
+{
+    "id": 11865,
+    "name": "EconomyEnchant",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/EconomyEnchant/1.0.4",
+    "tagline": "a EconomyEnchant Shop in UI Or GUI",
+    "artifact_url": "https://poggit.pmmp.io/r/214843",
+    "downloads": 2280,
+    "score": 5,
+    "repo_id": 464841168,
+    "repo_name": "XanderID-MC/EconomyEnchant",
+    "project_id": 10731,
+    "project_name": "EconomyEnchant",
+    "build_id": 158728,
+    "build_number": 23,
+    "build_commit": "d677fad7a576a80e731a689063317597c08cec85",
+    "description_url": "https://poggit.pmmp.io/r/214840",
+    "icon_url": "https://raw.githubusercontent.com/XanderID/EconomyEnchant/d677fad7a576a80e731a689063317597c08cec85/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/214842",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688632040,
+    "state": 5,
+    "last_state_change_date": 1689322777,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "enchant",
+        "enchant-shop",
+        "pocketmine-mp",
+        "shop"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.1",
+            "depRelId": 11649,
+            "isHard": false
+        },
+        {
+            "name": "VanillaEC",
+            "version": "0.0.3",
+            "depRelId": 11728,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "SOF3"
+        ],
+        "Collaborator": [
+            "XanderID"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "26fac36e585c1b6d5a10a99bdcb70f6539b397aa",
+            "build_id": 157517
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 12635,
+            "repo_id": 653680934,
+            "repo_name": "LatamPMDevs/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c3a71ae577df5b5f174e4c2bb99d76182d05b420",
+            "build_id": 157396
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 12634,
+            "repo_id": 653680575,
+            "repo_name": "LatamPMDevs/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "44cbbec61a047e3120884f8410c154a4182c4426",
+            "build_id": 157397
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "800f8c34f23e2aa1805b0dd97a5f47e0b1979bb9",
+            "build_id": 156926
+        }
+    ]
+}

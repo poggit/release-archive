@@ -1,0 +1,161 @@
+<h1>
+<a id="user-content-about-it" class="anchor" href="#about-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About it</h1>
+<p>If you use this plugin, please consider to share (By opening an issue) your entities, skins or model.
+It will encourage me to continue and try to put new functionalities.</p>
+<ul>
+<li>
+<em>Main use for the plugin was for my child</em> , i continue only for <strong>you</strong>
+If you wanna help me, you will find on what i'm stuck at the bottom of the page</li>
+</ul>
+<p><strong>Main idea and code - Thanks to Enes5519</strong></p>
+<p><a href="https://github.com/Enes5519/PlayerHead/">https://github.com/Enes5519/PlayerHead/</a></p>
+<hr>
+<h1>
+<a id="user-content-myentities" class="anchor" href="#myentities" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MyEntities</h1>
+<p>Do you need to add entity and manage it easily , and add more blocks/items to your server ?
+Want a life dispenser ? A small flower pot ? Or just some popcorn ?</p>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features:</h2>
+<ul>
+<li>
+<p>!! Some examples inclued !!</p>
+</li>
+<li>
+<p>Can be run from console</p>
+</li>
+<li>
+<p>Automatic creation of entity in config file when Skin in folder and not exist (I'm so lazy ...)</p>
+</li>
+<li>
+<p>Items/entities can be given to players</p>
+</li>
+<li>
+<p>You can place entities with custom head texture EASILY</p>
+</li>
+<li>
+<p>You can place custom entities, with geometry</p>
+</li>
+<li>
+<p>Powerful automatic verification of your config file (See Screenshot) -&gt; Change 'log-level' in config file for more informations</p>
+</li>
+<li>
+<p>Custom parameters for entity:</p>
+<ul>
+<li>Health</li>
+<li>Unbreakable</li>
+<li>3 Sizes (Head Entity): Small / Normal / Block</li>
+<li>Entity can be 'usable'
+<ul>
+<li>Max time usable</li>
+<li>Actions (Infinite - Array): Message / Teleport / Heal / Effects / Give items</li>
+<li>One random action from all actions possible
+<ul>
+<li>Support set of action (Set 1: Message + item / Set2: Message + item + effect ...) when random action enabled</li>
+</ul>
+</li>
+<li>Change skin when no more usable</li>
+<li>Auto destruction when no more usable</li>
+<li>Auto destruction message</li>
+<li>Show message when used</li>
+<li>Show message when empty</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Item to help :</p>
+<ul>
+<li>Remover (To remove unbreakable entity)</li>
+<li>Rotator (Change orientation of entity: 45° or 90°)</li>
+</ul>
+</li>
+</ul>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<ul>
+<li><strong>/mye entity [SkinName] {PlayerName} : Give player headObj</strong></li>
+<li><strong>/mye item remover {PlayerName} : Give item Remover</strong></li>
+<li><strong>/mye item rotator {PlayerName} : Give item Rotator</strong></li>
+</ul>
+<p>(PlayerName is optional)</p>
+<h1>
+<a id="user-content-config-extract-" class="anchor" href="#config-extract-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config extract :</h1>
+<pre><code>skins:
+  book_1:
+    type: 'head'
+    name: 'Nice Book'
+    param:
+      size: 'small'
+      health: 1
+      unbreakable: 1
+      usable:
+        #Number usable time
+        time: 3
+        #New Skin when empty ? (Skin name must be '*_empty.png')
+        skinchange: 1
+        #Automatic Reload in second ? 0 = Never / Max 300 (5min)
+        reload: 0
+        #Destruction when empty ? 0 = No
+        destruction: 0
+        #Message when using (Empty/remaining ...)?
+        use_msg: 1
+        #Custom message when descruction happen
+        destruction_msg: "Oups, sorry ..."
+        #When used, what it does ?
+		# Heal 1 = Half Hearth
+		# Effects: EFFECT/Amplifier/Duration   |   Items: ID/meta/count
+        # action: '{"heal": 1, "teleport": "1;2;3", "effect": "1/1/30;2/1/60;3/1/80", "item": "1/1/30;2/1/60;3/1/20", "msg": "May the force be with you ..."}'
+        # action: '{"Set1":{"heal": 4, "item": "1/1/30;2/1/60;3/1/80"}, "Set2":{"heal":8,"msg":"Big Heal;Dude;You like that ?" }}'
+		action: '{"heal": 1, "effect": "1/1/30;2/1/60;3/1/80", "msg": "May the force be with you ..."}'
+        #choose one random action ?
+        action_random: 1
+</code></pre>
+<h1>
+<a id="user-content-screenshot" class="anchor" href="#screenshot" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Screenshot</h1>
+<p><a href="https://camo.githubusercontent.com/37ce8e9fcf5637a130a5acb8d23fa85247a4a9ca/68747470733a2f2f692e6962622e636f2f397771347337522f706c61796572686561646f626a2d56312e706e67" target="_blank" rel="nofollow"><img height="200" src="https://camo.githubusercontent.com/37ce8e9fcf5637a130a5acb8d23fa85247a4a9ca/68747470733a2f2f692e6962622e636f2f397771347337522f706c61796572686561646f626a2d56312e706e67" data-canonical-src="https://i.ibb.co/9wq4s7R/playerheadobj-V1.png" style="max-width:100%;"></a></p>
+<p><a href="https://camo.githubusercontent.com/89cecbfb2c1351eb5441513b965e912ca38cebf1/68747470733a2f2f692e6962622e636f2f7767515a306d392f706c61796572686561646f626a2d56322e706e67" target="_blank" rel="nofollow"><img height="200" src="https://camo.githubusercontent.com/89cecbfb2c1351eb5441513b965e912ca38cebf1/68747470733a2f2f692e6962622e636f2f7767515a306d392f706c61796572686561646f626a2d56322e706e67" data-canonical-src="https://i.ibb.co/wgQZ0m9/playerheadobj-V2.png" style="max-width:100%;"></a></p><p><a href="https://camo.githubusercontent.com/e6f4e11be6ff3cac49b32a4e080e13bb331e71b3/68747470733a2f2f692e6962622e636f2f6474706a5138682f706c61796572686561646f626a2d56322d757361626c652e706e67" target="_blank" rel="nofollow"><img height="200" src="https://camo.githubusercontent.com/e6f4e11be6ff3cac49b32a4e080e13bb331e71b3/68747470733a2f2f692e6962622e636f2f6474706a5138682f706c61796572686561646f626a2d56322d757361626c652e706e67" data-canonical-src="https://i.ibb.co/dtpjQ8h/playerheadobj-V2-usable.png" style="max-width:100%;"></a></p>
+<p><a href="https://camo.githubusercontent.com/b7a4fe298b5ed80fbd49ebc01f99f4f100d9ab5e/68747470733a2f2f692e6962622e636f2f6b6d4c6678716e2f706c61796572686561646f626a2d4c6f672d4578616d706c652e706e67" target="_blank" rel="nofollow"><img height="200" src="https://camo.githubusercontent.com/b7a4fe298b5ed80fbd49ebc01f99f4f100d9ab5e/68747470733a2f2f692e6962622e636f2f6b6d4c6678716e2f706c61796572686561646f626a2d4c6f672d4578616d706c652e706e67" data-canonical-src="https://i.ibb.co/kmLfxqn/playerheadobj-Log-Example.png" style="max-width:100%;"></a></p>
+(Inspired from ... HalfLife, please send me a new model/skin if you can ...)
+<p><a href="https://camo.githubusercontent.com/f6304fbf27f9fbfd812d49e2afcf73414b703b11/68747470733a2f2f692e6962622e636f2f6a7956725742792f4c6966652d44697370656e7365722d342e676966" target="_blank" rel="nofollow"><img height="200" src="https://camo.githubusercontent.com/f6304fbf27f9fbfd812d49e2afcf73414b703b11/68747470733a2f2f692e6962622e636f2f6a7956725742792f4c6966652d44697370656e7365722d342e676966" data-canonical-src="https://i.ibb.co/jyVrWBy/Life-Dispenser-4.gif" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-skins-credits" class="anchor" href="#skins-credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Skins Credits</h1>
+<p>Source / credits of the skin: <a href="https://minecraft-heads.com/" rel="nofollow">https://minecraft-heads.com/</a></p>
+<p>book: <a href="https://minecraft-heads.com/custom-heads/decoration/30771-old-book" rel="nofollow">https://minecraft-heads.com/custom-heads/decoration/30771-old-book</a></p>
+<p>bowl_pasta: <a href="https://minecraft-heads.com/custom-heads/food+&amp;+drinks/30178-bowl-of-pasta-with-tomato-sauce" rel="nofollow">https://minecraft-heads.com/custom-heads/food+&amp;+drinks/30178-bowl-of-pasta-with-tomato-sauce</a></p>
+<p>calice: <a href="https://minecraft-heads.com/custom-heads/decoration/883-golden-chalice" rel="nofollow">https://minecraft-heads.com/custom-heads/decoration/883-golden-chalice</a></p>
+<p>crate_locked: <a href="https://minecraft-heads.com/custom-heads/decoration/31223-locked-crate-gray" rel="nofollow">https://minecraft-heads.com/custom-heads/decoration/31223-locked-crate-gray</a></p>
+<p>bible: <a href="https://minecraft-heads.com/custom-heads/decoration/603-bible" rel="nofollow">https://minecraft-heads.com/custom-heads/decoration/603-bible</a></p>
+<hr>
+<h1>
+<a id="user-content-thanks-to" class="anchor" href="#thanks-to" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Thanks to</h1>
+<p>A big thanks to :</p>
+<ul>
+<li>HimbeersaftLP</li>
+<li>Kenn Fatt</li>
+<li>XenialDan (Major ReWrite)</li>
+</ul>
+<hr>
+<h1>
+<a id="user-content-working-on" class="anchor" href="#working-on" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Working On</h1>
+<h2>
+<a id="user-content-im-working-on" class="anchor" href="#im-working-on" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>I'm working on:</h2>
+<ul>
+<li>[ ] Control what's dropped when entity is killed</li>
+<li>[ ] New actions : item/block dropping - Money (Later)</li>
+<li>[ ] Prevent spam of the entity (per player) - (Thinking to use Tick number + Array NBT)</li>
+<li>[ ] Prevent spam of the entity (per Entity) - (Thinking to use Tick number)</li>
+<li>[ ] Looking how to add custom sound on use and empty (I like HalfLife sound :) )</li>
+</ul>
+<h2>
+<a id="user-content-im-stuck-on-help-needed" class="anchor" href="#im-stuck-on-help-needed" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>I'm stuck on (Help needed):</h2>
+<ul>
+<li>[x] Looking for information about: Entity act as a Block (Collision, breaking ...)</li>
+<li>[ ] Is it possible to added floating effect to the entity ? (Like a cloud)</li>
+<li>[ ] Looking for help for the reload function. I've to use a Task, but i want a task that check ALL of my entity that need to be updated, and not a task per entity</li>
+<li>[x] Looking to the right way to have the file CheckIn.php loaded</li>
+</ul>
+<h2>
+<a id="user-content-known-bug" class="anchor" href="#known-bug" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Known BUG</h2>
+<ul>
+<li>[ ] Orientation of normal and small entity when created is 90° instead of 45° (Don't know how to fix now, will check later)</li>
+</ul>

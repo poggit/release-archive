@@ -1,0 +1,60 @@
+{
+    "id": 4898,
+    "name": "XGTAntiXRay",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/XGTAntiXRay/1.0.0",
+    "tagline": "This plugin notifies the staff when someone breaks an ore",
+    "artifact_url": "https://poggit.pmmp.io/r/96158",
+    "downloads": 1819,
+    "score": 3,
+    "repo_id": 279630844,
+    "repo_name": "XGDavid/XGTAntiXRay",
+    "project_id": 7410,
+    "project_name": "XGTAntiXRay",
+    "build_id": 83805,
+    "build_number": 2,
+    "build_commit": "87d98835b59b147492d777c2db1bf655713363db",
+    "description_url": "https://poggit.pmmp.io/r/96157",
+    "icon_url": "https://raw.githubusercontent.com/XGDavid/XGTAntiXRay/87d98835b59b147492d777c2db1bf655713363db/xgtantixray.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1594743648,
+    "state": 5,
+    "last_state_change_date": 1595168375,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "antixray",
+        "xray",
+        "xgt",
+        "antihack"
+    ],
+    "api": [
+        {
+            "from": "3.14.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "XGDavid"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

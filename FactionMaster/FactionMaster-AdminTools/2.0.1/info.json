@@ -1,0 +1,51 @@
+{
+    "id": 9206,
+    "name": "FactionMasterAdminTools",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/FactionMasterAdminTools/2.0.1",
+    "tagline": "Extension which add an administration gestion",
+    "artifact_url": "https://poggit.pmmp.io/r/165625",
+    "downloads": 594,
+    "score": null,
+    "repo_id": 400874735,
+    "repo_name": "FactionMaster/FactionMaster-AdminTools",
+    "project_id": 9640,
+    "project_name": "FactionMaster-AdminTools",
+    "build_id": 126096,
+    "build_number": 3,
+    "build_commit": "4a0a24b5aab8690a2ece112be4789395e7da02db",
+    "description_url": "https://poggit.pmmp.io/r/165624",
+    "icon_url": "https://raw.githubusercontent.com/FactionMaster/FactionMaster-AdminTools/4a0a24b5aab8690a2ece112be4789395e7da02db/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646574492,
+    "state": 5,
+    "last_state_change_date": 1649973587,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ShockedPlot7560"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

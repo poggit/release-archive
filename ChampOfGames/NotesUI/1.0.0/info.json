@@ -1,0 +1,70 @@
+{
+    "id": 4075,
+    "name": "NotesUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/NotesUI/1.0.0",
+    "tagline": "Create notes ingame so you don't have to remeber everything.",
+    "artifact_url": "https://poggit.pmmp.io/r/80114",
+    "downloads": 2522,
+    "score": 4,
+    "repo_id": 248464862,
+    "repo_name": "ChampOfGames/NotesUI",
+    "project_id": 6503,
+    "project_name": "NotesUI",
+    "build_id": 73524,
+    "build_number": 11,
+    "build_commit": "8c450ebd8a6a2269bcdb1a9bc66130955a7eb0ce",
+    "description_url": "https://poggit.pmmp.io/r/91840",
+    "icon_url": "https://raw.githubusercontent.com/ChampOfGames/NotesUI/8c450ebd8a6a2269bcdb1a9bc66130955a7eb0ce/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1585478863,
+    "state": 5,
+    "last_state_change_date": 1585491605,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Notes",
+        "NotesUI",
+        "Plugin",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ChampOfGames"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

@@ -1,0 +1,219 @@
+<h3>
+<a id="user-content-operation-example" class="anchor" href="#operation-example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Operation example</h3>
+<p><a href="https://user-images.githubusercontent.com/38120936/96361661-92a9c980-1162-11eb-9130-5f3dea81c203.png" target="_blank" rel="nofollow"><img src="https://user-images.githubusercontent.com/38120936/96361661-92a9c980-1162-11eb-9130-5f3dea81c203.png" alt="mission" style="max-width:100%;"></a></p>
+<h3>
+<a id="user-content-command" class="anchor" href="#command" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command</h3>
+<table>
+<thead>
+<tr>
+<th>command name</th>
+<th>description</th>
+<th>permission</th>
+<th>alias</th>
+<th>player only</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mission</td>
+<td>Show mission</td>
+<td>mission.command.mission</td>
+<td>mi</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p>The <code>mission</code> command allows you to specify a name, ID, and Short ID as arguments.
+Returns a all missions list if no arguments are specified or the specified mission does not exist.</p>
+<h4>
+<a id="user-content-sub-command-mission" class="anchor" href="#sub-command-mission" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sub command (/mission)</h4>
+<table>
+<thead>
+<tr>
+<th>sub command name</th>
+<th>description</th>
+<th>permission</th>
+<th>alias</th>
+<th>player only</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>edit</td>
+<td>Edit mission</td>
+<td>mission.command.mission.edit</td>
+<td>None</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>setting</td>
+<td>Settings</td>
+<td>mission.command.mission.setting</td>
+<td>set, config</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>list</td>
+<td>Show the missions list</td>
+<td>mission.command.mission.list</td>
+<td>l</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>info</td>
+<td>Show plugin information</td>
+<td>mission.command.mission.info</td>
+<td>i</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>The <code>edit</code> subcommand allows you to specify a name, ID, and Short ID as arguments.
+Returns a all missions list if no arguments are specified or the specified mission does not exist.</p>
+<p>The <code>list</code> subcommand allows you to specify a group name as arguments.
+Returns a all missions list if no arguments are specified.</p>
+<h3>
+<a id="user-content-permission" class="anchor" href="#permission" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission</h3>
+<table>
+<thead>
+<tr>
+<th>permission name</th>
+<th>default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mission.command.mission</td>
+<td>true</td>
+</tr>
+<tr>
+<td>mission.command.mission.edit</td>
+<td>op</td>
+</tr>
+<tr>
+<td>mission.command.mission.setting</td>
+<td>op</td>
+</tr>
+<tr>
+<td>mission.command.mission.list</td>
+<td>true</td>
+</tr>
+<tr>
+<td>mission.command.mission.info</td>
+<td>op</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h3>
+<h4>
+<a id="user-content-item-description" class="anchor" href="#item-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Item description</h4>
+<ul>
+<li>Maximum number of achievements: Number of times you can complete a mission</li>
+<li>Target step: Target number of steps</li>
+<li>Steptrigger: Trigger to increase mission steps</li>
+</ul>
+<h4>
+<a id="user-content-mission-creation-example" class="anchor" href="#mission-creation-example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mission creation example</h4>
+<ul>
+<li>Achieved after breaking blocks 10 times</li>
+<li>The reward is 10 diamonds</li>
+<li>Can be achieved up to once</li>
+</ul>
+<ol>
+<li>Execute command: <code>/mission edit</code>
+</li>
+<li>Select "Add mission"</li>
+<li>Input the 1 to "Maximum number of achievements" and 10 to "Target step"</li>
+<li>Select the created mission</li>
+<li>Select "Edit reward"</li>
+<li>Select "Add reward"</li>
+<li>Specify "Item reward" for "Reward type"</li>
+<li>Input the 264(Diamond ID) to "ID" and 10 to "Amount"</li>
+<li>Select "Edit steptrigger"</li>
+<li>Select "Add steptrigger"</li>
+<li>Specify "Event" for "Steptrigger type"</li>
+<li>Specify "BlockBreakEvent" for "Event"</li>
+</ol>
+<p>If it looks like this, it ’s a success.</p>
+<p><a href="https://user-images.githubusercontent.com/38120936/95926177-95b95880-0df6-11eb-8d9f-9fba8f28c170.png" target="_blank" rel="nofollow"><img src="https://user-images.githubusercontent.com/38120936/95926177-95b95880-0df6-11eb-8d9f-9fba8f28c170.png" alt="screenshot_20201014_081717" style="max-width:100%;"></a></p>
+<h3>
+<a id="user-content-cooperation-with-mineflow-plugin" class="anchor" href="#cooperation-with-mineflow-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cooperation with Mineflow plugin</h3>
+<h4>
+<a id="user-content-create-reward-with-recipe" class="anchor" href="#create-reward-with-recipe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create reward with recipe</h4>
+<ol>
+<li>Add "Mineflow reward" by referring to [Mission creation example](#Mission creation example)</li>
+<li>Select "MissionReward" with the trigger on the Mineflow plugin side and specify the target mission</li>
+</ol>
+<h5>
+<a id="user-content-examples" class="anchor" href="#examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples</h5>
+<ul>
+<li>Recipe</li>
+</ul>
+<p><a href="https://user-images.githubusercontent.com/38120936/95926212-b2ee2700-0df6-11eb-9eff-8cc81fb38c53.png" target="_blank" rel="nofollow"><img src="https://user-images.githubusercontent.com/38120936/95926212-b2ee2700-0df6-11eb-9eff-8cc81fb38c53.png" alt="screenshot_20201014_081807" style="max-width:100%;"></a></p>
+<ul>
+<li>Mission</li>
+</ul>
+<p><a href="https://user-images.githubusercontent.com/38120936/95926215-b41f5400-0df6-11eb-84c3-cc81d027e6a3.png" target="_blank" rel="nofollow"><img src="https://user-images.githubusercontent.com/38120936/95926215-b41f5400-0df6-11eb-84c3-cc81d027e6a3.png" alt="screenshot_20201014_081952" style="max-width:100%;"></a></p>
+<p><a href="https://user-images.githubusercontent.com/38120936/95926217-b41f5400-0df6-11eb-95b5-b73d30d4dd7f.png" target="_blank" rel="nofollow"><img src="https://user-images.githubusercontent.com/38120936/95926217-b41f5400-0df6-11eb-95b5-b73d30d4dd7f.png" alt="screenshot_20201014_082017" style="max-width:100%;"></a></p>
+<p><a href="https://user-images.githubusercontent.com/38120936/95926219-b4b7ea80-0df6-11eb-9c9b-88fcab4d5f97.png" target="_blank" rel="nofollow"><img src="https://user-images.githubusercontent.com/38120936/95926219-b4b7ea80-0df6-11eb-9c9b-88fcab4d5f97.png" alt="screenshot_20201014_082029" style="max-width:100%;"></a></p>
+<h5>
+<a id="user-content-tips" class="anchor" href="#tips" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tips</h5>
+<ul>
+<li>The variable "target" can be used in Mineflow recipes triggered by mission rewards</li>
+<li>Even if you want to create multiple recipe rewards, please limit the number of "Mineflow reward" to one</li>
+<li>If you want to create multiple rewards based on recipes and want to display the second and subsequent rewards, you can use "Nothing (text show only)"</li>
+</ul>
+<h4>
+<a id="user-content-use-the-recipe-as-a-steptrigger" class="anchor" href="#use-the-recipe-as-a-steptrigger" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use the recipe as a Steptrigger</h4>
+<ol>
+<li>Open the action addition screen on the Mineflow plugin side and select "Mission", "Increase the mission step" to add</li>
+</ol>
+<h5>
+<a id="user-content-examples-1" class="anchor" href="#examples-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples</h5>
+<p><a href="https://user-images.githubusercontent.com/38120936/95926271-d1542280-0df6-11eb-9e26-8203aa272c0f.png" target="_blank" rel="nofollow"><img src="https://user-images.githubusercontent.com/38120936/95926271-d1542280-0df6-11eb-9e26-8203aa272c0f.png" alt="screenshot_20201014_082129" style="max-width:100%;"></a></p>
+<h5>
+<a id="user-content-tips-1" class="anchor" href="#tips-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tips</h5>
+<ul>
+<li>No setting is required on the mission side</li>
+<li>By combining conditional expressions on the recipe side, it is possible to make fairly flexible settings</li>
+</ul>
+<h3>
+<a id="user-content-cooperation-with-external-plugins-for-developers" class="anchor" href="#cooperation-with-external-plugins-for-developers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cooperation with external plugins (for developers)</h3>
+<h4>
+<a id="user-content-prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prerequisites</h4>
+<ul>
+<li>Add this plugin to depend in plugin.yml</li>
+</ul>
+<h4>
+<a id="user-content-add-reward-type" class="anchor" href="#add-reward-type" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add reward type</h4>
+<ol>
+<li>Create a class that inherits Reward (see existing Reward for implementation example)</li>
+<li>Add that class to Reward</li>
+</ol>
+<div class="highlight highlight-text-html-php"><pre>pjz9n\mission\reward\<span class="pl-v">Rewards</span>::<span class="pl-en">add</span>(<span class="pl-v">ExampleReward</span>::class);</pre></div>
+<h4>
+<a id="user-content-add-steptrigger-type" class="anchor" href="#add-steptrigger-type" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add Steptrigger type</h4>
+<ol>
+<li>Create a class that inherits Executor (see existing Executor for implementation example)</li>
+<li>Add that class to Executor</li>
+</ol>
+<div class="highlight highlight-text-html-php"><pre>pjz9n\mission\mission\executor\<span class="pl-v">Executors</span>::<span class="pl-en">add</span>(<span class="pl-v">ExampleExecutor</span>::class);</pre></div>
+<h4>
+<a id="user-content-operate-mission" class="anchor" href="#operate-mission" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Operate Mission</h4>
+<div class="highlight highlight-text-html-php"><pre>pjz9n\mission\mission\<span class="pl-v">MissionList</span></pre></div>
+<h4>
+<a id="user-content-operate-progress" class="anchor" href="#operate-progress" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Operate Progress</h4>
+<div class="highlight highlight-text-html-php"><pre>`pjz9n\mission\mission\progress\ProgressList`</pre></div>
+<h4>
+<a id="user-content-add-event-to-event-steptrigger" class="anchor" href="#add-event-to-event-steptrigger" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add event to Event Steptrigger</h4>
+<p>Instances of <code>PlayerEvent</code> or events with<code> getPlayer</code> methods are added by default.
+However, you may want to add an <code>EntityDamageByEntityEvent</code> event that has a <code>getDamager</code> method.
+It can be used in such cases.</p>
+<div class="highlight highlight-text-html-php"><pre>pjz9n\mission\mission\executor\<span class="pl-v">EventList</span>::<span class="pl-en">addEvent</span>(<span class="pl-v">EntityDamageByEntityEvent</span>::class, <span class="pl-k">function</span> (<span class="pl-smi">Event</span> <span class="pl-s1"><span class="pl-c1">$</span>event</span>): ?<span class="pl-smi">Player</span> {
+    <span class="pl-c">/** @var EntityDamageByEntityEvent $event */</span>
+    <span class="pl-s1"><span class="pl-c1">$</span>damager</span> = <span class="pl-s1"><span class="pl-c1">$</span>event</span>-&gt;<span class="pl-en">getDamager</span>();
+    <span class="pl-k">return</span> <span class="pl-s1"><span class="pl-c1">$</span>damager</span> instanceof <span class="pl-v">Player</span> ? <span class="pl-s1"><span class="pl-c1">$</span>damager</span> : <span class="pl-c1">null</span>;
+});</pre></div>
+<p>See the source code for details</p>
+<p>* The timing of each operation does not matter (basically, it is desirable to perform it at the plug-in activation timing)</p>

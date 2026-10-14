@@ -1,0 +1,72 @@
+{
+    "id": 7631,
+    "name": "FactionMasterInvitationImprove",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/FactionMasterInvitationImprove/1.1.0",
+    "tagline": "Extension which improve invitation system of FactionMaster",
+    "artifact_url": "https://poggit.pmmp.io/r/141932",
+    "downloads": 53,
+    "score": null,
+    "repo_id": 400668148,
+    "repo_name": "FactionMaster/FactionMaster-InvitationImprove",
+    "project_id": 9639,
+    "project_name": "FactionMaster-InvitationImprove",
+    "build_id": 112007,
+    "build_number": 10,
+    "build_commit": "fc74fff3f14b43b385a54212d783ce2efdb10cc7",
+    "description_url": "https://poggit.pmmp.io/r/141931",
+    "icon_url": "https://raw.githubusercontent.com/ShockedPlot7560/FactionMaster-InvitationImprove/fc74fff3f14b43b385a54212d783ce2efdb10cc7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1631773666,
+    "state": 5,
+    "last_state_change_date": 1632183254,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "extension",
+        "faction",
+        "factionmaster",
+        "improve",
+        "invitation",
+        "module",
+        "system"
+    ],
+    "api": [
+        {
+            "from": "3.17.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ShockedPlot7560"
+        ],
+        "Translator": [
+            "RaidoxxMPH"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

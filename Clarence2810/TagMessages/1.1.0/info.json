@@ -1,0 +1,67 @@
+{
+    "id": 5697,
+    "name": "TagMessages",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/TagMessages/1.1.0",
+    "tagline": "Showing their messages below their name",
+    "artifact_url": "https://poggit.pmmp.io/r/110493",
+    "downloads": 622,
+    "score": 5,
+    "repo_id": 305387404,
+    "repo_name": "Clarence2810/TagMessages",
+    "project_id": 7878,
+    "project_name": "TagMessages",
+    "build_id": 93211,
+    "build_number": 7,
+    "build_commit": "bc62f7c75f3c1f901a438d967d5ce85dc9aa3a35",
+    "description_url": "https://poggit.pmmp.io/r/127206",
+    "icon_url": "https://raw.githubusercontent.com/Clarence2810/TagMessages/bc62f7c75f3c1f901a438d967d5ce85dc9aa3a35/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/127208",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1607766865,
+    "state": 5,
+    "last_state_change_date": 1607822402,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "message",
+        "playertag",
+        "tag"
+    ],
+    "api": [
+        {
+            "from": "3.15.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Clarence2810"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,80 @@
+{
+    "id": 8679,
+    "name": "Bless",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Bless/1.1.0",
+    "tagline": "A pocketmine plugin that allows players to bless themselves. (Remove negative effects)",
+    "artifact_url": "https://poggit.pmmp.io/r/158257",
+    "downloads": 654,
+    "score": null,
+    "repo_id": 305823882,
+    "repo_name": "EPT8TPE/Bless",
+    "project_id": 7890,
+    "project_name": "Bless",
+    "build_id": 121739,
+    "build_number": 10,
+    "build_commit": "67283616fba7e0789dd7203f8a7002306cfb9895",
+    "description_url": "https://poggit.pmmp.io/r/158254",
+    "icon_url": "https://raw.githubusercontent.com/EPT8TPE/Bless/67283616fba7e0789dd7203f8a7002306cfb9895/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/158256",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643197637,
+    "state": 5,
+    "last_state_change_date": 1643291961,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "badeffect",
+        "bless",
+        "cleanse",
+        "clear",
+        "effect",
+        "effects",
+        "harming",
+        "heal",
+        "negative",
+        "negativeffect",
+        "poison",
+        "weakness"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "EPT8TPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

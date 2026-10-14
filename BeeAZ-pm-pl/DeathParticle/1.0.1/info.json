@@ -1,0 +1,58 @@
+{
+    "id": 9331,
+    "name": "DeathParticle",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/DeathParticle/1.0.1",
+    "tagline": "Create particles when entity or player death",
+    "artifact_url": "https://poggit.pmmp.io/r/168005",
+    "downloads": 648,
+    "score": 3,
+    "repo_id": 451686090,
+    "repo_name": "BeeAZ-pm-pl/DeathParticle",
+    "project_id": 10410,
+    "project_name": "DeathParticle",
+    "build_id": 127685,
+    "build_number": 9,
+    "build_commit": "449a1aa4e1c1ab5bb3bbd88674c9f42ebad3acdc",
+    "description_url": "https://poggit.pmmp.io/r/168002",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZZ/DeathParticle/449a1aa4e1c1ab5bb3bbd88674c9f42ebad3acdc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/168004",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647775409,
+    "state": 5,
+    "last_state_change_date": 1647921339,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "DeathParticle"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "lenlenlL6",
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

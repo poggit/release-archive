@@ -1,0 +1,69 @@
+{
+    "id": 13329,
+    "name": "AzusaMute",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AzusaMute/1.0.0",
+    "tagline": "A PocketMine-MP plugin to mute selected players or all players on the server",
+    "artifact_url": "https://poggit.pmmp.io/r/244472",
+    "downloads": 748,
+    "score": 5,
+    "repo_id": 832486856,
+    "repo_name": "KumaaDeveloper/AzusaMute",
+    "project_id": 14080,
+    "project_name": "AzusaMute",
+    "build_id": 179032,
+    "build_number": 6,
+    "build_commit": "d790dfba3e7009213afa4bc24d2e41ef86037624",
+    "description_url": "https://poggit.pmmp.io/r/244480",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaMute/d790dfba3e7009213afa4bc24d2e41ef86037624/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721716963,
+    "state": 5,
+    "last_state_change_date": 1721783959,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Chat",
+        "Mute",
+        "MuteAll",
+        "Player",
+        "Tempmute"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

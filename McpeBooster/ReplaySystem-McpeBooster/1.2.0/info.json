@@ -1,0 +1,72 @@
+{
+    "id": 1234,
+    "name": "ReplaySystem",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/ReplaySystem/1.2.0",
+    "tagline": "A PocketMine ReplaySystem Plugin by @McpeBooster",
+    "artifact_url": "https://poggit.pmmp.io/r/25904",
+    "downloads": 635,
+    "score": null,
+    "repo_id": 124568531,
+    "repo_name": "McpeBooster/ReplaySystem-McpeBooster",
+    "project_id": 2215,
+    "project_name": "ReplaySystem-McpeBooster",
+    "build_id": 37771,
+    "build_number": 5,
+    "build_commit": "ba7ce59caa18765a77de6fab44c4480daca727e6",
+    "description_url": "https://poggit.pmmp.io/r/25966",
+    "icon_url": "https://raw.githubusercontent.com/McpeBooster/ReplaySystem-McpeBooster/ba7ce59caa18765a77de6fab44c4480daca727e6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/25968",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1521121752,
+    "state": 5,
+    "last_state_change_date": 1521179884,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine",
+        "replay",
+        "replaysystem",
+        "mcpebooster"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA11",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "McpeBooster"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

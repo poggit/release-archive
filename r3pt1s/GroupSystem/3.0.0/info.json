@@ -1,0 +1,78 @@
+{
+    "id": 10294,
+    "name": "GroupSystem",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/GroupSystem/3.0.0",
+    "tagline": "A GroupSystem for PocketMine-MP!",
+    "artifact_url": "https://poggit.pmmp.io/r/186862",
+    "downloads": 515,
+    "score": 5,
+    "repo_id": 441300477,
+    "repo_name": "r3pt1s/GroupSystem",
+    "project_id": 11281,
+    "project_name": "GroupSystem",
+    "build_id": 140746,
+    "build_number": 10,
+    "build_commit": "c0d551c8d5cd782e09c2ae3a6bba77d0b2b9d192",
+    "description_url": "https://poggit.pmmp.io/r/186859",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/186861",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1658240033,
+    "state": 5,
+    "last_state_change_date": 1658335731,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "groups",
+        "GroupsUI",
+        "GroupSystem",
+        "GroupUI",
+        "RangSystem",
+        "Rank",
+        "ranksystem",
+        "ränge"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "r3pt1s"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

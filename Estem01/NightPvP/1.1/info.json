@@ -1,0 +1,76 @@
+{
+    "id": 10491,
+    "name": "NightPVP",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/NightPVP/1.1",
+    "tagline": "NightPVP is plugin makes it so pvp can only happen at night.",
+    "artifact_url": "https://poggit.pmmp.io/r/190908",
+    "downloads": 146,
+    "score": 1,
+    "repo_id": 517799388,
+    "repo_name": "Estem01/NightPvP",
+    "project_id": 11624,
+    "project_name": "NightPvP",
+    "build_id": 143491,
+    "build_number": 94,
+    "build_commit": "6628e5366d6fc967ecf5b8be2ac0bb2f6356c4bb",
+    "description_url": "https://poggit.pmmp.io/r/190905",
+    "icon_url": "https://raw.githubusercontent.com/Estem01/NightPvP/6628e5366d6fc967ecf5b8be2ac0bb2f6356c4bb/NightPvP.jpg",
+    "changelog_url": "https://poggit.pmmp.io/r/190907",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1661160132,
+    "state": 5,
+    "last_state_change_date": 1661757953,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "UnknownNull",
+            "Ihsan48"
+        ],
+        "Collaborator": [
+            "Estem01",
+            "henrythierrydev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

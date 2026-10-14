@@ -1,0 +1,120 @@
+{
+    "id": 4070,
+    "name": "PiggyAuctions",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PiggyAuctions/1.0.1",
+    "tagline": "An auction house plugin for PocketMine-MP allowing players to bid for items",
+    "artifact_url": "https://poggit.pmmp.io/r/80022",
+    "downloads": 246,
+    "score": 5,
+    "repo_id": 216450566,
+    "repo_name": "DaPigGuy/PiggyAuctions",
+    "project_id": 6461,
+    "project_name": "PiggyAuctions",
+    "build_id": 73457,
+    "build_number": 20,
+    "build_commit": "c03fbc7df3732a261e37f4098851072407d07f69",
+    "description_url": "https://poggit.pmmp.io/r/80029",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/80031",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1585391390,
+    "state": 5,
+    "last_state_change_date": 1585391564,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "MultiEconomy",
+            "version": "2.0.0",
+            "depRelId": 3510,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy"
+        ],
+        "Contributor": [
+            "Aericio",
+            "TwistedAsylumMC",
+            "Ifera",
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "b184eead463d8bc87a0b5a98d20eeda9a3a9131f",
+            "build_id": 65700
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "7219b8f5ffb01eee0b4fe645a27fb35df28c085e",
+            "build_id": 70930
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "8f56c71ef5c5236d6791213952623b8288eb0151",
+            "build_id": 70498
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "4d137517dd886d756d3cf1ad2a44f25e894708ed",
+            "build_id": 72609
+        }
+    ]
+}

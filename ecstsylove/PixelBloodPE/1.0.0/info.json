@@ -1,0 +1,59 @@
+{
+    "id": 11765,
+    "name": "PixelBloodPE",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PixelBloodPE/1.0.0",
+    "tagline": "PixelBloodPE is a plugin for PocketMine-MP that adds realistic blood particle effects when entities are damaged.",
+    "artifact_url": "https://poggit.pmmp.io/r/213341",
+    "downloads": 337,
+    "score": null,
+    "repo_id": 658140993,
+    "repo_name": "ecstsylove/PixelBloodPE",
+    "project_id": 12686,
+    "project_name": "PixelBloodPE",
+    "build_id": 157858,
+    "build_number": 7,
+    "build_commit": "7818dc566ab03964518a2363737f1067c76f7435",
+    "description_url": "https://poggit.pmmp.io/r/213346",
+    "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/PixelBloodPE/7818dc566ab03964518a2363737f1067c76f7435/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687649847,
+    "state": 5,
+    "last_state_change_date": 1687903381,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "blood",
+        "bloodfx",
+        "effects",
+        "fakeblood",
+        "fx",
+        "pixel",
+        "pixelblood"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iLVOEWOCK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

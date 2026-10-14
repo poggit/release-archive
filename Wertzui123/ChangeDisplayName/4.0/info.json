@@ -1,0 +1,71 @@
+{
+    "id": 5956,
+    "name": "ChangeDisplayName",
+    "version": "4.0",
+    "html_url": "https://poggit.pmmp.io/p/ChangeDisplayName/4.0",
+    "tagline": "An advanced nick plugin to change your displayname",
+    "artifact_url": "https://poggit.pmmp.io/r/115554",
+    "downloads": 1583,
+    "score": 5,
+    "repo_id": 177850778,
+    "repo_name": "Wertzui123/ChangeDisplayName",
+    "project_id": 4843,
+    "project_name": "ChangeDisplayName",
+    "build_id": 96595,
+    "build_number": 20,
+    "build_commit": "5bca6f96d89776a3a080b7b843b71ace0eedc7db",
+    "description_url": "https://poggit.pmmp.io/r/115556",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1613298577,
+    "state": 5,
+    "last_state_change_date": 1613408796,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "displayname",
+        "nickname",
+        "pocketmine",
+        "pureperms"
+    ],
+    "api": [
+        {
+            "from": "3.17.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Wertzui123"
+        ],
+        "Contributor": [
+            "KadTheHunter"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

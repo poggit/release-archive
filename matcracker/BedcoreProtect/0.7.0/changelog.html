@@ -1,0 +1,50 @@
+<h1>Introductory notes</h1>
+<ul>
+<li><strong>PocketMine-MP API &gt;= 3.13.0 is required!</strong></li>
+<li><strong>This update is recommended because it contains many improvements and bug fixes.</strong></li>
+<li>The update is backward compatible with previous versions.</li>
+<li>If you are already using BedcoreProtect and you upgrade to <strong>v0.7.0, you will notice a message of database upgrading</strong>. Don't worry, that's normal. It's the patch manager process that updates the database tables for the new version. <strong>If during the process you got a crash, please open a issue <a href="https://github.com/matcracker/BedcoreProtect/issues/new/choose">here</a>!</strong></li>
+</ul>
+<h1>Changelog</h1>
+<h2>Features</h2>
+<ul>
+<li>Added basic configuration updater for next releases.</li>
+<li>Farmland and Grasspath are now logged.</li>
+<li>Liquids flow is now tracked</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li>Minor improvements</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Performance boost during log process, serialize classes only on multiple blocks logging.</li>
+<li>Removed address column from entities table because not used.</li>
+<li>The log time is now calculated from the plugin instead of database, so it avoids to get some stupid logs due to concurrency.</li>
+<li>It is not possible to launch more than one rollback in the same area or by the same player.</li>
+<li><strong>Dropped BlockSniper support.</strong></li>
+<li>Improved Painting logging.</li>
+<li><strong>SpawnEgg are not logged anymore</strong></li>
+<li>When entity dies due to fire, they will not rollback with the fire.</li>
+</ul>
+<h2>Bug fixes</h2>
+<ul>
+<li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="614893471" data-permission-text="Title is private" data-url="https://github.com/matcracker/BedcoreProtect/issues/19" data-hovercard-type="issue" data-hovercard-url="/matcracker/BedcoreProtect/issues/19/hovercard" href="https://github.com/matcracker/BedcoreProtect/issues/19">#19</a></li>
+<li>Fixed FenceGate and Levers not logged when clicked.</li>
+<li>Fixed important bug introduced in v0.6.2: when rollback some falling blocks it causes a log recursion due to block update.</li>
+<li>Fixed restore logs not correctly ordered.</li>
+<li>Fixed Fallable blocks not logged when placed.</li>
+<li>Fixed lily pad not logged when placed.</li>
+<li>Fixed double plant not logged when placed.</li>
+<li>Fixed ItemFrame not correctly logged.</li>
+<li>Fixed flint and steel not logging correctly TNT ignites.</li>
+<li>Do not log click action when player is sneaking.</li>
+<li>Fixed IronDoor not logged when clicked.</li>
+<li>Fixed liquids tracking when breaking blocks.</li>
+<li>Fixed trapped chest not rollback correctly.</li>
+<li>Fixed crash while running /co undo to restore inventory rollback.</li>
+<li>Fixed logging sign text when placed.</li>
+<li>Fixed cake not logged when eaten.</li>
+<li>Fixed wrong action while placing/breaking paintings</li>
+<li>Minor fixes</li>
+</ul>

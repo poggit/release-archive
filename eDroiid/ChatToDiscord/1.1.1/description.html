@@ -1,0 +1,38 @@
+<h1>
+<a id="user-content-chattodiscord" class="anchor" href="#chattodiscord" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ChatToDiscord</h1>
+<p>send messages from your PMMP server to Discord</p>
+<p><a href="https://poggit.pmmp.io/ci/eDroiid/ChatToDiscord/ChatToDiscord"><img src="https://camo.githubusercontent.com/a0ad907b4348695df3d2c2a0c5f879bccac76a55/68747470733a2f2f706f676769742e706d6d702e696f2f63692e62616467652f6544726f6969642f43686174546f446973636f72642f43686174546f446973636f7264" alt="Poggit-CI" data-canonical-src="https://poggit.pmmp.io/ci.badge/eDroiid/ChatToDiscord/ChatToDiscord" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-setting-it-up" class="anchor" href="#setting-it-up" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting It Up</h1>
+<ol>
+<li>Download from <a href="https://poggit.pmmp.io/ci/eDroiid/ChatToDiscord/ChatToDiscord">Poggit</a>.</li>
+<li>Add plugin to your <code>plugins</code> folder.</li>
+<li>Start and stop your server (so config is created).</li>
+<li>Open <code>plugins\ChatToDiscord\config.yml</code> and start customizing.</li>
+</ol>
+<ul>
+<li>add your webhooks <code>webhooks: ['https://discordapp.com/api/webhooks/123/456789']</code>. <a href="https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks">How do I get a webhook?</a> (skip the Github Integration at the end of the article)</li>
+<li>change the username <code>username: 'My Server'</code>.</li>
+<li>change the avatar/icon <code>avatar: 'http://example.com/myserverslogo.png'</code>.</li>
+<li>change the format <code>message_format: '{player} said {message}'</code>.</li>
+</ul>
+<ol start="5">
+<li>Save <code>plugins\ChatToDiscord\config.yml</code>.</li>
+<li>Restart your server</li>
+</ol>
+<h1>
+<a id="user-content-my-setup" class="anchor" href="#my-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>My Setup</h1>
+<p>Config:</p>
+<p><a href="https://camo.githubusercontent.com/788d336cf1f7b6f404692a161b239c41e2d9041a/687474703a2f2f7075752e73682f77435455732f326665313733376465642e706e67" target="_blank"><img src="https://camo.githubusercontent.com/788d336cf1f7b6f404692a161b239c41e2d9041a/687474703a2f2f7075752e73682f77435455732f326665313733376465642e706e67" alt="" data-canonical-src="http://puu.sh/wCTUs/2fe1737ded.png" style="max-width:100%;"></a></p>
+<p>Discord:</p>
+<p><a href="https://camo.githubusercontent.com/509d277544cbaa269009e91f1832c54ed17b0c0e/687474703a2f2f7075752e73682f77435457592f373335333566623933312e706e67" target="_blank"><img src="https://camo.githubusercontent.com/509d277544cbaa269009e91f1832c54ed17b0c0e/687474703a2f2f7075752e73682f77435457592f373335333566623933312e706e67" alt="" data-canonical-src="http://puu.sh/wCTWY/73535fb931.png" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-to-do" class="anchor" href="#to-do" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To Do</h1>
+<ul>
+<li>[x] Add async so it doesn't lag main thread</li>
+<li>[x] Add multiple webhook support</li>
+<li>[ ] Add ability to send messages of events</li>
+<li>on join</li>
+<li>on quit</li>
+<li>on death</li>
+</ul>

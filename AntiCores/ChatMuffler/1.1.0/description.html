@@ -1,0 +1,108 @@
+<p>A Simple Plugin For Managing Mutes</p>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<ul>
+<li>Bloat free</li>
+<li>Mutes players</li>
+<li>Mutes chat</li>
+<li>Data saves past reboots</li>
+<li>Advanced mute time parser</li>
+</ul>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Usage</th>
+<th>Aliases</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>muffle</td>
+<td>muffle someone</td>
+<td>/muffle  </td>
+<td>mute, silence</td>
+</tr>
+<tr>
+<td>unmuffle</td>
+<td>unmuffle someone</td>
+<td>/muffle  </td>
+<td>mute, silence</td>
+</tr>
+<tr>
+<td>mufflechat</td>
+<td>muffle the chat</td>
+<td>/mufflechat </td>
+<td>mutechat, silencechat</td>
+</tr>
+<tr>
+<td>muffleinfo</td>
+<td>muffle info</td>
+<td>/muffleinfo [username]</td>
+<td>muteinfo</td>
+</tr>
+<tr>
+<td>mufflelist</td>
+<td>list muffled users</td>
+<td>/mufflelist</td>
+<td>mufflelist</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-permission" class="anchor" href="#permission" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission</h2>
+<table>
+<thead>
+<tr>
+<th>Permission Node</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>chatmuffler.bypass</td>
+<td>Bypass All Muffled Restriction</td>
+<td>OP</td>
+</tr>
+<tr>
+<td>chatmuffler.bypass.chat</td>
+<td>Bypass Muffled Chat Restriction</td>
+<td>OP</td>
+</tr>
+<tr>
+<td>chatmuffler.bypass.user</td>
+<td>Bypass User Muffled Restriction</td>
+<td>OP</td>
+</tr>
+<tr>
+<td>chatmuffler.muffleuser</td>
+<td>Allow Muting Other Users</td>
+<td>OP</td>
+</tr>
+<tr>
+<td>chatmuffler.mufflechat</td>
+<td>Allow Muting Chat</td>
+<td>OP</td>
+</tr>
+<tr>
+<td>chatmuffler.muffleinfo</td>
+<td>Allow Using Muffle Info</td>
+<td>OP</td>
+</tr>
+<tr>
+<td>chatmuffler.mufflelist</td>
+<td>Allow Listing Muffled users</td>
+<td>OP</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-time-parser-supports" class="anchor" href="#time-parser-supports" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Time parser supports</h2>
+<p>&lt;time&gt; can be second which is assumed by default, or a time formatted input</p>
+<p>Legend: (y)ear, (m)onth, (w)eek, (d)ay, (h)our, m(i)nute, (s)econd</p>
+<p>/mute bob <code>12h30i50s</code> will mute bob for <code>12 hours, 30 minutes, 50 seconds</code></p>
+<p>muting using <code>0</code> or <code>unmute</code> will unmute, and <code>-1</code> or <code>forever</code> will mute forever</p>

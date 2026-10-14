@@ -1,0 +1,79 @@
+{
+    "id": 7263,
+    "name": "StatsX",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/StatsX/1.0.0",
+    "tagline": "A Pocketmine-MP Plugin that keeps track of Player Statistics",
+    "artifact_url": "https://poggit.pmmp.io/r/135522",
+    "downloads": 322,
+    "score": 5,
+    "repo_id": 379107704,
+    "repo_name": "vecnavium-pm-pl/StatsX",
+    "project_id": 9422,
+    "project_name": "StatsX",
+    "build_id": 107999,
+    "build_number": 20,
+    "build_commit": "ee5f4554a0c4151a0e3d9ea65e1d8cc051cd66ef",
+    "description_url": "https://poggit.pmmp.io/r/135719",
+    "icon_url": "https://raw.githubusercontent.com/Vecnavium/StatsX/ee5f4554a0c4151a0e3d9ea65e1d8cc051cd66ef/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628190571,
+    "state": 5,
+    "last_state_change_date": 1628202517,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "kills",
+        "stats",
+        "tracking"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

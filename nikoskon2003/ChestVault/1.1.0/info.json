@@ -1,0 +1,64 @@
+{
+    "id": 3905,
+    "name": "VaultChest",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/VaultChest/1.1.0",
+    "tagline": "A Vault plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/77336",
+    "downloads": 4727,
+    "score": 5,
+    "repo_id": 135555176,
+    "repo_name": "nikoskon2003/ChestVault",
+    "project_id": 3001,
+    "project_name": "ChestVault",
+    "build_id": 71928,
+    "build_number": 20,
+    "build_commit": "4dbda19ab35839a49ee74a82cd3df9fc583073a3",
+    "description_url": "https://poggit.pmmp.io/r/77333",
+    "icon_url": "https://raw.githubusercontent.com/nikoskon2003/ChestVault/4dbda19ab35839a49ee74a82cd3df9fc583073a3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/77335",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582973853,
+    "state": 5,
+    "last_state_change_date": 1583196120,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "VaultChest",
+        "vault",
+        "chest",
+        "inventory"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "nikoskon2003"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,61 @@
+{
+    "id": 2247,
+    "name": "GeoBlock",
+    "version": "1.0-beta",
+    "html_url": "https://poggit.pmmp.io/p/GeoBlock/1.0-beta",
+    "tagline": "Block or allow players from certain countries",
+    "artifact_url": "https://poggit.pmmp.io/r/48477",
+    "downloads": 861,
+    "score": 5,
+    "repo_id": 163317686,
+    "repo_name": "IanSzot/GeoBlock-PMMP",
+    "project_id": 4457,
+    "project_name": "GeoBlock-PMMP",
+    "build_id": 53852,
+    "build_number": 2,
+    "build_commit": "44caaad95b78f4c42509fa5ad90607df09cb8803",
+    "description_url": "https://poggit.pmmp.io/r/48831",
+    "icon_url": "https://raw.githubusercontent.com/IanSzot/GeoBlock-PMMP/44caaad95b78f4c42509fa5ad90607df09cb8803/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1546136177,
+    "state": 5,
+    "last_state_change_date": 1546773101,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "geoblock",
+        "ip",
+        "tracking",
+        "country",
+        "geoblocking"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "IanSzot"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

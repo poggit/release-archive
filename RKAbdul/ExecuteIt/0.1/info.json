@@ -1,0 +1,67 @@
+{
+    "id": 5657,
+    "name": "ExecuteIt",
+    "version": "0.1",
+    "html_url": "https://poggit.pmmp.io/p/ExecuteIt/0.1",
+    "tagline": "A pocketmine plugin, that will let you add configurable commands executable on different player interactions.",
+    "artifact_url": "https://poggit.pmmp.io/r/109802",
+    "downloads": 413,
+    "score": 5,
+    "repo_id": 318795527,
+    "repo_name": "RKAbdul/ExecuteIt",
+    "project_id": 8115,
+    "project_name": "ExecuteIt",
+    "build_id": 92716,
+    "build_number": 1,
+    "build_commit": "7a7acbe505d219eebfb39d7de4bf130cbd0162d5",
+    "description_url": "https://poggit.pmmp.io/r/109801",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1607258108,
+    "state": 5,
+    "last_state_change_date": 1609089871,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Pocketmine",
+        "Commands",
+        "Blocks-Reward"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RKAbdul"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

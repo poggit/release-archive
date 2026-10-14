@@ -1,0 +1,68 @@
+{
+    "id": 14058,
+    "name": "StreakAPI",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/StreakAPI/1.2.0",
+    "tagline": "A streak tracking API for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/256601",
+    "downloads": 14,
+    "score": 3,
+    "repo_id": 989558250,
+    "repo_name": "TaqdeesHigh/StreakAPI",
+    "project_id": 14732,
+    "project_name": "StreakAPI",
+    "build_id": 187118,
+    "build_number": 13,
+    "build_commit": "b12e0f4a108686db5b15ffc7ffd1d56cb8dde360",
+    "description_url": "https://poggit.pmmp.io/r/256600",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1749201549,
+    "state": 5,
+    "last_state_change_date": 1749223970,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "streak",
+        "win",
+        "winstreak",
+        "ws"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TaqdeesHigh"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

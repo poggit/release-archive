@@ -1,0 +1,26 @@
+<p><a href="https://discord.gg/ruBKMD9a9J" rel="nofollow"><img src="https://camo.githubusercontent.com/55b65c998a3e82f505e04861a85472940a977e7158300060faf8fca2ca2e8f15/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3830303832383830323932313532393335352e7376673f6c6162656c3d266c6f676f3d646973636f7264266c6f676f436f6c6f723d66666666666626636f6c6f723d373338394438266c6162656c436f6c6f723d364137454332" alt="Discord" data-canonical-src="https://img.shields.io/discord/800828802921529355.svg?label=&amp;logo=discord&amp;logoColor=ffffff&amp;color=7389D8&amp;labelColor=6A7EC2" style="max-width:100%;"></a> <a href="https://poggit.pmmp.io/p/ElevatorBlock" rel="nofollow"><img src="https://camo.githubusercontent.com/8fcb474c726aae81103c132c3caef38f51b41be3221fd280a2dcf09f4cfa3f06/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f456c657661746f72426c6f636b" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/ElevatorBlock" style="max-width:100%;"></a> <a href="https://poggit.pmmp.io/p/ElevatorBlock" rel="nofollow"><img src="https://camo.githubusercontent.com/dc13e56efbe718e9f6849bbb6e71af7b66c1343861ae0d114c399fd9375bcb08/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f456c657661746f72426c6f636b" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/ElevatorBlock" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-elevator" class="anchor" href="#elevator" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Elevator</h1>
+<p>A simple PocketMine-MP plugin that allows to create elevators on your server.</p>
+<h2>
+<a id="user-content-how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h2>
+<p>You just have to setup an id in the config.yml. Place 2 blocks aligned, jump to go up and sneak to go down.</p>
+<h2>
+<a id="user-content-video" class="anchor" href="#video" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video</h2>
+<p><a href="https://www.youtube.com/watch?v=9rcDk5-vRqc&amp;ab_channel=Ayzrix" rel="nofollow"><img src="https://camo.githubusercontent.com/b79cb3debdd6bbf369a161315651a5eb698d3e4c309a6c065dcca941f95fcb50/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f397263446b352d765271632f302e6a7067" alt="Alt text" data-canonical-src="https://img.youtube.com/vi/9rcDk5-vRqc/0.jpg" style="max-width:100%;"></a></p>
+<h2>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h2>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">prefix</span>: <span class="pl-s"><span class="pl-pds">"</span>§6[§fElevatorBlock§6]<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Elevator ID &amp; META ("ID:META")</span>
+<span class="pl-ent">block</span>: <span class="pl-s"><span class="pl-pds">"</span>155:0<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> EXAMPLE: If you are using the bone block, set to false to allow all rotations [Put anyway :0 on "block"]</span>
+<span class="pl-ent">use_meta</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> Enable or disable the distance system (true|false)</span>
+<span class="pl-ent">distance</span>: <span class="pl-c1">true</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Maximum distance between 2 elevators</span>
+<span class="pl-ent">max_distance</span>: <span class="pl-c1">5</span>
+
+<span class="pl-ent">no_elevator_found</span>: <span class="pl-s"><span class="pl-pds">"</span>{prefix} §cNo elevator was found<span class="pl-pds">"</span></span>
+<span class="pl-ent">distance_too_hight</span>: <span class="pl-s"><span class="pl-pds">"</span>{prefix} §cAn elevator has been found, but it's too far<span class="pl-pds">"</span></span></pre></div>

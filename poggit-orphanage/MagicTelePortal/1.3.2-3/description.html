@@ -1,0 +1,128 @@
+<p><a href="https://raw.githubusercontent.com/Muirfield/MagicTelePortal/master/media/portal-icon.jpg" target="_blank"><img src="https://raw.githubusercontent.com/Muirfield/MagicTelePortal/master/media/portal-icon.jpg" width="64" height="64" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-magicteleportal" class="anchor" href="#magicteleportal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MagicTelePortal</h1>
+<ul>
+<li>Summary: Easy to use Portal plugin</li>
+<li>Dependency Plugins: N/A</li>
+<li>PocketMine-MP version: 1.7dev - API 3.0.0-alpha7/8/9</li>
+<li>Categories: Teleportation</li>
+<li>Plugin Access: Commands, Data Saving, World Editing</li>
+</ul>
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p>Simple plugin to make creation of portals easy.</p>
+<h2>
+<a id="user-content-documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h2>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<p>You use one command:</p>
+<pre><code>[CODE]
+/mtp [world|server:port] [x y z]
+[/CODE]
+</code></pre>
+<p>Examples:</p>
+<ul>
+<li>Portal to another world:
+<ul>
+<li>/mtp minigames</li>
+</ul>
+</li>
+<li>Portal to another location in the same world:
+<ul>
+<li>/mtp 128 70 128</li>
+</ul>
+</li>
+<li>Portal to an specific location in another world:
+<ul>
+<li>/mtp minigames 392 70 939</li>
+</ul>
+</li>
+<li>Server transfer portal
+<ul>
+<li>/mtp example.com:19132</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h3>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-s">[CODE]</span>
+<span class="pl-c"><span class="pl-c">#</span> How far can the portals be created</span>
+<span class="pl-ent">max-dist</span>: <span class="pl-c1">8</span>
+<span class="pl-c"><span class="pl-c">#</span> Block-id of the border block (defaults to Nether Bricks)</span>
+<span class="pl-ent">border</span>: <span class="pl-c1">112</span>
+<span class="pl-c"><span class="pl-c">#</span> Block-id of the center block (defaults to Portal)</span>
+<span class="pl-ent">center</span>: <span class="pl-c1">90</span>
+<span class="pl-c"><span class="pl-c">#</span> Block-id of the corners (defaults to Nether Brick Stairs)</span>
+<span class="pl-ent">corner</span>: <span class="pl-c1">114</span>
+<span class="pl-s">[/CODE]</span></pre></div>
+<h3>
+<a id="user-content-permission-nodes" class="anchor" href="#permission-nodes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission Nodes</h3>
+<ul>
+<li>mtp.cmd.mtp: Permission to create portals</li>
+<li>mtp.destroy: Permission to destroy portals</li>
+</ul>
+<h2>
+<a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h2>
+<ul>
+<li>Q: How do I prevent people from breaking my portal?</li>
+<li>A: Use an anti-grief plugin or the <code>mtp.destroy</code> permission.</li>
+</ul>
+<h2>
+<a id="user-content-changes" class="anchor" href="#changes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Changes</h2>
+<ul>
+<li>1.3.2-2.alpha7 : Updated Icon</li>
+<li>1.3.2-1.alpha7 : Updates for alpha7, use transfer(), don't use Still Water</li>
+<li>1.3.2 : Bug-fix
+<ul>
+<li>Fixed a very DUMB bug!</li>
+</ul>
+</li>
+<li>1.3.1 : More fixes
+<ul>
+<li>Fixed the double teleport issue.</li>
+</ul>
+</li>
+<li>1.3.0 : Bug-fix
+<ul>
+<li>Removed <code>manyworld</code> dependancy</li>
+<li>Added a base to the portal (so water won't leak)</li>
+<li>Translations: Spanish</li>
+<li>Fixed so that when people Transfer, they do not enter in the
+location of the portal.</li>
+</ul>
+</li>
+<li>1.2.0 : Simple update
+<ul>
+<li>Renamed to MagicTelePortal.<br>
+<strong>YOU MUST UPDATE CONFIG FILES</strong>
+</li>
+<li>Added <code>mtp.destroy</code> permission</li>
+</ul>
+</li>
+<li>1.1.0 : Next release
+<ul>
+<li>Support for FastTransfer</li>
+<li>Some configuration options</li>
+</ul>
+</li>
+<li>1.0.0 : First submission</li>
+</ul>
+<h2>
+<a id="user-content-copyright" class="anchor" href="#copyright" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright</h2>
+<pre><code>MagicTelePortal
+Copyright (C) 2015 Alejandro Liu
+All Rights Reserved.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</code></pre>

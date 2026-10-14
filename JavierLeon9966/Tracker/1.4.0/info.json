@@ -1,0 +1,73 @@
+{
+    "id": 8284,
+    "name": "Tracker",
+    "version": "1.4.0",
+    "html_url": "https://poggit.pmmp.io/p/Tracker/1.4.0",
+    "tagline": "A PocketMine-MP plugin to track a player's location",
+    "artifact_url": "https://poggit.pmmp.io/r/151965",
+    "downloads": 1022,
+    "score": null,
+    "repo_id": 356700678,
+    "repo_name": "JavierLeon9966/Tracker",
+    "project_id": 8853,
+    "project_name": "Tracker",
+    "build_id": 117845,
+    "build_number": 15,
+    "build_commit": "475e2fca66f28cbdab19b3050f46f812c53d818a",
+    "description_url": "https://poggit.pmmp.io/r/151962",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/Tracker/475e2fca66f28cbdab19b3050f46f812c53d818a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/151964",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1639174906,
+    "state": 5,
+    "last_state_change_date": 1640284655,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "compass",
+        "dream",
+        "manhunt",
+        "track",
+        "tracker"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,9 @@
+<p dir="auto">This release is a patch update to fix bugs and issues in previous version.</p>
+<ul dir="auto">
+<li>Now farmland won't turn into dirt when jumped if event is cancelled.</li>
+<li>Now player gets teleported 0.1 blocks above to prevent being inside dirt block, as farmland blocks are lower than dirt blocks and <code>Level-&gt;setBlock()</code> updates the block after <code>PlayerMoveEvent</code> happens.
+<ul dir="auto">
+<li>If you want to prevent this behavior from happening, use version 1.0.0 instead.</li>
+</ul>
+</li>
+</ul>

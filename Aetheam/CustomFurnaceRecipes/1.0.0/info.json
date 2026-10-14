@@ -1,0 +1,59 @@
+{
+    "id": 12808,
+    "name": "CustomFurnaceRecipes",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomFurnaceRecipes/1.0.0",
+    "tagline": "create your own recipes",
+    "artifact_url": "https://poggit.pmmp.io/r/232789",
+    "downloads": 667,
+    "score": null,
+    "repo_id": 751586901,
+    "repo_name": "Aetheam/CustomFurnaceRecipes",
+    "project_id": 13559,
+    "project_name": "CustomFurnaceRecipes",
+    "build_id": 170918,
+    "build_number": 4,
+    "build_commit": "a6039330db64444db9e89d787c1e9b4f8929030c",
+    "description_url": "https://poggit.pmmp.io/r/232788",
+    "icon_url": "https://raw.githubusercontent.com/Aetheam/CustomFurnaceRecipes/a6039330db64444db9e89d787c1e9b4f8929030c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1707694814,
+    "state": 5,
+    "last_state_change_date": 1708447479,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "royaljacques"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

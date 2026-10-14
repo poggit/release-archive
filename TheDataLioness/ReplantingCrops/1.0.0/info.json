@@ -1,0 +1,64 @@
+{
+    "id": 13422,
+    "name": "ReplantingCrops",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ReplantingCrops/1.0.0",
+    "tagline": "Pocketmine plugin where your crops automaticaly gets replanted!",
+    "artifact_url": "https://poggit.pmmp.io/r/245802",
+    "downloads": 952,
+    "score": 5,
+    "repo_id": 839959951,
+    "repo_name": "TheDataLioness/ReplantingCrops",
+    "project_id": 14138,
+    "project_name": "ReplantingCrops",
+    "build_id": 179874,
+    "build_number": 4,
+    "build_commit": "e01035e6fc9d4178c64c71ea710e286916c0b3d2",
+    "description_url": "https://poggit.pmmp.io/r/245801",
+    "icon_url": "https://raw.githubusercontent.com/TheDataLioness/ReplantingCrops/e01035e6fc9d4178c64c71ea710e286916c0b3d2/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1723139912,
+    "state": 5,
+    "last_state_change_date": 1723140138,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "crops",
+        "farming",
+        "replant",
+        "planting"
+    ],
+    "api": [
+        {
+            "from": "5.16.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TheDataLioness"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

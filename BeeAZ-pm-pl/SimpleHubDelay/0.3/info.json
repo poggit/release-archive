@@ -1,0 +1,56 @@
+{
+    "id": 9448,
+    "name": "SimpleHubDelay",
+    "version": "0.3",
+    "html_url": "https://poggit.pmmp.io/p/SimpleHubDelay/0.3",
+    "tagline": "A plugin that helps you teleport back to spawn with a simple delay",
+    "artifact_url": "https://poggit.pmmp.io/r/170188",
+    "downloads": 465,
+    "score": null,
+    "repo_id": 456081825,
+    "repo_name": "BeeAZ-pm-pl/SimpleHubDelay",
+    "project_id": 10539,
+    "project_name": "SimpleHubDelay",
+    "build_id": 129087,
+    "build_number": 10,
+    "build_commit": "2358d3291b84b0dd23c5ad90d565a03f54ffc419",
+    "description_url": "https://poggit.pmmp.io/r/170185",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZZ/SimpleHubDelay/2358d3291b84b0dd23c5ad90d565a03f54ffc419/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/170187",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1649173181,
+    "state": 5,
+    "last_state_change_date": 1649210477,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "HubDelay"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NgLam2911"
+        ],
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

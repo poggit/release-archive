@@ -1,0 +1,57 @@
+{
+    "id": 7994,
+    "name": "AnnouncesModifier",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AnnouncesModifier/1.0.0",
+    "tagline": "Edit your announces as you wish",
+    "artifact_url": "https://poggit.pmmp.io/r/147654",
+    "downloads": 1482,
+    "score": null,
+    "repo_id": 423569157,
+    "repo_name": "HiroshimaTeam/AnnouncesModifier",
+    "project_id": 9906,
+    "project_name": "AnnouncesModifier",
+    "build_id": 115321,
+    "build_number": 9,
+    "build_commit": "7082fb76c9eb4b42376bcc140ed360475d6fa123",
+    "description_url": "https://poggit.pmmp.io/r/147653",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/AnnouncesModifier/7082fb76c9eb4b42376bcc140ed360475d6fa123/AnnouncesModifier.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1636754025,
+    "state": 5,
+    "last_state_change_date": 1636996911,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "announces"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Steellgold"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

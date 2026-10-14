@@ -1,0 +1,68 @@
+{
+    "id": 5737,
+    "name": "RealTime",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/RealTime/1.2.1",
+    "tagline": "Cycles in-game time as that in real life",
+    "artifact_url": "https://poggit.pmmp.io/r/111477",
+    "downloads": 6903,
+    "score": 5,
+    "repo_id": 139771904,
+    "repo_name": "photoncodes/RealTime",
+    "project_id": 3315,
+    "project_name": "RealTime",
+    "build_id": 93954,
+    "build_number": 11,
+    "build_commit": "4d920a2b44ad71360a927dccad2b4001f5ee50a2",
+    "description_url": "https://poggit.pmmp.io/r/138322",
+    "icon_url": "https://raw.githubusercontent.com/photoncodes/RealTime/4d920a2b44ad71360a927dccad2b4001f5ee50a2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/138324",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1608899545,
+    "state": 5,
+    "last_state_change_date": 1608955770,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "clock",
+        "day",
+        "hour",
+        "location",
+        "moon",
+        "sun",
+        "time",
+        "watch"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "photoncodes"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,110 @@
+{
+    "id": 5806,
+    "name": "FlyPE",
+    "version": "3.8.3",
+    "html_url": "https://poggit.pmmp.io/p/FlyPE/3.8.3",
+    "tagline": "An advanced fly plugin for PMMP!",
+    "artifact_url": "https://poggit.pmmp.io/r/112627",
+    "downloads": 5911,
+    "score": 5,
+    "repo_id": 265524969,
+    "repo_name": "AGTHARN/FlyPE",
+    "project_id": 6989,
+    "project_name": "FlyPE",
+    "build_id": 94686,
+    "build_number": 80,
+    "build_commit": "3e0dc2715139f402f4cd06d017927a482809fd48",
+    "description_url": "https://poggit.pmmp.io/r/113183",
+    "icon_url": "https://raw.githubusercontent.com/AGTHARN/FlyPE/3e0dc2715139f402f4cd06d017927a482809fd48/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/113185",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609836640,
+    "state": 5,
+    "last_state_change_date": 1610413587,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": false
+        },
+        {
+            "name": "VanishV2",
+            "version": "1.15",
+            "depRelId": 5667,
+            "isHard": false
+        },
+        {
+            "name": "SimpleLay",
+            "version": "1.1.0",
+            "depRelId": 5762,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HyperFlareMC"
+        ],
+        "Contributor": [
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

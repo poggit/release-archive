@@ -1,0 +1,57 @@
+{
+    "id": 14461,
+    "name": "AZNetherPortal",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AZNetherPortal/1.0.0",
+    "tagline": "Optimized vanilla-like Nether Portal system for PocketMine-MP 5",
+    "artifact_url": "https://poggit.pmmp.io/r/264624",
+    "downloads": 107,
+    "score": 5,
+    "repo_id": 1246901144,
+    "repo_name": "BeeAZ-pm-pl/AZNetherPortal",
+    "project_id": 15241,
+    "project_name": "AZNetherPortal",
+    "build_id": 192774,
+    "build_number": 1,
+    "build_commit": "90c552bf8436d716c2f42de085b0eb6529245739",
+    "description_url": "https://poggit.pmmp.io/r/264626",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/AZNetherPortal/90c552bf8436d716c2f42de085b0eb6529245739/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1779471153,
+    "state": 6,
+    "last_state_change_date": 1783024186,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        }
+    ],
+    "keywords": [
+        "netherportal"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Featured",
+    "virions": []
+}

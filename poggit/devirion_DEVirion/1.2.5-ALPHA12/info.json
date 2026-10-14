@@ -1,0 +1,63 @@
+{
+    "id": 1279,
+    "name": "DEVirion",
+    "version": "1.2.5-ALPHA12",
+    "html_url": "https://poggit.pmmp.io/p/DEVirion/1.2.5-ALPHA12",
+    "tagline": "Debugging tool for virion developers and users",
+    "artifact_url": "https://poggit.pmmp.io/r/27796",
+    "downloads": 112,
+    "score": 5,
+    "repo_id": 73552725,
+    "repo_name": "poggit/devirion",
+    "project_id": 248,
+    "project_name": "DEVirion",
+    "build_id": 39357,
+    "build_number": 28,
+    "build_commit": "d3a07db517d5bb1d2005d71c9d4798929db5abe7",
+    "description_url": "https://poggit.pmmp.io/r/33659",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/33661",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": true,
+    "is_abandoned": false,
+    "submission_date": 1523720018,
+    "state": 5,
+    "last_state_change_date": 1523720025,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "devirion",
+        "devtools",
+        "virion"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "falkirks",
+            "thebigsmileXD",
+            "fuyutsuki",
+            "jasonwynn10",
+            "alvin0319",
+            "Blackjack200"
+        ],
+        "Collaborator": [
+            "SOF3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

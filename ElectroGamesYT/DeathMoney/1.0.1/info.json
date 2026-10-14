@@ -1,0 +1,67 @@
+{
+    "id": 8133,
+    "name": "DeathMoney",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/DeathMoney/1.0.1",
+    "tagline": "Players Lose Money When They Die",
+    "artifact_url": "https://poggit.pmmp.io/r/149920",
+    "downloads": 509,
+    "score": 5,
+    "repo_id": 379016146,
+    "repo_name": "ElectroGamesYT/DeathMoney",
+    "project_id": 9159,
+    "project_name": "DeathMoney",
+    "build_id": 116691,
+    "build_number": 2,
+    "build_commit": "6b3f304bcd6b9c1b95f3e059a3b936d2618ac521",
+    "description_url": "https://poggit.pmmp.io/r/149917",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/DeathMoney/6b3f304bcd6b9c1b95f3e059a3b936d2618ac521/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/149919",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638553573,
+    "state": 5,
+    "last_state_change_date": 1638656751,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Death",
+        "DeathMoney",
+        "Economy",
+        "Money"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,116 @@
+{
+    "id": 9088,
+    "name": "BedrockEconomy",
+    "version": "2.0.5",
+    "html_url": "https://poggit.pmmp.io/p/BedrockEconomy/2.0.5",
+    "tagline": "An economy plugin focused on stability and simplicity",
+    "artifact_url": "https://poggit.pmmp.io/r/163774",
+    "downloads": 396,
+    "score": 5,
+    "repo_id": 400814840,
+    "repo_name": "cooldogepm/BedrockEconomy",
+    "project_id": 10670,
+    "project_name": "BedrockEconomy",
+    "build_id": 125011,
+    "build_number": 1,
+    "build_commit": "e1b30db04a6f2fc000240bd210bec12c6ed4c642",
+    "description_url": "https://poggit.pmmp.io/r/163776",
+    "icon_url": "https://raw.githubusercontent.com/cooldogedev/BedrockEconomy/e1b30db04a6f2fc000240bd210bec12c6ed4c642/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645572861,
+    "state": 5,
+    "last_state_change_date": 1645574856,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "api",
+        "economy",
+        "mcbe",
+        "minecraft",
+        "mysql",
+        "php",
+        "pmmp",
+        "pocketmine",
+        "sql",
+        "sqlite"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "udachin26",
+            "SOF3",
+            "Endermanbugzjfc",
+            "NhanAZ",
+            "brokiem",
+            "KygekDev",
+            "fadheldev",
+            "TheRealDeveloper",
+            "AIPTU",
+            "MrBlasyMSK",
+            "borvn",
+            "Nakidori",
+            "Betsthebest"
+        ],
+        "Collaborator": [
+            "cooldogedev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libSQL",
+            "project_id": 9638,
+            "repo_id": 401502580,
+            "repo_name": "cooldogepm/libSQL",
+            "repo_path": "",
+            "build_commit": "c822f78d326ba56744ac274daed36687630530a3",
+            "build_id": 125010
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

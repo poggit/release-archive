@@ -1,0 +1,58 @@
+{
+    "id": 5330,
+    "name": "KickAll",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/KickAll/1.2.1",
+    "tagline": "KickAll plugin for PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/103500",
+    "downloads": 6231,
+    "score": 1,
+    "repo_id": 257105510,
+    "repo_name": "AmmyR/KickAll",
+    "project_id": 6749,
+    "project_name": "KickAll",
+    "build_id": 88411,
+    "build_number": 6,
+    "build_commit": "270a70766768ed1a209f7fd4690b3d5856c1e7f4",
+    "description_url": "https://poggit.pmmp.io/r/103497",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/103499",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1600995595,
+    "state": 5,
+    "last_state_change_date": 1601140142,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "kick",
+        "kickall"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AmmyR"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

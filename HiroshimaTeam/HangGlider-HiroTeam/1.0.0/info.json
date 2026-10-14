@@ -1,0 +1,67 @@
+{
+    "id": 8772,
+    "name": "HangGlider-HiroTeam",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HangGlider-HiroTeam/1.0.0",
+    "tagline": "HangGlider pocketmine plugin pm4",
+    "artifact_url": "https://poggit.pmmp.io/r/159392",
+    "downloads": 47,
+    "score": null,
+    "repo_id": 453555837,
+    "repo_name": "HiroshimaTeam/HangGlider-HiroTeam",
+    "project_id": 10475,
+    "project_name": "HangGlider-HiroTeam",
+    "build_id": 122410,
+    "build_number": 4,
+    "build_commit": "b69386f922ab5e8346cdf426fcfb34ca108cd0ac",
+    "description_url": "https://poggit.pmmp.io/r/159391",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/HangGlider-HiroTeam/b69386f922ab5e8346cdf426fcfb34ca108cd0ac/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643660233,
+    "state": 5,
+    "last_state_change_date": 1644640374,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "glider",
+        "hang",
+        "hangglider",
+        "item",
+        "new",
+        "plugin",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WillyDuGang"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

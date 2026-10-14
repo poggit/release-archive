@@ -1,0 +1,65 @@
+{
+    "id": 8784,
+    "name": "Oneblock",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/Oneblock/0.0.2",
+    "tagline": "Upgrade for Oneblock PM3 version",
+    "artifact_url": "https://poggit.pmmp.io/r/159529",
+    "downloads": 346,
+    "score": null,
+    "repo_id": 450758290,
+    "repo_name": "BeeAZ-pm-pl/Oneblock",
+    "project_id": 10385,
+    "project_name": "Oneblock-PM4",
+    "build_id": 122485,
+    "build_number": 17,
+    "build_commit": "f1375e760725e3714c69e1bfe0ff7acbed355179",
+    "description_url": "https://poggit.pmmp.io/r/159528",
+    "icon_url": "https://raw.githubusercontent.com/lenlenlL6/Oneblock-PM4/f1375e760725e3714c69e1bfe0ff7acbed355179/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643724336,
+    "state": 5,
+    "last_state_change_date": 1643735576,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        }
+    ],
+    "keywords": [
+        "Oneblock"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "MultiWorld",
+            "version": "1.7.0-beta4",
+            "depRelId": 8336,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "lenlenlL6",
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

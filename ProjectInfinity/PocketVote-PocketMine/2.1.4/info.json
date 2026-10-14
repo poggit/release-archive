@@ -1,0 +1,67 @@
+{
+    "id": 1728,
+    "name": "PocketVote",
+    "version": "2.1.4",
+    "html_url": "https://poggit.pmmp.io/p/PocketVote/2.1.4",
+    "tagline": "Make voting great again (with a fully automated voting solution)!",
+    "artifact_url": "https://poggit.pmmp.io/r/38216",
+    "downloads": 463,
+    "score": 5,
+    "repo_id": 57460310,
+    "repo_name": "ProjectInfinity/PocketVote-PocketMine",
+    "project_id": 219,
+    "project_name": "PocketVote-PocketMine",
+    "build_id": 46758,
+    "build_number": 30,
+    "build_commit": "fe65e7aebc5f364a4bf54db53053ac47110d6188",
+    "description_url": "https://poggit.pmmp.io/r/38212",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/38214",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/38215",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1532887590,
+    "state": 5,
+    "last_state_change_date": 1534432806,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "automated",
+        "pocket",
+        "pocketvote",
+        "reward",
+        "suite",
+        "vote",
+        "voting"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ProjectInfinity"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

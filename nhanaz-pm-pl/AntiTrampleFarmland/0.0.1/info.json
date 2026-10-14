@@ -1,0 +1,64 @@
+{
+    "id": 11140,
+    "name": "AntiTrampleFarmland",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AntiTrampleFarmland/0.0.1",
+    "tagline": "Farmland will not decay when trampled by any entity",
+    "artifact_url": "https://poggit.pmmp.io/r/203712",
+    "downloads": 125,
+    "score": 5,
+    "repo_id": 623032510,
+    "repo_name": "nhanaz-pm-pl/AntiTrampleFarmland",
+    "project_id": 12316,
+    "project_name": "AntiTrampleFarmland",
+    "build_id": 152405,
+    "build_number": 4,
+    "build_commit": "4538d3767897a1dc171f174cf8ab8828d543e45f",
+    "description_url": "https://poggit.pmmp.io/r/203711",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/AntiTrampleFarmland/4538d3767897a1dc171f174cf8ab8828d543e45f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1680534787,
+    "state": 5,
+    "last_state_change_date": 1680644591,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "antifarmlanddecay",
+        "antitramplefarmland",
+        "nofarmlanddecay",
+        "notramplefarmland",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "andriycraft"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

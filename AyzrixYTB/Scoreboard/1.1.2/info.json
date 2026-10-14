@@ -1,0 +1,144 @@
+{
+    "id": 6276,
+    "name": "Scoreboard",
+    "version": "1.1.2",
+    "html_url": "https://poggit.pmmp.io/p/Scoreboard/1.1.2",
+    "tagline": "Simple optimized scoreboard",
+    "artifact_url": "https://poggit.pmmp.io/r/120126",
+    "downloads": 883,
+    "score": 4,
+    "repo_id": 349251299,
+    "repo_name": "AyzrixYTB/Scoreboard",
+    "project_id": 8719,
+    "project_name": "Scoreboard",
+    "build_id": 99207,
+    "build_number": 10,
+    "build_commit": "e956c213f158886483e13ee0628e9d224745ca6d",
+    "description_url": "https://poggit.pmmp.io/r/120759",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/120761",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616973755,
+    "state": 5,
+    "last_state_change_date": 1617177964,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "addons",
+        "ayzrix",
+        "scoreboard"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "SeeDevice",
+            "version": "0.0.7",
+            "depRelId": 2087,
+            "isHard": false
+        },
+        {
+            "name": "CombatLogger",
+            "version": "0.0.6",
+            "depRelId": 2222,
+            "isHard": false
+        },
+        {
+            "name": "OnlineTime",
+            "version": "1.3",
+            "depRelId": 3014,
+            "isHard": false
+        },
+        {
+            "name": "Bounty",
+            "version": "1.1.2",
+            "depRelId": 3200,
+            "isHard": false
+        },
+        {
+            "name": "FactionsPro",
+            "version": "1.3.20",
+            "depRelId": 3283,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": false
+        },
+        {
+            "name": "SkyBlock",
+            "version": "3.0.0",
+            "depRelId": 4084,
+            "isHard": false
+        },
+        {
+            "name": "Prisons",
+            "version": "1.2.1",
+            "depRelId": 5897,
+            "isHard": false
+        },
+        {
+            "name": "MyPlot",
+            "version": "1.10.1",
+            "depRelId": 5941,
+            "isHard": false
+        },
+        {
+            "name": "FightLogger",
+            "version": "1.0.0",
+            "depRelId": 6195,
+            "isHard": false
+        },
+        {
+            "name": "CoinsSystem",
+            "version": "1.2.0",
+            "depRelId": 6227,
+            "isHard": false
+        },
+        {
+            "name": "SimpleFaction",
+            "version": "1.4.0",
+            "depRelId": 6228,
+            "isHard": false
+        },
+        {
+            "name": "PiggyFactions",
+            "version": "1.2.0",
+            "depRelId": 6246,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AyzrixYTB"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

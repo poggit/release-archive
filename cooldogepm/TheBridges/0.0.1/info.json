@@ -1,0 +1,87 @@
+{
+    "id": 10880,
+    "name": "TheBridges",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/TheBridges/0.0.1",
+    "tagline": "An extremely customizable TheBridge mini-game designed for scalability and simplicity",
+    "artifact_url": "https://poggit.pmmp.io/r/198468",
+    "downloads": 239,
+    "score": 4,
+    "repo_id": 521355894,
+    "repo_name": "cooldogepm/TheBridges",
+    "project_id": 12030,
+    "project_name": "TheBridges",
+    "build_id": 148707,
+    "build_number": 2,
+    "build_commit": "cdd89fca38b7469ec8bcef3a6bb5a813ac1694c0",
+    "description_url": "https://poggit.pmmp.io/r/198470",
+    "icon_url": "https://raw.githubusercontent.com/cooldogedev/TheBridges/cdd89fca38b7469ec8bcef3a6bb5a813ac1694c0/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1671976025,
+    "state": 5,
+    "last_state_change_date": 1673451967,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "mcpe",
+        "minecraft",
+        "minigame",
+        "mysql",
+        "pmmp",
+        "pocketmine",
+        "sqlite",
+        "thebridge"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "cooldogedev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libSQL",
+            "project_id": 9638,
+            "repo_id": 401502580,
+            "repo_name": "cooldogepm/libSQL",
+            "repo_path": "",
+            "build_commit": "d737b93b7cf0ce42045a7e345c3543182343d9d3",
+            "build_id": 148562
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

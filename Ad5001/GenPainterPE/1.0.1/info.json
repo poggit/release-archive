@@ -1,0 +1,58 @@
+{
+    "id": 799,
+    "name": "GenPainterPE",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/GenPainterPE/1.0.1",
+    "tagline": "Pocketmine Generator for Earth and heightmap based generation.",
+    "artifact_url": "https://poggit.pmmp.io/r/16040",
+    "downloads": 9142,
+    "score": null,
+    "repo_id": 107850178,
+    "repo_name": "Ad5001/GenPainterPE",
+    "project_id": 1042,
+    "project_name": "GenPainterPE",
+    "build_id": 30333,
+    "build_number": 4,
+    "build_commit": "1f76f1eefd062a2377c37bff0fc4ad44e120e391",
+    "description_url": "https://poggit.pmmp.io/r/16036",
+    "icon_url": "https://raw.githubusercontent.com/Ad5001/GenPainterPE/1f76f1eefd062a2377c37bff0fc4ad44e120e391/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/16038",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/16039",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1510342441,
+    "state": 5,
+    "last_state_change_date": 1510393417,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "realworld",
+        "heightmap"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA9",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Ad5001"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

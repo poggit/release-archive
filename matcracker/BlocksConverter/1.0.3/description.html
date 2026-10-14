@@ -1,0 +1,70 @@
+<p><a href="https://poggit.pmmp.io/p/BlocksConverter" rel="nofollow"><img src="https://camo.githubusercontent.com/cd6ed57fff0ff7c043a3c346569f343739dba9ce/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f426c6f636b73436f6e766572746572" alt=" " data-canonical-src="https://poggit.pmmp.io/shield.state/BlocksConverter" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/BlocksConverter" rel="nofollow"><img src="https://camo.githubusercontent.com/7d3cb8b6e327caf244744cd1c2a13894ded34dd6/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f426c6f636b73436f6e766572746572" alt=" " data-canonical-src="https://poggit.pmmp.io/shield.api/BlocksConverter" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/BlocksConverter" rel="nofollow"><img src="https://camo.githubusercontent.com/ae2b38a0813799eb11ac32e66b853e96cc625a01/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f426c6f636b73436f6e766572746572" alt=" " data-canonical-src="https://poggit.pmmp.io/shield.dl.total/BlocksConverter" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-blocksconverter" class="anchor" href="#blocksconverter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BlocksConverter</h1>
+<p>BlocksConverter is a <strong>PocketMine-MP plugin</strong> that allows you to convert block IDs and datas to another type. For example, if you need to import a Minecraft Java Edition world, you can use it for convert to a Minecraft: BE world!</p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<ul>
+<li>
+<strong>/convertqueue &lt;add|remove|status&gt; [levelName|all] (Permission: blocksconverter.commands.convertqueue)</strong>
+<ul>
+<li>
+<strong>/cq add &lt;levelname|all&gt;</strong>: It adds one or all loaded worlds/levels in queue before the conversion.</li>
+<li>
+<strong>/cq remove &lt;levelname|all&gt;</strong>: It removes one or all loaded worlds/levels from the queue.</li>
+<li>
+<strong>/cq status</strong>: It shows the status of current queue.</li>
+</ul>
+</li>
+<li>
+<strong>/convert &lt;levelname|queue&gt; [backup=true|false] (Permission: blocksconverter.commands.convert)</strong>
+<ul>
+<li>
+<strong>/convert [levelname] [backup=true|false]</strong>: It directly convert a loaded world/level (without quotes!) and it optionally runs a backup (by default is true)</li>
+<li>
+<strong>/convert queue [backup=true|false]</strong>: It starts to convert all the loaded worlds/levels in queue.</li>
+</ul>
+</li>
+</ul>
+<h2>
+<a id="user-content-configuration-file" class="anchor" href="#configuration-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration file</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-ent">settings</span>:
+  <span class="pl-ent">chunk-radius</span>: <span class="pl-c1">10</span> <span class="pl-c"><span class="pl-c">#</span>It loads all the chunks in the specific radius (starting point is world spawn) and it allows to convert more blocks in the map.</span>
+
+<span class="pl-c"><span class="pl-c">#</span>This is the section for setup the blocks to be converted in all queued worlds</span>
+<span class="pl-ent">blocks</span>:
+  <span class="pl-ent">&lt;id&gt;-&lt;metadata&gt;</span>: <span class="pl-c"><span class="pl-c">#</span>The ID and data of block that need to be replaced </span>
+    <span class="pl-ent">converted-id</span>: <span class="pl-s">&lt;new_id&gt; </span><span class="pl-c"><span class="pl-c">#</span>The correct corresponding block ID.</span>
+    <span class="pl-ent">converted-data</span>: <span class="pl-s">&lt;new_metadata&gt; </span><span class="pl-c"><span class="pl-c">#</span>The correct corresponding block data.</span>
+  <span class="pl-c"><span class="pl-c">#</span>Examples</span>
+  <span class="pl-ent">44-1</span>:
+    <span class="pl-ent">converted-id</span>: <span class="pl-c1">158</span>
+    <span class="pl-ent">converted-data</span>: <span class="pl-c1">0</span>
+  <span class="pl-ent">44-7</span>:
+    <span class="pl-ent">converted-id</span>: <span class="pl-c1">44</span>
+    <span class="pl-ent">converted-data</span>: <span class="pl-c1">6</span>
+  <span class="pl-ent">125-0</span>: <span class="pl-c"><span class="pl-c">#</span>Dropper</span>
+    <span class="pl-ent">converted-id</span>: <span class="pl-c1">157</span>
+    <span class="pl-ent">converted-data</span>: <span class="pl-c1">1</span>
+  <span class="pl-ent">126-0</span>: <span class="pl-c"><span class="pl-c">#</span>Activator Rail</span>
+    <span class="pl-ent">converted-id</span>: <span class="pl-c1">44</span>
+    <span class="pl-ent">converted-data</span>: <span class="pl-c1">1</span>
+  <span class="pl-ent">166-0</span>: <span class="pl-c"><span class="pl-c">#</span>MCPC Barrier</span>
+    <span class="pl-ent">converted-id</span>: <span class="pl-c1">95</span>
+    <span class="pl-ent">converted-data</span>: <span class="pl-c1">0</span>
+  <span class="pl-ent">188-0</span>: <span class="pl-c"><span class="pl-c">#</span>MCPC Repeating command block</span>
+    <span class="pl-ent">converted-id</span>: <span class="pl-c1">85</span>
+    <span class="pl-ent">converted-data</span>: <span class="pl-c1">1</span>
+  <span class="pl-ent">189-0</span>: <span class="pl-c"><span class="pl-c">#</span>MCPC Command block</span>
+    <span class="pl-ent">converted-id</span>: <span class="pl-c1">85</span> <span class="pl-c"><span class="pl-c">#</span>Birch fence</span>
+    <span class="pl-ent">converted-data</span>: <span class="pl-c1">2</span>
+  <span class="pl-ent">191</span>: <span class="pl-c"><span class="pl-c">#</span>MCPC Dark oak fence</span>
+    <span class="pl-ent">converted-id</span>: <span class="pl-c1">85</span>
+    <span class="pl-ent">converted-data</span>: <span class="pl-c1">5</span>
+...</pre></div>
+<h2>
+<a id="user-content-important" class="anchor" href="#important" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Important</h2>
+<p>This plugin could take some time before the conversion isn't finished. While the conversion, <strong>don't</strong> try to stop or turn off the server until it's finished.</p>

@@ -1,0 +1,66 @@
+{
+    "id": 8809,
+    "name": "FFA",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/FFA/1.0.1",
+    "tagline": "FFA MiniGame",
+    "artifact_url": "https://poggit.pmmp.io/r/159816",
+    "downloads": 970,
+    "score": 4,
+    "repo_id": 421845254,
+    "repo_name": "Laith98Dev/FFA",
+    "project_id": 9891,
+    "project_name": "FFA",
+    "build_id": 122640,
+    "build_number": 51,
+    "build_commit": "276b287bf7fcd44248266bd27a26fcb973326047",
+    "description_url": "https://poggit.pmmp.io/r/159813",
+    "icon_url": "https://raw.githubusercontent.com/Laith98Dev/FFA/276b287bf7fcd44248266bd27a26fcb973326047/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/159815",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643880319,
+    "state": 5,
+    "last_state_change_date": 1644101576,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ffa",
+        "freeforall",
+        "laith98dev",
+        "pmmp",
+        "pocketmine-mp",
+        "minigame"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

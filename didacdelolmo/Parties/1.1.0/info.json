@@ -1,0 +1,86 @@
+{
+    "id": 5005,
+    "name": "Parties",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Parties/1.1.0",
+    "tagline": "A parties plugin for PocketMine-MP servers",
+    "artifact_url": "https://poggit.pmmp.io/r/97899",
+    "downloads": 97,
+    "score": 5,
+    "repo_id": 277870148,
+    "repo_name": "didacdelolmo/Parties",
+    "project_id": 7416,
+    "project_name": "Parties",
+    "build_id": 84927,
+    "build_number": 18,
+    "build_commit": "99c9dc70d4bb604a534e5bf2810f6c49823b01a8",
+    "description_url": "https://poggit.pmmp.io/r/97905",
+    "icon_url": "https://raw.githubusercontent.com/Diduhless/Parties/99c9dc70d4bb604a534e5bf2810f6c49823b01a8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/97907",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1595777215,
+    "state": 5,
+    "last_state_change_date": 1595784649,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "fiesta",
+        "friends",
+        "parties",
+        "party"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "jasonwynn10",
+            "andresbytes"
+        ],
+        "Collaborator": [
+            "Diduhless"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

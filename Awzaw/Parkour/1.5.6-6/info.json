@@ -1,0 +1,67 @@
+{
+    "id": 1393,
+    "name": "Parkour",
+    "version": "1.5.6-6",
+    "html_url": "https://poggit.pmmp.io/p/Parkour/1.5.6-6",
+    "tagline": "The Parkour Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/30515",
+    "downloads": 168,
+    "score": null,
+    "repo_id": 58374937,
+    "repo_name": "Awzaw/Parkour",
+    "project_id": 10,
+    "project_name": "Parkour",
+    "build_id": 41324,
+    "build_number": 32,
+    "build_commit": "e0ecc9b7391d3c84ef412e892c0a07310979841f",
+    "description_url": "https://poggit.pmmp.io/r/30512",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/Parkour/e0ecc9b7391d3c84ef412e892c0a07310979841f/obstacle.png",
+    "changelog_url": "https://poggit.pmmp.io/r/30514",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526417240,
+    "state": 5,
+    "last_state_change_date": 1526417243,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "minigame",
+        "obby",
+        "parcour",
+        "parkour"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA8",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-6",
+            "depRelId": 1388,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

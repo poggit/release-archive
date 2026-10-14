@@ -1,0 +1,63 @@
+{
+    "id": 3848,
+    "name": "Vehicles",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Vehicles/0.1.0",
+    "tagline": "Bring vehicles to your server !",
+    "artifact_url": "https://poggit.pmmp.io/r/76603",
+    "downloads": 690,
+    "score": 4,
+    "repo_id": 198622790,
+    "repo_name": "JaxkDev/Vehicles",
+    "project_id": 5448,
+    "project_name": "Vehicles",
+    "build_id": 71500,
+    "build_number": 12,
+    "build_commit": "60b410a18105b13b05a3245f1e794077f8d90650",
+    "description_url": "https://poggit.pmmp.io/r/76620",
+    "icon_url": "https://raw.githubusercontent.com/JaxkDev/Vehicles/60b410a18105b13b05a3245f1e794077f8d90650/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/76622",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/76623",
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582331834,
+    "state": 5,
+    "last_state_change_date": 1582420914,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Cars",
+        "JaxkDev",
+        "Vehicles"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JaxkDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

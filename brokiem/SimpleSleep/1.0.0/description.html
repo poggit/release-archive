@@ -1,0 +1,57 @@
+<h1>
+<a id="user-content-simplesleep" class="anchor" href="#simplesleep" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SimpleSleep<a href="https://github.com/brokiem/SimpleSleep/blob/master/assets/logo.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/brokiem/SimpleSleep/raw/master/assets/logo.PNG" height="64" width="64" align="left" alt="" style="max-width:100%;"></a>
+</h1><br>
+<p><a href="https://github.com/brokiem/SimpleSleep"><img src="https://camo.githubusercontent.com/640be26dce3dbeb135d92f525810adeb7edfe784ed9f994d630adc51806f7481/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f62726f6b69656d2f53696d706c65536c656570" alt="License" data-canonical-src="https://img.shields.io/github/license/brokiem/SimpleSleep" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/SimpleSleep" rel="nofollow"><img src="https://camo.githubusercontent.com/bdd7d44b127a5a5d09473e90b721b5963cce43739d4428b9fb579515360be281/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f53696d706c65536c656570" alt="Poggit" data-canonical-src="https://poggit.pmmp.io/shield.state/SimpleSleep" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/SimpleSleep" rel="nofollow"><img src="https://camo.githubusercontent.com/d04cc1e96ad9d4001e18b0c58e2302f7faf26d57125e9bb97e81b2ce6cad6fbf/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f53696d706c65536c656570" alt="Poggit" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/SimpleSleep" style="max-width:100%;"></a>
+<a href="https://github.com/brokiem/SimpleSleep/stargazers"><img src="https://camo.githubusercontent.com/80a4388d5a6c3a701dc759bce8f9513d61654b96e2655b4774295c696eda827e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f62726f6b69656d2f53696d706c65536c656570" alt="Star" data-canonical-src="https://img.shields.io/github/stars/brokiem/SimpleSleep" style="max-width:100%;"></a> <br></p>
+<h3>
+<a id="user-content-description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h3>
+<p>This plugin aims to improve sleeping in multiplayer by only having a certain percentage of players sleep.</p>
+<h3>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h3>
+<ul>
+<li>Set minimum players to sleep so that the time is morning</li>
+<li>Custom messages, sleep duration, and minimal players to sleep</li>
+<li>Fully maintained</li>
+</ul>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Permission</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/simplesleep reload</code></td>
+<td><code>Reload SimpleSleep config</code></td>
+<td><code>simplesleep.command</code></td>
+<td>op</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-issues" class="anchor" href="#issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issues</h3>
+<p>If you find issues, please create issues <a href="https://github.com/brokiem/SimpleSleep/issues/new">here</a></p>
+<h3>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h3>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span>####### SimpleSleep Configuration File ########</span>
+<span class="pl-c"><span class="pl-c">#</span> Enabled world for sleep to trigger event</span>
+<span class="pl-ent">enable-all-worlds</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> If "enable-all-worlds" is false, set your folder world name below</span>
+<span class="pl-ent">enabled-worlds</span>:
+  - <span class="pl-s"><span class="pl-pds">"</span>world<span class="pl-pds">"</span></span>
+  - <span class="pl-s"><span class="pl-pds">"</span>world2<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Sleep duration in tick (20 ticks = 1 second)</span>
+<span class="pl-ent">sleep-duration</span>: <span class="pl-c1">100</span> <span class="pl-c"><span class="pl-c">#</span> mean 5 seconds</span>
+<span class="pl-c"><span class="pl-c">#</span> Minimum players to change time</span>
+<span class="pl-ent">minimal-players</span>: <span class="pl-c1">1</span>
+<span class="pl-c"><span class="pl-c">#</span> Message type (Value: "message", "actionbar")</span>
+<span class="pl-ent">message-type</span>: <span class="pl-s"><span class="pl-pds">"</span>actionbar<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Sleep Messages</span>
+<span class="pl-ent">on-enter-bed-message</span>: <span class="pl-s"><span class="pl-pds">"</span>{player} is sleeping!<span class="pl-pds">"</span></span></pre></div>

@@ -1,0 +1,19 @@
+<h1>
+<a id="user-content-autoupdater" class="anchor" href="#autoupdater" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AutoUpdater</h1>
+<p><a href="https://poggit.pmmp.io/p/AutoUpdater" rel="nofollow"><img src="https://camo.githubusercontent.com/edac7e4d175e9b66b71b9bacb35f7a1b824db6a5/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f4175746f55706461746572" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/AutoUpdater" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/AutoUpdater" rel="nofollow"><img src="https://camo.githubusercontent.com/3522b97dd55e1ebe74a400bfce54e1cd61de8d03/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f4175746f55706461746572" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/AutoUpdater" style="max-width:100%;"></a></p>
+<p>A PocketMine-MP plugin that allow you to automatically update your server when a new version of PocketMine-MP is available with a rich API for developers.</p>
+<p>Basically the plugin is checking the latest version from the channel you choosed in your pocketmine.yml in <code>preferred-channel</code> when the server startup. If a new update is available and you have setted autoUpdate to true in your config.yml this plugin will stop all your plugins first to avoid any problems then downloading the latest version.phar and then stop/restart your server.</p>
+<h3>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h3>
+<ul>
+<li>
+<p><strong>autoUpdate</strong><br>
+You can choose in the config to activate autoUpdate or no, if autoUpdate is set to false, you will be notified but the server won't be upgraded.</p>
+</li>
+<li>
+<p><strong>restartAfterUpdate</strong><br>
+If the server isn't running on Windows and you have pntcl extension compiled with PHP (by default with PHP bin downloaded by PM when you install), you can enable that option that will automatically restart the server once he is updated.<br>
+If set to false, the server will only shutdown and you will have to restart it manually.</p>
+</li>
+</ul>

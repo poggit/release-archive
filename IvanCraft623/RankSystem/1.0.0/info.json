@@ -1,0 +1,98 @@
+{
+    "id": 10064,
+    "name": "RankSystem",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RankSystem/1.0.0",
+    "tagline": "An amazing Rank and Permissions Manager. The best ranks manager for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/182836",
+    "downloads": 567,
+    "score": 3,
+    "repo_id": 385033127,
+    "repo_name": "IvanCraft623/RankSystem",
+    "project_id": 9247,
+    "project_name": "RankSystem",
+    "build_id": 138098,
+    "build_number": 34,
+    "build_commit": "b83d9f27690b5076dbf77999ae09526441b4a1dc",
+    "description_url": "https://poggit.pmmp.io/r/182833",
+    "icon_url": "https://raw.githubusercontent.com/IvanCraft623/RankSystem/b83d9f27690b5076dbf77999ae09526441b4a1dc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/182835",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1655862584,
+    "state": 5,
+    "last_state_change_date": 1656364814,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "administrate",
+        "group",
+        "groups",
+        "manager",
+        "permissions",
+        "perms",
+        "role",
+        "roles"
+    ],
+    "api": [
+        {
+            "from": "4.4.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "supercrafter333"
+        ],
+        "Collaborator": [
+            "IvanCraft623"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "ce75bc58d640c15af95bd24a3be053d57608092c",
+            "build_id": 124216
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "a55ecceb73e6aa99b80bbec2a78aed0c6341170c",
+            "build_id": 134155
+        }
+    ]
+}

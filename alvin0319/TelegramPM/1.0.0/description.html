@@ -1,0 +1,45 @@
+<h1>
+<a id="user-content-telegrampm" class="anchor" href="#telegrampm" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TelegramPM</h1>
+<p>A PocketMine-MP Plugin that connect PM Server &lt;-&gt; Telegram</p>
+<h2>
+<a id="user-content-setting" class="anchor" href="#setting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting</h2>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">allow-user</span>: <span class="pl-s">[] </span><span class="pl-c"><span class="pl-c">#</span>This field is the ID of the Telegram user who can use this bot, ex) alvin0319</span>
+<span class="pl-c"><span class="pl-c">#</span>ex)</span>
+<span class="pl-c"><span class="pl-c">#</span>allow-user:</span>
+<span class="pl-c"><span class="pl-c">#</span> - alvin0319</span>
+<span class="pl-c"><span class="pl-c">#</span> - someuser</span>
+
+<span class="pl-ent">passwords</span>: <span class="pl-s">[] </span><span class="pl-c"><span class="pl-c">#</span>This field is where you set the password for the user.</span>
+<span class="pl-c"><span class="pl-c">#</span> ex)</span>
+<span class="pl-c"><span class="pl-c">#</span>passwords:</span>
+<span class="pl-c"><span class="pl-c">#</span> - alvin0319: mypassword</span>
+<span class="pl-c"><span class="pl-c">#</span> - someuser: password</span>
+
+<span class="pl-ent">lastMessage</span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span>This field should not be touched.</span>
+
+<span class="pl-ent">token</span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span>This field is where you put the bot's token.</span></pre></div>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<blockquote>
+<p>send message</p>
+<p><code>\alvin0319\TelegramBot\TelegramBot::getInstance()-&gt;sendMessage("your message", "chat id")</code></p>
+</blockquote>
+<blockquote>
+<p>Event</p>
+<p><code>\alvin0319\TelegramBot\event\MessageReceiveEvent</code></p>
+<p><code>\alvin0319\TelegramBot\event\MessageSendEvent</code></p>
+</blockquote>
+<h2>
+<a id="user-content-note-on-use" class="anchor" href="#note-on-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note on use</h2>
+<p>After restarting the server and before running commands on the bot, you must log in with <code>/login &lt;password&gt;</code>.</p>
+<blockquote>
+<p>Welcome, username</p>
+</blockquote>
+<p>If you see this, you are successfully logged in.</p>
+<p>Command can be used as <code>/execute &lt;command&gt;</code>.</p>
+<h2>
+<a id="user-content-warning" class="anchor" href="#warning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Warning</h2>
+<p>YOU SHOULD NOT LEAK YOUR BOT'S TOKEN OR NAME. PASSWORD ENTRY IS REQUIRED, BUT THIS IS NOT SAFE.</p>
+<h2>
+<a id="user-content-test" class="anchor" href="#test" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Test</h2>
+<p><a href="https://raw.githubusercontent.com/alvin0319/TelegramPM/master/images/image.PNG" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/alvin0319/TelegramPM/master/images/image.PNG" alt="" style="max-width:100%;"></a></p>

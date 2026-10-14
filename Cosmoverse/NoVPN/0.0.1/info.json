@@ -1,0 +1,69 @@
+{
+    "id": 3835,
+    "name": "NoVPN",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/NoVPN/0.0.1",
+    "tagline": "A PocketMine-MP plugin to disallow players from joining the server through VPNs",
+    "artifact_url": "https://poggit.pmmp.io/r/76372",
+    "downloads": 113,
+    "score": null,
+    "repo_id": 241331727,
+    "repo_name": "Cosmoverse/NoVPN",
+    "project_id": 6335,
+    "project_name": "NoVPN",
+    "build_id": 71353,
+    "build_number": 13,
+    "build_commit": "5d768d916a31d6e400653a3548b78d61511af26d",
+    "description_url": "https://poggit.pmmp.io/r/76371",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582106061,
+    "state": 5,
+    "last_state_change_date": 1582132054,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "AntiVPN",
+            "project_id": 6336,
+            "repo_id": 241324254,
+            "repo_name": "Cosmoverse/AntiVPN",
+            "repo_path": "",
+            "build_commit": "a3713cea0d00fc0032bc2f54d2364ff46f828526",
+            "build_id": 71352
+        }
+    ]
+}

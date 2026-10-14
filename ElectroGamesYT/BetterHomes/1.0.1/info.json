@@ -1,0 +1,69 @@
+{
+    "id": 10593,
+    "name": "BetterHomes",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BetterHomes/1.0.1",
+    "tagline": "Just A Simple Homes Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/193315",
+    "downloads": 3128,
+    "score": null,
+    "repo_id": 434849555,
+    "repo_name": "ElectroGamesYT/BetterHomes",
+    "project_id": 10034,
+    "project_name": "BetterHomes",
+    "build_id": 145312,
+    "build_number": 9,
+    "build_commit": "8e76754ebfb8657c3288e25a61006059c680d88b",
+    "description_url": "https://poggit.pmmp.io/r/193312",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/BetterHomes/8e76754ebfb8657c3288e25a61006059c680d88b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/193314",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1663801365,
+    "state": 5,
+    "last_state_change_date": 1663888993,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Home",
+        "HomeUI",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

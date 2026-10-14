@@ -1,0 +1,64 @@
+{
+    "id": 4343,
+    "name": "ScoreTag",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/ScoreTag/1.0.2",
+    "tagline": "Display a Tag below player nametag.",
+    "artifact_url": "https://poggit.pmmp.io/r/85701",
+    "downloads": 288,
+    "score": 4,
+    "repo_id": 260400054,
+    "repo_name": "Inaayat04/ScoreTag",
+    "project_id": 6839,
+    "project_name": "ScoreTag",
+    "build_id": 77417,
+    "build_number": 9,
+    "build_commit": "d1fb028f07395ab61ca2a55163e713e2edd13d40",
+    "description_url": "https://poggit.pmmp.io/r/85698",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/85700",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588916377,
+    "state": 5,
+    "last_state_change_date": 1589005391,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "#NameTag",
+        "#Score",
+        "#ScoreTag",
+        "#Tag"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Inaayat04"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

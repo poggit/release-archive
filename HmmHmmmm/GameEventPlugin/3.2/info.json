@@ -1,0 +1,88 @@
+{
+    "id": 3901,
+    "name": "GameEventPlugin",
+    "version": "3.2",
+    "html_url": "https://poggit.pmmp.io/p/GameEventPlugin/3.2",
+    "tagline": "Create event on your server.",
+    "artifact_url": "https://poggit.pmmp.io/r/77285",
+    "downloads": 4724,
+    "score": 4,
+    "repo_id": 240242112,
+    "repo_name": "HmmHmmmm/GameEventPlugin",
+    "project_id": 6391,
+    "project_name": "GameEventPlugin",
+    "build_id": 71914,
+    "build_number": 6,
+    "build_commit": "0914b2438fc59fe600ce695f4acee90109bc063e",
+    "description_url": "https://poggit.pmmp.io/r/77641",
+    "icon_url": "https://raw.githubusercontent.com/HmmHmmmm/GameEventPlugin/0914b2438fc59fe600ce695f4acee90109bc063e/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582958342,
+    "state": 5,
+    "last_state_change_date": 1583196866,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "customui",
+        "event",
+        "fun",
+        "minigame",
+        "pocketmine",
+        "pocketmine-plugins",
+        "slapper"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "1.5.2",
+            "depRelId": 3572,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HmmHmmmm"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "customui",
+            "project_id": 772,
+            "repo_id": 99797082,
+            "repo_name": "thebigsmileXD/customui",
+            "repo_path": "customui/",
+            "build_commit": "97a8e73470057f8786e4a1f993d1971ed87cc59b",
+            "build_id": 51353
+        }
+    ]
+}

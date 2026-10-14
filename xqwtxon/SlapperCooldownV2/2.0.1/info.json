@@ -1,0 +1,67 @@
+{
+    "id": 9741,
+    "name": "SlapperCooldownV2",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SlapperCooldownV2/2.0.1",
+    "tagline": "Slap the Slapper with Cooldown!",
+    "artifact_url": "https://poggit.pmmp.io/r/176208",
+    "downloads": 300,
+    "score": null,
+    "repo_id": 481848097,
+    "repo_name": "xqwtxon/SlapperCooldownV2",
+    "project_id": 10962,
+    "project_name": "SlapperCooldownV2",
+    "build_id": 133183,
+    "build_number": 16,
+    "build_commit": "480da6b0b63a36cbe0efdfb045d44f1d402bad99",
+    "description_url": "https://poggit.pmmp.io/r/176207",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652665163,
+    "state": 5,
+    "last_state_change_date": 1652665681,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "2.0.7",
+            "depRelId": 9553,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "jojoe77777",
+            "xqwtxon"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

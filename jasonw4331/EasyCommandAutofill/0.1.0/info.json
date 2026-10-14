@@ -1,0 +1,81 @@
+{
+    "id": 3624,
+    "name": "EasyCommandAutofill",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/EasyCommandAutofill/0.1.0",
+    "tagline": "A plugin which adds commands to the client's autofill by parsing usage messages",
+    "artifact_url": "https://poggit.pmmp.io/r/72197",
+    "downloads": 298,
+    "score": null,
+    "repo_id": 231884297,
+    "repo_name": "jasonw4331/EasyCommandAutofill",
+    "project_id": 6012,
+    "project_name": "EasyCommandAutofill",
+    "build_id": 68787,
+    "build_number": 1,
+    "build_commit": "5d3e15454a8a9829ec8a177112c5ca9859503f37",
+    "description_url": "https://poggit.pmmp.io/r/72196",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1578211937,
+    "state": 5,
+    "last_state_change_date": 1578243594,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "autofill",
+        "chat",
+        "command",
+        "commands",
+        "fill",
+        "message",
+        "select",
+        "selector",
+        "usage"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ],
+        "Contributor": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

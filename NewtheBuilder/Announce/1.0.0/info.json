@@ -1,0 +1,55 @@
+{
+    "id": 9086,
+    "name": "Announce",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Announce/1.0.0",
+    "tagline": "Announce Command",
+    "artifact_url": "https://poggit.pmmp.io/r/163753",
+    "downloads": 2023,
+    "score": 4,
+    "repo_id": 462419625,
+    "repo_name": "NewtheBuilder/Announce",
+    "project_id": 10668,
+    "project_name": "Announce",
+    "build_id": 125007,
+    "build_number": 6,
+    "build_commit": "299b7fd31a99fb1795c83453b94e453c949b8499",
+    "description_url": "https://poggit.pmmp.io/r/163759",
+    "icon_url": "https://raw.githubusercontent.com/NewtheBuilder/Announce/299b7fd31a99fb1795c83453b94e453c949b8499/incon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645555464,
+    "state": 5,
+    "last_state_change_date": 1645731503,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NewtheBuilder"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

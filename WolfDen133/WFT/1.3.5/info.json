@@ -1,0 +1,78 @@
+{
+    "id": 10746,
+    "name": "WFT",
+    "version": "1.3.5",
+    "html_url": "https://poggit.pmmp.io/p/WFT/1.3.5",
+    "tagline": "Create Floating Texts with WFT",
+    "artifact_url": "https://poggit.pmmp.io/r/196138",
+    "downloads": 481,
+    "score": 5,
+    "repo_id": 432994430,
+    "repo_name": "WolfDen133/WFT",
+    "project_id": 10009,
+    "project_name": "WFT",
+    "build_id": 147139,
+    "build_number": 88,
+    "build_commit": "a58714ffa0c347278a874ee2fdc20b2532f590c5",
+    "description_url": "https://poggit.pmmp.io/r/196135",
+    "icon_url": "https://raw.githubusercontent.com/WolfDen133/WFT/a58714ffa0c347278a874ee2fdc20b2532f590c5/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/196137",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1667171196,
+    "state": 5,
+    "last_state_change_date": 1667242088,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floating",
+        "floatingtext",
+        "ft",
+        "text",
+        "wft",
+        "wolfies"
+    ],
+    "api": [
+        {
+            "from": "4.10.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WolfDen133"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

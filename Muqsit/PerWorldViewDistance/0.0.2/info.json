@@ -1,0 +1,67 @@
+{
+    "id": 9289,
+    "name": "PerWorldViewDistance",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/PerWorldViewDistance/0.0.2",
+    "tagline": "Configure view-distance cap per-world",
+    "artifact_url": "https://poggit.pmmp.io/r/167104",
+    "downloads": 274,
+    "score": 5,
+    "repo_id": 254979963,
+    "repo_name": "Muqsit/PerWorldViewDistance",
+    "project_id": 6966,
+    "project_name": "PerWorldViewDistance",
+    "build_id": 127070,
+    "build_number": 7,
+    "build_commit": "fd168e52e6922fc03aa25ce310117ce60b22ba48",
+    "description_url": "https://poggit.pmmp.io/r/167103",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647334645,
+    "state": 5,
+    "last_state_change_date": 1648833211,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "cap",
+        "distance",
+        "limit",
+        "per-world",
+        "render",
+        "view",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

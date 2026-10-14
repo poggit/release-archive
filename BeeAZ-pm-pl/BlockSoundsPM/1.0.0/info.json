@@ -1,0 +1,54 @@
+{
+    "id": 9822,
+    "name": "BlockSoundsPM",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockSoundsPM/1.0.0",
+    "tagline": "PocketMine plugin to add sounds to blocks!",
+    "artifact_url": "https://poggit.pmmp.io/r/177795",
+    "downloads": 176,
+    "score": 5,
+    "repo_id": 497237793,
+    "repo_name": "BeeAZ-pm-pl/BlockSoundsPM",
+    "project_id": 11233,
+    "project_name": "BlockSoundsPM",
+    "build_id": 134542,
+    "build_number": 9,
+    "build_commit": "c9eb32aa42581e68c9ff4b0d902d93f19905e59f",
+    "description_url": "https://poggit.pmmp.io/r/177794",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/BlockSoundsPM/c9eb32aa42581e68c9ff4b0d902d93f19905e59f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653736393,
+    "state": 5,
+    "last_state_change_date": 1654237305,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "BlockSounds"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Xenophilicy",
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

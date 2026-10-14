@@ -1,0 +1,62 @@
+{
+    "id": 3601,
+    "name": "InventorySynchronizer",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/InventorySynchronizer/1.0.1",
+    "tagline": "A simple plugin for synchronize the inventory of players between different servers",
+    "artifact_url": "https://poggit.pmmp.io/r/71819",
+    "downloads": 1473,
+    "score": 4,
+    "repo_id": 186052227,
+    "repo_name": "Seyz123/InventorySynchronizer",
+    "project_id": 5005,
+    "project_name": "InventorySynchronizer",
+    "build_id": 68553,
+    "build_number": 9,
+    "build_commit": "96ff20e7818a939da1a36eb2eea457ab070517fb",
+    "description_url": "https://poggit.pmmp.io/r/71816",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/71818",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1577930142,
+    "state": 5,
+    "last_state_change_date": 1578106532,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "minecraftpe",
+        "minecraftpe-plugin",
+        "pmmp",
+        "pmmp-plugins",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Seyz123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

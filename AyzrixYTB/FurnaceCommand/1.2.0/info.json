@@ -1,0 +1,60 @@
+{
+    "id": 7661,
+    "name": "FurnaceCommand",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/FurnaceCommand/1.2.0",
+    "tagline": "Simple plugin adding a command to furnace the items in your hand.",
+    "artifact_url": "https://poggit.pmmp.io/r/142304",
+    "downloads": 282,
+    "score": null,
+    "repo_id": 406365294,
+    "repo_name": "AyzrixYTB/FurnaceCommand",
+    "project_id": 9712,
+    "project_name": "FurnaceCommand",
+    "build_id": 112213,
+    "build_number": 6,
+    "build_commit": "4b18c731a2766e067b4352874a826480040d4080",
+    "description_url": "https://poggit.pmmp.io/r/142303",
+    "icon_url": "https://raw.githubusercontent.com/AyzrixYTB/FurnaceCommand/4b18c731a2766e067b4352874a826480040d4080/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632231878,
+    "state": 5,
+    "last_state_change_date": 1632235849,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "ayzrix",
+        "command",
+        "furnace",
+        "recipes"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AyzrixYTB"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

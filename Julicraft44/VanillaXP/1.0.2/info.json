@@ -1,0 +1,60 @@
+{
+    "id": 10360,
+    "name": "VanillaXP",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/VanillaXP/1.0.2",
+    "tagline": "Adds the default xp functions to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/188121",
+    "downloads": 1036,
+    "score": null,
+    "repo_id": 498451994,
+    "repo_name": "Julicraft44/VanillaXP",
+    "project_id": 11263,
+    "project_name": "VanillaXP",
+    "build_id": 141580,
+    "build_number": 8,
+    "build_commit": "004f0960281f8aeb700af3fdb4d08eb96039cd06",
+    "description_url": "https://poggit.pmmp.io/r/188118",
+    "icon_url": "https://raw.githubusercontent.com/Julicraft44/VanillaXP/004f0960281f8aeb700af3fdb4d08eb96039cd06/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/188120",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1659094836,
+    "state": 5,
+    "last_state_change_date": 1659369578,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "experience",
+        "vanilla",
+        "vanillaxp",
+        "xp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Julicraft44"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

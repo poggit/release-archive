@@ -1,0 +1,62 @@
+{
+    "id": 12824,
+    "name": "AntiBadPackets",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/AntiBadPackets/1.0.3",
+    "tagline": "This is a AntiBadPackets plugin for PocketMine 5.11.0, one of the best!",
+    "artifact_url": "https://poggit.pmmp.io/r/233303",
+    "downloads": 1192,
+    "score": null,
+    "repo_id": 720569371,
+    "repo_name": "Aetheam/AntiBadPackets",
+    "project_id": 13357,
+    "project_name": "AntiBadPackets",
+    "build_id": 171342,
+    "build_number": 13,
+    "build_commit": "aaeede448ba093cadf93617a8a93d46987cc145b",
+    "description_url": "https://poggit.pmmp.io/r/233300",
+    "icon_url": "https://raw.githubusercontent.com/Aetheam/AntiBadPackets/aaeede448ba093cadf93617a8a93d46987cc145b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/233302",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1708360524,
+    "state": 5,
+    "last_state_change_date": 1708395398,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.11.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "royaljacques"
+        ],
+        "Collaborator": [
+            "Zwuiix-cmd"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

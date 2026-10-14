@@ -1,0 +1,81 @@
+{
+    "id": 11040,
+    "name": "NativeDimensions",
+    "version": "1.0.0-beta11",
+    "html_url": "https://poggit.pmmp.io/p/NativeDimensions/1.0.0-beta11",
+    "tagline": "Every World has Dimensions, Now They're All in One Place",
+    "artifact_url": "https://poggit.pmmp.io/r/201670",
+    "downloads": 995,
+    "score": null,
+    "repo_id": 212501561,
+    "repo_name": "jasonw4331/NativeDimensions",
+    "project_id": 5616,
+    "project_name": "NativeDimensions",
+    "build_id": 151008,
+    "build_number": 79,
+    "build_commit": "66271ebb7760824e233bacc3f4a8a01642c253c6",
+    "description_url": "https://poggit.pmmp.io/r/201667",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/NativeDimensions/66271ebb7760824e233bacc3f4a8a01642c253c6/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/201669",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1678887126,
+    "state": 5,
+    "last_state_change_date": 1678887131,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "dimension",
+        "dimensions",
+        "end",
+        "ender",
+        "hell",
+        "multi",
+        "multiple",
+        "multiworld",
+        "nether",
+        "vanilla",
+        "world",
+        "worlds"
+    ],
+    "api": [
+        {
+            "from": "4.16.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit",
+            "jasonwynn10"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

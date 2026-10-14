@@ -1,0 +1,63 @@
+{
+    "id": 10104,
+    "name": "MyItem",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/MyItem/0.0.1",
+    "tagline": "Create custom items with lots of cool features",
+    "artifact_url": "https://poggit.pmmp.io/r/183608",
+    "downloads": 483,
+    "score": 4,
+    "repo_id": 501470899,
+    "repo_name": "BeeAZ-pm-pl/MyItem",
+    "project_id": 11342,
+    "project_name": "MyItem",
+    "build_id": 138563,
+    "build_number": 8,
+    "build_commit": "5bbbaa338eb05a6f57866f27418359d2a9abd0ff",
+    "description_url": "https://poggit.pmmp.io/r/183866",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/MyItem/5bbbaa338eb05a6f57866f27418359d2a9abd0ff/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656180812,
+    "state": 5,
+    "last_state_change_date": 1656180850,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "MyItem"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "3.0.3",
+            "depRelId": 9998,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ],
+        "Contributor": [
+            "LootSpace369"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

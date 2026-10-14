@@ -1,0 +1,26 @@
+<p>You may use this plugin to test your virions or plugins using virions.</p>
+<ol>
+<li>Install this plugin</li>
+<li>Create a directory called <code>virions</code> <strong>next to the <code>plugins</code> folder</strong> (not inside it!)</li>
+<li>Drop the virions you use into the <code>virions</code> folder. Both packaged (.phar) virions and source (folder) virions are acceptable. (Just like how you install plugins with DevTools)</li>
+</ol>
+<p>DEVirion will <strong>not</strong> shade plugins. Hence, this plugin <strong>must only</strong> be used by virion developers and plugin developers. <strong>Released plugins must not depend on DEVirion</strong> to load virions.</p>
+<p>You may also use the command-line option <code>--load-virions</code> to specify an <em>additional</em> folder to scan virions from (similar to the plugin path), or <code>--load-virion</code> (singular) to explicitly load a <strong>folder virion</strong> at the specified path (does not work with phar virions). For example, if you have this folder structure:</p>
+<pre><code>/
+/server/
+/server/PocketMine-MP.phar
+/server/start.sh
+/server/virions/
+/server/virions/libweird.phar
+/server/virions/libstrange/ (with a virion.yml in this folder)
+/libs/
+/libs/libodd.phar
+/libs/librare/ (with a virion.yml in this folder)
+/misc/
+/misc/libnormal.phar
+/misc/libtrivial/ (with a virion.yml in this folder)
+</code></pre>
+<p>Running <code>./start.sh</code> in <code>/server/</code> will <em>automatically</em> load libweird and libstrange.</p>
+<p>Running <code>./start.sh --load-virions=/libs/</code> will <em>additionally</em> load libodd and librare</p>
+<p>Running <code>./start.sh --load-virion=/misc/libtrivial/</code> will <em>additionally</em> load libtrivial.</p>
+<p>Running <code>./start.sh --load-virion=/misc/libnormal.phar</code> will <strong>not</strong> load libnormal, because <code>--load-virion</code> does not support phar virions — it's usually not necessary, and you should copy it to <code>virions</code> folder intsead.</p>

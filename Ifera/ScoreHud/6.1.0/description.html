@@ -1,0 +1,71 @@
+<h1>
+<a id="user-content-scorehud" class="anchor" href="#scorehud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ScoreHud</h1>
+<p><a href="https://github.com/Ifera/ScoreHud/blob/master/meta/ScoreHud.PNG" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Ifera/ScoreHud/raw/master/meta/ScoreHud.PNG" alt="ScoreHud Banner" style="max-width:100%;"></a></p>
+<p>A highly customizable plugin to add Scoreboards on your Minecraft Bedrock Server.</p>
+<h1>
+<a id="user-content-notice" class="anchor" href="#notice" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notice</h1>
+<blockquote>
+<p><strong>Backwards Incompatible Update</strong></p>
+<ul>
+<li>Starting from <strong>ScoreHud version 6.0</strong>, addons are no longer supported. <br>
+</li>
+<li>All old addons will stop working on versions 6.0 and above. <br>
+</li>
+<li>All old tags will stop functioning as well. <br>
+</li>
+<li>More details can be found below <br>
+</li>
+<li><strong>Please read FAQs below.</strong></li>
+</ul>
+</blockquote>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>This plugin adds <strong>scoreboard</strong> to your server.</li>
+<li>Completely <strong>Event Driven</strong>!! Good bye tasks!</li>
+<li>Everything is customizable.</li>
+<li>Easy and simple API for developers to use and integrate ScoreHud.</li>
+<li>You can find some basic tags via <a href="https://github.com/Ifera/ScoreHudX">ScoreHudX</a> plugin.</li>
+</ul>
+<h1>
+<a id="user-content-setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h1>
+<ul>
+<li>Put the plugin in your plugins folder.</li>
+<li>Start and then stop the server.</li>
+<li>Edit the <code>config.yml</code> and <code>scorehud.yml</code> to suit your needs.</li>
+<li>Restart and enjoy.</li>
+</ul>
+<h1>
+<a id="user-content-version-60" class="anchor" href="#version-60" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Version 6.0</h1>
+<blockquote>
+<p>The main goal of version 6.0 update was to remove ScoreHud dependency pocketmine tasks. So that was achieved by making
+ScoreHud <strong>event driven</strong>! <br></p>
+</blockquote>
+<p><strong>Q: But what exactly does event driven mean? And what are its benefits?</strong> <br>
+A: Well, its simple, instead of using <strong>tasks</strong> to update values on scoreboard every 20 or so ticks even when there was <strong>no
+update</strong>, ScoreHud now <strong>listens for events</strong> that are fired by the plugin which implements ScoreHud. In doing so, the scoreboard
+is <strong>only updated when there is an actual update</strong> and not the other way round. Although not tested but this should <strong>improve
+ScoreHud's performance</strong>.<br></p>
+<p><strong>Addon support was removed</strong> with version 6.0 update. Reason being that it was no longer feasible and users had reported addons
+not working on different systems either due to hosting problem or some other reasons. Removing addons and listening to events
+instead should now <strong>work on almost all systems</strong>.<br></p>
+<p>ScoreHud using events is in the <strong>benefit of plugin developers and the end-user</strong> as well. Users no longer will need to download
+and place addons in separate folder. And plugin developers will no longer need to make a separate addon for ScoreHud. They
+can just integrate ScoreHud directly into their plugin and fire events to update their tags on ScoreHud.</p>
+<h1>
+<a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h1>
+<p><strong>Q: How many lines can I set in <code>default-board</code>?</strong><br>
+A: You can set 1 to 15 lines in <code>default-board</code>. <br><br>
+<strong>Q: How many <code>server-names</code> can I set?</strong><br>
+A: You can set infinite many number of <code>server-names</code>. <br><br>
+<strong>Q: I am having problems and cannot set the plugin correctly. What do I do?</strong><br>
+A: Well you can always open a new issue on this repository or contact me via Discord: <code>Ifera#3717</code> or Twitter: <code>@ifera_tr</code>. <br><br>
+<strong>Q: I like the plugin. What do I do?</strong><br>
+A: Well, that is extremely fortunate. Why not to star this repository and might as well a good review on <a href="https://poggit.pmmp.io/p/ScoreHud" rel="nofollow">poggit</a>.<br><br>
+<strong>Q: What happened to addons?</strong><br>
+A: Addons system being simple and similar to pocketmine had some flaws especially when combined with tasks caused a great deal of lag. ScoreHud is now event driven and no longer depends on tasks, so it was only fitting to remove addon support as a whole. <br></p>
+<h1>
+<a id="user-content-for-developers" class="anchor" href="#for-developers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>For Developers</h1>
+<ul>
+<li>Refer to <a href="https://github.com/Ifera/ScoreHud/wiki">wiki</a>.</li>
+</ul>

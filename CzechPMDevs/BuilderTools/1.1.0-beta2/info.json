@@ -1,0 +1,86 @@
+{
+    "id": 2196,
+    "name": "BuilderTools",
+    "version": "1.1.0-beta2",
+    "html_url": "https://poggit.pmmp.io/p/BuilderTools/1.1.0-beta2",
+    "tagline": "Advanced WorldEdit plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/47736",
+    "downloads": 6587,
+    "score": 4,
+    "repo_id": 107782877,
+    "repo_name": "CzechPMDevs/BuilderTools",
+    "project_id": 1035,
+    "project_name": "BuilderTools",
+    "build_id": 53363,
+    "build_number": 29,
+    "build_commit": "47919b9c5ed2b04cd0efa2ebcb837bfdb3570449",
+    "description_url": "https://poggit.pmmp.io/r/47738",
+    "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/BuilderTools/47919b9c5ed2b04cd0efa2ebcb837bfdb3570449/BuilderTools/worker.png",
+    "changelog_url": "https://poggit.pmmp.io/r/47740",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1544977476,
+    "state": 5,
+    "last_state_change_date": 1544977600,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "buildertool",
+        "buildertools",
+        "tool",
+        "we",
+        "worldedit"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "jasonw4331",
+            "xxFLORII",
+            "iteplenky",
+            "dadodasyra",
+            "UnEnanoMas",
+            "DRAGKILLS"
+        ],
+        "Collaborator": [
+            "GamakCZ",
+            "VixikHD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

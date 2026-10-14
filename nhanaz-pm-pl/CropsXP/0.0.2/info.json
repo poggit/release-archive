@@ -1,0 +1,62 @@
+{
+    "id": 11416,
+    "name": "CropsXP",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/CropsXP/0.0.2",
+    "tagline": "Drops XP orbs on the ground when the player harvests crops.",
+    "artifact_url": "https://poggit.pmmp.io/r/208843",
+    "downloads": 325,
+    "score": null,
+    "repo_id": 590144112,
+    "repo_name": "nhanaz-pm-pl/CropsXP",
+    "project_id": 12085,
+    "project_name": "CropsXP",
+    "build_id": 155731,
+    "build_number": 11,
+    "build_commit": "6342e6189d2a2df5c8913e57dbd9575c96e5c4d6",
+    "description_url": "https://poggit.pmmp.io/r/208840",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/CropsXP/6342e6189d2a2df5c8913e57dbd9575c96e5c4d6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208842",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685641038,
+    "state": 5,
+    "last_state_change_date": 1685641553,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "crops",
+        "cropsexperience",
+        "cropsxp",
+        "experience",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "xp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

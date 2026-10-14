@@ -1,0 +1,63 @@
+{
+    "id": 8856,
+    "name": "BlazinFly",
+    "version": "1.9.0",
+    "html_url": "https://poggit.pmmp.io/p/BlazinFly/1.9.0",
+    "tagline": "A survival fly plugin!",
+    "artifact_url": "https://poggit.pmmp.io/r/160409",
+    "downloads": 3386,
+    "score": 5,
+    "repo_id": 126064978,
+    "repo_name": "iiFlamiinBlaze/BlazinFly",
+    "project_id": 2617,
+    "project_name": "BlazinFly",
+    "build_id": 122983,
+    "build_number": 16,
+    "build_commit": "8d943fdc21af20efc3f19c96813c60987ac84f98",
+    "description_url": "https://poggit.pmmp.io/r/160406",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/160408",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644176031,
+    "state": 5,
+    "last_state_change_date": 1644245235,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "iiflamiinblaze",
+        "pmmp-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iiFlamiinBlaze"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

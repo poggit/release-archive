@@ -1,0 +1,62 @@
+{
+    "id": 11791,
+    "name": "Mobs",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Mobs/2.0.0",
+    "tagline": "Mob Plugin for PocketMine-MP Version 5 (by tgwaste)",
+    "artifact_url": "https://poggit.pmmp.io/r/213607",
+    "downloads": 460,
+    "score": null,
+    "repo_id": 360723866,
+    "repo_name": "tgwaste/Mobs",
+    "project_id": 10585,
+    "project_name": "Mobs",
+    "build_id": 157983,
+    "build_number": 41,
+    "build_commit": "be28f3e709c38a108f1cca019a49549d14e29d49",
+    "description_url": "https://poggit.pmmp.io/r/213604",
+    "icon_url": "https://raw.githubusercontent.com/tgwaste/Mobs/be28f3e709c38a108f1cca019a49549d14e29d49/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/213606",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687841671,
+    "state": 5,
+    "last_state_change_date": 1688054279,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Entities",
+        "Mobs"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "tgwaste"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

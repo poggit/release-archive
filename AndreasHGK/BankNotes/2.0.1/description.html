@@ -1,0 +1,56 @@
+<h1>
+<a id="user-content-banknotes" class="anchor" href="#banknotes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BankNotes</h1>
+<p><a href="https://poggit.pmmp.io/p/BankNotes" rel="nofollow"><img src="https://camo.githubusercontent.com/f9e0bc8921ae9a7b47a43ef575bc14c95286761c/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f42616e6b4e6f746573" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/BankNotes" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/BankNotes" rel="nofollow"><img src="https://camo.githubusercontent.com/3f5335eccc760d55964f192764b863329d883251/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f42616e6b4e6f746573" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/BankNotes" style="max-width:100%;"></a></p>
+<p>Turn your EconomyAPI money into items to trade them!
+<strong>Right-Click</strong> to deposit a note and type <strong>/note {amount}</strong> to get a note.
+You can change the lore/name/ID of the banknotes in v1.1.0 and up and you can change all the messages in V1.2.0 and up.</p>
+<p>You will need EconomyAPI for this to work!</p>
+<p>All notes from v1.0.0 won't be recognized in v1.1.0 or later!
+This plugin is now v2.0.0 and is complete. I've now added everything planned and more and i have no more ideas for the plugin so i can now truely call it complete.
+If you do have a good idea feel free to suggest it. If there are any bugs, please report them and i will fix them as soon as possible.</p>
+<h2>
+<a id="user-content-setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h2>
+<p>This plugin doesn't require a setup, as it works when you install it, but there now is a config where you can change some visual stuff if you want to.</p>
+<p>The first section contains settings for the notes. You can change the ID, custom name and custom lore for the note item.</p>
+<p>The second section allows you to change most of the messages of the plugin. This is usefull if you want to translate the plugin or even just change the looks of the messages.</p>
+<p>The third section contains advanced settings, currently allowing you to reset economy by changing the economyid.
+Also, enabled by default, the compatibility setting makes sure banknotes from v1.1.0 still work.</p>
+<h2>
+<a id="user-content-for-developers" class="anchor" href="#for-developers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>For developers</h2>
+<p>Recently, i've added some API related stuff to make life easier should you want to make a plugin that works with banknotes.</p>
+<p>Firstly, make sure you added <code>use AndreasHGK\BankNotes\BankNotes;</code> to be able to acces BankNotes.</p>
+<p>Here are some functions you can call:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$bn</span> <span class="pl-k">=</span> <span class="pl-c1">BankNotes</span><span class="pl-k">::</span>getInstance();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@return</span> int $version</span></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$bn</span><span class="pl-k">-&gt;</span>getVersion();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@return</span> int $noteVersion</span></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$bn</span><span class="pl-k">-&gt;</span>getNoteVersion();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@return</span> int[] $compatibleVersions</span></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$bn</span><span class="pl-k">-&gt;</span>getCompatibleVersions();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@param</span> item $note</span></span>
+<span class="pl-s1"><span class="pl-c">*</span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@return</span> bool $isValid</span></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$bn</span><span class="pl-k">-&gt;</span>checkValidity(<span class="pl-smi">$note</span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@param</span> int $value</span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@param</span> int $count = 1</span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@param</span> string $player = "ADMIN"</span></span>
+<span class="pl-s1"><span class="pl-c">*</span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@return</span> item $noteItem</span></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$bn</span><span class="pl-k">-&gt;</span>noteItem(<span class="pl-smi">$value</span>);</span></pre></div>
+<p>To see all functions, i recommend checking out BankNotes.php</p>

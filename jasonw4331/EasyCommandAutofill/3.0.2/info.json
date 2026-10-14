@@ -1,0 +1,88 @@
+{
+    "id": 9185,
+    "name": "EasyCommandAutofill",
+    "version": "3.0.2",
+    "html_url": "https://poggit.pmmp.io/p/EasyCommandAutofill/3.0.2",
+    "tagline": "A plugin which adds commands to the client's autofill by parsing usage messages",
+    "artifact_url": "https://poggit.pmmp.io/r/165134",
+    "downloads": 8803,
+    "score": 5,
+    "repo_id": 231884297,
+    "repo_name": "jasonw4331/EasyCommandAutofill",
+    "project_id": 6012,
+    "project_name": "EasyCommandAutofill",
+    "build_id": 125786,
+    "build_number": 58,
+    "build_commit": "08a2d2655f28732834c3ff22e86fd362ff338935",
+    "description_url": "https://poggit.pmmp.io/r/165131",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/EasyCommandAutofill/08a2d2655f28732834c3ff22e86fd362ff338935/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/165133",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646275457,
+    "state": 5,
+    "last_state_change_date": 1646275474,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "autofill",
+        "chat",
+        "command",
+        "commands",
+        "fill",
+        "message",
+        "select",
+        "selector",
+        "usage"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PlayerSelectors",
+            "version": "2.0.0",
+            "depRelId": 8798,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ],
+        "Contributor": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

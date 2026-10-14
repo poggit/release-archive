@@ -1,0 +1,169 @@
+<p><a href="https://github.com/AntiCores/EasyHomes/blob/master/meta/EasyHomes.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/AntiCores/EasyHomes/raw/master/meta/EasyHomes.png" alt="EasyHomes Banner" style="max-width:100%;"></a></p>
+<p>A highly customizable and easy-to-use Homes plugin which supports both commands and forms for your Minecraft Bedrock Server running on PocketMine-MP.</p>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>Allows you to <strong>create homes</strong> on your server.</li>
+<li>Easy configuration and setup.</li>
+<li>You can change the language by editing the <code>lang.yml</code> file.</li>
+<li>Default commands and messages shown to the player can be changed via <code>lang.yml</code>.</li>
+<li>You can <strong>set a limit to the maximum homes</strong> that a player can set. Edit the default limit in <code>config.yml</code> to suit your needs.</li>
+<li>Two <strong>storage</strong> ways available: <code>Yaml</code> and <code>SQLite3</code> which can be set via <code>config.yml</code>.</li>
+<li>Neat <strong>API</strong> for developers looking for making addons or including this plugin into their own plugin.</li>
+<li>Support commands as well as <strong>forms</strong>. Both of which can work in conjunction.</li>
+<li>Support for <strong>Admin Commands</strong>.</li>
+<li>
+<strong>Admins</strong> can easily <strong>monitor player homes</strong> even when a player is <strong>offline</strong>.</li>
+</ul>
+<h1>
+<a id="user-content-how-to-setup" class="anchor" href="#how-to-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to setup?</h1>
+<ul>
+<li>Get the <a href="https://poggit.pmmp.io/ci/AntiCores/EasyHomes/EasyHomes" rel="nofollow">.phar</a> of this plugin from <a href="https://poggit.pmmp.io/ci/AntiCores/EasyHomes/EasyHomes" rel="nofollow">poggit</a>
+</li>
+<li>Put into your plugins folder.</li>
+<li>Restart the server.</li>
+<li>Enjoy...</li>
+</ul>
+<h1>
+<a id="user-content-commands-and-permissions" class="anchor" href="#commands-and-permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands and Permissions</h1>
+<ul>
+<li>Normal Player Commands:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Description</th>
+<th align="center">Command</th>
+<th align="center">Permission</th>
+<th align="center">Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Home form</td>
+<td align="center"><code>/home</code></td>
+<td align="center"><code>eh.command</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center">Home command</td>
+<td align="center"><code>/home [string:home]</code></td>
+<td align="center"><code>eh.command.tp</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center">Teleport to home</td>
+<td align="center"><code>/home teleport [string:home]</code></td>
+<td align="center"><code>eh.command.tp</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center">Delete a home</td>
+<td align="center"><code>/home delete [string:home]</code></td>
+<td align="center"><code>eh.command.del</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center">Help command</td>
+<td align="center"><code>/home help</code></td>
+<td align="center"><code>eh.command.help</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center">List homes</td>
+<td align="center"><code>/home list</code></td>
+<td align="center"><code>eh.command.list</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+<tr>
+<td align="center">Set a home</td>
+<td align="center"><code>/home set [string:home]</code></td>
+<td align="center"><code>eh.command.set</code></td>
+<td align="center"><code>true</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Admin Player Commands:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Description</th>
+<th align="center">Command</th>
+<th align="center">Permission</th>
+<th align="center">Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Admin form</td>
+<td align="center"><code>/homeadmin</code></td>
+<td align="center"><code>eh.command.admin</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+<tr>
+<td align="center">Delete a player home</td>
+<td align="center"><code>/homeadmin delete [string:player] [string:home]</code></td>
+<td align="center"><code>eh.command.admin.del</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+<tr>
+<td align="center">Get player's home limit</td>
+<td align="center"><code>/homeadmin getlimit [string:player]</code></td>
+<td align="center"><code>eh.command.admin.limit.get</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+<tr>
+<td align="center">Set player's home limit</td>
+<td align="center"><code>/homeadmin setlimit [string:player]</code></td>
+<td align="center"><code>eh.command.admin.limit.set</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+<tr>
+<td align="center">Help command</td>
+<td align="center"><code>/homeadmin help</code></td>
+<td align="center"><code>eh.command.admin.help</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+<tr>
+<td align="center">List player's homes</td>
+<td align="center"><code>/homeadmin list [string:player]</code></td>
+<td align="center"><code>eh.command.admin.list</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+<tr>
+<td align="center">Set player's home</td>
+<td align="center"><code>/homeadmin set [string:player] [string:home]</code></td>
+<td align="center"><code>eh.command.admin.set</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+<tr>
+<td align="center">Teleport to player's home</td>
+<td align="center"><code>/homeadmin teleport [string:player] [string:home]</code></td>
+<td align="center"><code>eh.command.admin.tp</code></td>
+<td align="center"><code>op</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Note: Alias for every command exists. You can find detail in <code>lang.yml</code>.</em></strong></p>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<p>EasyHomes provides a simple API for developers wishing to use this plugin in theirs or make addons for it.<br></p>
+<ul>
+<li>First you need to get hold of the plugin. You can do so by:<br>
+</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$easyHomes</span> <span class="pl-k">=</span> <span class="pl-c1">Server</span><span class="pl-k">::</span>getInstance()<span class="pl-k">-&gt;</span>getPluginManager()<span class="pl-k">-&gt;</span>getPlugin(<span class="pl-s"><span class="pl-pds">"</span>EasyHomes<span class="pl-pds">"</span></span>);</span>
+<span class="pl-s1"><span class="pl-k">if</span>(<span class="pl-smi">$easyHomes</span> <span class="pl-k">instanceof</span> <span class="pl-c1">\JackMD\EasyHomes\</span><span class="pl-c1">Main</span>){</span>
+<span class="pl-s1">    <span class="pl-c"><span class="pl-c">//</span>do whatever</span></span>
+<span class="pl-s1">}</span></pre></div>
+<ul>
+<li>Then you need to get hold of the provider via:<br>
+</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$provider</span> <span class="pl-k">=</span> <span class="pl-smi">$easyhomes</span><span class="pl-k">-&gt;</span>getProvider();</span></pre></div>
+<ul>
+<li>Now you take a look at <a href="https://github.com/AntiCores/EasyHomes/blob/master/src/JackMD/EasyHomes/provider/ProviderInterface.php">ProviderInterface</a> for the things you can access.</li>
+<li>Everything in it is easy and straight forward.</li>
+</ul>

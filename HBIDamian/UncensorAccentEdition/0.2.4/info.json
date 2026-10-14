@@ -1,0 +1,63 @@
+{
+    "id": 12995,
+    "name": "UncensorAccentEdition",
+    "version": "0.2.4",
+    "html_url": "https://poggit.pmmp.io/p/UncensorAccentEdition/0.2.4",
+    "tagline": "Circumvents Microsoft's terrible Minecraft built-in chat filter",
+    "artifact_url": "https://poggit.pmmp.io/r/238001",
+    "downloads": 142,
+    "score": 5,
+    "repo_id": 792568119,
+    "repo_name": "HBIDamian/UncensorAccentEdition",
+    "project_id": 13769,
+    "project_name": "UncensorAccentEdition",
+    "build_id": 174607,
+    "build_number": 2,
+    "build_commit": "4becaf75a112e7b535fb32996e98060a8e3bc5fa",
+    "description_url": "https://poggit.pmmp.io/r/253792",
+    "icon_url": "https://raw.githubusercontent.com/HBIDamian/UncensorAccentEdition/4becaf75a112e7b535fb32996e98060a8e3bc5fa/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1714236153,
+    "state": 5,
+    "last_state_change_date": 1714332804,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "anticensor",
+        "antiswear",
+        "censor",
+        "chat",
+        "swear",
+        "uncensor"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HBIDamian",
+            "dktapps"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

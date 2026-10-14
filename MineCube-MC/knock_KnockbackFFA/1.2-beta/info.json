@@ -1,0 +1,70 @@
+{
+    "id": 6197,
+    "name": "KnockbackFFA",
+    "version": "1.2-beta",
+    "html_url": "https://poggit.pmmp.io/p/KnockbackFFA/1.2-beta",
+    "tagline": "The classic sumo minigame fun to play for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/119087",
+    "downloads": 1231,
+    "score": 4,
+    "repo_id": 323036959,
+    "repo_name": "MineCube-MC/knock",
+    "project_id": 8221,
+    "project_name": "KnockbackFFA",
+    "build_id": 98657,
+    "build_number": 36,
+    "build_commit": "cf94dd1ae5339368a25003eb8fc60c0de1c4e5a8",
+    "description_url": "https://poggit.pmmp.io/r/119086",
+    "icon_url": "https://raw.githubusercontent.com/ApexieDevelopment/Knock/cf94dd1ae5339368a25003eb8fc60c0de1c4e5a8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616326706,
+    "state": 5,
+    "last_state_change_date": 1616726966,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ffa",
+        "kbffa",
+        "kbpvp",
+        "knock",
+        "knockbackffa",
+        "pvp"
+    ],
+    "api": [
+        {
+            "from": "3.18.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "MBG1337"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

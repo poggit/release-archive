@@ -1,0 +1,33 @@
+<h3>
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h3>
+<p>Antispam plugin with configurable delay, profanity filter (block swear words), automatic actions (kick, ban) and commands to change settings on the fly in console or in game.</p>
+<p>Also detects command spam.</p>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<p><code>/asp</code> - display the current AntiSpamPro settings</p>
+<p><code>/asp kick</code> - kick spammers</p>
+<p><code>/asp ban</code> - ban spammers</p>
+<p><code>/asp banip</code> - banip and ban spammers</p>
+<p><code>/asp bancid</code> - ban, banip and bancid spammers (if available)</p>
+<p><code>asp set {1, 2 or 3}</code> - change the allowed delay between chat to 1, 2 or 3 seconds</p>
+<h3>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h3>
+<p>You need the permission <code>asp</code> to use any of the commands. There is no spam bypass permission.
+The delay setting in config.yml can be set freely.</p>
+<h3>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h3>
+<p>To configure other plugins to use the AntiSpamPro profanity filter, use this is onEnable():</p>
+<pre><code>$this-&gt;antispampro = $this&gt;getServer()-&gt;getPluginManager()-&gt;getPlugin("AntiSpamPro");
+  if (!$this-&gt;antispampro) {
+     $this-&gt;getLogger()-&gt;info("Unable to find AntiSpamPro");
+}
+</code></pre>
+<p>then use this to check for swear words:</p>
+<pre><code>if ($this-&gt;antispampro &amp;&amp; $this-&gt;antispampro-&gt;getProfanityFilter()-&gt;hasProfanity($wordtocheck)) {...Do THIS....}
+</code></pre>
+<h3>
+<a id="user-content-credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h3>
+<p>Kudos and thanks to:</p>
+<p><a href="https://github.com/mofodojodino/ProfanityFilter">https://github.com/mofodojodino/ProfanityFilter</a></p>
+<p>and</p>
+<p><a href="https://github.com/fastwebmedia/Profanity-Filter">https://github.com/fastwebmedia/Profanity-Filter</a></p>

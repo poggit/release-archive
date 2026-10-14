@@ -1,0 +1,75 @@
+{
+    "id": 2553,
+    "name": "EnchantUI",
+    "version": "0.3",
+    "html_url": "https://poggit.pmmp.io/p/EnchantUI/0.3",
+    "tagline": "PocketMine plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/52983",
+    "downloads": 463,
+    "score": 4,
+    "repo_id": 169861603,
+    "repo_name": "UnknownOre/EnchantShopUI",
+    "project_id": 4677,
+    "project_name": "EnchantShopUI",
+    "build_id": 56623,
+    "build_number": 19,
+    "build_commit": "92b60e1bc636c415d5b2d07fdcd4bea6ba266c22",
+    "description_url": "https://poggit.pmmp.io/r/52982",
+    "icon_url": "https://raw.githubusercontent.com/UnknownOre/EnchantShopUI/92b60e1bc636c415d5b2d07fdcd4bea6ba266c22/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1551518787,
+    "state": 5,
+    "last_state_change_date": 1551695115,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Shop",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "UnknownOre"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "f2b57646cb85fef2e7bee48862bd8d04ada05133",
+            "build_id": 52331
+        }
+    ]
+}

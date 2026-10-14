@@ -1,0 +1,99 @@
+{
+    "id": 9304,
+    "name": "PaidAll",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PaidAll/1.0.0",
+    "tagline": "Paid money to all people online",
+    "artifact_url": "https://poggit.pmmp.io/r/167445",
+    "downloads": 849,
+    "score": 5,
+    "repo_id": 452130453,
+    "repo_name": "NoobMCBG/PaidAll",
+    "project_id": 10416,
+    "project_name": "PaidAll",
+    "build_id": 127323,
+    "build_number": 32,
+    "build_commit": "8dc0037cf5dac6411378fa19ce2464d5212bd78f",
+    "description_url": "https://poggit.pmmp.io/r/167444",
+    "icon_url": "https://raw.githubusercontent.com/NoobMCBG/PaidAll/8dc0037cf5dac6411378fa19ce2464d5212bd78f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647500241,
+    "state": 5,
+    "last_state_change_date": 1652081901,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "paid",
+        "pay",
+        "EconomyAPI",
+        "BedrockEconomy",
+        "economy"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.7",
+            "depRelId": 9137,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "DavidGlitch04"
+        ],
+        "Collaborator": [
+            "NoobMCBG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "LibEconomy",
+            "project_id": 10749,
+            "repo_id": 466916160,
+            "repo_name": "David-pm-pl/libEco",
+            "repo_path": "",
+            "build_commit": "4f2058db93fc87c9b67da24ca4b553ea7fef91c8",
+            "build_id": 126141
+        }
+    ]
+}

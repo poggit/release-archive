@@ -1,0 +1,77 @@
+{
+    "id": 3424,
+    "name": "PiggyCrates",
+    "version": "1.5.1",
+    "html_url": "https://poggit.pmmp.io/p/PiggyCrates/1.5.1",
+    "tagline": "Easy & customizable crates! Compatible with PiggyCE.",
+    "artifact_url": "https://poggit.pmmp.io/r/67430",
+    "downloads": 75,
+    "score": null,
+    "repo_id": 118399424,
+    "repo_name": "DaPigGuy/PiggyCrates",
+    "project_id": 1816,
+    "project_name": "PiggyCrates",
+    "build_id": 65375,
+    "build_number": 42,
+    "build_commit": "1405f1b7a4af1407de1c8134b3d57aa73d503009",
+    "description_url": "https://poggit.pmmp.io/r/68795",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/68797",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1571295255,
+    "state": 5,
+    "last_state_change_date": 1573229297,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "crate",
+        "crates",
+        "pig",
+        "piggy",
+        "piggycrate",
+        "piggycrates"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.0.0",
+            "depRelId": 3466,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ],
+        "Contributor": [
+            "SalmonDE",
+            "Ifera",
+            "ErikPDev",
+            "JavierLeon9966",
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

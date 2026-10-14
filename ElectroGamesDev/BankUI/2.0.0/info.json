@@ -1,0 +1,94 @@
+{
+    "id": 8108,
+    "name": "BankUI",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BankUI/2.0.0",
+    "tagline": "This Plugin Allows Players To Store Their Money In A Bank!",
+    "artifact_url": "https://poggit.pmmp.io/r/149708",
+    "downloads": 1308,
+    "score": 5,
+    "repo_id": 377981873,
+    "repo_name": "ElectroGamesDev/BankUI",
+    "project_id": 9144,
+    "project_name": "BankUI",
+    "build_id": 116589,
+    "build_number": 46,
+    "build_commit": "0ceffa90f0754f98fada15a03caffa5e7fa4165b",
+    "description_url": "https://poggit.pmmp.io/r/149705",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/BankUI/0ceffa90f0754f98fada15a03caffa5e7fa4165b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/149707",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638486784,
+    "state": 5,
+    "last_state_change_date": 1638544847,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Bank",
+        "BankUI",
+        "Economy",
+        "Money",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesDev"
+        ],
+        "Contributor": [
+            "alitura1",
+            "TrinitroToluen0"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "id": 11900,
+    "name": "VoiceCraft",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VoiceCraft/1.0.0",
+    "tagline": "VoiceCraft plugin for PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/215696",
+    "downloads": 3499,
+    "score": 4,
+    "repo_id": 660384895,
+    "repo_name": "LuciaDX/VoiceCraftPM",
+    "project_id": 12706,
+    "project_name": "VoiceCraftPM",
+    "build_id": 159357,
+    "build_number": 6,
+    "build_commit": "6d42b3f1f783cb248156b6c44e5943db9c47c62e",
+    "description_url": "https://poggit.pmmp.io/r/215769",
+    "icon_url": "https://raw.githubusercontent.com/LuciaDX/VoiceCraftPM/6d42b3f1f783cb248156b6c44e5943db9c47c62e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688987988,
+    "state": 5,
+    "last_state_change_date": 1688989452,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "proximity",
+        "voice",
+        "voicechat",
+        "voicecraft"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "LuciaDX"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

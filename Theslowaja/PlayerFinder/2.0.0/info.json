@@ -1,0 +1,65 @@
+{
+    "id": 12211,
+    "name": "FindPlayers",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FindPlayers/2.0.0",
+    "tagline": "FindPlayer",
+    "artifact_url": "https://poggit.pmmp.io/r/219824",
+    "downloads": 1151,
+    "score": null,
+    "repo_id": 461828531,
+    "repo_name": "Theslowaja/PlayerFinder",
+    "project_id": 10649,
+    "project_name": "PlayerFinder",
+    "build_id": 161723,
+    "build_number": 21,
+    "build_commit": "0430a6684803e3773fef5f124cb8f23ab3ab75d9",
+    "description_url": "https://poggit.pmmp.io/r/220758",
+    "icon_url": "https://raw.githubusercontent.com/Theslowaja/PlayerFinder/0430a6684803e3773fef5f124cb8f23ab3ab75d9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220760",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691860200,
+    "state": 5,
+    "last_state_change_date": 1692609831,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Theslowaja",
+            "Amitminer",
+            "XeonCh"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

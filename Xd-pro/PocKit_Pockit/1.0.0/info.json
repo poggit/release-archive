@@ -1,0 +1,84 @@
+{
+    "id": 8437,
+    "name": "PocKit",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PocKit/1.0.0",
+    "tagline": "Kits plugin for PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/154694",
+    "downloads": 379,
+    "score": 4,
+    "repo_id": 442842417,
+    "repo_name": "Xd-pro/PocKit",
+    "project_id": 10217,
+    "project_name": "Pockit",
+    "build_id": 119601,
+    "build_number": 3,
+    "build_commit": "188cf195aa184e0e331034881da6d39bd158e1dd",
+    "description_url": "https://poggit.pmmp.io/r/154693",
+    "icon_url": "https://raw.githubusercontent.com/Xd-pro/PocKit/188cf195aa184e0e331034881da6d39bd158e1dd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1640800734,
+    "state": 5,
+    "last_state_change_date": 1642859510,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "factions",
+        "kit",
+        "kitpvp",
+        "kits",
+        "survival"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Xd-pro"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "49bdecb013a0b6d97767c77fff47cdecff1d62e3",
+            "build_id": 119253
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

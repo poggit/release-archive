@@ -1,0 +1,80 @@
+{
+    "id": 9460,
+    "name": "AreaGuard-HiroTeam",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AreaGuard-HiroTeam/1.1.0",
+    "tagline": "Areaguard is a plugin to protect area",
+    "artifact_url": "https://poggit.pmmp.io/r/170362",
+    "downloads": 1679,
+    "score": 5,
+    "repo_id": 452383521,
+    "repo_name": "HiroshimaTeam/AreaGuard",
+    "project_id": 10429,
+    "project_name": "AreaGuard",
+    "build_id": 124558,
+    "build_number": 18,
+    "build_commit": "e57a8a8c0d704cb2e989786b4362f609b12e76df",
+    "description_url": "https://poggit.pmmp.io/r/170359",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/AreaGuard/e57a8a8c0d704cb2e989786b4362f609b12e76df/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/170361",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1649335403,
+    "state": 5,
+    "last_state_change_date": 1649580894,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "4",
+        "area",
+        "guard",
+        "pmmp",
+        "pocketmine",
+        "protect",
+        "protection",
+        "zone"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WillyDuGang"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

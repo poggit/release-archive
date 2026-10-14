@@ -1,0 +1,59 @@
+{
+    "id": 5971,
+    "name": "ErrorLogger",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/ErrorLogger/1.0",
+    "tagline": "Simple plugin that saves internal server errors",
+    "artifact_url": "https://poggit.pmmp.io/r/115702",
+    "downloads": 1589,
+    "score": 5,
+    "repo_id": 339161551,
+    "repo_name": "VixikHD/ErrorLogger",
+    "project_id": 8554,
+    "project_name": "ErrorLogger",
+    "build_id": 96690,
+    "build_number": 1,
+    "build_commit": "cd48d895363590be63bb6fc26938b73e5662b811",
+    "description_url": "https://poggit.pmmp.io/r/115701",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1613412091,
+    "state": 5,
+    "last_state_change_date": 1613416197,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.16.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VixikHD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

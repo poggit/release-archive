@@ -1,0 +1,79 @@
+{
+    "id": 13580,
+    "name": "Smaccer",
+    "version": "1.0.6",
+    "html_url": "https://poggit.pmmp.io/p/Smaccer/1.0.6",
+    "tagline": "A PocketMine-MP plugin NPCs",
+    "artifact_url": "https://poggit.pmmp.io/r/248582",
+    "downloads": 269,
+    "score": 3,
+    "repo_id": 806124711,
+    "repo_name": "AIPTU/Smaccer",
+    "project_id": 13999,
+    "project_name": "Smaccer",
+    "build_id": 181869,
+    "build_number": 33,
+    "build_commit": "af8f7a4e0ae8e783c00c6610dad1f1cfba36a3d0",
+    "description_url": "https://poggit.pmmp.io/r/248579",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/Smaccer/af8f7a4e0ae8e783c00c6610dad1f1cfba36a3d0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/248581",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1727929431,
+    "state": 5,
+    "last_state_change_date": 1728232953,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.16.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "ImgBotApp",
+            "KRUNCHSHooT"
+        ],
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

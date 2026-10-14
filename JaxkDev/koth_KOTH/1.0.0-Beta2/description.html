@@ -1,0 +1,148 @@
+<p><a href="https://tiny.cc/JaxksDC" rel="nofollow"><img src="https://camo.githubusercontent.com/f39c64eb5f482692715d40395ea2fbde94feb741/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3535343035393232313834373633383034302f656d6265642e706e67" alt="Discord server" data-canonical-src="https://discordapp.com/api/guilds/554059221847638040/embed.png" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/KOTH" rel="nofollow"><img src="https://camo.githubusercontent.com/51556c2e6bf7442c01bfd6ffd53440d0150b0d2c/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f4b4f5448" data-canonical-src="https://poggit.pmmp.io/shield.state/KOTH" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-koth" class="anchor" href="#koth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>K.O.T.H</h1>
+<p>King Of The Hill mini-game, Pocketmine-MP Plugin by Jackthehack21.</p>
+<h2>
+<a id="user-content-notice" class="anchor" href="#notice" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NOTICE</h2>
+<p><strong>This plugin is in BETA (Pre-Release), so <em>please</em> dont spam out comments/issues with broken things or things that you expect there and are not.</strong></p>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<h3>
+<a id="user-content-implemented" class="anchor" href="#implemented" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Implemented</h3>
+<ul>
+<li>Multiple Arena's</li>
+<li>Custom spawn &amp; hill points.</li>
+<li>Supports Arena's in different worlds.</li>
+<li>Custom player amount, and game time.</li>
+<li>Block break/place disabled during in-game (todo config)</li>
+<li>Changing gamemode during a game is cancelled (todo config)</li>
+<li>Rewards given to king at end of game.</li>
+<li>Leave a arena</li>
+<li>'King' is displayed above player name. (nametag)</li>
+<li>Some values are in config.yml including a help file.</li>
+<li>On death keep inventory. (todo config)</li>
+</ul>
+<h3>
+<a id="user-content-upcoming" class="anchor" href="#upcoming" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Upcoming</h3>
+<ul>
+<li>Messages to be in config.</li>
+<li>Default arena values to be in config.</li>
+<li>Override old values of arena positions.</li>
+<li>Something extra for when winner is announced <em><strong>wink</strong></em>
+</li>
+</ul>
+<h2>
+<a id="user-content-about-the-game" class="anchor" href="#about-the-game" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About the game</h2>
+<h3>
+<a id="user-content-koth-1" class="anchor" href="#koth-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>KOTH</h3>
+<p>King.Of.The.Hill</p>
+<p>King of the hill is a mini game most players will be familiar with, either through minecraft or by playing pretty much any other strategy game.</p>
+<p>The aim of king of the hill is to conquer the castle, fort or anything else in the middle of the arena, the arena is usually a large map of some sort with surrounding walls.
+The top point usually on a hill with a height advantage is the throne, castle, fort whatever you call it.</p>
+<p>players all spawn into the one map/arena, and then using the equipment/items on them they take on position of king.
+They remain king for as long as they stay in the specified area/fort/castle if they die, another player in the area takes place as king or next person who goes there.</p>
+<p>The winner is announced at the end of the game (When a timer runs out), the king currently in power or the previous king will be winner.</p>
+<p>At the end the winner is given rewards and a <em>celebration</em> occurs (shortly).
+(This is not yet implemented - as of beta1)</p>
+<h3>
+<a id="user-content-joining-a-game" class="anchor" href="#joining-a-game" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Joining a game</h3>
+<p>To join a game/arena the arena must meet some criteria,</p>
+<ol>
+<li>The arena cannot be full or not ready (you can check using <code>/koth list</code>)</li>
+<li>The arena world must exist, cannot be deleted or re-named (if so you will have to delete and re-create it)</li>
+<li>The arena must have spawn points.</li>
+</ol>
+<p>If the arena meets all the above you can join using <code>/koth join &lt;arena name&gt;</code></p>
+<h3>
+<a id="user-content-starting-a-game" class="anchor" href="#starting-a-game" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Starting a game</h3>
+<p>The game will start the pregame - counter when the minimum amount of players has joined.</p>
+<p>(In future you can force start)</p>
+<h3>
+<a id="user-content-leaving-a-game" class="anchor" href="#leaving-a-game" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Leaving a game</h3>
+<p>As of Beta2 you can only leave by Leaving the server
+or using <code>/koth leave</code></p>
+<h3>
+<a id="user-content-winning-a-game" class="anchor" href="#winning-a-game" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Winning a game</h3>
+<p>The game runs on a timer, during which anyone can move, attack and kill the king.
+However when the timer runs out the last standing king, or the previous king will be crowned.
+(And in future rewards and <em>other</em> things will be added)</p>
+<p>(Notice, players are frozen during 'presentations of the king')</p>
+<h2>
+<a id="user-content-setting-up" class="anchor" href="#setting-up" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting up</h2>
+<h3>
+<a id="user-content-creatingremoving-arenas" class="anchor" href="#creatingremoving-arenas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating/Removing arena(s)</h3>
+<p>To create a new arena use the command <code>/koth new &lt;arena name&gt;</code> (No spaces are allowed in arena, for now)
+To remove a arena use the command <code>/koth rem &lt;arena name&gt;</code> (The arena cannot be in use when deleting)</p>
+<p>To check arena status type <code>/koth list</code> or <code>/koth info &lt;arena name&gt;</code></p>
+<h3>
+<a id="user-content-setting-positionsvalues" class="anchor" href="#setting-positionsvalues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting positions/Values</h3>
+<ol>
+<li>
+<code>/koth setpos1 &lt;arena name&gt;</code>
+(Make sure you are standing on one corner of the throne/hill.)</li>
+<li>
+<code>/koth setpos2 &lt;arena name&gt;</code>
+(Now stand on the opposite corner of the throne/hill.)</li>
+<li>
+<code>/koth setspawn &lt;arena name&gt;</code>
+(This command can be used as many times as you like, again be standing on the spawn location you want to set.)</li>
+<li>
+<code>/koth addreward &lt;arena name&gt; &lt;command&gt;</code>
+example: <code>/koth addreward arena1 give {PLAYER} 20 1</code> &lt;- this would give the winner 1 web.
+DO NOTE THAT THERE IS NO <code>/</code>
+</li>
+</ol>
+<h3>
+<a id="user-content-editing-values" class="anchor" href="#editing-values" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Editing Values</h3>
+<p>Currently (as of beta2) there is only one option:</p>
+<ol>
+<li>Go into plugin_data-&gt;KOTH-&gt;arenas.yml</li>
+<li>Find the arena you wish to edit (via name)</li>
+<li>Find the value you wish to edit then change it and save the file.</li>
+<li>Reload your server for it to take effect.</li>
+</ol>
+<h3>
+<a id="user-content-config-options" class="anchor" href="#config-options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config Options</h3>
+<p>plugin_enabled - Disable/enable the plugin.</p>
+<p>debug - Show debug messages.</p>
+<p>check_updates - Not yet used.</p>
+<p>language - Choose one ["eng"] for the correct help file.</p>
+<p>KingTextParticles - Displays KingText in middle of king area.</p>
+<p>nametag_enabled - Enable/disable nametag feature.</p>
+<p>nametag_format - NameTag format, you can use any colour code. see help file for more info.</p>
+<p>start_countdown - How long until game starts when the minimum amount of players are in-game.</p>
+<p><strong>For more info see the help file in plugin_data/KOTH/help_eng.txt</strong></p>
+<h2>
+<a id="user-content-known-bugs" class="anchor" href="#known-bugs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Known Bugs:</h2>
+<ul>
+<li>Permissions default to everyone.</li>
+</ul>
+<p>To report bugs please make a issue over on <a href="https://github.com/jackthehack21/koth/issues/new">github</a> and please follow the guidelines.</p>
+<h2>
+<a id="user-content-credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits:</h2>
+<p><em>Developer:</em> Jackthehack21 (aka JaxkDev)</p>
+<p><em>Icon Creator:</em> WowAssasin (WowAssasin#6608)</p>
+<p><em>Idea generator:</em> GOLDVAGE (GOLDVAGE#2712)</p>
+<h3>
+<a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License:</h3>
+<pre><code>KOTH - King of the hill
+Copyright (C) 2019 Jackthehack21 (Jack Honour/Jackthehaxk21/JaxkDev)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
+
+Twitter :: @JaxkDev
+Discord :: Jackthehaxk21#8860
+Email   :: gangnam253@gmail.com
+</code></pre>

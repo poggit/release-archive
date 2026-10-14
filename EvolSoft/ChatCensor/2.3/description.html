@@ -1,0 +1,215 @@
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p><strong>ChatCensor</strong> let you block censored words, IP addresses, websites, spam, caps, set allowed and unallowed characters and mute/unmute players in chat.
+You can also easily customize actions for each censored word.</p>
+<p><em><strong>Features:</strong></em></p>
+<ul>
+<li>
+<em>Word censor:</em> block censored words on chat or even on commands!</li>
+<li>
+<em>URL/IP censor:</em> prevent players from sending IP addresses or URLs on chat</li>
+<li>
+<em>Anti-caps:</em> remove caps from messages or block them</li>
+<li>
+<em>Anti-spam:</em> advanced anti-spam check which will prevent players from sending the same message twice or spamming on chat</li>
+<li>
+<em>Mute/Unmute players:</em> temporarily or permanently mute players on chat</li>
+<li>
+<em>Maximum message length:</em> prevent players from sending long messages</li>
+<li>
+<em>Allowed/Unallowed characters:</em> limit allowed characters on messages</li>
+<li>Customizable user-side messages</li>
+</ul>
+<p><strong>New Website:</strong> <a href="https://flavius12.net/pocketmine-plugins/" rel="nofollow">https://flavius12.net/pocketmine-plugins/</a></p>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span> Censor settings</span>
+<span class="pl-ent">censor</span>:
+ <span class="pl-c"><span class="pl-c">#</span> Enable censor</span>
+ <span class="pl-ent">enabled</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Let players with chatcensor.bypass.censor permission bypass this restriction</span>
+ <span class="pl-ent">allow-bypassing</span>: <span class="pl-c1">false</span>
+ <span class="pl-c"><span class="pl-c">#</span> Check bad words inside words (may slightly slow down your server)</span>
+ <span class="pl-ent">advanced-mode</span>: <span class="pl-c1">false</span>
+ <span class="pl-c"><span class="pl-c">#</span> Check commands</span>
+ <span class="pl-ent">check-commands</span>: <span class="pl-c1">false</span>
+ <span class="pl-c"><span class="pl-c">#</span> Log message to player</span>
+ <span class="pl-ent">log-to-player</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Block messages containing URLs (a message will be sent to the player if log-to-player is enabled)</span>
+ <span class="pl-ent">block-urls</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Block messages containing IP addresses (a message will be sent to the player if log-to-player is enabled)</span>
+ <span class="pl-ent">block-ips</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> Anti-caps settings</span>
+<span class="pl-ent">anti-caps</span>:
+ <span class="pl-c"><span class="pl-c">#</span> Enable anti-caps</span>
+ <span class="pl-ent">enabled</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Let players with chatcensor.bypass.anti-caps permission bypass this restriction</span>
+ <span class="pl-ent">allow-bypassing</span>: <span class="pl-c1">false</span>
+ <span class="pl-c"><span class="pl-c">#</span> Log message to player</span>
+ <span class="pl-ent">log-to-player</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Block the message (if block-message is disabled, the message will be converted to lower case)</span>
+ <span class="pl-ent">block-message</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> Anti-spam settings</span>
+<span class="pl-ent">anti-spam</span>:
+ <span class="pl-c"><span class="pl-c">#</span> Enable anti-spam</span>
+ <span class="pl-ent">enabled</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Let players with chatcensor.bypass.anti-spam permission bypass this restriction</span>
+ <span class="pl-ent">allow-bypassing</span>: <span class="pl-c1">false</span>
+ <span class="pl-c"><span class="pl-c">#</span> Log message to player</span>
+ <span class="pl-ent">log-to-player</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Spam checking mode (0 = the same message can't be repeated, 1 = delayed spam checking, 2 = both)</span>
+ <span class="pl-ent">mode</span>: <span class="pl-c1">1</span>
+ <span class="pl-c"><span class="pl-c">#</span> Delay (in seconds)</span>
+ <span class="pl-ent">delay</span>: <span class="pl-c1">5</span>
+<span class="pl-c"><span class="pl-c">#</span> Mute/Unmute settings</span>
+<span class="pl-ent">mute</span>:
+ <span class="pl-c"><span class="pl-c">#</span> Log the mute message to the player</span>
+ <span class="pl-ent">log-mute</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Log the unmute message to the player</span>
+ <span class="pl-ent">log-unmute</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Log message to player</span>
+ <span class="pl-ent">log-to-player</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Default mute time</span>
+ <span class="pl-ent">time</span>: <span class="pl-s"><span class="pl-pds">"</span>30m<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Characters/Message checking settings</span>
+<span class="pl-ent">char-check</span>:
+ <span class="pl-c"><span class="pl-c">#</span> Enable characters/message checking</span>
+ <span class="pl-ent">enabled</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Let players with chatcensor.bypass.char-check permission bypass this restriction</span>
+ <span class="pl-ent">allow-bypassing</span>: <span class="pl-c1">false</span>
+ <span class="pl-c"><span class="pl-c">#</span> Log message to player</span>
+ <span class="pl-ent">log-to-player</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Maximum message length (set to 0 to disable this feature)</span>
+ <span class="pl-ent">max-length</span>: <span class="pl-c1">0</span>
+ <span class="pl-c"><span class="pl-c">#</span> Allow backslash in messages</span>
+ <span class="pl-ent">allow-backslash</span>: <span class="pl-c1">false</span>
+ <span class="pl-c"><span class="pl-c">#</span> Allowed characters in messages (set to "" to disable this feature)</span>
+ <span class="pl-ent">allowed-chars</span>: <span class="pl-s"><span class="pl-pds">"</span>QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890.:,;-_|!/?<span class="pl-pds">"</span></span>
+ <span class="pl-c"><span class="pl-c">#</span> Unallowed characters in messages (set to "" to disable this feature)</span>
+ <span class="pl-ent">unallowed-chars</span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+...</pre></div>
+<h2>
+<a id="user-content-add-and-configure-a-censored-word" class="anchor" href="#add-and-configure-a-censored-word" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add and configure a censored word</h2>
+<ol>
+<li>Run the command "/addword &lt;word&gt;"<br>
+</li>
+<li>Go to ChatCensor plugin directory and open "words.yml" file<br>
+</li>
+<li>Find the world in the list and customize its settings</li>
+</ol>
+<p>These are the censored word settings:</p>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span> Delete the message containing the word</span>
+<span class="pl-ent">delete-message</span>: <span class="pl-c1">false</span>
+<span class="pl-c"><span class="pl-c">#</span> Replace the censored word</span>
+<span class="pl-ent">enable-replace</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> The text which will replace the censored word</span>
+<span class="pl-ent">replace-word</span>: <span class="pl-s"><span class="pl-pds">"</span>****<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> List of commands to execute</span>
+<span class="pl-c"><span class="pl-c">#</span> Available tags:</span>
+<span class="pl-c"><span class="pl-c">#</span>  - {PLAYER}: Player name of the player who sent the message containing the censored word</span>
+<span class="pl-c"><span class="pl-c">#</span> Example:</span>
+<span class="pl-c"><span class="pl-c">#</span>  commands:</span>
+<span class="pl-c"><span class="pl-c">#</span>  - "tell {PLAYER} Do not swear please!"</span>
+<span class="pl-c"><span class="pl-c">#</span>  - "ban {PLAYER}"</span>
+<span class="pl-ent">commands</span>: <span class="pl-s">[]</span>
+...</pre></div>
+<h2>
+<a id="user-content-messages-messagesyml" class="anchor" href="#messages-messagesyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Messages (messages.yml)</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span> No URLs message</span>
+<span class="pl-ent">no-urls</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cYou can't send URLs on messages!<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> No IP addresses message</span>
+<span class="pl-ent">no-ips</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cYou can't send IP addresses on messages!<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> No swearing message</span>
+<span class="pl-ent">no-swearing</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cPlease don't swear!<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> No caps message</span>
+<span class="pl-ent">no-caps</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cUppercase characters are not allowed on messages<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Invalid/Unallowed characters message</span>
+<span class="pl-ent">invalid</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cYou can't send this message because it contains invalid characters<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Message too long message</span>
+<span class="pl-ent">too-long</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cYou can't send this message because it's too long<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> No spam message</span>
+<span class="pl-ent">no-spam</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cPlease don't spam<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Spam delay message</span>
+<span class="pl-ent">spam-delay</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cPlease wait &amp;e{DELAY} seconds&amp;c before sending another message<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Muted message (when the muted player tries to send a message)</span>
+<span class="pl-ent">muted-error</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cYou can't send message because you are muted<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Muted message</span>
+<span class="pl-ent">muted</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cYou have been muted for &amp;e{DURATION}&amp;c by &amp;e{PLAYER}&amp;c!<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Unmuted message</span>
+<span class="pl-ent">unmuted</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;cYou have been unmuted by &amp;e{PLAYER}&amp;c!<span class="pl-pds">"</span></span>
+...</pre></div>
+<h2>
+<a id="user-content-commands--permissions" class="anchor" href="#commands--permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands &amp; Permissions</h2>
+<p><strong>Commands:</strong></p>
+<dd><i><b>/chatcensor</b> - ChatCensor commands (aliases: [cc, chatc, censor])</i></dd>
+<dd><i><b>/addword &lt;word&gt;</b> - Add a censored word</i></dd>
+<dd><i><b>/removeword &lt;word&gt;</b> - Remove a censored word</i></dd>
+<dd><i><b>/mute &lt;player&gt;</b> - Mute player</i></dd>
+<dd><i><b>/unmute &lt;player&gt;</b> - Unmute player</i></dd>
+<dd><i><b>/listmuted</b> - Get the list of muted players</i></dd><br>
+<p><strong>Permissions:</strong></p>
+<ul>
+<li>
+<dd><i><b>chatcensor.*</b> - ChatCensor permission tree.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.bypass.*</b> - Bypass ChatCensor features.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.bypass.censor</b> - Bypass ChatCensor word censor feature.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.bypass.anti-caps</b> - Bypass ChatCensor anti-caps feature.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.bypass.char-check</b> - Bypass ChatCensor char-check feature.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.bypass.anti-spam</b> - Bypass ChatCensor spam-check feature.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.commands.*</b> - ChatCensor commands permission tree.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.commands.help</b> - Let player read ChatCensor commands help.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.commands.info</b> - Let player read info about ChatCensor.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.commands.reload</b> - Let player reload ChatCensor configuration.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.commands.addword</b> - Let player add a censored word.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.commands.removeword</b> - Let player remove a censored word.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.commands.mute</b> - Let player mute a player.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.commands.unmute</b> - Let player unmute a player.</i></dd>
+</li>
+<li>
+<dd><i><b>chatcensor.commands.listmuted</b> - Let player show the list of muted players.</i></dd>
+</li>
+</ul>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>Almost all our plugins have API access to widely extend their features.</p>
+<p>To access ChatCensor API:<br>
+<em>1. Define the plugin dependency in plugin.yml (you can check if ChatCensor is installed in different ways):</em></p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">depend</span>: <span class="pl-s">[ChatCensor]</span></pre></div>
+<p><em>2. Include ChatCensor API in your plugin code:</em></p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-c">//ChatCensor API</span>
+<span class="pl-k">use</span> <span class="pl-v">ChatCensor</span>\<span class="pl-v">ChatCensor</span>;</pre></div>
+<p><em>3. Access the API by doing:</em></p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-v">ChatCensor</span>::<span class="pl-en">getAPI</span>()</pre></div>
+<h2>
+<a id="user-content-donate" class="anchor" href="#donate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Donate</h2>
+<p>Please support the development of this plugin with a small donation by clicking <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=flavius.c.1999@gmail.com&amp;lc=US&amp;item_name=www.evolsoft.tk&amp;no_note=0&amp;cn=&amp;curency_code=EUR&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" rel="nofollow"><g-emoji class="g-emoji" alias="dollar" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4b5.png">💵</g-emoji> here</a>.
+Your small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you <g-emoji class="g-emoji" alias="smile" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png">😄</g-emoji></p>

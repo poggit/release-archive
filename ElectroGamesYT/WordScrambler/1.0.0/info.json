@@ -1,0 +1,80 @@
+{
+    "id": 8179,
+    "name": "WordScrambler",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WordScrambler/1.0.0",
+    "tagline": "Players Can Unscramble Words For Rewards!",
+    "artifact_url": "https://poggit.pmmp.io/r/150441",
+    "downloads": 768,
+    "score": 4,
+    "repo_id": 423529757,
+    "repo_name": "ElectroGamesYT/WordScrambler",
+    "project_id": 10033,
+    "project_name": "WordScrambler",
+    "build_id": 116928,
+    "build_number": 7,
+    "build_commit": "468d6a0b835ef5bbae64a71c4c19e07d0deaf995",
+    "description_url": "https://poggit.pmmp.io/r/150440",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/WordScrambler/468d6a0b835ef5bbae64a71c4c19e07d0deaf995/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638646272,
+    "state": 5,
+    "last_state_change_date": 1639289525,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Word",
+        "Scramble",
+        "WordScramble",
+        "ChatScramble",
+        "Chat"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

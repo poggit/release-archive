@@ -1,0 +1,70 @@
+{
+    "id": 9056,
+    "name": "CreateDelCraft-HiroTeam",
+    "version": "1.5.0",
+    "html_url": "https://poggit.pmmp.io/p/CreateDelCraft-HiroTeam/1.5.0",
+    "tagline": "Pocketmine plugin to create new crafts and delete default crafts",
+    "artifact_url": "https://poggit.pmmp.io/r/163350",
+    "downloads": 1220,
+    "score": 3,
+    "repo_id": 444412173,
+    "repo_name": "HiroshimaTeam/CreateDelCraft-HiroTeam",
+    "project_id": 10265,
+    "project_name": "CreateDelCraft-HiroTeam",
+    "build_id": 124802,
+    "build_number": 11,
+    "build_commit": "a386ad0ccd3e9613d96ccf13f5b73ce897f70829",
+    "description_url": "https://poggit.pmmp.io/r/163347",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/CreateDelCraft-HiroTeam/a386ad0ccd3e9613d96ccf13f5b73ce897f70829/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/163349",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645466478,
+    "state": 5,
+    "last_state_change_date": 1645511951,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "craft",
+        "create",
+        "custom",
+        "customcraft",
+        "delete",
+        "new"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WillyDuGang"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

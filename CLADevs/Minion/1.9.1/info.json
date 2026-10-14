@@ -1,0 +1,80 @@
+{
+    "id": 5239,
+    "name": "Minion",
+    "version": "1.9.1",
+    "html_url": "https://poggit.pmmp.io/p/Minion/1.9.1",
+    "tagline": "A plugin which adds minion on your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/102037",
+    "downloads": 323,
+    "score": null,
+    "repo_id": 205575195,
+    "repo_name": "CLADevs/Minion",
+    "project_id": 5507,
+    "project_name": "Minion",
+    "build_id": 87572,
+    "build_number": 28,
+    "build_commit": "376d3c06648406b88f535016687f10ce3cb3775f",
+    "description_url": "https://poggit.pmmp.io/r/102034",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/102036",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1599231856,
+    "state": 5,
+    "last_state_change_date": 1599395226,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "xXNiceYT",
+            "iiFlamiinBlaze",
+            "Unickorn"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

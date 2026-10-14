@@ -1,0 +1,66 @@
+{
+    "id": 5962,
+    "name": "BuyKeepInv",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BuyKeepInv/1.0.0",
+    "tagline": "Lets your players to buy keep inventory",
+    "artifact_url": "https://poggit.pmmp.io/r/115640",
+    "downloads": 941,
+    "score": 5,
+    "repo_id": 336217269,
+    "repo_name": "OguzhanUmutlu/BuyKeepInventory",
+    "project_id": 8503,
+    "project_name": "BuyKeepInventory",
+    "build_id": 96661,
+    "build_number": 11,
+    "build_commit": "959e5bd9ce9862fc3cf3adf3c055f04af9f2d80b",
+    "description_url": "https://poggit.pmmp.io/r/115639",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/BuyKeepInventory/959e5bd9ce9862fc3cf3adf3c055f04af9f2d80b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1613403177,
+    "state": 5,
+    "last_state_change_date": 1613411888,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,96 @@
+<h1>
+<a id="user-content-bravoclan" class="anchor" href="#bravoclan" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BravoClan<a href="https://raw.githubusercontent.com/Itzdvbravo/BravoClan/master/new.png" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/Itzdvbravo/BravoClan/master/new.png" height="64" width="64" align="left" style="max-width:100%;"></a>
+</h1>
+<p>This is a simple clan plugin, it was made because there is very few (or no) working clan plugin without claims, just simple grouping system with levels.</p>
+<h3>
+<a id="user-content-extras" class="anchor" href="#extras" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Extras</h3>
+<h4>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h4>
+<ul>
+<li>[x] Pvp-wise the clan plugin will work only in the worlds given in config.yml</li>
+<li>[x] <a href="https://github.com/JackMD/ScoreHud-Addons">Scorehud compatible</a>
+</li>
+<li>[x] Clan system, obviously.</li>
+<li>[x] Earn XP on kill, Lose XP on death</li>
+<li>[x] Level up after you reach a certian XP <a href="https://github.com/Itzdvbravo/BravoClan/blob/master/README.md#clan-system">Click Here for how the system works</a>
+</li>
+<li>[x] Get more space for clan members as you level up</li>
+<li>[x] Get clan info, clan member info.</li>
+<li>[x] Clan chat</li>
+</ul>
+<h4>
+<a id="user-content-upcoming-projects" class="anchor" href="#upcoming-projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Upcoming Projects</h4>
+<ul>
+<li>[x] More configurable</li>
+<li>[ ] Purechat compatible (Requested)</li>
+<li>[ ] More efficient member limit system</li>
+</ul>
+<h4>
+<a id="user-content-issues" class="anchor" href="#issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issues</h4>
+<p><a href="https://github.com/Itzdvbravo/BravoClan">You open an issue in github</a></p>
+<h3>
+<a id="user-content-clan-system" class="anchor" href="#clan-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Clan System</h3>
+<ul>
+<li>
+<p><strong>Level System</strong><br>
+The clan level system is quite basic but interestic and kindof different than others <em>(Currently the amount of xp needed to level up isn't configurable however The amount of xp you lose, you gain can be configured in config.yml)</em>.<br>
+The first level is 100 xp (Leader can invite 2 members only), after the clan has more than 100 xp, they will level up and reach level 2.
+Now, After every 5 levelup it will open 2 more member space. After you level up, the xp needed to levelup + 250 xp will be needed for next level up i.e, to get level 3 you need to get 350xp (100 + 250).<br>
+If you die you lose xp.</p>
+</li>
+<li>
+<p><strong>Rank System</strong><br>
+There are only two ranks in the clan, leader and members.</p>
+</li>
+</ul>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<h5>
+<a id="user-content-info" class="anchor" href="#info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Info</h5>
+<p>Get your or others clan info, don't provide a clan name if you want to get info about your clan.<br>
+Usage - <code>/clan info &lt;clan&gt;</code><br>
+<strong>Note - Will send an error message to the player using if he ain't in a clan and doesn't provide any clan name.</strong></p>
+<h5>
+<a id="user-content-create" class="anchor" href="#create" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create</h5>
+<p>Create a clan if you aren't already in a clan.<br>
+Usage - <code>/clan create &lt;clan name&gt;</code><br>
+<strong>Note - Clan name can only contain letters</strong></p>
+<h5>
+<a id="user-content-invite" class="anchor" href="#invite" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Invite</h5>
+<p>Invite members to your clan<br>
+Usage - <code>/clan invite &lt;member&gt;</code><br>
+<strong>Note - Only for clan leaders, won't be able to invite if the clan member limit has reached, will send a message to the player you're inviting, lasts for 30 second</strong></p>
+<h5>
+<a id="user-content-chat" class="anchor" href="#chat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chat</h5>
+<p>Join your clan chat.<br>
+Usage - <code>/clan chat</code><br>
+<strong>Note - Works only if you're in a clan, every online member of your clan can see it even if they ain't in a clan</strong></p>
+<h5>
+<a id="user-content-members" class="anchor" href="#members" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Members</h5>
+<p>Get member info of your or others clan.<br>
+Usage - <code>/clan members &lt;clan&gt;</code><br>
+<strong>Note - Won't work if player doesn't provide a clan and isn't in a clan, will show if they're online/offline thier kill/deaths in the clan.</strong></p>
+<h5>
+<a id="user-content-kick" class="anchor" href="#kick" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kick</h5>
+<p>Kick a member from a clan.<br>
+Usage - <code>/clan kick</code><br>
+<strong>Note - Only for clan leaders</strong></p>
+<h5>
+<a id="user-content-delete" class="anchor" href="#delete" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Delete</h5>
+<p>Delete your clan.<br>
+Usage - <code>/clan delete</code><br>
+<strong>Note - Only for clan leaders</strong></p>
+<h5>
+<a id="user-content-leave" class="anchor" href="#leave" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Leave</h5>
+<p>Leave your clan.<br>
+Usage - <code>/clan leave</code><br>
+<strong>Note - Only works for members, works if you're in a clan.</strong></p>
+<h5>
+<a id="user-content-accept" class="anchor" href="#accept" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Accept</h5>
+<p>Accept an invitation from a clan.<br>
+Usage - <code>/clan accept</code><br>
+<strong>Note - Only works if you're not in a clan, if you don't do it in under the 30 second if invitation time it will give expire error.</strong></p>
+<h5>
+<a id="user-content-top" class="anchor" href="#top" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Top</h5>
+<p>Get top 10 clans<br>
+Usage - <code>/clan top</code></p>

@@ -1,0 +1,81 @@
+{
+    "id": 7251,
+    "name": "BurgerSpawners",
+    "version": "0.1.6",
+    "html_url": "https://poggit.pmmp.io/p/BurgerSpawners/0.1.6",
+    "tagline": "Plugin implementing a Stackable Spawner System for PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/135349",
+    "downloads": 1157,
+    "score": null,
+    "repo_id": 236162930,
+    "repo_name": "Heisenburger69/BurgerSpawners",
+    "project_id": 6168,
+    "project_name": "BurgerSpawners",
+    "build_id": 107907,
+    "build_number": 103,
+    "build_commit": "d77d4bc4909008ef583accfba101ae08e6295b9a",
+    "description_url": "https://poggit.pmmp.io/r/135346",
+    "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerSpawners/d77d4bc4909008ef583accfba101ae08e6295b9a/Spawner_JE3.png",
+    "changelog_url": "https://poggit.pmmp.io/r/135348",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628166068,
+    "state": 5,
+    "last_state_change_date": 1628188564,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "bee",
+        "bees",
+        "burgerspawners",
+        "fox",
+        "mobs",
+        "plugin",
+        "plugins",
+        "pmmp",
+        "pocketmine",
+        "silktouch",
+        "spawn",
+        "spawners",
+        "stackable",
+        "stacked",
+        "zombie"
+    ],
+    "api": [
+        {
+            "from": "3.21.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "iZeaoGamer",
+            "Unickorn"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

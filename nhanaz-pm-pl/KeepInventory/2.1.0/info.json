@@ -1,0 +1,59 @@
+{
+    "id": 9685,
+    "name": "KeepInventory",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/KeepInventory/2.1.0",
+    "tagline": "Prevents players from losing items on death",
+    "artifact_url": "https://poggit.pmmp.io/r/175332",
+    "downloads": 1224,
+    "score": null,
+    "repo_id": 147989977,
+    "repo_name": "nhanaz-pm-pl/KeepInventory",
+    "project_id": 3952,
+    "project_name": "KeepInventory",
+    "build_id": 132937,
+    "build_number": 24,
+    "build_commit": "8f280e3d59c87d449ddfc0490122f462597ff956",
+    "description_url": "https://poggit.pmmp.io/r/183216",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/KeepInventory/8f280e3d59c87d449ddfc0490122f462597ff956/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/183218",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652352815,
+    "state": 5,
+    "last_state_change_date": 1652372225,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "keepinventory",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

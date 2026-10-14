@@ -1,0 +1,99 @@
+{
+    "id": 1567,
+    "name": "EconomyShop",
+    "version": "2.0.9",
+    "html_url": "https://poggit.pmmp.io/p/EconomyShop/2.0.9",
+    "tagline": "Shops by Onebone",
+    "artifact_url": "https://poggit.pmmp.io/r/34543",
+    "downloads": 2460,
+    "score": null,
+    "repo_id": 82867467,
+    "repo_name": "poggit-orphanage/EconomyS",
+    "project_id": 275,
+    "project_name": "EconomyShop",
+    "build_id": 44240,
+    "build_number": 36,
+    "build_commit": "449b2cbd25c250aff680738ae2654ba11751e347",
+    "description_url": "https://poggit.pmmp.io/r/55606",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/EconomyS/449b2cbd25c250aff680738ae2654ba11751e347/EconomyShop/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/55608",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529594543,
+    "state": 5,
+    "last_state_change_date": 1529594547,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "economy",
+        "economys",
+        "onebone",
+        "shop"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "shoghicp",
+            "rilut",
+            "llronaldoll",
+            "Bamuel",
+            "edwinyoo44",
+            "HmHmmHm",
+            "ChalkPE",
+            "dog194",
+            "Creeperface01",
+            "Awzaw",
+            "Conankun17",
+            "kvetinac97",
+            "Pub4Game",
+            "samalero",
+            "cr0sh",
+            "laurobeleche",
+            "SleepSpace9",
+            "Ad5001",
+            "SOF3",
+            "nnnlog",
+            "iZeaoGamer",
+            "MasterOfTheRealm",
+            "Cathesda-Server-Studios",
+            "zKoz210",
+            "kairusds",
+            "PJK12"
+        ],
+        "Collaborator": [
+            "onebone"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

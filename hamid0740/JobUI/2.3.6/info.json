@@ -1,0 +1,94 @@
+{
+    "id": 5144,
+    "name": "JobUI",
+    "version": "2.3.6",
+    "html_url": "https://poggit.pmmp.io/p/JobUI/2.3.6",
+    "tagline": "This is an advanced version of EconomyJob including a UI",
+    "artifact_url": "https://poggit.pmmp.io/r/100378",
+    "downloads": 11229,
+    "score": 4,
+    "repo_id": 284249302,
+    "repo_name": "hamid0740/JobUI",
+    "project_id": 7536,
+    "project_name": "JobUI",
+    "build_id": 86509,
+    "build_number": 103,
+    "build_commit": "f731816ed57b1f703b4a898f2870f0075305b273",
+    "description_url": "https://poggit.pmmp.io/r/100421",
+    "icon_url": "https://raw.githubusercontent.com/hamid0740/JobUI/f731816ed57b1f703b4a898f2870f0075305b273/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/100423",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1597838097,
+    "state": 5,
+    "last_state_change_date": 1597858660,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Earn",
+        "Job",
+        "Money"
+    ],
+    "api": [
+        {
+            "from": "3.9.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        },
+        {
+            "name": "MineReset",
+            "version": "3.2.0",
+            "depRelId": 1821,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": false
+        },
+        {
+            "name": "PureEntitiesX",
+            "version": "0.6.7",
+            "depRelId": 4762,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "hamid0740"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "id": 13730,
+    "name": "DoubleDoors",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DoubleDoors/1.0.0",
+    "tagline": "DoubleDoors is a PocketMine-MP plugin that enhances the behavior of interactive blocks like doors, trapdoors, and fence gates. ",
+    "artifact_url": "https://poggit.pmmp.io/r/251339",
+    "downloads": 219,
+    "score": null,
+    "repo_id": 911232765,
+    "repo_name": "SoyDavs/DoubleDoors",
+    "project_id": 14444,
+    "project_name": "DoubleDoors",
+    "build_id": 183756,
+    "build_number": 3,
+    "build_commit": "6e3e316e0811bb66127b9167418be47b64438f94",
+    "description_url": "https://poggit.pmmp.io/r/251338",
+    "icon_url": "https://raw.githubusercontent.com/SoyDavs/DoubleDoors/6e3e316e0811bb66127b9167418be47b64438f94/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "AFL-1.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736037033,
+    "state": 5,
+    "last_state_change_date": 1736037305,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "door",
+        "double"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SoyDavs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

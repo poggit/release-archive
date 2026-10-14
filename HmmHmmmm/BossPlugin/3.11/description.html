@@ -1,0 +1,124 @@
+<h2>
+<a id="user-content-bossplugin" class="anchor" href="#bossplugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BossPlugin</h2>
+<p><a href="https://poggit.pmmp.io/p/BossPlugin" rel="nofollow"><img src="https://camo.githubusercontent.com/0b9e855a2182e44f75e4e0745c582c1b0c039141/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f426f7373506c7567696e" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/BossPlugin" style="max-width:100%;"></a></p>
+<p><a href="#english">Language English</a></p>
+<p>Create boss has unlimited And can create many forms</p>
+<p>BossGhast
+<a href="https://github.com/HmmHmmmm/BossPlugin/blob/master/images/3.1/1.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/HmmHmmmm/BossPlugin/raw/master/images/3.1/1.jpg" alt="1" style="max-width:100%;"></a></p>
+<p>BossSpiderBig
+<a href="https://github.com/HmmHmmmm/BossPlugin/blob/master/images/3.1/2.jpg" target="_blank" rel="noopener noreferrer"><img src="https://github.com/HmmHmmmm/BossPlugin/raw/master/images/3.1/2.jpg" alt="2" style="max-width:100%;"></a></p>
+<p>server of you will not lag if you <code>false</code> in <code>plugin_data\PureEntitiesX\config.yml</code></p>
+<pre><code>tasks:
+  spawn: false
+  async: false
+  looking: false 
+</code></pre>
+<p>•••••Bug•••••••••
+If you install plugin TeaSpoon please <code>false</code> in
+<code>plugin_data\TeaSpoon\config.yml</code></p>
+<pre><code>entities:
+ register: false
+</code></pre>
+<p>••••••••••••••••••</p>
+<h1>
+<a id="user-content-english" class="anchor" href="#english" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>English</h1>
+<div class="highlight highlight-source-diff"><pre>You must install the plugin
+<span class="pl-md"><span class="pl-md">-</span> Slapper</span>
+<span class="pl-md"><span class="pl-md">-</span> PureEntitiesX</span>
+this plugin will work</pre></div>
+<p><strong>Features of plugin</strong><br></p>
+<ul>
+<li>Is a plugin to create boss using <a href="#entitytype">EntityType</a>
+</li>
+<li>Entity will not overlap with PureEntitiesX</li>
+<li>And this plugin will fix some bugs of PureEntitiesX</li>
+<li>Support database Yaml and SQLite</li>
+<li>Have language thai and english (You can edit the language you don't like at, <code>plugin_data/BossPlugin/language</code>)</li>
+</ul>
+<p><strong>How to use</strong><br></p>
+<ul>
+<li><a href="https://youtu.be/wr5IPWTfFdQ" rel="nofollow">https://youtu.be/wr5IPWTfFdQ</a></li>
+</ul>
+<p><strong>Command</strong><br></p>
+<ul>
+<li>
+<code>/boss</code> : open ui</li>
+</ul>
+<h1>
+<a id="user-content-entitytype" class="anchor" href="#entitytype" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EntityType</h1>
+<ul>
+<li>Blaze</li>
+<li>Ghast</li>
+<li>Vex</li>
+<li>MagmaCube <code>TODO</code>
+</li>
+<li>Slime <code>TODO</code>
+</li>
+<li>ElderGuardian</li>
+<li>Guardian <code>TODO</code>
+</li>
+<li>CaveSpider</li>
+<li>Creeper</li>
+<li>Enderman</li>
+<li>Endermite</li>
+<li>Evoker</li>
+<li>Husk</li>
+<li>PolarBear</li>
+<li>IronGolem</li>
+<li>PigZombie</li>
+<li>Shulker</li>
+<li>Silverfish</li>
+<li>Skeleton <code>TODO</code>
+</li>
+<li>Spider</li>
+<li>Stray <code>TODO</code>
+</li>
+<li>Witch</li>
+<li>WitherSkeleton</li>
+<li>Wolf <code>TODO</code>
+</li>
+<li>Zombie</li>
+<li>ZombiePigman</li>
+<li>ZombieVillager</li>
+</ul>
+<h1>
+<a id="user-content-features-of-boss" class="anchor" href="#features-of-boss" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features of Boss</h1>
+<ul>
+<li>respawn</li>
+<li>death_respawn</li>
+<li>health</li>
+<li>speed</li>
+<li>scale</li>
+<li>min_damage</li>
+<li>max_damage</li>
+<li>message_drop</li>
+<li>command_drop</li>
+</ul>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<pre><code>#thai=ภาษาไทยนะจ้ะ
+#english=English language
+#You can edit in plugin_data/BossPlugin/language
+language: english
+
+#yml=Yaml, Information will be in plugin_data/BossPlugin/boss.yml
+#sqlite=SQLite3, Information will be in plugin_data/BossPlugin/boss.sqlite3
+bossdata-database: sqlite
+
+slapper-update: 5
+
+slapper-type: Human
+
+#It is now not unusable.
+#MySQL-Info:
+  #Host: 127.0.0.1
+  #User: Admin
+  #Password: Admin
+  #Database: BossPlugin
+  #Port: 3306
+</code></pre>
+<h1>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h1>
+<pre><code>bossplugin.command.boss:
+  default: op
+</code></pre>

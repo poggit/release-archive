@@ -1,0 +1,145 @@
+{
+    "id": 9710,
+    "name": "MyPlot",
+    "version": "2.1.2",
+    "html_url": "https://poggit.pmmp.io/p/MyPlot/2.1.2",
+    "tagline": "Plot Generation Plugin for PocketMine-MP Servers",
+    "artifact_url": "https://poggit.pmmp.io/r/175685",
+    "downloads": 4649,
+    "score": 5,
+    "repo_id": 56465224,
+    "repo_name": "jasonwynn10/MyPlot",
+    "project_id": 48,
+    "project_name": "MyPlot",
+    "build_id": 133160,
+    "build_number": 814,
+    "build_commit": "f5124bae6e6d1fca25e53bfec58157fd3f0b5e4e",
+    "description_url": "https://poggit.pmmp.io/r/175682",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/MyPlot/f5124bae6e6d1fca25e53bfec58157fd3f0b5e4e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/175684",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652481000,
+    "state": 5,
+    "last_state_change_date": 1652481004,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "claim",
+        "creative",
+        "land",
+        "merge",
+        "merging",
+        "MyPlot",
+        "Plot",
+        "PlotMe",
+        "plotmerge",
+        "PlotSquared",
+        "property",
+        "deprecated"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "WorldStyler",
+            "version": "1.0",
+            "depRelId": 1509,
+            "isHard": false
+        },
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "EasyCommandAutofill",
+            "version": "2.0.0",
+            "depRelId": 8801,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "iksaku",
+            "Exxarion",
+            "thelucyclub",
+            "daany123",
+            "Johnmacrocraft",
+            "NyaomiDEV",
+            "Jelly9912",
+            "SalmonDE",
+            "HimbeersaftLP",
+            "jerryzooyoyo",
+            "Aericio",
+            "eqMFqfFd",
+            "MorpheusTP",
+            "HighTecDev",
+            "MineSenpai",
+            "Lentou",
+            "AngelliaX",
+            "Crasher508",
+            "Wertzui123",
+            "HimmelKreis4865",
+            "supercrafter333",
+            "HyperEnte",
+            "DerDevHD",
+            "RomnSD",
+            "xAliTura01",
+            "MrBlasyMSK"
+        ],
+        "Collaborator": [
+            "jasonwynn10"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

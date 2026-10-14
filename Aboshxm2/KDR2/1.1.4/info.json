@@ -1,0 +1,98 @@
+{
+    "id": 11883,
+    "name": "KDR2",
+    "version": "1.1.4",
+    "html_url": "https://poggit.pmmp.io/p/KDR2/1.1.4",
+    "tagline": "Simple Kill Death Ratio plugin for Pocketmine-MP Servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/215268",
+    "downloads": 811,
+    "score": null,
+    "repo_id": 582748202,
+    "repo_name": "Aboshxm2/KDR2",
+    "project_id": 12045,
+    "project_name": "KDR2",
+    "build_id": 159022,
+    "build_number": 28,
+    "build_commit": "60fe930268ab58cfe6a5ccd3b4025eccc1e94b46",
+    "description_url": "https://poggit.pmmp.io/r/215265",
+    "icon_url": "https://raw.githubusercontent.com/Aboshxm2/KDR2/60fe930268ab58cfe6a5ccd3b4025eccc1e94b46/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/215267",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688823127,
+    "state": 5,
+    "last_state_change_date": 1688824423,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Death",
+        "Deaths",
+        "Kill",
+        "Kills",
+        "Killstreak",
+        "Ratio"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Aboshxm2"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ConfigUpdater",
+            "project_id": 12551,
+            "repo_id": 648322348,
+            "repo_name": "Aboshxm2/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "18dc36feacba1b349c22ac9f1b9f3a7586283cf9",
+            "build_id": 155749
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 12552,
+            "repo_id": 648321718,
+            "repo_name": "Aboshxm2/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "0d92a4794a573e6034421439365fcb22b14b0764",
+            "build_id": 155751
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "866a23374a7a18ddc8a6bbe0a816feb0f512b9c7",
+            "build_id": 155188
+        }
+    ]
+}

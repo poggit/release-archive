@@ -1,0 +1,87 @@
+{
+    "id": 13760,
+    "name": "KDR-PE",
+    "version": "1.0.6",
+    "html_url": "https://poggit.pmmp.io/p/KDR-PE/1.0.6",
+    "tagline": "A KDR system.",
+    "artifact_url": "https://poggit.pmmp.io/r/251548",
+    "downloads": 181,
+    "score": 5,
+    "repo_id": 723569661,
+    "repo_name": "Terpz710/KDR-PE",
+    "project_id": 13374,
+    "project_name": "KDR-PE",
+    "build_id": 183863,
+    "build_number": 161,
+    "build_commit": "04d6712190e674298698f053f6bb0969b3d844f3",
+    "description_url": "https://poggit.pmmp.io/r/251545",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/KDR-PE/04d6712190e674298698f053f6bb0969b3d844f3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/251547",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736243717,
+    "state": 5,
+    "last_state_change_date": 1736261743,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Death",
+        "KDR",
+        "KDR-PE",
+        "Kill",
+        "KillDeathRatio",
+        "Ratio"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ],
+        "Contributor": [
+            "WavyCraft"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        }
+    ]
+}

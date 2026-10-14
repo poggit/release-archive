@@ -1,0 +1,70 @@
+{
+    "id": 3024,
+    "name": "WhatCrates",
+    "version": "1.2.0-pre",
+    "html_url": "https://poggit.pmmp.io/p/WhatCrates/1.2.0-pre",
+    "tagline": "WhatCrates is a crate plugin for Pocketmine-MP Servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/60156",
+    "downloads": 271,
+    "score": null,
+    "repo_id": 189084923,
+    "repo_name": "SchdowNVIDIA/WhatCrates",
+    "project_id": 5132,
+    "project_name": "WhatCrates",
+    "build_id": 60603,
+    "build_number": 12,
+    "build_commit": "61b02b53912679473c8200b50b4d266fc65c46e3",
+    "description_url": "https://poggit.pmmp.io/r/60153",
+    "icon_url": "https://raw.githubusercontent.com/SchdowNVIDIA/WhatCrates/61b02b53912679473c8200b50b4d266fc65c46e3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/60155",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1560280045,
+    "state": 5,
+    "last_state_change_date": 1560489991,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Box",
+        "Crate",
+        "Crates",
+        "WhatCrates"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SchdowNVIDIA"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

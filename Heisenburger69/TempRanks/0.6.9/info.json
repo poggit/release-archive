@@ -1,0 +1,84 @@
+{
+    "id": 3523,
+    "name": "TempRanks",
+    "version": "0.6.9",
+    "html_url": "https://poggit.pmmp.io/p/TempRanks/0.6.9",
+    "tagline": "Give temporary ranks to players",
+    "artifact_url": "https://poggit.pmmp.io/r/69862",
+    "downloads": 4847,
+    "score": 4,
+    "repo_id": 222424108,
+    "repo_name": "Heisenburger69/TempRanks",
+    "project_id": 5812,
+    "project_name": "TempRanks",
+    "build_id": 67136,
+    "build_number": 6,
+    "build_commit": "dfc687135f52450cdb9a1b215c825ef4c60a630f",
+    "description_url": "https://poggit.pmmp.io/r/69861",
+    "icon_url": "https://raw.githubusercontent.com/Heisenburger69/TempRanks/dfc687135f52450cdb9a1b215c825ef4c60a630f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1574921749,
+    "state": 5,
+    "last_state_change_date": 1574937632,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "clock",
+        "expire",
+        "expiry",
+        "plugin",
+        "pmmp",
+        "rank",
+        "temp",
+        "tempranks",
+        "time"
+    ],
+    "api": [
+        {
+            "from": "3.9.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.2-c2a",
+            "depRelId": 2129,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Heisenburger69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

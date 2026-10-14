@@ -1,0 +1,61 @@
+{
+    "id": 13466,
+    "name": "SimpleOffHand",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleOffHand/1.0.0",
+    "tagline": "Allows the player to put any item in their OffHand slot ",
+    "artifact_url": "https://poggit.pmmp.io/r/246554",
+    "downloads": 654,
+    "score": null,
+    "repo_id": 817598954,
+    "repo_name": "MyFreds/SimpleOffHand",
+    "project_id": 13952,
+    "project_name": "SimpleOffHand",
+    "build_id": 180403,
+    "build_number": 7,
+    "build_commit": "0c516c8ca000317c8627732b574796e9e8c55cea",
+    "description_url": "https://poggit.pmmp.io/r/246553",
+    "icon_url": "https://raw.githubusercontent.com/MyFreds/SimpleOffHand/0c516c8ca000317c8627732b574796e9e8c55cea/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1724162781,
+    "state": 5,
+    "last_state_change_date": 1724867251,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "offhand"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MyFreds"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

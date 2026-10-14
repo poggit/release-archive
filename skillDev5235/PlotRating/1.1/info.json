@@ -1,0 +1,68 @@
+{
+    "id": 5822,
+    "name": "PlotRating",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/PlotRating/1.1",
+    "tagline": "Create Rating Sings for Citybuild",
+    "artifact_url": "https://poggit.pmmp.io/r/112993",
+    "downloads": 722,
+    "score": 4,
+    "repo_id": 281672094,
+    "repo_name": "skillDev5235/PlotRating",
+    "project_id": 7469,
+    "project_name": "PlotRating",
+    "build_id": 94942,
+    "build_number": 26,
+    "build_commit": "1c78109b7a84d808590d2ee29a26548260c324f6",
+    "description_url": "https://poggit.pmmp.io/r/112992",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1610435895,
+    "state": 5,
+    "last_state_change_date": 1610470876,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "citybuild",
+        "myplot",
+        "plot",
+        "rating"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "skillDev5235"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,77 @@
+{
+    "id": 334,
+    "name": "StaffChat",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/StaffChat/1.1.1",
+    "tagline": "Advance private chat plugins for your staff members",
+    "artifact_url": "https://poggit.pmmp.io/r/6009",
+    "downloads": 464,
+    "score": null,
+    "repo_id": 90285695,
+    "repo_name": "ThunderDoesPlugins/StaffChat",
+    "project_id": 426,
+    "project_name": "StaffChat",
+    "build_id": 23771,
+    "build_number": 24,
+    "build_commit": "6f63bd772f7179fb92c5713f00bcc42bbf962057",
+    "description_url": "https://poggit.pmmp.io/r/9454",
+    "icon_url": "https://raw.githubusercontent.com/ThunderDoesPlugins/StaffChat/6f63bd772f7179fb92c5713f00bcc42bbf962057/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/9456",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1496175221,
+    "state": 5,
+    "last_state_change_date": 1501607939,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "admin",
+        "staff",
+        "chat",
+        "private",
+        "staffchat"
+    ],
+    "api": [
+        {
+            "from": "2.1.0",
+            "to": "2.1.0"
+        },
+        {
+            "from": "3.0.0-ALPHA2",
+            "to": "3.0.0-ALPHA2"
+        },
+        {
+            "from": "3.0.0-ALPHA4",
+            "to": "3.0.0-ALPHA4"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Thunder33345"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

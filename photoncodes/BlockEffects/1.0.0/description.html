@@ -1,0 +1,39 @@
+<h2>
+<a id="user-content-description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Description</h2>
+<p>A PMMP plugin that gives players effects as they walk on blocks specified in config.yml .</p>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<ul>
+<li>
+<p>You can give more than an effect when players walk on single block.</p>
+</li>
+<li>
+<p>For each effect, you can set duration, amplifier, either bubbles and particles are visible or not.</p>
+</li>
+<li>
+<p>Give players effect only if the block beneath the block they are walking on exists.</p>
+</li>
+</ul>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<p>Here's a sample of how config.yml should look like:</p>
+<pre><code>enabled: true  _setting this to false will disable the plugin and no effects will be given_
+blocks:
+  "5:0":       _Block ID and Damage ID . All IDs MUST be like that, between "" and Meta included_
+    - effect: 1
+      duration: 3
+      amplifier: 2
+      visible: true
+      beneath: "49:0" _Checks the block beneath the block that the player is walking on_
+    - effect: 8
+      duration: 8
+      amplifier: 1
+      visible: false
+</code></pre>
+<h2>
+<a id="user-content-contribution" class="anchor" href="#contribution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contribution</h2>
+<p>Feel free to contribute if you have ideas or found an issue. Links:</p>
+<ul>
+<li><a href="https://github.com/killer549/BlockEffects/issues">Open an issue or request</a></li>
+<li><a href="https://github.com/killer549/BlockEffects/pulls">Add something new or fix a bug</a></li>
+</ul>

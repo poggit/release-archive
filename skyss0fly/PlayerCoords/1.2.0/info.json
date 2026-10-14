@@ -1,0 +1,62 @@
+{
+    "id": 12190,
+    "name": "PlayerCoords",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerCoords/1.2.0",
+    "tagline": "A simple coordinates plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/219522",
+    "downloads": 1038,
+    "score": 5,
+    "repo_id": 662983387,
+    "repo_name": "skyss0fly/PlayerCoords",
+    "project_id": 12738,
+    "project_name": "PlayerCoords",
+    "build_id": 161560,
+    "build_number": 69,
+    "build_commit": "bbce1501584d551df99666490f557c625520d3e0",
+    "description_url": "https://poggit.pmmp.io/r/219519",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/219521",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691655435,
+    "state": 5,
+    "last_state_change_date": 1691660018,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Coordinates"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "skyss0fly",
+            "skyss0fly-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,82 @@
+{
+    "id": 5095,
+    "name": "JobUI",
+    "version": "2.1.2",
+    "html_url": "https://poggit.pmmp.io/p/JobUI/2.1.2",
+    "tagline": "This is an advanced version of EconomyJob including a UI",
+    "artifact_url": "https://poggit.pmmp.io/r/99590",
+    "downloads": 572,
+    "score": 5,
+    "repo_id": 284249302,
+    "repo_name": "hamid0740/JobUI",
+    "project_id": 7536,
+    "project_name": "JobUI",
+    "build_id": 86008,
+    "build_number": 75,
+    "build_commit": "d9207407a13765a6f9436bec87d21a65efeaaad3",
+    "description_url": "https://poggit.pmmp.io/r/100105",
+    "icon_url": "https://raw.githubusercontent.com/hamid0740/JobUI/d9207407a13765a6f9436bec87d21a65efeaaad3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1597080175,
+    "state": 5,
+    "last_state_change_date": 1597083170,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Earn",
+        "Job",
+        "Money"
+    ],
+    "api": [
+        {
+            "from": "3.9.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "hamid0740"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

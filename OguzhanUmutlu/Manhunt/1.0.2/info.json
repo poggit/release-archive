@@ -1,0 +1,68 @@
+{
+    "id": 7052,
+    "name": "Manhunt",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/Manhunt/1.0.2",
+    "tagline": "Manhunt plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/132259",
+    "downloads": 2466,
+    "score": 5,
+    "repo_id": 365617377,
+    "repo_name": "OguzhanUmutlu/Manhunt",
+    "project_id": 8963,
+    "project_name": "Manhunt",
+    "build_id": 106128,
+    "build_number": 8,
+    "build_commit": "fe710a89cca3ce42253b87a2008b52cd3ae5cc40",
+    "description_url": "https://poggit.pmmp.io/r/132256",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/Manhunt/fe710a89cca3ce42253b87a2008b52cd3ae5cc40/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/132258",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626442761,
+    "state": 5,
+    "last_state_change_date": 1626533653,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "dream",
+        "hunter",
+        "lol",
+        "manhunt",
+        "runner",
+        "speedrun",
+        "speedrunner",
+        "vs"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

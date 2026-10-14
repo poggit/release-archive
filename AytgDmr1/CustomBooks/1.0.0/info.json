@@ -1,0 +1,59 @@
+{
+    "id": 2254,
+    "name": "CustomBooks",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomBooks/1.0.0",
+    "tagline": "Create custom books and allow users to read them!",
+    "artifact_url": "https://poggit.pmmp.io/r/48547",
+    "downloads": 4843,
+    "score": 4,
+    "repo_id": 163619129,
+    "repo_name": "AytgDmr1/CustomBooks",
+    "project_id": 4464,
+    "project_name": "CustomBooks",
+    "build_id": 53893,
+    "build_number": 7,
+    "build_commit": "6d59c5e0cd22ef2cd80517f69c8cf12c1be5fd25",
+    "description_url": "https://poggit.pmmp.io/r/48545",
+    "icon_url": "https://raw.githubusercontent.com/AytgDmr1/CustomBooks/6d59c5e0cd22ef2cd80517f69c8cf12c1be5fd25/Book.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/48546",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1546256906,
+    "state": 5,
+    "last_state_change_date": 1546633285,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AytgDmr1"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

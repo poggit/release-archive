@@ -1,0 +1,58 @@
+{
+    "id": 12810,
+    "name": "ObsidianBreakerTNT",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/ObsidianBreakerTNT/0.0.2",
+    "tagline": "Make obsidians breakable with TNT",
+    "artifact_url": "https://poggit.pmmp.io/r/232825",
+    "downloads": 149,
+    "score": null,
+    "repo_id": 736137260,
+    "repo_name": "minijaham/ObsidianBreakerTNT",
+    "project_id": 13451,
+    "project_name": "ObsidianBreakerTNT",
+    "build_id": 170944,
+    "build_number": 8,
+    "build_commit": "b6ef438f1d2bb59f0ff82a2f9303d75b27db17bf",
+    "description_url": "https://poggit.pmmp.io/r/232822",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/232824",
+    "license": "GPL-3.0-or-later",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1707763832,
+    "state": 5,
+    "last_state_change_date": 1708395963,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "obsidian",
+        "tnt"
+    ],
+    "api": [
+        {
+            "from": "5.10.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "minijaham"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

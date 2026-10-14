@@ -1,0 +1,84 @@
+{
+    "id": 9985,
+    "name": "GroupJoin",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/GroupJoin/1.1.0",
+    "tagline": "Get notified when a player from a specific PurePerms, GroupsAPI or GroupSystem group joins.",
+    "artifact_url": "https://poggit.pmmp.io/r/181052",
+    "downloads": 541,
+    "score": 5,
+    "repo_id": 206589542,
+    "repo_name": "HimbeersaftLP/GroupJoin",
+    "project_id": 5521,
+    "project_name": "GroupJoin",
+    "build_id": 136831,
+    "build_number": 14,
+    "build_commit": "2501b86cb5388d70035481cb86bb11b8a4fa517a",
+    "description_url": "https://poggit.pmmp.io/r/181049",
+    "icon_url": "https://raw.githubusercontent.com/HimbeersaftLP/GroupJoin/2501b86cb5388d70035481cb86bb11b8a4fa517a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/181051",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654969574,
+    "state": 5,
+    "last_state_change_date": 1654970815,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "group",
+        "groupsapi",
+        "groupsystem",
+        "join",
+        "leave",
+        "purechat",
+        "pureperms",
+        "quit",
+        "ranksystem"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.4",
+            "depRelId": 8239,
+            "isHard": false
+        },
+        {
+            "name": "GroupSystem",
+            "version": "2.0.0",
+            "depRelId": 9885,
+            "isHard": false
+        },
+        {
+            "name": "GroupsAPI",
+            "version": "2.0.0",
+            "depRelId": 9904,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HimbeersaftLP"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

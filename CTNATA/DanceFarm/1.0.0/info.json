@@ -1,0 +1,59 @@
+{
+    "id": 13446,
+    "name": "DanceFarm",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DanceFarm/1.0.0",
+    "tagline": "plugin that makes crops grow on a radio configurable through dance",
+    "artifact_url": "https://poggit.pmmp.io/r/246284",
+    "downloads": 103,
+    "score": 5,
+    "repo_id": 843502542,
+    "repo_name": "CTNATA/DanceFarm",
+    "project_id": 14170,
+    "project_name": "DanceFarm",
+    "build_id": 180250,
+    "build_number": 1,
+    "build_commit": "53e6089243ba7c1aff6b49094aa0e82753972555",
+    "description_url": "https://poggit.pmmp.io/r/246283",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1723827806,
+    "state": 5,
+    "last_state_change_date": 1724864905,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "CTNATA"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

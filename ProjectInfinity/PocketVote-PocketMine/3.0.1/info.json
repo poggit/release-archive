@@ -1,0 +1,77 @@
+{
+    "id": 3230,
+    "name": "PocketVote",
+    "version": "3.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PocketVote/3.0.1",
+    "tagline": "Fast, extensible and scalable voting solution for PocketMine servers",
+    "artifact_url": "https://poggit.pmmp.io/r/63597",
+    "downloads": 6433,
+    "score": 3,
+    "repo_id": 57460310,
+    "repo_name": "ProjectInfinity/PocketVote-PocketMine",
+    "project_id": 219,
+    "project_name": "PocketVote-PocketMine",
+    "build_id": 62790,
+    "build_number": 51,
+    "build_commit": "f2a7fac9c314e3308a2a37bf3406cabab050556a",
+    "description_url": "https://poggit.pmmp.io/r/63593",
+    "icon_url": "https://raw.githubusercontent.com/ProjectInfinity/PocketVote-PocketMine/f2a7fac9c314e3308a2a37bf3406cabab050556a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/63595",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/63596",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1564593751,
+    "state": 5,
+    "last_state_change_date": 1564594122,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "automated",
+        "pocket",
+        "pocketvote",
+        "reward",
+        "suite",
+        "vote",
+        "voting"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ProjectInfinity"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

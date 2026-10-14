@@ -1,0 +1,129 @@
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p><strong>Broadcaster</strong> is an advanced Broadcasting plugin for PocketMine-MP.</p>
+<p>With Broadcaster you can set custom message, popup and title broadcasts. You can also send messages with /sm, popups with /sp and titles with /st commands.</p>
+<p>This plugin let you also customize colors (you can use the &amp; sign instead of § for text format), prefixes, suffixes and intervals.</p>
+<p><strong>EvolSoft Website:</strong> <a href="https://www.evolsoft.tk" rel="nofollow">https://www.evolsoft.tk</a></p>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span> Available tags for broadcast messages, popups and titles:</span>
+<span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+<span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+<span class="pl-c"><span class="pl-c">#</span> - {PREFIX}: Show prefix</span>
+<span class="pl-c"><span class="pl-c">#</span> - {SUFFIX}: Show suffix</span>
+<span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+<span class="pl-c"><span class="pl-c">#</span> Available tags for /sendmessage, /sendpopup and /sendtitle format:</span>
+<span class="pl-c"><span class="pl-c">#</span> - {MESSAGE}: Show message</span>
+<span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+<span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+<span class="pl-c"><span class="pl-c">#</span> - {PREFIX}: Show prefix</span>
+<span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Message receiver</span>
+<span class="pl-c"><span class="pl-c">#</span> - {SENDER}: Show sender name</span>
+<span class="pl-c"><span class="pl-c">#</span> - {SUFFIX}: Show suffix</span>
+<span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+<span class="pl-c"><span class="pl-c">#</span> Extra tag for titles:</span>
+<span class="pl-c"><span class="pl-c">#</span> - {SUBTITLE}: Add subtitle (the text after this tag will be the content of the subtitle) </span>
+<span class="pl-c"><span class="pl-c">#</span> Prefix</span>
+<span class="pl-ent">prefix</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;9[&amp;eBroadcaster&amp;9]<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Suffix</span>
+<span class="pl-ent">suffix</span>: <span class="pl-s"><span class="pl-pds">"</span>[A]<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Date\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php</span>
+<span class="pl-ent">datetime-format</span>: <span class="pl-s"><span class="pl-pds">"</span>H:i:s<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Message broadcast</span>
+<span class="pl-ent">message-broadcast</span>:
+ <span class="pl-c"><span class="pl-c">#</span> Enable message broadcast</span>
+ <span class="pl-ent">enabled</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Broadcast interval (in seconds)</span>
+ <span class="pl-ent">time</span>: <span class="pl-c1">15</span>
+ <span class="pl-c"><span class="pl-c">#</span> Command /sendmessage format</span>
+ <span class="pl-ent">command-format</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;e[{TIME}] {PREFIX} {SUFFIX} &amp;a{SENDER}&amp;e&gt;&amp;f {MESSAGE}<span class="pl-pds">"</span></span>
+ <span class="pl-c"><span class="pl-c">#</span> Broadcast messages</span>
+ <span class="pl-ent">messages</span>:
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;e[{TIME}] {PREFIX}&amp;f 1st message<span class="pl-pds">"</span></span>
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;e[{TIME}] {PREFIX}&amp;f 2nd message<span class="pl-pds">"</span></span>
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;e[{TIME}] {PREFIX}&amp;f 3rd message<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Popup broadcast</span>
+<span class="pl-ent">popup-broadcast</span>:
+ <span class="pl-c"><span class="pl-c">#</span> Enable popup broadcast</span>
+ <span class="pl-ent">enabled</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Popup broadcast interval (in seconds)</span>
+ <span class="pl-ent">time</span>: <span class="pl-c1">15</span>
+ <span class="pl-c"><span class="pl-c">#</span> Popup duration (in seconds)</span>
+ <span class="pl-ent">duration</span>: <span class="pl-c1">5</span>
+ <span class="pl-c"><span class="pl-c">#</span> Command /sendpopup format</span>
+ <span class="pl-ent">command-format</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;a{SENDER}&amp;e&gt;&gt;&amp;f {MESSAGE}<span class="pl-pds">"</span></span>
+ <span class="pl-c"><span class="pl-c">#</span> Popup broadcast messages</span>
+ <span class="pl-ent">messages</span>:
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;aWelcome to your server<span class="pl-pds">"</span></span>
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;d{TOTALPLAYERS} &amp;eof &amp;d{MAXPLAYERS} &amp;eonline<span class="pl-pds">"</span></span>
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;bCurrent Time: &amp;a{TIME}<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Title broadcast</span>
+<span class="pl-ent">title-broadcast</span>:
+ <span class="pl-c"><span class="pl-c">#</span> Enable title broadcast</span>
+ <span class="pl-ent">enabled</span>: <span class="pl-c1">true</span>
+ <span class="pl-c"><span class="pl-c">#</span> Title broadcast interval</span>
+ <span class="pl-ent">time</span>: <span class="pl-c1">30</span>
+ <span class="pl-c"><span class="pl-c">#</span> Command /sendtitle format</span>
+ <span class="pl-ent">command-format</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;d{MESSAGE}<span class="pl-pds">"</span></span>
+ <span class="pl-c"><span class="pl-c">#</span> Title broadcast messages</span>
+ <span class="pl-ent">messages</span>:
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;aWelcome to your server!{SUBTITLE}&amp;bGood game!<span class="pl-pds">"</span></span>
+  - <span class="pl-s"><span class="pl-pds">"</span>&amp;eHello player!<span class="pl-pds">"</span></span>
+...</pre></div>
+<h2>
+<a id="user-content-commands--permissions" class="anchor" href="#commands--permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands &amp; Permissions</h2>
+<p><strong>Commands:</strong></p>
+<dd>
+<b><i>/broadcaster</i></b> - Broadcaster commands (aliases: [bc, broadcast])</dd>
+<dd><i><b>/sendmessage &lt;player (* for all players)&gt; &lt;message&gt;</b> - Send message to player(s) (aliases: [sm, smsg])</i></dd>
+<dd><i><b>/sendpopup &lt;player (* for all players)&gt; &lt;message&gt;</b> - Send popup to player(s) (aliases: [sp, spop])</i></dd>
+<dd><i><b>/sendtitle &lt;player (* for all players)&gt; &lt;message&gt;</b> - Send title to player(s) (aliases: [st, stl])</i></dd><br>
+<p><strong>Permissions:</strong></p>
+<ul>
+<li>
+<dd>
+<i><b>broadcaster.*</b> - Broadcaster permissions tree.</i>
+</dd>
+</li>
+<li>
+<dd>
+<i><b>broadcaster.info</b> - Let player read info about Broadcaster.</i>
+</dd>
+</li>
+<li>
+<dd>
+<i><b>broadcaster.reload</b> - Let player reload Broadcaster.</i>
+</dd>
+</li>
+<li>
+<dd>
+<i><b>broadcaster.sendmessage</b> - Let player send messages to players with /sendmessage command.</i>
+</dd>
+</li>
+<li>
+<dd>
+<i><b>broadcaster.sendpopup</b> - Let player send popups to players with /sendpopup command.</i>
+</dd>
+</li>
+<li>
+<dd>
+<i><b>broadcaster.sendtitle</b> - Let player send titles to players with /sendtitle command.</i>
+</dd>
+</li>
+</ul>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>Almost all our plugins have API access to widely extend their features.</p>
+<p>To access Broadcaster API:<br>
+<em>1. Define the plugin dependency in plugin.yml (you can check if Broadcaster is installed in different ways):</em></p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">depend</span>: <span class="pl-s">[Broadcaster]</span></pre></div>
+<p><em>2. Include Broadcaster API in your plugin code:</em></p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c"><span class="pl-c">//</span>Broadcaster API</span></span>
+<span class="pl-s1"><span class="pl-k">use</span> <span class="pl-c1">Broadcaster\Broadcaster</span>;</span></pre></div>
+<p><em>3. Access the API by doing:</em></p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">Broadcaster</span><span class="pl-k">::</span>getAPI()</span></pre></div>
+<h2>
+<a id="user-content-donate" class="anchor" href="#donate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Donate</h2>
+<p>Please support the development of this plugin with a small donation by clicking <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=flavius.c.1999@gmail.com&amp;lc=US&amp;item_name=www.evolsoft.tk&amp;no_note=0&amp;cn=&amp;curency_code=EUR&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" rel="nofollow"><g-emoji class="g-emoji" alias="dollar" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4b5.png">💵</g-emoji> here</a>.
+Your small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you <g-emoji class="g-emoji" alias="smile" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png">😄</g-emoji></p>

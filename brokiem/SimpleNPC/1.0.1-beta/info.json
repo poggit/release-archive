@@ -1,0 +1,90 @@
+{
+    "id": 6210,
+    "name": "SimpleNPC",
+    "version": "1.0.1-beta",
+    "html_url": "https://poggit.pmmp.io/p/SimpleNPC/1.0.1-beta",
+    "tagline": "An NPC plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/119305",
+    "downloads": 2570,
+    "score": 4,
+    "repo_id": 348594247,
+    "repo_name": "brokiem/SimpleNPC",
+    "project_id": 8702,
+    "project_name": "SimpleNPC",
+    "build_id": 98800,
+    "build_number": 78,
+    "build_commit": "2da3540deb4cb1b8abb8f645925010faa7d01e08",
+    "description_url": "https://poggit.pmmp.io/r/119682",
+    "icon_url": "https://raw.githubusercontent.com/brokiem/SimpleNPC/2da3540deb4cb1b8abb8f645925010faa7d01e08/assets/image.png",
+    "changelog_url": "https://poggit.pmmp.io/r/119684",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616495226,
+    "state": 5,
+    "last_state_change_date": 1616500680,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "npc",
+        "npc-plugin",
+        "php8",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine-plugins",
+        "simple-npc",
+        "slapper",
+        "snpc"
+    ],
+    "api": [
+        {
+            "from": "3.15.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "1.6.1",
+            "depRelId": 5111,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "brokiem"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEasyUI",
+            "project_id": 7632,
+            "repo_id": 281477433,
+            "repo_name": "dresnite/easyui",
+            "repo_path": "",
+            "build_commit": "58f6fc4a735974b1a67d7d33cc8e294d45ff562a",
+            "build_id": 87224
+        }
+    ]
+}

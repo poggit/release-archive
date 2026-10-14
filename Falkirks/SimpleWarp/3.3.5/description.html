@@ -1,0 +1,89 @@
+<p><a href="https://github.com/Falkirks/SimpleWarp"><img src="https://raw.githubusercontent.com/poggit-orphanage/SimpleWarp/master/simplewarp.png" alt="SimpleWarp" style="max-width:100%;"></a></p>
+<p>SimpleWarp is the original warp plugin for PocketMine-MP. It allows players to move from point <strong>A</strong> to <strong>B</strong> with ease. At the core of SimpleWarp is simplicity and extensibility. Although very easy on the end user, it exposes a beast of a backend for developers to hack around with.</p>
+<p><strong>SimpleWarp 2.0 is not compatible with older SimpleWarp and PocketMine versions.</strong></p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Usage</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/warp</code></td>
+<td><code>/warp &lt;name&gt; [player]</code></td>
+<td>Warps you or another player to a specified warp.</td>
+</tr>
+<tr>
+<td><code>/addwarp</code></td>
+<td><code>/addwarp &lt;name&gt; [&lt;ip&gt; &lt;port&gt;|&lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;level&gt;|&lt;player&gt;]</code></td>
+<td>Creates a new warp at a set location.</td>
+</tr>
+<tr>
+<td><code>/delwarp</code></td>
+<td><code>/delwarp &lt;name&gt;</code></td>
+<td>Deletes specified warp.</td>
+</tr>
+<tr>
+<td><code>/listwarps</code></td>
+<td><code>/listwarps</code></td>
+<td>Prints out list of warps.</td>
+</tr>
+<tr>
+<td><code>/openwarp</code></td>
+<td><code>/openwarp &lt;name&gt;</code></td>
+<td>Allows any player to access specified warp.</td>
+</tr>
+<tr>
+<td><code>/closewarp</code></td>
+<td><code>/closewarp &lt;name&gt;</code></td>
+<td>Restricts specfied so that only players with correct permission node can use it</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h2>
+<div><pre> simplewarp:
+  default: op
+  children:
+   simplewarp.command:
+    default: op
+    children:
+     simplewarp.command.list:
+      default: true
+      children:
+       simplewarp.command.list.xyz:
+        default: op
+       simplewarp.command.list.visual:
+        default: op
+     simplewarp.command.addwarp:
+      default: op
+     simplewarp.command.delwarp:
+      default: op
+     simplewarp.command.warp:
+      default: true
+      children:
+        simplewarp.command.warp.other:
+         default: op
+     simplewarp.command.openwarp:
+      default: op
+     simplewarp.command.closewarp:
+       default: op
+   simplewarp.warp:
+    default: op
+    description: Allows usage of all warps</pre></div>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>What good is a plugin without an API? SimpleWarp has an API which is used by it's own core components.</p>
+<h3>
+<a id="user-content-getting-access" class="anchor" href="#getting-access" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting access</h3>
+<p>Make sure to add the following to your <code>plugin.yml</code></p>
+<div><pre>depend: ["SimpleWarp"]</pre></div>
+<p><strong>Note:</strong> If you use <code>softdepend</code> you will need to check if SimpleWarp is installed.</p>
+<p>Now you can a copy of the API in your <code>onEnable</code> method</p>
+<div><pre>$api = SimpleWarpAPI::getInstance($this); // This only works inside a PluginBase</pre></div>
+<p>If you want to get the instance outside your main class, you can do</p>
+<div><pre>$api = $server-&gt;getPluginManager()-&gt;getPlugin("SimpleWarp")-&gt;getApi(); // $server is an instance of \pocketmine\Server</pre></div>

@@ -1,0 +1,67 @@
+{
+    "id": 13745,
+    "name": "QuicklyEnchantments",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/QuicklyEnchantments/1.0.0",
+    "tagline": "enchant item in your hand with lots of enchantments quickly",
+    "artifact_url": "https://poggit.pmmp.io/r/251420",
+    "downloads": 186,
+    "score": 5,
+    "repo_id": 910005605,
+    "repo_name": "angga7togk/QuicklyEnchantments",
+    "project_id": 14438,
+    "project_name": "QuicklyEnchantments",
+    "build_id": 183788,
+    "build_number": 6,
+    "build_commit": "a8581259b0207f4c2e92c111abc8d45508435006",
+    "description_url": "https://poggit.pmmp.io/r/251419",
+    "icon_url": "https://raw.githubusercontent.com/angga7togk/QuicklyEnchantments/a8581259b0207f4c2e92c111abc8d45508435006/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736093294,
+    "state": 5,
+    "last_state_change_date": 1736103524,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "enchant",
+        "enchants",
+        "fastenchant",
+        "enchantment"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "3.0.12",
+            "depRelId": 11347,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "angga7togk"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

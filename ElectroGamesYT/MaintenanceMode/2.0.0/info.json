@@ -1,0 +1,57 @@
+{
+    "id": 8194,
+    "name": "MaintenanceMode",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MaintenanceMode/2.0.0",
+    "tagline": "Adds Maintenance Mode To Your Server",
+    "artifact_url": "https://poggit.pmmp.io/r/150591",
+    "downloads": 245,
+    "score": 5,
+    "repo_id": 373335753,
+    "repo_name": "ElectroGamesYT/MaintenanceMode",
+    "project_id": 9074,
+    "project_name": "MaintenanceMode",
+    "build_id": 116996,
+    "build_number": 14,
+    "build_commit": "d228ac34b7c7d5e9d2de995eb7399c3fbeab77bd",
+    "description_url": "https://poggit.pmmp.io/r/150588",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/MaintenanceMode/d228ac34b7c7d5e9d2de995eb7399c3fbeab77bd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/150590",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638657283,
+    "state": 5,
+    "last_state_change_date": 1638658023,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Maintenace"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

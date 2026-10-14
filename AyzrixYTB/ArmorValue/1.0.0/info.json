@@ -1,0 +1,65 @@
+{
+    "id": 6062,
+    "name": "ArmorValue",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ArmorValue/1.0.0",
+    "tagline": "That's a simple plugin to change the defense and the durability of vanilla armor.",
+    "artifact_url": "https://poggit.pmmp.io/r/117030",
+    "downloads": 610,
+    "score": null,
+    "repo_id": 344137911,
+    "repo_name": "AyzrixYTB/ArmorValue",
+    "project_id": 8634,
+    "project_name": "ArmorValue",
+    "build_id": 97458,
+    "build_number": 3,
+    "build_commit": "ac87c602cd6a00d7657739154549ebfe8fd1e2c2",
+    "description_url": "https://poggit.pmmp.io/r/120753",
+    "icon_url": "https://raw.githubusercontent.com/AyzrixYTB/ArmorValue/ac87c602cd6a00d7657739154549ebfe8fd1e2c2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614779599,
+    "state": 5,
+    "last_state_change_date": 1615169801,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "armor",
+        "ayzrix",
+        "defense",
+        "durability",
+        "value"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AyzrixYTB"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

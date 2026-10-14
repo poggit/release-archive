@@ -1,0 +1,80 @@
+{
+    "id": 6320,
+    "name": "EasyTP",
+    "version": "1.3.0",
+    "html_url": "https://poggit.pmmp.io/p/EasyTP/1.3.0",
+    "tagline": "A TP request plugin for PocketMine 3.0.0 and above",
+    "artifact_url": "https://poggit.pmmp.io/r/120672",
+    "downloads": 18975,
+    "score": 5,
+    "repo_id": 341541962,
+    "repo_name": "Rushil13579/EasyTP",
+    "project_id": 8591,
+    "project_name": "EasyTP",
+    "build_id": 99472,
+    "build_number": 13,
+    "build_commit": "c72e1e4e9687fb4e4b79684ff1a94b3fdf46bda2",
+    "description_url": "https://poggit.pmmp.io/r/120669",
+    "icon_url": "https://raw.githubusercontent.com/Rushil13579/EasyTP/c72e1e4e9687fb4e4b79684ff1a94b3fdf46bda2/EasyTP.png",
+    "changelog_url": "https://poggit.pmmp.io/r/120671",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1617301800,
+    "state": 5,
+    "last_state_change_date": 1617305821,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "easytp",
+        "request",
+        "teleport",
+        "teleportation",
+        "tp",
+        "tpa",
+        "tpaccept",
+        "tpahere",
+        "tpall",
+        "tpblock",
+        "tpclose",
+        "tpdeny",
+        "tphere",
+        "tpopne",
+        "tprequest",
+        "tpunblock"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Requester": [
+            "WolfDen133"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

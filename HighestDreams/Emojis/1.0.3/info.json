@@ -1,0 +1,55 @@
+{
+    "id": 7896,
+    "name": "Emojis",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/Emojis/1.0.3",
+    "tagline": "Add real emojis in your pocket-mine server!",
+    "artifact_url": "https://poggit.pmmp.io/r/145851",
+    "downloads": 1691,
+    "score": 5,
+    "repo_id": 403288966,
+    "repo_name": "HighestDreams/Emojis",
+    "project_id": 9655,
+    "project_name": "Emojis",
+    "build_id": 114222,
+    "build_number": 8,
+    "build_commit": "11aa9e43d767e5bd3d9294cd74717cb7a48e7e57",
+    "description_url": "https://poggit.pmmp.io/r/145848",
+    "icon_url": "https://raw.githubusercontent.com/HighestDreams/Emojis/11aa9e43d767e5bd3d9294cd74717cb7a48e7e57/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/145850",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1634934594,
+    "state": 5,
+    "last_state_change_date": 1634956231,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "emoji",
+        "emojis",
+        "entity"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HighestDreams"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

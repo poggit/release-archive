@@ -1,0 +1,65 @@
+{
+    "id": 12768,
+    "name": "ConsoleExporter",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/ConsoleExporter/1.1.1",
+    "tagline": "Recording console and exports to html!",
+    "artifact_url": "https://poggit.pmmp.io/r/231841",
+    "downloads": 845,
+    "score": null,
+    "repo_id": 493091895,
+    "repo_name": "presentkim-pm/ConsoleExporter",
+    "project_id": 11226,
+    "project_name": "ConsoleExporter",
+    "build_id": 170248,
+    "build_number": 3,
+    "build_commit": "3253e851781506f833d4ab3b48a07a2e176a0526",
+    "description_url": "https://poggit.pmmp.io/r/231838",
+    "icon_url": "https://raw.githubusercontent.com/presentkim-pm/ConsoleExporter/3253e851781506f833d4ab3b48a07a2e176a0526/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/231840",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1706034133,
+    "state": 5,
+    "last_state_change_date": 1706050943,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "console",
+        "export",
+        "exporter",
+        "log",
+        "logger",
+        "presentkim",
+        "record",
+        "recorder",
+        "server.log"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PresentKim"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

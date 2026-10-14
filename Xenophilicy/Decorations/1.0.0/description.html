@@ -1,0 +1,45 @@
+<h1>
+<a id="user-content-information" class="anchor" href="#information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Information</h1>
+<p><a href="https://poggit.pmmp.io/p/Decorations" rel="nofollow"><img src="https://camo.githubusercontent.com/4e639f12f27ba18d5686f1ad55050970c974d3b6/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f4465636f726174696f6e73" alt="Poggit Decorations" data-canonical-src="https://poggit.pmmp.io/shield.state/Decorations" style="max-width:100%;"></a>
+<a href="http://hits.xenoservers.net:4000" rel="nofollow"><img src="https://camo.githubusercontent.com/a325a6399f580fe0acc66ddbb57ed520870e974f/687474703a2f2f686974732e78656e6f736572766572732e6e65743a343030302f58656e6f7068696c6963792f4465636f726174696f6e732e737667" alt="HitCount" data-canonical-src="http://hits.xenoservers.net:4000/Xenophilicy/Decorations.svg" style="max-width:100%;"></a>
+<a href="https://discord.xenoservers.net" rel="nofollow"><img src="https://camo.githubusercontent.com/243faa22213bc12c1369911255ea322c1c2c923c/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e737667" alt="Discord Chat" data-canonical-src="https://img.shields.io/discord/490677165289897995.svg" style="max-width:100%;"></a></p>
+<h2>
+<a id="user-content-details" class="anchor" href="#details" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Details</h2>
+<p>With this plugin you can allow your players to purchase and spawn in custom geometry entities! Everything is configurable in the <code>decorations.json</code> config file including price, spawn limits, and entity scale!</p>
+<h2>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+<p>Use <code>/deco</code> to access the main interface. From there you can enter the shop or view your <code>archived decorations</code>. By selecting an item in your <code>archive</code>, you have the option to sell or spawn the decoration. In the shop, you can select what category you'd like to browse. Once you pick a category, choose an item to purchase and proceed to the pre-purchase form. The pre-purchase form is where you can choose how many to buy, but also choose where you'd like the item to be exported to once you purchase it (inventory or <code>decoration archive</code>). Once bought, you can spawn it by tapping the item on the block of where you want it to be. You have the ability, as the decoration owner, to view the decoration options by hitting it. This screen allows you to sell, <code>archive</code>, and pick up the decoration for easier transport or movement adjustments.</p>
+<h3>
+<a id="" class="anchor" href="#" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href=""><img src="https://camo.githubusercontent.com/6416435f806c154af3e32b9e8488378422a02830/68747470733a2f2f66696c652e78656e6f736572766572732e6e65742f5265736f75726365732f4769744875622d5265736f75726365732f6465636f726174696f6e732f73637265656e73686f742e706e67" alt="Xenophilicy" data-canonical-src="https://file.xenoservers.net/Resources/GitHub-Resources/decorations/screenshot.png" style="max-width:100%;"></a>
+</h3>
+<h2>
+<a id="user-content-credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+<ul>
+<li>
+<a href="https://github.com/95CivicSi/">FiberglassCivic</a> (Helped with example custom geometry)</li>
+<li><a href="https://github.com/Xenophilicy/">Xenophilicy</a></li>
+</ul>
+<h1>
+<a id="user-content-json-configuration" class="anchor" href="#json-configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JSON Configuration</h1>
+<h3>
+<a id="user-content-all-decoration-configuration-is-stored-in-a-single-json-file-that-the-plugin-uses-to-set-up-the-shop-and-create-objects-for-your-decorations" class="anchor" href="#all-decoration-configuration-is-stored-in-a-single-json-file-that-the-plugin-uses-to-set-up-the-shop-and-create-objects-for-your-decorations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>All decoration configuration is stored in a single JSON file that the plugin uses to set up the shop and create objects for your decorations.</h3>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-s"><span class="pl-pds">"</span>dishes<span class="pl-pds">"</span></span>: {                           <span class="pl-ii">category</span> <span class="pl-ii">name</span>
+    <span class="pl-s"><span class="pl-pds">"</span>format<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>§dDishes<span class="pl-pds">"</span></span>,               <span class="pl-ii">category</span> <span class="pl-ii">format</span>
+    <span class="pl-s"><span class="pl-pds">"</span>entities<span class="pl-pds">"</span></span>: [
+      {
+        <span class="pl-s"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>mug<span class="pl-pds">"</span></span>,                    <span class="pl-ii">entry</span> <span class="pl-ii">id</span>
+        <span class="pl-s"><span class="pl-pds">"</span>model<span class="pl-pds">"</span></span>: { 
+          <span class="pl-s"><span class="pl-pds">"</span>geometry<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>mug.geo.json<span class="pl-pds">"</span></span>,   <span class="pl-ii">geometry</span> <span class="pl-ii">file</span> <span class="pl-ii">name</span>
+          <span class="pl-s"><span class="pl-pds">"</span>identifier<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>geometry.mug<span class="pl-pds">"</span></span>, <span class="pl-ii">geometry</span> <span class="pl-ii">identifier</span>
+          <span class="pl-s"><span class="pl-pds">"</span>texture<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>mug.png<span class="pl-pds">"</span></span>          <span class="pl-ii">entity</span> <span class="pl-ii">texture</span>
+        },
+        <span class="pl-s"><span class="pl-pds">"</span>scale<span class="pl-pds">"</span></span>: <span class="pl-c1">0.4</span>,                   <span class="pl-ii">entity</span> <span class="pl-ii">size</span>
+        <span class="pl-s"><span class="pl-pds">"</span>format<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>§6Coffee mug<span class="pl-pds">"</span></span>,       <span class="pl-ii">entry</span> <span class="pl-ii">format</span>
+        <span class="pl-s"><span class="pl-pds">"</span>price<span class="pl-pds">"</span></span>: <span class="pl-c1">20</span>,                    <span class="pl-ii">entity</span> <span class="pl-ii">buy</span> <span class="pl-ii">price</span>
+        <span class="pl-s"><span class="pl-pds">"</span>limit<span class="pl-pds">"</span></span>: <span class="pl-c1">3</span>,                     <span class="pl-ii">entity</span> <span class="pl-ii">spawn</span> <span class="pl-ii">limit</span>
+        <span class="pl-s"><span class="pl-pds">"</span>nametag<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>§aDrink me!<span class="pl-pds">"</span></span>        <span class="pl-ii">entity</span> <span class="pl-ii">name</span> <span class="pl-ii">tag</span>
+      }
+    ]
+  }
+}</pre></div>

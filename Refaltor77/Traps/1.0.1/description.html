@@ -1,0 +1,64 @@
+<h2>
+<a id="user-content-traps" class="anchor" href="#traps" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Traps</h2>
+<p>Plugins to add traps, very useful for PvP Faction to trap opponents
+As soon as you walk on a trap, a canvas block of arraigner is set with configurable effects, free choice for you to modify the damage, effects and messages.</p>
+<h2>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span> Welcome to the plugin : Traps v1.0.0</span>
+<span class="pl-c"><span class="pl-c">#</span> Infinite configuration !</span>
+
+<span class="pl-c"><span class="pl-c">#</span> -------</span>
+
+<span class="pl-c"><span class="pl-c">#</span> messages types:</span>
+<span class="pl-c"><span class="pl-c">#</span> - tip</span>
+<span class="pl-c"><span class="pl-c">#</span> - message</span>
+<span class="pl-c"><span class="pl-c">#</span> - subtitle</span>
+<span class="pl-c"><span class="pl-c">#</span> - title</span>
+<span class="pl-c"><span class="pl-c">#</span> - popup</span>
+
+<span class="pl-c"><span class="pl-c">#</span> -------</span>
+
+<span class="pl-c"><span class="pl-c">#</span> all effects (PocketMine-MP):</span>
+
+<span class="pl-c"><span class="pl-c">#</span> SPEED = 1</span>
+<span class="pl-c"><span class="pl-c">#</span> SLOWNESS = 2</span>
+<span class="pl-c"><span class="pl-c">#</span> HASTE = 3</span>
+<span class="pl-c"><span class="pl-c">#</span> FATIGUE = 4</span>
+<span class="pl-c"><span class="pl-c">#</span> STRENGTH = 5</span>
+<span class="pl-c"><span class="pl-c">#</span> INSTANT HEALTH = 6</span>
+<span class="pl-c"><span class="pl-c">#</span> INSTANT DAMAGE = 7</span>
+<span class="pl-c"><span class="pl-c">#</span> JUMP BOOST = 8</span>
+<span class="pl-c"><span class="pl-c">#</span> NAUSEA = 9</span>
+<span class="pl-c"><span class="pl-c">#</span> REGENERATION = 10</span>
+<span class="pl-c"><span class="pl-c">#</span> RESISTANCE = 11</span>
+<span class="pl-c"><span class="pl-c">#</span> FIRE RESISTANCE = 12</span>
+<span class="pl-c"><span class="pl-c">#</span> WATER BREATHING = 13</span>
+<span class="pl-c"><span class="pl-c">#</span> INVISIBILITY = 14</span>
+<span class="pl-c"><span class="pl-c">#</span> BLINDNESS = 15</span>
+<span class="pl-c"><span class="pl-c">#</span> NIGHT VISION = 16</span>
+<span class="pl-c"><span class="pl-c">#</span> HUNGER = 17</span>
+<span class="pl-c"><span class="pl-c">#</span> WEAKNESS = 18</span>
+<span class="pl-c"><span class="pl-c">#</span> POISON = 19</span>
+<span class="pl-c"><span class="pl-c">#</span> WITHER = 20</span>
+<span class="pl-c"><span class="pl-c">#</span> HEALTH BOOST = 21</span>
+<span class="pl-c"><span class="pl-c">#</span> ABSORPTION = 22</span>
+<span class="pl-c"><span class="pl-c">#</span> SATURATION = 23</span>
+<span class="pl-c"><span class="pl-c">#</span> LEVITATION = 24</span>
+<span class="pl-c"><span class="pl-c">#</span> FATAL POISON = 25</span>
+<span class="pl-c"><span class="pl-c">#</span> CONDUIT POWER = 26</span>
+
+
+<span class="pl-ent">traps</span>:
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">4:0</span><span class="pl-pds">"</span></span>:
+    <span class="pl-ent">damages</span>: <span class="pl-c1">2</span>
+    <span class="pl-ent">message</span>:
+      <span class="pl-ent">type</span>: <span class="pl-s">popup </span><span class="pl-c"><span class="pl-c">#</span> tip | popup | subtitle | title | message</span>
+      <span class="pl-ent">enable</span>: <span class="pl-c1">true</span>
+      <span class="pl-ent">content</span>: <span class="pl-s"><span class="pl-pds">"</span>§6- §eYou were set up !<span class="pl-pds">"</span></span>
+    <span class="pl-ent">effects</span>:
+      <span class="pl-ent">15</span>:  <span class="pl-c"><span class="pl-c">#</span> id effect</span>
+        <span class="pl-ent">duration</span>: <span class="pl-c1">20</span> <span class="pl-c"><span class="pl-c">#</span> 20 seconds</span>
+        <span class="pl-ent">niveau</span>: <span class="pl-c1">1</span> <span class="pl-c"><span class="pl-c">#</span> lvl 1</span>
+        <span class="pl-ent">particles</span>: <span class="pl-c1">false</span>
+...</pre></div>

@@ -1,0 +1,121 @@
+{
+    "id": 3399,
+    "name": "BedcoreProtect",
+    "version": "0.5.2",
+    "html_url": "https://poggit.pmmp.io/p/BedcoreProtect/0.5.2",
+    "tagline": "BedcoreProtect is a fast, efficient, data logging and anti-griefing tool. Rollback and restore any amount of damage",
+    "artifact_url": "https://poggit.pmmp.io/r/66879",
+    "downloads": 456,
+    "score": null,
+    "repo_id": 190715986,
+    "repo_name": "matcracker/BedcoreProtect",
+    "project_id": 5130,
+    "project_name": "BedcoreProtect",
+    "build_id": 64985,
+    "build_number": 146,
+    "build_commit": "becd17b7a0efdc73dc4bc158d2a771fa123b65dd",
+    "description_url": "https://poggit.pmmp.io/r/73542",
+    "icon_url": "https://raw.githubusercontent.com/matcracker/BedcoreProtect/becd17b7a0efdc73dc4bc158d2a771fa123b65dd/resources/bedcoreprotect_logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/73544",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1570381963,
+    "state": 5,
+    "last_state_change_date": 1570546857,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "anti-grief",
+        "block-logger",
+        "coreprotect",
+        "logger",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine-mp-plugin",
+        "restore",
+        "rollback",
+        "survival"
+    ],
+    "api": [
+        {
+            "from": "3.4.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BlockSniper",
+            "version": "3.2.3",
+            "depRelId": 2248,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "matcracker"
+        ],
+        "Contributor": [
+            "KadTheHunter",
+            "HadVSC"
+        ],
+        "Translator": [
+            "MaksPV"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "524660bb59d639719ba5a9d807f1e9768e78dab3",
+            "build_id": 62736
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "d173ee82691b06400d7b17f0f31612d664022ef9",
+            "build_id": 61927
+        },
+        {
+            "name": "FormLib",
+            "project_id": 5424,
+            "repo_id": 201458155,
+            "repo_name": "matcracker/FormLib",
+            "repo_path": "",
+            "build_commit": "5c32da3620b2b536ee19929f5acab7fc8bcb9a64",
+            "build_id": 63541
+        },
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "8b8a4a71f69960050604fbe2a2259746197fc3b0",
+            "build_id": 53742
+        }
+    ]
+}

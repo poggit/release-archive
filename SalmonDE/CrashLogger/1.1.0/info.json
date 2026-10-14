@@ -1,0 +1,63 @@
+{
+    "id": 2866,
+    "name": "CrashLogger",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/CrashLogger/1.1.0",
+    "tagline": "Keep track of server crashes in a discord channel",
+    "artifact_url": "https://poggit.pmmp.io/r/57778",
+    "downloads": 1384,
+    "score": 5,
+    "repo_id": 175641732,
+    "repo_name": "SalmonDE/CrashLogger",
+    "project_id": 4958,
+    "project_name": "CrashLogger",
+    "build_id": 59253,
+    "build_number": 2,
+    "build_commit": "b1ca4ab8d1cfde9b2f8efabd36039e3764985f2e",
+    "description_url": "https://poggit.pmmp.io/r/57995",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1557647493,
+    "state": 5,
+    "last_state_change_date": 1557851505,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "crash",
+        "discord",
+        "webhook"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SalmonDE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

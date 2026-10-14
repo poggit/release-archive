@@ -1,0 +1,79 @@
+{
+    "id": 12745,
+    "name": "ShulkerDye",
+    "version": "1.0.0-beta",
+    "html_url": "https://poggit.pmmp.io/p/ShulkerDye/1.0.0-beta",
+    "tagline": "Allows the player to dye the shulker boxes.",
+    "artifact_url": "https://poggit.pmmp.io/r/231255",
+    "downloads": 807,
+    "score": null,
+    "repo_id": 742063504,
+    "repo_name": "Katsu-MC/ShulkerDye",
+    "project_id": 13479,
+    "project_name": "ShulkerDye",
+    "build_id": 169863,
+    "build_number": 10,
+    "build_commit": "7272750745ebe51d70daeac5cd0c32a282e5f103",
+    "description_url": "https://poggit.pmmp.io/r/231254",
+    "icon_url": "https://raw.githubusercontent.com/Katsu-MC/ShulkerDye/7272750745ebe51d70daeac5cd0c32a282e5f103/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1705035786,
+    "state": 5,
+    "last_state_change_date": 1705763273,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Box",
+        "Color",
+        "Dye",
+        "Shulker",
+        "ShulkerBox",
+        "ShulkerColor",
+        "ShulkerDye"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Katsu-MC"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

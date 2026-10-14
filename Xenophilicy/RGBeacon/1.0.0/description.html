@@ -1,0 +1,47 @@
+<h1>
+<a id="user-content-information" class="anchor" href="#information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Information</h1>
+<p><a href="http://hits.dwyl.io/Xenophilicy/RGBeacon" rel="nofollow"><img src="https://camo.githubusercontent.com/c3e5757b4076cccadcc811db4b3f2154a0a7b1a5/687474703a2f2f686974732e6477796c2e696f2f58656e6f7068696c6963792f5247426561636f6e2e737667" alt="HitCount" data-canonical-src="http://hits.dwyl.io/Xenophilicy/RGBeacon.svg" style="max-width:100%;"></a>
+<a href="https://discord.gg/hNVehXe" rel="nofollow"><img src="https://camo.githubusercontent.com/243faa22213bc12c1369911255ea322c1c2c923c/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e737667" alt="Discord Chat" data-canonical-src="https://img.shields.io/discord/490677165289897995.svg" style="max-width:100%;"></a></p>
+<p>This plugin allows you to spawn in beacons that change colors according to what you throw in the plugin's config! You are able to change the color of the beacon, order of colors, and speed of the colors in the <em>config.yml</em> file! To spawn a new RGBeacon, simple execute the command <code>/beacon new</code> and the plugin will spawn a new beacon under your feet! Beacons can be removed with their corresponding ID that can be found when both creating the beacon and looking at the beacon list in the config file!</p>
+<h2>
+<a id="" class="anchor" href="#" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href=""><img src="https://camo.githubusercontent.com/c57be9087f15ae9cfb89857453087fdffc61a93b/68747470733a2f2f66696c652e78656e6f736572766572732e6e65742f5265736f75726365732f4769744875622d5265736f75726365732f7267626561636f6e2f7267626561636f6e2e676966" alt="RGBeacon" data-canonical-src="https://file.xenoservers.net/Resources/GitHub-Resources/rgbeacon/rgbeacon.gif" style="max-width:100%;"></a>
+</h2>
+<hr>
+<h3>
+<a id="user-content-known-issues" class="anchor" href="#known-issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Known issues</h3>
+<p>The beacon beams will not be activated when chunks are unloaded and then reloaded, so an optional repeating task is supplied to update the beacon every X ticks in config:</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Beacon-Refresh-Delay</span>: <span class="pl-c1">300</span></pre></div>
+<h1>
+<a id="user-content-example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h1>
+<p><em>You can find a video example on YouTube → <a href="https://www.youtube.com/watch?v=i5C-QT9w4W0" rel="nofollow">https://www.youtube.com/watch?v=i5C-QT9w4W0</a></em></p>
+<p><a href="https://www.youtube.com/watch?v=i5C-QT9w4W0" rel="nofollow"><img src="https://camo.githubusercontent.com/56d4ce824feb692262689e1ed5abd81e37175710/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6935432d515439773457302f302e6a7067" alt="Xenophilicy" data-canonical-src="https://img.youtube.com/vi/i5C-QT9w4W0/0.jpg" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<p><code>/beacon new</code> Creates a new beacon under the player</p>
+<p><code>/beacon remove &lt;id&gt;</code> Removes a selected beacon from the world</p>
+<p><code>/beacon pause &lt;id&gt;</code> Pause a beacon's color cycle</p>
+<p><code>/beacon resume &lt;id&gt;</code> Resume a beacon's color cycle if it is currently paused</p>
+<p><code>/beacon hide &lt;id&gt;</code> Temporarily disables a beacon's beam</p>
+<p><code>/beacon show &lt;id&gt;</code> Enables a beacon's beam if it's currently hidden</p>
+<p><code>/beacon set &lt;id&gt; &lt;delay|colors&gt; &lt;setting&gt;</code> Set the color order of a specified beacon</p>
+<p><code>/beacon reload</code> Reload the plugin's config and reset all beacons</p>
+<p><code>/beacon list &lt;world/all&gt;</code> Show beacons in the current world or all registered beacons on the server</p>
+<p>The beacon colors that are implemented are:</p>
+<ul>
+<li>White</li>
+<li>Red</li>
+<li>Orange</li>
+<li>Pink</li>
+<li>Yellow</li>
+<li>Lime</li>
+<li>Green</li>
+<li>Light Blue</li>
+<li>Cyan</li>
+<li>Blue</li>
+<li>Magenta</li>
+<li>Purple</li>
+<li>Brown</li>
+<li>Gray</li>
+<li>Light Gray</li>
+<li>Black</li>
+</ul>

@@ -1,0 +1,77 @@
+{
+    "id": 12839,
+    "name": "KBEditor",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/KBEditor/0.1.0",
+    "tagline": "Change the Knoback values of world or the entire server to your liking!",
+    "artifact_url": "https://poggit.pmmp.io/r/233595",
+    "downloads": 660,
+    "score": null,
+    "repo_id": 757910521,
+    "repo_name": "Phqzing/KBEditor",
+    "project_id": 13567,
+    "project_name": "KBEditor",
+    "build_id": 171133,
+    "build_number": 4,
+    "build_commit": "cd88eea10edf1747a9144bd8099e7ffd7fd045f6",
+    "description_url": "https://poggit.pmmp.io/r/233594",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1708606659,
+    "state": 5,
+    "last_state_change_date": 1709949948,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "KB",
+        "KBChanger",
+        "Knockback",
+        "KnockbackChanger",
+        "KnockbackEditor"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Phqzing"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

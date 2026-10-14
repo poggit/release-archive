@@ -1,0 +1,73 @@
+{
+    "id": 11233,
+    "name": "VegaHCFElevator",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VegaHCFElevator/1.0.0",
+    "tagline": "Create elevators and use them just like in HCF!",
+    "artifact_url": "https://poggit.pmmp.io/r/205894",
+    "downloads": 213,
+    "score": 5,
+    "repo_id": 633598432,
+    "repo_name": "SVega9848/VegaHCFElevator",
+    "project_id": 12396,
+    "project_name": "VegaHCFElevator",
+    "build_id": 153907,
+    "build_number": 1,
+    "build_commit": "818fe570325964196e79d52ee1fd72d922014754",
+    "description_url": "https://poggit.pmmp.io/r/205893",
+    "icon_url": "https://raw.githubusercontent.com/SVega9848/VegaHCFElevator/818fe570325964196e79d52ee1fd72d922014754/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1682792966,
+    "state": 5,
+    "last_state_change_date": 1682983250,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "elevator",
+        "hcf",
+        "mcpe",
+        "mcpe-plugin",
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pocketmine",
+        "pvp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SVega9848"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

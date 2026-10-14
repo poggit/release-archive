@@ -1,0 +1,63 @@
+{
+    "id": 3009,
+    "name": "Statscraft",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/Statscraft/1.2.0",
+    "tagline": "PocketMine-MP plugin that integrates your server with Statscraft",
+    "artifact_url": "https://poggit.pmmp.io/r/59783",
+    "downloads": 443,
+    "score": 1,
+    "repo_id": 190705239,
+    "repo_name": "Muqsit/Statscraft",
+    "project_id": 5127,
+    "project_name": "Statscraft",
+    "build_id": 60383,
+    "build_number": 6,
+    "build_commit": "526b3275707e84459ac32d2e11a2cba0ee9ce44d",
+    "description_url": "https://poggit.pmmp.io/r/59782",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1559903405,
+    "state": 5,
+    "last_state_change_date": 1560680775,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "statistics",
+        "analytics",
+        "stats"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

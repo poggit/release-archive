@@ -1,0 +1,92 @@
+{
+    "id": 9655,
+    "name": "SeasonShop",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SeasonShop/0.0.1",
+    "tagline": "Shop Season For Pocketmine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/174905",
+    "downloads": 617,
+    "score": 5,
+    "repo_id": 480882224,
+    "repo_name": "BeeAZ-pm-pl/SeasonShop",
+    "project_id": 11106,
+    "project_name": "SeasonShopUI",
+    "build_id": 132666,
+    "build_number": 5,
+    "build_commit": "c8b4fae58fe9f9ab212d2e49eb67a15395580c53",
+    "description_url": "https://poggit.pmmp.io/r/183876",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/SeasonShop/c8b4fae58fe9f9ab212d2e49eb67a15395580c53/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652083782,
+    "state": 5,
+    "last_state_change_date": 1652129900,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "SeasonShop"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "DavidGlitch04"
+        ],
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEco",
+            "project_id": 10995,
+            "repo_id": 466916160,
+            "repo_name": "David-pm-pl/libEco",
+            "repo_path": "",
+            "build_commit": "f82f60fe75d6d925478342f98d99a04609f47af1",
+            "build_id": 131856
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+<h1>
+<a id="user-content-pceeasyenchants--" class="anchor" href="#pceeasyenchants--" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PCEEasyEnchants <a href="https://poggit.pmmp.io/p/PCEEasyEnchants" rel="nofollow"><img src="https://camo.githubusercontent.com/4bb6f83ad2c0c904dc3ed5246bce14d84f424fcb/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f50434545617379456e6368616e7473" alt="Poggit-CI" data-canonical-src="https://poggit.pmmp.io/shield.dl/PCEEasyEnchants" style="max-width:100%;"></a> <a href="https://discord.gg/qmnDsSD" rel="nofollow"><img src="https://camo.githubusercontent.com/9186da77db4b1bbd8b9b0df10f9cb0b76c2273c9/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3333303835303330373630373336333538353f6c6f676f3d646973636f7264" alt="Discord" data-canonical-src="https://img.shields.io/discord/330850307607363585?logo=discord" style="max-width:100%;"></a>
+</h1>
+<p>PCEEasyEnchants is an extension to the <a href="https://github.com/DaPigGuy/PiggyCustomEnchants/">PiggyCustomEnchants</a> plugin which allows server owners to easily create custom enchantments without any coding knowledge.</p>
+<h2>
+<a id="user-content-installation--setup" class="anchor" href="#installation--setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation &amp; Setup</h2>
+<ol>
+<li>
+<p>Install <a href="https://poggit.pmmp.io/p/PiggyCustomEnchants" rel="nofollow">PiggyCustomEnchants</a> and <a href="https://poggit.pmmp.io/p/PCEEasyEnchants" rel="nofollow">PCEEasyEnchants</a> from Poggit.</p>
+</li>
+<li>
+<p>Configure PCEEasyEnchants.</p>
+<ul>
+<li>
+<p>Basic Configuration</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> "id" refers to the enchantment ID that will be registered to PMMP.</span>
+<span class="pl-c"><span class="pl-c">#</span> "id" should increment from 1000, using any ids below 1000 is highly discouraged.</span>
+- <span class="pl-ent">id</span>: <span class="pl-c1">1000</span>
+  <span class="pl-ent">name</span>: <span class="pl-s"><span class="pl-pds">"</span>starve<span class="pl-pds">"</span></span>
+  <span class="pl-ent">effects</span>:
+    <span class="pl-c"><span class="pl-c">#</span> "effects.id" accepts effect names and ids.</span>
+    - <span class="pl-ent">id</span>: <span class="pl-s"><span class="pl-pds">"</span>hunger<span class="pl-pds">"</span></span>
+      <span class="pl-c"><span class="pl-c">#</span> Amplifier is calculated as (amplifier.base + amplifier.multiplier * level).</span>
+      <span class="pl-ent">amplifier</span>:
+        <span class="pl-ent">base</span>: <span class="pl-c1">0</span>
+        <span class="pl-ent">multiplier</span>: <span class="pl-c1">1</span>
+      <span class="pl-c"><span class="pl-c">#</span> Duration is calculated as (duration.base + duration.multiplier * level).</span>
+      <span class="pl-c"><span class="pl-c">#</span> "duration.base" and "duration.multiplier" are in ticks (20 ticks = 1 second).</span>
+      <span class="pl-ent">duration</span>:
+        <span class="pl-ent">base</span>: <span class="pl-c1">60</span>
+        <span class="pl-ent">multiplier</span>: <span class="pl-c1">1</span></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p>(OPTIONAL) Further configuration in PiggyCustomEnchants.</p>
+<ul>
+<li>
+<p>We recommend further modification to be done via PiggyCustomEnchants after initial setup.</p>
+</li>
+<li>
+<p>Only <code>effects</code> should continue to be modified in PCEEasyEnchants rather than in <code>extra_data.json</code></p>
+</li>
+<li>
+<p><code>descriptions.json</code>: Allows you to modify description of the enchantment.</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-s"><span class="pl-pds">"</span>starve<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Inflicts Hunger on enemies.<span class="pl-pds">"</span></span>
+}</pre></div>
+</li>
+<li>
+<p><code>display_names.json</code>: Allows you to modify the display name of the enchantment.</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-s"><span class="pl-pds">"</span>starve<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Hungry Piggy<span class="pl-pds">"</span></span>
+}</pre></div>
+</li>
+<li>
+<p><code>rarity.json</code>: Allows you to modify rarity of the enchantment.</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-s"><span class="pl-pds">"</span>starve<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Rare<span class="pl-pds">"</span></span>
+}</pre></div>
+</li>
+<li>
+<p><code>max_levels.json</code>: Allows you to modify the maximum level of the enchantment.</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-s"><span class="pl-pds">"</span>starve<span class="pl-pds">"</span></span>: <span class="pl-c1">5</span>
+}</pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p>You're done! Start your server.</p>
+</li>
+</ol>
+<h2>
+<a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+<pre><code>    PCEEasyEnchants for PiggyCustomEnchants.
+    Copyright (C) 2020  Aericio
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+</code></pre>

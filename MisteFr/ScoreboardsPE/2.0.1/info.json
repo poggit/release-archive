@@ -1,0 +1,59 @@
+{
+    "id": 2552,
+    "name": "ScoreboardsPE",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ScoreboardsPE/2.0.1",
+    "tagline": "A PocketMine-MP plugin that let you send scoreboards by using commands on your server who comes with a rich API for developers.",
+    "artifact_url": "https://poggit.pmmp.io/r/52976",
+    "downloads": 45861,
+    "score": 3,
+    "repo_id": 146515052,
+    "repo_name": "MisteFr/ScoreboardsPE",
+    "project_id": 4083,
+    "project_name": "ScoreboardsPE",
+    "build_id": 56620,
+    "build_number": 17,
+    "build_commit": "eb03e934c76eeb7496935d14601946d68968da60",
+    "description_url": "https://poggit.pmmp.io/r/52973",
+    "icon_url": "https://raw.githubusercontent.com/MisteFr/ScoreboardsPE/eb03e934c76eeb7496935d14601946d68968da60/img/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/52975",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1551476934,
+    "state": 5,
+    "last_state_change_date": 1551535436,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MisteFr"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

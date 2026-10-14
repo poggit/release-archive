@@ -1,0 +1,72 @@
+{
+    "id": 3020,
+    "name": "VeinMiner",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/VeinMiner/0.1.0",
+    "tagline": "Your typical VeinMiner plugin, but for PocketMine!",
+    "artifact_url": "https://poggit.pmmp.io/r/60073",
+    "downloads": 15856,
+    "score": 3,
+    "repo_id": 191065813,
+    "repo_name": "jasonw4331/VeinMiner",
+    "project_id": 5144,
+    "project_name": "VeinMiner",
+    "build_id": 60569,
+    "build_number": 4,
+    "build_commit": "ed6e76db57743086a5936e2e5187be880648a611",
+    "description_url": "https://poggit.pmmp.io/r/60072",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/VeinMiner/ed6e76db57743086a5936e2e5187be880648a611/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1560194460,
+    "state": 5,
+    "last_state_change_date": 1560194465,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "block",
+        "break",
+        "crouch",
+        "mine",
+        "shift",
+        "vein",
+        "veinmine",
+        "veinminer"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,70 @@
+{
+    "id": 1336,
+    "name": "BlazinBroadcasts",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlazinBroadcasts/1.0.0",
+    "tagline": "An auto broadcasting plugin for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/29001",
+    "downloads": 265,
+    "score": 5,
+    "repo_id": 131422410,
+    "repo_name": "iiFlamiinBlaze/BlazinBroadcasts",
+    "project_id": 2717,
+    "project_name": "BlazinBroadcasts",
+    "build_id": 40196,
+    "build_number": 1,
+    "build_commit": "67ad022550fcae7443f90d4b65859f2e7cce57dd",
+    "description_url": "https://poggit.pmmp.io/r/29000",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1524936865,
+    "state": 5,
+    "last_state_change_date": 1524936865,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "iiflamiinblaze",
+        "pmmp-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iiFlamiinBlaze"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

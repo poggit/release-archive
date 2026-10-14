@@ -1,0 +1,76 @@
+{
+    "id": 649,
+    "name": "PureChat",
+    "version": "1.4.10-3",
+    "html_url": "https://poggit.pmmp.io/p/PureChat/1.4.10-3",
+    "tagline": "Custom Chat by #64FF00",
+    "artifact_url": "https://poggit.pmmp.io/r/13548",
+    "downloads": 995,
+    "score": null,
+    "repo_id": 80405132,
+    "repo_name": "poggit-orphanage/PureChat",
+    "project_id": 204,
+    "project_name": "PureChat",
+    "build_id": 29139,
+    "build_number": 10,
+    "build_commit": "004b9fc0d1b2cceaa527d02636f03049beea4322",
+    "description_url": "https://poggit.pmmp.io/r/14620",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PureChat/004b9fc0d1b2cceaa527d02636f03049beea4322/863.png",
+    "changelog_url": "https://poggit.pmmp.io/r/14622",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507536654,
+    "state": 5,
+    "last_state_change_date": 1507536660,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "custom",
+        "nametag",
+        "rank"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.1-2",
+            "depRelId": 648,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "xpyctum",
+            "ZiteDesigns"
+        ],
+        "Collaborator": [
+            "Awzaw",
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

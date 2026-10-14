@@ -1,0 +1,87 @@
+{
+    "id": 3524,
+    "name": "PiggyCrates",
+    "version": "2.0.2",
+    "html_url": "https://poggit.pmmp.io/p/PiggyCrates/2.0.2",
+    "tagline": "Easy & customizable crates! Compatible with PiggyCE.",
+    "artifact_url": "https://poggit.pmmp.io/r/69869",
+    "downloads": 665,
+    "score": 5,
+    "repo_id": 118399424,
+    "repo_name": "DaPigGuy/PiggyCrates",
+    "project_id": 1816,
+    "project_name": "PiggyCrates",
+    "build_id": 67138,
+    "build_number": 54,
+    "build_commit": "d66ed5e6bcb91708d974aa32bc19b3805d62885f",
+    "description_url": "https://poggit.pmmp.io/r/69866",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/69868",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1574936753,
+    "state": 5,
+    "last_state_change_date": 1574937310,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "crate",
+        "crates",
+        "pig",
+        "piggy",
+        "piggycrate",
+        "piggycrates"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.0.1",
+            "depRelId": 3478,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ],
+        "Contributor": [
+            "SalmonDE",
+            "Ifera",
+            "ErikPDev",
+            "JavierLeon9966",
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "b184eead463d8bc87a0b5a98d20eeda9a3a9131f",
+            "build_id": 65700
+        }
+    ]
+}

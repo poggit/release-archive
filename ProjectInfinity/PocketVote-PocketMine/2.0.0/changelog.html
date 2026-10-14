@@ -1,0 +1,67 @@
+<p>Version 2.0 of PocketVote introduces a bunch of new features and bugfixes! The summary below is not complete but should give you enough to determine whether you want to update or not.</p>
+<ul>
+<li>Brand spankin' new API!
+<ul>
+<li>The new API is faster, more reliable and allows for way more features than v1!</li>
+</ul>
+</li>
+<li>Votes now expire periodically in addition to when a player logs on.
+<ul>
+<li>Previously if a player did not log on, there was no way to expire votes that had not been claimed by logging on.</li>
+</ul>
+</li>
+<li>Votes can now be retrieved quicker than before. The scheduler will dynamically change frequency depending on PocketVote server load.</li>
+<li>NEW command '/vote'
+<ul>
+<li><strong>Permission node</strong>: pocketvote.vote</li>
+<li>Typing '/vote' shows a link to a new url shortener where you can add all your known voting sites.
+<ul>
+<li>This is directly integrated into PocketVote and requires NO setup from your end!</li>
+</ul>
+</li>
+<li>Typing '/vote top' shows a list of the top voters the the past month.
+<ul>
+<li>Please note that you will need to wait for the servers to generate this data, it is not generated on-the-fly.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>NEW command '/guru'
+<ul>
+<li><strong>Permission node</strong>: pocketvote.admin</li>
+<li>Shows a help list of all MCPE.guru related commands.</li>
+</ul>
+</li>
+<li>NEW command '/gulist'
+<ul>
+<li><strong>Permission node</strong>: pocketvote.admin</li>
+<li>Shows a list of all your current sites added to your voting link.</li>
+</ul>
+</li>
+<li>NEW command '/guadd [title] [url]'
+<ul>
+<li><strong>Permission node</strong>: pocketvote.admin</li>
+<li>Adds the url to your voting link, title is optional.</li>
+</ul>
+</li>
+<li>NEW command '/gudel [id]'
+<ul>
+<li><strong>Permission node</strong>: pocketvote.admin</li>
+<li>Deletes the specified url from your voting link.
+<ul>
+<li>Use '/gulist' to find the ids of your entries.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>NEW sub-command '/pocketvote link [name]'
+<ul>
+<li><strong>Permission node</strong>: pocketvote.admin</li>
+<li>Attempts to set your voting link to the specified name.
+<ul>
+<li>Your link will look like this: mcpe.guru/[name]</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>

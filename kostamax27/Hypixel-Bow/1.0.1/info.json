@@ -1,0 +1,78 @@
+{
+    "id": 7680,
+    "name": "HypixelBow",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/HypixelBow/1.0.1",
+    "tagline": "Sound when hitting a player",
+    "artifact_url": "https://poggit.pmmp.io/r/142523",
+    "downloads": 117,
+    "score": null,
+    "repo_id": 361417995,
+    "repo_name": "kostamax27/Hypixel-Bow",
+    "project_id": 8902,
+    "project_name": "Hypixel-Bow",
+    "build_id": 112330,
+    "build_number": 13,
+    "build_commit": "9f2224b354804a17e3b9b57a1a0137401e57b5bd",
+    "description_url": "https://poggit.pmmp.io/r/142520",
+    "icon_url": "https://raw.githubusercontent.com/kostamax27/Hypixel-Bow/9f2224b354804a17e3b9b57a1a0137401e57b5bd/Hypixel-Bow.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/142522",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632300235,
+    "state": 5,
+    "last_state_change_date": 1632302538,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Bow",
+        "hit",
+        "sound"
+    ],
+    "api": [
+        {
+            "from": "3.9.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Killmoney-PMMP",
+            "version": "1.0.3",
+            "depRelId": 7646,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "kostamax27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

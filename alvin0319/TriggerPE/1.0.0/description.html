@@ -1,0 +1,151 @@
+<h1>
+<a id="user-content-triggerpe" class="anchor" href="#triggerpe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TriggerPE</h1>
+<p>A Trigger plugin for PocketMine-MP ported from <a href="https://github.com/lyokofirelyte/VariableTriggers">VariableTriggers</a></p>
+<h1>
+<a id="user-content-functions" class="anchor" href="#functions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Functions</h1>
+<ul>
+<li>[x] ClickTrigger</li>
+<li>[x] CommandTrigger</li>
+<li>[x] AreaTrigger</li>
+</ul>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<table>
+<thead>
+<tr>
+<th>command</th>
+<th>description</th>
+<th>permission</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/vtc</td>
+<td>click trigger command</td>
+<td>triggerpe.command.vtc</td>
+</tr>
+<tr>
+<td>/vta</td>
+<td>area trigger command</td>
+<td>triggerpe.command.vta</td>
+</tr>
+<tr>
+<td>/vtcmd</td>
+<td>command trigger command</td>
+<td>triggerpe.command.vtcmd</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>args</th>
+<th>usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>add</td>
+<td>/&lt;command&gt; add &lt;name&gt; &lt;actionType&gt; &lt;action&gt;</td>
+</tr>
+<tr>
+<td>remove</td>
+<td>/&lt;command&gt; remove &lt;name&gt;</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>ActionType</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>msg</td>
+<td>send message to player</td>
+</tr>
+<tr>
+<td>broadcast</td>
+<td>broadcast message</td>
+</tr>
+<tr>
+<td>cmd</td>
+<td>execute the command</td>
+</tr>
+<tr>
+<td>cmdop</td>
+<td>execute the command as op</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h1>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>permission</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>triggerpe.command.vtc</td>
+<td>op</td>
+</tr>
+<tr>
+<td>triggerpe.command.vta</td>
+<td>op</td>
+</tr>
+<tr>
+<td>triggerpe.command.vtcmd</td>
+<td>op</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<ul>
+<li>Get plugin instance</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>plugin</span> = \alvin0319\<span class="pl-v">TriggerPE</span>\<span class="pl-v">TriggerPE</span>::<span class="pl-en">getInstance</span>();</pre></div>
+<ul>
+<li>Add custom trigger (not supported yet)</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>triggerClass</span> = class <span class="pl-v">CustomTrigger</span> <span class="pl-k">extends</span> \alvin0319\<span class="pl-v">TriggerPE</span>\triggers\<span class="pl-v">Trigger</span>{
+    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">execute</span>(\pocketmine\<span class="pl-v">Player</span> <span class="pl-s1"><span class="pl-c1">$</span>player</span>, array <span class="pl-s1"><span class="pl-c1">$</span>extraData</span> = []) : bool{
+        <span class="pl-c">// return true if succeed or false on failed</span>
+        return <span class="pl-c1">false</span>;
+    }
+
+    <span class="pl-k">public</span> <span class="pl-k">static</span> <span class="pl-k">function</span> <span class="pl-en">jsonDeserialize</span>(array <span class="pl-s1"><span class="pl-c1">$</span>data</span>) : <span class="pl-v">CustomTrigger</span>{
+        <span class="pl-k">return</span> <span class="pl-k">new</span> <span class="pl-v">CustomTrigger</span>(...<span class="pl-s1"><span class="pl-c1">$</span>data</span>);
+    }
+};
+<span class="pl-s1"><span class="pl-c1">$</span>plugin</span>-&gt;<span class="pl-en">getTriggerFactory</span>()-&gt;<span class="pl-en">registerTrigger</span>(<span class="pl-v">CustomTrigger</span>::class);
+
+<span class="pl-s1"><span class="pl-c1">$</span>plugin</span>-&gt;<span class="pl-en">getTriggerFactory</span>()-&gt;<span class="pl-en">addTrigger</span>(<span class="pl-s1"><span class="pl-c1">$</span>triggerClass</span>);</pre></div>
+<ul>
+<li>Get trigger</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>trigger</span> = <span class="pl-s1"><span class="pl-c1">$</span>plugin</span>-&gt;<span class="pl-en">getTriggerFactory</span>()-&gt;<span class="pl-en">getTrigger</span>(<span class="pl-s">"trigger name"</span>);</pre></div>
+<h1>
+<a id="user-content-you-can-use-target-selector" class="anchor" href="#you-can-use-target-selector" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>You can use Target selector!</h1>
+<p>You can use @r, @p, @s inside action fields...</p>
+<p>or</p>
+<p>You can add your custom selector.</p>
+<div class="highlight highlight-text-html-php"><pre>\alvin0319\<span class="pl-v">TriggerPE</span>\selector\<span class="pl-v">SelectorFactory</span>::<span class="pl-en">registerSelector</span>(<span class="pl-k">new</span> <span class="pl-k">class</span> <span class="pl-k">extends</span> \alvin0319\<span class="pl-v">TriggerPE</span>\selector\<span class="pl-v">Selector</span>{
+                                                                    
+    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">getSymbol</span>() : <span class="pl-smi">string</span>{
+        <span class="pl-k">return</span> <span class="pl-s">"b"</span>;
+    }
+                                                                    
+    <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">find</span>(\pocketmine\<span class="pl-smi">Player</span> <span class="pl-s1"><span class="pl-c1">$</span>player</span>) : ?\pocketmine\<span class="pl-smi">Player</span>{
+        <span class="pl-k">return</span> <span class="pl-s1"><span class="pl-c1">$</span>player</span>;
+    }
+});</pre></div>
+<h1>
+<a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h1>
+<p><del>I love GPL</del></p>
+<p><a href="https://github.com/alvin0319/TriggerPE/blob/master/LICENSE">GPL (GNU General Public License)</a></p>

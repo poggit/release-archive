@@ -1,0 +1,68 @@
+{
+    "id": 3653,
+    "name": "MultiServerCounter",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/MultiServerCounter/0.0.1",
+    "tagline": "Count players of multiple servers",
+    "artifact_url": "https://poggit.pmmp.io/r/72605",
+    "downloads": 1645,
+    "score": 4,
+    "repo_id": 232896705,
+    "repo_name": "luca28pet/MultiServerCounter",
+    "project_id": 6025,
+    "project_name": "MultiServerCounter",
+    "build_id": 68994,
+    "build_number": 1,
+    "build_commit": "581ebbc0b6ec7819dcab2dd9a233f37e9338986e",
+    "description_url": "https://poggit.pmmp.io/r/72604",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1578603923,
+    "state": 5,
+    "last_state_change_date": 1578622194,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "query",
+        "networkquery"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "luca28pet"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libpmquery",
+            "project_id": 758,
+            "repo_id": 99370791,
+            "repo_name": "jasonw4331/libpmquery",
+            "repo_path": "",
+            "build_commit": "a70b1a4577d353f1872f03c38cb87d927782cdc8",
+            "build_id": 68266
+        }
+    ]
+}

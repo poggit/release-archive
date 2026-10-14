@@ -1,0 +1,92 @@
+{
+    "id": 10789,
+    "name": "FormInteractionFix",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FormInteractionFix/1.0.0",
+    "tagline": "Form interaction spam blocker, works on the entire PM server.",
+    "artifact_url": "https://poggit.pmmp.io/r/197032",
+    "downloads": 220,
+    "score": 5,
+    "repo_id": 550408557,
+    "repo_name": "Endermanbugzjfc/FormInteractionFix",
+    "project_id": 11968,
+    "project_name": "FormInteractionFix",
+    "build_id": 147812,
+    "build_number": 8,
+    "build_commit": "7dd5937bbb398fbfff91b81288cc0cb724696bcb",
+    "description_url": "https://poggit.pmmp.io/r/197031",
+    "icon_url": "https://raw.githubusercontent.com/Endermanbugzjfc/FormInteractionFix/7dd5937bbb398fbfff91b81288cc0cb724696bcb/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1668523785,
+    "state": 5,
+    "last_state_change_date": 1669011995,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "click",
+        "fix",
+        "form",
+        "from",
+        "hold",
+        "interact",
+        "item",
+        "keep",
+        "many",
+        "open",
+        "repeat",
+        "right",
+        "spam",
+        "time",
+        "touch",
+        "ui",
+        "use"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Endermanbugzjfc"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "a7cb81b740a707ca28749238906a91952d01fe9f",
+            "build_id": 147804
+        },
+        {
+            "name": "await-std",
+            "project_id": 6900,
+            "repo_id": 262278389,
+            "repo_name": "SOF3/await-std",
+            "repo_path": "",
+            "build_commit": "6abd0dc7c509545eafefd38c30729467c4a647e0",
+            "build_id": 134382
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "id": 7793,
+    "name": "FertilizerParticles",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/FertilizerParticles/0.0.1",
+    "tagline": "Show particles when you fertilize grass blocks",
+    "artifact_url": "https://poggit.pmmp.io/r/144407",
+    "downloads": 206,
+    "score": 5,
+    "repo_id": 403914183,
+    "repo_name": "nhanaz-pm-pl/CropGrowth",
+    "project_id": 9665,
+    "project_name": "FertilizerParticles",
+    "build_id": 113456,
+    "build_number": 4,
+    "build_commit": "e33d2ed11653585aec7803d2d85f0eb2a7319f80",
+    "description_url": "https://poggit.pmmp.io/r/144455",
+    "icon_url": "https://raw.githubusercontent.com/NhanAZ/FertilizerParticles/e33d2ed11653585aec7803d2d85f0eb2a7319f80/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1633653857,
+    "state": 5,
+    "last_state_change_date": 1634270155,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "fertilizerparticles",
+        "plugin",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "3.23.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "DavidGlitch04"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

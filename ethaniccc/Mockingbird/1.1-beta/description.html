@@ -1,0 +1,198 @@
+<h1>
+<a id="user-content-mockingbird" class="anchor" href="#mockingbird" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mockingbird</h1>
+<p>Mockingbird is an AntiCheat made for PocketMine servers to prevent the use of unfair
+advantage on other players.</p>
+<p><strong>Warning:</strong> In the state Mockingbird is currently in, this may false-positive, especially on production servers with some lag.
+This may also false-positive on players who are laggy (e.g: high ping).</p>
+<p><strong>NOTE:</strong> This is a pre-release to test and improve Mockingbird, if you have an issue with any check, or have a suggestion to make, you can open an issue at <a href="https://www.github.com/ethaniccc/Mockingbird/issues">https://www.github.com/ethaniccc/Mockingbird/issues</a> :D</p>
+<h4>
+<a id="user-content-special-thanks" class="anchor" href="#special-thanks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Special Thanks</h4>
+<ul>
+<li>Bavfalcon9
+<ul>
+<li>Inspo for this project. Also for the structure of this plugin lol. You can check out
+Mavoric (dev) by clicking <a href="https://github.com/Bavfalcon9/Mavoric/tree/v2.0.0/">here</a> (<strong>archived (F)</strong>)</li>
+</ul>
+</li>
+<li>shura62
+<ul>
+<li>Helped on Discord with Mockingbird!</li>
+</ul>
+</li>
+<li>Jonhan
+<ul>
+<li>Gave <strong>some</strong> checks for Bukkit that I was able to port over to PocketMine.
+You can click <a href="https://www.youtube.com/channel/UCZ_Pg7e-1JMlHtqnWw6KIcw" rel="nofollow">here</a> to check out his channel!</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-test-server" class="anchor" href="#test-server" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Test Server</h3>
+<p>Mockingbird has a test server - you can DM me on Discord for the details at ethaniccc#0001</p>
+<p>You can also click <a href="https://discord.gg/v77FESn" rel="nofollow">here</a> to join my discord.</p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<ul>
+<li>
+<p>Log Command</p>
+<p>If enabled in the config, the <code>log</code> command has two options: a normal
+<code>/mblogs &lt;player&gt;</code> or a UI with <code>/mblogs</code> without arguments.</p>
+<p>The <code>/mblogs</code> command will tell you how many violations a player currently has,
+how many violations they have in total (when a player gets punished their current violation count resets to 0),
+and the average TPS the server had when the player got violated.</p>
+</li>
+<li>
+<p>Enable Module Command</p>
+<p>With the <code>/mbenable</code> command, you can enable certain modules in-game. For example,
+if I forgot to turn on <code>InventoryMove</code> in the config, I could use <code>/mbenable inventorymove</code> to
+enable it. If the module is enabled already, the plugin you tell you so. If you want to add and enable
+a new custom module, you must use <code>/mbreload</code>.</p>
+</li>
+<li>
+<p>Disable Module Command</p>
+<p>With the <code>/mbdisable</code> command, you can disable certain modules in-game. For example, if
+<code>AutoClickerA</code> checks are falsing too much, you can disable it with <code>/mbdisable autoclickera</code>. If the specified
+module is disabled already, the plugin will tell you so.</p>
+</li>
+<li>
+<p>Reload Module Command</p>
+<p><strong>NOTE:</strong> This command intended use is for Custom Modules.</p>
+<p>With this command, and the permission <code>reload_permission</code> in the config, you can reload custom modules.</p>
+<p>If I added a custom module to the <code>custom_modules</code> folder, I can use this command to reload and it will register my custom module (yes has been tested).
+Same goes for deleting a custom module.</p>
+<p><strong>Warning:</strong> You cannot reload custom module code with this command.</p>
+</li>
+<li>
+<p>"Screenshare" command</p>
+<p><strong>NOTE:</strong> This is to give you the player's view, not to actually be able
+to view the player's screen.</p>
+<p>With the permission set in the config, you can use the Mockingbird screenshare
+command, <code>/mbscreenshare &lt;player&gt;</code> to screenshare a player. Nobody will be able to
+see you while you are "screensharing" somebody.</p>
+<p>To end a screenshare session, you may do <code>/mbscreenshare stop</code></p>
+</li>
+<li>
+<p>Alerts Command</p>
+<p>With this command, you can toggle alerts. Just do <code>/mbalerts</code>, and if you have alerts enabled, it will disable alerts, same vice-versa.</p>
+<p>When you join you will automatically have alerts enabled.</p>
+</li>
+<li>
+<p>Debug Command</p>
+<p>With this command, you can enable debug information about checks - you will need the alert permission to use this command though.</p>
+<p>When you join, you will automatically have debug information off, to toggle debug information, you can use <code>/mbdebug</code> and it will enable debug
+if you have it off, and disable if you currently have it on.</p>
+</li>
+</ul>
+<h2>
+<a id="user-content-detections" class="anchor" href="#detections" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Detections</h2>
+<p>Detections not guaranteed 100% accurate.</p>
+<h3>
+<a id="user-content-combat" class="anchor" href="#combat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Combat</h3>
+<ul>
+<li>Angle</li>
+<li>AutoClicker
+<ul>
+<li>Consistency Detection (may sometimes false?)</li>
+<li>Speed Detection</li>
+</ul>
+</li>
+<li>Reach
+<ul>
+<li>ReachA: Uses ray tracing and location history to get the distance from the
+damager to the target. This check will <strong>most likely</strong> not work for mobile players.</li>
+<li>ReachB: Uses XZ location distance to check the distance between two players.
+This is inefficient and is only intended for a reach check with mobile players.</li>
+</ul>
+</li>
+<li>MultiAura</li>
+<li>Toolbox Killaura
+<ul>
+<li>Also a NoSwing check :p</li>
+</ul>
+</li>
+<li>Hitbox
+<ul>
+<li>This check is not complete and should <strong>not</strong> be used. Especially on production servers. This check
+will only give debug output.</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-movement" class="anchor" href="#movement" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Movement</h3>
+<ul>
+<li>AirJump</li>
+<li>Fly</li>
+<li>Glide</li>
+<li>InventoryMove (not complete / may be inaccurate)</li>
+<li>FastLadder</li>
+<li>NoSlowdown (while eating)</li>
+<li>NoWeb</li>
+<li>NoFall</li>
+<li>Speed
+<ul>
+<li>SpeedA: Basic speed check.</li>
+<li>SpeedB: Mini-Bhop check</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-other-detections" class="anchor" href="#other-detections" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other Detections</h3>
+<ul>
+<li>Packet Checks</li>
+<li>ChestStealer</li>
+<li>FastEat</li>
+<li>FastBreak (not complete / may be inaccurate)</li>
+<li>Nuker</li>
+<li>Timer (not complete / may be inaccurate)</li>
+<li>EditionFaker</li>
+</ul>
+<h2>
+<a id="user-content-custom-modules" class="anchor" href="#custom-modules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Custom Modules</h2>
+<p>A feature that Mockingbird has is Custom Modules, which you can use to
+make new checks that don't currently exist, or to override a check with a
+better check. You can even modify <a href="https://github.com/Bavfalcon9/Mavoric/tree/v2.0.0">Mavoric</a> checks
+to work with Mockingbird (click <a href="https://github.com/ethaniccc/Mockingbird/blob/master/resources/custom_modules/MavoricSpeedA.php">here</a> for an example)!</p>
+<p>To make a custom module, make a new PHP file with the name of the file correlating
+to the class name of the file:</p>
+<p>E.G: In <strong>NewSpeed.php</strong>:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-ent">&lt;?php</span>
+
+<span class="pl-k">namespace</span> ethaniccc\<span class="pl-v">Mockingbird</span>\cheat\custom{
+
+    <span class="pl-k">use</span> ethaniccc\<span class="pl-v">Mockingbird</span>\<span class="pl-v">Mockingbird</span>;
+    <span class="pl-k">use</span> ethaniccc\<span class="pl-v">Mockingbird</span>\cheat\<span class="pl-v">Cheat</span>;
+    <span class="pl-k">use</span> pocketmine\event\player\<span class="pl-v">PlayerMoveEvent</span>;
+
+    <span class="pl-k">class</span> <span class="pl-v">NewSpeed</span> <span class="pl-k">extends</span> <span class="pl-v">Cheat</span>{
+    
+        <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">__construct</span>(<span class="pl-smi">Mockingbird</span> <span class="pl-s1"><span class="pl-c1">$</span>plugin</span>,<span class="pl-smi">string</span> <span class="pl-s1"><span class="pl-c1">$</span>cheatName</span>,<span class="pl-smi">string</span> <span class="pl-s1"><span class="pl-c1">$</span>cheatType</span>,<span class="pl-smi">bool</span> <span class="pl-s1"><span class="pl-c1">$</span>enabled</span> = <span class="pl-c1">true</span>){
+            <span class="pl-smi">parent</span>::<span class="pl-en">__construct</span>(<span class="pl-s1"><span class="pl-c1">$</span>plugin</span>,<span class="pl-s1"><span class="pl-c1">$</span>cheatName</span>,<span class="pl-s1"><span class="pl-c1">$</span>cheatType</span>,<span class="pl-s1"><span class="pl-c1">$</span>enabled</span>);
+        }
+
+    }
+
+}</pre></div>
+<p>Then from there, since the <code>Cheat</code> class implements <code>Listener</code>, you can make your own detections!</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-ent">&lt;?php</span>
+
+<span class="pl-k">namespace</span> ethaniccc\<span class="pl-v">Mockingbird</span>\cheat\custom{
+
+    <span class="pl-k">use</span> ethaniccc\<span class="pl-v">Mockingbird</span>\<span class="pl-v">Mockingbird</span>;
+    <span class="pl-k">use</span> ethaniccc\<span class="pl-v">Mockingbird</span>\cheat\<span class="pl-v">Cheat</span>;
+    <span class="pl-k">use</span> pocketmine\event\player\<span class="pl-v">PlayerMoveEvent</span>;
+
+    <span class="pl-k">class</span> <span class="pl-v">NewSpeed</span> <span class="pl-k">extends</span> <span class="pl-v">Cheat</span>{
+    
+        <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">__construct</span>(<span class="pl-smi">Mockingbird</span> <span class="pl-s1"><span class="pl-c1">$</span>plugin</span>,<span class="pl-smi">string</span> <span class="pl-s1"><span class="pl-c1">$</span>cheatName</span>,<span class="pl-smi">string</span> <span class="pl-s1"><span class="pl-c1">$</span>cheatType</span>,<span class="pl-smi">bool</span> <span class="pl-s1"><span class="pl-c1">$</span>enabled</span> = <span class="pl-c1">true</span>){
+            <span class="pl-smi">parent</span>::<span class="pl-en">__construct</span>(<span class="pl-s1"><span class="pl-c1">$</span>plugin</span>,<span class="pl-s1"><span class="pl-c1">$</span>cheatName</span>,<span class="pl-s1"><span class="pl-c1">$</span>cheatType</span>,<span class="pl-s1"><span class="pl-c1">$</span>enabled</span>);
+        }
+        
+        <span class="pl-c">// personal recommendation to NOT use PlayerMoveEvent</span>
+        <span class="pl-k">public</span> <span class="pl-k">function</span> <span class="pl-en">onMove</span>(<span class="pl-smi">PlayerMoveEvent</span> <span class="pl-s1"><span class="pl-c1">$</span>event</span>) : <span class="pl-smi">void</span>{
+            <span class="pl-c">// Do your thing here ;)</span>
+        }
+
+    }
+
+}</pre></div>
+<p>You can check the <code>Cheat</code> class for all class methods.</p>

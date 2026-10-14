@@ -1,0 +1,71 @@
+{
+    "id": 10469,
+    "name": "MiniBosses",
+    "version": "3.2.2",
+    "html_url": "https://poggit.pmmp.io/p/MiniBosses/3.2.2",
+    "tagline": "Adds very customizable Bosses",
+    "artifact_url": "https://poggit.pmmp.io/r/190230",
+    "downloads": 289,
+    "score": null,
+    "repo_id": 67190357,
+    "repo_name": "diamond-gold/MiniBosses",
+    "project_id": 11218,
+    "project_name": "MiniBosses",
+    "build_id": 143056,
+    "build_number": 31,
+    "build_commit": "8409de1bd35ed3f471cc958e986c59a784f2b7b3",
+    "description_url": "https://poggit.pmmp.io/r/195859",
+    "icon_url": "https://raw.githubusercontent.com/diamond-gold/MiniBosses/8409de1bd35ed3f471cc958e986c59a784f2b7b3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/195861",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1660817472,
+    "state": 5,
+    "last_state_change_date": 1660840310,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "boss",
+        "mobs",
+        "monster",
+        "rpg"
+    ],
+    "api": [
+        {
+            "from": "4.7.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "diamond-gold"
+        ],
+        "Contributor": [
+            "Sandertv"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

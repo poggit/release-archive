@@ -1,0 +1,65 @@
+{
+    "id": 11278,
+    "name": "FKickAll",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FKickAll/1.0.0",
+    "tagline": "A Simple Plugin to Kick All Players",
+    "artifact_url": "https://poggit.pmmp.io/r/206878",
+    "downloads": 52,
+    "score": null,
+    "repo_id": 639939039,
+    "repo_name": "FRashkar-pm/FKickAll",
+    "project_id": 12448,
+    "project_name": "FKickAll",
+    "build_id": 154568,
+    "build_number": 6,
+    "build_commit": "fa7393c4652080cb0c5ee8534afd650adf82369c",
+    "description_url": "https://poggit.pmmp.io/r/206877",
+    "icon_url": "https://raw.githubusercontent.com/FRashkar-pm/FKickAll/fa7393c4652080cb0c5ee8534afd650adf82369c/kick.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1683934484,
+    "state": 5,
+    "last_state_change_date": 1683936588,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "admin",
+        "admintools",
+        "all",
+        "command",
+        "commands",
+        "kick",
+        "kickall",
+        "player",
+        "players"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "FRashkar-pm"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

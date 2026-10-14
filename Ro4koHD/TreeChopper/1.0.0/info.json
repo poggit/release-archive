@@ -1,0 +1,60 @@
+{
+    "id": 7086,
+    "name": "TreeChopper",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TreeChopper/1.0.0",
+    "tagline": "Simple TreeChopper plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/132794",
+    "downloads": 1634,
+    "score": 5,
+    "repo_id": 387548413,
+    "repo_name": "Ro4koHD/TreeChopper",
+    "project_id": 9307,
+    "project_name": "TreeChopper",
+    "build_id": 106384,
+    "build_number": 1,
+    "build_commit": "840566bb3255e5867e379c6d62d33fe342240953",
+    "description_url": "https://poggit.pmmp.io/r/133118",
+    "icon_url": "https://raw.githubusercontent.com/Ro4koHD/TreeChopper/840566bb3255e5867e379c6d62d33fe342240953/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626717008,
+    "state": 5,
+    "last_state_change_date": 1626717475,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chop",
+        "chopper",
+        "cut",
+        "cutter",
+        "roko",
+        "tree",
+        "treechopper",
+        "treecutter"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jasonwynn10"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

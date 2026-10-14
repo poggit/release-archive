@@ -1,0 +1,62 @@
+{
+    "id": 1391,
+    "name": "ItemCloud",
+    "version": "1.3.0-4",
+    "html_url": "https://poggit.pmmp.io/p/ItemCloud/1.3.0-4",
+    "tagline": "A cloud service for PocketMine Items",
+    "artifact_url": "https://poggit.pmmp.io/r/30506",
+    "downloads": 292,
+    "score": null,
+    "repo_id": 106432857,
+    "repo_name": "poggit-orphanage/ItemCloud",
+    "project_id": 1006,
+    "project_name": "ItemCloud",
+    "build_id": 41332,
+    "build_number": 8,
+    "build_commit": "c88c7682c3d9e48e46981f7f59acb78afc3dd04e",
+    "description_url": "https://poggit.pmmp.io/r/30504",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/ItemCloud/c88c7682c3d9e48e46981f7f59acb78afc3dd04e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/30505",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526417108,
+    "state": 5,
+    "last_state_change_date": 1526417120,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "inventory",
+        "items"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "onebone",
+            "Awzaw"
+        ],
+        "Contributor": [
+            "dog194"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

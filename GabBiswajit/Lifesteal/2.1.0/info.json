@@ -1,0 +1,68 @@
+{
+    "id": 14163,
+    "name": "Lifesteal",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Lifesteal/2.1.0",
+    "tagline": "You can steal hearts from the players you kill!",
+    "artifact_url": "https://poggit.pmmp.io/r/258750",
+    "downloads": 664,
+    "score": null,
+    "repo_id": 669489683,
+    "repo_name": "GabBiswajit/Lifesteal",
+    "project_id": 12827,
+    "project_name": "Lifesteal",
+    "build_id": 188592,
+    "build_number": 79,
+    "build_commit": "7c7769e5595a0c95c4e1656d82d3577900db8f9c",
+    "description_url": "https://poggit.pmmp.io/r/258747",
+    "icon_url": "https://raw.githubusercontent.com/GabBiswajit/Lifesteal/7c7769e5595a0c95c4e1656d82d3577900db8f9c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/258749",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1755277496,
+    "state": 5,
+    "last_state_change_date": 1755286280,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "Lifesteal"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Customies",
+            "version": "1.4.0",
+            "depRelId": 13871,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "GabBiswajit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

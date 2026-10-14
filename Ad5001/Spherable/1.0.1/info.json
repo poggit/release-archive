@@ -1,0 +1,63 @@
+{
+    "id": 733,
+    "name": "Spherable",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Spherable/1.0.1",
+    "tagline": "A spheres world generator. A new survival challenge.",
+    "artifact_url": "https://poggit.pmmp.io/r/14904",
+    "downloads": 5409,
+    "score": null,
+    "repo_id": 102155359,
+    "repo_name": "Ad5001/Spherable",
+    "project_id": 823,
+    "project_name": "Spherable",
+    "build_id": 30265,
+    "build_number": 4,
+    "build_commit": "63a0e204ad1ea3f3891b75f9d9cd9baf4c82ea9a",
+    "description_url": "https://poggit.pmmp.io/r/14900",
+    "icon_url": "https://raw.githubusercontent.com/Ad5001/Spherable/63a0e204ad1ea3f3891b75f9d9cd9baf4c82ea9a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/14902",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/14903",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1509032462,
+    "state": 5,
+    "last_state_change_date": 1509565761,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "spheres",
+        "challenge",
+        "generator"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA9",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Ad5001"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,69 @@
+{
+    "id": 3014,
+    "name": "OnlineTime",
+    "version": "1.3",
+    "html_url": "https://poggit.pmmp.io/p/OnlineTime/1.3",
+    "tagline": "Measure how long players are spending on your server, track how long you have been online & see top active players",
+    "artifact_url": "https://poggit.pmmp.io/r/59892",
+    "downloads": 7439,
+    "score": 4,
+    "repo_id": 181949788,
+    "repo_name": "Zedstar16/OnlineTime",
+    "project_id": 4940,
+    "project_name": "OnlineTime",
+    "build_id": 60459,
+    "build_number": 19,
+    "build_commit": "a340fd565b5bd56ac5798df55508ea53f72b6ee3",
+    "description_url": "https://poggit.pmmp.io/r/59978",
+    "icon_url": "https://raw.githubusercontent.com/Zedstar16/OnlineTime/a340fd565b5bd56ac5798df55508ea53f72b6ee3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/59980",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/59981",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1559996804,
+    "state": 5,
+    "last_state_change_date": 1560023314,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "active",
+        "online",
+        "onlinetime",
+        "time",
+        "totaltime"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Zedstar16"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,80 @@
+{
+    "id": 2724,
+    "name": "ScoreHud",
+    "version": "4.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ScoreHud/4.0.0",
+    "tagline": "A highly customizable plugin to add Scoreboards on your Minecraft Bedrock Server.",
+    "artifact_url": "https://poggit.pmmp.io/r/55546",
+    "downloads": 5676,
+    "score": 5,
+    "repo_id": 155634166,
+    "repo_name": "Ifera/ScoreHud",
+    "project_id": 4143,
+    "project_name": "ScoreHud",
+    "build_id": 58082,
+    "build_number": 28,
+    "build_commit": "02b0f2dcf6689ec0f85dada496e90da98eec77f6",
+    "description_url": "https://poggit.pmmp.io/r/55543",
+    "icon_url": "https://raw.githubusercontent.com/JackMD/ScoreHud/02b0f2dcf6689ec0f85dada496e90da98eec77f6/meta/ScoreHud.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/55545",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1555006865,
+    "state": 5,
+    "last_state_change_date": 1555094469,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "customizable",
+        "scoreboards",
+        "scorehud"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "alvin0319",
+            "Shelly7w7",
+            "JohnathenHampton",
+            "AtlanticDany"
+        ],
+        "Collaborator": [
+            "Ifera"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ScoreFactory",
+            "project_id": 4142,
+            "repo_id": 155632824,
+            "repo_name": "Ifera/ScoreFactory",
+            "repo_path": "",
+            "build_commit": "65cf1e229397727dbc9345b3c1ba4af5ec83e624",
+            "build_id": 51438
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "98aae410c391931ac9a4778ba0a0fa436a2991c5",
+            "build_id": 53471
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "id": 11053,
+    "name": "AlwaysDay",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AlwaysDay/1.0.0",
+    "tagline": "always leave it in the day",
+    "artifact_url": "https://poggit.pmmp.io/r/201845",
+    "downloads": 413,
+    "score": 5,
+    "repo_id": 615368732,
+    "repo_name": "smallkingdev-pm-pl/AlwaysDay",
+    "project_id": 12230,
+    "project_name": "AlwaysDay",
+    "build_id": 151086,
+    "build_number": 1,
+    "build_commit": "cc892b77c72ce27982defc7e0ed09946eecfb51b",
+    "description_url": "https://poggit.pmmp.io/r/201844",
+    "icon_url": "https://raw.githubusercontent.com/smallkingdev-pm-pl/AlwaysDay/cc892b77c72ce27982defc7e0ed09946eecfb51b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1679065835,
+    "state": 5,
+    "last_state_change_date": 1679098699,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SmallkingDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "af1113d60b99a1467a0a9c3acdb1eeed57fa4065",
+            "build_id": 144029
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "id": 6910,
+    "name": "BoostBlock",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BoostBlock/1.0.0",
+    "tagline": "Boosts players to where they are looking.",
+    "artifact_url": "https://poggit.pmmp.io/r/130095",
+    "downloads": 1077,
+    "score": 4,
+    "repo_id": 374426961,
+    "repo_name": "OguzhanUmutlu/BoostBlock",
+    "project_id": 9093,
+    "project_name": "BoostBlock",
+    "build_id": 104313,
+    "build_number": 8,
+    "build_commit": "62f8acd9b941c39d00b3e7e0042f1fea7eb02abe",
+    "description_url": "https://poggit.pmmp.io/r/130094",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/BoostBlock/62f8acd9b941c39d00b3e7e0042f1fea7eb02abe/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1624540612,
+    "state": 5,
+    "last_state_change_date": 1624659594,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "block",
+        "boost",
+        "jump",
+        "slime",
+        "tp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

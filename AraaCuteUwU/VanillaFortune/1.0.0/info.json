@@ -1,0 +1,57 @@
+{
+    "id": 11691,
+    "name": "VanillaFortune",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VanillaFortune/1.0.0",
+    "tagline": "Implements Fortune Enchantment to your PocketMine-MP server.",
+    "artifact_url": "https://poggit.pmmp.io/r/212362",
+    "downloads": 607,
+    "score": 4,
+    "repo_id": 654809043,
+    "repo_name": "AraaCuteUwU/VanillaFortune",
+    "project_id": 12646,
+    "project_name": "VanillaFortune",
+    "build_id": 157311,
+    "build_number": 1,
+    "build_commit": "d1ef880c103c449c95b31ebc4636dd8a2ca8b269",
+    "description_url": "https://poggit.pmmp.io/r/212378",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686971568,
+    "state": 5,
+    "last_state_change_date": 1687933949,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        }
+    ],
+    "keywords": [
+        "fortune"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AraaCuteUwU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

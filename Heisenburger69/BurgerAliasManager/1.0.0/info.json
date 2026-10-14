@@ -1,0 +1,86 @@
+{
+    "id": 5775,
+    "name": "BurgerAliasManager",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BurgerAliasManager/1.0.0",
+    "tagline": "Allow players to register their own custom command aliases!",
+    "artifact_url": "https://poggit.pmmp.io/r/112139",
+    "downloads": 1312,
+    "score": 5,
+    "repo_id": 325562484,
+    "repo_name": "Heisenburger69/BurgerAliasManager",
+    "project_id": 8283,
+    "project_name": "BurgerAliasManager",
+    "build_id": 94378,
+    "build_number": 6,
+    "build_commit": "dd431eddb0ede73c4b0fa122a739a13bbb03c62c",
+    "description_url": "https://poggit.pmmp.io/r/112138",
+    "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerAliasManager/dd431eddb0ede73c4b0fa122a739a13bbb03c62c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609359873,
+    "state": 5,
+    "last_state_change_date": 1609472366,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "alias",
+        "burger",
+        "burgeraliasmanager",
+        "cmd",
+        "command",
+        "heisenburger69",
+        "manager",
+        "minecraft",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "shortcut",
+        "shorten"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Heisenburger69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

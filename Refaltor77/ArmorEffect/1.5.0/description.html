@@ -1,0 +1,29 @@
+<h2>
+<a id="user-content-armoreffect" class="anchor" href="#armoreffect" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ArmorEffect</h2>
+<p>Welcome to the plugin ArmorEffect created by Refaltor.
+It is a plugin that allows to easily add effects when the player wears armor.</p>
+<ul>
+<li>How to install ?</li>
+</ul>
+<p>Vous devez télécharger le plugin sur poggit puis le mettre dans le dossier 
+'plugins' sur votre serveur PocketMine-MP</p>
+<p><a href="https://poggit.pmmp.io/p/ArmorEffect/1.5.0" rel="nofollow">https://poggit.pmmp.io/p/ArmorEffect/1.5.0</a></p>
+<ul>
+<li>API:</li>
+</ul>
+<p>Pour get l'API de ArmorEffect:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>api</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">getServer</span>()-&gt;<span class="pl-en">getPluginManager</span>()-&gt;<span class="pl-en">getPlugin</span>(<span class="pl-s">'ArmorEffect'</span>);</pre></div>
+<ul>
+<li>Functions:</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>api</span> = <span class="pl-s1"><span class="pl-c1">$</span><span class="pl-smi">this</span></span>-&gt;<span class="pl-en">getServer</span>()-&gt;<span class="pl-en">getPluginManager</span>()-&gt;<span class="pl-en">getPlugin</span>(<span class="pl-s">'ArmorEffect'</span>);
+
+<span class="pl-s1"><span class="pl-c1">$</span>array</span> = <span class="pl-s1"><span class="pl-c1">$</span>api</span>-&gt;<span class="pl-en">getAllArmors</span>(); <span class="pl-c">// array</span>
+<span class="pl-s1"><span class="pl-c1">$</span>armor</span> = <span class="pl-s1"><span class="pl-c1">$</span>api</span>-&gt;<span class="pl-en">getArmorFromString</span>(<span class="pl-s">'317:0'</span>); <span class="pl-c">// array</span>
+<span class="pl-s1"><span class="pl-c1">$</span>effects</span> = <span class="pl-s1"><span class="pl-c1">$</span>api</span>-&gt;<span class="pl-en">getEffectByArmor</span>(<span class="pl-s">'317:0'</span>); <span class="pl-c">// array</span></pre></div>
+<ul>
+<li>Crédits:</li>
+</ul>
+<p>Creator: Refaltor
+Github: <a href="https://github.com/Refaltor77">https://github.com/Refaltor77</a> 
+Youtube: <a href="https://www.youtube.com/channel/UCN5uYUbzlozB9G5L5ph_eDw" rel="nofollow">https://www.youtube.com/channel/UCN5uYUbzlozB9G5L5ph_eDw</a></p>

@@ -1,0 +1,59 @@
+{
+    "id": 9781,
+    "name": "TapToDo",
+    "version": "2.4.2",
+    "html_url": "https://poggit.pmmp.io/p/TapToDo/2.4.2",
+    "tagline": "New TapToDo for PMMP 4.0 API Minecraft.",
+    "artifact_url": "https://poggit.pmmp.io/r/176843",
+    "downloads": 214,
+    "score": null,
+    "repo_id": 492358326,
+    "repo_name": "XackiGiFF/TapToDo",
+    "project_id": 11153,
+    "project_name": "TapToDo",
+    "build_id": 133852,
+    "build_number": 60,
+    "build_commit": "dd3f44980ae81104916ce8286d0d1b1e098fc4f4",
+    "description_url": "https://poggit.pmmp.io/r/176840",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/176842",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653047766,
+    "state": 5,
+    "last_state_change_date": 1653062805,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "TapToDo"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "falkirks",
+            "XackiGiFF",
+            "BlusteryS"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

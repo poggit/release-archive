@@ -1,0 +1,60 @@
+{
+    "id": 5994,
+    "name": "RandomDrops",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/RandomDrops/1.0.1",
+    "tagline": "Lets you change drops in your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/115988",
+    "downloads": 1256,
+    "score": 4,
+    "repo_id": 338787935,
+    "repo_name": "OguzhanUmutlu/RandomDrops",
+    "project_id": 8546,
+    "project_name": "RandomDrops",
+    "build_id": 96715,
+    "build_number": 14,
+    "build_commit": "7b171d7bc7d0fbad5c8ea859605fe27f703e6540",
+    "description_url": "https://poggit.pmmp.io/r/115985",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/115987",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1613920111,
+    "state": 5,
+    "last_state_change_date": 1614009652,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "drop",
+        "drops",
+        "item",
+        "random"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

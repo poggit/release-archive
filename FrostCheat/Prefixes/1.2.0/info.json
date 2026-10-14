@@ -1,0 +1,79 @@
+{
+    "id": 13018,
+    "name": "Prefixes",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/Prefixes/1.2.0",
+    "tagline": "Crea prefixes para mostrarlos en el chat del jugador",
+    "artifact_url": "https://poggit.pmmp.io/r/238390",
+    "downloads": 122,
+    "score": null,
+    "repo_id": 792944989,
+    "repo_name": "FrostCheat/Prefixes",
+    "project_id": 13770,
+    "project_name": "Prefixes",
+    "build_id": 174860,
+    "build_number": 5,
+    "build_commit": "9bba90d16d80380c9926c3ccedf20502cb584953",
+    "description_url": "https://poggit.pmmp.io/r/238387",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/238389",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1714840744,
+    "state": 5,
+    "last_state_change_date": 1717357162,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "languages",
+        "multilanguage",
+        "plugin",
+        "plugins",
+        "prefix",
+        "prefixes",
+        "ranksystem"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "RankSystem",
+            "version": "1.1.3",
+            "depRelId": 11942,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "FrostCheat"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

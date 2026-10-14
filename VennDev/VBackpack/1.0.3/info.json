@@ -1,0 +1,75 @@
+{
+    "id": 11738,
+    "name": "VBackpack",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/VBackpack/1.0.3",
+    "tagline": "- A plugin for PocketMine-PMMP 5",
+    "artifact_url": "https://poggit.pmmp.io/r/212871",
+    "downloads": 178,
+    "score": 4,
+    "repo_id": 655375151,
+    "repo_name": "VennDev/VBackpack",
+    "project_id": 12657,
+    "project_name": "VBackpack",
+    "build_id": 157537,
+    "build_number": 15,
+    "build_commit": "7dc16883cbe42d8a29648bf6a7a19b151de67747",
+    "description_url": "https://poggit.pmmp.io/r/212870",
+    "icon_url": "https://raw.githubusercontent.com/VennDev/VBackpack/7dc16883cbe42d8a29648bf6a7a19b151de67747/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687241487,
+    "state": 5,
+    "last_state_change_date": 1687241778,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "backpack"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VennDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "392ebc5e5b36e849fdfe475222d106cf8cb3265c",
+            "build_id": 155620
+        }
+    ]
+}

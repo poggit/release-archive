@@ -1,0 +1,55 @@
+{
+    "id": 6570,
+    "name": "Trident",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Trident/1.0.0",
+    "tagline": "Implement Trident to pocketmine",
+    "artifact_url": "https://poggit.pmmp.io/r/124615",
+    "downloads": 996,
+    "score": 5,
+    "repo_id": 362463881,
+    "repo_name": "brokiem-pm-pl/Trident",
+    "project_id": 8924,
+    "project_name": "Trident",
+    "build_id": 101607,
+    "build_number": 15,
+    "build_commit": "1c1e0a9b3ef0d8f3e0506d9679212c37bf6cafb4",
+    "description_url": "https://poggit.pmmp.io/r/124617",
+    "icon_url": "https://raw.githubusercontent.com/brokiem-pm-pl/Trident/1c1e0a9b3ef0d8f3e0506d9679212c37bf6cafb4/assets/trident.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/124618",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1619916754,
+    "state": 5,
+    "last_state_change_date": 1620566114,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.15.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "brokiem"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

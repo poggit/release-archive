@@ -1,0 +1,72 @@
+{
+    "id": 13524,
+    "name": "ClearLagg",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/ClearLagg/1.2.0",
+    "tagline": "A plugin to reduce lag by clearing dropped items.",
+    "artifact_url": "https://poggit.pmmp.io/r/247455",
+    "downloads": 721,
+    "score": null,
+    "repo_id": 816294009,
+    "repo_name": "ClousClouds/ClearLagg",
+    "project_id": 13940,
+    "project_name": "ClearLagg",
+    "build_id": 181048,
+    "build_number": 130,
+    "build_commit": "3a2e43044cbd0bf15907f6a5090015361e8525a4",
+    "description_url": "https://poggit.pmmp.io/r/249881",
+    "icon_url": "https://raw.githubusercontent.com/KnosTx/ClearLagg/3a2e43044cbd0bf15907f6a5090015361e8525a4/OIG1-removebg-preview.png",
+    "changelog_url": "https://poggit.pmmp.io/r/249883",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1725453521,
+    "state": 5,
+    "last_state_change_date": 1725743643,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "ClearLag",
+        "ClearLagg"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AzliRynz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifications",
+            "project_id": 14015,
+            "repo_id": 826736135,
+            "repo_name": "NurAzli/UpdateNotifications",
+            "repo_path": "",
+            "build_commit": "8b10dcc7df000b09cf5d019b204507a12a9b0c88",
+            "build_id": 178186
+        }
+    ]
+}

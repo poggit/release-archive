@@ -1,0 +1,75 @@
+{
+    "id": 12217,
+    "name": "TopVoter",
+    "version": "3.3.0",
+    "html_url": "https://poggit.pmmp.io/p/TopVoter/3.3.0",
+    "tagline": "Do you want to honour the voters of your server? This plugin will list them on a floating text particle!",
+    "artifact_url": "https://poggit.pmmp.io/r/219961",
+    "downloads": 442,
+    "score": null,
+    "repo_id": 70970139,
+    "repo_name": "SalmonDE/TopVoter",
+    "project_id": 240,
+    "project_name": "TopVoter",
+    "build_id": 161824,
+    "build_number": 56,
+    "build_commit": "bd6c4bfc65fc00d3620d644012d3d8a1c3f3a5c2",
+    "description_url": "https://poggit.pmmp.io/r/219958",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/219960",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692057889,
+    "state": 5,
+    "last_state_change_date": 1692079450,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floatingtext",
+        "toplist",
+        "vote"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PocketVote",
+            "version": "3.0.0",
+            "depRelId": 3025,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "SalmonDE"
+        ],
+        "Contributor": [
+            "Aericio",
+            "SOF3",
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

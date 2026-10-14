@@ -1,0 +1,62 @@
+{
+    "id": 2773,
+    "name": "Wilderness",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Wilderness/0.0.1",
+    "tagline": "A PocketMine-MP plugin that teleports players into the wilderness!",
+    "artifact_url": "https://poggit.pmmp.io/r/56269",
+    "downloads": 2270,
+    "score": 4,
+    "repo_id": 178712948,
+    "repo_name": "Muqsit/Wilderness",
+    "project_id": 4875,
+    "project_name": "Wilderness",
+    "build_id": 58401,
+    "build_number": 7,
+    "build_commit": "97c5498b29943abd1b73c8d1f2fdffc25ede3f44",
+    "description_url": "https://poggit.pmmp.io/r/56268",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1555600539,
+    "state": 5,
+    "last_state_change_date": 1555724001,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "wild",
+        "wilderness"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

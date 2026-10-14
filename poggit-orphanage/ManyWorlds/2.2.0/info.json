@@ -1,0 +1,59 @@
+{
+    "id": 1790,
+    "name": "ManyWorlds",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/ManyWorlds/2.2.0",
+    "tagline": "Manage Multiple Worlds",
+    "artifact_url": "https://poggit.pmmp.io/r/39745",
+    "downloads": 21202,
+    "score": 4,
+    "repo_id": 110129005,
+    "repo_name": "poggit-orphanage/ManyWorlds",
+    "project_id": 3768,
+    "project_name": "ManyWorlds",
+    "build_id": 47827,
+    "build_number": 3,
+    "build_commit": "65200cc3ca27533e0bc3ea94a08da6841fb49602",
+    "description_url": "https://poggit.pmmp.io/r/39749",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/ManyWorlds/65200cc3ca27533e0bc3ea94a08da6841fb49602/media/ManyWorlds-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1534183098,
+    "state": 5,
+    "last_state_change_date": 1534220910,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "alejandroliu",
+            "JackMD"
+        ],
+        "Collaborator": [
+            "dktapps"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

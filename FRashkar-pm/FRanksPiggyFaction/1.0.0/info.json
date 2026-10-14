@@ -1,0 +1,82 @@
+{
+    "id": 12149,
+    "name": "FRanksPiggyFaction",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FRanksPiggyFaction/1.0.0",
+    "tagline": "Made RankSystem support PiggyFaction",
+    "artifact_url": "https://poggit.pmmp.io/r/219057",
+    "downloads": 125,
+    "score": null,
+    "repo_id": 675356532,
+    "repo_name": "FRashkar-pm/FRanksPiggyFaction",
+    "project_id": 12896,
+    "project_name": "FRanksPiggyFaction",
+    "build_id": 161295,
+    "build_number": 3,
+    "build_commit": "cbe9d1ad7517ed2a66f90a8f02c6965ed2db30d6",
+    "description_url": "https://poggit.pmmp.io/r/219056",
+    "icon_url": "https://raw.githubusercontent.com/FRashkar-pm/FRanksPiggyFaction/cbe9d1ad7517ed2a66f90a8f02c6965ed2db30d6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691393770,
+    "state": 5,
+    "last_state_change_date": 1691437992,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "addon",
+        "chat",
+        "faction",
+        "factions",
+        "franks",
+        "piggyfaction",
+        "piggyfactions",
+        "ranks",
+        "ranksystem"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "RankSystem",
+            "version": "1.1.3",
+            "depRelId": 11942,
+            "isHard": false
+        },
+        {
+            "name": "PiggyFactions",
+            "version": "2.1.0",
+            "depRelId": 11971,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "FRashkar-pm"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

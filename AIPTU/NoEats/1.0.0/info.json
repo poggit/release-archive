@@ -1,0 +1,70 @@
+{
+    "id": 8520,
+    "name": "NoEats",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/NoEats/1.0.0",
+    "tagline": "A PocketMine-MP plugin to regulate player hunger and prohibit eating certain foods easily",
+    "artifact_url": "https://poggit.pmmp.io/r/155868",
+    "downloads": 368,
+    "score": 5,
+    "repo_id": 445240847,
+    "repo_name": "AIPTU/NoEats",
+    "project_id": 10276,
+    "project_name": "NoEats",
+    "build_id": 120257,
+    "build_number": 2,
+    "build_commit": "e55570dbb6982d238241a4c02c99a946d72b31d0",
+    "description_url": "https://poggit.pmmp.io/r/155867",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/NoEats/e55570dbb6982d238241a4c02c99a946d72b31d0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641491475,
+    "state": 5,
+    "last_state_change_date": 1641491522,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-mp-plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

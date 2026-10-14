@@ -1,0 +1,57 @@
+{
+    "id": 8062,
+    "name": "SimpleSpawns",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleSpawns/2.0.0",
+    "tagline": "Spawns system for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/149145",
+    "downloads": 451,
+    "score": 4,
+    "repo_id": 389392628,
+    "repo_name": "JonyGamesYT9/SimpleSpawns",
+    "project_id": 9349,
+    "project_name": "SimpleSpawns",
+    "build_id": 116295,
+    "build_number": 30,
+    "build_commit": "a617bbe645ed52951bd744529bf0d0fec74f4050",
+    "description_url": "https://poggit.pmmp.io/r/149142",
+    "icon_url": "https://raw.githubusercontent.com/JonyGamesYT9/SimpleSpawns/a617bbe645ed52951bd744529bf0d0fec74f4050/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/149144",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638323829,
+    "state": 5,
+    "last_state_change_date": 1638546804,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "spawns"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JonyGamesYT9"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

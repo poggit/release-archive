@@ -1,0 +1,59 @@
+{
+    "id": 10404,
+    "name": "DataCleaning",
+    "version": "3.0.5",
+    "html_url": "https://poggit.pmmp.io/p/DataCleaning/3.0.5",
+    "tagline": "Clean up unnecessary data inside plugin_data folder",
+    "artifact_url": "https://poggit.pmmp.io/r/189318",
+    "downloads": 241,
+    "score": null,
+    "repo_id": 456018473,
+    "repo_name": "nhanaz-pm-pl/DataCleaner",
+    "project_id": 10537,
+    "project_name": "DataCleaning",
+    "build_id": 142505,
+    "build_number": 22,
+    "build_commit": "e67cdb397d3a5a4d77ffafabb5ab5180b8933f21",
+    "description_url": "https://poggit.pmmp.io/r/189374",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/DataCleaning/e67cdb397d3a5a4d77ffafabb5ab5180b8933f21/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/189376",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1659854997,
+    "state": 5,
+    "last_state_change_date": 1659890172,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "dataclean",
+        "datacleaning",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

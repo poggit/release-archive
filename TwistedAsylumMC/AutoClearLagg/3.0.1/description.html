@@ -1,0 +1,48 @@
+<p>The plugin you need to keep your server lagg free!</p>
+<table>
+<thead>
+<tr>
+<th align="center">Phar</th>
+<th align="center">View Count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="https://poggit.pmmp.io/ci/TwistedAsylumMC/AutoClearLagg/~" rel="nofollow"><img src="https://camo.githubusercontent.com/299fd6651a7d4fa851c29763d8124744f65fe81d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f776e6c6f61642d6c61746573742d626c75652e737667" alt="Download" data-canonical-src="https://img.shields.io/badge/download-latest-blue.svg" style="max-width:100%;"></a></td>
+<td align="center"> <a href="http://hits.dwyl.io/TwistedAsylumMC/AutoClearLagg" rel="nofollow"><img src="https://camo.githubusercontent.com/95b4cf6ec46547fb7451812c3338e0c2832c4ba5/687474703a2f2f686974732e6477796c2e696f2f547769737465644173796c756d4d432f4175746f436c6561724c6167672e737667" alt="View Count" data-canonical-src="http://hits.dwyl.io/TwistedAsylumMC/AutoClearLagg.svg" style="max-width:100%;"></a>
+</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>[x] Enable/Disable Mobs &amp; Items clearing</li>
+<li>[x] NEW: Exempt entities from clearing</li>
+<li>[x] Configurable Timer</li>
+<li>[x] Editabe Messages</li>
+</ul>
+<h1>
+<a id="user-content-configyml" class="anchor" href="#configyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>config.yml</h1>
+<pre lang="---"><code># AutoClearLagg (ACL) Config
+
+# Seconds between each clear lagg
+seconds: 300
+
+# Entities to clear
+clear:
+  items: true
+  mobs: true
+  exempt: # Array of entities not to clear
+    - Zombie
+    - Pig
+
+messages:
+  time-left: "§cEntities will clear in {SECONDS} seconds"
+  entities-cleared: "§cCleared a total of {COUNT} entities"
+
+# Countdown times
+times: [60, 30, 15, 10, 5, 4, 3, 2, 1]
+...```
+
+</code></pre>

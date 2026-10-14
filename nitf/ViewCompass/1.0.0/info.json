@@ -1,0 +1,54 @@
+{
+    "id": 2299,
+    "name": "ViewCompass",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ViewCompass/1.0.0",
+    "tagline": "ViewCompass",
+    "artifact_url": "https://poggit.pmmp.io/r/49335",
+    "downloads": 4576,
+    "score": 4,
+    "repo_id": 165512574,
+    "repo_name": "nitf/ViewCompass",
+    "project_id": 4522,
+    "project_name": "ViewCompass",
+    "build_id": 54435,
+    "build_number": 6,
+    "build_commit": "8ff2ba7d3d5156ad17de0e12a9fc748ff7988cac",
+    "description_url": "https://poggit.pmmp.io/r/49334",
+    "icon_url": "https://raw.githubusercontent.com/nitf/ViewCompass/8ff2ba7d3d5156ad17de0e12a9fc748ff7988cac/AC60D3C4-7BE5-4036-9B2C-F43BFC2EEE7A.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1547433123,
+    "state": 5,
+    "last_state_change_date": 1547453168,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "compass",
+        "direction"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "nitf"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

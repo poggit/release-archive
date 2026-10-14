@@ -1,0 +1,57 @@
+{
+    "id": 2603,
+    "name": "JukeBox",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/JukeBox/1.0.1",
+    "tagline": "Adds the Jukebox and Records to pmmp !",
+    "artifact_url": "https://poggit.pmmp.io/r/53706",
+    "downloads": 2923,
+    "score": 4,
+    "repo_id": 173498575,
+    "repo_name": "JaxkDev/JukeBox-pmmp",
+    "project_id": 4764,
+    "project_name": "JukeBox-pmmp",
+    "build_id": 56995,
+    "build_number": 18,
+    "build_commit": "c8f0b6047e8a2b1794d7552612ef97e1eeff1f8a",
+    "description_url": "https://poggit.pmmp.io/r/98467",
+    "icon_url": "https://raw.githubusercontent.com/jackthehack21/JukeBox-pmmp/c8f0b6047e8a2b1794d7552612ef97e1eeff1f8a/Jukebox.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1552326272,
+    "state": 5,
+    "last_state_change_date": 1553524450,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Disk",
+        "JukeBox",
+        "Music",
+        "Record",
+        "Sound"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Requester": [
+            "kevinishawesome"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

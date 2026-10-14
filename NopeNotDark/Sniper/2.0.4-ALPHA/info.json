@@ -1,0 +1,90 @@
+{
+    "id": 11667,
+    "name": "Spyglass-Sniper",
+    "version": "2.0.4-ALPHA",
+    "html_url": "https://poggit.pmmp.io/p/Spyglass-Sniper/2.0.4-ALPHA",
+    "tagline": "A plugin that adds a sniper to the game!",
+    "artifact_url": "https://poggit.pmmp.io/r/211967",
+    "downloads": 1400,
+    "score": 5,
+    "repo_id": 650508254,
+    "repo_name": "NopeNotDark/Sniper",
+    "project_id": 12589,
+    "project_name": "Sniper",
+    "build_id": 157075,
+    "build_number": 38,
+    "build_commit": "9c21289a217b52b864646b06e127db3c29cc7d22",
+    "description_url": "https://poggit.pmmp.io/r/211964",
+    "icon_url": "https://raw.githubusercontent.com/NopeNotDark/Sniper/9c21289a217b52b864646b06e127db3c29cc7d22/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/211966",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686644618,
+    "state": 5,
+    "last_state_change_date": 1686668851,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "admin",
+        "fun",
+        "gun",
+        "sniper"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NopeNotDark"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libRegRsp",
+            "project_id": 11316,
+            "repo_id": 488844246,
+            "repo_name": "NhanAZ-Libraries/libRegRsp",
+            "repo_path": "",
+            "build_commit": "65658921285c8a4dc1953d95321e903b12a9a0d5",
+            "build_id": 156859
+        }
+    ]
+}

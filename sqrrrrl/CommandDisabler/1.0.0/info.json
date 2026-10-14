@@ -1,0 +1,61 @@
+{
+    "id": 5048,
+    "name": "CommandDisabler",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CommandDisabler/1.0.0",
+    "tagline": "Disable unwanted commands",
+    "artifact_url": "https://poggit.pmmp.io/r/98858",
+    "downloads": 1734,
+    "score": 4,
+    "repo_id": 284342375,
+    "repo_name": "sqrrrrl/CommandDisabler",
+    "project_id": 7553,
+    "project_name": "CommandDisabler",
+    "build_id": 85531,
+    "build_number": 4,
+    "build_commit": "851a7de69253abe76317d3ceda67d7ec1da36a3b",
+    "description_url": "https://poggit.pmmp.io/r/107194",
+    "icon_url": "https://raw.githubusercontent.com/superbobby2000/CommandDisabler/851a7de69253abe76317d3ceda67d7ec1da36a3b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1596473680,
+    "state": 5,
+    "last_state_change_date": 1596486656,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Command"
+    ],
+    "api": [
+        {
+            "from": "3.14.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "sqrrrrl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

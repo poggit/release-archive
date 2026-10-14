@@ -1,0 +1,58 @@
+{
+    "id": 10191,
+    "name": "AntiServerStop",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AntiServerStop/1.0.1",
+    "tagline": "The operator won't be able to stop your server if they don't have the password!",
+    "artifact_url": "https://poggit.pmmp.io/r/184904",
+    "downloads": 1042,
+    "score": null,
+    "repo_id": 495038766,
+    "repo_name": "nhanaz-pm-pl/AntiServerStop",
+    "project_id": 11199,
+    "project_name": "AntiServerStop",
+    "build_id": 139325,
+    "build_number": 9,
+    "build_commit": "1da751b7a64b21811af3c13dca738bc333ca62a7",
+    "description_url": "https://poggit.pmmp.io/r/184901",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/AntiServerStop/1da751b7a64b21811af3c13dca738bc333ca62a7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/184903",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1657052207,
+    "state": 5,
+    "last_state_change_date": 1657248915,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "antiserverstop",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

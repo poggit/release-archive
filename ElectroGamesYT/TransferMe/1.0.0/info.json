@@ -1,0 +1,61 @@
+{
+    "id": 6872,
+    "name": "TransferMe",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TransferMe/1.0.0",
+    "tagline": "Transfer yourself, another player, or all online players to another server",
+    "artifact_url": "https://poggit.pmmp.io/r/129387",
+    "downloads": 347,
+    "score": 5,
+    "repo_id": 378269457,
+    "repo_name": "ElectroGamesYT/TransferMe",
+    "project_id": 9149,
+    "project_name": "TransferMe",
+    "build_id": 104502,
+    "build_number": 1,
+    "build_commit": "91a9b03ecf7a4246f802fabd16a2cfb5284d3b40",
+    "description_url": "https://poggit.pmmp.io/r/129386",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/TransferMe/91a9b03ecf7a4246f802fabd16a2cfb5284d3b40/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1624052603,
+    "state": 5,
+    "last_state_change_date": 1624655586,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "transfer",
+        "transferall",
+        "transferme",
+        "transferplayers",
+        "transferserver"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

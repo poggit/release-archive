@@ -1,0 +1,71 @@
+{
+    "id": 11655,
+    "name": "Relics",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Relics/3.0.0",
+    "tagline": "An awesome relic plugin for PocketMine-MP!",
+    "artifact_url": "https://poggit.pmmp.io/r/211800",
+    "downloads": 401,
+    "score": null,
+    "repo_id": 256517202,
+    "repo_name": "ComplexityEU/ComplexRelics",
+    "project_id": 6732,
+    "project_name": "ComplexRelics",
+    "build_id": 156995,
+    "build_number": 15,
+    "build_commit": "38bd02b13daf84641fa95ab14e3675b7887fb7e5",
+    "description_url": "https://poggit.pmmp.io/r/211797",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/211799",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1686575172,
+    "state": 5,
+    "last_state_change_date": 1686598280,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "mining",
+        "relic",
+        "relics",
+        "rewards"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "TwistedAsylumMC"
+        ],
+        "Collaborator": [
+            "DuoIncure"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

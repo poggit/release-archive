@@ -1,0 +1,66 @@
+{
+    "id": 9800,
+    "name": "SlapperRotationV2",
+    "version": "2.0.5",
+    "html_url": "https://poggit.pmmp.io/p/SlapperRotationV2/2.0.5",
+    "tagline": "Slappers look at players!",
+    "artifact_url": "https://poggit.pmmp.io/r/177349",
+    "downloads": 960,
+    "score": null,
+    "repo_id": 476236907,
+    "repo_name": "xqwtxon/SlapperRotationV2",
+    "project_id": 10951,
+    "project_name": "SlapperRotationV2",
+    "build_id": 134213,
+    "build_number": 43,
+    "build_commit": "08f440c05ef3112068d90a93f54ade9dab4c3d0e",
+    "description_url": "https://poggit.pmmp.io/r/177345",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/177347",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/177348",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653533515,
+    "state": 5,
+    "last_state_change_date": 1653534037,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "2.0.6",
+            "depRelId": 9419,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "xqwtxon"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

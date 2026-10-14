@@ -1,0 +1,64 @@
+{
+    "id": 12131,
+    "name": "Vouchers",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Vouchers/2.0.0",
+    "tagline": "This plugin adds Vouchers to the server. Its great for Rank Vouchers, Money Vouchers, etc!",
+    "artifact_url": "https://poggit.pmmp.io/r/218877",
+    "downloads": 456,
+    "score": 5,
+    "repo_id": 388037171,
+    "repo_name": "ElectroGamesYT/Vouchers",
+    "project_id": 9321,
+    "project_name": "Vouchers",
+    "build_id": 161198,
+    "build_number": 14,
+    "build_commit": "f3f8802e393d742efe170920a79e1fae24182da4",
+    "description_url": "https://poggit.pmmp.io/r/218874",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/Vouchers/f3f8802e393d742efe170920a79e1fae24182da4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/218876",
+    "license": "AGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691258019,
+    "state": 5,
+    "last_state_change_date": 1691258093,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "MoneyVoucher",
+        "RankVoucher",
+        "Voucher",
+        "Vouchers"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

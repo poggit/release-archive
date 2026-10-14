@@ -1,0 +1,61 @@
+{
+    "id": 14457,
+    "name": "CherrySapling",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/CherrySapling/0.0.1",
+    "tagline": "CherrySapling is a simple plugin that introduces cherry saplings to the server, enabling them to grow just like regular trees.",
+    "artifact_url": "https://poggit.pmmp.io/r/264555",
+    "downloads": 40,
+    "score": null,
+    "repo_id": 1226996878,
+    "repo_name": "BeeAZ-pm-pl/CherrySapling",
+    "project_id": 15229,
+    "project_name": "CherrySapling",
+    "build_id": 192727,
+    "build_number": 8,
+    "build_commit": "5103d048321beeb14ed4e3b36cb6804e1897e41f",
+    "description_url": "https://poggit.pmmp.io/r/264554",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/CherrySapling/5103d048321beeb14ed4e3b36cb6804e1897e41f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1779291828,
+    "state": 5,
+    "last_state_change_date": 1783023815,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "cherrysaplingplugin"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

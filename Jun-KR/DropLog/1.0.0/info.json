@@ -1,0 +1,61 @@
+{
+    "id": 6016,
+    "name": "DropLog",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DropLog/1.0.0",
+    "tagline": "Records player dropping items.",
+    "artifact_url": "https://poggit.pmmp.io/r/116183",
+    "downloads": 481,
+    "score": null,
+    "repo_id": 340640921,
+    "repo_name": "Jun-KR/DropLog",
+    "project_id": 8571,
+    "project_name": "DropLog",
+    "build_id": 96960,
+    "build_number": 2,
+    "build_commit": "e0cbdbf6273172fc5c3ff28aafb2c3d876869d0f",
+    "description_url": "https://poggit.pmmp.io/r/116182",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614020922,
+    "state": 5,
+    "last_state_change_date": 1614521694,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "DropLog"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Jun-KR"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

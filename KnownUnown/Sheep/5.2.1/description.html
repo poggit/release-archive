@@ -1,0 +1,37 @@
+<h1>
+<a id="user-content-sheep" class="anchor" href="#sheep" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sheep</h1>
+<p>A plugin manager for PocketMine-MP. It installs and uninstalls plugins, among other things.</p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><code>install &lt;plugin&gt; [version]</code></td>
+<td>Installs a plugin</td>
+</tr>
+<tr>
+<td align="center"><code>uninstall &lt;plugin&gt;</code></td>
+<td>Uninstalls a plugin</td>
+</tr>
+<tr>
+<td align="center"><code>update &lt;plugin&gt;</code></td>
+<td>Updates a plugin.</td>
+</tr>
+<tr>
+<td align="center"><code>info &lt;plugin&gt;</code></td>
+<td>Fetches info about a plugin from Poggit</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>Sheep provides a flexible API to plugins wishing to add or interface with defined <code>Sources</code> (default: Poggit.) It employs a modern <code>Promise</code>-based framework for asynchronous operation. Further information may be found in the <a href="https://github.com/KnownUnown/Sheep/blob/master/src/Sheep/Sheep.php">Sheep API class</a>.</p>
+<h2>
+<a id="user-content-security" class="anchor" href="#security" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Security</h2>
+<p>Sheep takes the security of your server very seriously. It only allows the execution of commands from the PocketMine console, therefore eliminating the possibility of unwanted plugin installation from a compromised operator account.</p>

@@ -1,0 +1,70 @@
+{
+    "id": 3095,
+    "name": "ClassicLightningStrike",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/ClassicLightningStrike/1.0",
+    "tagline": "Spawns a lightning strike to a player upon death",
+    "artifact_url": "https://poggit.pmmp.io/r/61171",
+    "downloads": 1727,
+    "score": 5,
+    "repo_id": 194173802,
+    "repo_name": "UnknownBallin/ClassicLightningStrike",
+    "project_id": 5242,
+    "project_name": "ClassicLightningStrike",
+    "build_id": 61088,
+    "build_number": 2,
+    "build_commit": "eeece4eb5d20b64d342ff86c338a9c39d2d394f2",
+    "description_url": "https://poggit.pmmp.io/r/62244",
+    "icon_url": "https://raw.githubusercontent.com/UnknownBallin/ClassicLightningStrike/eeece4eb5d20b64d342ff86c338a9c39d2d394f2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1561838266,
+    "state": 5,
+    "last_state_change_date": 1562072101,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "death",
+        "lightning",
+        "level",
+        "world",
+        "fun",
+        "kill"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "UnknownBallin"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

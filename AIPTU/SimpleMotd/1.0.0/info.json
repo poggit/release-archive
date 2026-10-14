@@ -1,0 +1,66 @@
+{
+    "id": 8464,
+    "name": "SimpleMotd",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleMotd/1.0.0",
+    "tagline": "A PocketMine-MP plugin to change server motd easily",
+    "artifact_url": "https://poggit.pmmp.io/r/155148",
+    "downloads": 793,
+    "score": 5,
+    "repo_id": 436680933,
+    "repo_name": "AIPTU/SimpleMotd",
+    "project_id": 10099,
+    "project_name": "SimpleMotd",
+    "build_id": 119843,
+    "build_number": 5,
+    "build_commit": "e63537ad7251879b160236a036a3c3f1f0ddc0f8",
+    "description_url": "https://poggit.pmmp.io/r/155147",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/SimpleMotd/e63537ad7251879b160236a036a3c3f1f0ddc0f8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641032558,
+    "state": 5,
+    "last_state_change_date": 1641830349,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

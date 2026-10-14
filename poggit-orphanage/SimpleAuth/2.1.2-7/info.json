@@ -1,0 +1,73 @@
+{
+    "id": 1380,
+    "name": "SimpleAuth",
+    "version": "2.1.2-7",
+    "html_url": "https://poggit.pmmp.io/p/SimpleAuth/2.1.2-7",
+    "tagline": "Classic SimpleAuth",
+    "artifact_url": "https://poggit.pmmp.io/r/30452",
+    "downloads": 7889,
+    "score": 2,
+    "repo_id": 84246690,
+    "repo_name": "poggit-orphanage/SimpleAuth",
+    "project_id": 315,
+    "project_name": "SimpleAuth",
+    "build_id": 41301,
+    "build_number": 46,
+    "build_commit": "0c0abd0e72691a21925f61f8958c5bfc0a04ed1a",
+    "description_url": "https://poggit.pmmp.io/r/30449",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/SimpleAuth/0c0abd0e72691a21925f61f8958c5bfc0a04ed1a/sa.png",
+    "changelog_url": "https://poggit.pmmp.io/r/30451",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526416333,
+    "state": 5,
+    "last_state_change_date": 1526416337,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "simpleauth",
+        "simple",
+        "auth",
+        "login",
+        "register",
+        "password"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA11",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SimpleAuthHelper",
+            "version": "2.0.6-5",
+            "depRelId": 868,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "shoghicp",
+            "awzaw"
+        ],
+        "Contributor": [
+            "sof3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

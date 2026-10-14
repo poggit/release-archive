@@ -1,0 +1,68 @@
+{
+    "id": 12750,
+    "name": "PlayerWarpsUI",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerWarpsUI/1.2.0",
+    "tagline": "PlayerWarpsUI Plugin PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/231470",
+    "downloads": 1068,
+    "score": null,
+    "repo_id": 633212325,
+    "repo_name": "XeonCh/PlayerWarpsUI",
+    "project_id": 12385,
+    "project_name": "PlayerWarpsUI",
+    "build_id": 170036,
+    "build_number": 25,
+    "build_commit": "2e5112557d7578be24798418926ace10e0448fec",
+    "description_url": "https://poggit.pmmp.io/r/231476",
+    "icon_url": "https://raw.githubusercontent.com/XeonCh/PlayerWarpsUI/2e5112557d7578be24798418926ace10e0448fec/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/231478",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1705692590,
+    "state": 5,
+    "last_state_change_date": 1706883727,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "PlayerWarp",
+        "PlayerWarps",
+        "PlayerWarpsUI",
+        "WarpsUi"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.2",
+            "depRelId": 12718,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "XeonCh",
+            "dhnnz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,456 @@
+<p><a href="https://poggit.pmmp.io/p/SimpleFaction" rel="nofollow"><img src="https://camo.githubusercontent.com/4f29eefb442c5bdb5057287a26b304267b904708e638d9a3de91f0232b141e5d/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f53696d706c6546616374696f6e" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/SimpleFaction" style="max-width:100%;"></a> <a href="https://poggit.pmmp.io/p/SimpleFaction" rel="nofollow"><img src="https://camo.githubusercontent.com/9407b47c15edaca99a85431e23810a864c84b32aa98309e6a2fbcb266762e61b/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f53696d706c6546616374696f6e" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/SimpleFaction" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-simplefaction" class="anchor" href="#simplefaction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SimpleFaction</h1>
+<h6>
+<a id="user-content-simple-faction-plugin-replacing-factionspro-which-is-no-longer-updated" class="anchor" href="#simple-faction-plugin-replacing-factionspro-which-is-no-longer-updated" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Simple faction plugin replacing FactionsPro which is no longer updated.</h6>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command Name</th>
+<th>Command Description</th>
+<th>Available for</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/f help</code></td>
+<td>Faction help menu.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f create</code></td>
+<td>Create a faction.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f info</code></td>
+<td>Get information of a faction.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f who</code></td>
+<td>Get information of a player's faction.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f accept</code></td>
+<td>Accept a faction invitation.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f deny</code></td>
+<td>Deny a faction invitation.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f chat</code></td>
+<td>Change your chat configuration.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f home</code></td>
+<td>Teleport to your faction's home</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f top</code></td>
+<td>Shows the top factions.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f bank</code></td>
+<td>Manage your faction's bank.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f leave</code></td>
+<td>Leave your current faction.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f map</code></td>
+<td>Show the nearby claims.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f border</code></td>
+<td>Show the chunk border limit.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f here  </code></td>
+<td>Show claims information.</td>
+<td> everyone</td>
+</tr>
+<tr>
+<td><code>/f claim</code></td>
+<td>Claim a chunk.</td>
+<td> officers</td>
+</tr>
+<tr>
+<td><code>/f unclaim</code></td>
+<td>Unclaim a chunk.</td>
+<td> officers</td>
+</tr>
+<tr>
+<td><code>/f invite</code></td>
+<td>Invite a player to your faction.</td>
+<td> officers</td>
+</tr>
+<tr>
+<td><code>/f kick</code></td>
+<td>Kick a player from your faction.</td>
+<td> officers</td>
+</tr>
+<tr>
+<td><code>/f sethome</code></td>
+<td>Set your faction's home.</td>
+<td> officers</td>
+</tr>
+<tr>
+<td><code>/f delhome</code></td>
+<td>Delete your faction's home.</td>
+<td> officers</td>
+</tr>
+<tr>
+<td><code>/f war</code></td>
+<td>Manage faction wars.</td>
+<td> officers</td>
+</tr>
+<tr>
+<td><code>/f delete</code></td>
+<td>Delete your faction.</td>
+<td> leader</td>
+</tr>
+<tr>
+<td><code>/f allies</code></td>
+<td>Manage your faction alliances.</td>
+<td> leader</td>
+</tr>
+<tr>
+<td><code>/f promote</code></td>
+<td>Promote a member.</td>
+<td> leader</td>
+</tr>
+<tr>
+<td><code>/f demote</code></td>
+<td>Demote an officer.</td>
+<td> leader</td>
+</tr>
+<tr>
+<td><code>/f transfer</code></td>
+<td>Transfer your leader status.</td>
+<td> leader</td>
+</tr>
+<tr>
+<td><code>/f admin</code></td>
+<td>Administrative commands.</td>
+<td> staff (simplefaction.admin)</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-future-additions" class="anchor" href="#future-additions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Future additions</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Safezone system</code></td>
+<td>Allows you to create safezones that cannot be claimed.</td>
+<td>system</td>
+</tr>
+<tr>
+<td><code>UI System</code></td>
+<td>Add an UI extension plugin.</td>
+<td>extension</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>SimpleFaction</th>
+<th>FactionsPro</th>
+<th>PiggyFactions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SQLite3 Support</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td><code>MySQL Support</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td><code>Async Queries</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td><code>Editable message</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td><code>Multiple claim</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td><code>Multi-Language Support</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td><code>Economy System</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td><code>EconomyAPI Support</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td><code>ScoreHUD Support (v5 &amp; v6)</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td><code>Simplicity</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td><code>Floating Text</code></td>
+<td><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+<td><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-additional-plugins" class="anchor" href="#additional-plugins" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional plugins</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Usage</th>
+<th>Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EconomyAPI</td>
+<td>Bank system</td>
+<td><a href="https://poggit.pmmp.io/p/EconomyAPI" rel="nofollow">Download</a></td>
+</tr>
+<tr>
+<td>PureChat</td>
+<td>Chat integration</td>
+<td><a href="https://poggit.pmmp.io/r/119566/PureChat_dev-2.phar" rel="nofollow">Download</a></td>
+</tr>
+<tr>
+<td>Rank</td>
+<td>Chat integration</td>
+<td><a href="https://github.com/Virvolta/Rank">Download</a></td>
+</tr>
+<tr>
+<td>FacEssential</td>
+<td>Chat &amp; Scoreboard integration</td>
+<td><a href="https://github.com/Zoumi-Dev/FacEssential">Download</a></td>
+</tr>
+<tr>
+<td>Scoreboard</td>
+<td>Scoreboard integration</td>
+<td><a href="https://poggit.pmmp.io/r/119565/Scoreboard_dev-5.phar" rel="nofollow">Download</a></td>
+</tr>
+<tr>
+<td>ScoreHUD</td>
+<td>Scoreboard integration</td>
+<td><a href="https://poggit.pmmp.io/p/ScoreHud" rel="nofollow">Download</a></td>
+</tr>
+<tr>
+<td>ScoreHUD V5 Addon</td>
+<td>Scoreboard Integration</td>
+<td><a href="https://github.com/AyzrixYTB/SimpleFaction/blob/master/addons/ScoreHUD5.2.0/SimpleFactionAddon.php">Download</a></td>
+</tr>
+<tr>
+<td>ScoreHUD V6 Addon</td>
+<td>Scoreboard Integration</td>
+<td><a href="https://github.com/AyzrixYTB/SimpleFaction/raw/master/addons/ScoreHUD6.0.0/SimpleFactionAddon.phar">Download</a></td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributors</h2>
+<ul>
+<li>@Se7en-dev</li>
+<li>@max-xoo</li>
+</ul>
+<h2>
+<a id="user-content-translators" class="anchor" href="#translators" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Translators</h2>
+<ul>
+<li>
+<strong>English</strong> - @Ayzrix, Se7en-dev &amp; UnEnanoMas.</li>
+<li>
+<strong>French</strong> - @Ayzrix.</li>
+<li>
+<strong>Spanish</strong> - @Santi.</li>
+</ul>
+<h2>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h2>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span>     _____ _                 _      ______         _   _</span>
+<span class="pl-c"><span class="pl-c">#</span>    / ____(_)               | |    |  ____|       | | (_)</span>
+<span class="pl-c"><span class="pl-c">#</span>   | (___  _ _ __ ___  _ __ | | ___| |__ __ _  ___| |_ _  ___  _ __</span>
+<span class="pl-c"><span class="pl-c">#</span>    \___ \| | '_ ` _ \| '_ \| |/ _ \  __/ _` |/ __| __| |/ _ \| '_ \</span>
+<span class="pl-c"><span class="pl-c">#</span>    ____) | | | | | | | |_) | |  __/ | | (_| | (__| |_| | (_) | | | |</span>
+<span class="pl-c"><span class="pl-c">#</span>   |_____/|_|_| |_| |_| .__/|_|\___|_|  \__,_|\___|\__|_|\___/|_| |_|</span>
+<span class="pl-c"><span class="pl-c">#</span>                      | |</span>
+<span class="pl-c"><span class="pl-c">#</span>                      |_|</span>
+<span class="pl-c"><span class="pl-c">#</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Database provider (SQLITE | MYSQL)</span>
+<span class="pl-ent">PROVIDER</span>: <span class="pl-s"><span class="pl-pds">"</span>SQLITE<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Edit this only if 'PROVIDER' is on MYSQL</span>
+<span class="pl-ent">mysql_address</span>: <span class="pl-s"><span class="pl-pds">"</span>SERVER ADDRESS<span class="pl-pds">"</span></span>
+<span class="pl-ent">mysql_user</span>: <span class="pl-s"><span class="pl-pds">"</span>USER<span class="pl-pds">"</span></span>
+<span class="pl-ent">mysql_password</span>: <span class="pl-s"><span class="pl-pds">"</span>YOUR PASSWORD<span class="pl-pds">"</span></span>
+<span class="pl-ent">mysql_db</span>: <span class="pl-s"><span class="pl-pds">"</span>YOUR DB<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Broadcast a message on faction creation / deletion</span>
+<span class="pl-ent">broadcast_message_created</span>: <span class="pl-c1">true</span>
+<span class="pl-ent">broadcast_message_disband</span>: <span class="pl-c1">true</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Activate or deactivate entering and leaving messages.</span>
+<span class="pl-ent">entering_leaving</span>: <span class="pl-c1">true</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Activate or deactivate the bank system (/f bank)</span>
+<span class="pl-ent">economy_system</span>: <span class="pl-c1">false</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Activate or deactivate the war system (/f war)</span>
+<span class="pl-ent">war_system</span>: <span class="pl-c1">true</span>
+
+<span class="pl-c"><span class="pl-c">#</span> War duration in seconds</span>
+<span class="pl-ent">war_timer</span>: <span class="pl-c1">300</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Faction name limit.</span>
+<span class="pl-ent">min_faction_name_lenght</span>: <span class="pl-c1">3</span>
+<span class="pl-ent">max_faction_name_lenght</span>: <span class="pl-c1">16</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Power gained per kill and lost per death.</span>
+<span class="pl-ent">power_gain_per_kill</span>: <span class="pl-c1">1</span>
+<span class="pl-ent">power_lost_per_death</span>: <span class="pl-c1">1</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Worlds where the players can claim.</span>
+<span class="pl-ent">faction_worlds</span>: <span class="pl-s">["world"]</span>
+
+<span class="pl-c"><span class="pl-c">#</span> TRUE = ENABLE | FALSE = DISABLE</span>
+<span class="pl-ent">faction_pvp</span>: <span class="pl-c1">false</span>
+<span class="pl-ent">alliance_pvp</span>: <span class="pl-c1">false</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Time in seconds before invitations expire</span>
+<span class="pl-ent">invitation_expire_time</span>: <span class="pl-c1">30</span>
+<span class="pl-ent">allies_invitation_expire_time</span>: <span class="pl-c1">60</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Max members in a faction.</span>
+<span class="pl-ent">faction_max_members</span>: <span class="pl-c1">20</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Max allies in a faction.</span>
+<span class="pl-ent">faction_max_allies</span>: <span class="pl-c1">2</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Default power of factions</span>
+<span class="pl-ent">default_power</span>: <span class="pl-c1">0</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Select the claim mode you want (CUSTOM | MULTIPLICATIVE | ADDITIVE)</span>
+<span class="pl-ent">claim-mode</span>: <span class="pl-s"><span class="pl-pds">"</span>CUSTOM<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> CUSTOM : Define the power needed for each individual claim.</span>
+<span class="pl-c"><span class="pl-c">#</span> Maximum claim number is defined by the amount of lines you add in the list below.</span>
+<span class="pl-c"><span class="pl-c">#</span> (1 line = 1 claim)</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Edit this part ONLY if you select CUSTOM as the claim mode.</span>
+<span class="pl-ent">custom_claims</span>:
+  - <span class="pl-c1">100</span>
+  - <span class="pl-c1">500</span>
+  - <span class="pl-c1">800</span>
+  - <span class="pl-c1">1000</span>
+  - <span class="pl-c1">2500</span>
+  - <span class="pl-c1">5000</span>
+
+<span class="pl-c"><span class="pl-c">#</span> MULTIPLICATIVE : Define the power needed for each claim with a multiplicative factor.</span>
+<span class="pl-c"><span class="pl-c">#</span> Claim cost = starting claim price*(multiplicative factor**claim count)</span>
+<span class="pl-c"><span class="pl-c">#</span> EXAMPLE with starting claim price = 100, multiplicative factor = 2 :</span>
+<span class="pl-c"><span class="pl-c">#</span> 1st claim costs 100*(2**0) = 100, 2nd claim costs 100*(2**1) = 200, 3rd claim 100*(2**2) = 400 etc...</span>
+
+<span class="pl-c"><span class="pl-c">#</span> ADDITIVE : Define the power needed for each claim with an additive factor.</span>
+<span class="pl-c"><span class="pl-c">#</span> Claim cost = starting claim price+(additive factor*claim count)</span>
+<span class="pl-c"><span class="pl-c">#</span> EXAMPLE with starting claim price = 100, additive factor = 500 :</span>
+<span class="pl-c"><span class="pl-c">#</span> 1st claim costs 100+(500*0) = 100, 2nd claim costs 100+(500*1) = 600, 3rd claim 100+(500*2) = 1100 etc...</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Edit this part ONLY if you select MULTIPLICATIVE or ADDITIVE as the claim mode.</span>
+<span class="pl-ent">starting_claim_price</span>: <span class="pl-c1">100</span>
+<span class="pl-ent">factor</span>: <span class="pl-c1">2</span> <span class="pl-c"><span class="pl-c">#</span> multiplicative or additive factor (depending on the claim mode you chose)</span>
+<span class="pl-ent">max_claims</span>: <span class="pl-c1">5</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Claims of the same faction have to be next to each other (first claim can be anywhere) (true|false)</span>
+<span class="pl-ent">adjacent_claims</span>: <span class="pl-c1">false</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Prefix usable in languages. {prefix}</span>
+<span class="pl-ent">PREFIX</span>: <span class="pl-s"><span class="pl-pds">"</span>§6[§fSimpleFaction§6]§f<span class="pl-pds">"</span></span>
+<span class="pl-ent">PLAYER_ONLY</span>: <span class="pl-s"><span class="pl-pds">"</span>{prefix} §cThis command can't be used in the console !<span class="pl-pds">"</span></span>
+<span class="pl-ent">MAP_HEADER</span>: <span class="pl-s"><span class="pl-pds">"</span>§6--------------------(§f{X}§6, §f{Z}§6)--------------------<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Banned faction names</span>
+<span class="pl-ent">banned_names</span>: <span class="pl-s">["op", "staff", "admin", "fuck", "shit"]</span>
+
+<span class="pl-ent">zones_colors</span>:
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Wilderness</span><span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>§d<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Own-Faction</span><span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>§a<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Allies</span><span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>§e<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Enemies</span><span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>§c<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> RGB Colors</span>
+<span class="pl-ent">border_colors</span>:
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Wilderness</span><span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>255, 0, 180<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Own-Faction</span><span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>0, 255, 0<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Allies</span><span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>255, 255, 0<span class="pl-pds">"</span></span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Enemies</span><span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>255, 0, 0<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Top floating text</span>
+<span class="pl-c"><span class="pl-c">#</span> true | false</span>
+<span class="pl-ent">floating_text</span>: <span class="pl-c1">false</span>
+<span class="pl-c"><span class="pl-c">#</span> "X:Y:Z:WORLD"</span>
+<span class="pl-ent">floating_text_coordinates</span>: <span class="pl-s"><span class="pl-pds">"</span>0:100:0:world<span class="pl-pds">"</span></span>
+<span class="pl-ent">floating_text_title</span>: <span class="pl-s"><span class="pl-pds">"</span>§6- §fTop 10 factions with the most power §6-<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> TAGS: {number} {faction} {power} {members} {bank}</span>
+<span class="pl-c"><span class="pl-c">#</span> Sort by power.</span>
+<span class="pl-ent">floating_text_line</span>: <span class="pl-s"><span class="pl-pds">"</span>§6#{number} §f- §6{faction} §fwith §6{power} §fpower(s) and §6{bank} §fmoney<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Line limit</span>
+<span class="pl-ent">floating_text_limit</span>: <span class="pl-c1">10</span></pre></div>

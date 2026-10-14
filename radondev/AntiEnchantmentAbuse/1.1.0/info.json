@@ -1,0 +1,63 @@
+{
+    "id": 2108,
+    "name": "AntiEnchantmentAbuse",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiEnchantmentAbuse/1.1.0",
+    "tagline": "Ban enchantments over a certain level",
+    "artifact_url": "https://poggit.pmmp.io/r/46643",
+    "downloads": 6068,
+    "score": 5,
+    "repo_id": 159055237,
+    "repo_name": "radondev/AntiEnchantmentAbuse",
+    "project_id": 4295,
+    "project_name": "AntiEnchantmentAbuse",
+    "build_id": 52784,
+    "build_number": 4,
+    "build_commit": "0ddd06b08aeaaf026b4b5b0e73eec864df43dac1",
+    "description_url": "https://poggit.pmmp.io/r/46642",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1543420782,
+    "state": 5,
+    "last_state_change_date": 1543602300,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Anti",
+        "enchantments",
+        "remove"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "radondev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

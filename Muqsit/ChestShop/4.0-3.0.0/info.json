@@ -1,0 +1,84 @@
+{
+    "id": 1511,
+    "name": "ChestShop",
+    "version": "4.0-3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ChestShop/4.0-3.0.0",
+    "tagline": "Create GUI-based shops",
+    "artifact_url": "https://poggit.pmmp.io/r/33969",
+    "downloads": 1470,
+    "score": null,
+    "repo_id": 80020239,
+    "repo_name": "Muqsit/ChestShop",
+    "project_id": 239,
+    "project_name": "ChestShop",
+    "build_id": 44039,
+    "build_number": 26,
+    "build_commit": "95ac07116e1f3b1fcdc51533d5a0e97c0657aeae",
+    "description_url": "https://poggit.pmmp.io/r/33966",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/33968",
+    "license": null,
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529410882,
+    "state": 5,
+    "last_state_change_date": 1529410882,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "buy",
+        "chestshop",
+        "economy",
+        "gui",
+        "sell"
+    ],
+    "api": [],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-5",
+            "depRelId": 1107,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "fycarman",
+            "Adam1609",
+            "XDqrkneZ",
+            "AIPTU",
+            "test-compte"
+        ],
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "9f610dbf497a161333118eea34b726e8be2c2468",
+            "build_id": 44033
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+<h2>
+<a id="user-content-information" class="anchor" href="#information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Information</h2>
+<p><a href="http://hits.dwyl.io/Xenophilicy/OreGen" rel="nofollow"><img src="https://camo.githubusercontent.com/96953a21fca4d9ab1d7d946247d2b54bc14d5492/687474703a2f2f686974732e6477796c2e696f2f58656e6f7068696c6963792f4f726547656e2e737667" alt="HitCount" data-canonical-src="http://hits.dwyl.io/Xenophilicy/OreGen.svg" style="max-width:100%;"></a>
+<a href="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" alt="" data-canonical-src="https://img.shields.io/discord/490677165289897995.svg?style=flat-square" style="max-width:100%;"></a></p>
+<p><strong>With this plugin you are able to set up custom blocks to spawn in a classic cobblestone generator rather than just plain cobblestone blocks! Each time a block spawns in a cobblestone generator, it has a chance to change to a desired block. These blocks and their probability can be changed in the plugin's <em>config.yml</em> file. You can black/whitelist certain worlds for OreGen to function in, or have it function in all worlds at once!</strong></p>
+<p><em>You can find a video example on YouTube → <a href="https://www.youtube.com/watch?v=Fb6llO6q9Ps" rel="nofollow">https://www.youtube.com/watch?v=Fb6llO6q9Ps</a></em></p>
+<hr>
+<ul>
+<li>
+<strong>Version:</strong> 1.2.0</li>
+<li>
+<strong>Basic Description:</strong> Generate ores inside a cobble generator!</li>
+<li><em>Easy to edit config.yml file</em></li>
+<li><em>Simple code for editing and debugging</em></li>
+</ul>
+<p><em>Thanks to Livingven0m for making the Plugin Icon!</em></p>
+<ul>
+<li><a href="https://www.fiverr.com/phnxven0m" rel="nofollow">Ven0m's Fiverr - Icon design</a></li>
+</ul>
+<h2>
+<a id="user-content-example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h2>
+<p><a href=""><img src="https://camo.githubusercontent.com/bdff0f1c936fea83e844107e63f697ecd034f65f/68747470733a2f2f66696c652e78656e6f736572766572732e6e65742f5265736f75726365732f4769744875622d5265736f75726365732f6f726567656e2f73637265656e73686f742e706e67" alt="Xenophilicy" data-canonical-src="https://file.xenoservers.net/Resources/GitHub-Resources/oregen/screenshot.png" style="max-width:100%;"></a></p>
+<h3>
+<a id="user-content-block-formatting" class="anchor" href="#block-formatting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Block Formatting</h3>
+<div class="highlight highlight-source-yaml"><pre> <span class="pl-ent">Blocks</span>:
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Block-ID:Block-Damage</span><span class="pl-pds">"</span></span>: <span class="pl-s">Block-Probability</span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Block-ID:Block-Damage</span><span class="pl-pds">"</span></span>: <span class="pl-s">Block-Probability</span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">Block-ID:Block-Damage</span><span class="pl-pds">"</span></span>: <span class="pl-s">Block-Probability</span></pre></div>
+<h3>
+<a id="user-content-config-example" class="anchor" href="#config-example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config Example</h3>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">Blocks</span>:
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">16:0</span><span class="pl-pds">"</span></span>: <span class="pl-c1">18</span> <span class="pl-c"><span class="pl-c">#</span> Coal Ore</span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">15:0</span><span class="pl-pds">"</span></span>: <span class="pl-c1">10</span> <span class="pl-c"><span class="pl-c">#</span> Iron Ore</span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">14:0</span><span class="pl-pds">"</span></span>: <span class="pl-c1">8</span> <span class="pl-c"><span class="pl-c">#</span> Gold Ore</span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">21:0</span><span class="pl-pds">"</span></span>: <span class="pl-c1">7</span> <span class="pl-c"><span class="pl-c">#</span> Lapis Lazuli Ore</span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">73:0</span><span class="pl-pds">"</span></span>: <span class="pl-c1">5</span> <span class="pl-c"><span class="pl-c">#</span> Redstone Ore</span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">129:0</span><span class="pl-pds">"</span></span>: <span class="pl-c1">4</span> <span class="pl-c"><span class="pl-c">#</span> Emerald</span>
+  <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">56:0</span><span class="pl-pds">"</span></span>: <span class="pl-c1">3</span> <span class="pl-c"><span class="pl-c">#</span> Diamond Ore</span></pre></div>
+<hr>
+<p><em>If you want a "hands-on" example to see it for yourself, come join the XenoServers SkyBlock server!</em></p>
+<p><strong>IP: play.xenoservers.net</strong></p>
+<p><strong>Port: 19136(SkyBlock)</strong></p>

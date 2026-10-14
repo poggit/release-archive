@@ -1,0 +1,55 @@
+{
+    "id": 8696,
+    "name": "SkinBan",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SkinBan/1.0.0",
+    "tagline": "Pocketmine Plugin to be able to ban skins of players.",
+    "artifact_url": "https://poggit.pmmp.io/r/158482",
+    "downloads": 358,
+    "score": 5,
+    "repo_id": 452665985,
+    "repo_name": "TheDataLion/SkinBan",
+    "project_id": 10445,
+    "project_name": "SkinBan",
+    "build_id": 121887,
+    "build_number": 5,
+    "build_commit": "9e2bf7ed517a5e26de2c79b7b9037ff30e11059a",
+    "description_url": "https://poggit.pmmp.io/r/159314",
+    "icon_url": "https://raw.githubusercontent.com/TheDataLion/SkinBan/9e2bf7ed517a5e26de2c79b7b9037ff30e11059a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643294795,
+    "state": 5,
+    "last_state_change_date": 1644247253,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "ban",
+        "moderation",
+        "skinban"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TheDataLion"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

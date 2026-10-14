@@ -1,0 +1,359 @@
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p><strong>CustomAlerts</strong> lets you customize or hide all PocketMine alerts (join/leave messages, whitelist messages, outdated server/client messages, etc...)</p>
+<p><strong>EvolSoft Website:</strong> <a href="http://www.evolsoft.tk" rel="nofollow">http://www.evolsoft.tk</a></p>
+<p><em><strong>This Plugin uses the New API. You can't install it on old versions of PocketMine.</strong></em></p>
+<p>With CustomAlerts you can customize or hide whitelist kick messages, outdated server/client messages, join/leave messages, first join messages, death messages, world change messages... (read documentation)</p>
+<p><strong>Features</strong></p>
+<ul>
+<li>Customize or hide join, quit and death messages</li>
+<li>Add first join and world change messages</li>
+<li>Customize Motd <em><strong>(from MCPE 0.11.0)</strong></em>
+</li>
+<li>Customize Outdated Server/Client kick messages <em><strong>(from MCPE 0.11.0 BUILD 11)</strong></em>
+</li>
+<li>Customize Whitelist kick messages <em><strong>(from MCPE 0.11.0 BUILD 11)</strong></em>
+</li>
+<li>Customize Full Server kick messages <em><strong>(from MCPE 0.11.0 BUILD 11) [Please keep in mind that if you have VIP or additional slots on your server you MUST disable this feature from config]</strong></em>
+</li>
+</ul>
+<p><strong>What is included?</strong></p>
+<p>In the ZIP file you will find:<br>
+<em>- CustomAlerts_v1.8.phar : CustomAlerts Plugin + API</em><br>
+<em>- CustomAlertsExample_v1.3.zip : Example Plugin source code</em><br></p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<p><em><strong>/customalerts</strong></em> <em>- CustomAlerts commands</em></p>
+<h2>
+<a id="user-content-colors--formatting" class="anchor" href="#colors--formatting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Colors &amp; Formatting</h2>
+<p><strong>Colors:</strong></p>
+<p>Black ("&amp;0");<br>
+Dark Blue ("&amp;1");<br>
+Dark Green ("&amp;2");<br>
+Dark Aqua ("&amp;3");<br>
+Dark Red ("&amp;4");<br>
+Dark Purple ("&amp;5");<br>
+Gold ("&amp;6");<br>
+Gray ("&amp;7");<br>
+Dark Gray ("&amp;8");<br>
+Blue ("&amp;9");<br>
+Green ("&amp;a");<br>
+Aqua ("&amp;b");<br>
+Red ("&amp;c");<br>
+Light Purple ("&amp;d");<br>
+Yellow ("&amp;e");<br>
+White ("&amp;f");<br></p>
+<p><strong>Formatting:</strong></p>
+<p>Obfuscated ("&amp;k");<br>
+Bold ("&amp;l");<br>
+Strikethrough ("&amp;m");<br>
+Underline ("&amp;n");<br>
+Italic ("&amp;o");<br>
+Reset ("&amp;r");<br></p>
+<h2>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span>REMEMBER THAT IF YOU USE CustomAlerts EXTENSIONS, MESSAGES MAY NOT FOLLOW THE DEFAULT CONFIG</span>
+<span class="pl-c"><span class="pl-c">#</span>Date/Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php</span>
+<span class="pl-ent">datetime-format</span>: <span class="pl-s"><span class="pl-pds">"</span>H:i:s<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Server Motd message settings (available from MCPE 0.11.0 and later)</span>
+<span class="pl-ent">Motd</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Motd update timeout</span>
+  <span class="pl-ent">update-timeout</span>: <span class="pl-c1">1</span>
+  <span class="pl-c"><span class="pl-c">#</span>Show custom Motd</span>
+  <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>Motd message</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;e[{TIME}] &amp;aWelcome to your server! &amp;n&amp;b[{MAXPLAYERS}/{TOTALPLAYERS}]<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Outdated Client message (available from MCPE 0.11.0 BUILD 11 and later)</span>
+<span class="pl-ent">OutdatedClient</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Show custom Outdated Client message</span>
+  <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>Outdated Client message</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;cYour MCPE client is outdated!<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Outdated Server message (available from MCPE 0.11.0 BUILD 11 and later)</span>
+<span class="pl-ent">OutdatedServer</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Show custom Outdated Server message</span>
+  <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>Outdated Server message</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;cOops! Server outdated!<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Whitelisted Server message (available from MCPE 0.11.0 BUILD 11 and later)</span>
+<span class="pl-ent">WhitelistedServer</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Show custom Whitelisted Server message</span>
+  <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>Whitelisted Server message</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c&amp;oThis Server is whitelisted!<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Full Server message (available from MCPE 0.11.0 BUILD 11 and later)</span>
+<span class="pl-ent">FullServer</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Show custom Full Server message</span>
+  <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;e{PLAYER}&amp;b, The Server is full &amp;c[{TOTALPLAYERS}/{MAXPLAYERS}]&amp;b!<span class="pl-cce">\n</span>&amp;l&amp;dTry to join later :)<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>First Join message settings</span>
+<span class="pl-ent">FirstJoin</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Enable First Join message</span>
+  <span class="pl-ent">enable</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>First Join message</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;2[{TIME}] &amp;a{PLAYER}&amp;d joined the game for the first time.<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Join message settings</span>
+<span class="pl-ent">Join</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Hide Join message</span>
+  <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span>Show custom Join message </span>
+  <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>Join message</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;2[{TIME}] &amp;a{PLAYER}&amp;e joined the game.<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Quit message settings</span>
+<span class="pl-ent">Quit</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Hide Quit message</span>
+  <span class="pl-ent">hide</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>Show custom Quit message </span>
+  <span class="pl-ent">custom</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span>Quit message</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;4[{TIME}] &amp;c{PLAYER}&amp;e has left the game<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>World Change message settings</span>
+<span class="pl-ent">WorldChange</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Enable World Change message</span>
+  <span class="pl-ent">enable</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>World Change message</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {ORIGIN}: Show origin world name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TARGET}: Show target world name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;2[{TIME}] &amp;a{PLAYER}&amp;e moved from &amp;c{ORIGIN}&amp;e to &amp;a{TARGET}<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span>Death message settings</span>
+<span class="pl-ent">Death</span>:
+  <span class="pl-c"><span class="pl-c">#</span>Hide deafult Death message</span>
+  <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span>Show custom default Death message</span>
+  <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+  <span class="pl-c"><span class="pl-c">#</span>Default Death message</span>
+  <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+  <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} died<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by contact message</span>
+  <span class="pl-ent">death-contact-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by contact message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by contact message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by contact message</span>
+    <span class="pl-c"><span class="pl-c">#</span>Available Tags:</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {BLOCK}: The name of the block which killed the player</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;cOops! {PLAYER} was killed by {BLOCK}<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by entity message (players and mobs)</span>
+  <span class="pl-ent">kill-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by entity message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by entity message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by entity message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {KILLER}: The name of the killer entity</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;9{PLAYER} &amp;ewas killed by &amp;c{KILLER}<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by projectile message</span>
+  <span class="pl-ent">death-projectile-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by projectile message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by projectile message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by projectile message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {KILLER}: The name of the killer entity</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} was killed by {KILLER} by arrow<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by suffocation message</span>
+  <span class="pl-ent">death-suffocation-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by suffocation message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by suffocation message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by suffocation message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} suffocated<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by fall message</span>
+  <span class="pl-ent">death-fall-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by fall message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by fall message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by fall message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} fell from a high place<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by fire message</span>
+  <span class="pl-ent">death-fire-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by fire message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by fire message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by fire message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} went up in flames<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death on fire message</span>
+  <span class="pl-ent">death-on-fire-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death on fire message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death on fire message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death on fire message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} burned<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by lava message</span>
+  <span class="pl-ent">death-lava-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by lava message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by lava message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by lava message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} tried to swim in lava<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by drowning message</span>
+  <span class="pl-ent">death-drowning-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by drowning message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by drowning message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by drowning message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} drowned<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by explosion message</span>
+  <span class="pl-ent">death-explosion-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by explosion message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by explosion message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by explosion message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} exploded<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by void message</span>
+  <span class="pl-ent">death-void-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by void message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by void message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by void message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} fell into the void<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death by suicide message</span>
+  <span class="pl-ent">death-suicide-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death by suicide message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death by suicide message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death by suicide message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} committed suicide<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span>Death magic message</span>
+  <span class="pl-ent">death-magic-message</span>:
+    <span class="pl-c"><span class="pl-c">#</span>Hide Death magic message</span>
+    <span class="pl-ent">hide</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span>Show custom Death magic message</span>
+    <span class="pl-ent">custom</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span>Death magic message</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {MAXPLAYERS}: Show the maximum number of players supported by the server</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {PLAYER}: Show player name</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TIME}: Show current time</span>
+    <span class="pl-c"><span class="pl-c">#</span> - {TOTALPLAYERS}: Show the number of all online players</span>
+    <span class="pl-ent">message</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;c{PLAYER} was killed by a spell<span class="pl-pds">"</span></span></pre></div>
+<h2>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h2>
+<ul>
+<li>
+<dd><i><b>customalerts.*</b> - CustomAlerts permissions.</i></dd>
+</li>
+<li>
+<dd><i><b>customalerts.help</b> - CustomAlerts command Help permission.</i></dd>
+</li>
+<li>
+<dd><i><b>customalerts.info</b> - CustomAlerts command Info permission.</i></dd>
+</li>
+<li>
+<dd><i><b>customalerts.reload</b> - CustomAlerts command Reload permission.</i></dd>
+</li>
+</ul>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>Almost all our plugins have API access to widely extend their features.</p>
+<p><a href="https://github.com/EvolSoft/CustomAlerts#api">Full CustomAlerts API documentation available here</a></p>
+<h2>
+<a id="user-content-donate" class="anchor" href="#donate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Donate</h2>
+<p>Support the development of this plugin with a small donation by clicking <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=flavius.c.1999@gmail.com&amp;lc=US&amp;item_name=www.evolsoft.tk&amp;no_note=0&amp;cn=&amp;curency_code=EUR&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" rel="nofollow"><g-emoji alias="dollar" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4b5.png" ios-version="6.0">💵</g-emoji> here</a>. Thank you <g-emoji alias="smile" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" ios-version="6.0">😄</g-emoji></p>

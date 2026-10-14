@@ -1,0 +1,68 @@
+{
+    "id": 1901,
+    "name": "AutoInv",
+    "version": "0.0.10",
+    "html_url": "https://poggit.pmmp.io/p/AutoInv/0.0.10",
+    "tagline": "Helps to prevent lag on your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/42704",
+    "downloads": 13354,
+    "score": 5,
+    "repo_id": 60407609,
+    "repo_name": "JackNoordhuis/AutoInv-PocketMine",
+    "project_id": 531,
+    "project_name": "AutoInv",
+    "build_id": 50031,
+    "build_number": 21,
+    "build_commit": "8e1bd157d207e3a954f37fc9e763bf51517b8c0d",
+    "description_url": "https://poggit.pmmp.io/r/42701",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/42703",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1538533014,
+    "state": 5,
+    "last_state_change_date": 1538627680,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "autoinv",
+        "nodrop",
+        "prison",
+        "lag"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JackNoordhuis"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,75 @@
+{
+    "id": 10822,
+    "name": "PluginManager",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PluginManager/1.0.0",
+    "tagline": "Its Advanced PluginManager for Pocketmine which let you manage the plugins on your server",
+    "artifact_url": "https://poggit.pmmp.io/r/197422",
+    "downloads": 266,
+    "score": null,
+    "repo_id": 571003967,
+    "repo_name": "Laith98Dev/PluginManager",
+    "project_id": 11982,
+    "project_name": "PluginManager",
+    "build_id": 148041,
+    "build_number": 9,
+    "build_commit": "50b06fa3988bb0e29dd02df461179c7712ad37c8",
+    "description_url": "https://poggit.pmmp.io/r/197421",
+    "icon_url": "https://raw.githubusercontent.com/Laith98Dev/PluginManager/50b06fa3988bb0e29dd02df461179c7712ad37c8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1669654569,
+    "state": 5,
+    "last_state_change_date": 1670232237,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "admintools",
+        "laith98dev",
+        "pluginmanager",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        }
+    ]
+}

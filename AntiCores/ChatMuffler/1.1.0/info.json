@@ -1,0 +1,66 @@
+{
+    "id": 4210,
+    "name": "ChatMuffler",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatMuffler/1.1.0",
+    "tagline": "A Simple Plugin For Managing Mutes",
+    "artifact_url": "https://poggit.pmmp.io/r/82923",
+    "downloads": 2098,
+    "score": 5,
+    "repo_id": 174824362,
+    "repo_name": "AntiCores/ChatMuffler",
+    "project_id": 5283,
+    "project_name": "ChatMuffler",
+    "build_id": 75401,
+    "build_number": 17,
+    "build_commit": "8b7975db353d88099a650e3b07790a16885e0b19",
+    "description_url": "https://poggit.pmmp.io/r/82925",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/82927",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/82928",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1587234671,
+    "state": 5,
+    "last_state_change_date": 1587234800,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "admin",
+        "chat",
+        "chatting",
+        "manage",
+        "mute",
+        "muting"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Thunder33345"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

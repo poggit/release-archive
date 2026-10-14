@@ -1,0 +1,80 @@
+{
+    "id": 13930,
+    "name": "WelcomeMessages",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WelcomeMessages/1.0.0",
+    "tagline": "Player Action Notifications: Welcomes, Deaths, and TPS",
+    "artifact_url": "https://poggit.pmmp.io/r/254473",
+    "downloads": 427,
+    "score": null,
+    "repo_id": 935011134,
+    "repo_name": "tstarkdev/WelcomeMessages",
+    "project_id": 14556,
+    "project_name": "WelcomeMessages",
+    "build_id": 185726,
+    "build_number": 9,
+    "build_commit": "2a7216fac043579f6696edf226053a77786a749e",
+    "description_url": "https://poggit.pmmp.io/r/254605",
+    "icon_url": "https://raw.githubusercontent.com/t-starks/WelcomeMessages/2a7216fac043579f6696edf226053a77786a749e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1743042619,
+    "state": 5,
+    "last_state_change_date": 1747405670,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "bedrock",
+        "mcpe",
+        "pocketmine",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "t-starks"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

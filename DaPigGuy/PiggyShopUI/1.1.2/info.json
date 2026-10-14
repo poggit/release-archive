@@ -1,0 +1,78 @@
+{
+    "id": 2065,
+    "name": "PiggyShopUI",
+    "version": "1.1.2",
+    "html_url": "https://poggit.pmmp.io/p/PiggyShopUI/1.1.2",
+    "tagline": "PiggyShopUI is a simple shop plugin using FormAPI.",
+    "artifact_url": "https://poggit.pmmp.io/r/46082",
+    "downloads": 3049,
+    "score": 5,
+    "repo_id": 145130537,
+    "repo_name": "DaPigGuy/PiggyShopUI",
+    "project_id": 4254,
+    "project_name": "PiggyShopUI",
+    "build_id": 52489,
+    "build_number": 8,
+    "build_commit": "82905c1bdbff4af739f7aaa1c910bd2710a01141",
+    "description_url": "https://poggit.pmmp.io/r/67454",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1542951713,
+    "state": 5,
+    "last_state_change_date": 1542966964,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "economyapi",
+        "formapi",
+        "shop",
+        "shopui"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "f2b57646cb85fef2e7bee48862bd8d04ada05133",
+            "build_id": 52331
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "id": 9302,
+    "name": "ItemUtils",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/ItemUtils/1.1.1",
+    "tagline": "Add simple commands to duplicate, rename, import and export items.",
+    "artifact_url": "https://poggit.pmmp.io/r/167422",
+    "downloads": 573,
+    "score": 4,
+    "repo_id": 446021933,
+    "repo_name": "OiranCage/ItemUtils",
+    "project_id": 10295,
+    "project_name": "ItemUtils",
+    "build_id": 127309,
+    "build_number": 10,
+    "build_commit": "065ce7a6c4bc0f5e353924367cd8c6a590ec2c71",
+    "description_url": "https://poggit.pmmp.io/r/167419",
+    "icon_url": "https://raw.githubusercontent.com/OiranCage/ItemUtils/065ce7a6c4bc0f5e353924367cd8c6a590ec2c71/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/167421",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647480294,
+    "state": 5,
+    "last_state_change_date": 1647561025,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "item",
+        "nbt"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "famima65536"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

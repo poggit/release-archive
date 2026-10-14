@@ -1,0 +1,83 @@
+{
+    "id": 6895,
+    "name": "BetterBan",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterBan/3.0.0",
+    "tagline": "A plugin for PocketMine-MP to simply ban players for a certain period of time.",
+    "artifact_url": "https://poggit.pmmp.io/r/129860",
+    "downloads": 594,
+    "score": null,
+    "repo_id": 358927948,
+    "repo_name": "supercrafter333/BetterBan",
+    "project_id": 8869,
+    "project_name": "BetterBan",
+    "build_id": 104741,
+    "build_number": 50,
+    "build_commit": "d20d4d6e0308e2f7cfdb59d8fbb3b0e3766f1beb",
+    "description_url": "https://poggit.pmmp.io/r/130227",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/BetterBan/d20d4d6e0308e2f7cfdb59d8fbb3b0e3766f1beb/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/130229",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1624295296,
+    "state": 5,
+    "last_state_change_date": 1624660341,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Ban",
+        "form",
+        "Kick",
+        "TempBan",
+        "TempBanUI",
+        "TimeBan",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SOF3",
+            "tobiaskirchmaier",
+            "xqwtxon",
+            "xwertxy"
+        ],
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "eab8ac0adec2e2b094d141a9b711200183bbf268",
+            "build_id": 86018
+        }
+    ]
+}

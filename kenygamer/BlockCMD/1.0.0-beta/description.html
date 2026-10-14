@@ -1,0 +1,53 @@
+<h1>
+<a id="user-content-blockcmd" class="anchor" href="#blockcmd" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BlockCMD</h1>
+<p><a href="https://camo.githubusercontent.com/8ed09a9983090b953171e49846060ae26dda6296/687474703a2f2f697369746d61696e7461696e65642e636f6d2f62616467652f7265736f6c7574696f6e2f6b656e7967616d65722f426c6f636b434d442e737667" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/8ed09a9983090b953171e49846060ae26dda6296/687474703a2f2f697369746d61696e7461696e65642e636f6d2f62616467652f7265736f6c7574696f6e2f6b656e7967616d65722f426c6f636b434d442e737667" alt="" data-canonical-src="http://isitmaintained.com/badge/resolution/kenygamer/BlockCMD.svg" style="max-width:100%;"></a>
+<a href="https://camo.githubusercontent.com/608916ef7ce15a12d07172e8fac0b77de413edf8/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f6b656e7967616d65722f426c6f636b434d442f616c6c2e737667" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/608916ef7ce15a12d07172e8fac0b77de413edf8/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f6b656e7967616d65722f426c6f636b434d442f616c6c2e737667" alt="" data-canonical-src="https://img.shields.io/github/release/kenygamer/BlockCMD/all.svg" style="max-width:100%;"></a>
+<a href="https://camo.githubusercontent.com/2ed45e81bbdc5a3c99fcd8d301cd44735b1c62ed/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f6b656e7967616d65722f426c6f636b434d442f746f74616c2e737667" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/2ed45e81bbdc5a3c99fcd8d301cd44735b1c62ed/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f6b656e7967616d65722f426c6f636b434d442f746f74616c2e737667" alt="" data-canonical-src="https://img.shields.io/github/downloads/kenygamer/BlockCMD/total.svg" style="max-width:100%;"></a></p>
+<p>A PocketMine-MP plugin to block certain commands from being used by players in your server.</p>
+<h3>
+<a id="user-content-how-to-authorize-players-to-use-blocked-commands" class="anchor" href="#how-to-authorize-players-to-use-blocked-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to authorize players to use blocked commands?</h3>
+<p>An operator blocked the /example command. Only players with the <code>blockcmd.access</code> or <code>blockcmd.access.example</code> permission node will be able to use it.</p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Usage</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/blockcmd</code></td>
+<td><code>/blockcmd &lt;add|list|remove&gt;</code></td>
+<td>Allows you to manage blocked commands.</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h2>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">blockcmd</span>:
+ <span class="pl-ent">description</span>: <span class="pl-s">Allows access to all BlockCMD features.</span>
+ <span class="pl-ent">default</span>: <span class="pl-c1">false</span>
+ <span class="pl-ent">children</span>:
+  <span class="pl-ent">blockcmd.access</span>:
+   <span class="pl-ent">description</span>: <span class="pl-s">Allows access to use all blocked commands.</span>
+   <span class="pl-ent">default</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">blockcmd.command</span>:
+   <span class="pl-ent">description</span>: <span class="pl-s">Allows access to all BlockCMD commands.</span>
+   <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+   <span class="pl-ent">children</span>:
+    <span class="pl-ent">blockcmd.command.blockcmd</span>:
+     <span class="pl-ent">description</span>: <span class="pl-s">Allows access to the blockcmd command.</span>
+     <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+     <span class="pl-ent">children</span>:
+      <span class="pl-ent">blockcmd.command.blockcmd.add</span>:
+       <span class="pl-ent">description</span>: <span class="pl-s">Allows access to the BlockCMD add subcommand.</span>
+       <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+      <span class="pl-ent">blockcmd.command.blockcmd.list</span>:
+       <span class="pl-ent">description</span>: <span class="pl-s">Allows access to the BlockCMD list subcommand.</span>
+       <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+      <span class="pl-ent">blockcmd.command.blockcmd.remove</span>:
+       <span class="pl-ent">description</span>: <span class="pl-s">Allows access to the BlockCMD remove subcommand.</span>
+       <span class="pl-ent">default</span>: <span class="pl-s">op</span></pre></div>

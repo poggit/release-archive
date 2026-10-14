@@ -1,0 +1,75 @@
+{
+    "id": 8056,
+    "name": "ExtendedBlocks",
+    "version": "1.4.0",
+    "html_url": "https://poggit.pmmp.io/p/ExtendedBlocks/1.4.0",
+    "tagline": "Adds support to implements blocks with ID's 255+",
+    "artifact_url": "https://poggit.pmmp.io/r/149054",
+    "downloads": 2041,
+    "score": 5,
+    "repo_id": 341304825,
+    "repo_name": "JavierLeon9966/ExtendedBlocks",
+    "project_id": 8585,
+    "project_name": "ExtendedBlocks",
+    "build_id": 116278,
+    "build_number": 53,
+    "build_commit": "e7f3ff22612b64056ace79ca41638650d74bf971",
+    "description_url": "https://poggit.pmmp.io/r/149051",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/ExtendedBlocks/e7f3ff22612b64056ace79ca41638650d74bf971/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/149053",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638302198,
+    "state": 5,
+    "last_state_change_date": 1638314092,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "api",
+        "blocks",
+        "developer",
+        "feature"
+    ],
+    "api": [
+        {
+            "from": "3.14.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "fuyutsuki"
+        ],
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

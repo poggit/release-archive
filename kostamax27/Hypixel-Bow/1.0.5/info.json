@@ -1,0 +1,71 @@
+{
+    "id": 9537,
+    "name": "HypixelBow",
+    "version": "1.0.5",
+    "html_url": "https://poggit.pmmp.io/p/HypixelBow/1.0.5",
+    "tagline": "Sound when hitting a player",
+    "artifact_url": "https://poggit.pmmp.io/r/171947",
+    "downloads": 221,
+    "score": 5,
+    "repo_id": 361417995,
+    "repo_name": "kostamax27/Hypixel-Bow",
+    "project_id": 8902,
+    "project_name": "Hypixel-Bow",
+    "build_id": 130239,
+    "build_number": 29,
+    "build_commit": "09e5064c7ed5d7d561ac261dee87d323db9abf6c",
+    "description_url": "https://poggit.pmmp.io/r/172833",
+    "icon_url": "https://raw.githubusercontent.com/kostamax27/Hypixel-Bow/09e5064c7ed5d7d561ac261dee87d323db9abf6c/Hypixel-Bow.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/172835",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1650482341,
+    "state": 5,
+    "last_state_change_date": 1650973653,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Bow",
+        "hit",
+        "sound"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "kostamax27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,134 @@
+<h1>
+<a id="user-content-️-archived-️" class="anchor" href="#%EF%B8%8F-archived-%EF%B8%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji> ARCHIVED <g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji>
+</h1>
+<p>this repo is no longer maintained</p>
+<h1>
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>general</h1>
+<p>this plugin add status to your server for more fun like discord status</p>
+<h1>
+<a id="user-content-table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>table of contents</h1>
+<ul>
+<li><a href="#setup">setup</a></li>
+<li><a href="#commands">commands</a></li>
+<li><a href="#permissions">permissions</a></li>
+<li><a href="https://github.com/arclegrandroi/status-ScoreHud-adddon">scorehud addon</a></li>
+<li>
+<a href="#developper">developper</a>
+<ul>
+<li><a href="#list-of-function">list of function</a></li>
+</ul>
+</li>
+<li><a href="#futur-uptade">futur update</a></li>
+</ul>
+<h1>
+<a id="user-content-setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>setup</h1>
+<ol>
+<li>downloand the plugin</li>
+<li>put the plugin in your server</li>
+<li>start your server</li>
+<li>enjoy</li>
+</ol>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>commands</h1>
+<table>
+<thead>
+<tr>
+<th>command</th>
+<th>description</th>
+<th>permissions</th>
+<th>aliases(soon)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/mystatus</code></td>
+<td>get your status</td>
+<td><code>status.mystatus.cmd</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/setstatus</code></td>
+<td>get your status</td>
+<td><code>status.setstatus.cmd</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/getstatus</code></td>
+<td>get a status of a player</td>
+<td><code>status.getstatus.cmd</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/adminsetstatus</code></td>
+<td>set the status of a player</td>
+<td><code>status.adminsetstatus.cmd</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>permissions</h1>
+<table>
+<thead>
+<tr>
+<th>permission</th>
+<th>description</th>
+<th>default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>status.all</code></td>
+<td>all feature of the plugin</td>
+<td><strong>op</strong></td>
+</tr>
+<tr>
+<td><code>status.mystatus.cmd</code></td>
+<td>allow to use <code>/mystatus</code>
+</td>
+<td><strong>true</strong></td>
+</tr>
+<tr>
+<td><code>status.setstatus.cmd</code></td>
+<td>allow to use <code>/setstatus</code>
+</td>
+<td><strong>true</strong></td>
+</tr>
+<tr>
+<td><code>status.getstatus.cmd</code></td>
+<td>allow to use <code>/getstatus</code>
+</td>
+<td><strong>true</strong></td>
+</tr>
+<tr>
+<td><code>status.adminsetstatus.cmd</code></td>
+<td>allow to use <code>/adminsetstatus</code>
+</td>
+<td><strong>op</strong></td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-developper" class="anchor" href="#developper" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>developper</h1>
+<p>you can have accet to status whit <code>Status::getInstance();</code></p>
+<ul>
+<li>exemple</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre> <span class="pl-v">Status</span>::<span class="pl-en">getInstance</span>()-&gt;<span class="pl-en">getStatus</span>(<span class="pl-s1"><span class="pl-c1">$</span>player</span>);</pre></div>
+<h3>
+<a id="user-content-list-of-function" class="anchor" href="#list-of-function" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>list of function</h3>
+<ul>
+<li>
+<code>setStatus($player, $status)</code> set a status to $player</li>
+<li>
+<code>delStatus($player)</code> remove the status of a player</li>
+<li>
+<code>getStatus($player)</code> get the status of $player</li>
+</ul>
+<h1>
+<a id="user-content-futur-uptade" class="anchor" href="#futur-uptade" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>futur uptade</h1>
+<ul>
+<li>interface</li>
+<li>more config</li>
+<li>multi langs</li>
+</ul>

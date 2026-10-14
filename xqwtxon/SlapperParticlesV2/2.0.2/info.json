@@ -1,0 +1,66 @@
+{
+    "id": 12962,
+    "name": "SlapperParticlesV2",
+    "version": "2.0.2",
+    "html_url": "https://poggit.pmmp.io/p/SlapperParticlesV2/2.0.2",
+    "tagline": "Slapper have now particles!",
+    "artifact_url": "https://poggit.pmmp.io/r/237204",
+    "downloads": 345,
+    "score": null,
+    "repo_id": 481953599,
+    "repo_name": "xqwtxon/SlapperParticlesV2",
+    "project_id": 10957,
+    "project_name": "SlapperParticlesV2",
+    "build_id": 173206,
+    "build_number": 23,
+    "build_commit": "ed0bdef8b73be7c0973c4768b68a549006c07cd6",
+    "description_url": "https://poggit.pmmp.io/r/237354",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/237356",
+    "license": "LGPL-2.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1713324334,
+    "state": 5,
+    "last_state_change_date": 1713454842,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "2.0.7",
+            "depRelId": 9553,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "xqwtxon"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,87 @@
+{
+    "id": 13083,
+    "name": "GroupSystem",
+    "version": "3.3.0",
+    "html_url": "https://poggit.pmmp.io/p/GroupSystem/3.3.0",
+    "tagline": "A GroupSystem for PocketMine-MP!",
+    "artifact_url": "https://poggit.pmmp.io/r/239795",
+    "downloads": 130,
+    "score": null,
+    "repo_id": 441300477,
+    "repo_name": "r3pt1s/GroupSystem",
+    "project_id": 11281,
+    "project_name": "GroupSystem",
+    "build_id": 175707,
+    "build_number": 40,
+    "build_commit": "37e01ae555e697cad14b575f5e33f962ef31578d",
+    "description_url": "https://poggit.pmmp.io/r/239792",
+    "icon_url": "https://raw.githubusercontent.com/r3pt1s/GroupSystem/37e01ae555e697cad14b575f5e33f962ef31578d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/239794",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1716705034,
+    "state": 5,
+    "last_state_change_date": 1717122199,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "groups",
+        "GroupsUI",
+        "GroupSystem",
+        "GroupUI",
+        "RangSystem",
+        "Rank",
+        "ranksystem",
+        "ränge"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "r3pt1s"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        }
+    ]
+}

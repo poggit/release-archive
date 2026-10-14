@@ -1,0 +1,62 @@
+{
+    "id": 1614,
+    "name": "PortalsPE",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/PortalsPE/1.1.1",
+    "tagline": "A portals plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/35357",
+    "downloads": 16084,
+    "score": 4,
+    "repo_id": 32690351,
+    "repo_name": "luca28pet/PortalsPE",
+    "project_id": 3237,
+    "project_name": "PortalsPE",
+    "build_id": 44788,
+    "build_number": 1,
+    "build_commit": "8c0156d423c9c40ce1b06bbf2d2e93d33ec3c8cf",
+    "description_url": "https://poggit.pmmp.io/r/35355",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/35356",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1530023350,
+    "state": 5,
+    "last_state_change_date": 1530023350,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "portal",
+        "portals"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "fycarman"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

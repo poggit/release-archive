@@ -1,0 +1,63 @@
+{
+    "id": 913,
+    "name": "Alias",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/Alias/1.2.0",
+    "tagline": "Allows users to view all the usernames used from a player's IP",
+    "artifact_url": "https://poggit.pmmp.io/r/18106",
+    "downloads": 693,
+    "score": null,
+    "repo_id": 113788562,
+    "repo_name": "poggit-orphanage/Alias",
+    "project_id": 1378,
+    "project_name": "Alias",
+    "build_id": 32052,
+    "build_number": 1,
+    "build_commit": "4c207870f3562d14ad7e547895233cf14949c5b9",
+    "description_url": "https://poggit.pmmp.io/r/18105",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/Alias/4c207870f3562d14ad7e547895233cf14949c5b9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1512949020,
+    "state": 5,
+    "last_state_change_date": 1512949031,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "aliases",
+        "track",
+        "ign"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SimpleAuth",
+            "version": "2.1.2-5",
+            "depRelId": 903,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ZacHack",
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

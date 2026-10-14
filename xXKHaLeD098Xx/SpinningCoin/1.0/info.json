@@ -1,0 +1,70 @@
+{
+    "id": 4823,
+    "name": "SpinningCoin",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/SpinningCoin/1.0",
+    "tagline": "Spinning coin telling players how much coins they have",
+    "artifact_url": "https://poggit.pmmp.io/r/94758",
+    "downloads": 1427,
+    "score": 3,
+    "repo_id": 276963412,
+    "repo_name": "xXKHaLeD098Xx/SpinningCoin",
+    "project_id": 7327,
+    "project_name": "SpinningCoin",
+    "build_id": 82807,
+    "build_number": 1,
+    "build_commit": "5b1cc2da0447da2b3233f65a15b82f838d0e6d5e",
+    "description_url": "https://poggit.pmmp.io/r/94763",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1593804358,
+    "state": 5,
+    "last_state_change_date": 1594091538,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Coin",
+        "Spinning",
+        "SpinningCoin"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "xXKHaLeD098Xx"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

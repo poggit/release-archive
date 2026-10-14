@@ -1,0 +1,81 @@
+{
+    "id": 6911,
+    "name": "RedSkyBlock",
+    "version": "5.0.1",
+    "html_url": "https://poggit.pmmp.io/p/RedSkyBlock/5.0.1",
+    "tagline": "Red's (amazing) SkyBlock plugin. Seriously, it's awesome and easy to use! :)",
+    "artifact_url": "https://poggit.pmmp.io/r/130145",
+    "downloads": 5715,
+    "score": 3,
+    "repo_id": 156038969,
+    "repo_name": "RedCraftGH/RedSkyBlock",
+    "project_id": 4181,
+    "project_name": "RedSkyBlock",
+    "build_id": 104942,
+    "build_number": 108,
+    "build_commit": "12810798f66f7bf4b37f073f275cf54a74af87ff",
+    "description_url": "https://poggit.pmmp.io/r/130142",
+    "icon_url": "https://raw.githubusercontent.com/RedCraftGH/RedSkyBlock/12810798f66f7bf4b37f073f275cf54a74af87ff/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/130144",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1624626286,
+    "state": 5,
+    "last_state_change_date": 1624653457,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "skyblock"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "iZeaoGamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

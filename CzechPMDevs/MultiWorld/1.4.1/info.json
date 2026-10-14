@@ -1,0 +1,108 @@
+{
+    "id": 1284,
+    "name": "MultiWorld",
+    "version": "1.4.1",
+    "html_url": "https://poggit.pmmp.io/p/MultiWorld/1.4.1",
+    "tagline": "Ported MultiWorld to pocketmine.",
+    "artifact_url": "https://poggit.pmmp.io/r/27886",
+    "downloads": 552,
+    "score": null,
+    "repo_id": 87580601,
+    "repo_name": "CzechPMDevs/MultiWorld",
+    "project_id": 420,
+    "project_name": "MultiWorld",
+    "build_id": 39419,
+    "build_number": 99,
+    "build_commit": "d6a2bb3e570c29342b54cb9811a75225d69cbd69",
+    "description_url": "https://poggit.pmmp.io/r/28038",
+    "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/MultiWorld/d6a2bb3e570c29342b54cb9811a75225d69cbd69/MultiWorld/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/28040",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1523802957,
+    "state": 5,
+    "last_state_change_date": 1524678603,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "gamerules",
+        "generator",
+        "level",
+        "levelmanager",
+        "manyworlds",
+        "multiworld",
+        "world",
+        "worldgenerator",
+        "worldmanager"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "fuyutsuki",
+            "themestl",
+            "Meltinglce",
+            "supercrafter333",
+            "NhanAZ",
+            "Blackjack200",
+            "Fadhilarsetya",
+            "Kuuuuuuuu",
+            "fernanACM",
+            "Hydros01",
+            "MrBlasyMSK",
+            "mukeenanyafiq"
+        ],
+        "Collaborator": [
+            "GamakCZ",
+            "VixikHD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

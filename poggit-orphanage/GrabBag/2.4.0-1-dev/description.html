@@ -1,0 +1,1213 @@
+<h1>
+<a id="user-content-grabbag" class="anchor" href="#grabbag" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GrabBag</h1>
+<ul>
+<li>Summary: Collection of miscellaneous commands and listener modules</li>
+<li>PocketMine-MP version: 1.7dev API 3.0.0-ALPHA9)</li>
+<li>DependencyPlugins:</li>
+<li>OptionalPlugins: FastTransfer</li>
+<li>Categories: General</li>
+<li>Plugin Access: Internet Services, Other Plugins, Manages Permissions, Commands, Data Saving, Entities, Tile Entities, Manages Plugins</li>
+</ul>
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p>This documentation was last updated for version <strong>2.4.0</strong></p>
+<p>A miscellaneous collection of commands and listener modules.  <strong>All</strong>
+features can be configured to be <em>disabled|enabled</em> so as to co-exist
+with other plugins.</p>
+<p>This plugin is focused more towards commands to help system
+administration.</p>
+<h3>
+<a id="user-content-entity-management" class="anchor" href="#entity-management" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Entity Management</h3>
+<ul>
+<li>entities: entity management</li>
+</ul>
+<h3>
+<a id="user-content-informational" class="anchor" href="#informational" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Informational</h3>
+<ul>
+<li>ops: Shows who are the ops on this server.</li>
+<li>players: Shows what players are on-line</li>
+<li>showtimings: Shows timing repots as reported by <strong>timings</strong>
+</li>
+<li>whois: Gives detailed information on players</li>
+</ul>
+<h3>
+<a id="user-content-inventory-management" class="anchor" href="#inventory-management" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Inventory Management</h3>
+<ul>
+<li>clearhotbar: Clear player's hotbar</li>
+<li>clearinv: Clear player's inventory</li>
+<li>get: obtain an item</li>
+<li>gift: give an item to a player</li>
+<li>rminv: Remove item from player's Inventory</li>
+<li>seearmor: Show player's armor</li>
+<li>seeinv: Show player's inventory</li>
+<li>setarmor: Sets armor (even in creative)</li>
+</ul>
+<h3>
+<a id="user-content-player-management" class="anchor" href="#player-management" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Player Management</h3>
+<ul>
+<li>as: run command as somebody else</li>
+<li>clearchat: Clears your chat window</li>
+<li>fly: Toggle flying <strong>ONLY FOR PM &gt;1.5</strong>
+</li>
+<li>gma: Change your gamemode to <em>Adventure</em>.</li>
+<li>gmc: Change your gamemode to <em>Creative</em>.</li>
+<li>gms: Change your gamemode to <em>Survival</em>.</li>
+<li>gmspc: Change your gamemode to <em>Spectator</em>.</li>
+<li>invis: makes player invisible</li>
+<li>nick: Change your display name</li>
+<li>perm: temporarily change player's permissions</li>
+<li>prefix: prepend prefix to chat lines</li>
+<li>reg: Manage player registrations</li>
+<li>reop: Let ops drop priviledges temporarily</li>
+<li>shield: player is protected from taking damage</li>
+<li>skin: manage player's skins</li>
+</ul>
+<h3>
+<a id="user-content-server-management" class="anchor" href="#server-management" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Server Management</h3>
+<ul>
+<li>after: schedule command after a number of seconds</li>
+<li>alias: Create a new command alias</li>
+<li>at: schedule command at an appointed date/time</li>
+<li>crash: manage crash dumps</li>
+<li>opms: sends a message to ops only</li>
+<li>pluginmgr: manage plugins</li>
+<li>query: query remote servers</li>
+<li>rcon: rcon client</li>
+<li>rpt: report an issue to ops</li>
+<li>servers: Manage peer server connections</li>
+<li>servicemode: controls servicemode</li>
+</ul>
+<h3>
+<a id="user-content-teleporting" class="anchor" href="#teleporting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Teleporting</h3>
+<ul>
+<li>dismiss: Dismiss a previously summoned player</li>
+<li>follow: Follow a player</li>
+<li>follow-off: stop following a player</li>
+<li>followers: List who is following who</li>
+<li>followme: Make a player follow you</li>
+<li>followme-off: stop making a player follow you</li>
+<li>ftserver: Travel to remove servers</li>
+<li>poptp: Returns to the previous location</li>
+<li>pushtp: Saves current location and teleport</li>
+<li>spawn: Teleport player to spawn point</li>
+<li>summon: Summons a player to your location</li>
+</ul>
+<h3>
+<a id="user-content-trolling" class="anchor" href="#trolling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Trolling</h3>
+<ul>
+<li>blowup: explode a player</li>
+<li>burn: Burns the specified player</li>
+<li>chat-on|chat-off: Allow players to opt-out from chat</li>
+<li>freeze|thaw: freeze/unfreeze a player so they cannot move.</li>
+<li>heal: Restore health to a player</li>
+<li>mute|unmute: mutes/unmutes a player so they can not use chat</li>
+<li>slay: Kills the specified player</li>
+<li>spectator|unspectator: toggle a player's spectator mode <strong>(DEPRECATED)</strong>
+</li>
+<li>throw: Throw a player in the air</li>
+</ul>
+<h3>
+<a id="user-content-modules" class="anchor" href="#modules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Modules</h3>
+<ul>
+<li>blood-particles: Display particles when a player gets hit</li>
+<li>broadcast-ft: Broadcast player's using FastTransfer</li>
+<li>broadcast-tp: Broadcast player teleports</li>
+<li>cmd-selector: Implements "@" command prefixes</li>
+<li>join-mgr: Announce joining ops, and show server motd</li>
+<li>repeater: Uses <strong>!!</strong> to repeat command with changes</li>
+</ul>
+<h2>
+<a id="user-content-documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h2>
+<p>This plugin collects a number of commands and listener plugins that I
+find useful and wanted to have in a single plugin rather through
+multiple ones.  The available commands and listener modules can be
+configured.  This allows this plugin to co-exist peacefully with other
+plugins.</p>
+<h3>
+<a id="user-content-command-reference" class="anchor" href="#command-reference" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Reference</h3>
+<p>The following commands are available:</p>
+<ul>
+<li>
+<p>after: schedule command after a number of seconds<br>
+usage: <strong>after</strong> <em>&lt;seconds&gt;</em> <em>&lt;command&gt;|list|cancel</em> <em>&lt;id&gt;</em></p>
+<p>Will schedule to run <em>command</em> after <em>seconds</em>.
+The <strong>list</strong> sub command will show all the queued commands.
+The <strong>cancel</strong> sub command allows you to cancel queued commands.</p>
+</li>
+<li>
+<p>alias: Create a new command alias<br>
+usage: <strong>alias</strong> <strong>[-f]</strong> <em>&lt;alias&gt;</em> <em>&lt;command&gt;</em> <em>[options]</em></p>
+<p>Create an alias to a command.
+Use the <strong>-f</strong> to override existing commands</p>
+</li>
+<li>
+<p>as: run command as somebody else<br>
+usage: <strong>as</strong> <em>&lt;player&gt;</em> <em>&lt;command&gt;</em></p>
+</li>
+<li>
+<p>at: schedule command at an appointed date/time<br>
+usage: <strong>at</strong> <em>&lt;time&gt;</em> <em>[:]</em> _&lt;command&gt;|list|cancel <em>&lt;id&gt;</em></p>
+<p>Will schedule to run <em>command</em> at the given date/time.  This uses
+php's <a href="http://php.net/manual/en/function.strtotime.php" rel="nofollow">strtotime</a>
+function so <em>times</em> must follow the format described in
+<a href="http://php.net/manual/en/datetime.formats.php" rel="nofollow">Date and Time Formats</a>.
+The <strong>list</strong> sub command will show all the queued commands.
+The <strong>cancel</strong> sub command allows you to cancel queued commands.</p>
+</li>
+<li>
+<p>blowup: explode a player<br>
+usage: <strong>blowup</strong> <em>&lt;player&gt;</em> <em>[yield]</em> <strong>[magic]</strong> <strong>[normal]</strong></p>
+<p>Explodes <em>player</em> with an explosion with the given <em>yield</em> (a number).
+If <strong>magic</strong> is specified no damage will be taken by blocks.  The
+default is <strong>normal</strong>, where blocks do get damaged.</p>
+</li>
+<li>
+<p>burn: Burns the specified player<br>
+usage: <strong>burn</strong> <em>&lt;player&gt;</em> <em>[secs]</em></p>
+<p>Sets <em>player</em> on fire for the specified number of seconds.
+Default is 15 seconds.</p>
+</li>
+<li>
+<p>chat-on|chat-off: Allow players to opt-out from chat<br>
+usage: <strong>chat-on|chat-off</strong> <em>[player|--list|--server]</em></p>
+<p>Prevents players from sending/receiving chat messages.
+The following options are recognized:</p>
+<ul>
+<li>--list : Lists the players that have chat on/off status</li>
+<li>--server : Globally toggles on/off chat.</li>
+</ul>
+</li>
+<li>
+<p>clearchat: Clears your chat window<br>
+usage: <strong>clearchat</strong></p>
+</li>
+<li>
+<p>clearhotbar: Clear player's hotbar<br>
+usage: <strong>clearhotbar</strong> <em>[player]</em></p>
+</li>
+<li>
+<p>clearinv: Clear player's inventory<br>
+usage: <strong>clearinv</strong> <em>[player]</em></p>
+</li>
+<li>
+<p>crash: manage crash dumps<br>
+usage: <strong>crash</strong> <em>[ls|clean|show]</em></p>
+<p>Will show the number of <strong>crash</strong> files in the server.
+The following optional sub-commands are available:</p>
+<ul>
+<li>
+<strong>crash</strong> <strong>count</strong>
+<ul>
+<li>Count the number of crash files</li>
+</ul>
+</li>
+<li>
+<strong>crash</strong> <strong>ls</strong> <em>[pattern]</em>
+<ul>
+<li>List crash files</li>
+</ul>
+</li>
+<li>
+<strong>crash</strong> <strong>clean</strong> <em>[pattern]</em>
+<ul>
+<li>Delete crash files</li>
+</ul>
+</li>
+<li>
+<strong>show</strong> <em>[pattern]</em>
+<ul>
+<li>Shows the crash file ##</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>dismiss: Dismiss a previously summoned player<br>
+usage: <strong>dismiss</strong> <em>&lt;player&gt;</em> <em>[message]</em></p>
+</li>
+<li>
+<p>entities: entity management<br>
+usage: <strong>entities</strong> <em>[subcommand]</em> <em>[options]</em></p>
+<p>By default it will show the current entities.  The following
+sub-commands are available:</p>
+<ul>
+<li>
+<strong>entities</strong> <strong>ls</strong> <em>[world]</em>
+<ul>
+<li>Show entities in <em>[world]</em> (or current world if not specified).</li>
+</ul>
+</li>
+<li>
+<strong>entities</strong> <strong>tiles</strong> <em>[world]</em>
+<ul>
+<li>Show tile entities in <em>[world]</em> (or current world if not specified).</li>
+</ul>
+</li>
+<li>
+<strong>entities</strong> <strong>info</strong> <em>[e#|t#]</em>
+<ul>
+<li>Show details about one or more entities or tiles.</li>
+</ul>
+</li>
+<li>
+<strong>entities</strong> <strong>rm</strong> <em>[e#]</em>
+<ul>
+<li>Removes one or more entities.</li>
+</ul>
+</li>
+<li>
+<strong>entities</strong> <strong>sign</strong><em>N</em> <em>[t#]</em> <em>message text</em>
+<ul>
+<li>Changes the text line <em>N</em> in the tile/sign identified by <em>t#</em>.</li>
+</ul>
+</li>
+<li>
+<strong>entities</strong> <strong>count</strong>
+<ul>
+<li>Show a count of the number of entities on the server.</li>
+</ul>
+</li>
+<li>
+<strong>entities</strong> <strong>nuke</strong> <em>[all|mobs|others]</em>
+<ul>
+<li>Clear entities from the server.</li>
+</ul>
+</li>
+</ul>
+<p>Additionally, tiles can be specified by providing the following:</p>
+<ul>
+<li>t(x),(y),(z)[,world]</li>
+</ul>
+</li>
+<li>
+<p>fly: Toggle flying <strong>ONLY FOR PM &gt;1.5</strong><br>
+usage: <strong>fly</strong></p>
+</li>
+<li>
+<p>follow: Follow a player<br>
+usage: <strong>follow</strong> <em>&lt;player&gt;</em></p>
+</li>
+<li>
+<p>follow-off: stop following a player<br>
+usage: <strong>follow-off</strong></p>
+</li>
+<li>
+<p>followers: List who is following who<br>
+usage: <strong>followers</strong></p>
+</li>
+<li>
+<p>followme: Make a player follow you<br>
+usage: <strong>folowme</strong> <em>&lt;player&gt;</em></p>
+</li>
+<li>
+<p>followme-off: stop making a player follow you<br>
+usage: <strong>followme-off</strong> <em>&lt;player&gt;</em></p>
+</li>
+<li>
+<p>freeze|thaw: freeze/unfreeze a player so they cannot move.<br>
+usage: <strong>freeze|thaw</strong> [ <em>player</em> | <strong>--hard|--soft</strong> ]</p>
+<p>Stops players from moving.  If no player specified it will show
+the list of frozen players.</p>
+<p>If <strong>--hard</strong> or <strong>--soft</strong> is specified instead of a player name, it
+will change the freeze mode.</p>
+</li>
+<li>
+<p>ftserver: Travel to remove servers<br>
+usage: <strong>ftserver</strong> <em>&lt;serverid&gt;</em></p>
+<p>Teleport to servers defined with the <strong>/servers</strong> command.</p>
+</li>
+<li>
+<p>get: obtain an item<br>
+usage: <strong>get</strong> <em>&lt;item&gt;</em> <em>[count]</em></p>
+<p>This is a shortcut to <strong>give</strong> that lets player get items for
+themselves.  You can replace <strong>item</strong> with <strong>more</strong> and the
+current held item will be duplicated.</p>
+</li>
+<li>
+<p>gift: give an item to a player<br>
+usage: <strong>gift</strong> <em>[player]</em> <em>&lt;item&gt;</em> <em>[count]</em></p>
+<p>This is a re-implementation of <strong>give</strong> command.</p>
+</li>
+<li>
+<p>gma: Change your gamemode to <em>Adventure</em>.<br>
+usage: <strong>gma</strong></p>
+</li>
+<li>
+<p>gmc: Change your gamemode to <em>Creative</em>.<br>
+usage: <strong>gmc</strong></p>
+</li>
+<li>
+<p>gms: Change your gamemode to <em>Survival</em>.<br>
+usage: <strong>gms</strong></p>
+</li>
+<li>
+<p>gmspc: Change your gamemode to <em>Spectator</em>.<br>
+usage: <strong>gmspc</strong></p>
+</li>
+<li>
+<p>heal: Restore health to a player<br>
+usage: <strong>heal</strong> <em>[player]</em> <em>[ammount]</em></p>
+<p>Heals a player.  If the amount is positive it will heal, if negative
+the player will be hurt.  The units are in 1/2 hearts.</p>
+</li>
+<li>
+<p>invis: makes player invisible<br>
+usage: <strong>invis</strong>
+This will toggle your invisibility status.</p>
+</li>
+<li>
+<p>mute|unmute: mutes/unmutes a player so they can not use chat<br>
+usage: <strong>mute|unmute</strong> <em>[player]</em></p>
+<p>Stops players from chatting.  If no player specified it will show
+the list of muted players.</p>
+</li>
+<li>
+<p>nick: Change your display name<br>
+usage: <strong>nick</strong> <em>&lt;name&gt;</em></p>
+</li>
+<li>
+<p>opms: sends a message to ops only<br>
+usage: <strong>opms</strong> <em>[msg]</em></p>
+<p>Sends chat messages that are only see by ops.  Only works with ops
+that are on-line at the moment.  If you no ops are on-line you
+should use the <strong>rpt</strong> command.</p>
+</li>
+<li>
+<p>ops: Shows who are the ops on this server.<br>
+usage: <strong>ops</strong></p>
+</li>
+<li>
+<p>perm: temporarily change player's permissions<br>
+usage: <strong>perm</strong> <em>&lt;player&gt;</em> <em>&lt;dump|permission&gt;</em> <em>[true|false]</em></p>
+<p>This can be used to temporarily change player's permissions.
+Changes are only done in-memory, so these will revert if the
+disconnects or the server reloads.
+You can specify a <em>permission</em> and it will show it's value or
+if true|false is specified it will be changed.
+If you specify <strong>dump</strong>, it will show all permissions
+associated to a player.</p>
+</li>
+<li>
+<p>players: Shows what players are on-line<br>
+usage: <strong>players</strong></p>
+</li>
+<li>
+<p>pluginmgr: manage plugins<br>
+usage: <strong>pluginmgr</strong> <em>&lt;subcmd&gt;</em> <em>&lt;plugin&gt;</em></p>
+<p>Manage plugins.
+The following sub-commands are available:</p>
+<ul>
+<li>
+<strong>pluginmgr</strong> <strong>enable</strong> <em>&lt;plugin&gt;</em>
+<ul>
+<li>Enable a disabled plugin.</li>
+</ul>
+</li>
+<li>
+<strong>pluginmgr</strong> <strong>disable</strong> <em>&lt;plugin&gt;</em>
+<ul>
+<li>Disables an enabled plugin.</li>
+</ul>
+</li>
+<li>
+<strong>pluginmgr</strong> <strong>reload</strong> <em>&lt;plugin&gt;</em>
+<ul>
+<li>Disables and enables a plugin.</li>
+</ul>
+</li>
+<li>
+<strong>pluginmgr</strong> <strong>info</strong> <em>&lt;plugin&gt;</em>
+<ul>
+<li>Show plugin details</li>
+</ul>
+</li>
+<li>
+<strong>pluginmgr</strong> <strong>commands</strong> <em>&lt;plugin&gt;</em>
+<ul>
+<li>Show commands registered by plugin</li>
+</ul>
+</li>
+<li>
+<strong>pluginmgr</strong> <strong>permissions</strong> <em>&lt;plugin&gt;</em>
+<ul>
+<li>Show permissions registered by plugin</li>
+</ul>
+</li>
+<li>
+<strong>pluginmgr</strong> <strong>load</strong> <em>&lt;path&gt;</em>
+<ul>
+<li>Load a plugin from file path (presumably outside the <strong>plugin</strong> folder.)</li>
+</ul>
+</li>
+<li>
+<strong>pluginmgr</strong> <strong>dumpmsg</strong> <em>&lt;plugin&gt;</em> <em>[lang]</em>
+<ul>
+<li>Dump messages.ini.</li>
+</ul>
+</li>
+<li>
+<strong>pluginmgr</strong> <strong>uninstall</strong> <em>&lt;plugin&gt;</em>
+<ul>
+<li>Uninstall plugin.</li>
+</ul>
+</li>
+<li>
+<strong>pluginmgr</strong> <strong>feature</strong> <em>&lt;plugin&gt;</em> <em>[[-|+]feature]</em>
+<ul>
+<li>For plugins that have a <em>features</em> table in <strong>config.yml</strong>
+this will let you change those settings.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>poptp: Returns to the previous location<br>
+usage: <strong>poptp</strong></p>
+</li>
+<li>
+<p>prefix: prepend prefix to chat lines<br>
+usage: <strong>prefix</strong> <em>[-n]</em> <em>&lt;prefix text&gt;</em></p>
+<p>This allows you to prepend a prefix to chat lines.
+To stop enter <strong>/prefix</strong> by itself (or <strong>prefix</strong> at the console).
+Usage examples:</p>
+<ul>
+<li>Send multiple <strong>/as player</strong> commands in a row.</li>
+<li>Start a private chat <strong>/tell player</strong> with another player.</li>
+<li>You prefer commands over chat: <strong>/prefix -n /</strong>
+</li>
+</ul>
+<p>When prefix is enabled and you one to send just <em>one</em> command without
+prefix, prepend your text with <strong>&lt;</strong>.</p>
+</li>
+<li>
+<p>pushtp: Saves current location and teleport<br>
+usage: <strong>pushtp</strong> <em>&lt;player&gt;</em> <em>[target]</em></p>
+</li>
+<li>
+<p>query: query remote servers<br>
+usage: <strong>query</strong> <strong>[list|info|plugins|players|summary]</strong> <em>[opts]</em></p>
+<p>This is a query client that you can use to query other
+remote servers.</p>
+<p>Servers are defined with the <strong>servers</strong> command.</p>
+<p>Options:</p>
+<ul>
+<li>
+<strong>query list</strong>
+<ul>
+<li>List players on all configured <code>query</code> connections.</li>
+</ul>
+</li>
+<li>
+<strong>query info</strong> <em>&lt;id&gt;</em>
+<ul>
+<li>Return details from query</li>
+</ul>
+</li>
+<li>
+<strong>query players</strong> <em>&lt;id&gt;</em>
+<ul>
+<li>Return players on specified server</li>
+</ul>
+</li>
+<li>
+<strong>query plugins</strong> <em>&lt;id&gt;</em>
+<ul>
+<li>Returns plugins on specified server</li>
+</ul>
+</li>
+<li>
+<strong>query summary</strong>
+<ul>
+<li>Summary of server data</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>rcon: rcon client<br>
+usage: <strong>rcon</strong> <em>&lt;id&gt;</em> <em>&lt;command&gt;</em></p>
+<p>This is an rcon client that you can used to send commands to other
+remote servers identified by <strong>id</strong>.</p>
+<p>You can specify multiple targets by separating with commas (,).
+Otherwise, you can use <strong>--all</strong> keyword for the <em>id</em> if you want to
+send the commands to all configured servers.</p>
+<p>Use the <strong>servers</strong> command to define the rcon servers.</p>
+</li>
+<li>
+<p>reg: Manage player registrations<br>
+usage: <strong>reg</strong> <em>[subcommand]</em> <em>[options]</em></p>
+<p>By default it will show the number of registered players.  The following
+sub-commands are available:</p>
+<ul>
+<li>
+<strong>count</strong>
+<ul>
+<li>default sub-command.  Counts the number of registered players.</li>
+</ul>
+</li>
+<li>
+<strong>list</strong> <em>[pattern]</em>
+<ul>
+<li>Display a list of registered players or those that match the
+wildcard <em>pattern</em>.</li>
+</ul>
+</li>
+<li>
+<strong>rm</strong> <em>&lt;player&gt;</em>
+<ul>
+<li>Removes <em>player</em> registration.</li>
+</ul>
+</li>
+<li>
+<strong>since</strong> <em>&lt;when&gt;</em>
+<ul>
+<li>Display list of players registered since a date/time.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>reop: Let ops drop priviledges temporarily<br>
+usage: <strong>reop</strong> [<em>player</em>]</p>
+<p>Will drop <strong>op</strong> priviledges from player.  Player can get <strong>op</strong>
+back at any time by enter <strong>reop</strong> again or by disconnecting.</p>
+</li>
+<li>
+<p>rminv: Remove item from player's Inventory<br>
+usage: <strong>rminv</strong> <em>[player]</em> <em>&lt;item&gt;</em> <em>[quantity]</em></p>
+</li>
+<li>
+<p>rpt: report an issue to ops<br>
+usage: <strong>rpt</strong> [<em>message</em>|<strong>read|clear</strong> <em>&lt;all|##&gt;</em>]</p>
+<p>Logs/reports an issue to server ops.  These issues are stored in a
+a file which can be later read by the server operators.  Use this
+when there are <strong>no</strong> ops on-line.  If there are ops on-line you
+should use the <strong>opms</strong> command.</p>
+<p>The following ops only commands are available:</p>
+<ul>
+<li>
+<strong>rpt</strong> <strong>read</strong> <em>[##]</em>
+<ul>
+<li>reads reports.  You can specify the page by specifying a number.</li>
+</ul>
+</li>
+<li>
+<strong>rpt</strong> <strong>clear</strong> <em>&lt;all|##&gt;</em>
+<ul>
+<li>will delete the specified report or if <strong>all</strong>, all the reports.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>seearmor: Show player's armor<br>
+usage: <strong>seearmor</strong> <em>&lt;player&gt;</em></p>
+</li>
+<li>
+<p>seeinv: Show player's inventory<br>
+usage: <strong>seeinv</strong> <em>&lt;player&gt;</em></p>
+</li>
+<li>
+<p>servers: Manage peer server connections<br>
+usage: <strong>servers</strong> <strong>&lt;add|rm|ls&gt;</strong> <em>[options]</em></p>
+<p>This is used to manage the peer server definitions used by the
+<strong>RCON</strong> and <strong>QUERY</strong> modules.</p>
+<p>Options:</p>
+<ul>
+<li>
+<strong>servers add</strong> <em>&lt;id&gt; &lt;host&gt; [port] [--rcon-port=port] [--rconpw=secret] [# comments]</em>
+<ul>
+<li>adds a new connection with <strong>id</strong>
+</li>
+</ul>
+</li>
+<li>
+<strong>servers rm</strong> <em>&lt;id&gt;</em>
+<ul>
+<li>Removes peer <strong>id</strong>.</li>
+</ul>
+</li>
+<li>
+<strong>servers ls</strong>
+<ul>
+<li>List configured peers.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>servicemode: controls servicemode<br>
+usage: <strong>servicemode</strong> <strong>[on|off</strong> <em>[message]</em> <strong>]</strong></p>
+<p>If <strong>on</strong> it will activate service mode.  In service mode new
+players can not join (unless they are ops).  Existing players
+can remain but may be kicked manually by any ops.</p>
+</li>
+<li>
+<p>setarmor: Sets armor (even in creative)<br>
+usage: <strong>setarmor</strong> <em>[player]</em> <em>[part]</em> <em>&lt;quality&gt;</em></p>
+<p>This command lets you armor up.  It can armor up creative players too.
+If no <strong>player</strong> is given, the player giving the command will be armored.</p>
+<p>Part can be one of <strong>head</strong>, <strong>body</strong>, <strong>legs</strong>, or <strong>boots</strong>.</p>
+<p>Quality can be one of <strong>none</strong>, <strong>leather</strong>, <strong>chainmail</strong>, <strong>iron</strong>,
+<strong>gold</strong> or <strong>diamond</strong>.</p>
+</li>
+<li>
+<p>shield: player is protected from taking damage<br>
+usage: <strong>shield</strong></p>
+<p>This will toggle your shield status.</p>
+</li>
+<li>
+<p>showtimings: Shows timing repots as reported by <strong>timings</strong><br>
+usage: <strong>timings</strong> <em>[t#]</em></p>
+<p>If nothing specified it will list available reports.  These are
+of the form of <strong>timings.txt</strong> or <code>timings1.txt</code>.</p>
+<p>To specify a report enter <strong>t</strong> for <strong>timings.txt</strong> or <strong>t1</strong> for
+<strong>timings1.txt</strong>.</p>
+</li>
+<li>
+<p>skin: manage player's skins<br>
+usage: <strong>skin</strong> <em>[player]</em> <em>[save|load|ls]</em> <em>[name]</em></p>
+<p>Manipulate player's skins on the server.
+Sub-commands:</p>
+<ul>
+<li>
+<strong>skin</strong> <strong>ls</strong>
+<ul>
+<li>List all available skins on the server.  Default command.</li>
+</ul>
+</li>
+<li>
+<strong>skin</strong> <em>[player]</em> <strong>save</strong> <em>&lt;name&gt;</em>
+<ul>
+<li>Saves <em>player</em>'s skin to <em>name</em>.</li>
+</ul>
+</li>
+<li>
+<strong>skin</strong> <em>[player]</em> <strong>load</strong> <em>&lt;name&gt;</em>
+<ul>
+<li>Loads <em>player</em>'s skin from <em>name</em>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>slay: Kills the specified player<br>
+usage: <strong>slay</strong> <em>&lt;player&gt;</em> <em>[messsage]</em>
+Kills a player with an optional <em>message</em>.</p>
+</li>
+<li>
+<p>spawn: Teleport player to spawn point<br>
+usage: <strong>spawn</strong></p>
+</li>
+<li>
+<p>spectator|unspectator: toggle a player's spectator mode <strong>(DEPRECATED)</strong><br>
+usage: <strong>spectator|unspectator</strong> <em>[player]</em></p>
+<p>This command will turn a player into an spectator.  In this mode
+players can move but not interact (i.e. can't take/give damage,
+can't place/break blocks, etc).</p>
+<p>If no player was specified, it will list spectators.</p>
+</li>
+<li>
+<p>summon: Summons a player to your location<br>
+usage: <strong>summon</strong> <em>&lt;player&gt;</em> <em>[message]</em></p>
+</li>
+<li>
+<p>throw: Throw a player in the air<br>
+usage: <strong>throw</strong> <em>&lt;player&gt;</em> <em>[force]</em></p>
+</li>
+<li>
+<p>whois: Gives detailed information on players<br>
+usage: <strong>whois</strong> <em>&lt;player&gt;</em></p>
+</li>
+</ul>
+<p>Commands scheduled by <strong>at</strong> and <strong>after</strong> will only run as
+long as the server is running.  These scheduled commands will <em>not</em>
+survive server reloads or reboots.  If you want persistent commands,
+it is recommended that you use a plugin like TimeCommander</p>
+<h4>
+<a id="user-content-blood-particles" class="anchor" href="#blood-particles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>blood-particles</h4>
+<p>Display particles when a player gets hit</p>
+<h4>
+<a id="user-content-broadcast-ft" class="anchor" href="#broadcast-ft" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>broadcast-ft</h4>
+<p>Broadcast player's using FastTransfer</p>
+<p>This listener module will broadcast when a player uses FastTransfer</p>
+<h4>
+<a id="user-content-broadcast-tp" class="anchor" href="#broadcast-tp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>broadcast-tp</h4>
+<p>Broadcast player teleports</p>
+<p>This listener module will broadcast when a player teleports to
+another location.  It also generates some smoke and plays a sound.</p>
+<h4>
+<a id="user-content-cmd-selector" class="anchor" href="#cmd-selector" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>cmd-selector</h4>
+<p>Implements "@" command prefixes</p>
+<p>Please refer to the CommandSelector section</p>
+<h4>
+<a id="user-content-join-mgr" class="anchor" href="#join-mgr" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>join-mgr</h4>
+<p>Announce joining ops, and show server motd</p>
+<p>This listener module will broadcast a message for ops joining
+a server.</p>
+<p>Also, it will show the server's motd on connect.</p>
+<h4>
+<a id="user-content-repeater" class="anchor" href="#repeater" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>repeater</h4>
+<p>Uses <strong>!!</strong> to repeat command with changes</p>
+<p>If you want to repeat a previous command enter <strong>!!</strong> <em>without</em> any "/"
+in front.  This works for commands and chat messages.</p>
+<p>You can optionally append additional text to <strong>!!</strong> to do certain
+things:</p>
+<ul>
+<li>
+<strong>!!</strong> number
+<ul>
+<li>Will let you paginate output.  For example, entering:
+<ul>
+<li>/mw ls</li>
+<li>!!2</li>
+<li>!!3</li>
+</ul>
+</li>
+<li>This will start showing the output of <strong>/mw ls</strong> and consecutive pages.</li>
+</ul>
+</li>
+<li>
+<strong>!!</strong> /
+<ul>
+<li>if you forgot the "/" in front, this command will add it.  Example:
+<ul>
+<li>help</li>
+<li>!!/</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<strong>!!</strong> <em>text</em>
+<ul>
+<li>Will append <em>text</em> to the previous command.  For example:
+<ul>
+<li>/gamemode</li>
+<li>!! survival john</li>
+</ul>
+</li>
+<li>This will show the usage of survival, the next line will change the
+gamemode of john to survival.</li>
+</ul>
+</li>
+<li>
+<strong>!!</strong> str1 str2
+<ul>
+<li>Will repeat the previous command replacing <code>str1</code> with <code>str2</code>
+Example:
+<ul>
+<li>/give player drt</li>
+<li>!!drt dirt</li>
+</ul>
+</li>
+<li>This will change <strong>drt</strong> into <strong>dirt</strong>.</li>
+</ul>
+</li>
+<li>
+<strong>!!^</strong> <em>text</em>
+<ul>
+<li>Will insert <em>text</em> at the beginning of the command.</li>
+</ul>
+</li>
+</ul>
+<h2>
+<a id="user-content-command-selectors" class="anchor" href="#command-selectors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Selectors</h2>
+<p>This adds "@" prefixes for commands.
+See</p>
+<p><a href="http://minecraft.gamepedia.com/Commands#Target_selector_arguments" rel="nofollow">Command Prefixes</a></p>
+<p>for an explanation on prefixes.</p>
+<p>This only implements the following prefixes:</p>
+<ul>
+<li>@a - all players</li>
+<li>@e - all entities (including players)</li>
+<li>@r - random player/entity</li>
+</ul>
+<p>The following selectors are implemented:</p>
+<ul>
+<li>c: (only for @r),count</li>
+<li>m: game mode</li>
+<li>type: entity type, use Player for player.</li>
+<li>name: player's name</li>
+<li>w: world</li>
+</ul>
+<h3>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h3>
+<p>Configuration is through the <strong>config.yml</strong> file.
+The following sections are defined:</p>
+<h4>
+<a id="user-content-broadcast-tp-1" class="anchor" href="#broadcast-tp-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>broadcast-tp</h4>
+<ul>
+<li>world: world broadcast setting. If true, will broadcast teleports accross worlds.</li>
+<li>local: local broadcast setting. This will broadcast teleports that go beyond this number.</li>
+</ul>
+<h4>
+<a id="user-content-cmd-selector-1" class="anchor" href="#cmd-selector-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>cmd-selector</h4>
+<ul>
+<li>max-commands: Limit the ammount of commands generated by @ prefixes</li>
+</ul>
+<h4>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>features</h4>
+<p>This section you can enable/disable commands and listener modules.
+You do this in order to avoid conflicts between different
+PocketMine-MP plugins.  It has one line per feature:</p>
+<p>feature: true|false</p>
+<p>If <strong>true</strong> the feature is enabled.  if <strong>false</strong> the feature is disabled.</p>
+<h4>
+<a id="user-content-freeze-thaw" class="anchor" href="#freeze-thaw" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>freeze-thaw</h4>
+<ul>
+<li>hard-freeze: how hard to freeze players. If <strong>true</strong> no movement is allowed.  If <strong>false</strong>, turning is allowed but not walking/running/flying, etc.</li>
+</ul>
+<h4>
+<a id="user-content-join-mgr-1" class="anchor" href="#join-mgr-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>join-mgr</h4>
+<ul>
+<li>adminjoin: broadcast whenever an op joins</li>
+<li>servermotd: show the server's motd when joining</li>
+</ul>
+<h4>
+<a id="user-content-serverlist" class="anchor" href="#serverlist" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>serverlist</h4>
+<p>This section configures peer servers.  This can be used with
+<em>rcon</em> and <em>query</em> commands.</p>
+<h3>
+<a id="user-content-permission-nodes" class="anchor" href="#permission-nodes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission Nodes</h3>
+<ul>
+<li>gb.cmd.pushpoptp (op): position stack</li>
+<li>gb.cmd.freeze (op): freeze/thaw players</li>
+<li>gb.cmd.get (op): get blocks</li>
+<li>gb.cmd.gma (op): Switch gamemode to Adventure</li>
+<li>gb.cmd.gms (op): Switch gamemode to Survival</li>
+<li>gb.cmd.gmc (op): Switch gamemode to Creative</li>
+<li>gb.cmd.gmspc (op): Switch gamemode to Spectator</li>
+<li>gb.cmd.heal (op): heal players</li>
+<li>gb.cmd.invisible (op): invisibility power</li>
+<li>gb.cmd.invisible.inmune (disabled): can see invisible players</li>
+<li>gb.cmd.mute (op): mute/unmute players</li>
+<li>gb.cmd.opms: Send op only messages</li>
+<li>gb.cmd.rpt: Report issues</li>
+<li>gb.cmd.rpt.read (op): Read reported issues</li>
+<li>gb.cmd.ops: Display ops</li>
+<li>gb.cmd.permmgr (op): Manipulate Permissions</li>
+<li>gb.module.cmdsel: use command selectors</li>
+<li>gb.cmd.servicemode (op): service mode command</li>
+<li>gb.servicemode.allow (op): login when in service mode</li>
+<li>gb.module.repeater: use !! to repeat commands</li>
+<li>gb.cmd.players: connected players</li>
+<li>gb.cmd.prefix: Prefix command</li>
+<li>gb.cmd.reop: Reop command</li>
+<li>gb.cmd.reop.others (op): ReOp others</li>
+<li>gb.cmd.slay (op): Allow slaying players</li>
+<li>gb.cmd.whois (op): view players details</li>
+<li>gb.cmd.whois.showip (op): view players IP address</li>
+<li>gb.cmd.sudo (op): Run command as another user</li>
+<li>gb.cmd.burn (op): Burn other players</li>
+<li>gb.cmd.clearinv: clear player's inventory</li>
+<li>gb.cmd.clearinv.others (op): clear other's inventory</li>
+<li>gb.cmd.rminv: remove item from inventory</li>
+<li>gb.cmd.rminv.others (op): remove item from other's inventory</li>
+<li>gb.cmd.clearhotbar: clear player's hotbar</li>
+<li>gb.cmd.clearhotbar.others (op): clear other's hotbar</li>
+<li>gb.cmd.follow (op): lets you follow others</li>
+<li>gb.cmd.followme (op): let others follow you</li>
+<li>gb.cmd.regs (op): Manage player registrations</li>
+<li>gb.cmd.query: Query command</li>
+<li>gb.cmd.query.details: View details (info, plugins)</li>
+<li>gb.cmd.query.players: View players</li>
+<li>gb.cmd.query.players.showip: View players server IP</li>
+<li>gb.cmd.query.list: Query List sub command</li>
+<li>gb.cmd.togglechat: lets players opt out from chat</li>
+<li>gb.cmd.togglechat.others (op): lets you toggle chat for others</li>
+<li>gb.cmd.togglechat.excempt (op): chat-off players will always receive chats from these players</li>
+<li>gb.cmd.togglechat.global (op): Can toggle chat for the server as a whole</li>
+<li>gb.cmd.clearchat: Clear your chat window</li>
+<li>gb.cmd.nick: Change display name</li>
+<li>gb.cmd.entities (op): entity management</li>
+<li>gb.cmd.rcon (op): Rcon client</li>
+<li>gb.cmd.setarmor (op): Configure armor</li>
+<li>gb.cmd.setarmor.others (op): Configure other's armor</li>
+<li>gb.cmd.shield (op): Allow players to become invulnverable</li>
+<li>gb.cmd.seearmor (op): View armor</li>
+<li>gb.cmd.seeinv (op): View inventory</li>
+<li>gb.cmd.skin (op): Manage skins</li>
+<li>gb.cmd.skin.other (op): Manage other's skins</li>
+<li>gb.cmd.spawn: Teleport to spawn</li>
+<li>gb.cmd.spectator (op): Turn players into spectators</li>
+<li>gb.cmd.servers (op): servers command</li>
+<li>gb.cmd.servers.read (op): view server configuration</li>
+<li>gb.cmd.servers.read.viewip (op): view server IP address</li>
+<li>gb.cmd.servers.read.viewrcon (op): view rcon secrets</li>
+<li>gb.cmd.servers.write (op): change server configuration</li>
+<li>gb.cmd.alias (op): allow creating aliases</li>
+<li>gb.cmd.after (op): access command scheduler</li>
+<li>gb.cmd.blowup (op): Explode other players</li>
+<li>gb.cmd.crash (op): crash dump management</li>
+<li>gb.cmd.fly (op): flight control</li>
+<li>gb.cmd.ftserver (op): Allow user to use Fast Transfer</li>
+<li>gb.cmd.summon (op): summon|dismmiss command</li>
+<li>gb.cmd.throw (op): Troll players</li>
+<li>gb.cmd.timings (op): view timings report</li>
+<li>gb.cmd.pluginmgr (op): Run-time management of plugins</li>
+</ul>
+<h2>
+<a id="user-content-translations" class="anchor" href="#translations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Translations</h2>
+<p>This plugin will honour the server language configuration.  The
+languages currently available are:</p>
+<ul>
+<li>English</li>
+<li>Spanish</li>
+</ul>
+<p>You can provide your own message file by creating a file called
+<strong>messages.ini</strong> in the plugin config directory.
+Check <a href="https://github.com/Muirfield/GrabBag/tree/master/resources/messages">github</a>
+for sample files.</p>
+<h2>
+<a id="user-content-additional-libraries" class="anchor" href="#additional-libraries" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional Libraries</h2>
+<p>The following third party libraries are included:</p>
+<ul>
+<li>[xPaw's MinecraftQuery](<a href="http://xpaw.me" rel="nofollow">http://xpaw.me</a> GitHub: <a href="https://github.com/xPaw/PHP-Minecraft-Query">https://github.com/xPaw/PHP-Minecraft-Query</a>)</li>
+</ul>
+<h2>
+<a id="user-content-wip-and-issues" class="anchor" href="#wip-and-issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>WIP and issues</h2>
+<ul>
+<li>Query:
+<ul>
+<li>Queries are done in the main thread.  Should be moved as an AsyncTask.</li>
+<li>Queries to the same server do not work.</li>
+<li>name resolution doesn't work reliably, use IP address as work around.</li>
+</ul>
+</li>
+</ul>
+<h1>
+<a id="user-content-changes" class="anchor" href="#changes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Changes</h1>
+<ul>
+<li>2.3.0: Update, new functionality and API
+<ul>
+<li>Plugin loader will check server paths (include plugin folder)</li>
+<li>New plugin mgr sub command to dump messages.ini and to un-install.</li>
+<li>Doc updates.</li>
+<li>Updating libcommon stuff.</li>
+<li>WhoIs command now supports <a href="https://forums.pocketmine.net/plugins/pureperms.862/" rel="nofollow">PurePerms</a>
+</li>
+<li>Added aliases module</li>
+<li>New command rminv (@SeangJemmy)</li>
+<li>New reop command</li>
+<li>Configuration of Rcon and Query has changed</li>
+<li>Permissions are conditionally created (if the module is enabled)</li>
+<li>Adding a complete new API</li>
+</ul>
+</li>
+<li>2.2.7:
+<ul>
+<li>Minor fix in Reg command</li>
+<li>Fixed bug in Command Selector (@Legoboy0215 and @SM11)</li>
+<li>Command selector: w=world (@SM11)</li>
+</ul>
+</li>
+<li>2.2.6: Bugfix
+<ul>
+<li>gift command fixing</li>
+<li>ChatMgr crash fixing</li>
+<li>(@SM11) Edit tiles by location (instead of by id)</li>
+</ul>
+</li>
+<li>2.2.5:
+<ul>
+<li>Fixed bugs</li>
+<li>CmdSelMgr: configure max</li>
+<li>gift command / broadcast</li>
+<li>Switched MPMU::itemName for ItemName::string</li>
+</ul>
+</li>
+<li>2.2.4:
+<ul>
+<li>Re-formatted Queries (Requested by @Daniel123)</li>
+<li>FollowMgr check if player is flying before teleporting.</li>
+<li>Added /nick command (ChatMgr)</li>
+<li>Added Command Selector.</li>
+</ul>
+</li>
+<li>2.2.3: Multi-server
+<ul>
+<li>Chat manager (Requested by @CaptainKenji17)</li>
+<li>Must have multi-server feactures:
+<ul>
+<li>Query command: let's you get info from servers in your network, like
+<ul>
+<li>number of servers on-line, number of players</li>
+<li>show what players are on-line and on which servers</li>
+</ul>
+</li>
+<li>Rcon: let's you execute commands on remote servers using Rcon.  The
+new --all switch lets you send the same command to all the servers in
+your network.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2.2.2:
+<ul>
+<li>Default permission for /spawn changed from op to everyone.</li>
+<li>Whois shows clientId</li>
+<li>CmdAfterAt: list tasks and cancel them</li>
+<li>Sounds on teleport</li>
+<li>CmdRegMgr : show players registering since certain date</li>
+<li>Transfer broadcast : fixed bug</li>
+</ul>
+</li>
+<li>2.2.1: Misc fixes and new features
+<ul>
+<li>New Command:
+<ul>
+<li>skin : manipulate skins</li>
+<li>invis : make player invisible</li>
+</ul>
+</li>
+<li>Fixes:
+<ul>
+<li>CmdAs : Fixed chat (for PM1.5)</li>
+<li>CmdPlayers : Show name instead of displayname</li>
+<li>CmdClearInv : Fixed checking permissions for others</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>2.2.0: Another update
+<ul>
+<li>CmdWhois : Works with off-line players and also returns SimpleAuth
+details.</li>
+<li>CmdAfterAt : It nows work with fractional seconds</li>
+<li>New Commands:
+<ul>
+<li>perm : temporarily change permissions</li>
+<li>reg : Manage player registration</li>
+</ul>
+</li>
+<li>New module:
+<ul>
+<li>broadcast-ft: Like broacast-tp but for fast transfers</li>
+</ul>
+</li>
+<li>Translation fixes, and other typos</li>
+<li>blood-particle: it also shows dust when the player dies</li>
+<li>broadcast-tp: show particles</li>
+</ul>
+</li>
+<li>2.1.0 : Regular update
+<ul>
+<li>New commands:
+<ul>
+<li>gmspc - spectator mode</li>
+<li>fly - enables flying for players in survival</li>
+<li>clearhotbar - clear your hotbar</li>
+<li>PluginMgr - manage plugins</li>
+<li>Crash - manage crash dumps</li>
+</ul>
+</li>
+<li>New modules:
+<ul>
+<li>broadcast-tp : Broadcast when a player teleports</li>
+<li>blood-particles : blood particles (actually redstone) when
+players get hit.</li>
+</ul>
+</li>
+<li>Command updates:
+<ul>
+<li>clearinv - can clear your own inventory</li>
+<li>whois - returns more information</li>
+</ul>
+</li>
+<li>Switched to my common library.</li>
+<li>Added translation, Spanish.</li>
+</ul>
+</li>
+<li>2.0.1: CallbackTasks
+<ul>
+<li>Removed CallbackTask deprecation warnings</li>
+</ul>
+</li>
+<li>2.0.0: Re-factoring
+<ul>
+<li>Re-factoring the code so it is more maintainable</li>
+<li>Removed unbreakable (moved to WorldProtect), CompassTP (moved to
+ToyBox), spawnitems, spawnarmor (moved to SpawnMgr).</li>
+<li>Added /prefix, /spawn, etc...</li>
+<li>/et subcommands: count and nuke, overall simplified entities.</li>
+</ul>
+</li>
+<li>1.4.1: maintenance
+<ul>
+<li>Fixed a bug in showtimings.</li>
+<li>Fixed improper usage of the API in Removing Tile and Entities.</li>
+<li>Changed so unbreakable is off by default</li>
+</ul>
+</li>
+<li>1.4.0
+<ul>
+<li>new commands: clearinv, rpt</li>
+<li>new listeners: unbreakable</li>
+<li>players : shows game mode</li>
+<li>et signX : new subcommand</li>
+<li>summon/dismiss commands</li>
+<li>push/pop teleport commands</li>
+</ul>
+</li>
+<li>1.3.0: More Commands
+<ul>
+<li>Added !! / to repeater</li>
+<li>Added freeze and mute commands</li>
+<li>Added at and after commands</li>
+<li>Improved entities output</li>
+<li>Improved documentation</li>
+</ul>
+</li>
+<li>1.2.0 : Additional functionality
+<ul>
+<li>Entities command</li>
+<li>servermotd module</li>
+<li>Fixed one warning</li>
+</ul>
+</li>
+<li>1.1.2 : Fixes
+<ul>
+<li>showtimings, added clear operation.</li>
+<li>"/as": bug fixes</li>
+<li>Fixed typo in modules.yml</li>
+</ul>
+</li>
+<li>1.1.1 : More functionality
+<ul>
+<li>Hide IP address from whois output</li>
+<li>New opms command.</li>
+<li>CompassTP: Prevent teleports to very nearby locations.  Also,
+removed suffocation dangers...  (this is traded with a risk of
+falling from high places...)</li>
+<li>Added the ability to teleport with a Compass.</li>
+<li>Added servicemode functionality</li>
+<li>showtimings command</li>
+<li>added seearmor, seeinv and get</li>
+<li>Improved the way how modules.yml is updated</li>
+<li>added shield command</li>
+<li>removed un-used old code/re-organized code.</li>
+<li>Command repeater</li>
+</ul>
+</li>
+<li>1.0.0 : First public release</li>
+</ul>
+<h1>
+<a id="user-content-copyright" class="anchor" href="#copyright" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright</h1>
+<pre><code>GrabBag
+Copyright (C) 2015 Alejandro Liu
+All Rights Reserved.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</code></pre>

@@ -1,0 +1,64 @@
+{
+    "id": 1522,
+    "name": "DevTools",
+    "version": "1.13.0",
+    "html_url": "https://poggit.pmmp.io/p/DevTools/1.13.0",
+    "tagline": "Development tools plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/34069",
+    "downloads": 6180,
+    "score": 5,
+    "repo_id": 76901140,
+    "repo_name": "pmmp/DevTools",
+    "project_id": 167,
+    "project_name": "PocketMine-DevTools",
+    "build_id": 43529,
+    "build_number": 107,
+    "build_commit": "638e44519a921f969c59365220fd46011aba51a1",
+    "description_url": "https://poggit.pmmp.io/r/34066",
+    "icon_url": "https://raw.githubusercontent.com/pmmp/PocketMine-DevTools/638e44519a921f969c59365220fd46011aba51a1/devtools.png",
+    "changelog_url": "https://poggit.pmmp.io/r/34068",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": true,
+    "is_abandoned": false,
+    "submission_date": 1529422241,
+    "state": 5,
+    "last_state_change_date": 1529422248,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "devtools"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "shoghicp",
+            "Intyre",
+            "PEMapModder",
+            "Awzaw",
+            "Freax13",
+            "robske110",
+            "TheNewHEROBRINEX",
+            "SOF3",
+            "Blackjack200"
+        ],
+        "Collaborator": [
+            "dktapps"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

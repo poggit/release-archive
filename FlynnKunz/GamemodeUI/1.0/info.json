@@ -1,0 +1,82 @@
+{
+    "id": 10003,
+    "name": "GamemodeUI",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/GamemodeUI/1.0",
+    "tagline": "Change Gamemode With UI",
+    "artifact_url": "https://poggit.pmmp.io/r/181588",
+    "downloads": 123,
+    "score": 5,
+    "repo_id": 502528138,
+    "repo_name": "FlynnKunz/GamemodeUI",
+    "project_id": 11360,
+    "project_name": "GamemodeUI",
+    "build_id": 137281,
+    "build_number": 21,
+    "build_commit": "3c8a7aaeff032bc3d8ff49ca7ae72049d88b5d42",
+    "description_url": "https://poggit.pmmp.io/r/181590",
+    "icon_url": "https://raw.githubusercontent.com/FlynnKunz/GamemodeUI/3c8a7aaeff032bc3d8ff49ca7ae72049d88b5d42/icon-gm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1655159750,
+    "state": 5,
+    "last_state_change_date": 1655168530,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "FormsUI",
+        "Gamemode",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM",
+            "FlynnKunz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "id": 5389,
+    "name": "FallOutInventoryClear",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/FallOutInventoryClear/1.0",
+    "tagline": "This plugin clears your inventory if you fell out from the world and then drop you back to the world’s spawn.",
+    "artifact_url": "https://poggit.pmmp.io/r/104923",
+    "downloads": 76,
+    "score": null,
+    "repo_id": 231376487,
+    "repo_name": "str0nixofficial/FallOutClearInventory",
+    "project_id": 5996,
+    "project_name": "FallOutClearInventory",
+    "build_id": 68706,
+    "build_number": 4,
+    "build_commit": "b902ed485d48781b4b92da7233ec2278b1b9e953",
+    "description_url": "https://poggit.pmmp.io/r/104922",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1602113579,
+    "state": 5,
+    "last_state_change_date": 1602118769,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "FallOutInvClear",
+        "FOIC"
+    ],
+    "api": [
+        {
+            "from": "3.10.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "str0nixofficial"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

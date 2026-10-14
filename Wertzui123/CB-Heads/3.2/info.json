@@ -1,0 +1,70 @@
+{
+    "id": 8423,
+    "name": "CB-Heads",
+    "version": "3.2",
+    "html_url": "https://poggit.pmmp.io/p/CB-Heads/3.2",
+    "tagline": "An advanced playerhead plugin for PocketMine-MP servers",
+    "artifact_url": "https://poggit.pmmp.io/r/154526",
+    "downloads": 215,
+    "score": null,
+    "repo_id": 178592105,
+    "repo_name": "Wertzui123/CB-Heads",
+    "project_id": 4853,
+    "project_name": "CB-Heads",
+    "build_id": 119551,
+    "build_number": 80,
+    "build_commit": "b362576e550cbc64c22046aac2de37d6fc3addfe",
+    "description_url": "https://poggit.pmmp.io/r/154643",
+    "icon_url": "https://raw.githubusercontent.com/Wertzui123/CB-Heads/b362576e550cbc64c22046aac2de37d6fc3addfe/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/154645",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1640780653,
+    "state": 5,
+    "last_state_change_date": 1641492376,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "cb",
+        "cb-heads",
+        "cbheads",
+        "heads",
+        "playerhead",
+        "playerheads"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SalmonDE",
+            "HighTecDev"
+        ],
+        "Collaborator": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

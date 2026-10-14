@@ -1,0 +1,74 @@
+{
+    "id": 13147,
+    "name": "JailX",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/JailX/1.0.0",
+    "tagline": "A plugin to manage a jail on the server.",
+    "artifact_url": "https://poggit.pmmp.io/r/241040",
+    "downloads": 200,
+    "score": 5,
+    "repo_id": 809210001,
+    "repo_name": "tstarkdev/JailX",
+    "project_id": 13885,
+    "project_name": "JailX",
+    "build_id": 176581,
+    "build_number": 12,
+    "build_commit": "329af3dff81ca814b81a584df9c09e7267e84425",
+    "description_url": "https://poggit.pmmp.io/r/242282",
+    "icon_url": "https://raw.githubusercontent.com/t-starks/JailX/329af3dff81ca814b81a584df9c09e7267e84425/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1717953630,
+    "state": 5,
+    "last_state_change_date": 1718009072,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "jailx",
+        "plugin-pocketmine",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine-mp",
+        "pocketmine-school"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "t-starks"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

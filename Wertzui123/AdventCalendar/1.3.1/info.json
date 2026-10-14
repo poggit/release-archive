@@ -1,0 +1,73 @@
+{
+    "id": 12700,
+    "name": "AdventCalendar",
+    "version": "1.3.1",
+    "html_url": "https://poggit.pmmp.io/p/AdventCalendar/1.3.1",
+    "tagline": "Lets your players claim unique rewards every day until Christmas",
+    "artifact_url": "https://poggit.pmmp.io/r/230560",
+    "downloads": 714,
+    "score": 5,
+    "repo_id": 725778417,
+    "repo_name": "Wertzui123/AdventCalendar",
+    "project_id": 13389,
+    "project_name": "AdventCalendar",
+    "build_id": 169451,
+    "build_number": 11,
+    "build_commit": "2ceca809204a4746a7f83036a503083142c74e20",
+    "description_url": "https://poggit.pmmp.io/r/230559",
+    "icon_url": "https://raw.githubusercontent.com/Wertzui123/AdventCalendar/2ceca809204a4746a7f83036a503083142c74e20/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1703681370,
+    "state": 5,
+    "last_state_change_date": 1704060020,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "706e307d705ef8fe20653bebd04a18b1d9b3e47a",
+            "build_id": 161792
+        }
+    ]
+}

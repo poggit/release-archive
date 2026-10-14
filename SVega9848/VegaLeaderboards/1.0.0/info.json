@@ -1,0 +1,73 @@
+{
+    "id": 11095,
+    "name": "VegaLeaderboards",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VegaLeaderboards/1.0.0",
+    "tagline": "Display 100% personalizable leaderboards on your server as floating texts!",
+    "artifact_url": "https://poggit.pmmp.io/r/202523",
+    "downloads": 695,
+    "score": 4,
+    "repo_id": 617232920,
+    "repo_name": "SVega9848/VegaLeaderboards",
+    "project_id": 12250,
+    "project_name": "VegaLeaderboards",
+    "build_id": 151509,
+    "build_number": 14,
+    "build_commit": "dbfa318afbd6f93ca0459414a93ca5d1d7242f9b",
+    "description_url": "https://poggit.pmmp.io/r/202522",
+    "icon_url": "https://raw.githubusercontent.com/SVega9848/VegaLeaderboards/dbfa318afbd6f93ca0459414a93ca5d1d7242f9b/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1679616036,
+    "state": 5,
+    "last_state_change_date": 1679675789,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "leaderboards",
+        "mcpe",
+        "mcpe-plugin",
+        "php",
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pocketmine",
+        "pvp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SVega9848"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

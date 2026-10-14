@@ -1,0 +1,60 @@
+{
+    "id": 1924,
+    "name": "PureChatExtras",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PureChatExtras/1.0.0",
+    "tagline": "A ADDON FOR PURECHAT",
+    "artifact_url": "https://poggit.pmmp.io/r/43428",
+    "downloads": 4174,
+    "score": 2,
+    "repo_id": 152921279,
+    "repo_name": "ProxyTechDevs/PureChatExtras-UPDATED",
+    "project_id": 4071,
+    "project_name": "PureChatExtras-UPDATED",
+    "build_id": 50563,
+    "build_number": 13,
+    "build_commit": "fa8553a40b17e4f29f649b144255f8c3b7e22891",
+    "description_url": "https://poggit.pmmp.io/r/43427",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1539477585,
+    "state": 5,
+    "last_state_change_date": 1539477585,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "Chat"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PureChat",
+            "version": "1.4.11",
+            "depRelId": 1547,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ProxyTechDevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

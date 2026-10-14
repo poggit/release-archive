@@ -1,0 +1,55 @@
+{
+    "id": 5993,
+    "name": "NichiWikiPMMP",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/NichiWikiPMMP/1.0",
+    "tagline": "This simple plugin can search for information on wikipedia on minecraft",
+    "artifact_url": "https://poggit.pmmp.io/r/115973",
+    "downloads": 173,
+    "score": 5,
+    "repo_id": 340313656,
+    "repo_name": "MadeAja/NichiWikiPMMP",
+    "project_id": 8568,
+    "project_name": "NichiWikiPMMP",
+    "build_id": 96854,
+    "build_number": 5,
+    "build_commit": "f5a1d25a2480fafc12e943b0773942815682a66d",
+    "description_url": "https://poggit.pmmp.io/r/115972",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1613860364,
+    "state": 5,
+    "last_state_change_date": 1614009609,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MadeAja"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,67 @@
+{
+    "id": 6153,
+    "name": "ItemCooldowns",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/ItemCooldowns/1.1.0",
+    "tagline": "A plugin for Pocketmine-MP 3.0.0 and above that allows administrators to set cool downs for consumables & throwables!",
+    "artifact_url": "https://poggit.pmmp.io/r/118449",
+    "downloads": 795,
+    "score": 5,
+    "repo_id": 344238715,
+    "repo_name": "Rushil13579/ItemCooldowns",
+    "project_id": 8636,
+    "project_name": "ItemCooldowns",
+    "build_id": 98298,
+    "build_number": 7,
+    "build_commit": "6ebd099bd666a235857011ea72625777fb6e3a96",
+    "description_url": "https://poggit.pmmp.io/r/119166",
+    "icon_url": "https://raw.githubusercontent.com/Rushil13579/ItemCooldowns/6ebd099bd666a235857011ea72625777fb6e3a96/Logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/119168",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1615913655,
+    "state": 5,
+    "last_state_change_date": 1615981533,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Cooldown",
+        "Item",
+        "ItemCooldows"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Rushil13579"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

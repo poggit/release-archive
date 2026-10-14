@@ -1,0 +1,30 @@
+<h1>MineReset</h1>
+<p>MineReset is a fancy tool which allows you to create resettable mines the right way. It has been entirely rewritten in version 3.0.</p>
+<h2>Commands</h2>
+<h3>/mine create &lt;name&gt;</h3>
+<p><strong>minereset.command.create</strong></p>
+<p>This command must be run in game. It will start the creation wizard to create a mine with the specified name. This will require you to tap two points to be the corner blocks of the mine. Upon tapping the second block, the mine will be created and saved.</p>
+<h3>/mine set &lt;name&gt; &lt;data&gt;</h3>
+<p><strong>minereset.command.set</strong></p>
+<p>In order for MineReset to reset a mine, it needs to know what blocks to put in it and what how often each block should occur. You must specify this in the form <code>&lt;ID&gt; &lt;PERCENT&gt;</code>. So if I wanted mine A to have 50% stone and 50% air, I would run <code>/mine set A 1 50 0 50</code>. MineReset can handle metadata for blocks in the form <code>&lt;ID&gt;:&lt;METADATA&gt; &lt;PERCENT&gt;</code>.</p>
+<h3>/mine reset &lt;name&gt;</h3>
+<p><strong>minereset.command.reset</strong></p>
+<p>This command wil trigger a manual reset if there is not already one ongoing. Mines are reset in the following way</p>
+<ol>
+<li>Chunks in the mine are collected and turned into raw data.</li>
+<li>These chunks are loaded and modfied in a seperate task (PocketMine can keep running at the same time).</li>
+<li>The chunks are transferred back to PocketMine and set in bulk.</li>
+</ol>
+<p>This means that any changes you make to the chunks while the mine is resetting will have no effect and MineReset will attempt to block you.</p>
+<h3>/mine reset-all</h3>
+<p><strong>minereset.command.resetall</strong></p>
+<p>This command will dispatch a reset for each mine.</p>
+<h3>/mine destroy  [code]</h3>
+<p><strong>minereset.command.destroy</strong></p>
+<p>This command will irreversible delete a mine. When running this command you will be asked to confirm your action by re-running the command with a confirmation code. If you would like to avoid confirming, you should edit the <code>mines.yml</code> file directly.</p>
+<h3>/mine list</h3>
+<p><strong>minereset.command.list</strong></p>
+<p>This command will list out all existing mines.</p>
+<h3>/mine about</h3>
+<p><strong>minereset.command.about</strong></p>
+<p>This command will display a little info blurb downloaded from the web.</p>

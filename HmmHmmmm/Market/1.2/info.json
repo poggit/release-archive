@@ -1,0 +1,97 @@
+{
+    "id": 3920,
+    "name": "Market",
+    "version": "1.2",
+    "html_url": "https://poggit.pmmp.io/p/Market/1.2",
+    "tagline": "Create shop in market on your server.",
+    "artifact_url": "https://poggit.pmmp.io/r/77690",
+    "downloads": 7129,
+    "score": 3,
+    "repo_id": 244645378,
+    "repo_name": "HmmHmmmm/Market",
+    "project_id": 6408,
+    "project_name": "Market",
+    "build_id": 72090,
+    "build_number": 8,
+    "build_commit": "627e816836824b63c1b116dd277806077fcd4b24",
+    "description_url": "https://poggit.pmmp.io/r/77689",
+    "icon_url": "https://raw.githubusercontent.com/HmmHmmmm/Market/627e816836824b63c1b116dd277806077fcd4b24/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1583253330,
+    "state": 5,
+    "last_state_change_date": 1583686706,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "customui",
+        "economy",
+        "invmenu",
+        "pocketmine",
+        "pocketmine-plugins",
+        "shopchest",
+        "shopform"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HmmHmmmm"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "customui",
+            "project_id": 772,
+            "repo_id": 99797082,
+            "repo_name": "thebigsmileXD/customui",
+            "repo_path": "customui/",
+            "build_commit": "97a8e73470057f8786e4a1f993d1971ed87cc59b",
+            "build_id": 51353
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "7219b8f5ffb01eee0b4fe645a27fb35df28c085e",
+            "build_id": 70930
+        }
+    ]
+}

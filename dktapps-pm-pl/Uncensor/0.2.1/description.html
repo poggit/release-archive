@@ -1,0 +1,19 @@
+<h1>
+<a id="user-content-uncensor-formerly-antiantiswearfilter" class="anchor" href="#uncensor-formerly-antiantiswearfilter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Uncensor (formerly AntiAntiSwearFilter)</h1>
+<p>A plugin for PocketMine-MP to automatically bypass client-sided profanity filtering.</p>
+<h2>
+<a id="user-content-how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h2>
+<ul>
+<li>Drop the plugin into your plugins folder</li>
+<li>Acquire the game's current <code>profanity_filter.wlist</code> and place it in the plugin's data folder</li>
+<li>Profit!</li>
+</ul>
+<h2>
+<a id="user-content-where-do-i-get-profanity_filterwlist-from" class="anchor" href="#where-do-i-get-profanity_filterwlist-from" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Where do I get <code>profanity_filter.wlist</code> from?</h2>
+<p>You can extract it from any current version of the game. It is not included with the files for this plugin due to potential licensing issues.</p>
+<h2>
+<a id="user-content-how-does-it-work" class="anchor" href="#how-does-it-work" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How does it work?</h2>
+<p>Very simple. It simply inserts an ASCII file-separator character (ASCII code 28, 0x1c) after the first letter of the filtered word. This ensures that it does not match client-sided filtering.</p>
+<h2>
+<a id="user-content-will-it-interfere-with-any-swear-filter-plugins-i-already-have" class="anchor" href="#will-it-interfere-with-any-swear-filter-plugins-i-already-have" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Will it interfere with any swear-filter plugins I already have?</h2>
+<p>This plugin operates directly on TextPacket as it is sent. Most swear-filter plugins will already have redacted bad words by the time the message reaches this plugin. It is therefore unlikely to interfere with existing plugins, however this has not been tested.</p>

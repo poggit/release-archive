@@ -1,0 +1,74 @@
+{
+    "id": 14147,
+    "name": "PersianChatFixer",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PersianChatFixer/2.0.0",
+    "tagline": "Fixes Persian text display and direction in PocketMine-MP chat and signs.",
+    "artifact_url": "https://poggit.pmmp.io/r/258385",
+    "downloads": 372,
+    "score": 5,
+    "repo_id": 1029403316,
+    "repo_name": "AMGamer615/PersianChatFixer",
+    "project_id": 14851,
+    "project_name": "PersianChatFixer",
+    "build_id": 188361,
+    "build_number": 16,
+    "build_commit": "f46566e3edb2593b8cdc54d5f9fd511e8234eb69",
+    "description_url": "https://poggit.pmmp.io/r/258389",
+    "icon_url": "https://raw.githubusercontent.com/AMGamer615/PersianChatFixer/f46566e3edb2593b8cdc54d5f9fd511e8234eb69/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1754317263,
+    "state": 5,
+    "last_state_change_date": 1754369116,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "amgamer615",
+        "farsi",
+        "minecraft",
+        "minecraft-plugin",
+        "persian",
+        "persian-chat",
+        "persian-chat-fixer",
+        "php",
+        "plugin",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine",
+        "pocketmine-mp",
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "5.14.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AMGamer615"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

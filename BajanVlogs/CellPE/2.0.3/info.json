@@ -1,0 +1,59 @@
+{
+    "id": 845,
+    "name": "CellPE",
+    "version": "2.0.3",
+    "html_url": "https://poggit.pmmp.io/p/CellPE/2.0.3",
+    "tagline": "Cell plugin for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/17342",
+    "downloads": 797,
+    "score": null,
+    "repo_id": 95468102,
+    "repo_name": "BajanVlogs/CellPE",
+    "project_id": 785,
+    "project_name": "CellPE",
+    "build_id": 31650,
+    "build_number": 65,
+    "build_commit": "ede6542829c3b53817f56bd7a3c87fdaee1bbed0",
+    "description_url": "https://poggit.pmmp.io/r/20375",
+    "icon_url": "https://raw.githubusercontent.com/BajanVlogs/CellPE/ede6542829c3b53817f56bd7a3c87fdaee1bbed0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/20377",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1512505914,
+    "state": 5,
+    "last_state_change_date": 1512505914,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA1",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BajanVlogs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

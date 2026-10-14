@@ -1,0 +1,31 @@
+<h1>Introductory notes</h1>
+<ul>
+<li><strong>This update is recommended because it contains new features, many improvements and bug fixes.</strong></li>
+<li>The update is backward compatible with the previous version.</li>
+</ul>
+<h1>Changelog</h1>
+<h2>New Features</h2>
+<ul>
+<li>Added support for global radius by using <code>r=#global</code>. With this option you can rollback an entire world.</li>
+<li>Added possibility to rollback/restore a world from Console.</li>
+<li>Added new command parameter <code>world</code>. With this option you can choose which world you want to interact with. Example: <code>/bcp rollback t=15d r=#global w=Faction</code>.</li>
+<li>Added possibility to purge only a specific world (e.g <code>/bcp purge t=30d w=world</code>)</li>
+<li>Added additional parameter to optimize database space when deleting data. It can be accessed via <code>/bcp purge t=30d #optimize</code></li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li>Supported PHP 8</li>
+<li>Reorganized plugin subcommands for greater flexibility.</li>
+<li>Minor improvements.</li>
+<li>Improved README</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>Added new option <code>enable-ui-menu</code> in the configuration file. If enabled, you can run "/bcp" to show the plugin UI</li>
+<li>Removed <code>/bcp menu</code> command.</li>
+</ul>
+<h2>Bug fixes</h2>
+<ul>
+<li>Fixed <code>Fatal error: Allowed memory size of N bytes exhausted</code> when fetching a lot of data.</li>
+<li>Minor bug fixes.</li>
+</ul>

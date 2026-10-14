@@ -1,0 +1,85 @@
+{
+    "id": 13735,
+    "name": "ChestKitPro",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ChestKitPro/1.0.0",
+    "tagline": "Chest kit for Pocketmine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/251355",
+    "downloads": 300,
+    "score": null,
+    "repo_id": 890739179,
+    "repo_name": "WavyCraft/ChestKitPro",
+    "project_id": 14348,
+    "project_name": "ChestKitPro",
+    "build_id": 183759,
+    "build_number": 31,
+    "build_commit": "c75929a3a1e046aeb1764bd55dd9c8a48f5c9e26",
+    "description_url": "https://poggit.pmmp.io/r/251354",
+    "icon_url": "https://raw.githubusercontent.com/WavyCraft/ChestKitPro/c75929a3a1e046aeb1764bd55dd9c8a48f5c9e26/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736037662,
+    "state": 5,
+    "last_state_change_date": 1736037696,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "AdvancedKits",
+        "Chest",
+        "ChestKit",
+        "ChestKitPro",
+        "ChestKits",
+        "EasyKits",
+        "Kits",
+        "Pro"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "3.0.12",
+            "depRelId": 11347,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "WavyCraft"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        }
+    ]
+}

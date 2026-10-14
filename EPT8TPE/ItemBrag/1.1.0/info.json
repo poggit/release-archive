@@ -1,0 +1,92 @@
+{
+    "id": 4683,
+    "name": "ItemBrag",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/ItemBrag/1.1.0",
+    "tagline": "A pocketmine plugin that allows players to brag about their items.",
+    "artifact_url": "https://poggit.pmmp.io/r/92113",
+    "downloads": 209,
+    "score": null,
+    "repo_id": 271253457,
+    "repo_name": "EPT8TPE/ItemBrag",
+    "project_id": 7164,
+    "project_name": "ItemBrag",
+    "build_id": 81282,
+    "build_number": 25,
+    "build_commit": "d9d62f32a98465866ec7a6dfba94471afe2a5957",
+    "description_url": "https://poggit.pmmp.io/r/92112",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1592158941,
+    "state": 5,
+    "last_state_change_date": 1592160500,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "ad",
+        "advertise",
+        "ah",
+        "brag",
+        "ce",
+        "enchant",
+        "enchantlevel",
+        "item",
+        "itembrag",
+        "show"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.2.0",
+            "depRelId": 4615,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "jaylac2000"
+        ],
+        "Collaborator": [
+            "EPT8TPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

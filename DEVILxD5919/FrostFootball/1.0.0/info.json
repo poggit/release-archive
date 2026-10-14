@@ -1,0 +1,71 @@
+{
+    "id": 13140,
+    "name": "Frost-Football",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Frost-Football/1.0.0",
+    "tagline": "Add a fun and interactive football game to your PocketMine-MP server with simple spawn and remove commands.",
+    "artifact_url": "https://poggit.pmmp.io/r/240926",
+    "downloads": 404,
+    "score": 3,
+    "repo_id": 811871700,
+    "repo_name": "DEVILxD5919/FrostFootball",
+    "project_id": 13907,
+    "project_name": "FrostFootball",
+    "build_id": 176510,
+    "build_number": 4,
+    "build_commit": "ff5847c714c0b47a71eb941afb3d05b48f20b63a",
+    "description_url": "https://poggit.pmmp.io/r/240925",
+    "icon_url": "https://raw.githubusercontent.com/DEVILxD5919/FrostFootball/ff5847c714c0b47a71eb941afb3d05b48f20b63a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1717826193,
+    "state": 5,
+    "last_state_change_date": 1717900263,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ball",
+        "commands",
+        "football",
+        "fun",
+        "game",
+        "interactive",
+        "minigame",
+        "play",
+        "plugin",
+        "PocketMine-MP",
+        "remove",
+        "server",
+        "soccer",
+        "spawn",
+        "sport"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DEVILxD5919"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

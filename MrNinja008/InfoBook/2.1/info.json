@@ -1,0 +1,63 @@
+{
+    "id": 7414,
+    "name": "InfoBook",
+    "version": "2.1",
+    "html_url": "https://poggit.pmmp.io/p/InfoBook/2.1",
+    "tagline": "A Plugin To Give Book with Description To Players That are Joined For First time",
+    "artifact_url": "https://poggit.pmmp.io/r/138011",
+    "downloads": 759,
+    "score": 4,
+    "repo_id": 393870151,
+    "repo_name": "MrNinja008/InfoBook",
+    "project_id": 9466,
+    "project_name": "InfoBook",
+    "build_id": 109584,
+    "build_number": 42,
+    "build_commit": "555b1b0b79aaa78d0b9b5ca87a6cbcc675c28cff",
+    "description_url": "https://poggit.pmmp.io/r/138008",
+    "icon_url": "https://raw.githubusercontent.com/MrNinja008/InfoBook/555b1b0b79aaa78d0b9b5ca87a6cbcc675c28cff/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/138010",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1629440186,
+    "state": 5,
+    "last_state_change_date": 1629471800,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MrNinja008"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

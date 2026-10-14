@@ -1,0 +1,78 @@
+{
+    "id": 8174,
+    "name": "NoPVP",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/NoPVP/1.0.1",
+    "tagline": "Simple plugin to disable the pvp in worlds",
+    "artifact_url": "https://poggit.pmmp.io/r/150370",
+    "downloads": 613,
+    "score": 5,
+    "repo_id": 398589958,
+    "repo_name": "Laith98Dev/NoPVP",
+    "project_id": 9563,
+    "project_name": "NoPVP",
+    "build_id": 116890,
+    "build_number": 19,
+    "build_commit": "f2d1a9a1882f13de7c8cc98a8a96efa5b60a7b9e",
+    "description_url": "https://poggit.pmmp.io/r/150367",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/150369",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638636813,
+    "state": 5,
+    "last_state_change_date": 1638690734,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "nopvp",
+        "disablepvp",
+        "nohit",
+        "laith98dev"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

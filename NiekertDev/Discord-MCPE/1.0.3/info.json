@@ -1,0 +1,81 @@
+{
+    "id": 512,
+    "name": "DiscordMCPE",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/DiscordMCPE/1.0.3",
+    "tagline": "Connect PMMP with Discord!",
+    "artifact_url": "https://poggit.pmmp.io/r/10230",
+    "downloads": 478,
+    "score": null,
+    "repo_id": 85476134,
+    "repo_name": "NiekertDev/Discord-MCPE",
+    "project_id": 339,
+    "project_name": "Discord-MCPE",
+    "build_id": 26625,
+    "build_number": 23,
+    "build_commit": "13b0abc15817b6d1f7f8007ac726394f1e7a8f94",
+    "description_url": "https://poggit.pmmp.io/r/10226",
+    "icon_url": "https://raw.githubusercontent.com/NiekertDev/Discord-MCPE/13b0abc15817b6d1f7f8007ac726394f1e7a8f94/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/10228",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/10229",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1502869707,
+    "state": 5,
+    "last_state_change_date": 1502934602,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "discord",
+        "MCPE",
+        "Discord-MCPE",
+        "Minecraft",
+        "Connect",
+        "Webhooks",
+        "Bot"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "UltiGB",
+            "Aericio",
+            "AvgZing"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

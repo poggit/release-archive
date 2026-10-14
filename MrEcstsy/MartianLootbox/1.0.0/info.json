@@ -1,0 +1,131 @@
+{
+    "id": 13926,
+    "name": "MartianLootbox",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MartianLootbox/1.0.0",
+    "tagline": "MartianLootbox brings a customizable, interactive lootbox system to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/254408",
+    "downloads": 158,
+    "score": null,
+    "repo_id": 952423965,
+    "repo_name": "MrEcstsy/MartianLootbox",
+    "project_id": 14627,
+    "project_name": "MartianLootbox",
+    "build_id": 185683,
+    "build_number": 6,
+    "build_commit": "7cda8c0ac35bfebec39d6cee417137742d7a096e",
+    "description_url": "https://poggit.pmmp.io/r/254412",
+    "icon_url": "https://raw.githubusercontent.com/MrEcstsy/MartianLootbox/7cda8c0ac35bfebec39d6cee417137742d7a096e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1742629512,
+    "state": 5,
+    "last_state_change_date": 1746798210,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "animation",
+        "box",
+        "crate",
+        "crates",
+        "key",
+        "loot",
+        "lootbox",
+        "martian"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MrEcstsy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        },
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "3400302e0d77757e716ac69a4099561bde5634b3",
+            "build_id": 184973
+        },
+        {
+            "name": "libCustomPack",
+            "project_id": 12698,
+            "repo_id": 659285274,
+            "repo_name": "taylordevs/libCustomPack",
+            "repo_path": "",
+            "build_commit": "f0c70ca6a05a03d07118ffc3d6a7367cf974e2bd",
+            "build_id": 158011
+        },
+        {
+            "name": "MartianUtilities",
+            "project_id": 14447,
+            "repo_id": 911423063,
+            "repo_name": "MrEcstsy/MartianUtilities",
+            "repo_path": "",
+            "build_commit": "2274d6067dec1ab5e9fda54fdc342454c53fc248",
+            "build_id": 185671
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "76aa3b4cdd856d1cf7ea3498eee921414e01fb97",
+            "build_id": 167816
+        }
+    ]
+}

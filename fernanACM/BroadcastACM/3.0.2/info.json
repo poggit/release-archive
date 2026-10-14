@@ -1,0 +1,123 @@
+{
+    "id": 14242,
+    "name": "BroadcastACM",
+    "version": "3.0.2",
+    "html_url": "https://poggit.pmmp.io/p/BroadcastACM/3.0.2",
+    "tagline": "The best announcer for PocketMine-MP 5.0 servers, make messages for your users very easily",
+    "artifact_url": "https://poggit.pmmp.io/r/260455",
+    "downloads": 187,
+    "score": 5,
+    "repo_id": 493021287,
+    "repo_name": "fernanACM/BroadcastACM",
+    "project_id": 11169,
+    "project_name": "BroadcastACM",
+    "build_id": 189861,
+    "build_number": 29,
+    "build_commit": "2dd6d02059aa87b3689f7a8f30f92109eaca8cce",
+    "description_url": "https://poggit.pmmp.io/r/260452",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/BroadcastACM/2dd6d02059aa87b3689f7a8f30f92109eaca8cce/icon-broadcastacm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/260454",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1761637503,
+    "state": 5,
+    "last_state_change_date": 1762285211,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "ACM",
+        "BroadCast",
+        "BroadCastACM",
+        "BroadCaster",
+        "sipe"
+    ],
+    "api": [
+        {
+            "from": "5.36.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "6166cf148ca5b882800ba4a43e12fe76e9a39569",
+            "build_id": 189829
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "3400302e0d77757e716ac69a4099561bde5634b3",
+            "build_id": 184973
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 14674,
+            "repo_id": 968903825,
+            "repo_name": "ACM-PocketMine-MP/FormsUI",
+            "repo_path": "",
+            "build_commit": "48d74981c6440b7a52a016f515c7b91d6b56fd23",
+            "build_id": 186177
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        },
+        {
+            "name": "DiscordWebhookAPI",
+            "project_id": 12688,
+            "repo_id": 649141237,
+            "repo_name": "ACM-PocketMine-MP/DiscordWebhookAPI",
+            "repo_path": "",
+            "build_commit": "8fe8696dd629de5b242e8ea51917fe20cd9415de",
+            "build_id": 157867
+        }
+    ]
+}

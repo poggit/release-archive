@@ -1,0 +1,131 @@
+<h1>Functions Description</h1>
+<p>Ever wanted to make your own commands? Well, now you can! Using the functions plugin a user can set a function, and then on running a certain command, that function will be run - Enjoy :D</p>
+<h1>Commands</h1>
+<p>All the commands currently implemented into Functions:</p>
+<pre><code>- /function create &lt;name of the function&gt;
+    Create a function!
+</code><ul><code>
+<li>
+<p>/function addcmd &lt;function name&gt; &lt;command&gt;<br>
+Add a command to a function!</p>
+</li>
+<li>
+<p>/function setcmd &lt;function name&gt; &lt;id&gt; &lt;command&gt; (Functions 1.2+)<br>
+Set a command to a function by it's id (can be found using read)!</p>
+</li>
+<li>
+<p>/function usage &lt;function name&gt; &lt;usage&gt; (Functions 1.2+)<br>
+Set the usage of a function!</p>
+</li>
+<li>
+<p>/function desc &lt;function name&gt; &lt;description&gt; (Funtions 1.2+)<br>
+Set the description of a function!</p>
+</li>
+<li>
+<p>/function read &lt;function name&gt;<br>
+Show every command of the function (nothink executes no commands!)</p>
+</li>
+<li>
+<p>/function resetcmd &lt;function name&gt; &lt;command id&gt;<br>
+Reset a command (leave it to blank to be changed later)</p>
+</li>
+</code><li><code>
+</code><p><code>/function removecmd &lt;function name&gt; &lt;command id&gt;<br>
+Remove the command (remove the space used for the command)<br>
+</code></p></li></ul></pre><p></p>
+
+
+<h1>Permissions</h1>
+<p>All the permissions used by Functions:</p>
+<pre><code>- func.command.function : Allows /function, Default: OP
+</code></pre>
+<h1>Special replacements</h1>
+<p>Those are what in the command will be replace by what :~)</p>
+<ul>
+<li>{sender} : Will be replaced with sender name</li>
+<li>{isop} : Boolean if the sender is OP.</li>
+<li>{usage} : Will be replaced with the command usage</li>
+<li>{desc}: Will be replaced with the command description</li>
+<li>{x} : Will be replaced with sender x coordinate</li>
+<li>{y} : Will be replaced with sender y coordinate</li>
+<li>{z} : Will be replaced with sender z coordinate</li>
+<li>{level} : Will be replaced with sender level</li>
+<li>{args[0]} : Will be replaced with the first argument of the command</li>
+<li>{args[1]} : Will be replaced with the second argument of the command</li>
+<li>{args[2]} : Will be replaced with the third argument of the command</li>
+<li>{args[3]} : Will be replaced with the fourth argument of the command</li>
+</ul>
+<p>You can also enter:</p>
+<ul>
+<li>{op} to set the user OP just for the command then unop him if (he wasn't OP).TtTT</li>
+<li>{console} to execute the command as the console</li>
+</ul>
+<p>Here comes the complex part: the if statements. (Functions 1.2+)<br>
+If statements follows a simple syntax in the command (removed after execution):<br>
+{if:&lt;conditon&gt;;then:&lt;action&gt;}</p>
+<h3>List of possible conditions:</h3>
+<ul>
+<li>value=other value: Check if two values are equal.</li>
+<li>value!=other value: Check if two values are not equal.</li>
+<li>value&gt;other value: Check if a value is more than an other. Only for numbers.</li>
+<li>value&lt;other value: Check if a value is less than an other. Only for numbers.</li>
+</ul>
+<h3>List of possible actions:</h3>
+<ul>
+<li>exec (or execute): Will execute the command (if cancelled before)</li>
+<li>!exec (or !execute): Will cancel the execution of the command</li>
+<li>asop: Will execute the command as an OP.</li>
+<li>asconsole: Will execute the command as console.</li>
+<li>as&lt;online player name&gt;: Will execute all new commands as another player.</li>
+</ul>
+<h3>AND and OR</h3>
+<p>You can check multiple conditions using &amp;&amp; (and) or || (or). DO NOT USE BOTH IN THE SAME CONDITION !</p>
+<p>Combined with other replacements, you can do thousands of things. Here are a few example:</p>
+<ul>
+<li>{if:{isop}!=true;then:!exec}: Will execute the command only if the player is OP.</li>
+<li>{if:{level}!=lobby;then:!exec}: Will execute the command only the command if the player is in the world "lobby" (like /fly commands)</li>
+<li>{if:{y}&lt;10&amp;&amp;{y}&gt;1;then:asop}: Will execute the command as OP if the sender is beetween 1 and 10 of height.</li>
+<li>{if:{args[0]}=read||{args[0]}=listen;then:!exec}: Will not execute the command if the 1st argument is "read" or "listen".</li>
+</ul>
+<p>... create your own conditions will help you to really make interactive commands.</p>
+<h1>Importing / Exporting Functions (Functions 1.2.1+)</h1>
+<p>What's even cooler with this plugin is the fact that you can easily share Functions with other servers/on your network with a simple really light file.</p>
+<h3>Basic import/export</h3>
+<p>So first, you need to have a created function on your server.<br>
+Then, you need to run /function export &lt;function name&gt;<br>
+If succefull, you would see a new file in the function folder called &lt;function name&gt;.func .<br>
+This file basicly stores the function and is needed to import the function on other servers.<br>
+So share this file and put it into the Functions folder of the wanted server.<br>
+Then, on this server, run command /function import &lt;name of he file without the .func&gt; .<br>
+And voila ! You have succefully imported a function to an another server.</p>
+<h3>Import/export with password</h3>
+<p>Sometimes, you wouldn't like your shared functions to be leaked, so Functions comes with a buildt in feature of encrypting functions with passwords.<br>
+Passwords are encrypted using an sha512 encryption then converted to ANSII, then reencrypted into 1 number so there is NO way back to the original password.</p>
+<p>So how to do this:<br>
+First of all, as you did before, you need to have the function you want to share on a server.<br>
+Then, run command /function export &lt;function name&gt; &lt;password&gt; .<br>
+You would see if functions successfully encrypted your password at the success message.<br>
+Now, as we did before, share it into an another server and put it into the Functions plugin folder.<br>
+And finally run command /function import &lt;name of he file without the .func&gt; &lt;password&gt; .<br>
+If no password included for a function that need one, you will get a message telling you to enter the password.<br>
+If the password entered is wrong (could not decrypt the function), you will also get an error message.</p>
+<h1>Authors</h1>
+<p>All the BoxOfDevs members who contributed to Functions:</p>
+<pre><code>- Ad5001
+</code><ul><code>
+<li>
+<p>TheDragonRing</p>
+</li>
+<li>
+<p>applqpak</p>
+</li>
+<li>
+<p>Dog2puppy</p>
+</li>
+</code><li><code>
+</code><p><code>remotevase<br>
+</code></p></li></ul></pre><p></p>
+
+
+<h1>Read The License!!!</h1>
+<p>Please make sure you read the license, upon downloading any file of the software, you agree to all its terms. The license may be found [here.] (<a href="http://bit.ly/2jikqXv">http://bit.ly/2jikqXv</a>)</p>

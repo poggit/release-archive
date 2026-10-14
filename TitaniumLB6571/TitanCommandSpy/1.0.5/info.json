@@ -1,0 +1,75 @@
+{
+    "id": 12682,
+    "name": "CommandSpy",
+    "version": "1.0.5",
+    "html_url": "https://poggit.pmmp.io/p/CommandSpy/1.0.5",
+    "tagline": "Spy on other peoples commands",
+    "artifact_url": "https://poggit.pmmp.io/r/230253",
+    "downloads": 599,
+    "score": null,
+    "repo_id": 289074238,
+    "repo_name": "TitaniumLB6571/TitanCommandSpy",
+    "project_id": 7645,
+    "project_name": "TitanCommandSpy",
+    "build_id": 169232,
+    "build_number": 8,
+    "build_commit": "5b8e3bb9545f2325e353f90ab284c2f4644b2396",
+    "description_url": "https://poggit.pmmp.io/r/230260",
+    "icon_url": "https://raw.githubusercontent.com/TitaniumLB6571/TitanCommandSpy/5b8e3bb9545f2325e353f90ab284c2f4644b2396/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/230262",
+    "license": "GPL-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1703170276,
+    "state": 5,
+    "last_state_change_date": 1703392179,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "CommandSpy",
+        "Socialspy",
+        "Spy"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TitaniumLB6571"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

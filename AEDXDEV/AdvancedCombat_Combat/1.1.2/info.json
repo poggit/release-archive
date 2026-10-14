@@ -1,0 +1,63 @@
+{
+    "id": 13532,
+    "name": "AdvancedCombat",
+    "version": "1.1.2",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedCombat/1.1.2",
+    "tagline": "This plugin prevents players from escaping during combat, manages combat interactions, and handles penalties for leaving combat.",
+    "artifact_url": "https://poggit.pmmp.io/r/247705",
+    "downloads": 1019,
+    "score": 5,
+    "repo_id": 678997116,
+    "repo_name": "AEDXDEV/AdvancedCombat",
+    "project_id": 12945,
+    "project_name": "Combat",
+    "build_id": 181238,
+    "build_number": 42,
+    "build_commit": "dcc93bd5127a4861b2b5b7e4533b8d4966b7676f",
+    "description_url": "https://poggit.pmmp.io/r/247702",
+    "icon_url": "https://raw.githubusercontent.com/AEDXDEV/AdvancedCombat/dcc93bd5127a4861b2b5b7e4533b8d4966b7676f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/247704",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1725793284,
+    "state": 5,
+    "last_state_change_date": 1726431122,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "1vs1",
+        "AdvancedCombat",
+        "Combat"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AEDXDEV"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,70 @@
+{
+    "id": 10635,
+    "name": "Suggestions",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Suggestions/1.0.0",
+    "tagline": "Players can suggest for your server",
+    "artifact_url": "https://poggit.pmmp.io/r/194287",
+    "downloads": 67,
+    "score": 5,
+    "repo_id": 541880607,
+    "repo_name": "usy4/Suggestions",
+    "project_id": 11861,
+    "project_name": "Suggestions",
+    "build_id": 146049,
+    "build_number": 19,
+    "build_commit": "55208624b2fa27323d98d7a79826f02ae75f54e7",
+    "description_url": "https://poggit.pmmp.io/r/194286",
+    "icon_url": "https://raw.githubusercontent.com/usy4/Suggestions/55208624b2fa27323d98d7a79826f02ae75f54e7/Suggestions.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1664851119,
+    "state": 5,
+    "last_state_change_date": 1664852522,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "comment",
+        "Sug",
+        "suggestion",
+        "sugs"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "usy4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        }
+    ]
+}

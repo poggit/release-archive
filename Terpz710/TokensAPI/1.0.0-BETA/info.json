@@ -1,0 +1,77 @@
+{
+    "id": 12913,
+    "name": "TokensAPI",
+    "version": "1.0.0-BETA",
+    "html_url": "https://poggit.pmmp.io/p/TokensAPI/1.0.0-BETA",
+    "tagline": "Adds tokens support",
+    "artifact_url": "https://poggit.pmmp.io/r/235046",
+    "downloads": 836,
+    "score": null,
+    "repo_id": 762696757,
+    "repo_name": "Terpz710/TokensAPI",
+    "project_id": 13592,
+    "project_name": "TokensAPI",
+    "build_id": 172467,
+    "build_number": 17,
+    "build_commit": "182069ec95819868eb4ad2b67ee5412fbbcfcf52",
+    "description_url": "https://poggit.pmmp.io/r/235045",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/TokensAPI/182069ec95819868eb4ad2b67ee5412fbbcfcf52/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1710521965,
+    "state": 5,
+    "last_state_change_date": 1712713212,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "BedrockEconomy",
+        "Economy",
+        "EconomyAPI",
+        "Money",
+        "MoneyAPI",
+        "Token",
+        "TokenAPI",
+        "Tokens",
+        "TokensAPI"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

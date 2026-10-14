@@ -1,0 +1,65 @@
+{
+    "id": 11696,
+    "name": "VPickaxe",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/VPickaxe/1.0.3",
+    "tagline": "- This is Plugin VPickaxe for PocketMine-PMMP 5.x",
+    "artifact_url": "https://poggit.pmmp.io/r/212415",
+    "downloads": 40,
+    "score": 5,
+    "repo_id": 654901832,
+    "repo_name": "VennDev/VPickaxe",
+    "project_id": 12649,
+    "project_name": "VPickaxe",
+    "build_id": 157345,
+    "build_number": 11,
+    "build_commit": "e38a225ffb6e423c8dc9490bbca8f41ddc2927d8",
+    "description_url": "https://poggit.pmmp.io/r/212414",
+    "icon_url": "https://raw.githubusercontent.com/VennDev/VPickaxe/e38a225ffb6e423c8dc9490bbca8f41ddc2927d8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687019362,
+    "state": 5,
+    "last_state_change_date": 1687212591,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "pickaxe"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VennDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

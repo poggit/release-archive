@@ -1,0 +1,53 @@
+{
+    "id": 8913,
+    "name": "CustomItemCMD",
+    "version": "0.2",
+    "html_url": "https://poggit.pmmp.io/p/CustomItemCMD/0.2",
+    "tagline": "Set a custom name and lore to the item you are holding with commands",
+    "artifact_url": "https://poggit.pmmp.io/r/161369",
+    "downloads": 20,
+    "score": null,
+    "repo_id": 451132742,
+    "repo_name": "BeeAZ-pm-pl/CustomItemCMD",
+    "project_id": 10393,
+    "project_name": "CustomItemCMD",
+    "build_id": 123601,
+    "build_number": 7,
+    "build_commit": "4712e561a53597350d222479baa51df0de71ada5",
+    "description_url": "https://poggit.pmmp.io/r/163016",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZZ/CustomItemCMD/4712e561a53597350d222479baa51df0de71ada5/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1644645754,
+    "state": 5,
+    "last_state_change_date": 1645397476,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "CustomItem"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

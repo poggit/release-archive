@@ -1,0 +1,64 @@
+{
+    "id": 258,
+    "name": "PiggyAuth",
+    "version": "3.0.0.19",
+    "html_url": "https://poggit.pmmp.io/p/PiggyAuth/3.0.0.19",
+    "tagline": "Feature Rich Authentication Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/4353",
+    "downloads": 588,
+    "score": 5,
+    "repo_id": 64427712,
+    "repo_name": "DaPigGuy/PiggyAuth",
+    "project_id": 259,
+    "project_name": "PiggyAuth",
+    "build_id": 22607,
+    "build_number": 137,
+    "build_commit": "2ab1945924c1ad76f20bc9c67c93ee5eab54c639",
+    "description_url": "https://poggit.pmmp.io/r/4349",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/4351",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1493388494,
+    "state": 5,
+    "last_state_change_date": 1493388494,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "piggy",
+        "pig",
+        "auth",
+        "authentication",
+        "piggyauth"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA5"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4",
+            "depRelId": 55,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,27 @@
+<ul>
+<li>Enchantment "display names" are now customizable</li>
+<li>Enchantment max levels are now customizable</li>
+<li>Added "ally checks" allowing other plugins to exempt allied players from specific enchantments (forcefield, autoaim, etc)</li>
+<li>Jetpack enchant now speeds up when sprinting</li>
+<li>Quick equipping armor now replicates vanilla behavior</li>
+<li>Elytras now count as chestplates</li>
+<li>Fixed spider enchant unintentionally activating on half blocks</li>
+<li>Fix Commando packet hooker not being registered</li>
+<li>Fix crash related to parachute</li>
+<li>Fix crash related to driller (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="565867671" data-permission-text="Title is private" data-url="https://github.com/DaPigGuy/PiggyCustomEnchants/issues/255" data-hovercard-type="issue" data-hovercard-url="/DaPigGuy/PiggyCustomEnchants/issues/255/hovercard" href="https://github.com/DaPigGuy/PiggyCustomEnchants/issues/255">#255</a>)</li>
+<li>Fixed potential crash w/ anti knockback</li>
+<li>Fix potential error with remote enchant disabler</li>
+<li>Minor API changes
+<ul>
+<li>Added methods ReactiveTrait::getBaseChance(), ReactiveTrait::getChanceMultiplier(), ReactiveTrait::setChanceMultiplier()</li>
+<li>Changed 1st parameter of ReactiveTrait::getChance() to player (Potential BC break)</li>
+<li>Changed ReactiveTrait::getChance() return type to float</li>
+<li>Added "maxLevel", "displayName", &amp; "description" parameters to CustomEnchant constructor</li>
+<li>Added methods CustomEnchant::getDisplayName() &amp; CustomEnchant::setDisplayName()</li>
+<li>Added methods CustomEnchant::getDescription() &amp; CustomEnchant::setDescription()</li>
+<li>Removed PiggyCustomEnchants::getEnchantmentDescription() (Potential BC break)</li>
+<li>Added internal method PiggyCustomEnchants::getEnchantmentData()</li>
+<li>Marked PiggyCustomEnchants::areFormsEnabled() as internal</li>
+</ul>
+</li>
+</ul>

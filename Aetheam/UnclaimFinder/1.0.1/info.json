@@ -1,0 +1,69 @@
+{
+    "id": 12722,
+    "name": "UnclaimFinder",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/UnclaimFinder/1.0.1",
+    "tagline": "A plugin that helps you to find tile entities in specific world.",
+    "artifact_url": "https://poggit.pmmp.io/r/230803",
+    "downloads": 262,
+    "score": null,
+    "repo_id": 720596270,
+    "repo_name": "Aetheam/UnclaimFinder",
+    "project_id": 13395,
+    "project_name": "UnclaimFinder",
+    "build_id": 169226,
+    "build_number": 10,
+    "build_commit": "8071996c9bc7f9cb21fd5e0636ed9ce4fef5bc80",
+    "description_url": "https://poggit.pmmp.io/r/230802",
+    "icon_url": "https://raw.githubusercontent.com/Aetheam/UnclaimFinder/8071996c9bc7f9cb21fd5e0636ed9ce4fef5bc80/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1704410874,
+    "state": 5,
+    "last_state_change_date": 1705591172,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "chest",
+        "chestfinder",
+        "finder",
+        "unclaim",
+        "unclaimfinder"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ShadowMikado"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

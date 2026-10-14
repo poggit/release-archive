@@ -1,0 +1,63 @@
+{
+    "id": 13318,
+    "name": "AdvancedCombat",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedCombat/1.0.1",
+    "tagline": "This plugin prevents players from escaping during combat and allows you to check if a player is currently engaged in combat.",
+    "artifact_url": "https://poggit.pmmp.io/r/244288",
+    "downloads": 129,
+    "score": null,
+    "repo_id": 678997116,
+    "repo_name": "AEDXDEV/AdvancedCombat",
+    "project_id": 12945,
+    "project_name": "Combat",
+    "build_id": 178895,
+    "build_number": 24,
+    "build_commit": "24eae90cddff01e96f9515619b0df4e3be053571",
+    "description_url": "https://poggit.pmmp.io/r/244287",
+    "icon_url": "https://raw.githubusercontent.com/AEDXDEV/Combat/24eae90cddff01e96f9515619b0df4e3be053571/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721579073,
+    "state": 5,
+    "last_state_change_date": 1721783624,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "1vs1",
+        "AdvancedCombat",
+        "Combat"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AEDXDEV"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

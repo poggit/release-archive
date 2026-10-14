@@ -1,0 +1,110 @@
+{
+    "id": 9625,
+    "name": "ChestKits",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ChestKits/0.0.1",
+    "tagline": "A kit plugin is more interesting when adding a kit to the chest.",
+    "artifact_url": "https://poggit.pmmp.io/r/174297",
+    "downloads": 2442,
+    "score": 5,
+    "repo_id": 474297326,
+    "repo_name": "Taylor-pm-pl/ChestKits",
+    "project_id": 10853,
+    "project_name": "ChestKits",
+    "build_id": 132218,
+    "build_number": 14,
+    "build_commit": "0484f807b16e3cd0bb4b04f4a0adb095451ab69b",
+    "description_url": "https://poggit.pmmp.io/r/174910",
+    "icon_url": "https://raw.githubusercontent.com/David-pm-pl/ChestKits/0484f807b16e3cd0bb4b04f4a0adb095451ab69b/assets/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1651789433,
+    "state": 5,
+    "last_state_change_date": 1652082974,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "chestkits",
+        "item",
+        "kit",
+        "plugin",
+        "pmmp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": true
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "3.0.1",
+            "depRelId": 9334,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 9285,
+            "repo_id": 373545094,
+            "repo_name": "JinodkDevTeam/FormAPI",
+            "repo_path": "",
+            "build_commit": "b47f7afe95b7ee56608a56250f13ad81a0ed0178",
+            "build_id": 106227
+        }
+    ]
+}

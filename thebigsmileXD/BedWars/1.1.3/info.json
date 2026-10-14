@@ -1,0 +1,90 @@
+{
+    "id": 3266,
+    "name": "BedWars",
+    "version": "1.1.3",
+    "html_url": "https://poggit.pmmp.io/p/BedWars/1.1.3",
+    "tagline": "A new BedWars plugin for PocketMine-MP by XenialDan, frequently updated",
+    "artifact_url": "https://poggit.pmmp.io/r/64343",
+    "downloads": 5491,
+    "score": 4,
+    "repo_id": 168341226,
+    "repo_name": "thebigsmileXD/BedWars",
+    "project_id": 5119,
+    "project_name": "BedWars",
+    "build_id": 63365,
+    "build_number": 9,
+    "build_commit": "8c98c7472c7f5b6c7e9788778381cc1a9c9f1c8a",
+    "description_url": "https://poggit.pmmp.io/r/64342",
+    "icon_url": "https://raw.githubusercontent.com/thebigsmileXD/BedWars/8c98c7472c7f5b6c7e9788778381cc1a9c9f1c8a/resources/xbedwars_icon_square_small.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1565705286,
+    "state": 5,
+    "last_state_change_date": 1567385945,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "bedwars",
+        "bedwars-plugin",
+        "bedwars-pm",
+        "bedwars-pocketmine",
+        "game",
+        "minigame",
+        "pmmp",
+        "pmmp-game",
+        "pmmp-plugin",
+        "poggit"
+    ],
+    "api": [
+        {
+            "from": "3.9.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "thebigsmileXD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "customui",
+            "project_id": 772,
+            "repo_id": 99797082,
+            "repo_name": "thebigsmileXD/customui",
+            "repo_path": "customui/",
+            "build_commit": "97a8e73470057f8786e4a1f993d1971ed87cc59b",
+            "build_id": 51353
+        },
+        {
+            "name": "gameapi",
+            "project_id": 992,
+            "repo_id": 102618375,
+            "repo_name": "thebigsmileXD/gameapi",
+            "repo_path": "",
+            "build_commit": "fc8b518823ccf38b516890411fff25ba3fd6217f",
+            "build_id": 63149
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "3e3d9139ab85f11b0cc7bdc523ebed1d0d1fe014",
+            "build_id": 62031
+        }
+    ]
+}

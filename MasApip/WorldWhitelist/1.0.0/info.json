@@ -1,0 +1,54 @@
+{
+    "id": 9572,
+    "name": "WorldWhitelist",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldWhitelist/1.0.0",
+    "tagline": "A plugin that allowed you to whitelist player per world",
+    "artifact_url": "https://poggit.pmmp.io/r/172755",
+    "downloads": 239,
+    "score": null,
+    "repo_id": 484494780,
+    "repo_name": "MasApip/WorldWhitelist",
+    "project_id": 11005,
+    "project_name": "WorldWhitelist",
+    "build_id": 130896,
+    "build_number": 4,
+    "build_commit": "eab0130cc1c703593a6483ff1c42b93482b0e2b5",
+    "description_url": "https://poggit.pmmp.io/r/172754",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1650994149,
+    "state": 5,
+    "last_state_change_date": 1651694880,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "world",
+        "whitelist"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MasApip"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

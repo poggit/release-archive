@@ -1,0 +1,70 @@
+{
+    "id": 9227,
+    "name": "RedstoneCircuit",
+    "version": "3.0.2",
+    "html_url": "https://poggit.pmmp.io/p/RedstoneCircuit/3.0.2",
+    "tagline": "This is the PocketMine plugin that implements the Redstone circuit.",
+    "artifact_url": "https://poggit.pmmp.io/r/165963",
+    "downloads": 268,
+    "score": 5,
+    "repo_id": 172303702,
+    "repo_name": "tedo0627/RedstoneCircuit",
+    "project_id": 4833,
+    "project_name": "RedstoneCircuit",
+    "build_id": 126290,
+    "build_number": 62,
+    "build_commit": "d4f2476427b207b4383f4862a51bc74ff45a0cf5",
+    "description_url": "https://poggit.pmmp.io/r/166311",
+    "icon_url": "https://raw.githubusercontent.com/tedo0627/RedstoneCircuit/d4f2476427b207b4383f4862a51bc74ff45a0cf5/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/166313",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646822233,
+    "state": 5,
+    "last_state_change_date": 1646861000,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "redstone",
+        "redstone-circuit"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "fuyutsuki",
+            "DenielWorld",
+            "ColinHDev"
+        ],
+        "Collaborator": [
+            "tedo0627"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

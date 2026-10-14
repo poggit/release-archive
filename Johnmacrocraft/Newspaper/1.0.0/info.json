@@ -1,0 +1,83 @@
+{
+    "id": 2215,
+    "name": "Newspaper",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Newspaper/1.0.0",
+    "tagline": "Add newspapers to your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/47982",
+    "downloads": 94,
+    "score": null,
+    "repo_id": 151380575,
+    "repo_name": "Johnmacrocraft/Newspaper",
+    "project_id": 4089,
+    "project_name": "Newspaper",
+    "build_id": 53550,
+    "build_number": 28,
+    "build_commit": "e452dfb44c9c31d7b561c1f56390619b96ad6ab1",
+    "description_url": "https://poggit.pmmp.io/r/92473",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/92475",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1545323684,
+    "state": 5,
+    "last_state_change_date": 1545331386,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "newspaper"
+    ],
+    "api": [
+        {
+            "from": "3.3.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Translator": [
+            "PawarenessC"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "spoondetector",
+            "project_id": 443,
+            "repo_id": 91121812,
+            "repo_name": "Falkirks/spoondetector",
+            "repo_path": "",
+            "build_commit": "7667ede0e77960dc1cf29c6c0af67003789ed95e",
+            "build_id": 23779
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "945ab0f5f3dd693762b50b055e4194155fc770d2",
+            "build_id": 53326
+        }
+    ]
+}

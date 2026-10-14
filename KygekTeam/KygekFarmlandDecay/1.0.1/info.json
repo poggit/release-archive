@@ -1,0 +1,84 @@
+{
+    "id": 6979,
+    "name": "KygekFarmlandDecay",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/KygekFarmlandDecay/1.0.1",
+    "tagline": "Implements vanilla functionality of farmland becomes dirt when jumped or fallen",
+    "artifact_url": "https://poggit.pmmp.io/r/131275",
+    "downloads": 275,
+    "score": null,
+    "repo_id": 378126941,
+    "repo_name": "KygekTeam/KygekFarmlandDecay",
+    "project_id": 9145,
+    "project_name": "KygekFarmlandDecay",
+    "build_id": 105593,
+    "build_number": 7,
+    "build_commit": "fca0529b5d063ad80044f61b59f6ec2fef93dcb0",
+    "description_url": "https://poggit.pmmp.io/r/153900",
+    "icon_url": "https://raw.githubusercontent.com/KygekTeam/KygekFarmlandDecay/fca0529b5d063ad80044f61b59f6ec2fef93dcb0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/153902",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1625741876,
+    "state": 5,
+    "last_state_change_date": 1626268742,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "decay",
+        "farm",
+        "farmland",
+        "farmlanddecay",
+        "kygek",
+        "kygekdecay",
+        "kygekdev",
+        "kygekfarm",
+        "kygekfarmland",
+        "kygekfarmlanddecay",
+        "kygekland",
+        "kygekraqmak",
+        "kygekteam",
+        "kygekteamdecay",
+        "kygekteamfarm",
+        "kygekteamfarmland",
+        "kygekteamland",
+        "land"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ktpmpl-cfs",
+            "project_id": 9131,
+            "repo_id": 376406148,
+            "repo_name": "thebigcrafter/ktpmpl-cfs",
+            "repo_path": "",
+            "build_commit": "7c8d56b24a1868877a47e97b2c5d0da21a33a4f6",
+            "build_id": 104492
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "id": 9751,
+    "name": "SpectreZone",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SpectreZone/1.0.0",
+    "tagline": "Creates a Spectre Zone dimension based on the MC Java Random Things Mod",
+    "artifact_url": "https://poggit.pmmp.io/r/176362",
+    "downloads": 53,
+    "score": 5,
+    "repo_id": 108775005,
+    "repo_name": "jasonw4331/SpectreZone",
+    "project_id": 11088,
+    "project_name": "SpectreZone",
+    "build_id": 133542,
+    "build_number": 14,
+    "build_commit": "9f48fa3da35b7912db1e5c47b2654997ed1979ae",
+    "description_url": "https://poggit.pmmp.io/r/176364",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/SpectreZone/9f48fa3da35b7912db1e5c47b2654997ed1979ae/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652786957,
+    "state": 5,
+    "last_state_change_date": 1652787079,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "block",
+        "custom",
+        "dimension",
+        "ectoplasm",
+        "ghost",
+        "ingot",
+        "item",
+        "key",
+        "spectre",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Customies",
+            "version": "1.0.3",
+            "depRelId": 9749,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

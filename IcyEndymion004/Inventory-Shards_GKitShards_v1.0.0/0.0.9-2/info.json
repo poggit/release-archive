@@ -1,0 +1,67 @@
+{
+    "id": 7630,
+    "name": "InventoryShards",
+    "version": "0.0.9-2",
+    "html_url": "https://poggit.pmmp.io/p/InventoryShards/0.0.9-2",
+    "tagline": "Be able to set your inventory as an item and on use of the item give you the stuff from the shard",
+    "artifact_url": "https://poggit.pmmp.io/r/141923",
+    "downloads": 115,
+    "score": 1,
+    "repo_id": 369401563,
+    "repo_name": "IcyEndymion004/Inventory-Shards",
+    "project_id": 9009,
+    "project_name": "GKitShards_v1.0.0",
+    "build_id": 112001,
+    "build_number": 64,
+    "build_commit": "ab128e87f8bdb0589f7d2bb1c1eb1da1f616cb1a",
+    "description_url": "https://poggit.pmmp.io/r/141920",
+    "icon_url": "https://raw.githubusercontent.com/IcyEndymion004/Inventory-Shards/ab128e87f8bdb0589f7d2bb1c1eb1da1f616cb1a/profile.png",
+    "changelog_url": "https://poggit.pmmp.io/r/141922",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1631764595,
+    "state": 5,
+    "last_state_change_date": 1631829452,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "IcyEndymion004"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

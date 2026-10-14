@@ -1,0 +1,67 @@
+<h1>
+<a id="user-content-slapperplayercount" class="anchor" href="#slapperplayercount" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SlapperPlayerCount</h1>
+<p>Get the amount of players on a world or on a server with SlapperPlayerCount!</p>
+<p><strong>Important:</strong> 2.1.2 brings support for WPC support, which you can either choose to enable or disable in the config. WPC has more features for world querying, check out the plugin by clicking <a href="http://poggit.pmmp.io/p/WorldPlayerCount/" rel="nofollow">here</a></p>
+<h2>
+<a id="user-content-updates" class="anchor" href="#updates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Updates</h2>
+<h3>
+<a id="user-content-212" class="anchor" href="#212" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2.1.2</h3>
+<ul>
+<li>Add WorldPlayerCount support because it's unfair not giving people options.</li>
+<li>Add version to config</li>
+</ul>
+<h3>
+<a id="user-content-211" class="anchor" href="#211" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2.1.1</h3>
+<ul>
+<li><del>Disable WorldPlayerCount if installed and enabled on the server.</del></li>
+</ul>
+<p><strong>This version has been nulled</strong></p>
+<h3>
+<a id="user-content-21" class="anchor" href="#21" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2.1</h3>
+<ul>
+<li>Add config</li>
+<li>Add configurable nametags</li>
+<li>Add support for showing amount of players in a world</li>
+</ul>
+<h3>
+<a id="user-content-20" class="anchor" href="#20" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2.0</h3>
+<ul>
+<li>Inital release</li>
+</ul>
+<h2>
+<a id="user-content-configuring-messages" class="anchor" href="#configuring-messages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuring Messages</h2>
+<p>If you go to the <code>plugin_data</code> folder for SlapperPlayerCount, you will see a config. You can change what the nametag will show for each event with the config.</p>
+<h2>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+<p>If you are confused, this is the place where you can go for answers. I will show how to use this plugin for getting the amount of players in a world, and the amount of players on a server.</p>
+<h3>
+<a id="user-content-world-usage" class="anchor" href="#world-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>World Usage</h3>
+<p><strong>Important Note:</strong> If you plan on having WPC support on with the plugin running on your server, the following instructions will be obsolete (not useful).</p>
+<p>When you have this plugin installed, go in-game and get your hands ready:
+(<strong>Note: The arguments must be on the second line of the plugin!</strong>)
+Type up the command to create a normal slapper like normal, with a name and everything:</p>
+<p><code>/slapper create human MiniGames</code></p>
+<p>From here, you want to seperate the amount of players from the name, so you would seperate it with the <code>{line}</code> tag.</p>
+<p><code>/slapper create human MiniGames{line}</code></p>
+<p>Now, since you want to get the amount of players on a world, you want to type in <code>world</code> and then the world name, spereated by a <code>:</code>.</p>
+<p>Example: <code>/slapper create human MiniGames{line}world:minigames</code>
+<a href="https://github.com/ethaniccc/SlapperPlayerCount/blob/master/create_world_slapper.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/ethaniccc/SlapperPlayerCount/raw/master/create_world_slapper.png" alt="WorldCommandExample" style="max-width:100%;"></a></p>
+<p>Then you get the amount of players on the world:
+<a href="https://github.com/ethaniccc/SlapperPlayerCount/blob/master/world_slapper_result.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/ethaniccc/SlapperPlayerCount/raw/master/world_slapper_result.png" alt="WorldResult" style="max-width:100%;"></a></p>
+<p>Hope this helped :D</p>
+<p>~ ethaniccc</p>
+<h3>
+<a id="user-content-server-query-usage" class="anchor" href="#server-query-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Server Query Usage</h3>
+<p>When you have this plugin installed, go in-game and get your hands ready:
+(<strong>Note: The arguments must be on the second line of the plugin!</strong>)
+Type up the command to create a normal slapper like normal, with a name and everything:</p>
+<p><code>/slapper create human Versai</code></p>
+<p>From here, you want to seperate the amount of players from the name, so you would seperate it with the <code>{line}</code> tag.</p>
+<p><code>/slapper create human Versai{line}</code></p>
+<p>Now, since you want to get the amount of players on a server, you want to type in <code>server</code>, server ip, and the server port, spereated by a <code>:</code>.</p>
+<p>Example: <code>/slapper create human Versai{line}server:versai.pro:19132</code></p>
+<p><a href="https://github.com/ethaniccc/SlapperPlayerCount/blob/master/create_server_slapper.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/ethaniccc/SlapperPlayerCount/raw/master/create_server_slapper.png" alt="ServerCreateExample" style="max-width:100%;"></a></p>
+<p>Then you get the amount of players on the server:</p>
+<p><a href="https://github.com/ethaniccc/SlapperPlayerCount/blob/master/server_slapper_result.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/ethaniccc/SlapperPlayerCount/raw/master/server_slapper_result.png" alt="ServerResult" style="max-width:100%;"></a></p>
+<p>Hope this helped :D</p>
+<p>~ ethaniccc</p>

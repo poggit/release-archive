@@ -1,0 +1,83 @@
+{
+    "id": 11943,
+    "name": "WarpGUI",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/WarpGUI/1.1.0",
+    "tagline": "it's a plugin that allows you to navigate using the chest menu",
+    "artifact_url": "https://poggit.pmmp.io/r/216375",
+    "downloads": 376,
+    "score": 5,
+    "repo_id": 466940194,
+    "repo_name": "ClickedTran/WarpGUI",
+    "project_id": 10750,
+    "project_name": "WarpGUI-PM4",
+    "build_id": 159671,
+    "build_number": 144,
+    "build_commit": "0406c8e7e4e713b4e4fd4e9c7c0d6d16afc25c66",
+    "description_url": "https://poggit.pmmp.io/r/216410",
+    "icon_url": "https://raw.githubusercontent.com/Clickedtran/WarpGUI-PM4/0406c8e7e4e713b4e4fd4e9c7c0d6d16afc25c66/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/216412",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689359549,
+    "state": 5,
+    "last_state_change_date": 1689418202,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "gui",
+        "warp",
+        "warpgui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "CortexPE",
+            "SOF3"
+        ],
+        "Collaborator": [
+            "Clickedtran",
+            "NoobMCBG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "800f8c34f23e2aa1805b0dd97a5f47e0b1979bb9",
+            "build_id": 156926
+        }
+    ]
+}

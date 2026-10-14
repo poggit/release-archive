@@ -1,0 +1,61 @@
+{
+    "id": 57,
+    "name": "Elytra",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/Elytra/1.0",
+    "tagline": "Implementation of Elytras on software that doesn't have it + Some pretty cool additions for them.",
+    "artifact_url": "https://poggit.pmmp.io/r/1434",
+    "downloads": 5005,
+    "score": 3,
+    "repo_id": 77242769,
+    "repo_name": "Ad5001/Elytra",
+    "project_id": 211,
+    "project_name": "Elytra",
+    "build_id": 20370,
+    "build_number": 1,
+    "build_commit": "84868ea7c70d7f7c6f67061f7892981fb15b129d",
+    "description_url": "https://poggit.pmmp.io/r/1432",
+    "icon_url": null,
+    "changelog_url": null,
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/1433",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1485780140,
+    "state": 5,
+    "last_state_change_date": 1485780140,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "elyra",
+        "elytras",
+        "implementation",
+        "additional",
+        "features"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Ad5001"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

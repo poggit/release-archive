@@ -1,0 +1,76 @@
+{
+    "id": 9306,
+    "name": "TheBridge",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/TheBridge/1.0",
+    "tagline": "A  TheBridge Plugin For PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/167467",
+    "downloads": 286,
+    "score": 5,
+    "repo_id": 463751808,
+    "repo_name": "SandhyR/TheBridge",
+    "project_id": 10697,
+    "project_name": "TheBridge",
+    "build_id": 127339,
+    "build_number": 16,
+    "build_commit": "5fdc48d0373c91e4360309857ca8dba466e948d8",
+    "description_url": "https://poggit.pmmp.io/r/167466",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647514034,
+    "state": 5,
+    "last_state_change_date": 1652077575,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "thebridge"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SandhyR"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "ScoreFactory",
+            "project_id": 4142,
+            "repo_id": 155632824,
+            "repo_name": "Ifera/ScoreFactory",
+            "repo_path": "",
+            "build_commit": "cfb6e88b3534bbd29699c7a1b245dd86fd8886d3",
+            "build_id": 124262
+        }
+    ]
+}

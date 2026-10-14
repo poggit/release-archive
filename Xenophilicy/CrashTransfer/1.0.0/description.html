@@ -1,0 +1,27 @@
+<h1>
+<a id="user-content-information" class="anchor" href="#information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Information</h1>
+<p><a href="http://hits.dwyl.io/Xenophilicy/CrashTransfer" rel="nofollow"><img src="https://camo.githubusercontent.com/6d00c4c739489c401fac716535966a98868a84f8/687474703a2f2f686974732e6477796c2e696f2f58656e6f7068696c6963792f43726173685472616e736665722e737667" alt="HitCount" data-canonical-src="http://hits.dwyl.io/Xenophilicy/CrashTransfer.svg" style="max-width:100%;"></a>
+<a href="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" alt="XenoServers Discord server" data-canonical-src="https://img.shields.io/discord/490677165289897995.svg?style=flat-square" style="max-width:100%;"></a></p>
+<p><a href=""><img src="https://camo.githubusercontent.com/5f250e4e84d8b83d618bb6a4b00041ae1058888b/68747470733a2f2f66696c652e78656e6f736572766572732e6e65742f5265736f75726365732f4769744875622d5265736f75726365732f63726173687472616e736665722f73637265656e73686f742e706e67" alt="Xenophilicy" data-canonical-src="https://file.xenoservers.net/Resources/GitHub-Resources/crashtransfer/screenshot.png" style="max-width:100%;"></a></p>
+<p>CrashTransfer allows you to force players to transfer to your main lobby or hub server if the server they were playing on has been stopped or has crashed unexpectedly. You can set up your main lobby server in the config.yml file where players will be transferred to. You can also enable and configure a warning message with a countdown to be sent to players right before the server stops and transfers them.</p>
+<p><strong>NOTE: Not all server crashes can be detected by a plugin or even the server in some rare cases (like a process force kill). Therefore, this plugin cannot be 100% certain of a crash if the server is not shutdown properly, or if the server never disables the plugin.</strong></p>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> The target server is where the players will be sent when the server stops</span>
+<span class="pl-ent">Server</span>:
+  <span class="pl-c"><span class="pl-c">#</span> This is the IP address of the target server</span>
+  <span class="pl-ent">Address</span>: <span class="pl-s">play.xenoservers.net</span>
+  <span class="pl-c"><span class="pl-c">#</span> This is the port of the target server</span>
+  <span class="pl-ent">Port</span>: <span class="pl-c1">19132</span>
+
+<span class="pl-c"><span class="pl-c">#</span> The warning message is what is sent right before players are transferred</span>
+<span class="pl-ent">Warning</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Choose whether to enable the warning message</span>
+  <span class="pl-ent">Enabled</span>: <span class="pl-c1">true</span>
+
+  <span class="pl-c"><span class="pl-c">#</span> Delay is the amount of time to pause before transferring players</span>
+  <span class="pl-c"><span class="pl-c">#</span> This value is in seconds (default is 3 seconds)</span>
+  <span class="pl-ent">Delay</span>: <span class="pl-c1">3</span>
+
+  <span class="pl-c"><span class="pl-c">#</span> This is the message that should be sent to players</span>
+  <span class="pl-ent">Message</span>: <span class="pl-s"><span class="pl-pds">"</span>§cThe server has stopped, you will be transferred in 3 seconds!<span class="pl-pds">"</span></span></pre></div>

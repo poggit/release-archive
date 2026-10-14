@@ -1,0 +1,63 @@
+{
+    "id": 13786,
+    "name": "BridgeBlockFix",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BridgeBlockFix/1.0.0",
+    "tagline": "Pocketmine plugin that fixes blocks appearing when bridging",
+    "artifact_url": "https://poggit.pmmp.io/r/251865",
+    "downloads": 454,
+    "score": 5,
+    "repo_id": 916407759,
+    "repo_name": "GameParrot/BridgeBlockFix",
+    "project_id": 14493,
+    "project_name": "BridgeBlockFix",
+    "build_id": 184047,
+    "build_number": 6,
+    "build_commit": "0c97a4f0a226d2899b4217078a6e9a02faee2486",
+    "description_url": "https://poggit.pmmp.io/r/251864",
+    "icon_url": "https://raw.githubusercontent.com/GameParrot/BridgeBlockFix/0c97a4f0a226d2899b4217078a6e9a02faee2486/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736825169,
+    "state": 5,
+    "last_state_change_date": 1736863159,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "block",
+        "bridge",
+        "fix"
+    ],
+    "api": [
+        {
+            "from": "5.16.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GameParrot"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,77 @@
+{
+    "id": 8677,
+    "name": "PlayTime",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayTime/1.1.0",
+    "tagline": "A pocketmine plugin that informs players of how much time has passed since they first joined the server via a command.",
+    "artifact_url": "https://poggit.pmmp.io/r/158227",
+    "downloads": 2513,
+    "score": 2,
+    "repo_id": 299028048,
+    "repo_name": "EPT8TPE/PlayTime",
+    "project_id": 7788,
+    "project_name": "PlayTime",
+    "build_id": 121720,
+    "build_number": 5,
+    "build_commit": "d6b8a97e013ea96d2e4ccd01f606e08276311ac1",
+    "description_url": "https://poggit.pmmp.io/r/158224",
+    "icon_url": "https://raw.githubusercontent.com/EPT8TPE/PlayTime/d6b8a97e013ea96d2e4ccd01f606e08276311ac1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/158226",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643193656,
+    "state": 5,
+    "last_state_change_date": 1643291933,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "online",
+        "onlinetime",
+        "players",
+        "playtime",
+        "time",
+        "total",
+        "totalplay",
+        "totalplaytime",
+        "totaltime"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "EPT8TPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

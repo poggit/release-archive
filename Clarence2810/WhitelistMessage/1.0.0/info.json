@@ -1,0 +1,53 @@
+{
+    "id": 6752,
+    "name": "WhitelistMessage",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WhitelistMessage/1.0.0",
+    "tagline": "Custom Whitelist Kick Message",
+    "artifact_url": "https://poggit.pmmp.io/r/127533",
+    "downloads": 357,
+    "score": null,
+    "repo_id": 373432565,
+    "repo_name": "Clarence2810/WhitelistMessage",
+    "project_id": 9076,
+    "project_name": "WhitelistMessage",
+    "build_id": 103410,
+    "build_number": 1,
+    "build_commit": "cf3082941e3e9eddbfe7239b10a8211012916419",
+    "description_url": "https://poggit.pmmp.io/r/127537",
+    "icon_url": "https://raw.githubusercontent.com/Clarence2810/WhitelistMessage/cf3082941e3e9eddbfe7239b10a8211012916419/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1622709808,
+    "state": 5,
+    "last_state_change_date": 1623373466,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "whitelist"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Clarence2810"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

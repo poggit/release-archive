@@ -1,0 +1,106 @@
+{
+    "id": 738,
+    "name": "BlockSniper",
+    "version": "2.2.1",
+    "html_url": "https://poggit.pmmp.io/p/BlockSniper/2.2.1",
+    "tagline": "An innovative long range brush world editor.",
+    "artifact_url": "https://poggit.pmmp.io/r/15092",
+    "downloads": 338,
+    "score": null,
+    "repo_id": 77737799,
+    "repo_name": "BlockHorizons/BlockSniper",
+    "project_id": 95,
+    "project_name": "BlockSniper",
+    "build_id": 30342,
+    "build_number": 273,
+    "build_commit": "708de4b0d7bff66c249ae64e78b7bb6a796b2f0c",
+    "description_url": "https://poggit.pmmp.io/r/15094",
+    "icon_url": "https://raw.githubusercontent.com/BlockHorizons/BlockSniper/708de4b0d7bff66c249ae64e78b7bb6a796b2f0c/resources/BlockSniperLogo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/15096",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1509175924,
+    "state": 5,
+    "last_state_change_date": 1509732003,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "brush",
+        "edit",
+        "world",
+        "worldedit"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "Spajker7",
+            "matcracker",
+            "Johnmacrocraft",
+            "archie426",
+            "jojoe77777",
+            "dktapps",
+            "HimbeersaftLP",
+            "jerryzooyoyo",
+            "aquaminer",
+            "MrKiaN",
+            "etherein",
+            "SOF3",
+            "nnnlog",
+            "KevinLong021",
+            "Kris-Driv",
+            "shdudwns",
+            "clrxbl",
+            "lukeeey",
+            "alvin0319",
+            "Ifera",
+            "natsunasi"
+        ],
+        "Collaborator": [
+            "Sandertv"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libschematic",
+            "project_id": 576,
+            "repo_id": 88090206,
+            "repo_name": "BlockHorizons/libschematic",
+            "repo_path": "",
+            "build_commit": "864850502bd3cfc87f121cddc71e153a68ba91e0",
+            "build_id": 27153
+        }
+    ]
+}

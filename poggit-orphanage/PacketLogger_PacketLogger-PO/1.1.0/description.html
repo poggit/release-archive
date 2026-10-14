@@ -1,0 +1,52 @@
+<blockquote>
+<p>This plugin was created by the <a href="https://github.com/PocketMine">@PocketMine</a> Team, mainly <a href="https://github.com/shoghicp">@shoghicp</a>. This plugin has not been changed since its last commit in its original repo on GitHub (Ed. except for 3.0.0-ALPHA5 API update, example packet id's and formatting). For any copyright issues, please contact us at <a href="https://github.com/poggit/support/issues/new">https://github.com/poggit/support/issues/new</a>.</p>
+</blockquote>
+<h1>
+<a id="user-content-pocketmine-forums-release" class="anchor" href="#pocketmine-forums-release" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PocketMine Forums Release</h1>
+<p>This plugin allows server owners to log packets with custom selectors to select sessions to log and filters for packets.</p>
+<p>For normal servers this plugin has no meaning.</p>
+<p>It is useful for debugging purposes when developing a third-party client/tool that uses the protocol, or you just want to know what is going on in the low-end. It is also useful to detect things going wrong with the client, like protocol bugs.<br>
+Since networking is an important part, it has been done so it runs as fast as possible, detecting if logging is needed and then logging. Future improvements might include threading.</p>
+<p>Check the config.yml file for help configurating filters and selectors.</p>
+<h1>
+<a id="user-content-github-readme" class="anchor" href="#github-readme" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub README</h1>
+<h1>
+<a id="user-content-packetlogger" class="anchor" href="#packetlogger" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PacketLogger</h1>
+<p>Log network packets as you want.</p>
+<h2>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+<ul>
+<li>Download the latest version for your API from <a href="https://github.com/PocketMine/PacketLogger/releases">releases</a>.</li>
+<li>Place the .phar in the plugins directory</li>
+<li>Start and stop the server to generate the default config file</li>
+<li>Edit the <code>config.yml</code> (<a href="http://codebeautify.org/yaml-validator%5D">validate yaml</a>)</li>
+<li>Start the server and connect. The logs are located in the <code>plugins/PacketLogger/</code> directory.</li>
+</ul>
+<h2>
+<a id="user-content-example-config" class="anchor" href="#example-config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example config</h2>
+<p>Below a example <code>config.yml</code> that logs packets for the player with name <code>steve</code> and exclude some packets to reduce the size of the log.</p>
+<pre><code>#Configuration file for PacketLogger
+<p>#variables available: {name}, {clientId}, {ip}, {time}
+logName: "{name}_{clientId}-{time}.log"</p>
+<p>#These selectors will match when ANY of the conditions is met - UNCOMMENT AT LEAST ONE SELECTOR, IGN, CID or IP.
+selectors:
+mode: match #When match, it will allow when a selector is matched. When refuse, it'll log when there is no match
+name: #case insensitive
+#- steve</p>
+<p>clientId:
+#- 123456</p>
+<p>ip:
+#- 192.168.0.1</p>
+<p>#These filters decide what packets will be logged
+filters:
+packetId: #Filter by the packet id (faster)
+default: false #Default value of the packets not specified here. true will log it, false will not
+#Available packet ID's can be found in <a href="https://github.com/PocketMine/PocketMine-MP/blob/master/src/pocketmine/network/protocol/Info.php">https://github.com/PocketMine/PocketMine-MP/blob/master/src/pocketmine/network/protocol/Info.php</a>
+0x01: true # LoginPacket
+#0xfe: false # BatchPacket
+0x0b: true # StartGamePacket
+#0x35: false # CraftingDataPacket
+#0x3a: false # FullChunkDataPacket
+#0x3f: false # PlayerListPacket
+0x38: true # BlockEntityDataPacket
+</p></code></pre>

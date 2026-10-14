@@ -1,0 +1,58 @@
+{
+    "id": 11373,
+    "name": "HitParticle",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/HitParticle/0.0.3",
+    "tagline": "Create particles when hit",
+    "artifact_url": "https://poggit.pmmp.io/r/208557",
+    "downloads": 664,
+    "score": null,
+    "repo_id": 451268865,
+    "repo_name": "BeeAZ-pm-pl/HitParticle",
+    "project_id": 10399,
+    "project_name": "HitParticle",
+    "build_id": 150039,
+    "build_number": 16,
+    "build_commit": "7c2f22e9863b0cea3fa51e0451f2fbc4cfd519db",
+    "description_url": "https://poggit.pmmp.io/r/208554",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/HitParticle/7c2f22e9863b0cea3fa51e0451f2fbc4cfd519db/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208556",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685634801,
+    "state": 5,
+    "last_state_change_date": 1685637539,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "HitParticle"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "lenlenlL6",
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

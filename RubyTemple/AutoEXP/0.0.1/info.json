@@ -1,0 +1,62 @@
+{
+    "id": 3614,
+    "name": "AutoEXP",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AutoEXP/0.0.1",
+    "tagline": "Adds xp to the xp bar with out spawning the orbs",
+    "artifact_url": "https://poggit.pmmp.io/r/72018",
+    "downloads": 5840,
+    "score": 5,
+    "repo_id": 231468813,
+    "repo_name": "RubyTemple/AutoEXP",
+    "project_id": 5999,
+    "project_name": "AutoEXP",
+    "build_id": 68685,
+    "build_number": 9,
+    "build_commit": "e05853999565e6d206dd7837a4abe6dae67c4dd0",
+    "description_url": "https://poggit.pmmp.io/r/72020",
+    "icon_url": "https://raw.githubusercontent.com/RubyTemple/AutoEXP/e05853999565e6d206dd7837a4abe6dae67c4dd0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1578061377,
+    "state": 5,
+    "last_state_change_date": 1578106242,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "autoexp",
+        "autoxp",
+        "experience",
+        "orbs",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin",
+        "pocketmine-plugins",
+        "xp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RubyTemple"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

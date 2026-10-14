@@ -1,0 +1,71 @@
+<p>This plugin allows specified players to bypass Xbox Live authentication. It can be used on a server that wants to allow both XBL and non-XBL players to join.</p>
+<h2>
+<a id="user-content-how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h2>
+<p>Use the <code>xboxlist</code> command to manage the xboxlist (the list of players allowed to bypass Xbox Live authentication). Note that players must have a way to bypass client-side Xbox Live authentication (e.g. <a href="https://gist.github.com/dktapps/4fa8a6df15e851f6b58d01df36bd0aa3">run.php</a> by dktapps).</p>
+<h2>
+<a id="user-content-commands--permissions" class="anchor" href="#commands--permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands &amp; Permissions</h2>
+<p>All commands are only accessible by operators unless you add their permission to the player.</p>
+<table>
+<thead>
+<tr>
+<th>Command/Option/(Permission)</th>
+<th>Description</th>
+<th>Permission</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>notmexboxliveauth (main permission)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> ⤷ notmexboxliveauth.command</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>xboxlist (main command)</td>
+<td>Manages the list of players allowed to bypass Xbox Live authentication</td>
+<td>notmexboxliveauth.command.xboxlist</td>
+</tr>
+<tr>
+<td> ⤷ add</td>
+<td>Adds a player to the xboxlist</td>
+<td>notmexboxliveauth.command.xboxlist.add</td>
+</tr>
+<tr>
+<td> ⤷ remove</td>
+<td>Removes a player from the xboxlist</td>
+<td>notmexboxliveauth.command.xboxlist.remove</td>
+</tr>
+<tr>
+<td> ⤷ list</td>
+<td>Lists players on the xboxlist</td>
+<td>notmexboxliveauth.command.xboxlist.list</td>
+</tr>
+<tr>
+<td> ⤷ invert</td>
+<td>Sets or gets invert mode</td>
+<td>notmexboxliveauth.command.xboxlist.invert</td>
+</tr>
+<tr>
+<td> ⤷ prefix</td>
+<td>Adds, removes, or lists guest prefixes</td>
+<td>notmexboxliveauth.command.xboxlist.prefix</td>
+</tr>
+<tr>
+<td> ⤷ reload</td>
+<td>Reloads the xboxlist</td>
+<td>notmexboxliveauth.command.xboxlist.reload</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-warning" class="anchor" href="#warning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Warning</h2>
+<p>As this plugin allows specified players to bypass Xbox Live authentication, anyone can log in with any username on the xboxlist. Therefore, you need to install an additional authentication plugin on your server to prevent anyone from accessing those accounts.</p>

@@ -1,0 +1,60 @@
+{
+    "id": 1353,
+    "name": "EventSounds",
+    "version": "0.2.0",
+    "html_url": "https://poggit.pmmp.io/p/EventSounds/0.2.0",
+    "tagline": "A plugin that plays a sound when an event is called",
+    "artifact_url": "https://poggit.pmmp.io/r/29726",
+    "downloads": 103,
+    "score": 4,
+    "repo_id": 131481168,
+    "repo_name": "photoncodes/EventSounds",
+    "project_id": 2731,
+    "project_name": "EventSounds",
+    "build_id": 40786,
+    "build_number": 12,
+    "build_commit": "6a2e7c61fdba18aace23ea6b01718baf6579c25c",
+    "description_url": "https://poggit.pmmp.io/r/29728",
+    "icon_url": "https://raw.githubusercontent.com/killer549/EventSounds/6a2e7c61fdba18aace23ea6b01718baf6579c25c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/29730",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1525548427,
+    "state": 5,
+    "last_state_change_date": 1525548427,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "sound",
+        "events",
+        "music",
+        "level"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA11",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "photoncodes"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

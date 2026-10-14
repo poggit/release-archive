@@ -1,0 +1,57 @@
+{
+    "id": 11167,
+    "name": "PmGPT",
+    "version": "0.1",
+    "html_url": "https://poggit.pmmp.io/p/PmGPT/0.1",
+    "tagline": "Ask a question and become answer from gpt-3.5-turbo model",
+    "artifact_url": "https://poggit.pmmp.io/r/204380",
+    "downloads": 30,
+    "score": null,
+    "repo_id": 622710656,
+    "repo_name": "galaxytwenty/PmGPT",
+    "project_id": 12328,
+    "project_name": "PmGPT",
+    "build_id": 152940,
+    "build_number": 20,
+    "build_commit": "bb5f945c68c9df2f1afebf14734165a4055016c3",
+    "description_url": "https://poggit.pmmp.io/r/204379",
+    "icon_url": "https://raw.githubusercontent.com/galaxytwenty/PmGPT/bb5f945c68c9df2f1afebf14734165a4055016c3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1681219637,
+    "state": 5,
+    "last_state_change_date": 1681236588,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "chatGPT"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "galaxytwenty"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

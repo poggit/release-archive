@@ -1,0 +1,63 @@
+{
+    "id": 13734,
+    "name": "BreakHearts",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BreakHearts/1.0.0",
+    "tagline": "A plugin that grants players special abilities and hearts when breaking specific blocks.",
+    "artifact_url": "https://poggit.pmmp.io/r/251351",
+    "downloads": 98,
+    "score": null,
+    "repo_id": 911751210,
+    "repo_name": "SoyDavs/BlockHearts",
+    "project_id": 14460,
+    "project_name": "BlockHearts",
+    "build_id": 183751,
+    "build_number": 2,
+    "build_commit": "5ed38e0cbbab8d56c8aba8d63818e149cbf3ef75",
+    "description_url": "https://poggit.pmmp.io/r/251350",
+    "icon_url": "https://raw.githubusercontent.com/SoyDavs/BlockHearts/5ed38e0cbbab8d56c8aba8d63818e149cbf3ef75/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "AFL-1.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736037107,
+    "state": 5,
+    "last_state_change_date": 1736037414,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "block",
+        "break",
+        "effects"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SoyDavs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

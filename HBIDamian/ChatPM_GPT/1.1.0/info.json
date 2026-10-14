@@ -1,0 +1,63 @@
+{
+    "id": 13616,
+    "name": "ChatPM_GPT",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatPM_GPT/1.1.0",
+    "tagline": "A Highly customisable ChatGPT Chat Bot for your minecraft world!",
+    "artifact_url": "https://poggit.pmmp.io/r/249417",
+    "downloads": 472,
+    "score": 5,
+    "repo_id": 876380269,
+    "repo_name": "HBIDamian/ChatPM_GPT",
+    "project_id": 14305,
+    "project_name": "ChatPM_GPT",
+    "build_id": 182498,
+    "build_number": 4,
+    "build_commit": "54e9ce99647712383f106e204b448edaf58cfdd7",
+    "description_url": "https://poggit.pmmp.io/r/249414",
+    "icon_url": "https://raw.githubusercontent.com/HBIDamian/ChatPM_GPT/54e9ce99647712383f106e204b448edaf58cfdd7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/249416",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1730686312,
+    "state": 5,
+    "last_state_change_date": 1730734196,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "bot",
+        "botty",
+        "chatbot",
+        "chatgpt",
+        "chatpm",
+        "chatpm_gpt",
+        "openai"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HBIDamian"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,69 @@
+{
+    "id": 12577,
+    "name": "BuTils",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BuTils/0.0.1",
+    "tagline": "A build utility plugin that makes life easier for builders.",
+    "artifact_url": "https://poggit.pmmp.io/r/228487",
+    "downloads": 598,
+    "score": 5,
+    "repo_id": 716809515,
+    "repo_name": "xeww/BuTils",
+    "project_id": 13332,
+    "project_name": "BuTils",
+    "build_id": 168024,
+    "build_number": 6,
+    "build_commit": "27d700fd9d3ba0b928cd0ccd53037df99377fae1",
+    "description_url": "https://poggit.pmmp.io/r/228486",
+    "icon_url": "https://raw.githubusercontent.com/Xeww/BuTils/27d700fd9d3ba0b928cd0ccd53037df99377fae1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1699738959,
+    "state": 5,
+    "last_state_change_date": 1700597173,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.7.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Xeww"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        }
+    ]
+}

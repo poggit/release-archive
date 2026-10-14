@@ -1,0 +1,63 @@
+{
+    "id": 9300,
+    "name": "Coin-Flip",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/Coin-Flip/1.0",
+    "tagline": "Flip a coin in your pmmp server!",
+    "artifact_url": "https://poggit.pmmp.io/r/167383",
+    "downloads": 524,
+    "score": 4,
+    "repo_id": 469916907,
+    "repo_name": "RealBluxy/CoinFlip",
+    "project_id": 10801,
+    "project_name": "CoinFlip",
+    "build_id": 127278,
+    "build_number": 6,
+    "build_commit": "b7d33684e0cefbce0bfb76ae9613050249799a3d",
+    "description_url": "https://poggit.pmmp.io/r/167382",
+    "icon_url": "https://raw.githubusercontent.com/RealBluxy/CoinFlip/b7d33684e0cefbce0bfb76ae9613050249799a3d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647456534,
+    "state": 5,
+    "last_state_change_date": 1649868357,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Coin",
+        "Flip",
+        "CoinFlip",
+        "CoinToss",
+        "Toss",
+        "Heads",
+        "Tails"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RealBluxy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

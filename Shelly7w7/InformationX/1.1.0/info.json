@@ -1,0 +1,110 @@
+{
+    "id": 2388,
+    "name": "InformationX",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/InformationX/1.1.0",
+    "tagline": "Shows the most of player and server information in an GUI",
+    "artifact_url": "https://poggit.pmmp.io/r/50650",
+    "downloads": 2740,
+    "score": 4,
+    "repo_id": 167044530,
+    "repo_name": "Shelly7w7/InformationX",
+    "project_id": 4553,
+    "project_name": "InformationX",
+    "build_id": 55238,
+    "build_number": 8,
+    "build_commit": "d1f7ea22cd75046dd8bbda7d876ba64ff78ec7b2",
+    "description_url": "https://poggit.pmmp.io/r/50649",
+    "icon_url": "https://raw.githubusercontent.com/Shelly7w7/InformationX/d1f7ea22cd75046dd8bbda7d876ba64ff78ec7b2/iconx.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1548778832,
+    "state": 5,
+    "last_state_change_date": 1548936646,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "RankUp",
+            "version": "0.4.0",
+            "depRelId": 1187,
+            "isHard": true
+        },
+        {
+            "name": "PureChat",
+            "version": "1.4.11",
+            "depRelId": 1547,
+            "isHard": false
+        },
+        {
+            "name": "FactionsPro",
+            "version": "1.3.12",
+            "depRelId": 1550,
+            "isHard": false
+        },
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "KDR",
+            "version": "1.0.0",
+            "depRelId": 1984,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.2-c2a",
+            "depRelId": 2129,
+            "isHard": false
+        },
+        {
+            "name": "SkyBlock",
+            "version": "2.2.7",
+            "depRelId": 2308,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Shelly7w7"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

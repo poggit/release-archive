@@ -1,0 +1,69 @@
+{
+    "id": 12690,
+    "name": "RandomTeleport",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/RandomTeleport/1.0.1",
+    "tagline": "Teleport randomly",
+    "artifact_url": "https://poggit.pmmp.io/r/230457",
+    "downloads": 1476,
+    "score": null,
+    "repo_id": 734007739,
+    "repo_name": "Aetheam/RandomTeleport",
+    "project_id": 13446,
+    "project_name": "RandomTeleport",
+    "build_id": 169396,
+    "build_number": 5,
+    "build_commit": "5108e70a4abf3dd7b1b3c172218126c1c1bdcd41",
+    "description_url": "https://poggit.pmmp.io/r/230456",
+    "icon_url": "https://raw.githubusercontent.com/Aetheam/RandomTeleport/5108e70a4abf3dd7b1b3c172218126c1c1bdcd41/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1703455309,
+    "state": 5,
+    "last_state_change_date": 1703528383,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "random",
+        "randomteleport",
+        "rtp",
+        "teleport",
+        "tp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ShadowMikado"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,56 @@
+{
+    "id": 8123,
+    "name": "MultiVersion",
+    "version": "0.475.1",
+    "html_url": "https://poggit.pmmp.io/p/MultiVersion/0.475.1",
+    "tagline": "Allows the connection of lower client versions to higher PocketMine-MP server versions",
+    "artifact_url": "https://poggit.pmmp.io/r/149839",
+    "downloads": 6977,
+    "score": 5,
+    "repo_id": 420346097,
+    "repo_name": "AkmalFairuz/MultiVersion",
+    "project_id": 9882,
+    "project_name": "MultiVersion",
+    "build_id": 116663,
+    "build_number": 45,
+    "build_commit": "21683bd6c4a08fd02d52073fdf43d32b84b5da5b",
+    "description_url": "https://poggit.pmmp.io/r/149836",
+    "icon_url": "https://raw.githubusercontent.com/AkmalFairuz/MultiVersion/21683bd6c4a08fd02d52073fdf43d32b84b5da5b/resources/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/149838",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638542391,
+    "state": 5,
+    "last_state_change_date": 1638546014,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "multiprotocol",
+        "multiversion",
+        "protocol",
+        "version"
+    ],
+    "api": [
+        {
+            "from": "3.25.6",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AkmalFairuz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

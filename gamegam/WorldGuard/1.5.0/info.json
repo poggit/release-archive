@@ -1,0 +1,79 @@
+{
+    "id": 14152,
+    "name": "WorldGuardPlugin",
+    "version": "1.5.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldGuardPlugin/1.5.0",
+    "tagline": "Easily protect specific areas",
+    "artifact_url": "https://poggit.pmmp.io/r/258503",
+    "downloads": 432,
+    "score": 5,
+    "repo_id": 763499986,
+    "repo_name": "gamegam/WorldGuard",
+    "project_id": 13595,
+    "project_name": "WorldGuard",
+    "build_id": 188452,
+    "build_number": 30,
+    "build_commit": "476f77872ecb1b7804a38988b7bb3d3f801a1dc5",
+    "description_url": "https://poggit.pmmp.io/r/258634",
+    "icon_url": "https://raw.githubusercontent.com/gamegam/WorldGuard/476f77872ecb1b7804a38988b7bb3d3f801a1dc5/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/258636",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1754890153,
+    "state": 5,
+    "last_state_change_date": 1755028349,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "gamegam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

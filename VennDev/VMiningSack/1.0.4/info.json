@@ -1,0 +1,75 @@
+{
+    "id": 12450,
+    "name": "VMiningSack",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/VMiningSack/1.0.4",
+    "tagline": "- One plugin for PocketMine-PMMP 5",
+    "artifact_url": "https://poggit.pmmp.io/r/224338",
+    "downloads": 307,
+    "score": null,
+    "repo_id": 658727060,
+    "repo_name": "VennDev/VMiningSack",
+    "project_id": 12692,
+    "project_name": "VMiningSack",
+    "build_id": 164702,
+    "build_number": 15,
+    "build_commit": "708c22433244609b75ea05c5609de643513db23b",
+    "description_url": "https://poggit.pmmp.io/r/224335",
+    "icon_url": "https://raw.githubusercontent.com/VennDev/VMiningSack/708c22433244609b75ea05c5609de643513db23b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/224337",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1695362974,
+    "state": 5,
+    "last_state_change_date": 1695543085,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "miningsack"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VennDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "706e307d705ef8fe20653bebd04a18b1d9b3e47a",
+            "build_id": 161792
+        }
+    ]
+}

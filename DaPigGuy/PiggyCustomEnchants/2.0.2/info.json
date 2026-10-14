@@ -1,0 +1,103 @@
+{
+    "id": 3505,
+    "name": "PiggyCustomEnchants",
+    "version": "2.0.2",
+    "html_url": "https://poggit.pmmp.io/p/PiggyCustomEnchants/2.0.2",
+    "tagline": "A versatile custom enchantment plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/69334",
+    "downloads": 643,
+    "score": 5,
+    "repo_id": 89804328,
+    "repo_name": "DaPigGuy/PiggyCustomEnchants",
+    "project_id": 416,
+    "project_name": "PiggyCustomEnchants",
+    "build_id": 66700,
+    "build_number": 324,
+    "build_commit": "32615837b702465c3a078f53faf77d8c511d8cb1",
+    "description_url": "https://poggit.pmmp.io/r/69331",
+    "icon_url": "https://raw.githubusercontent.com/DaPigGuy/PiggyCustomEnchants/32615837b702465c3a078f53faf77d8c511d8cb1/resources/PCE_Icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/69333",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1574029512,
+    "state": 5,
+    "last_state_change_date": 1574083707,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "customenchant",
+        "customenchants",
+        "enchants",
+        "pig",
+        "piggy",
+        "piggyce",
+        "piggycustomenchant",
+        "piggycustomenchants"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "Haxley",
+            "luca28pet",
+            "Awzaw",
+            "Muqsit",
+            "JaxkDev",
+            "RubyTemple",
+            "r7vmc",
+            "JoshuaPHYT",
+            "MrNinja008",
+            "DPG896",
+            "TheGamingSnail"
+        ],
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "b184eead463d8bc87a0b5a98d20eeda9a3a9131f",
+            "build_id": 65700
+        }
+    ]
+}

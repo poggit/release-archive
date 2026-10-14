@@ -1,0 +1,69 @@
+{
+    "id": 635,
+    "name": "EconomyLand",
+    "version": "2.1.1-2",
+    "html_url": "https://poggit.pmmp.io/p/EconomyLand/2.1.1-2",
+    "tagline": "The Ultimate Land Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/13474",
+    "downloads": 724,
+    "score": null,
+    "repo_id": 82867467,
+    "repo_name": "poggit-orphanage/EconomyS",
+    "project_id": 271,
+    "project_name": "EconomyLand",
+    "build_id": 29117,
+    "build_number": 17,
+    "build_commit": "072223cf3f2c4c8129e5af3fde7b93f3f42198be",
+    "description_url": "https://poggit.pmmp.io/r/15771",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/EconomyS/072223cf3f2c4c8129e5af3fde7b93f3f42198be/EconomyLand/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/15773",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507534213,
+    "state": 5,
+    "last_state_change_date": 1507534219,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "land",
+        "protect",
+        "onebone",
+        "economy",
+        "economyS"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "onebone"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

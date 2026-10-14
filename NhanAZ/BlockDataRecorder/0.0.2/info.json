@@ -1,0 +1,67 @@
+{
+    "id": 11232,
+    "name": "BlockDataRecorder",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/BlockDataRecorder/0.0.2",
+    "tagline": "The data of an item block will not be lost when the block is placed",
+    "artifact_url": "https://poggit.pmmp.io/r/205879",
+    "downloads": 20,
+    "score": null,
+    "repo_id": 631963023,
+    "repo_name": "NhanAZ/BlockDataRecorder",
+    "project_id": 12377,
+    "project_name": "BlockDataRecorder",
+    "build_id": 153895,
+    "build_number": 7,
+    "build_commit": "5c820a97ca9b1b51c91f3384f6959b3fcfa93973",
+    "description_url": "https://poggit.pmmp.io/r/205876",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/BlockDataRecorder/5c820a97ca9b1b51c91f3384f6959b3fcfa93973/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/205878",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1682764854,
+    "state": 5,
+    "last_state_change_date": 1682983130,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "blockdata",
+        "blockdatarecorder",
+        "php",
+        "plugin",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "BlockData",
+            "project_id": 12375,
+            "repo_id": 631571608,
+            "repo_name": "NhanAZ-Libraries/BlockData",
+            "repo_path": "",
+            "build_commit": "431961415926432a1b79ccc547e9578e4ff3bcd8",
+            "build_id": 153736
+        }
+    ]
+}

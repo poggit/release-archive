@@ -1,0 +1,69 @@
+{
+    "id": 14117,
+    "name": "_NewAlias",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/_NewAlias/2.0.0",
+    "tagline": "Detects players possible alternatives accounts",
+    "artifact_url": "https://poggit.pmmp.io/r/257736",
+    "downloads": 202,
+    "score": null,
+    "repo_id": 351213446,
+    "repo_name": "JavierLeon9966/Alias",
+    "project_id": 8758,
+    "project_name": "Alias",
+    "build_id": 187904,
+    "build_number": 50,
+    "build_commit": "038ae2e25767059c550327f07a1fc6011b865465",
+    "description_url": "https://poggit.pmmp.io/r/257733",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/Alias/038ae2e25767059c550327f07a1fc6011b865465/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/257735",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1752447038,
+    "state": 5,
+    "last_state_change_date": 1754369330,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "alias",
+        "ban",
+        "pmmp-plugin",
+        "pocketmine-plugins",
+        "track"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

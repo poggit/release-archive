@@ -1,0 +1,59 @@
+{
+    "id": 2307,
+    "name": "NetBan",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/NetBan/1.0.1",
+    "tagline": "Add this plugin in all your servers!",
+    "artifact_url": "https://poggit.pmmp.io/r/49538",
+    "downloads": 2843,
+    "score": 4,
+    "repo_id": 164385001,
+    "repo_name": "InspectorGadget/NetBan",
+    "project_id": 4507,
+    "project_name": "NetBan",
+    "build_id": 54602,
+    "build_number": 21,
+    "build_commit": "8151f39cbf5aa0d5578e3684cf46773d0eeb0b84",
+    "description_url": "https://poggit.pmmp.io/r/49535",
+    "icon_url": "https://raw.githubusercontent.com/InspectorGadget/NetBan/8151f39cbf5aa0d5578e3684cf46773d0eeb0b84/img/netban.png",
+    "changelog_url": "https://poggit.pmmp.io/r/49537",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1547708364,
+    "state": 5,
+    "last_state_change_date": 1547733885,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "mysqli",
+        "php",
+        "pmmp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "InspectorGadget"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

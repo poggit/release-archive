@@ -1,0 +1,74 @@
+<h1>
+<a id="user-content-gungame" class="anchor" href="#gungame" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GunGame<a href="https://camo.githubusercontent.com/815816bf1cbf1797744d14efaecf5879b490ea67/687474703a2f2f696d6775722e636f6d2f7443544c3251442e706e67" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/815816bf1cbf1797744d14efaecf5879b490ea67/687474703a2f2f696d6775722e636f6d2f7443544c3251442e706e67" height="64" width="64" align="left" data-canonical-src="http://imgur.com/tCTL2QD.png" style="max-width:100%;"></a>
+</h1>
+<br>
+<p>GunGame is a nice MiniGame that hasn't been seen often in the Minecraft Bedrock Edition scene before. That's why I want to give you one. This MiniGame also includes a self-configurable Config that allows you to customize the game to your needs.</p>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>Edit the game news</li>
+<li>Activate or deactivate certain events</li>
+<li>Change the chat format, as well as your nametag in the game</li>
+</ul>
+<h1>
+<a id="user-content-setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h1>
+<ul>
+<li>Download the plugin as Phar or folder</li>
+<li>Pack the plugin into the plugins folder</li>
+<li>Set the game mode in server.properties to Adventure (value: 2)</li>
+<li>Start / restart the server</li>
+<li>You can play with your friends now</li>
+</ul>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<pre><code># Please do not change this!
+version: 1.0.0
+
+# At which level should you no longer be able to receive kits?
+Maximum-Level: 3
+
+# Specify a percentage of the chance that you will lose many levels.
+# Default = 0.60
+Chance: 0.60
+
+# Which events should be activated and which should be deactivated?
+# Default = @all "false"
+events:
+    hunger: false
+    place: false
+    break: false
+    inv-move: false
+    drop: false
+    
+format:
+    chat: "§8[§c{level}§8] §7{player} §8&gt; §f{msg}"
+    nametag: "§8[§c{level}§8] §7{player}"
+    
+    
+# Here you can change the messages.
+# {player} = The player is you
+# {level} = Your current level
+# {msg} = Your message
+# {killer} = Who killed you
+messages:
+    join: "{player} has entered the GunGame server."
+    quit: "{player} has left the GunGame server."
+    death: "{player} died!"
+    kill: "{player} was killed by {killer}."
+    reload: "Your levels were reset by a server reload."
+    max: "You have already reached the maximum level. Keep it up!"
+</code></pre>
+<hr>
+<p>If problems arise, create an issue or write us on Discord.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Discord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="https://discord.gg/Ce2aY25" rel="nofollow"><img src="https://camo.githubusercontent.com/2d32055a18f640d898bb751f198e029f37c94938/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3432373437323837393037323936383731342e7376673f7374796c653d666c61742d737175617265266c6162656c3d646973636f726426636f6c6f72423d373238396461" alt="Discord" data-canonical-src="https://img.shields.io/discord/427472879072968714.svg?style=flat-square&amp;label=discord&amp;colorB=7289da" style="max-width:100%;"></a></td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,66 @@
+{
+    "id": 7239,
+    "name": "PlotHomes",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlotHomes/1.0.0",
+    "tagline": "With this simple plugin you can teleport you to a plot of a player or to your plots.",
+    "artifact_url": "https://poggit.pmmp.io/r/135099",
+    "downloads": 74,
+    "score": null,
+    "repo_id": 392430229,
+    "repo_name": "supercrafter333/PlotHomes",
+    "project_id": 9414,
+    "project_name": "PlotHomes",
+    "build_id": 107741,
+    "build_number": 2,
+    "build_commit": "014d171ba397eb464867f825edb79a30d6ecabc7",
+    "description_url": "https://poggit.pmmp.io/r/135098",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628018876,
+    "state": 5,
+    "last_state_change_date": 1628997676,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "MyPlot",
+            "version": "1.10.1",
+            "depRelId": 5941,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

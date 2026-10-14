@@ -1,0 +1,72 @@
+{
+    "id": 14294,
+    "name": "FireworkShow",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/FireworkShow/0.1.0",
+    "tagline": "Add a fireworks show to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/261750",
+    "downloads": 82,
+    "score": null,
+    "repo_id": 342071660,
+    "repo_name": "DavyCraft648/FireworkShow",
+    "project_id": 8598,
+    "project_name": "FireworkShow",
+    "build_id": 190776,
+    "build_number": 9,
+    "build_commit": "532ae04e7476f5bcf3de2363b8bf34ab9049f5c5",
+    "description_url": "https://poggit.pmmp.io/r/261749",
+    "icon_url": "https://raw.githubusercontent.com/DavyCraft648/FireworkShow/532ae04e7476f5bcf3de2363b8bf34ab9049f5c5/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1766494524,
+    "state": 5,
+    "last_state_change_date": 1766499203,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "fireworkdisplay",
+        "fireworkshow"
+    ],
+    "api": [
+        {
+            "from": "5.34.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DavyCraft648"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "PMServerUI",
+            "project_id": 14758,
+            "repo_id": 998189593,
+            "repo_name": "Azvyl/PMServerUI",
+            "repo_path": "",
+            "build_commit": "7a230f19a6f1c85156ff859489179547f44d72b4",
+            "build_id": 187354
+        }
+    ]
+}

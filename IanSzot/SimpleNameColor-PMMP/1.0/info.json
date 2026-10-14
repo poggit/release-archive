@@ -1,0 +1,59 @@
+{
+    "id": 2219,
+    "name": "SimpleNameColor",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleNameColor/1.0",
+    "tagline": "Easiest way to color player's names using permissions.",
+    "artifact_url": "https://poggit.pmmp.io/r/48041",
+    "downloads": 8277,
+    "score": 5,
+    "repo_id": 162606990,
+    "repo_name": "IanSzot/SimpleNameColor-PMMP",
+    "project_id": 4436,
+    "project_name": "SimpleNameColor-PMMP",
+    "build_id": 53583,
+    "build_number": 4,
+    "build_commit": "9ee18064b09301db56ca93e1f5bc3286cd492e0d",
+    "description_url": "https://poggit.pmmp.io/r/48040",
+    "icon_url": "https://raw.githubusercontent.com/IanSzot/SimpleNameColor-PMMP/9ee18064b09301db56ca93e1f5bc3286cd492e0d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1545455740,
+    "state": 5,
+    "last_state_change_date": 1545545661,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "color",
+        "chat",
+        "simplenamecolor"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "IanSzot"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

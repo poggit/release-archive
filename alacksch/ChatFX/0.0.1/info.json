@@ -1,0 +1,68 @@
+{
+    "id": 6732,
+    "name": "ChatFX",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ChatFX/0.0.1",
+    "tagline": "A chat effects plugin for Pocketmine-MP to let players change their chat colors.",
+    "artifact_url": "https://poggit.pmmp.io/r/127261",
+    "downloads": 92,
+    "score": 4,
+    "repo_id": 367891093,
+    "repo_name": "alacksch/ChatFX",
+    "project_id": 8987,
+    "project_name": "ChatFX",
+    "build_id": 103243,
+    "build_number": 28,
+    "build_commit": "05e88e6a5355c70aa398e21d230f948bc3da2a71",
+    "description_url": "https://poggit.pmmp.io/r/127260",
+    "icon_url": "https://raw.githubusercontent.com/AlecksWasHere/ChatFX/05e88e6a5355c70aa398e21d230f948bc3da2a71/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1622562086,
+    "state": 5,
+    "last_state_change_date": 1622588423,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "cfx",
+        "chatcolors",
+        "chateffects",
+        "chatfx",
+        "colorfulchat",
+        "colors"
+    ],
+    "api": [
+        {
+            "from": "3.19.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "thebigsmileXD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

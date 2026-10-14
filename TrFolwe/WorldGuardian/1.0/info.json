@@ -1,0 +1,69 @@
+{
+    "id": 11861,
+    "name": "WorldGuardian",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldGuardian/1.0",
+    "tagline": "Designed for Pocketmine world, area guard plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/214786",
+    "downloads": 1804,
+    "score": 5,
+    "repo_id": 657777105,
+    "repo_name": "TrFolwe/WorldGuardian",
+    "project_id": 12684,
+    "project_name": "WorldGuardian",
+    "build_id": 158680,
+    "build_number": 17,
+    "build_commit": "94310f239701f5be79892d69ae1cc7b6cc5f63c4",
+    "description_url": "https://poggit.pmmp.io/r/215822",
+    "icon_url": "https://raw.githubusercontent.com/TrFolwe/WorldGuardian/94310f239701f5be79892d69ae1cc7b6cc5f63c4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688585337,
+    "state": 5,
+    "last_state_change_date": 1688984968,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TrFolwe"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "65f9ab5d12f885fa51a609fe18df57c99b79ca80",
+            "build_id": 156595
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": 8107,
+    "name": "BasicSpawnProtection",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BasicSpawnProtection/1.0.0",
+    "tagline": "Protect a radius around your worlds' spawn from modification",
+    "artifact_url": "https://poggit.pmmp.io/r/149703",
+    "downloads": 2204,
+    "score": 5,
+    "repo_id": 167403941,
+    "repo_name": "pmmp/BasicSpawnProtection",
+    "project_id": 4559,
+    "project_name": "BasicSpawnProtection",
+    "build_id": 116576,
+    "build_number": 8,
+    "build_commit": "1a60ca94b405711687e7a75d5c300cd7237ea8f2",
+    "description_url": "https://poggit.pmmp.io/r/150005",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/150006",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": true,
+    "is_abandoned": false,
+    "submission_date": 1638486288,
+    "state": 5,
+    "last_state_change_date": 1638565733,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "dktapps"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

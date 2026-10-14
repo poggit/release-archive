@@ -1,0 +1,69 @@
+{
+    "id": 5749,
+    "name": "Mockingbird",
+    "version": "2.4.0",
+    "html_url": "https://poggit.pmmp.io/p/Mockingbird/2.4.0",
+    "tagline": "PocketMine-MP anti-cheat in development made for fun by @ethaniccc.",
+    "artifact_url": "https://poggit.pmmp.io/r/111677",
+    "downloads": 841,
+    "score": 3,
+    "repo_id": 273354112,
+    "repo_name": "ethaniccc/Mockingbird",
+    "project_id": 7234,
+    "project_name": "Mockingbird",
+    "build_id": 94084,
+    "build_number": 332,
+    "build_commit": "166a4cfcd581f9ae5af3a706a20ab4c0c524923c",
+    "description_url": "https://poggit.pmmp.io/r/111679",
+    "icon_url": "https://raw.githubusercontent.com/ethaniccc/Mockingbird/166a4cfcd581f9ae5af3a706a20ab4c0c524923c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/111681",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609094650,
+    "state": 5,
+    "last_state_change_date": 1609095270,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "anticheat",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "3.15.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "shura62"
+        ],
+        "Collaborator": [
+            "blackjack200"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

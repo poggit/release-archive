@@ -1,0 +1,76 @@
+{
+    "id": 114,
+    "name": "WorldProtect",
+    "version": "2.3.2",
+    "html_url": "https://poggit.pmmp.io/p/WorldProtect/2.3.2",
+    "tagline": "By Aliuly",
+    "artifact_url": "https://poggit.pmmp.io/r/2145",
+    "downloads": 1443,
+    "score": null,
+    "repo_id": 82859657,
+    "repo_name": "poggit-orphanage/WorldProtect",
+    "project_id": 264,
+    "project_name": "WorldProtect",
+    "build_id": 20902,
+    "build_number": 3,
+    "build_commit": "28952d037742903f65d0d53e4b47a4c83f86a450",
+    "description_url": "https://poggit.pmmp.io/r/2143",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/WorldProtect/28952d037742903f65d0d53e4b47a4c83f86a450/worldprotect.png",
+    "changelog_url": "https://poggit.pmmp.io/r/2144",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1491151348,
+    "state": 5,
+    "last_state_change_date": 1487809287,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "antigrief",
+        "banitem",
+        "border",
+        "itemban",
+        "protect",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA3"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "alejandroliu",
+            "edwinyoo44",
+            "jasonwynn10",
+            "SOF3",
+            "SuperYYT",
+            "supercrafter333",
+            "ItzStarlxy"
+        ],
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

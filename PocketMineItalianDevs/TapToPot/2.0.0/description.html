@@ -1,0 +1,76 @@
+<h1>
+<a id="user-content-taptopot" class="anchor" href="#taptopot" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TapToPot</h1>
+<p>This plugin allows you to make potions much faster.</p>
+<p>Features:</p>
+<ul>
+<li>Completely customizable</li>
+<li>You can choose in which world the plugin is going to work,</li>
+<li>You can choose which potions work per world,</li>
+<li>Command on/off/reload,</li>
+<li>You can choose which kind of potion (splash/normal) you want the plugin to work on.</li>
+</ul>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<ul>
+<li>/ttp on: enables plugin,</li>
+<li>/ttp off: disables plugin,</li>
+<li>/ttp reload: allows you to reload the config so that you can edit the file and have the latest edits without having to reset.</li>
+</ul>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<pre><code>
+---
+#   It allows you to choose if this plugin works or doesn't work on splash potions
+enable-splash-potion: true
+
+#   It allows you to choose if this plugin works or doesn't work on potions
+enable-potion: true
+
+#   It allows you to disable / enable the plugin
+enable-plugin: true
+
+#       WATER = 0;
+#  MUNDANE = 1;
+#  LONG_MUNDANE = 2;
+#  THICK = 3;
+#  AWKWARD = 4;
+#  NIGHT_VISION = 5;
+#  LONG_NIGHT_VISION = 6;
+#  INVISIBILITY = 7;
+#  LONG_INVISIBILITY = 8;
+#  LEAPING = 9;
+#  LONG_LEAPING = 10;
+#  STRONG_LEAPING = 11;
+#  FIRE_RESISTANCE = 12;
+#  LONG_FIRE_RESISTANCE = 13;
+#  SWIFTNESS = 14;
+#  LONG_SWIFTNESS = 15;
+#  STRONG_SWIFTNESS = 16;
+#  SLOWNESS = 17;
+#  LONG_SLOWNESS = 18;
+#  WATER_BREATHING = 19;
+#  LONG_WATER_BREATHING = 20;
+#  HEALING = 21;
+#  STRONG_HEALING = 22;
+#  HARMING = 23;
+#  STRONG_HARMING = 24;
+#  POISON = 25;
+#  LONG_POISON = 26;
+#  STRONG_POISON = 27;
+#  REGENERATION = 28;
+#  LONG_REGENERATION = 29;
+#  STRONG_REGENERATION = 30;
+#  STRENGTH = 31;
+#  LONG_STRENGTH = 32;
+#  STRONG_STRENGTH = 33;
+#  WEAKNESS = 34;
+#  LONG_WEAKNESS = 35;
+#  WITHER = 36;
+
+#   use numbers to identify which potions the plugin is going to work on
+#   Example: world1: [36,35,5,6,9,21]
+active-on:
+  world123: [36,35,5,6,9,21]
+  PotFFA: [28]
+...
+</code></pre>

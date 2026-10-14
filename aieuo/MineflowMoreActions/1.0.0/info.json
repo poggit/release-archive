@@ -1,0 +1,74 @@
+{
+    "id": 11323,
+    "name": "MineflowMoreActions",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MineflowMoreActions/1.0.0",
+    "tagline": "Add more actions to Mineflow",
+    "artifact_url": "https://poggit.pmmp.io/r/207870",
+    "downloads": 32,
+    "score": null,
+    "repo_id": 586161530,
+    "repo_name": "aieuo/MineflowMoreActions",
+    "project_id": 12067,
+    "project_name": "MineflowMoreActions",
+    "build_id": 155272,
+    "build_number": 7,
+    "build_commit": "b25496862435d815f06adb220681fa4bcdfbfd48",
+    "description_url": "https://poggit.pmmp.io/r/207882",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685196778,
+    "state": 5,
+    "last_state_change_date": 1685360037,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        },
+        {
+            "name": "Mineflow",
+            "version": "3.0.0",
+            "depRelId": 11321,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "aieuo"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "d6b666c72b89a05b9d72c60fd1063b6c7ebdbd46",
+            "build_id": 154020
+        }
+    ]
+}

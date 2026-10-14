@@ -1,0 +1,115 @@
+{
+    "id": 12188,
+    "name": "Profile-Ui",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Profile-Ui/1.1.0",
+    "tagline": "A Player Profile Plugin For Pocketmine",
+    "artifact_url": "https://poggit.pmmp.io/r/219505",
+    "downloads": 1643,
+    "score": 5,
+    "repo_id": 662065258,
+    "repo_name": "GabBiswajit/Profile-ui",
+    "project_id": 12731,
+    "project_name": "Profile-ui",
+    "build_id": 161552,
+    "build_number": 35,
+    "build_commit": "038e46d455ccecdb88d7582a6b371337781721ef",
+    "description_url": "https://poggit.pmmp.io/r/219502",
+    "icon_url": "https://raw.githubusercontent.com/GabBiswajit/Profile-ui/038e46d455ccecdb88d7582a6b371337781721ef/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/219504",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691642265,
+    "state": 5,
+    "last_state_change_date": 1691683668,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Profile-ui",
+        "Skyblock-Plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": true
+        },
+        {
+            "name": "PurePerms",
+            "version": "2.0.2",
+            "depRelId": 9210,
+            "isHard": true
+        },
+        {
+            "name": "RankSystem",
+            "version": "1.1.3",
+            "depRelId": 11942,
+            "isHard": true
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Amitminer",
+            "GabBiswajit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEco",
+            "project_id": 10995,
+            "repo_id": 466916160,
+            "repo_name": "David-pm-pl/libEco",
+            "repo_path": "",
+            "build_commit": "83f42cd99eeb0a154909675ee1b1ca29f255cdb7",
+            "build_id": 137758
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "26fac36e585c1b6d5a10a99bdcb70f6539b397aa",
+            "build_id": 157517
+        }
+    ]
+}

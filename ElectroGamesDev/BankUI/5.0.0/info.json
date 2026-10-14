@@ -1,0 +1,103 @@
+{
+    "id": 12136,
+    "name": "BankUI",
+    "version": "5.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BankUI/5.0.0",
+    "tagline": "This Plugin Allows Players To Store Their Money In A Bank!",
+    "artifact_url": "https://poggit.pmmp.io/r/218925",
+    "downloads": 2419,
+    "score": 5,
+    "repo_id": 377981873,
+    "repo_name": "ElectroGamesDev/BankUI",
+    "project_id": 9144,
+    "project_name": "BankUI",
+    "build_id": 161227,
+    "build_number": 80,
+    "build_commit": "fce7f02d14633b79a9ac6f8eacc66c978dff1038",
+    "description_url": "https://poggit.pmmp.io/r/218922",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/BankUI/fce7f02d14633b79a9ac6f8eacc66c978dff1038/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/218924",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691262299,
+    "state": 5,
+    "last_state_change_date": 1691350459,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Bank",
+        "BankUI",
+        "Economy",
+        "Money",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesDev"
+        ],
+        "Contributor": [
+            "alitura1",
+            "TrinitroToluen0"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "cf06deec50469065abe7994bbb623f2d54ccc965",
+            "build_id": 157740
+        }
+    ]
+}

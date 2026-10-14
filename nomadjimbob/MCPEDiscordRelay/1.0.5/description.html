@@ -1,0 +1,41 @@
+<h1>
+<a id="user-content-mcpediscordrelay" class="anchor" href="#mcpediscordrelay" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MCPEDiscordRelay</h1>
+<p>Connect your PocketMine server to output to a Discord channel using a WebHook. Based on the archived plugin <a href="https://poggit.pmmp.io/p/MCPEToDiscord" rel="nofollow">MCPEToDiscord</a> by JaxkDev and DiscordMCPE by NiekertDev</p>
+<p>Version: 1.0.5</p>
+<p>Author: Nomadjimbob (<a href="mailto:hello@jamescollins.com.au">hello@jamescollins.com.au</a>)</p>
+<p>Source: (<a href="https://github.com/nomadjimbob/MCPEDiscordRelay">https://github.com/nomadjimbob/MCPEDiscordRelay</a>)</p>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>Relay PocketMine console to Discord</li>
+<li>Includes chat and commands from players (even /talk)</li>
+</ul>
+<h1>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h1>
+<p>config.yml options:</p>
+<p><strong>enabled</strong>: If the plugin is enabled or not</p>
+<p><strong>discord_webhook_url</strong>: Your discord webhook url</p>
+<p><strong>discord_webhook_name</strong>: The username the plugin uses in discord</p>
+<p><strong>send_console</strong>: Send console to Discord. If false, only sends player chat and commands</p>
+<h2>
+<a id="user-content-making-a-discord-webhook" class="anchor" href="#making-a-discord-webhook" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making a Discord webhook:</h2>
+<ol>
+<li>Open Discord</li>
+<li>Go to your server</li>
+<li>Make a new chat channel / Open one</li>
+<li>Click on the settings icon beside your chat channel name</li>
+<li>Click Webhooks =&gt; New</li>
+<li>Click "Copy" under Webhook URL</li>
+<li>Paste it in the config</li>
+</ol>
+<h1>
+<a id="user-content-issues" class="anchor" href="#issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issues</h1>
+<p>As per the original plugin, this does not work on servers hosted on specific devices that do not have 'cURL' installed (eg android phone).</p>
+<h1>
+<a id="user-content-change-log" class="anchor" href="#change-log" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Change log</h1>
+<p>1.0.5 - Fixed permission issue</p>
+<p>1.0.4 - Removed startup/shutdown messages</p>
+<p>1.0.3 - Fixed namspace issue</p>
+<p>1.0.2 - Fixed version command to report correct version. Added config option send_console</p>
+<p>1.0.1 - Fixed bug with curl response error message missing in certain circumstances</p>
+<p>1.0.0 - Inital Release</p>

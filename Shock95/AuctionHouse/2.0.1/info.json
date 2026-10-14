@@ -1,0 +1,127 @@
+{
+    "id": 9378,
+    "name": "AuctionHouse",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AuctionHouse/2.0.1",
+    "tagline": "Feature-packed auction house plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/168659",
+    "downloads": 10770,
+    "score": 3,
+    "repo_id": 231282505,
+    "repo_name": "Shock95/AuctionHouse",
+    "project_id": 5991,
+    "project_name": "AuctionHouse",
+    "build_id": 128059,
+    "build_number": 94,
+    "build_commit": "fc99cf17725e64a980e459095b777324046b6cf2",
+    "description_url": "https://poggit.pmmp.io/r/168656",
+    "icon_url": "https://raw.githubusercontent.com/Shock95x/AuctionHouse/fc99cf17725e64a980e459095b777324046b6cf2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/168658",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648138545,
+    "state": 5,
+    "last_state_change_date": 1648202621,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "auction-house",
+        "auctionhouse",
+        "minecraft",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.7",
+            "depRelId": 9137,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Shock95"
+        ],
+        "Contributor": [
+            "Adam1609",
+            "SOF3",
+            "unickorn",
+            "peppizza",
+            "ipad54",
+            "alitura1",
+            "Shock950",
+            "AIPTU",
+            "NotEnriko",
+            "Ihsan48"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "9e290d34fd627584d00f0b3105b7335c67ff5494",
+            "build_id": 127533
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "463ab795418a230e89f8c461f64cfb6fd37eca7a",
+            "build_id": 117925
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "b1b1f53ab6abdb6927c108d41f81b407fa072aee",
+            "build_id": 121224
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "f621559a4214a8112cde8ff67d6c84137291e559",
+            "build_id": 116667
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

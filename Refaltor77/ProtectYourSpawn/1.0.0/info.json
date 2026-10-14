@@ -1,0 +1,87 @@
+{
+    "id": 8364,
+    "name": "ProtectYourSpawn",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ProtectYourSpawn/1.0.0",
+    "tagline": "Plugin allowing to protect your zone against players",
+    "artifact_url": "https://poggit.pmmp.io/r/153480",
+    "downloads": 237,
+    "score": 1,
+    "repo_id": 440485630,
+    "repo_name": "Refaltor77/ProtectYourSpawn",
+    "project_id": 10177,
+    "project_name": "ProtectYourSpawn",
+    "build_id": 118918,
+    "build_number": 1,
+    "build_commit": "d037f6130ca9954d7b8e95adb82719af4db304bd",
+    "description_url": "https://poggit.pmmp.io/r/158961",
+    "icon_url": "https://raw.githubusercontent.com/Refaltor77/ProtectYourSpawn/d037f6130ca9954d7b8e95adb82719af4db304bd/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1640085628,
+    "state": 5,
+    "last_state_change_date": 1643307787,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Protect",
+        "ProtectSpawn",
+        "ProtectWorld",
+        "Spawn",
+        "SpawnProtect",
+        "WorldProtect",
+        "Your"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

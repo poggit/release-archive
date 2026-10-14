@@ -1,0 +1,63 @@
+{
+    "id": 1074,
+    "name": "iProtector",
+    "version": "3.1.0-10",
+    "html_url": "https://poggit.pmmp.io/p/iProtector/3.1.0-10",
+    "tagline": "Protect Server Builds",
+    "artifact_url": "https://poggit.pmmp.io/r/23109",
+    "downloads": 2408,
+    "score": 4,
+    "repo_id": 96110084,
+    "repo_name": "poggit-orphanage/iProtector",
+    "project_id": 618,
+    "project_name": "iProtector",
+    "build_id": 35935,
+    "build_number": 14,
+    "build_commit": "9eeb07591a30a12e67d77a95321c02c94b4c58b3",
+    "description_url": "https://poggit.pmmp.io/r/23106",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/iProtector/9eeb07591a30a12e67d77a95321c02c94b4c58b3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/23108",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518364610,
+    "state": 5,
+    "last_state_change_date": 1518364613,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "area",
+        "protect",
+        "areaprotect"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "poggit-orphanage"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

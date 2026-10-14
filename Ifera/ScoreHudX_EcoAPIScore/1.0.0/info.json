@@ -1,0 +1,67 @@
+{
+    "id": 6402,
+    "name": "EcoAPIScore",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EcoAPIScore/1.0.0",
+    "tagline": "A plugin implementing some basic tags for ScoreHud.",
+    "artifact_url": "https://poggit.pmmp.io/r/121986",
+    "downloads": 4869,
+    "score": 5,
+    "repo_id": 300368823,
+    "repo_name": "Ifera/ScoreHudX",
+    "project_id": 7936,
+    "project_name": "EcoAPIScore",
+    "build_id": 99888,
+    "build_number": 7,
+    "build_commit": "baaad002f572046d17ccba633197185f2d536138",
+    "description_url": "https://poggit.pmmp.io/r/134717",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1618047851,
+    "state": 5,
+    "last_state_change_date": 1618071063,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "scoreboard",
+        "scorehud",
+        "sh"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "alvin0319",
+            "AIPTU"
+        ],
+        "Collaborator": [
+            "Ifera"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

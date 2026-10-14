@@ -1,0 +1,63 @@
+{
+    "id": 7159,
+    "name": "StickEffect",
+    "version": "4.0.0",
+    "html_url": "https://poggit.pmmp.io/p/StickEffect/4.0.0",
+    "tagline": "This plugin allows to set an item with an effect and a cooldown",
+    "artifact_url": "https://poggit.pmmp.io/r/133764",
+    "downloads": 1665,
+    "score": null,
+    "repo_id": 347188883,
+    "repo_name": "Refaltor77/StickEffect",
+    "project_id": 8666,
+    "project_name": "StickEffect",
+    "build_id": 106923,
+    "build_number": 27,
+    "build_commit": "85e8df9036daf0ea3b95972580973a2cccd7b664",
+    "description_url": "https://poggit.pmmp.io/r/133761",
+    "icon_url": "https://raw.githubusercontent.com/Refaltor77/StickEffect/85e8df9036daf0ea3b95972580973a2cccd7b664/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/133763",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1627200878,
+    "state": 5,
+    "last_state_change_date": 1627240530,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "effect",
+        "focusStick",
+        "forcestick",
+        "healstick",
+        "speedstick",
+        "stick",
+        "stickeffect"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

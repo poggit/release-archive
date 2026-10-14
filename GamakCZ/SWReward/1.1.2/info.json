@@ -1,0 +1,72 @@
+{
+    "id": 3255,
+    "name": "SkyWars-Reward",
+    "version": "1.1.2",
+    "html_url": "https://poggit.pmmp.io/p/SkyWars-Reward/1.1.2",
+    "tagline": "Money reward for SkyWars plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/64132",
+    "downloads": 5069,
+    "score": 4,
+    "repo_id": 159018211,
+    "repo_name": "GamakCZ/SWReward",
+    "project_id": 4293,
+    "project_name": "SWReward",
+    "build_id": 63217,
+    "build_number": 4,
+    "build_commit": "b13c02e2f8a10f5e360322effe3117cdf87bcd32",
+    "description_url": "https://poggit.pmmp.io/r/64131",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1565457932,
+    "state": 5,
+    "last_state_change_date": 1565594765,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "skywars"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "GamakCZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

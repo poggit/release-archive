@@ -1,0 +1,98 @@
+<h1>
+<a id="user-content-mspawns" class="anchor" href="#mspawns" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MSpawns</h1>
+<p><strong>MSpawns</strong> is a Multiple Spawn plugin.</p>
+<p><strong>EvolSoft Website:</strong> <a href="http://www.evolsoft.tk">http://www.evolsoft.tk</a></p>
+<p><strong>Source:</strong> <a href="https://github.com/EvolSoft/MSpawns">https://github.com/EvolSoft/MSpawns</a></p>
+<p>***This Plugin uses the New API. You can't install it on old versions of PocketMine.***<br></p>
+<p><strong><em>MultiWorld Bugs (for eg. Invisible chunks...) aren't related to plugin or PocketMine but to Minecraft PE.</em></strong></p>
+<p>You can set a global spawn (hub) and a spawn for each world.<br><br>
+You can also customize spawn settings, spawn messages... and you can also set aliases! (read documentation)</p>
+<p><strong>Commands:</strong></p>
+<p><strong><em>/mspawns</em></strong> <em>- MSpawns commands</em><br><br>
+<strong><em>/setalias</em></strong> <em>- Set alias</em><br><br>
+<strong><em>/hub</em></strong> <em>- Teleport to global spawn</em><br><br>
+<strong><em>/sethub</em></strong> <em>- Set global spawn</em><br><br>
+<strong><em>/spawn</em></strong> <em>- Teleport to world spawn</em><br><br>
+<strong><em>/setspawn</em></strong> <em>- Set world spawn</em><br></p>
+<p><strong>To-Do:</strong></p>
+<p><em>- Bug fix (if bugs will be found)</em></p>
+<h2>
+<a id="user-content-documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h2>
+<p><strong>Configuration (config.yml):</strong></p>
+<div><pre>---
+# Available Tags for messages:
+#  - {PLAYER}: Show current player name
+#  - {WORLD}: Show current world name
+# Show [MSpawns] prefix
+show-prefix: true
+# Show hub-message or spawn-message when a player joins
+show-messages-onjoin: true
+# Force teleportation to hub when a player joins
+force-hub: false
+# Show message when a player teleports to hub
+enable-hub-message: true
+# Hub message
+hub-message: "Welcome to Hub, {PLAYER}"
+# Force teleportation to spawn when a player joins (obviously if you enable force-hub, force-spawn won't work)
+force-spawn: false
+# Show message when a player teleports to spawn
+enable-spawn-message: true
+# Spawn message
+spawn-message: "Teleported To {WORLD} Spawn"
+# Enable aliases usage
+enable-aliases: true
+# Teleport a player to the spawn/hub when they die
+# 1 = Teleport to spawn 2 = Teleport to Hub
+teleport-on-death: 1
+...</pre></div>
+<p><strong>Aliases:</strong></p>
+<p>With aliases you can create commands that teleport players.<br><br>
+You can manually edit them in aliases.yml file.<br><br>
+If you want to create an alias you must specify the name and the target world (remember that the target world must have a spawn set)<br><br>
+<em>Example usage:</em><br>
+Imagine that you have a world called "pvpworld" and you want to set an alias called "pvp".<br></p>
+<ol>
+<li>Set spawn in world "pvpworld" with /setspawn<br>
+</li>
+<li>Do /setalias pvp pvpworld<br><br>
+To use the alias you must simply do /pvp and you will be teleported to "pvpworld" spawn<br>
+</li>
+</ol>
+<p><em>Remember that you can use aliases only if you set to true the value of "enable-aliases" in config.yml</em></p>
+<p><strong>Commands:</strong></p>
+<p><strong><em>/mspawns</em></strong> <em>- MSpawns commands (aliases: [ms])</em><br><br>
+<strong><em>/setalias  </em></strong> <em>- Set alias</em><br><br>
+<strong><em>/hub</em></strong> <em>- Teleport to global spawn</em><br><br>
+<strong><em>/sethub</em></strong> <em>- Set global spawn</em><br><br>
+<strong><em>/spawn</em></strong> <em>- Teleport to world spawn</em><br><br>
+<strong><em>/setspawn</em></strong> <em>- Set world spawn</em><br></p>
+<p><strong>Permissions:</strong></p>
+<ul>
+<li>
+<dd><i><b>mspawns.*</b> - MSpawns commands permissions.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.info</b> - Allows player to read info about MSpawns.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.reload</b> - Allows player to reload MSpawns.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.sethub</b> - Allows player to set hub.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.hub</b> - Teleport player to hub.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.setalias</b> - Allows player to set alias.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.setspawn</b> - Allows player to set spawn.</i></dd>
+</li>
+<li>
+<dd><i><b>mspawns.spawn</b> - Teleport player to world spawn.</i></dd>
+</li>
+</ul>
+<h2>
+<a id="user-content-requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
+<p><a href="https://github.com/pmmp/PocketMine-MP">PocketMine-MP</a> API 2.0.0 - 3.0.0-ALPHA4</p>

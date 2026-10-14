@@ -1,0 +1,61 @@
+{
+    "id": 8631,
+    "name": "RGB",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/RGB/1.0",
+    "tagline": "Color your armor with RGB codes!",
+    "artifact_url": "https://poggit.pmmp.io/r/157721",
+    "downloads": 928,
+    "score": 3,
+    "repo_id": 442958239,
+    "repo_name": "fernanACM/RGBArmor",
+    "project_id": 10389,
+    "project_name": "RGBArmor",
+    "build_id": 121466,
+    "build_number": 5,
+    "build_commit": "36d0e4a1b6c573fdce7b7f7a19f45f1d176915b3",
+    "description_url": "https://poggit.pmmp.io/r/165367",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/RGBArmor/36d0e4a1b6c573fdce7b7f7a19f45f1d176915b3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1642889262,
+    "state": 5,
+    "last_state_change_date": 1642890959,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "Armor",
+        "Color",
+        "RGB",
+        "RgbArmor"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Mohagames205",
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

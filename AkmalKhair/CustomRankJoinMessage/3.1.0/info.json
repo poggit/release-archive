@@ -1,0 +1,89 @@
+{
+    "id": 13773,
+    "name": "CustomRankJoinMessage",
+    "version": "3.1.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomRankJoinMessage/3.1.0",
+    "tagline": "Custom rank join message plugin for PMMP.",
+    "artifact_url": "https://poggit.pmmp.io/r/251721",
+    "downloads": 321,
+    "score": null,
+    "repo_id": 914649073,
+    "repo_name": "AkmalKhair/CustomRankJoinMessage",
+    "project_id": 14483,
+    "project_name": "CustomRankJoinMessage",
+    "build_id": 183968,
+    "build_number": 8,
+    "build_commit": "01a7a2996ad7672a10ab745a789e928a14240539",
+    "description_url": "https://poggit.pmmp.io/r/251729",
+    "icon_url": "https://raw.githubusercontent.com/AkmalKhair/CustomRankJoinMessage/01a7a2996ad7672a10ab745a789e928a14240539/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MPL-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736581171,
+    "state": 5,
+    "last_state_change_date": 1737821171,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Chat",
+        "Custom",
+        "Customization",
+        "Enhancement",
+        "Event",
+        "Integration",
+        "Join",
+        "Message",
+        "Messages",
+        "Messages.",
+        "Minecraft",
+        "Personalized",
+        "Player",
+        "Plugin",
+        "PocketMine",
+        "Rank",
+        "Rank-Based",
+        "Rank-Specific",
+        "RankSystem",
+        "Server",
+        "System",
+        "Welcome"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "RankSystem",
+            "version": "1.1.3",
+            "depRelId": 11942,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AkmalKhair"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

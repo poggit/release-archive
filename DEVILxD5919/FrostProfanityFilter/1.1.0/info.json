@@ -1,0 +1,82 @@
+{
+    "id": 13158,
+    "name": "FrostProfanityFilter",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/FrostProfanityFilter/1.1.0",
+    "tagline": "FrostProfanityFilter is a robust and customizable plugin that blocks profanities in chat, ensuring a positive and respectful env",
+    "artifact_url": "https://poggit.pmmp.io/r/241184",
+    "downloads": 291,
+    "score": null,
+    "repo_id": 813654226,
+    "repo_name": "DEVILxD5919/FrostProfanityFilter",
+    "project_id": 13919,
+    "project_name": "FrostProfanityFilter",
+    "build_id": 176670,
+    "build_number": 3,
+    "build_commit": "b35e5d7861ec11c5fc6a8e6f35b941dbd1a86dca",
+    "description_url": "https://poggit.pmmp.io/r/242693",
+    "icon_url": "https://raw.githubusercontent.com/DEVILxD5919/FrostProfanityFilter/b35e5d7861ec11c5fc6a8e6f35b941dbd1a86dca/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1718124745,
+    "state": 5,
+    "last_state_change_date": 1720055454,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bad",
+        "blocker",
+        "chat",
+        "community",
+        "content",
+        "customizable",
+        "filter",
+        "filters",
+        "moderation",
+        "online",
+        "PocketMine-MP",
+        "profanity",
+        "safe",
+        "safety",
+        "server",
+        "standards",
+        "user-generated",
+        "word"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DEVILxD5919"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

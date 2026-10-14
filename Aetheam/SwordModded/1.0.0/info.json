@@ -1,0 +1,71 @@
+{
+    "id": 10569,
+    "name": "SwordModded",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SwordModded/1.0.0",
+    "tagline": "With the plugin you can modify the damage and durability of swords",
+    "artifact_url": "https://poggit.pmmp.io/r/193002",
+    "downloads": 382,
+    "score": null,
+    "repo_id": 528028672,
+    "repo_name": "Aetheam/SwordModded",
+    "project_id": 11747,
+    "project_name": "SwordModded",
+    "build_id": 145169,
+    "build_number": 19,
+    "build_commit": "6ef29be9e6727d4e32771e754b1dc60f25fceced",
+    "description_url": "https://poggit.pmmp.io/r/193001",
+    "icon_url": "https://raw.githubusercontent.com/Aetheam/SwordModded/6ef29be9e6727d4e32771e754b1dc60f25fceced/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1663411253,
+    "state": 5,
+    "last_state_change_date": 1663674429,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "damage",
+        "durability",
+        "mcpe",
+        "mcpe-plugin",
+        "mcpe-server",
+        "mod",
+        "modded",
+        "plugins",
+        "pocketmine",
+        "pocketmine-mp",
+        "sword"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "kaxyum"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

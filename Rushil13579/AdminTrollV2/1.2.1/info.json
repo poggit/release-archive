@@ -1,0 +1,67 @@
+{
+    "id": 7272,
+    "name": "AdminTrollV2",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/AdminTrollV2/1.2.1",
+    "tagline": "A Pocketmine-MP plugin to Troll your Frenimies!",
+    "artifact_url": "https://poggit.pmmp.io/r/135751",
+    "downloads": 10485,
+    "score": 4,
+    "repo_id": 356386674,
+    "repo_name": "Rushil13579/AdminTrollV2",
+    "project_id": 8837,
+    "project_name": "AdminTrollV2",
+    "build_id": 108151,
+    "build_number": 58,
+    "build_commit": "9f66ac59d5c39df8fd324d4aad559c04730fe793",
+    "description_url": "https://poggit.pmmp.io/r/135748",
+    "icon_url": "https://raw.githubusercontent.com/Rushil13579/AdminTrollV2/9f66ac59d5c39df8fd324d4aad559c04730fe793/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/135750",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628243793,
+    "state": 5,
+    "last_state_change_date": 1628248390,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Admin",
+        "Fun",
+        "Troll"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Rushil13579"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,53 @@
+{
+    "id": 4808,
+    "name": "DoEmote",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DoEmote/1.0.0",
+    "tagline": "A PocketMine-MP Plugin that enable emotes on your server.",
+    "artifact_url": "https://poggit.pmmp.io/r/94375",
+    "downloads": 1303,
+    "score": 5,
+    "repo_id": 275982813,
+    "repo_name": "Plugins-PocketMineMP/DoEmote",
+    "project_id": 7305,
+    "project_name": "DoEmote",
+    "build_id": 82513,
+    "build_number": 2,
+    "build_commit": "4983d9517ac49199a10c6935f57307b08862d07b",
+    "description_url": "https://poggit.pmmp.io/r/94374",
+    "icon_url": "https://raw.githubusercontent.com/alvin0319/DoEmote/4983d9517ac49199a10c6935f57307b08862d07b/icon.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1593487165,
+    "state": 5,
+    "last_state_change_date": 1593972985,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "emote"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Plugins-PocketMineMP"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

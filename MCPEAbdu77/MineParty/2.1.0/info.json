@@ -1,0 +1,78 @@
+{
+    "id": 10319,
+    "name": "MineParty",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/MineParty/2.1.0",
+    "tagline": "Minigame for prison servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/187328",
+    "downloads": 667,
+    "score": null,
+    "repo_id": 360890764,
+    "repo_name": "MCPEAbdu77/MineParty",
+    "project_id": 9547,
+    "project_name": "MineParty",
+    "build_id": 141069,
+    "build_number": 21,
+    "build_commit": "35d382c2bd3ab7aed53aea6cb6a3e4e5c0f6158e",
+    "description_url": "https://poggit.pmmp.io/r/187325",
+    "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/MineParty/35d382c2bd3ab7aed53aea6cb6a3e4e5c0f6158e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/187327",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1658649895,
+    "state": 5,
+    "last_state_change_date": 1658768567,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "fun",
+        "mine",
+        "minigame",
+        "mining",
+        "party",
+        "prison",
+        "rewards"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MCPEAbdu77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

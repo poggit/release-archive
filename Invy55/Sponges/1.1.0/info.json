@@ -1,0 +1,63 @@
+{
+    "id": 3912,
+    "name": "Sponges",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Sponges/1.1.0",
+    "tagline": "A PocketMine-MP plugin that makes sponges working.",
+    "artifact_url": "https://poggit.pmmp.io/r/77538",
+    "downloads": 4843,
+    "score": 3,
+    "repo_id": 241685499,
+    "repo_name": "Invy55/Sponges",
+    "project_id": 6342,
+    "project_name": "Sponges",
+    "build_id": 72021,
+    "build_number": 9,
+    "build_commit": "c2524cfd17de2e9495ef51e91cd797fc492d75d9",
+    "description_url": "https://poggit.pmmp.io/r/77656",
+    "icon_url": "https://raw.githubusercontent.com/Invy55/Sponges/c2524cfd17de2e9495ef51e91cd797fc492d75d9/Sponge_JE3_BE3.png",
+    "changelog_url": "https://poggit.pmmp.io/r/77658",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1583171239,
+    "state": 5,
+    "last_state_change_date": 1583394384,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "sponge",
+        "spongebob",
+        "sponges"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Invy55"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

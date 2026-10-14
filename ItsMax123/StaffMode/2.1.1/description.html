@@ -1,0 +1,161 @@
+<p><a href="https://poggit.pmmp.io/p/StaffMode" rel="nofollow"><img src="https://camo.githubusercontent.com/9142eefcb69a75d6dadda2902afa29f3c72c6ef39ce1d0a1ed1519e4ed5f6d03/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f53746166664d6f6465" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/StaffMode" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/StaffMode" rel="nofollow"><img src="https://camo.githubusercontent.com/bfdf5f8c6200c5f41744d1586e5f75b3172bee28b81006268db3492aa43accdc/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f53746166664d6f6465" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/StaffMode" style="max-width:100%;"></a></p>
+<p><a href="https://camo.githubusercontent.com/129b39ad2dba2846b93ae520e528402f91d2180d17495c7f4f1dd43ad3f80ba2/68747470733a2f2f7777772e677374617469632e636f6d2f696d616765732f6272616e64696e672f70726f647563742f31782f61646d696e5f35313264702e706e67" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/129b39ad2dba2846b93ae520e528402f91d2180d17495c7f4f1dd43ad3f80ba2/68747470733a2f2f7777772e677374617469632e636f6d2f696d616765732f6272616e64696e672f70726f647563742f31782f61646d696e5f35313264702e706e67" width="120" height="120" align="left" data-canonical-src="https://www.gstatic.com/images/branding/product/1x/admin_512dp.png" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-staffmode" class="anchor" href="#staffmode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>StaffMode</h1>
+<p>StaffMode is an all-in-one Pocketmine-MP (PMMP) moderation plugin made to simplify the life of staff members.</p>
+<h2>
+<a id="user-content-setup-guide" class="anchor" href="#setup-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup Guide</h2>
+<ol>
+<li>To start using the plugin, download the StaffMode.phar file from <a href="https://poggit.pmmp.io/p/StaffMode" rel="nofollow">poggit</a> and put it into your server's plugins folder. (IMPORTANT: If you do not know how to handle virions, do not download from github, the plugin will not work)</li>
+<li>Then, you have to do is set up your staff rank permissions. Look at the <strong>Risk</strong> tab in the following tables to decide which permissions is more suitable for which staff ranks to prevent possible abuse. It is recommended to give permissions with the <em>High</em> risk only to trusted staff members.</li>
+<li>The <code>staffmode.command.staffmode</code> or <code>staffmode.*</code> permission is necessary in order for staff to enter staff mode.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Permissions</th>
+<th>Description</th>
+<th>Default</th>
+<th>Risk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>staffmode.*</code></td>
+<td>Allows usage of all staffmode features.</td>
+<td><code>op</code></td>
+<td>High</td>
+</tr>
+<tr>
+<td><code>staffmode.command.staffmode</code></td>
+<td>Allows usage of the "/staffmode" command.</td>
+<td><code>op</code></td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<ol start="4">
+<li>The folowing permissions are to access the tools within staffmode.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Permissions</th>
+<th>Description</th>
+<th>Default</th>
+<th>Risk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>staffmode.staffchat</code></td>
+<td>Allows usage of the "/staffchat" command.</td>
+<td><code>op</code></td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>staffmode.silent</code></td>
+<td>Allows user to join and leave the server with no broadcasted message.</td>
+<td><code>op</code></td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>staffmode.tools.teleport</code></td>
+<td>Allows usage of the teleportation tool (compass) in staffmode.</td>
+<td><code>op</code></td>
+<td>Low</td>
+</tr>
+<tr>
+<td><code>staffmode.tools.playerinfo</code></td>
+<td>Allows usage of the playerinfo tool (book) in staffmode.</td>
+<td><code>op</code></td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>staffmode.tools.inventorymanager</code></td>
+<td>Allows usage of the InventoryManager tool (chest) in staffmode.</td>
+<td><code>op</code></td>
+<td>Medium</td>
+</tr>
+<tr>
+<td><code>staffmode.tools.warn</code></td>
+<td>Allows usage of the warning tool (paper) in staffmode.</td>
+<td><code>op</code></td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>staffmode.tools.freeze</code></td>
+<td>Allows usage of the freezing tool (ice block) in staffmode.</td>
+<td><code>op</code></td>
+<td>Medium</td>
+</tr>
+<tr>
+<td><code>staffmode.tools.mute</code></td>
+<td>Allows usage of the muting tool (gold hoe) in staffmode.</td>
+<td><code>op</code></td>
+<td>Medium</td>
+</tr>
+<tr>
+<td><code>staffmode.tools.kick</code></td>
+<td>Allows usage of the kicking tool (gold sword) in staffmode.</td>
+<td><code>op</code></td>
+<td>Medium</td>
+</tr>
+<tr>
+<td><code>staffmode.tools.ban</code></td>
+<td>Allows usage of the banning tool (gold axe) in staffmode.</td>
+<td><code>op</code></td>
+<td>High</td>
+</tr>
+<tr>
+<td><code>staffmode.tools.exit</code></td>
+<td>Allows usage of the exit tool (redstone torch) in staffmode.</td>
+<td><code>everyone</code></td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<ol start="5">
+<li>After setting up everything, if done correctly staff members will be able to do the /staffmode command and access all their allowed tools.</li>
+</ol>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<ul>
+<li>Features:
+<ul>
+<li>[x] /staffmode command</li>
+<li>[x] /report command</li>
+<li>[x] /staffchat command</li>
+<li>[x] Teleportation tool</li>
+<li>[x] Playerinfo tool</li>
+<li>[x] Inventory/EnderChest Spy &amp; Clearing tool</li>
+<li>[x] Warn tool</li>
+<li>[x] Freeze tool</li>
+<li>[x] Hit to freeze</li>
+<li>[x] Unfreeze tool</li>
+<li>[x] Mute tool</li>
+<li>[x] Custom mute system</li>
+<li>[x] Kick tool</li>
+<li>[x] Ban tool</li>
+<li>[x] Custom ban system (Including: IpBans, DeviceBans)</li>
+<li>[x] Return to original location with the original inventory after exiting staffmode.</li>
+<li>[x] Silent Join &amp; Leave (Editable in config)</li>
+<li>[x] Fake Join &amp; Leave when entering/leaving StaffMode (Editable in config)</li>
+<li>[x] Remove player from server list when fake leaving</li>
+</ul>
+</li>
+<li>Coming soon...
+<ul>
+<li>[ ] Edit mute &amp; bans</li>
+<li>[ ] Close reports</li>
+<li>[ ] More customization in config (Maybe make all messages configurable)</li>
+<li>[ ] Staff abuse prevention (Prevent staff from doing commands while in staffmode, prevent staff from banning other staff, etc.)</li>
+<li>[ ] Please suggest anything you want me to add</li>
+</ul>
+</li>
+</ul>
+<h2>
+<a id="user-content-support" class="anchor" href="#support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support</h2>
+<p>Join the <a href="https://discord.gg/YJZNhwhyMQ" rel="nofollow">discord server</a> for support.
+For bugs or feature requests, create an issue on GitHub. Please follow the GitHub templates as best you can.</p>

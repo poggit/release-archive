@@ -1,0 +1,61 @@
+{
+    "id": 9277,
+    "name": "BanCommands",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BanCommands/1.0.0",
+    "tagline": "Simple plugin to ban a command from a specific world.",
+    "artifact_url": "https://poggit.pmmp.io/r/166877",
+    "downloads": 2349,
+    "score": 5,
+    "repo_id": 468498822,
+    "repo_name": "Laith98Dev/BanCommands",
+    "project_id": 10774,
+    "project_name": "BanCommands",
+    "build_id": 126904,
+    "build_number": 14,
+    "build_commit": "1205df4b107fefa5282f625aa9c7cb37a8bd368f",
+    "description_url": "https://poggit.pmmp.io/r/166883",
+    "icon_url": "https://raw.githubusercontent.com/Laith98Dev/BanCommands/1205df4b107fefa5282f625aa9c7cb37a8bd368f/20220311_003850.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647295425,
+    "state": 5,
+    "last_state_change_date": 1647298900,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "laith98dev",
+        "bancommand",
+        "command",
+        "bancmd",
+        "blockcommand"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,68 @@
+{
+    "id": 6227,
+    "name": "CoinsSystem",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/CoinsSystem/1.2.0",
+    "tagline": "CoinsSystem Plugin for PocketMine-MP Server Software.",
+    "artifact_url": "https://poggit.pmmp.io/r/119561",
+    "downloads": 2504,
+    "score": 3,
+    "repo_id": 348382793,
+    "repo_name": "VazziDE/CoinsSystem",
+    "project_id": 8695,
+    "project_name": "CoinsSystem",
+    "build_id": 98940,
+    "build_number": 13,
+    "build_commit": "683c4767b58e0695d9a802ec14da6c66801dd86d",
+    "description_url": "https://poggit.pmmp.io/r/119563",
+    "icon_url": "https://raw.githubusercontent.com/VazziDE/CoinsSystem/683c4767b58e0695d9a802ec14da6c66801dd86d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616702553,
+    "state": 5,
+    "last_state_change_date": 1616724881,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "coins",
+        "coinsapi",
+        "coinssysten",
+        "economy"
+    ],
+    "api": [
+        {
+            "from": "3.18.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VazziDE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

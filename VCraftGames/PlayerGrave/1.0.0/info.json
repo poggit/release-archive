@@ -1,0 +1,56 @@
+{
+    "id": 9854,
+    "name": "PlayerGrave",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerGrave/1.0.0",
+    "tagline": "Plugin for PocketMine-MP that creates graves for players when they die!",
+    "artifact_url": "https://poggit.pmmp.io/r/178614",
+    "downloads": 1761,
+    "score": 5,
+    "repo_id": 497917454,
+    "repo_name": "VCraftGames/PlayerGrave",
+    "project_id": 11254,
+    "project_name": "PlayerGrave",
+    "build_id": 135091,
+    "build_number": 5,
+    "build_commit": "1c0b3c7e0bda02e47f3ebbfc150294004868d511",
+    "description_url": "https://poggit.pmmp.io/r/179742",
+    "icon_url": "https://raw.githubusercontent.com/BlockMagicDev/PlayerGrave/1c0b3c7e0bda02e47f3ebbfc150294004868d511/assets/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653997999,
+    "state": 5,
+    "last_state_change_date": 1654421620,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "playergrave",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DavidGlitch04"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

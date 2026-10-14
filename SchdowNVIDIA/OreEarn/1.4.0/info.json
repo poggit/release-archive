@@ -1,0 +1,59 @@
+{
+    "id": 2442,
+    "name": "OreEarn",
+    "version": "1.4.0",
+    "html_url": "https://poggit.pmmp.io/p/OreEarn/1.4.0",
+    "tagline": "OreEarn Plugin of Pydow",
+    "artifact_url": "https://poggit.pmmp.io/r/51464",
+    "downloads": 181,
+    "score": 5,
+    "repo_id": 165395067,
+    "repo_name": "SchdowNVIDIA/OreEarn",
+    "project_id": 4658,
+    "project_name": "OreEarn",
+    "build_id": 55740,
+    "build_number": 19,
+    "build_commit": "c75ebe9966b3eb11f28fe60bd659dd38155f1a53",
+    "description_url": "https://poggit.pmmp.io/r/51463",
+    "icon_url": "https://raw.githubusercontent.com/SchdowNVIDIA/OreEarn/c75ebe9966b3eb11f28fe60bd659dd38155f1a53/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1549569524,
+    "state": 5,
+    "last_state_change_date": 1549790067,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "OreEarn",
+        "Economy",
+        "Mining"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SchdowNVIDIA"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,68 @@
+{
+    "id": 5456,
+    "name": "Nicknames",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Nicknames/1.0.0",
+    "tagline": "A plugin which allows players to change their display name",
+    "artifact_url": "https://poggit.pmmp.io/r/106075",
+    "downloads": 473,
+    "score": 5,
+    "repo_id": 305575311,
+    "repo_name": "jasonw4331/Nicknames",
+    "project_id": 7883,
+    "project_name": "Nicknames",
+    "build_id": 90299,
+    "build_number": 2,
+    "build_commit": "dcd24b969b40919246d51424ab5601225f38c5ad",
+    "description_url": "https://poggit.pmmp.io/r/106077",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1603164338,
+    "state": 5,
+    "last_state_change_date": 1603164532,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "nametag",
+        "nick",
+        "nickname",
+        "text"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ],
+        "Contributor": [
+            "mmm545"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,81 @@
+{
+    "id": 3218,
+    "name": "InvSee",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/InvSee/1.0.0",
+    "tagline": "A PocketMine plugin that lets you view and modify player's inventory and ender inventory realtime.",
+    "artifact_url": "https://poggit.pmmp.io/r/63285",
+    "downloads": 38545,
+    "score": 3,
+    "repo_id": 138355281,
+    "repo_name": "BlockHorizons/InvSee",
+    "project_id": 3152,
+    "project_name": "InvSee",
+    "build_id": 62034,
+    "build_number": 27,
+    "build_commit": "fa28a658474adbefff11108fe92f4c5e3301935a",
+    "description_url": "https://poggit.pmmp.io/r/63289",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/63291",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1564217318,
+    "state": 5,
+    "last_state_change_date": 1564217462,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "inv",
+        "inventory",
+        "modify",
+        "viewing"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ],
+        "Contributor": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "3e3d9139ab85f11b0cc7bdc523ebed1d0d1fe014",
+            "build_id": 62031
+        }
+    ]
+}

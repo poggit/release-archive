@@ -1,0 +1,103 @@
+{
+    "id": 12132,
+    "name": "SuperItemsShop",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SuperItemsShop/2.0.0",
+    "tagline": "A SuperItemsShop Plugin For Pocketmine",
+    "artifact_url": "https://poggit.pmmp.io/r/218886",
+    "downloads": 1944,
+    "score": 5,
+    "repo_id": 662127746,
+    "repo_name": "GabBiswajit/SuperItemsShop",
+    "project_id": 12732,
+    "project_name": "SuperItemsShop",
+    "build_id": 161204,
+    "build_number": 48,
+    "build_commit": "5439ed72aaa47fc999f72e7fddd7105ec6d43edb",
+    "description_url": "https://poggit.pmmp.io/r/218885",
+    "icon_url": "https://raw.githubusercontent.com/GabBiswajit/SuperItemsShop/5439ed72aaa47fc999f72e7fddd7105ec6d43edb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691258418,
+    "state": 5,
+    "last_state_change_date": 1691258897,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Communityshop",
+        "items",
+        "Super"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": true
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "GabBiswajit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEco",
+            "project_id": 10995,
+            "repo_id": 466916160,
+            "repo_name": "David-pm-pl/libEco",
+            "repo_path": "",
+            "build_commit": "83f42cd99eeb0a154909675ee1b1ca29f255cdb7",
+            "build_id": 137758
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "26fac36e585c1b6d5a10a99bdcb70f6539b397aa",
+            "build_id": 157517
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "id": 9377,
+    "name": "DeviceBlockerPM",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/DeviceBlockerPM/0.0.1",
+    "tagline": "Block Devices From Joining Servers",
+    "artifact_url": "https://poggit.pmmp.io/r/168632",
+    "downloads": 151,
+    "score": 5,
+    "repo_id": 473557209,
+    "repo_name": "BeeAZ-pm-pl/DeviceBlocker",
+    "project_id": 10842,
+    "project_name": "DeviceBlocker",
+    "build_id": 128039,
+    "build_number": 1,
+    "build_commit": "a8f902d3cd23deb2ede191ad2fb18ba3e3563852",
+    "description_url": "https://poggit.pmmp.io/r/168631",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZZ/DeviceBlocker/a8f902d3cd23deb2ede191ad2fb18ba3e3563852/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648118500,
+    "state": 5,
+    "last_state_change_date": 1651694258,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "DeviceBlocker"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,68 @@
+{
+    "id": 2464,
+    "name": "AdvancedJoin",
+    "version": "1.0.9",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedJoin/1.0.9",
+    "tagline": "A AdvancedJoin Plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/51834",
+    "downloads": 1249,
+    "score": 5,
+    "repo_id": 170515904,
+    "repo_name": "tim03we/AdvancedJoin",
+    "project_id": 4688,
+    "project_name": "AdvancedJoin",
+    "build_id": 55973,
+    "build_number": 1,
+    "build_commit": "6e62e554d283b0886badc1d3e07793ffbe6769db",
+    "description_url": "https://poggit.pmmp.io/r/51833",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1550067933,
+    "state": 5,
+    "last_state_change_date": 1550422703,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Chat",
+        "Join",
+        "Teleport",
+        "tim03we"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "tim03we"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

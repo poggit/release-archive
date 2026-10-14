@@ -1,0 +1,60 @@
+{
+    "id": 14008,
+    "name": "SurrealFFA",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SurrealFFA/1.0.0",
+    "tagline": "Track kills and deaths in async FFA battles with SurrealDB integration.",
+    "artifact_url": "https://poggit.pmmp.io/r/255958",
+    "downloads": 113,
+    "score": null,
+    "repo_id": 986027294,
+    "repo_name": "NathaLMV/SurrealFFA",
+    "project_id": 14729,
+    "project_name": "SurrealFFA",
+    "build_id": 186764,
+    "build_number": 12,
+    "build_commit": "8de3d6636fcc9a47657e5d0e0c530fef469df1a3",
+    "description_url": "https://poggit.pmmp.io/r/255960",
+    "icon_url": "https://raw.githubusercontent.com/NathaLMV/SurrealFFA/8de3d6636fcc9a47657e5d0e0c530fef469df1a3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1747623574,
+    "state": 5,
+    "last_state_change_date": 1749745462,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "arena",
+        "deaths",
+        "ffa",
+        "kills",
+        "minigame",
+        "pvp",
+        "stats",
+        "surrealdb"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NathaLMV"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

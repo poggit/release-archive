@@ -1,0 +1,254 @@
+
+
+
+<h1>SimpleAuthHelper</h1>
+<ul>
+<li>Summary: Simplifies the way people authenticate to servers</li>
+<li>PocketMine-MP version: 1.5 (API:1.12.0)</li>
+<li>DependencyPlugins: SimpleAuth</li>
+<li>OptionalPlugins:</li>
+<li>Categories: AdminTools</li>
+<li>Plugin Access: Commands, Other Plugins, Manages Permissions</li>
+</ul>
+
+<h2>Overview</h2>
+
+
+<p><strong>DO NOT POST QUESTION/BUG-REPORTS/REQUESTS IN THE REVIEWS</strong></p>
+<p>It is difficult to carry a conversation in the reviews.  If you<br>
+have a question/bug-report/request please use the<br>
+<a href="http://forums.pocketmine.net/threads/simpleauthhelper.8074/">Thread</a> for<br>
+that.  You are more likely to get a response and help that way.</p>
+<p><em>NOTE:</em></p>
+<p>This documentation was last updated for version <strong>2.0.4</strong>.</p>
+<p>Please go to<br>
+<a href="https://github.com/alejandroliu/pocketmine-plugins/tree/master/SimpleAuthHelper">github</a><br>
+for the most up-to-date documentation.</p>
+<p>You can also download this plugin from this <a href="https://github.com/alejandroliu/pocketmine-plugins/releases/tag/SimpleAuthHelper-2.0.4">page</a>.</p>
+
+<p>A plugin that simplifies the login process. Instead of<br>
+asking for commands, users simply chat away.</p>
+<p>I also provides for a number of tweaks that can improve the usability of<br>
+<a href="https://forums.pocketmine.net/plugins/simpleauth.4/">SimpleAuth</a>.</p>
+<h4>Register process</h4>
+<p>Player connects for the first time.  They are prompted to enter a<br>
+<em>NEW</em> password.  They enter their password directly, without having to<br>
+enter <strong>/register</strong>.</p>
+<p>They are asked for the password again to confirm.  They re-enter their<br>
+password (again without <strong>/register</strong>).</p>
+<h4>Login process</h4>
+<p>Player connects again.  They are prompted to enter their login<br>
+password.  They type their login password directly (without<br>
+<strong>/login</strong>).  And they are in.</p>
+<h2>Documentation</h2>
+<h3>Commands</h3>
+<ul>
+<li><em>chpwd</em> <em>&lt;old-pwd&gt;</em>
+<ul>
+<li>Used by players to change their passwords.</li>
+</ul>
+</li>
+<li><em>resetpwd</em> <em>&lt;player&gt;</em>
+<ul>
+<li>Used by ops to reset a players password.  This actually unregisters<br>
+the password.</li>
+</ul>
+</li>
+<li><em>preregister</em> <em>&lt;player&gt;</em>  <em>&lt;passwd&gt;</em>
+<ul>
+<li>Used by ops to pre-register players.</li>
+</ul>
+</li>
+<li><em>logout</em>
+<ul>
+<li>De-authenticates a player.</li>
+</ul>
+</li>
+</ul>
+<h3>Player pre-registration</h3>
+<p>It is possible to implement a web based pre-registration system with this<br>
+plugin.</p>
+<ol>
+<li><em>rcon</em> must be enabled on the PocketMine server.</li>
+<li>web server must be able to send <em>rcon</em> commands to PocketMine.</li>
+<li>Enable the <em>whitelist</em> functionality in PocketMine.</li>
+<li>Install <em>SimpleAuth</em> and <em>SimpleAuthHelper</em>.</li>
+<li><strong>Optionally</strong> install <em>PurePerms</em> and disable<br>
+<code>simpleauthhelper.command.chpwd</code> permission.  You probably want<br>
+users to change passwords from the web site.</li>
+<li>Whenever a user registers in web site, the web site script uses <em>rcon</em><br>
+to send the follwoing:
+<ul>
+<li>whitelist add <em>player</em></li>
+<li>preregister <em>player</em> <em>passwd</em></li>
+</ul>
+</li>
+<li>Whenever a user changes password in web site, we use <em>rcon</em> with:
+<ul>
+<li>resetpwd <em>player</em></li>
+<li>preregister <em>player</em> <em>passwd</em></li>
+</ul>
+</li>
+</ol>
+<h3>Database Monitor</h3>
+<p>This module is responsible for monitoring the SimpleAuth data provider<br>
+to make sure that it is up and running and disable logins if it is not<br>
+available.</p>
+<p>It kicks off a background task that will poll the SimpleAuth data provider<br>
+by trying to retrieve the data from the "canary-account".  It is important<br>
+that you have configured and have working SimpleAuth provider the first<br>
+time you enable the database monitor.  This is because the "canary-account"<br>
+needs to be created (if it doesn't exist already).</p>
+<p>On a regular interval, the SimpleAuth<br>
+data provider is checked.  If it is not running, all unauthenticated players<br>
+are kicked and any new joins are not allowed.</p>
+
+
+<h3>Permission Nodes</h3>
+<ul>
+<li>simpleauthhelper.command.chpwd: Allow users to change passwords</li>
+<li>simpleauthhelper.command.logout: Allow users to logout</li>
+<li>simpleauthhelper.command.resetpwd (op): Allow ops to reset other's passwords</li>
+<li>simpleauthhelper.command.prereg (op): Allow ops to pre-register users</li>
+</ul>
+
+<h3>Configuration</h3>
+<p>Configuration is through the <strong>config.yml</strong> file.</p>
+
+
+<h4>main</h4>
+<ul>
+<li>max-attemps: kick player after this many login attempts.  NOTE: This conflicts with SimpleAuth's blockAfterFail setting</li>
+<li>login-timeout: must authenticate within this number of seconds</li>
+<li>leet-mode: lets players use also /login and /register</li>
+<li>chat-protect: prevent player to display their password in chat</li>
+<li>hide-unauth: EXPERIMENTAL, hide unauthenticated players</li>
+<li>event-fixer: EXPERIMENTAL, cancels additional events for unauthenticated players</li>
+<li>hack-login-perms: EXPERIMENTAL, overrides login permisions to make sure players can login</li>
+<li>hack-register-perms: EXPERIMENTAL, overrides register permisions to make sure players can register</li>
+<li>db-monitor: EXPERIMENTAL, enable database server monitoring</li>
+<li>monitor-settings: Configure database monitor settings</li>
+</ul>
+<h4>monitor-settings</h4>
+<ul>
+<li>canary-account: account to query this account is tested to check database proper operations</li>
+<li>check-interval: how to often to check database (seconds)</li>
+</ul>
+
+
+<h2>Translations</h2>
+<p>This plugin will honour the server language configuration.  The<br>
+languages currently available are:</p>
+<ul>
+<li>English</li>
+<li>German</li>
+<li>Spanish</li>
+<li>中文</li>
+</ul>
+<p>You can provide your own message file by creating a file called<br>
+<strong>messages.ini</strong> in the plugin config directory.<br>
+Check <a href="https://github.com/alejandroliu/pocketmine-plugins/tree/master/SimpleAuthHelper/resources/messages/">github</a><br>
+for sample files.<br>
+Alternatively, if you have<br>
+<a href="http://forums.pocketmine.net/plugins/grabbag.1060/">GrabBag</a><br>
+installed, you can create an empty <strong>messages.ini</strong> using the command:</p>
+<pre><code> pm dumpmsgs SimpleAuthHelper [lang]
+</code></pre>
+
+<h3>Issues</h3>
+<ul>
+<li>Event Fixer: Crafting canceling doesn't work</li>
+</ul>
+<h2>Changes</h2>
+<ul>
+<li>2.0.4: event-fixer
+<ul>
+<li>Disabled the craftItem event in event-fixer.</li>
+</ul>
+</li>
+<li>2.0.3: Password disclosure work-around
+<ul>
+<li>Works around bugs in SimleAuth that makes users' passwords visible.</li>
+</ul>
+</li>
+<li>2.0.2: Added translation
+<ul>
+<li>Added a zho.ini (中文) message file. (Contributed by <a href="https://github.com/edwinyoo44" class="user-mention">@edwinyoo44</a>, closes #23)</li>
+<li>Added a deu.ini (German) message file. (Contributed by <a href="https://github.com/thebigsmileXD" class="user-mention">@thebigsmileXD</a>)</li>
+<li>Documentation and library updates.</li>
+</ul>
+</li>
+<li>2.0.1: language defaults
+<ul>
+<li>make sure that languages default to English (reported by @minebuilder0110)</li>
+</ul>
+</li>
+<li>2.0.0: Major upgrade
+<ul>
+<li>uses now a common translation library</li>
+<li>Removed little used feature: nest-egg</li>
+<li>leet-mode also works for /register.</li>
+<li>Removed auto-ban.  It is now done in SimpleAuth.</li>
+<li>Added support for hiding unauthenticated players (Suggested by <a href="https://github.com/CaptainKenji17" class="user-mention">@CaptainKenji17</a>)</li>
+<li>Added pre-register and logout command</li>
+<li>forces permissions to be set</li>
+<li>Added a task to monitor database server status</li>
+<li>Thanks <a href="https://github.com/rvachvg" class="user-mention">@rvachvg</a> for helping debug this.</li>
+</ul>
+</li>
+<li>1.2.3: Security improvements
+<ul>
+<li>prevent user from chatting away their password</li>
+<li>add option so that players can also use "/login" to login.</li>
+</ul>
+</li>
+<li>1.2.2: Auto-Ban
+<ul>
+<li>Too many login attempts will cause the player to be banned.</li>
+</ul>
+</li>
+<li>1.2.1: CallbackTask deprecation
+<ul>
+<li>Removed CallbackTask deprecation warnings</li>
+</ul>
+</li>
+<li>1.2.0: max-logins
+<ul>
+<li>Suggestion from <a href="https://github.com/MCPEPIG" class="user-mention">@MCPEPIG</a>
+<ul>
+<li>kick user out after <code>max-attempts</code>.</li>
+<li>Added a chpwd command.</li>
+</ul>
+</li>
+<li>Kick user out if not authenticated after <code>timeout</code> seconds.</li>
+<li>Added resetpwd command for ops</li>
+</ul>
+</li>
+<li>1.1.0: Small update
+<ul>
+<li>Added <code>nest-egg</code></li>
+<li>Messages can be configured.</li>
+</ul>
+</li>
+<li>1.0.0: First release</li>
+</ul>
+
+
+<h1>Copyright</h1>
+<pre><code>SimpleAuthHelper
+Copyright (C) 2015 Alejandro Liu
+All Rights Reserved.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</code></pre>

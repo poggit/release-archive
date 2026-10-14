@@ -1,0 +1,68 @@
+{
+    "id": 671,
+    "name": "PopupAlerts",
+    "version": "1.4.1",
+    "html_url": "https://poggit.pmmp.io/p/PopupAlerts/1.4.1",
+    "tagline": "Show alerts in popups",
+    "artifact_url": "https://poggit.pmmp.io/r/13758",
+    "downloads": 106,
+    "score": null,
+    "repo_id": 106307476,
+    "repo_name": "poggit-orphanage/PopupAlerts",
+    "project_id": 995,
+    "project_name": "PopupAlerts",
+    "build_id": 29587,
+    "build_number": 1,
+    "build_commit": "99ee2e360cb32b6dfe24192f3672d4374d6d158a",
+    "description_url": "https://poggit.pmmp.io/r/13757",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PopupAlerts/99ee2e360cb32b6dfe24192f3672d4374d6d158a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507569389,
+    "state": 5,
+    "last_state_change_date": 1507569394,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "popup"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [
+        {
+            "name": "CustomAlerts",
+            "version": "1.7.2",
+            "depRelId": 670,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Flavius12"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,61 @@
+{
+    "id": 5539,
+    "name": "BackupMe",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/BackupMe/1.0.3",
+    "tagline": "Implements a backup system that works like the \"Pterodactyl backup system\"",
+    "artifact_url": "https://poggit.pmmp.io/r/107608",
+    "downloads": 2445,
+    "score": 4,
+    "repo_id": 300962867,
+    "repo_name": "zjfc-pm-pl/BackupMe",
+    "project_id": 7841,
+    "project_name": "BackupMe",
+    "build_id": 91334,
+    "build_number": 12,
+    "build_commit": "e2bba82edc4332f8f2bb251b84b578924e6b313d",
+    "description_url": "https://poggit.pmmp.io/r/107711",
+    "icon_url": "https://raw.githubusercontent.com/Endermanbugzjfc/BackupMe/e2bba82edc4332f8f2bb251b84b578924e6b313d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1605028895,
+    "state": 5,
+    "last_state_change_date": 1607106204,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "backup",
+        "backup-me",
+        "backupme",
+        "pterodactyl",
+        "pterodactyl-panel"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "zjfc-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

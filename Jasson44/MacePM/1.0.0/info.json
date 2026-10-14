@@ -1,0 +1,62 @@
+{
+    "id": 13757,
+    "name": "MacePM",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MacePM/1.0.0",
+    "tagline": "Added mace and wind charge to pocketmine",
+    "artifact_url": "https://poggit.pmmp.io/r/251510",
+    "downloads": 81,
+    "score": 5,
+    "repo_id": 895451259,
+    "repo_name": "Jasson44/MacePM",
+    "project_id": 14370,
+    "project_name": "MacePM",
+    "build_id": 183836,
+    "build_number": 13,
+    "build_commit": "64e4dae02b8faad32d58b411ffcc46839a351f3e",
+    "description_url": "https://poggit.pmmp.io/r/251509",
+    "icon_url": "https://raw.githubusercontent.com/Jasson44/MacePM/64e4dae02b8faad32d58b411ffcc46839a351f3e/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736164490,
+    "state": 5,
+    "last_state_change_date": 1736178311,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Mace",
+        "WindCharge"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Jasson44"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

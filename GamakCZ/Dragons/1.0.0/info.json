@@ -1,0 +1,55 @@
+{
+    "id": 4432,
+    "name": "Dragons",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Dragons/1.0.0",
+    "tagline": "Dragons minigame plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/87572",
+    "downloads": 11792,
+    "score": 3,
+    "repo_id": 264595566,
+    "repo_name": "GamakCZ/Dragons",
+    "project_id": 6976,
+    "project_name": "Dragons",
+    "build_id": 78674,
+    "build_number": 4,
+    "build_commit": "8af396d3d3c3215b26a3e761dd791d6352b2e099",
+    "description_url": "https://poggit.pmmp.io/r/94404",
+    "icon_url": "https://raw.githubusercontent.com/GamakCZ/Dragons/8af396d3d3c3215b26a3e761dd791d6352b2e099/Dragons/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1589906046,
+    "state": 5,
+    "last_state_change_date": 1590129323,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GamakCZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

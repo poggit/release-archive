@@ -1,0 +1,85 @@
+{
+    "id": 13246,
+    "name": "FrostTicTacToe",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FrostTicTacToe/2.0.0",
+    "tagline": "FrostTicTacToe adds a thrilling TicTacToe game to your Minecraft server, letting players enjoy competitive matches with friends!",
+    "artifact_url": "https://poggit.pmmp.io/r/242696",
+    "downloads": 203,
+    "score": null,
+    "repo_id": 813426940,
+    "repo_name": "DEVILxD5919/FrostTicTacToe",
+    "project_id": 13914,
+    "project_name": "FrostTicTacToe",
+    "build_id": 177166,
+    "build_number": 5,
+    "build_commit": "f1e2192d0adce9351b4dfff0de779225b891a689",
+    "description_url": "https://poggit.pmmp.io/r/242695",
+    "icon_url": "https://raw.githubusercontent.com/DEVILxD5919/FrostTicTacToe/f1e2192d0adce9351b4dfff0de779225b891a689/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1719714662,
+    "state": 5,
+    "last_state_change_date": 1721779453,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Commands",
+        "Configurable",
+        "Fun",
+        "Game",
+        "Interactive",
+        "Minecraft",
+        "MiniGame",
+        "MP",
+        "Multiplayer",
+        "Pocketmine",
+        "PvP",
+        "Server",
+        "TicTacToe"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "GabBiswajit",
+            "DEVILxD5919"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

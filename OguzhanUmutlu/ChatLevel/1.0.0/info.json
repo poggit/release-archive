@@ -1,0 +1,73 @@
+{
+    "id": 7292,
+    "name": "ChatLevel",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatLevel/1.0.0",
+    "tagline": "A plugin that creates a level system linked to chatting for PocketMine-MP!",
+    "artifact_url": "https://poggit.pmmp.io/r/135966",
+    "downloads": 1209,
+    "score": 4,
+    "repo_id": 393590536,
+    "repo_name": "OguzhanUmutlu/ChatLevel",
+    "project_id": 9458,
+    "project_name": "ChatLevel",
+    "build_id": 108247,
+    "build_number": 3,
+    "build_commit": "73b862edb693221e860c099ed12eef3719f51a6d",
+    "description_url": "https://poggit.pmmp.io/r/135965",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/ChatLevel/73b862edb693221e860c099ed12eef3719f51a6d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628317613,
+    "state": 5,
+    "last_state_change_date": 1628436226,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "level",
+        "up",
+        "xp",
+        "experience"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

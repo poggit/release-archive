@@ -1,0 +1,55 @@
+{
+    "id": 8249,
+    "name": "ExtendedBlocksConverter",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ExtendedBlocksConverter/1.0.0",
+    "tagline": "Converts any PM3 extended blocks into PM4 blocks!",
+    "artifact_url": "https://poggit.pmmp.io/r/151377",
+    "downloads": 2053,
+    "score": 5,
+    "repo_id": 436032363,
+    "repo_name": "JavierLeon9966/ExtendedBlocksConverter",
+    "project_id": 10091,
+    "project_name": "ExtendedBlocksConverter",
+    "build_id": 117459,
+    "build_number": 4,
+    "build_commit": "356226872d462a318c4514d225a02184a83d82c2",
+    "description_url": "https://poggit.pmmp.io/r/151376",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/ExtendedBlocksConverter/356226872d462a318c4514d225a02184a83d82c2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638920622,
+    "state": 5,
+    "last_state_change_date": 1639061939,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "block",
+        "blocks",
+        "converter"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,88 @@
+{
+    "id": 6211,
+    "name": "LuckyPlayer",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/LuckyPlayer/1.0.2",
+    "tagline": "Give money to players when they join the server at lucky time",
+    "artifact_url": "https://poggit.pmmp.io/r/119321",
+    "downloads": 409,
+    "score": null,
+    "repo_id": 334426871,
+    "repo_name": "thebigcrafter/LuckyPlayer",
+    "project_id": 8476,
+    "project_name": "LuckyPlayer",
+    "build_id": 98792,
+    "build_number": 13,
+    "build_commit": "48ee6f41399a4ed67a0adca007e4e25171612a05",
+    "description_url": "https://poggit.pmmp.io/r/144622",
+    "icon_url": "https://raw.githubusercontent.com/TobyDev265/LuckyPlayer/48ee6f41399a4ed67a0adca007e4e25171612a05/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/144624",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616496212,
+    "state": 5,
+    "last_state_change_date": 1616722873,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "lucky",
+        "luckyplayer",
+        "money",
+        "player"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "id": 12118,
+    "name": "TrashCommand",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/TrashCommand/0.0.1",
+    "tagline": "A Pocketmine plugin that allows players to open Trash Menu",
+    "artifact_url": "https://poggit.pmmp.io/r/218699",
+    "downloads": 389,
+    "score": null,
+    "repo_id": 672338541,
+    "repo_name": "antbag-dev/TrashCommand",
+    "project_id": 12863,
+    "project_name": "TrashCommand",
+    "build_id": 161079,
+    "build_number": 14,
+    "build_commit": "4ca9136309fd2a3bb4d889afaf4133d37cada808",
+    "description_url": "https://poggit.pmmp.io/r/218698",
+    "icon_url": "https://raw.githubusercontent.com/antbag-dev/TrashCommand/4ca9136309fd2a3bb4d889afaf4133d37cada808/bin.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691225504,
+    "state": 5,
+    "last_state_change_date": 1691254737,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "antbag-dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "9f0f6d9fae017b25e8eb38b7de00a616c2a81bac",
+            "build_id": 160017
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "id": 10552,
+    "name": "SafeRCON",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SafeRCON/1.0.0",
+    "tagline": "A Secure and Safe way to run commands in your server easily.",
+    "artifact_url": "https://poggit.pmmp.io/r/192727",
+    "downloads": 25,
+    "score": null,
+    "repo_id": 535277329,
+    "repo_name": "RealYXNG/SafeRCON",
+    "project_id": 11832,
+    "project_name": "SafeRCON",
+    "build_id": 144975,
+    "build_number": 10,
+    "build_commit": "7e2d317a872eecec3db3e132034407188aa997ed",
+    "description_url": "https://poggit.pmmp.io/r/192726",
+    "icon_url": "https://raw.githubusercontent.com/RealYXNG/SafeRCON/7e2d317a872eecec3db3e132034407188aa997ed/SafeRCON.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1662922180,
+    "state": 5,
+    "last_state_change_date": 1663389625,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Command",
+        "Console",
+        "Control",
+        "Discord",
+        "RCON",
+        "Remote",
+        "RemoteControl",
+        "Safe"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "DiscordBot",
+            "version": "2.1.5",
+            "depRelId": 10509,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "UnknownNull"
+        ],
+        "Collaborator": [
+            "RealYXNG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

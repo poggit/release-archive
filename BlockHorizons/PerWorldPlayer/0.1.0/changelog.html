@@ -1,0 +1,9 @@
+<ul>
+<li>Fixed error when specifying database as MySQL (due to missing MySQL PSF file, see issue <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="598143473" data-permission-text="Title is private" data-url="https://github.com/BlockHorizons/PerWorldPlayer/issues/5" data-hovercard-type="issue" data-hovercard-url="/BlockHorizons/PerWorldPlayer/issues/5/hovercard" href="https://github.com/BlockHorizons/PerWorldPlayer/issues/5">#5</a>)</li>
+<li>Fixed infinite death loop bug caused when dying in a world that is not the server's default world (db stored health as zero)</li>
+<li>API: Change WorldDatabase::save() signature to rely less on Player methods directly
+<ul>
+<li>TODO: Make WorldDatabase independent of Player. Perhaps use a PlayerIdentification class holding the player's gamertag and UUID.</li>
+</ul>
+</li>
+</ul>

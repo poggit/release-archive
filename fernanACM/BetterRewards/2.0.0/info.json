@@ -1,0 +1,139 @@
+{
+    "id": 12186,
+    "name": "BetterRewards",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterRewards/2.0.0",
+    "tagline": "Daily and monthly rewards, depending on the day of the week. Available for PocketMine-MP 5.0 servers",
+    "artifact_url": "https://poggit.pmmp.io/r/219480",
+    "downloads": 2112,
+    "score": 5,
+    "repo_id": 614586026,
+    "repo_name": "fernanACM/BetterRewards",
+    "project_id": 12403,
+    "project_name": "BetterRewards",
+    "build_id": 161540,
+    "build_number": 15,
+    "build_commit": "f9191ae5aea82b8cddabc3e3b998344d66cd23db",
+    "description_url": "https://poggit.pmmp.io/r/221556",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/BetterRewards/f9191ae5aea82b8cddabc3e3b998344d66cd23db/icon-btrewards.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691612867,
+    "state": 5,
+    "last_state_change_date": 1693223496,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Better",
+        "Diary",
+        "Monthly",
+        "Rewards"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "NhanAz",
+            "GamerMJay"
+        ],
+        "Collaborator": [
+            "fernanACM"
+        ],
+        "Contributor": [
+            "jacob3105"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "bc68c93d91f0099e1d8ae724e133b42f3dac36cb",
+            "build_id": 159503
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "9f0f6d9fae017b25e8eb38b7de00a616c2a81bac",
+            "build_id": 160017
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "cf06deec50469065abe7994bbb623f2d54ccc965",
+            "build_id": 157740
+        }
+    ]
+}

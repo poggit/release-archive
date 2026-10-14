@@ -1,0 +1,21 @@
+<h1>
+<a id="user-content-powertools" class="anchor" href="#powertools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Powertools</h1>
+<p>Assign commands to specific items</p>
+<p><a href="https://poggit.pmmp.io/p/Powertools" rel="nofollow"><img src="https://camo.githubusercontent.com/f6be5e2e8ceabeee421694642b3735b496911cc4/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f506f776572746f6f6c73" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/Powertools" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/Powertools" rel="nofollow"><img src="https://camo.githubusercontent.com/296cb35489c5c12d1fec8aebde422a60af5be55c/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f506f776572746f6f6c73" alt="" data-canonical-src="https://poggit.pmmp.io/shield.api/Powertools" style="max-width:100%;"></a></p>
+<p>There are 2 base permissions: <code>powertools.use</code> and <code>powertools.command</code>.
+You need the first permission to use powertools and the second one to assign/unassign powertools. It's that simple!</p>
+<p>Powertools work a little different in this plugin than they do in java edition. You assign commands to <strong>SPECIFIC</strong> items and not the id. This way you can share powertools to people to other people (that might only have the permission to run powertools).</p>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>If, for instance, you want to make this plugin compatible with your plugin (maybe a kit plugin or something) you can do that by making sure you use Powertools with <code>use AndreasHGK\Powertools\Powertools;</code> and then call it by doing this:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$pt</span> <span class="pl-k">=</span> <span class="pl-c1">Powertools</span><span class="pl-k">::</span>getInstance();</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">/**</span></span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@param</span> item $item</span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@param</span> string $command</span></span>
+<span class="pl-s1"><span class="pl-c">*</span></span>
+<span class="pl-s1"><span class="pl-c">* <span class="pl-k">@return</span> item $item</span></span>
+<span class="pl-s1"><span class="pl-c"><span class="pl-c">*/</span></span></span>
+<span class="pl-s1"><span class="pl-smi">$pt</span><span class="pl-k">-&gt;</span>enablePowertool(<span class="pl-smi">$item</span>, <span class="pl-smi">$command</span>);</span></pre></div>
+<p>If the item is an existing item, be sure to also add a <code>$sender-&gt;getInventory()-&gt;setItemInHand($item)</code></p>

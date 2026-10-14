@@ -1,0 +1,59 @@
+{
+    "id": 11703,
+    "name": "NoFlyWorld",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/NoFlyWorld/0.0.1",
+    "tagline": "Auto disable player's flight in worlds set in configuration",
+    "artifact_url": "https://poggit.pmmp.io/r/212526",
+    "downloads": 297,
+    "score": 5,
+    "repo_id": 654795502,
+    "repo_name": "nhanaz-pm-pl/NoFlyWorld",
+    "project_id": 12645,
+    "project_name": "NoFlyWorld",
+    "build_id": 157415,
+    "build_number": 2,
+    "build_commit": "d1a2428da4e32b5428b95133df6908f69139cfc8",
+    "description_url": "https://poggit.pmmp.io/r/212525",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/NoFlyWorld/d1a2428da4e32b5428b95133df6908f69139cfc8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687068398,
+    "state": 5,
+    "last_state_change_date": 1687212132,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "nofly",
+        "noflyworld",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

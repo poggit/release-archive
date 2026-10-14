@@ -1,0 +1,70 @@
+{
+    "id": 9163,
+    "name": "LaunchableTNT",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/LaunchableTNT/1.0.2",
+    "tagline": "A PocketMine-MP Plugin that allows you to throw TNT",
+    "artifact_url": "https://poggit.pmmp.io/r/164834",
+    "downloads": 717,
+    "score": null,
+    "repo_id": 391676122,
+    "repo_name": "vecnavium-pm-pl/LaunchableTNT",
+    "project_id": 9622,
+    "project_name": "LaunchableTNT",
+    "build_id": 125633,
+    "build_number": 19,
+    "build_commit": "ed376ff7760ee9ef342783dea205c5c916db9c8c",
+    "description_url": "https://poggit.pmmp.io/r/164831",
+    "icon_url": "https://raw.githubusercontent.com/vecnavium-pm-pl/LaunchableTNT/ed376ff7760ee9ef342783dea205c5c916db9c8c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/164833",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646061659,
+    "state": 5,
+    "last_state_change_date": 1646159073,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "EricGamingYT"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

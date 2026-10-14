@@ -1,0 +1,86 @@
+{
+    "id": 12184,
+    "name": "ChatGames",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ChatGames/1.0.1",
+    "tagline": "This is a pocketmine [PMMP] plugin which implements chat games into Minecraft",
+    "artifact_url": "https://poggit.pmmp.io/r/219455",
+    "downloads": 99,
+    "score": null,
+    "repo_id": 672231886,
+    "repo_name": "antbag-pm-pl/ChatGames",
+    "project_id": 12860,
+    "project_name": "ChatGames",
+    "build_id": 161521,
+    "build_number": 49,
+    "build_commit": "879445e3d73684f7a27fd2910bab654abd9cf125",
+    "description_url": "https://poggit.pmmp.io/r/219595",
+    "icon_url": "https://raw.githubusercontent.com/antbag-dev/ChatGames/879445e3d73684f7a27fd2910bab654abd9cf125/chat.png",
+    "changelog_url": "https://poggit.pmmp.io/r/219597",
+    "license": "GPL-3.0-or-later",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691599495,
+    "state": 5,
+    "last_state_change_date": 1691611816,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "minecraft",
+        "plugin",
+        "pmmp",
+        "pmmp-plugins",
+        "pmmp-servers",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "antbag-dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

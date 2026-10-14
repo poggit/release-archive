@@ -1,0 +1,58 @@
+{
+    "id": 8983,
+    "name": "Sudo",
+    "version": "1.2",
+    "html_url": "https://poggit.pmmp.io/p/Sudo/1.2",
+    "tagline": "This plugin is used to sudo players!",
+    "artifact_url": "https://poggit.pmmp.io/r/162328",
+    "downloads": 1147,
+    "score": 5,
+    "repo_id": 280140259,
+    "repo_name": "ErikPDev/Sudo",
+    "project_id": 7419,
+    "project_name": "Sudo",
+    "build_id": 124170,
+    "build_number": 10,
+    "build_commit": "451ade761d714d910ce3e21bd23f3175df22e14f",
+    "description_url": "https://poggit.pmmp.io/r/162325",
+    "icon_url": "https://raw.githubusercontent.com/ErikPDev/Sudo/451ade761d714d910ce3e21bd23f3175df22e14f/resources/Sudo_Icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/162327",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645091180,
+    "state": 5,
+    "last_state_change_date": 1645165139,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "control",
+        "sudo"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ErikPDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

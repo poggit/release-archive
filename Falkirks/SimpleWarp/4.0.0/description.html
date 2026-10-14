@@ -1,0 +1,102 @@
+<p><a href="/meta/simplewarp-2.png" target="_blank"><img src="/meta/simplewarp-2.png" alt="SimpleWarp" style="max-width:100%;"></a></p>
+<p><a href="https://camo.githubusercontent.com/ae1170bcb73893232ae810a2022a6065b7b285f9/68747470733a2f2f706f676769742e706d6d702e696f2f63692e736869656c642f46616c6b69726b732f53696d706c65576172702f53696d706c6557617270" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/ae1170bcb73893232ae810a2022a6065b7b285f9/68747470733a2f2f706f676769742e706d6d702e696f2f63692e736869656c642f46616c6b69726b732f53696d706c65576172702f53696d706c6557617270" alt="Poggit" data-canonical-src="https://poggit.pmmp.io/ci.shield/Falkirks/SimpleWarp/SimpleWarp" style="max-width:100%;"></a>
+<a href="http://isitmaintained.com/project/Falkirks/SimpleWarp" title="Average time to resolve an issue" rel="nofollow"><img src="https://camo.githubusercontent.com/2aa4276f8f96b5c18fba53b4cb9097defb9bcf5a/687474703a2f2f697369746d61696e7461696e65642e636f6d2f62616467652f7265736f6c7574696f6e2f46616c6b69726b732f53696d706c65576172702e737667" alt="Average time to resolve an issue" data-canonical-src="http://isitmaintained.com/badge/resolution/Falkirks/SimpleWarp.svg" style="max-width:100%;"></a>
+<a href="https://camo.githubusercontent.com/2586d3370ca46c209ca8004930ea77856370e45a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f46616c6b69726b732f53696d706c65576172702f746f74616c2e737667" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/2586d3370ca46c209ca8004930ea77856370e45a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f46616c6b69726b732f53696d706c65576172702f746f74616c2e737667" alt="Total downloads" data-canonical-src="https://img.shields.io/github/downloads/Falkirks/SimpleWarp/total.svg" style="max-width:100%;"></a></p>
+<p>SimpleWarp is the original warp plugin for PocketMine-MP. It allows players to move from point <strong>A</strong> to <strong>B</strong> with ease. At the core of SimpleWarp is simplicity and extensibility. Although very easy on the end user, it exposes a powerful backend for developers to hack around with.</p>
+<p><strong>SimpleWarp 2.0 is not compatible with older SimpleWarp and PocketMine versions.</strong></p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Usage</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/warp</code></td>
+<td><code>/warp &lt;name&gt; [player]</code></td>
+<td>Warps you or another player to a specified warp.</td>
+</tr>
+<tr>
+<td><code>/addwarp</code></td>
+<td><code>/addwarp &lt;name&gt; [&lt;ip&gt; &lt;port&gt;|&lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;level&gt;|&lt;player&gt;]</code></td>
+<td>Creates a new warp at a set location.</td>
+</tr>
+<tr>
+<td><code>/delwarp</code></td>
+<td><code>/delwarp &lt;name&gt;</code></td>
+<td>Deletes specified warp.</td>
+</tr>
+<tr>
+<td><code>/listwarps</code></td>
+<td><code>/listwarps</code></td>
+<td>Prints out list of warps.</td>
+</tr>
+<tr>
+<td><code>/openwarp</code></td>
+<td><code>/openwarp &lt;name&gt;</code></td>
+<td>Allows any player to access specified warp.</td>
+</tr>
+<tr>
+<td><code>/closewarp</code></td>
+<td><code>/closewarp &lt;name&gt;</code></td>
+<td>Restricts specfied so that only players with correct permission node can use it</td>
+</tr>
+<tr>
+<td><code>/warpreport</code></td>
+<td><code>/warpreport [title]</code></td>
+<td>Run from console to generate a new GitHub issue for SimpleWarp</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h2>
+<div class="highlight highlight-source-yaml"><pre> <span class="pl-ent">simplewarp</span>:
+  <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+  <span class="pl-ent">children</span>:
+   <span class="pl-ent">simplewarp.command</span>:
+    <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+    <span class="pl-ent">children</span>:
+     <span class="pl-ent">simplewarp.command.list</span>:
+      <span class="pl-ent">default</span>: <span class="pl-c1">true</span>
+      <span class="pl-ent">children</span>:
+       <span class="pl-ent">simplewarp.command.list.xyz</span>:
+        <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+       <span class="pl-ent">simplewarp.command.list.visual</span>:
+        <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+     <span class="pl-ent">simplewarp.command.addwarp</span>:
+      <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+     <span class="pl-ent">simplewarp.command.delwarp</span>:
+      <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+     <span class="pl-ent">simplewarp.command.warp</span>:
+      <span class="pl-ent">default</span>: <span class="pl-c1">true</span>
+      <span class="pl-ent">children</span>:
+        <span class="pl-ent">simplewarp.command.warp.other</span>:
+         <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+     <span class="pl-ent">simplewarp.command.openwarp</span>:
+      <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+     <span class="pl-ent">simplewarp.command.closewarp</span>:
+       <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+     <span class="pl-ent">simplewarp.command.closewarp</span>:
+       <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+   <span class="pl-ent">simplewarp.essentials.notice</span>:
+    <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+    <span class="pl-ent">description</span>: <span class="pl-s">Recieve messages when their is warp conflict in Essentials</span>
+   <span class="pl-ent">simplewarp.warp</span>:
+    <span class="pl-ent">default</span>: <span class="pl-s">op</span>
+    <span class="pl-ent">description</span>: <span class="pl-s">Allows usage of all warps</span></pre></div>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>What good is a plugin without an API? SimpleWarp has an API which is used by it's own core components.</p>
+<h3>
+<a id="user-content-getting-access" class="anchor" href="#getting-access" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting access</h3>
+<p>Make sure to add the following to your <code>plugin.yml</code></p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">depend</span>: <span class="pl-s">["SimpleWarp"]</span></pre></div>
+<p><strong>Note:</strong> If you use <code>softdepend</code> you will need to check if SimpleWarp is installed.</p>
+<p>Now you can a copy of the API in your <code>onEnable</code> method</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$api</span> <span class="pl-k">=</span> <span class="pl-c1">SimpleWarpAPI</span><span class="pl-k">::</span>getInstance(<span class="pl-smi">$this</span>); <span class="pl-c"><span class="pl-c">//</span> This only works inside a PluginBase</span></span></pre></div>
+<p>If you want to get the instance outside your main class, you can do</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$api</span> <span class="pl-k">=</span> <span class="pl-smi">$server</span><span class="pl-k">-&gt;</span>getPluginManager()<span class="pl-k">-&gt;</span>getPlugin(<span class="pl-s"><span class="pl-pds">"</span>SimpleWarp<span class="pl-pds">"</span></span>)<span class="pl-k">-&gt;</span>getApi(); <span class="pl-c"><span class="pl-c">//</span> $server is an instance of \pocketmine\Server</span></span></pre></div>

@@ -1,0 +1,62 @@
+{
+    "id": 5010,
+    "name": "HubDelay",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HubDelay/1.0.0",
+    "tagline": "Teleport to the hub with a delay.",
+    "artifact_url": "https://poggit.pmmp.io/r/98092",
+    "downloads": 5872,
+    "score": 3,
+    "repo_id": 275313592,
+    "repo_name": "sProDev/HubDelay",
+    "project_id": 7293,
+    "project_name": "HubDelay",
+    "build_id": 85097,
+    "build_number": 19,
+    "build_commit": "fb201e327bfa12664fe083e461d9e5938628b92c",
+    "description_url": "https://poggit.pmmp.io/r/98091",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1595903812,
+    "state": 5,
+    "last_state_change_date": 1596448422,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "delay",
+        "hub",
+        "teleport"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "sooluh"
+        ],
+        "Contributor": [
+            "JoshuaPHYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

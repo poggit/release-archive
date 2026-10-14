@@ -1,0 +1,60 @@
+{
+    "id": 1677,
+    "name": "CapsLimit",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/CapsLimit/1.1.1",
+    "tagline": "Limit uppercase in chat",
+    "artifact_url": "https://poggit.pmmp.io/r/36933",
+    "downloads": 3558,
+    "score": 5,
+    "repo_id": 141067081,
+    "repo_name": "poggit-orphanage/CapsLimit",
+    "project_id": 3436,
+    "project_name": "CapsLimit",
+    "build_id": 45917,
+    "build_number": 1,
+    "build_commit": "1e81c5f6742dfdaef2764e05a55d5200388e53b8",
+    "description_url": "https://poggit.pmmp.io/r/36939",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/CapsLimit/1e81c5f6742dfdaef2764e05a55d5200388e53b8/CapsLimit.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1531702145,
+    "state": 5,
+    "last_state_change_date": 1531702502,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "caps",
+        "uppercase",
+        "limit"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "pemapmodder",
+            "NIIP99"
+        ],
+        "Contributor": [
+            "xpyctum",
+            "Artide"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

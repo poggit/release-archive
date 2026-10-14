@@ -1,0 +1,62 @@
+{
+    "id": 13577,
+    "name": "ImagesLoader",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/ImagesLoader/1.1.0",
+    "tagline": "A Image Loader Fix Plugin For Pocketmine ",
+    "artifact_url": "https://poggit.pmmp.io/r/248528",
+    "downloads": 106,
+    "score": null,
+    "repo_id": 673404991,
+    "repo_name": "GabBiswajit/ImageLoader",
+    "project_id": 12876,
+    "project_name": "ImageLoader",
+    "build_id": 181832,
+    "build_number": 3,
+    "build_commit": "539b3e2b60bc2ac9f59d4e3268c012f4f8812a9b",
+    "description_url": "https://poggit.pmmp.io/r/260034",
+    "icon_url": "https://raw.githubusercontent.com/GabBiswajit/ImageLoader/539b3e2b60bc2ac9f59d4e3268c012f4f8812a9b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/260036",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1727707059,
+    "state": 5,
+    "last_state_change_date": 1760635743,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "Image",
+        "loader"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GabBiswajit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

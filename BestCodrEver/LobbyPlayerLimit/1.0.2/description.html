@@ -1,0 +1,41 @@
+<p>LobbyPlayerLimit is a plugin which adds an automatic player transfer throughout multiple lobbies when you do /lobby with a player limit for each lobby</p>
+<p>If you didn’t know, a lobby is where people spawn and they can join minigames, teleport to places etc. It is the starting point of a server as players spawn there for the first time.
+It’s practically a hub :D</p>
+<h1>
+<a id="user-content-how-to-setup" class="anchor" href="#how-to-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to setup?</h1>
+<p>Drop the plugin into your server and start-and-stop it.
+Navigate to your <code>plugin_data</code> folder and find <code>lobbies.yml</code>.</p>
+<p>Now, replace <code>- "dummy1"</code> and <code>- "dummy1"</code> the names of the worlds of your lobbies. You can add as many as you want as long as they follow the <code>- "Example"</code> format. Make sure they have the same amount of indentation!</p>
+<p>Then, replace <code>fallback: "dummeh"</code> with <code>fallback: "YOUR FALLBACK LOBBY WORLD NAME HERE"</code>.</p>
+<p>After that, replace <code>limit: 20</code> with <code>limit: AMOUNT OF PLAYERS PER LOBBY</code></p>
+<p>Replace <code>lobbyfullmsg: "Sorry, but all of our lobbies are full. Don't worry, you have been teleported to a fallback lobby, and we'll keep trying to send you to a lobby."</code> with <code>lobbyfullmsg: YOUR LOBBY FULL MESSAGE HERE</code> if you are not happy with the default.</p>
+<p>Now, restart the server and you're all done!</p>
+<h1>
+<a id="user-content-immunity" class="anchor" href="#immunity" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Immunity</h1>
+<h2>
+<a id="user-content-make-yourself-immune-to-the-system" class="anchor" href="#make-yourself-immune-to-the-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Make yourself immune to the system</h2>
+<p>Whenever you join the server, you will immediately be joined to a lobby with an amount of players less than your limit. If you want to disable this, you have to remove the <code>lobbyplayerlimit.lobby</code> permission from yourself.</p>
+<p>Assuming you have PurePerms installed and the server is online, run this command in console or in game:
+<code>/unsetuperm PLAYERNAME lobbyplayerlimit.lobby</code>
+Note: Doing this also disables your ability to run <code>/lobby</code>.</p>
+<p>Now you will be immune to the system!</p>
+<p>To add yourself back to the system, assuming you have PurePerms installed and the server is online, run this command in console or in game:
+<code>/setuperm PLAYERNAME lobbyplayerlimit.lobby</code></p>
+<h1>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h1>
+<p><code>lobbyplayerlimit.lobby</code> - Ability to run /lobby and be teleported to a lobby automatically on join.</p>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<p><code>/lobby</code> - Teleport to a lobby (LobbyPlayerLimit main command)</p>
+<h1>
+<a id="user-content-help" class="anchor" href="#help" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Help!</h1>
+<h2>
+<a id="user-content-something-broken-or-have-a-suggestion" class="anchor" href="#something-broken-or-have-a-suggestion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Something broken or have a suggestion?</h2>
+<p>Create an issue through GitHub <a href="https://github.com/BestCodrEver/LobbyPlayerLimit/issues/new">here</a></p>
+<h1>
+<a id="user-content-credits-and-special-mentions" class="anchor" href="#credits-and-special-mentions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits and Special Mentions</h1>
+<ul>
+<li>BestCodrEver (That's me!)</li>
+<li>Pumpedpixel (This plugin was originally made for him)</li>
+<li>Everyone in the PMMP Discord (who helped me with my questions)</li>
+</ul>

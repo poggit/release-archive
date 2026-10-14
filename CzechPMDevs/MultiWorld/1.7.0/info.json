@@ -1,0 +1,118 @@
+{
+    "id": 9806,
+    "name": "MultiWorld",
+    "version": "1.7.0",
+    "html_url": "https://poggit.pmmp.io/p/MultiWorld/1.7.0",
+    "tagline": "🌎 An advanced world management PocketMine plugin with custom world generators.",
+    "artifact_url": "https://poggit.pmmp.io/r/177396",
+    "downloads": 5725,
+    "score": 5,
+    "repo_id": 87580601,
+    "repo_name": "CzechPMDevs/MultiWorld",
+    "project_id": 420,
+    "project_name": "MultiWorld",
+    "build_id": 134234,
+    "build_number": 256,
+    "build_commit": "60c4346b15c1a138d6e14f55d27648d8d45afeb0",
+    "description_url": "https://poggit.pmmp.io/r/177393",
+    "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/MultiWorld/60c4346b15c1a138d6e14f55d27648d8d45afeb0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/177395",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653554293,
+    "state": 5,
+    "last_state_change_date": 1654103367,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Generators"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "gamerules",
+        "generator",
+        "level",
+        "levelmanager",
+        "manyworlds",
+        "multiworld",
+        "world",
+        "worldgenerator",
+        "worldmanager"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "fuyutsuki",
+            "themestl",
+            "Meltinglce",
+            "supercrafter333",
+            "NhanAZ",
+            "Blackjack200",
+            "Fadhilarsetya",
+            "Kuuuuuuuu",
+            "fernanACM",
+            "Hydros01",
+            "MrBlasyMSK",
+            "mukeenanyafiq"
+        ],
+        "Collaborator": [
+            "GamakCZ",
+            "VixikHD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libpmform",
+            "project_id": 9216,
+            "repo_id": 352691768,
+            "repo_name": "CzechPMDevs/libpmform",
+            "repo_path": "",
+            "build_commit": "daf537867a2edb4cb409eb5932b6d355d2951f5a",
+            "build_id": 118486
+        }
+    ]
+}

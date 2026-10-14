@@ -1,0 +1,88 @@
+{
+    "id": 4130,
+    "name": "BurgerLootProtection",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BurgerLootProtection/0.0.1",
+    "tagline": "Prevent players other than the killer from picking up drops when a player dies!",
+    "artifact_url": "https://poggit.pmmp.io/r/81274",
+    "downloads": 85,
+    "score": 5,
+    "repo_id": 253810816,
+    "repo_name": "Heisenburger69/BurgerLootProtection",
+    "project_id": 6654,
+    "project_name": "BurgerLootProtection",
+    "build_id": 74315,
+    "build_number": 3,
+    "build_commit": "e1c81422298b2b19dc8825cb8a8587caaf077235",
+    "description_url": "https://poggit.pmmp.io/r/81273",
+    "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerLootProtection/e1c81422298b2b19dc8825cb8a8587caaf077235/loot.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1586277211,
+    "state": 5,
+    "last_state_change_date": 1587003238,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "burger",
+        "drops",
+        "kill",
+        "killer",
+        "loot",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "protection",
+        "snipe"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Heisenburger69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "d173ee82691b06400d7b17f0f31612d664022ef9",
+            "build_id": 61927
+        }
+    ]
+}

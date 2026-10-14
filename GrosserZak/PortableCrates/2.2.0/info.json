@@ -1,0 +1,71 @@
+{
+    "id": 10875,
+    "name": "PortableCrates",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/PortableCrates/2.2.0",
+    "tagline": "Plugin that give carriable crates",
+    "artifact_url": "https://poggit.pmmp.io/r/198339",
+    "downloads": 548,
+    "score": 5,
+    "repo_id": 376534850,
+    "repo_name": "GrosserZak/PortableCrates",
+    "project_id": 9194,
+    "project_name": "PortableCrates",
+    "build_id": 148625,
+    "build_number": 27,
+    "build_commit": "ff4b827999343643e1a1f4cc3781b787e302a059",
+    "description_url": "https://poggit.pmmp.io/r/198345",
+    "icon_url": "https://raw.githubusercontent.com/GrosserZak/PortableCrates/ff4b827999343643e1a1f4cc3781b787e302a059/PortableCrates.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/198347",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1671826283,
+    "state": 5,
+    "last_state_change_date": 1671829354,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "crate",
+        "crates",
+        "portable",
+        "portablecrate",
+        "portablecrates"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GrosserZak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "16c3cfe3ddf833cdf244fa38fa8760fccdead640",
+            "build_id": 140406
+        }
+    ]
+}

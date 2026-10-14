@@ -1,0 +1,64 @@
+{
+    "id": 11459,
+    "name": "SimpleReplies",
+    "version": "2.1.1",
+    "html_url": "https://poggit.pmmp.io/p/SimpleReplies/2.1.1",
+    "tagline": "Adds a command to reply to the last person who messaged you",
+    "artifact_url": "https://poggit.pmmp.io/r/209230",
+    "downloads": 239,
+    "score": null,
+    "repo_id": 188585724,
+    "repo_name": "jasonw4331/SimpleReplies",
+    "project_id": 5070,
+    "project_name": "SimpleReplies",
+    "build_id": 155859,
+    "build_number": 56,
+    "build_commit": "cacf3c4b2666be83c73444e8b5d9a0aabf070541",
+    "description_url": "https://poggit.pmmp.io/r/209227",
+    "icon_url": "https://raw.githubusercontent.com/jasonw4331/SimpleReplies/cacf3c4b2666be83c73444e8b5d9a0aabf070541/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209229",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685670898,
+    "state": 5,
+    "last_state_change_date": 1685670901,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "message",
+        "messenger",
+        "receive",
+        "receiver",
+        "replier",
+        "reply",
+        "send",
+        "sender"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

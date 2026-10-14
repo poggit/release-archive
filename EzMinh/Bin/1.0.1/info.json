@@ -1,0 +1,59 @@
+{
+    "id": 4475,
+    "name": "Bin",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Bin/1.0.1",
+    "tagline": "Remove items",
+    "artifact_url": "https://poggit.pmmp.io/r/88247",
+    "downloads": 145,
+    "score": 5,
+    "repo_id": 263228758,
+    "repo_name": "EzMinh/Bin",
+    "project_id": 6922,
+    "project_name": "Bin",
+    "build_id": 79120,
+    "build_number": 2,
+    "build_commit": "7e21ed4f3c102c987dadfa2befeb5ec16d01bcdd",
+    "description_url": "https://poggit.pmmp.io/r/90315",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1590200702,
+    "state": 5,
+    "last_state_change_date": 1590240403,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bin",
+        "item",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "pocketmine-plugins",
+        "remove"
+    ],
+    "api": [
+        {
+            "from": "3.9.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "EzMinh"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

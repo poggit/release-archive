@@ -1,0 +1,55 @@
+{
+    "id": 11004,
+    "name": "BreakWarn",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/BreakWarn/1.0",
+    "tagline": "Warn player before tool get destroyed",
+    "artifact_url": "https://poggit.pmmp.io/r/201106",
+    "downloads": 34,
+    "score": 3,
+    "repo_id": 608605103,
+    "repo_name": "galaxytwenty/BreakWarn",
+    "project_id": 12184,
+    "project_name": "BreakWarn",
+    "build_id": 150651,
+    "build_number": 18,
+    "build_commit": "172695bfda9c87728f9caadede9da738a9af106b",
+    "description_url": "https://poggit.pmmp.io/r/201105",
+    "icon_url": "https://raw.githubusercontent.com/galaxytwenty/BreakWarn/172695bfda9c87728f9caadede9da738a9af106b/BreakWarn/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1678138526,
+    "state": 5,
+    "last_state_change_date": 1678971054,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "galaxytwenty"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

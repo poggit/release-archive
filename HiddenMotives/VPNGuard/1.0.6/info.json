@@ -1,0 +1,81 @@
+{
+    "id": 456,
+    "name": "VPNGuard",
+    "version": "1.0.6",
+    "html_url": "https://poggit.pmmp.io/p/VPNGuard/1.0.6",
+    "tagline": "VPNGuard will prevent players from joining your server behind any type of anonymizer.",
+    "artifact_url": "https://poggit.pmmp.io/r/9237",
+    "downloads": 6413,
+    "score": 4,
+    "repo_id": 40681715,
+    "repo_name": "HiddenMotives/VPNGuard",
+    "project_id": 109,
+    "project_name": "VPNGuard",
+    "build_id": 26058,
+    "build_number": 14,
+    "build_commit": "4541c76a4f16151d1856d38aeb6b414faf1bf083",
+    "description_url": "https://poggit.pmmp.io/r/9236",
+    "icon_url": "https://raw.githubusercontent.com/HiddenMotives/VPNGuard/4541c76a4f16151d1856d38aeb6b414faf1bf083/vg.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1501357706,
+    "state": 5,
+    "last_state_change_date": 1501448444,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "anti-proxy",
+        "anti-vpn",
+        "antiproxy",
+        "antivpn",
+        "mcpe",
+        "mcpe-plugin",
+        "novpn",
+        "pocketmine-mp-plugin",
+        "vpnguard",
+        "vpn",
+        "blocker",
+        "guard",
+        "anti",
+        "proxy",
+        "spam",
+        "stop",
+        "bot"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA7"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HiddenMotives"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

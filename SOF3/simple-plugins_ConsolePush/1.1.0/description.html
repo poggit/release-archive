@@ -1,0 +1,76 @@
+<p>ConsolePush is an ease-of-access tool that lets you use the console interface more conveniently. With ConsolePush, you can:</p>
+<ul>
+<li><a href="#output-buffering">buffer the server output</a></li>
+<li><a href="#anti-trimming">prevent your trailing spaces from being trimmed</a></li>
+<li><a href="#cancelling">cancel a command without clicking backspace all the way</a></li>
+<li><a href="#line-pushing">wrap command lines</a></li>
+</ul>
+<h2>
+<a id="user-content-output-buffering" class="anchor" href="#output-buffering" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Output Buffering</h2>
+<p>When you type commands on console, have you ever found it annoying that server keeps printing lines like player joins and quits, interfering with your input? "Output buffering" (OB) will temporarily stop the server from printing anything on console, until you turn it off or type a command.</p>
+<p>To enable OB, simply type <code>\</code> on console (and click &lt;Enter&gt;). The server will stop printing any lines.</p>
+<p>When you send any commands (including a command that doesn't exist), OB is automatically disabled. You can also type <code>\</code> again (and &lt;Enter&gt;) to disable OB. Once OB is disabled, the lines previously hidden will be printed at once, so you won't miss any messages.</p>
+<p>You can also type <code>\f</code> (and &lt;Enter&gt;) to "flush" the output, i.e. the lines previously hidden will be printed, but OB will not be disabled. This is similar to typing <code>\</code> twice.</p>
+<blockquote>
+<p><code>\</code> and <code>\f</code> must be sent in individual lines, not at the beginning or end of other commanads.</p>
+</blockquote>
+<h2>
+<a id="user-content-anti-trimming" class="anchor" href="#anti-trimming" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Anti Trimming</h2>
+<p>PocketMine trims away the leading and trailing spaces in the command you sent, which is inconvenient if you want to send the spaces to the command. ConsolePush lets you do this by adding <code>\t</code> after your spaces.</p>
+<p>For example, the command <code>"say hello world "</code> normally only sends the message <code>"hello world"</code> without the trailing spaces, but <code>"say hello world \t"</code> will include the two spaces before <code>\t</code> too.</p>
+<h2>
+<a id="user-content-cancelling" class="anchor" href="#cancelling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cancelling</h2>
+<p>Sometimes you typed a long command, but then you decided not to type it and you don't want to keep backspace all the way until you cleared the line. ConsolePush lets you cancel the whole line of command by typing <code>\c</code> at the end of your command. For example, all the following lines do literally nothing (not even a "command not found" message):</p>
+<pre><code>help\c
+say This is a very very very very very long message\c
+ldkjsfdjkl \c
+\c	
+</code></pre>
+<h2>
+<a id="user-content-line-pushing" class="anchor" href="#line-pushing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Line Pushing</h2>
+<p>Perhaps you forgot to enable OB before you started typing the command and your input is messed up, or something strange happened with your terminal and you don't know what you typed. <em>You don't have to type it again.</em> Just type <code>\p</code> (and &lt;Enter&gt;). Your input will be echoed on the next line, and you can continue typing it.</p>
+<p><em>Caution: <code>\p</code> does not allow editing lines that have been "pushed".</em></p>
+<p><code>\p</code> can even be used in a chain, for example, if you type in this order:</p>
+<pre><code>say Hello \p
+I continue typing \p
+And I type many lines
+</code></pre>
+<p>Your terminal will end up looking like this:</p>
+<pre><code>say Hello \p
+&gt; say Hello I continue typing \p
+&gt; say Hello I continue typing And I type many lines
+</code></pre>
+<p>You will end up sending <code>"say Hello I continue typing And I type many lines"</code>.</p>
+<p>If you want to cancel the whole line (including the pushed part), just type <code>\c</code> just like how you do with a single line.</p>
+<p>If you typed <code>\p</code> but then realized you actually have nothing more to type, you can type <code>\n</code> – The command will be executed, without the <code>\n</code> at the end.</p>
+<p>Note that PocketMine trims away the leading spaces in every line you type, including the line after pushed lines. If the line after <code>\p</code> shall start with a space, type a <code>\</code> before it, e.g.:</p>
+<pre><code>say Hello\p
+\ Oops, there is no space behind "Hello", so I type the \ at the end.
+</code></pre>
+<p>The terminal will end up like this:</p>
+<pre><code>say Hello\p
+&gt; say Hello\ Oops, there is no space behind "Hello", so I typed the \ at the end.
+</code></pre>
+<p>This is equivalent to sending `say Hello Oops, there is no space behind "Hello", so I typed the \ at the end.</p>
+<h2>
+<a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h2>
+<ul>
+<li>"What if I really want to send the <code>\p</code> at the end of my message?"
+<ul>
+<li>The answer is actually simple. Just type <code>\n</code> (which means "do things normally") after everything, Your command will be directly executed,</li>
+</ul>
+</li>
+</ul>
+<h2>
+<a id="user-content-reference" class="anchor" href="#reference" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reference</h2>
+<p>This section lists the commands/suffixes in ConsolePush for quick reference:</p>
+<ul>
+<li>Command <code>\</code>: Toggle <a href="#output-buffering">output buffering</a>
+</li>
+<li>Command <code>\f</code>: Flush <a href="#output-buffering">output buffering</a>
+</li>
+<li>Suffix <code>\p</code>: <a href="#line-pushing">Push</a> input to next line.</li>
+<li>Suffix <code>\n</code>: Do nothing (trailing spaces trimmed)</li>
+<li>Suffix <code>\t</code>: Do nothing (<a href="#anti-trimming">trailing spaces preserved</a>)</li>
+<li>Suffix <code>\c</code>: <a href="#cancelling">Discard</a> current input (including pushed input)</li>
+</ul>

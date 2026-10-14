@@ -1,0 +1,63 @@
+{
+    "id": 3122,
+    "name": "BlazinVanish",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/BlazinVanish/1.0.4",
+    "tagline": "A survival vanish plugin for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/61590",
+    "downloads": 12387,
+    "score": 4,
+    "repo_id": 129622037,
+    "repo_name": "iiFlamiinBlaze/BlazinVanish",
+    "project_id": 2620,
+    "project_name": "BlazinVanish",
+    "build_id": 61517,
+    "build_number": 9,
+    "build_commit": "d6137c9e0e9f7c371260d555a726eab9ae35c650",
+    "description_url": "https://poggit.pmmp.io/r/61589",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1562249500,
+    "state": 5,
+    "last_state_change_date": 1562760940,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "iiflamiinblaze",
+        "pmmp-plugins",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iiFlamiinBlaze"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

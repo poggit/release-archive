@@ -1,0 +1,55 @@
+{
+    "id": 14446,
+    "name": "AntiBugPing",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiBugPing/1.1.0",
+    "tagline": "Detects and mitigates lag-switch and network desync abuse",
+    "artifact_url": "https://poggit.pmmp.io/r/264328",
+    "downloads": 69,
+    "score": null,
+    "repo_id": 1217563269,
+    "repo_name": "Jorgebyte/AntiBugPing",
+    "project_id": 15223,
+    "project_name": "AntiBugPing",
+    "build_id": 192486,
+    "build_number": 3,
+    "build_commit": "6532d7f5121976298e92c82200899d9b1bc3c2bb",
+    "description_url": "https://poggit.pmmp.io/r/264327",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1777689844,
+    "state": 5,
+    "last_state_change_date": 1779286822,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Jorgebyte"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

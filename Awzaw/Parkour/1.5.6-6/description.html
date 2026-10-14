@@ -1,0 +1,38 @@
+<h3>
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h3>
+<p>Parkour is an easy-to-use plugin for creating parkour complete with best times, cash/item rewards, anti-cheat, kill bricks and more.</p>
+<h3>
+<a id="user-content-create-a-parkour" class="anchor" href="#create-a-parkour" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create a Parkour</h3>
+<p>First make a START sign with the following lines:</p>
+<p>Line1: <code>pk</code></p>
+<p>Line2: <code>start</code></p>
+<p>Line3: <code>&lt;your parkour name&gt;</code></p>
+<p>Line4: <code>ID:AMOUNT</code> (or <code>AMOUNT$</code>)</p>
+<p>Then make a FINISH sign</p>
+<p>Line1: <code>pk</code></p>
+<p>Line2: <code>finish</code></p>
+<p>Line3: <code>&lt;your parkour name&gt;</code></p>
+<p>The #reward line at the end of the start sign can be Wood:5 or 17:5 or just Wood or 5 in which case it defaults to 64 items. If the reward line is blank, it will default to 64 Diamonds.</p>
+<p>If you use block names instead of ID's, please make sure you spell them correctly, and please note that some names and ID's don't work as expected.</p>
+<p>To give 2 diamond swords, for example, you must type: <code>Diamond Sword:2</code>, (two words), not <code>DiamondSword</code>... But for a diamond block it is <code>DiamondBlock</code>.</p>
+<p>For money rewards you must use EconomyAPI and type <code>1000$</code> on the reward line, for example.</p>
+<p>The last line of the Finish sign is optional, and can be used to say who made the parkour (also displayed when players start a parkour), or a comment.</p>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<p><code>/pk</code> - displays the help for signs and commands</p>
+<p><code>/pk list</code> - displays a list of all parkours, green names are valid parkour with a start and stop, red names are parkour start signs with no finish sign, grey names are the makers</p>
+<p><code>/pk &lt;name of parkour&gt;</code> - teleports the player to the start for the parkour</p>
+<p><code>/pk go</code> - teleports the player to a random working parkour.</p>
+<p><code>/pk killbrick &lt;name of parkour&gt; &lt;ID&gt;</code> - set the kill-brick to ID (teleports players back to the parkour Start sign)</p>
+<p><code>/pk killbrick &lt;name of parkour&gt; &lt;none|no&gt;</code> - Do not use a kill-brick</p>
+<h3>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h3>
+<p>All permissions default to OP.</p>
+<p><code>parkour</code> - players can build and destroy any parkour</p>
+<p><code>parkour.create</code> - players can build parkour and only destroy their own</p>
+<h3>
+<a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h3>
+<p>If not already playing parkour, clicking a Parkour Finish sign teleports the player to the parkour start sign.</p>
+<p>Both Start and Finish signs can be broken and remade - they will be automatically linked to an existing Start/Finish sign of the same name.</p>
+<p>When either sign is destroyed the Top Score is also reset.</p>
+<p>Any cheating that involves changing gamemode or teleporting is automatically disabled</p>

@@ -1,0 +1,62 @@
+{
+    "id": 6222,
+    "name": "StarterKit",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/StarterKit/2.0.1",
+    "tagline": "StarterKit by TheNote",
+    "artifact_url": "https://poggit.pmmp.io/r/119479",
+    "downloads": 7893,
+    "score": 5,
+    "repo_id": 204515358,
+    "repo_name": "note3crafter/StarterKit",
+    "project_id": 5484,
+    "project_name": "StarterKit",
+    "build_id": 98894,
+    "build_number": 26,
+    "build_commit": "a2fb18bbff69735485f3aa1095e29c2a154170fd",
+    "description_url": "https://poggit.pmmp.io/r/119476",
+    "icon_url": "https://raw.githubusercontent.com/note3crafter/StarterKit/a2fb18bbff69735485f3aa1095e29c2a154170fd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/119478",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616598895,
+    "state": 5,
+    "last_state_change_date": 1616722512,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Kit",
+        "starter",
+        "StarterKit"
+    ],
+    "api": [
+        {
+            "from": "3.18.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "note3crafter"
+        ],
+        "Contributor": [
+            "Crasher508"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

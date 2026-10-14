@@ -1,0 +1,60 @@
+{
+    "id": 11221,
+    "name": "AntiInterupt",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiInterupt/1.0.0",
+    "tagline": "a plugin doesn't allow player 2 vs 1",
+    "artifact_url": "https://poggit.pmmp.io/r/205664",
+    "downloads": 361,
+    "score": null,
+    "repo_id": 633288723,
+    "repo_name": "NuthMC/AntiInterupt",
+    "project_id": 12388,
+    "project_name": "AntiInterupt",
+    "build_id": 153775,
+    "build_number": 3,
+    "build_commit": "17134e20e8bd90336a15e37a16566f82a19abd6d",
+    "description_url": "https://poggit.pmmp.io/r/205704",
+    "icon_url": "https://raw.githubusercontent.com/NuthMC/AntiInterupt/17134e20e8bd90336a15e37a16566f82a19abd6d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1682581616,
+    "state": 5,
+    "last_state_change_date": 1682620816,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "1vs1",
+        "2vs1",
+        "Anti2vs1",
+        "no2vs1",
+        "nuthmc",
+        "pvp",
+        "ReportSystem",
+        "vs"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NuthMC"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

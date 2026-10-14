@@ -1,0 +1,74 @@
+{
+    "id": 4730,
+    "name": "CustomFurnace",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/CustomFurnace/1.0.2",
+    "tagline": "To make custom furnace recipe ! pmmp plugins",
+    "artifact_url": "https://poggit.pmmp.io/r/92911",
+    "downloads": 1695,
+    "score": 5,
+    "repo_id": 265841555,
+    "repo_name": "HiroshimaTeam/CustomFurnace-HiroTeam",
+    "project_id": 7001,
+    "project_name": "CustomFurnace-HiroTeam",
+    "build_id": 81651,
+    "build_number": 32,
+    "build_commit": "c1e1db2f984b36996523429ed552cc185e7a551c",
+    "description_url": "https://poggit.pmmp.io/r/93418",
+    "icon_url": "https://raw.githubusercontent.com/HiroshimaTeam/CustomFurnace-HiroTeam/c1e1db2f984b36996523429ed552cc185e7a551c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/93420",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1592512911,
+    "state": 5,
+    "last_state_change_date": 1593408741,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "furnace",
+        "mcpe-plugin",
+        "mcpe-plugins",
+        "mcpe-server",
+        "plugin",
+        "pmmp",
+        "pmmp-plugins",
+        "pocketmine",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HiroshimaTeam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

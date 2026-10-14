@@ -1,0 +1,66 @@
+{
+    "id": 9407,
+    "name": "OfflinePlayerTP",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/OfflinePlayerTP/0.0.1",
+    "tagline": "A PocketMine-MP plugin to teleport among offline players",
+    "artifact_url": "https://poggit.pmmp.io/r/169158",
+    "downloads": 734,
+    "score": 5,
+    "repo_id": 471141485,
+    "repo_name": "Muqsit/OfflinePlayerTP",
+    "project_id": 10809,
+    "project_name": "OfflinePlayerTP",
+    "build_id": 128375,
+    "build_number": 6,
+    "build_commit": "fde426ee644a507c9a0d20e52cb4a35a75c5184a",
+    "description_url": "https://poggit.pmmp.io/r/169157",
+    "icon_url": "https://raw.githubusercontent.com/Muqsit/OfflinePlayerTP/fde426ee644a507c9a0d20e52cb4a35a75c5184a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648436076,
+    "state": 5,
+    "last_state_change_date": 1648577649,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "admin",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine",
+        "pocketmine-mp",
+        "teleportation"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

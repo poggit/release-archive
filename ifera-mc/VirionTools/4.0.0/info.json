@@ -1,0 +1,64 @@
+{
+    "id": 9123,
+    "name": "VirionTools",
+    "version": "4.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VirionTools/4.0.0",
+    "tagline": "A handy plugin for developers who wish to compile and inject virions without using Poggit. ",
+    "artifact_url": "https://poggit.pmmp.io/r/164230",
+    "downloads": 61,
+    "score": 5,
+    "repo_id": 159115873,
+    "repo_name": "ifera-mc/VirionTools",
+    "project_id": 4296,
+    "project_name": "VirionTools",
+    "build_id": 125248,
+    "build_number": 22,
+    "build_commit": "a91ae86faf2f48dfdbdff0ea61e156579913fe79",
+    "description_url": "https://poggit.pmmp.io/r/164227",
+    "icon_url": "https://raw.githubusercontent.com/ifera-mc/VirionTools/a91ae86faf2f48dfdbdff0ea61e156579913fe79/meta/VirionTools.png",
+    "changelog_url": "https://poggit.pmmp.io/r/164229",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645793260,
+    "state": 5,
+    "last_state_change_date": 1645793299,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "compile-virions",
+        "developer",
+        "devtools",
+        "inject-virions",
+        "phar",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "poggit",
+        "tools",
+        "virion",
+        "viriontools"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Ifera"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

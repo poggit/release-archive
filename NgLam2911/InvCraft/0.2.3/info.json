@@ -1,0 +1,111 @@
+{
+    "id": 9441,
+    "name": "InvCraft",
+    "version": "0.2.3",
+    "html_url": "https://poggit.pmmp.io/p/InvCraft/0.2.3",
+    "tagline": "A 6x6 crafting table plugin with customable recipe.",
+    "artifact_url": "https://poggit.pmmp.io/r/169986",
+    "downloads": 111,
+    "score": null,
+    "repo_id": 324686905,
+    "repo_name": "NgLam2911/InvCraft",
+    "project_id": 8681,
+    "project_name": "InvCraft",
+    "build_id": 128956,
+    "build_number": 33,
+    "build_commit": "1b48235759aa83ddc918b95a7e901b89eb4d70fd",
+    "description_url": "https://poggit.pmmp.io/r/169983",
+    "icon_url": "https://raw.githubusercontent.com/NgLam2911/InvCraft/1b48235759aa83ddc918b95a7e901b89eb4d70fd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/169985",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1649043462,
+    "state": 5,
+    "last_state_change_date": 1649151183,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "crafting",
+        "custom-craft",
+        "inventory-craft",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NgLam2911"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "b1b1f53ab6abdb6927c108d41f81b407fa072aee",
+            "build_id": 121224
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 9285,
+            "repo_id": 373545094,
+            "repo_name": "JinodkDevTeam/FormAPI",
+            "repo_path": "",
+            "build_commit": "b47f7afe95b7ee56608a56250f13ad81a0ed0178",
+            "build_id": 106227
+        },
+        {
+            "name": "FI-Utils",
+            "project_id": 9604,
+            "repo_id": 400360585,
+            "repo_name": "JinodkDevTeam/FI-Utils",
+            "repo_path": "",
+            "build_commit": "85dae5f14b47b09c939499a3379916bbc29c7b75",
+            "build_id": 110117
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "ce75bc58d640c15af95bd24a3be053d57608092c",
+            "build_id": 124216
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "id": 13343,
+    "name": "BetterBrag",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BetterBrag/1.0.0",
+    "tagline": "A Pocketmine plugin implementing a more advanced item bragging system.",
+    "artifact_url": "https://poggit.pmmp.io/r/244620",
+    "downloads": 353,
+    "score": 5,
+    "repo_id": 827503701,
+    "repo_name": "snarerectify/BetterBrag",
+    "project_id": 14027,
+    "project_name": "BetterBrag",
+    "build_id": 179126,
+    "build_number": 16,
+    "build_commit": "4044c92913811a9ba94b29c56a7321f2ee1b2500",
+    "description_url": "https://poggit.pmmp.io/r/244619",
+    "icon_url": "https://raw.githubusercontent.com/snarerectify/BetterBrag/4044c92913811a9ba94b29c56a7321f2ee1b2500/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721812200,
+    "state": 5,
+    "last_state_change_date": 1724161415,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "brag",
+        "itembrag",
+        "seeitem",
+        "showitem",
+        "itemcase",
+        "case",
+        "guiitem"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Threbber455",
+            "snarerectify"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        }
+    ]
+}

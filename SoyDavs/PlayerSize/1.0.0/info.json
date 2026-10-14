@@ -1,0 +1,59 @@
+{
+    "id": 13791,
+    "name": "PlayerSize",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerSize/1.0.0",
+    "tagline": "**PlayerSize** is a customizable PocketMine-MP plugin that allows players to adjust their own size",
+    "artifact_url": "https://poggit.pmmp.io/r/251952",
+    "downloads": 327,
+    "score": null,
+    "repo_id": 916910496,
+    "repo_name": "SoyDavs/PlayerSize",
+    "project_id": 14497,
+    "project_name": "PlayerSize",
+    "build_id": 184116,
+    "build_number": 2,
+    "build_commit": "0fb46e6f5a23f4a13936532c8afeac377aeb2e45",
+    "description_url": "https://poggit.pmmp.io/r/251954",
+    "icon_url": "https://raw.githubusercontent.com/SoyDavs/PlayerSize/0fb46e6f5a23f4a13936532c8afeac377aeb2e45/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736905913,
+    "state": 5,
+    "last_state_change_date": 1737824372,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "custom",
+        "player",
+        "size"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SoyDavs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

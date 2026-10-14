@@ -1,0 +1,65 @@
+{
+    "id": 12324,
+    "name": "CommandBlocker",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CommandBlocker/2.0.0",
+    "tagline": "Prevent players from using specified commands",
+    "artifact_url": "https://poggit.pmmp.io/r/221823",
+    "downloads": 384,
+    "score": null,
+    "repo_id": 539558837,
+    "repo_name": "nhanaz-pm-pl/CommandBlocker",
+    "project_id": 11848,
+    "project_name": "CommandBlocker",
+    "build_id": 162481,
+    "build_number": 23,
+    "build_commit": "96d7f25e61411289c15cfea9c442c4da297d96e8",
+    "description_url": "https://poggit.pmmp.io/r/221820",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/CommandBlocker/96d7f25e61411289c15cfea9c442c4da297d96e8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/221822",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1693463814,
+    "state": 5,
+    "last_state_change_date": 1694277755,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Phuongaz",
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "taylordev47"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12557,
+            "repo_id": 646082843,
+            "repo_name": "JinodkDevTeam/Commando",
+            "repo_path": "",
+            "build_commit": "32eaceb84259b3d997a47072a6e3446ecc4b51f0",
+            "build_id": 159521
+        }
+    ]
+}

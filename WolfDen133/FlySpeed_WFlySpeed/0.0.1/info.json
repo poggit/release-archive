@@ -1,0 +1,72 @@
+{
+    "id": 10885,
+    "name": "FlySpeed",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/FlySpeed/0.0.1",
+    "tagline": "Adds /flyspeed to pocketmine",
+    "artifact_url": "https://poggit.pmmp.io/r/198572",
+    "downloads": 962,
+    "score": 5,
+    "repo_id": 582448224,
+    "repo_name": "WolfDen133/FlySpeed",
+    "project_id": 12033,
+    "project_name": "WFlySpeed",
+    "build_id": 148780,
+    "build_number": 8,
+    "build_commit": "a685e118e59db25cab5ea0e132889b7c15042128",
+    "description_url": "https://poggit.pmmp.io/r/198596",
+    "icon_url": "https://raw.githubusercontent.com/WolfDen133/WFlySpeed/a685e118e59db25cab5ea0e132889b7c15042128/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1672140244,
+    "state": 5,
+    "last_state_change_date": 1672202012,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "fl",
+        "fly",
+        "flys",
+        "flyspeed",
+        "fs",
+        "fspeed",
+        "spe",
+        "speed"
+    ],
+    "api": [
+        {
+            "from": "4.12.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WolfDen133"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

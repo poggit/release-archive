@@ -1,0 +1,53 @@
+{
+    "id": 13507,
+    "name": "Craft-Remover",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Craft-Remover/1.0.0",
+    "tagline": "Remove craft in Pocketmine servers",
+    "artifact_url": "https://poggit.pmmp.io/r/247140",
+    "downloads": 233,
+    "score": null,
+    "repo_id": 835462294,
+    "repo_name": "ValresMC/Craft-Remover",
+    "project_id": 14108,
+    "project_name": "Craft-Remover",
+    "build_id": 180822,
+    "build_number": 2,
+    "build_commit": "f9cc2f3c243f6d4fe9681c1412179eda3ae988b2",
+    "description_url": "https://poggit.pmmp.io/r/247139",
+    "icon_url": "https://raw.githubusercontent.com/ValresMC/Craft-Remover/f9cc2f3c243f6d4fe9681c1412179eda3ae988b2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1725021313,
+    "state": 5,
+    "last_state_change_date": 1725098884,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "craft"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ValresMC"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

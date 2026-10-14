@@ -1,0 +1,83 @@
+{
+    "id": 4566,
+    "name": "FlyPE",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/FlyPE/1.0.1",
+    "tagline": "An advanced fly plugin for PMMP!",
+    "artifact_url": "https://poggit.pmmp.io/r/89906",
+    "downloads": 228,
+    "score": 5,
+    "repo_id": 265524969,
+    "repo_name": "AGTHARN/FlyPE",
+    "project_id": 6989,
+    "project_name": "FlyPE",
+    "build_id": 80035,
+    "build_number": 36,
+    "build_commit": "53a4eed9601dc753a21e87aee2d9375d28bf05cf",
+    "description_url": "https://poggit.pmmp.io/r/90006",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1590848199,
+    "state": 5,
+    "last_state_change_date": 1590887702,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HyperFlareMC"
+        ],
+        "Contributor": [
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

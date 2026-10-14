@@ -1,0 +1,66 @@
+{
+    "id": 6378,
+    "name": "SocialSpy",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/SocialSpy/1.0.3",
+    "tagline": "This plugin allow you to see commands executed by other players",
+    "artifact_url": "https://poggit.pmmp.io/r/121656",
+    "downloads": 674,
+    "score": null,
+    "repo_id": 277672962,
+    "repo_name": "sqrrrrl/SocialSpy",
+    "project_id": 7363,
+    "project_name": "SocialSpy",
+    "build_id": 99997,
+    "build_number": 10,
+    "build_commit": "4c1449de267db68fa1530562056bcc197e98955d",
+    "description_url": "https://poggit.pmmp.io/r/124224",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/124226",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1617840857,
+    "state": 5,
+    "last_state_change_date": 1617955879,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Admin",
+        "Command",
+        "SocialSpy"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "sqrrrrl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

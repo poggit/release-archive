@@ -1,0 +1,58 @@
+{
+    "id": 8092,
+    "name": "DoorBell",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/DoorBell/1.1.0",
+    "tagline": "Super Simple Doorbell plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/149481",
+    "downloads": 1781,
+    "score": null,
+    "repo_id": 256173220,
+    "repo_name": "TheDataLioness/Doorbell",
+    "project_id": 6724,
+    "project_name": "Doorbell",
+    "build_id": 116467,
+    "build_number": 13,
+    "build_commit": "2f6d8f95018fc36159d7df65efb2a76a03352d0e",
+    "description_url": "https://poggit.pmmp.io/r/149478",
+    "icon_url": "https://raw.githubusercontent.com/TheDataLion/Doorbell/2f6d8f95018fc36159d7df65efb2a76a03352d0e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/149480",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638436202,
+    "state": 5,
+    "last_state_change_date": 1638546526,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TheDataLioness"
+        ],
+        "Contributor": [
+            "KanadeBlue"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

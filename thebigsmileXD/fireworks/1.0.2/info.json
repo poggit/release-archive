@@ -1,0 +1,67 @@
+{
+    "id": 957,
+    "name": "fireworks",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/fireworks/1.0.2",
+    "tagline": "Adds Fireworks to Pocketmine",
+    "artifact_url": "https://poggit.pmmp.io/r/19429",
+    "downloads": 5465,
+    "score": 4,
+    "repo_id": 115860355,
+    "repo_name": "thebigsmileXD/fireworks",
+    "project_id": 1560,
+    "project_name": "fireworks",
+    "build_id": 33147,
+    "build_number": 4,
+    "build_commit": "68d9233a1af99494c47ced20049e9b3a7d20c391",
+    "description_url": "https://poggit.pmmp.io/r/20213",
+    "icon_url": "https://raw.githubusercontent.com/thebigsmileXD/fireworks/68d9233a1af99494c47ced20049e9b3a7d20c391/resources/fireworks_icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1514905589,
+    "state": 5,
+    "last_state_change_date": 1514905589,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "firework",
+        "fireworks",
+        "rocket",
+        "rockets",
+        "explosions",
+        "pocketmine",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA10",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "thebigsmileXD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

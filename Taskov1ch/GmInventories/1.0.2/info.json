@@ -1,0 +1,66 @@
+{
+    "id": 13910,
+    "name": "GmInventories",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/GmInventories/1.0.2",
+    "tagline": "Separate inventories for each gamemode",
+    "artifact_url": "https://poggit.pmmp.io/r/254024",
+    "downloads": 158,
+    "score": null,
+    "repo_id": 769280997,
+    "repo_name": "Taskov1ch/GmInventories",
+    "project_id": 13638,
+    "project_name": "GmInventories",
+    "build_id": 185449,
+    "build_number": 11,
+    "build_commit": "4f5a1ec9be1057275c1681d1e55fd8f8df98b216",
+    "description_url": "https://poggit.pmmp.io/r/254026",
+    "icon_url": "https://raw.githubusercontent.com/Taskov1ch/GmInventories/4f5a1ec9be1057275c1681d1e55fd8f8df98b216/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/254028",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1741461108,
+    "state": 5,
+    "last_state_change_date": 1741562113,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp5",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Taskov1ch"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        }
+    ]
+}

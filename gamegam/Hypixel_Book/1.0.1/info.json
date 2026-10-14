@@ -1,0 +1,65 @@
+{
+    "id": 12519,
+    "name": "HypixelBook",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/HypixelBook/1.0.1",
+    "tagline": "Automatically opens books like Hypixel",
+    "artifact_url": "https://poggit.pmmp.io/r/227580",
+    "downloads": 371,
+    "score": null,
+    "repo_id": 648851635,
+    "repo_name": "gamegam/Hypixel_Book",
+    "project_id": 12563,
+    "project_name": "Hypixel_Book",
+    "build_id": 167429,
+    "build_number": 33,
+    "build_commit": "bcff12fdf97bf1b3b4429495f1b722e64e0dc455",
+    "description_url": "https://poggit.pmmp.io/r/227577",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/227579",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1698248662,
+    "state": 5,
+    "last_state_change_date": 1698346858,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Hypixel"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "gamegam"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

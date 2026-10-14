@@ -1,0 +1,69 @@
+{
+    "id": 14193,
+    "name": "HiveOreRewards",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HiveOreRewards/1.0.0",
+    "tagline": "Reward players when they mine specific ores. This is similar's to “Hive” mechanics:",
+    "artifact_url": "https://poggit.pmmp.io/r/259261",
+    "downloads": 136,
+    "score": null,
+    "repo_id": 1049171506,
+    "repo_name": "PDevChris/HiveOreRewards",
+    "project_id": 14901,
+    "project_name": "HiveOreRewards",
+    "build_id": 188938,
+    "build_number": 2,
+    "build_commit": "ad05e9f5011e6ab0f2058aabd336511f27c8f62b",
+    "description_url": "https://poggit.pmmp.io/r/259260",
+    "icon_url": "https://raw.githubusercontent.com/PDevChris/HiveOreRewards/ad05e9f5011e6ab0f2058aabd336511f27c8f62b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1756863379,
+    "state": 5,
+    "last_state_change_date": 1757977084,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Ore",
+        "Mining",
+        "Mine",
+        "Block",
+        "CustomBlocks"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PDevChris"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

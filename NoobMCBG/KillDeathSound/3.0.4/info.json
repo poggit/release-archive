@@ -1,0 +1,66 @@
+{
+    "id": 11948,
+    "name": "KillDeathSound",
+    "version": "3.0.4",
+    "html_url": "https://poggit.pmmp.io/p/KillDeathSound/3.0.4",
+    "tagline": "When the player is killed and dies, the sound will work",
+    "artifact_url": "https://poggit.pmmp.io/r/216494",
+    "downloads": 1334,
+    "score": 5,
+    "repo_id": 446254650,
+    "repo_name": "NoobMCBG/KillDeathSound",
+    "project_id": 10304,
+    "project_name": "KillDeathSound",
+    "build_id": 159725,
+    "build_number": 92,
+    "build_commit": "1cddd1081e663c0cdffb6d3a224dc1eef5c00a20",
+    "description_url": "https://poggit.pmmp.io/r/240734",
+    "icon_url": "https://raw.githubusercontent.com/NoobMCBG/KillDeathSound/1cddd1081e663c0cdffb6d3a224dc1eef5c00a20/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/240736",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689379341,
+    "state": 5,
+    "last_state_change_date": 1689418249,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "blood",
+        "death",
+        "hit",
+        "kill",
+        "particle",
+        "sound"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NoobMCBG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

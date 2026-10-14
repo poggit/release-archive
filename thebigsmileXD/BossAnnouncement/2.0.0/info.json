@@ -1,0 +1,79 @@
+{
+    "id": 3883,
+    "name": "BossAnnouncement",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BossAnnouncement/2.0.0",
+    "tagline": "A plugin that can show changing messages in the EnderDragon/Wither boss bar.",
+    "artifact_url": "https://poggit.pmmp.io/r/77030",
+    "downloads": 3563,
+    "score": 3,
+    "repo_id": 74037908,
+    "repo_name": "thebigsmileXD/BossAnnouncement",
+    "project_id": 357,
+    "project_name": "BossAnnouncement",
+    "build_id": 71753,
+    "build_number": 28,
+    "build_commit": "f007bb9714a0ece24573b744e98e65abfc22a15b",
+    "description_url": "https://poggit.pmmp.io/r/77029",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582645956,
+    "state": 5,
+    "last_state_change_date": 1583178325,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bar",
+        "boss",
+        "bossbar",
+        "changing",
+        "title"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SOF3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "apibossbar",
+            "project_id": 5118,
+            "repo_id": 190287218,
+            "repo_name": "inxomnyaa/apibossbar",
+            "repo_path": "",
+            "build_commit": "0bd5124de5971f27f4a10f8d17665447c5a28bbd",
+            "build_id": 63148
+        }
+    ]
+}

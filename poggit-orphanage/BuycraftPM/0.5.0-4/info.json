@@ -1,0 +1,60 @@
+{
+    "id": 1378,
+    "name": "BuycraftPM",
+    "version": "0.5.0-4",
+    "html_url": "https://poggit.pmmp.io/p/BuycraftPM/0.5.0-4",
+    "tagline": "Official BuyCraft Updated",
+    "artifact_url": "https://poggit.pmmp.io/r/30442",
+    "downloads": 175,
+    "score": null,
+    "repo_id": 110677762,
+    "repo_name": "poggit-orphanage/BuycraftPM",
+    "project_id": 1310,
+    "project_name": "BuycraftPM",
+    "build_id": 41302,
+    "build_number": 4,
+    "build_commit": "82a2858fe853f9d8a6b223a13ee548bace902130",
+    "description_url": "https://poggit.pmmp.io/r/30439",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/BuycraftPM/82a2858fe853f9d8a6b223a13ee548bace902130/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/30441",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526416239,
+    "state": 5,
+    "last_state_change_date": 1526416242,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "buycraft",
+        "shop"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "minecrafter",
+            "liam-wiltshire"
+        ],
+        "Contributor": [
+            "Awzaw",
+            "GamakCZ",
+            "YaBoiLewis"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

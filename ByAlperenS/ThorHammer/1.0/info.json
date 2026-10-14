@@ -1,0 +1,59 @@
+{
+    "id": 6017,
+    "name": "ThorHammer",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/ThorHammer/1.0",
+    "tagline": "Thor's Hammer",
+    "artifact_url": "https://poggit.pmmp.io/r/116190",
+    "downloads": 561,
+    "score": 5,
+    "repo_id": 313749057,
+    "repo_name": "ByAlperenS/ThorHammer",
+    "project_id": 8040,
+    "project_name": "ThorHammer",
+    "build_id": 96965,
+    "build_number": 11,
+    "build_commit": "b1e3b48b0f5c2fee22027fca311406b30e4d80bf",
+    "description_url": "https://poggit.pmmp.io/r/116189",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614020993,
+    "state": 5,
+    "last_state_change_date": 1614521731,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "altay",
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pocketmine",
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.9.4",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ByAlperenS"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

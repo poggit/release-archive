@@ -1,0 +1,72 @@
+{
+    "id": 12767,
+    "name": "KillEntity",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/KillEntity/0.0.2",
+    "tagline": "A plugin for rewarding players with money when they kill entities",
+    "artifact_url": "https://poggit.pmmp.io/r/231830",
+    "downloads": 339,
+    "score": null,
+    "repo_id": 740981599,
+    "repo_name": "nhiwentwest/KillEntity",
+    "project_id": 13474,
+    "project_name": "KillEntity",
+    "build_id": 170245,
+    "build_number": 79,
+    "build_commit": "af398bbe7dfd16455326c839ea7af5c045e12e84",
+    "description_url": "https://poggit.pmmp.io/r/234671",
+    "icon_url": "https://raw.githubusercontent.com/nhiwentwest/KillEntity/af398bbe7dfd16455326c839ea7af5c045e12e84/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1706032760,
+    "state": 5,
+    "last_state_change_date": 1707147812,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.2",
+            "depRelId": 12718,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "nhiwentwest"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

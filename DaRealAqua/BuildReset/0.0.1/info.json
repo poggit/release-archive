@@ -1,0 +1,63 @@
+{
+    "id": 11168,
+    "name": "BuildReset",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BuildReset/0.0.1",
+    "tagline": "Blocks placed on the floor disappear automatically after a certain time.",
+    "artifact_url": "https://poggit.pmmp.io/r/204389",
+    "downloads": 154,
+    "score": null,
+    "repo_id": 625552614,
+    "repo_name": "DaRealAqua/BuildReset",
+    "project_id": 12331,
+    "project_name": "BuildReset",
+    "build_id": 152946,
+    "build_number": 8,
+    "build_commit": "b29462b0c9707799484791ce6cc135039a5869d7",
+    "description_url": "https://poggit.pmmp.io/r/204391",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1681227975,
+    "state": 5,
+    "last_state_change_date": 1681236509,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "build",
+        "buildpvp",
+        "minigame"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DaRealAqua"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

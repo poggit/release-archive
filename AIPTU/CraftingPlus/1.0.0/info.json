@@ -1,0 +1,67 @@
+{
+    "id": 10545,
+    "name": "CraftingPlus",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CraftingPlus/1.0.0",
+    "tagline": "A PocketMine-MP plugin for adding custom recipes",
+    "artifact_url": "https://poggit.pmmp.io/r/192570",
+    "downloads": 489,
+    "score": 5,
+    "repo_id": 534465116,
+    "repo_name": "AIPTU/CraftingPlus",
+    "project_id": 11822,
+    "project_name": "CraftingPlus",
+    "build_id": 144863,
+    "build_number": 2,
+    "build_commit": "d99293d52aabf668e333c113b2d6d5793ba3c042",
+    "description_url": "https://poggit.pmmp.io/r/192569",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/CraftingPlus/d99293d52aabf668e333c113b2d6d5793ba3c042/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1662690802,
+    "state": 5,
+    "last_state_change_date": 1663388911,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-mp-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "4.8.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

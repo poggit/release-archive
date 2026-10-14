@@ -1,0 +1,64 @@
+{
+    "id": 3693,
+    "name": "PM-Beacons",
+    "version": "0.1.1",
+    "html_url": "https://poggit.pmmp.io/p/PM-Beacons/0.1.1",
+    "tagline": "Beacons for PocketMine-MP exactly like Vanilla!",
+    "artifact_url": "https://poggit.pmmp.io/r/73423",
+    "downloads": 154,
+    "score": 4,
+    "repo_id": 125770209,
+    "repo_name": "jasonw4331/PM-Beacons",
+    "project_id": 6128,
+    "project_name": "PM-Beacons",
+    "build_id": 69444,
+    "build_number": 3,
+    "build_commit": "e440ffbaa9facaa9f3515393e93031070b6b7250",
+    "description_url": "https://poggit.pmmp.io/r/73468",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/PM-Beacons/e440ffbaa9facaa9f3515393e93031070b6b7250/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1579543971,
+    "state": 5,
+    "last_state_change_date": 1579554538,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "beacon",
+        "beam",
+        "effect",
+        "pyramid"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

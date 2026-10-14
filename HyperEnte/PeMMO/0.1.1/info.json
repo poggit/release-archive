@@ -1,0 +1,55 @@
+{
+    "id": 5416,
+    "name": "PeMMO",
+    "version": "0.1.1",
+    "html_url": "https://poggit.pmmp.io/p/PeMMO/0.1.1",
+    "tagline": "The MMO plugin for pocketmine servers",
+    "artifact_url": "https://poggit.pmmp.io/r/105386",
+    "downloads": 222,
+    "score": 5,
+    "repo_id": 292835877,
+    "repo_name": "HyperEnte/PeMMO",
+    "project_id": 7711,
+    "project_name": "PeMMO",
+    "build_id": 89696,
+    "build_number": 18,
+    "build_commit": "e41369c3940117100a13216c7aca3cf3ca0369a4",
+    "description_url": "https://poggit.pmmp.io/r/105425",
+    "icon_url": "https://raw.githubusercontent.com/HyperEnte-PHP/PeMMO/e41369c3940117100a13216c7aca3cf3ca0369a4/PeMMO.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1602502614,
+    "state": 5,
+    "last_state_change_date": 1602532355,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HyperEnte"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

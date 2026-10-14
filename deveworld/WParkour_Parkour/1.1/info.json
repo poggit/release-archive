@@ -1,0 +1,71 @@
+{
+    "id": 10528,
+    "name": "WParkour",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/WParkour/1.1",
+    "tagline": "Parkour Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/192115",
+    "downloads": 948,
+    "score": null,
+    "repo_id": 393591231,
+    "repo_name": "deveworld/WParkour",
+    "project_id": 9457,
+    "project_name": "Parkour",
+    "build_id": 144485,
+    "build_number": 58,
+    "build_commit": "29fad5099ee0c657655c686af19b7203ba4e7656",
+    "description_url": "https://poggit.pmmp.io/r/194331",
+    "icon_url": "https://raw.githubusercontent.com/mcsim415/WParkour/29fad5099ee0c657655c686af19b7203ba4e7656/parkour.png",
+    "changelog_url": "https://poggit.pmmp.io/r/194333",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/194334",
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1662121069,
+    "state": 5,
+    "last_state_change_date": 1662850574,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "jump",
+        "jumpgame",
+        "jumpmap",
+        "parkour",
+        "wparkour"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "deveworld"
+        ],
+        "Translator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

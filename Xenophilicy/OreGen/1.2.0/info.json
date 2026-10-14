@@ -1,0 +1,76 @@
+{
+    "id": 3785,
+    "name": "OreGen",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/OreGen/1.2.0",
+    "tagline": "PocketMine plugin to spawn custom blocks in a cobblestone generator!",
+    "artifact_url": "https://poggit.pmmp.io/r/75422",
+    "downloads": 513,
+    "score": null,
+    "repo_id": 165529973,
+    "repo_name": "Xenophilicy/OreGen",
+    "project_id": 4551,
+    "project_name": "OreGen",
+    "build_id": 70776,
+    "build_number": 12,
+    "build_commit": "e7c5970b0cbf104c7b6783529af7f15abc9bd535",
+    "description_url": "https://poggit.pmmp.io/r/75536",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/OreGen/e7c5970b0cbf104c7b6783529af7f15abc9bd535/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/75538",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1581237680,
+    "state": 5,
+    "last_state_change_date": 1581542709,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Block",
+        "Cobble",
+        "Cobblestone",
+        "Gen",
+        "Generator",
+        "Ore",
+        "OreGenerator"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Xenophilicy",
+            "Vecnavium"
+        ],
+        "Contributor": [
+            "JavierLeon9966",
+            "cosmicnebula200"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

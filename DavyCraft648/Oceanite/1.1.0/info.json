@@ -1,0 +1,67 @@
+{
+    "id": 11162,
+    "name": "Oceanite",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Oceanite/1.1.0",
+    "tagline": "Upgrade your Diamond tools and armor with Oceanite material!",
+    "artifact_url": "https://poggit.pmmp.io/r/204324",
+    "downloads": 255,
+    "score": null,
+    "repo_id": 592904148,
+    "repo_name": "DavyCraft648/Oceanite",
+    "project_id": 12099,
+    "project_name": "Oceanite",
+    "build_id": 152903,
+    "build_number": 3,
+    "build_commit": "05bb1eb00930939101d71d9a76ef5dcd4c2812c0",
+    "description_url": "https://poggit.pmmp.io/r/204323",
+    "icon_url": "https://raw.githubusercontent.com/DavyCraft648/Oceanite/05bb1eb00930939101d71d9a76ef5dcd4c2812c0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1681153498,
+    "state": 5,
+    "last_state_change_date": 1681154003,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "armor",
+        "custom",
+        "oceanite",
+        "tool"
+    ],
+    "api": [
+        {
+            "from": "4.16.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Customies",
+            "version": "1.2.1",
+            "depRelId": 11015,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DavyCraft648"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

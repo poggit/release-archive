@@ -1,0 +1,92 @@
+{
+    "id": 7133,
+    "name": "BetterBan",
+    "version": "3.0.2-1",
+    "html_url": "https://poggit.pmmp.io/p/BetterBan/3.0.2-1",
+    "tagline": "A plugin for PocketMine-MP to simply ban players for a certain period of time.",
+    "artifact_url": "https://poggit.pmmp.io/r/133341",
+    "downloads": 4516,
+    "score": 4,
+    "repo_id": 358927948,
+    "repo_name": "supercrafter333/BetterBan",
+    "project_id": 8869,
+    "project_name": "BetterBan",
+    "build_id": 106695,
+    "build_number": 66,
+    "build_commit": "b3b7a037c4d99b5f109d22826f062c922886d59b",
+    "description_url": "https://poggit.pmmp.io/r/133338",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/BetterBan/b3b7a037c4d99b5f109d22826f062c922886d59b/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/133340",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626964581,
+    "state": 5,
+    "last_state_change_date": 1627176073,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Ban",
+        "form",
+        "Kick",
+        "TempBan",
+        "TempBanUI",
+        "TimeBan",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SOF3",
+            "tobiaskirchmaier",
+            "xqwtxon",
+            "xwertxy"
+        ],
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "DiscordWebhookAPI",
+            "project_id": 4428,
+            "repo_id": 162234790,
+            "repo_name": "CortexPE/DiscordWebhookAPI",
+            "repo_path": "",
+            "build_commit": "49f569fbce17f4a53cbeba49c01e4bf2613fb551",
+            "build_id": 103643
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "eab8ac0adec2e2b094d141a9b711200183bbf268",
+            "build_id": 86018
+        }
+    ]
+}

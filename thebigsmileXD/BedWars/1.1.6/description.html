@@ -1,0 +1,37 @@
+<p><a href="https://github.com/thebigsmileXD/BedWars/blob/master/resources/xbedwars_icon.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/thebigsmileXD/BedWars/raw/master/resources/xbedwars_icon.png" alt="BedWars wide banner!" style="max-width:100%;"></a></p>
+<p>A new BedWars plugin by XenialDan</p>
+<p><strong>Please before giving a bad rating check <a href="https://github.com/thebigsmileXD/BedWars/issues">https://github.com/thebigsmileXD/BedWars/issues</a> and <a href="https://github.com/thebigsmileXD/BedWars/issues?q=is%3Aissue+is%3Aclosed">https://github.com/thebigsmileXD/BedWars/issues?q=is%3Aissue+is%3Aclosed</a> for solutions!</strong></p>
+<h2>
+<a id="user-content-setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h2>
+<p>Set up an arena:
+Use the command <code>/bw setup</code> to open an ui, where you can add, create and modify arenas.</p>
+<p>It allows you to create item spawners, set team spawn points, build in the world and create villager shops.</p>
+<p>Remember to use <code>/bw endsetup</code> when you are done - it automatically saves and backs up the world.</p>
+<p>There are <code>{arenaname}.json</code> files, where you can modify some settings like team damaging and breakable blocks.</p>
+<h2>
+<a id="user-content-joining--sign-setup" class="anchor" href="#joining--sign-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Joining / Sign setup</h2>
+<p>Joining is done by using signs, but you can add any event for joining that you'd like - in JoinEventListener.php</p>
+<p>Sign setup:</p>
+<pre><code>L1: [BedWars]
+L2: mapname
+L3: 
+L4: 
+</code></pre>
+<h2>
+<a id="user-content-rewards-and-win-messages" class="anchor" href="#rewards-and-win-messages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rewards and win messages</h2>
+<p>If you want to give rewards to the winning player/team, you can either listen for the <code>WinEvent</code> in any plugin, or use <a href="https://github.com/thebigsmileXD/gamereward">gamereward</a></p>
+<h2>
+<a id="user-content-faq--common-issues" class="anchor" href="#faq--common-issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ / Common issues</h2>
+<ul>
+<li>Villager is moving / can not open shop: Don't use any AI plugin next to this plugin</li>
+<li>No blocks in world: Use a world editor</li>
+<li>How to set beds? Go into arena edit mode, select build. Place beds. Change to Set-Spawnpoint mode. Break beds. Done</li>
+<li>How to change the shop? See <a href="https://github.com/thebigsmileXD/BedWars/issues/29">https://github.com/thebigsmileXD/BedWars/issues/29</a> and TODO list</li>
+</ul>
+<h2>
+<a id="user-content-todos" class="anchor" href="#todos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TODOs</h2>
+<ul>
+<li>[ ] Settings for villager shop (entity used, items)</li>
+<li>[ ] Spectator mode</li>
+<li>[ ] Scoreboard</li>
+</ul>

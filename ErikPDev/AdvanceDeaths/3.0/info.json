@@ -1,0 +1,101 @@
+{
+    "id": 7901,
+    "name": "AdvanceDeaths",
+    "version": "3.0",
+    "html_url": "https://poggit.pmmp.io/p/AdvanceDeaths/3.0",
+    "tagline": "A plugin to customize the death messages, enable new features. With support for discord!",
+    "artifact_url": "https://poggit.pmmp.io/r/145968",
+    "downloads": 1285,
+    "score": 5,
+    "repo_id": 283014127,
+    "repo_name": "ErikPDev/AdvanceDeaths",
+    "project_id": 7513,
+    "project_name": "AdvanceDeaths",
+    "build_id": 114308,
+    "build_number": 85,
+    "build_commit": "4291d11f844d1111440240c8f6d6b5c396dc79c2",
+    "description_url": "https://poggit.pmmp.io/r/146045",
+    "icon_url": "https://raw.githubusercontent.com/ErikPDev/AdvanceDeaths/4291d11f844d1111440240c8f6d6b5c396dc79c2/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/146047",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1635073075,
+    "state": 5,
+    "last_state_change_date": 1635076133,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "advance",
+        "deaths",
+        "instant",
+        "kill",
+        "money",
+        "respawn",
+        "SQLite"
+    ],
+    "api": [
+        {
+            "from": "3.20.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "ScoreHud",
+            "version": "6.3.1",
+            "depRelId": 7108,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ErikPDev"
+        ],
+        "Contributor": [
+            "lazyperson0710",
+            "IvanCraft623",
+            "UnEnanoMas",
+            "MrBlasyMSK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "307c779746e347724e9477b386d92859d1e36bcc",
+            "build_id": 109013
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "id": 10574,
+    "name": "SafeRCON",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SafeRCON/1.0.1",
+    "tagline": "A Secure and Safe way to run commands in your server easily.",
+    "artifact_url": "https://poggit.pmmp.io/r/193067",
+    "downloads": 224,
+    "score": 4,
+    "repo_id": 535277329,
+    "repo_name": "RealYXNG/SafeRCON",
+    "project_id": 11832,
+    "project_name": "SafeRCON",
+    "build_id": 145213,
+    "build_number": 11,
+    "build_commit": "1202cfb2786927b8508bbf3bbb0cb3dbfc1ba727",
+    "description_url": "https://poggit.pmmp.io/r/193064",
+    "icon_url": "https://raw.githubusercontent.com/RealYXNG/SafeRCON/1202cfb2786927b8508bbf3bbb0cb3dbfc1ba727/SafeRCON.png",
+    "changelog_url": "https://poggit.pmmp.io/r/193066",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1663478636,
+    "state": 5,
+    "last_state_change_date": 1663637114,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Command",
+        "Console",
+        "Control",
+        "Discord",
+        "RCON",
+        "Remote",
+        "RemoteControl",
+        "Safe"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "DiscordBot",
+            "version": "2.1.5",
+            "depRelId": 10509,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "UnknownNull"
+        ],
+        "Collaborator": [
+            "RealYXNG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,64 @@
+{
+    "id": 277,
+    "name": "MineReset",
+    "version": "3.0.2",
+    "html_url": "https://poggit.pmmp.io/p/MineReset/3.0.2",
+    "tagline": " Powerful mine resetting tool",
+    "artifact_url": "https://poggit.pmmp.io/r/4776",
+    "downloads": 2340,
+    "score": 5,
+    "repo_id": 28006148,
+    "repo_name": "falkirks/MineReset",
+    "project_id": 35,
+    "project_name": "MineReset",
+    "build_id": 22919,
+    "build_number": 21,
+    "build_commit": "911b03c897732ae75c700e88ac30754ca96f765d",
+    "description_url": "https://poggit.pmmp.io/r/4774",
+    "icon_url": "https://raw.githubusercontent.com/Falkirks/MineReset/911b03c897732ae75c700e88ac30754ca96f765d/meta/minereset.png",
+    "changelog_url": null,
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1494082654,
+    "state": 5,
+    "last_state_change_date": 1494082654,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "mine"
+    ],
+    "api": [
+        {
+            "from": "2.1.0",
+            "to": "3.0.0-ALPHA5"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "JackNoordhuis",
+            "Pub4Game",
+            "MCPEGamerJPatGitHub",
+            "dktapps",
+            "jasonwynn10",
+            "Infernus102",
+            "Chris-Prime",
+            "QuiverlyRivalry"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

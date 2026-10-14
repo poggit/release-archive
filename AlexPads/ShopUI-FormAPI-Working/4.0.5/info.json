@@ -1,0 +1,104 @@
+{
+    "id": 2861,
+    "name": "CustomShopUI",
+    "version": "4.0.5",
+    "html_url": "https://poggit.pmmp.io/p/CustomShopUI/4.0.5",
+    "tagline": "Easy To Use Customizable ShopUI for pmmp.",
+    "artifact_url": "https://poggit.pmmp.io/r/57693",
+    "downloads": 41274,
+    "score": 4,
+    "repo_id": 155371768,
+    "repo_name": "AlexPads/ShopUI-FormAPI-Working",
+    "project_id": 4155,
+    "project_name": "ShopUI-FormAPI-Working",
+    "build_id": 59198,
+    "build_number": 75,
+    "build_commit": "d488254b34df78a9d0139a0e1a9a46387d6ed592",
+    "description_url": "https://poggit.pmmp.io/r/57690",
+    "icon_url": "https://raw.githubusercontent.com/AlexPads/ShopUI-FormAPI-Working/d488254b34df78a9d0139a0e1a9a46387d6ed592/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/57692",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1557365733,
+    "state": 5,
+    "last_state_change_date": 1557851537,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Commands",
+        "Custom",
+        "Easy",
+        "Shop",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "shelly7w7",
+            "AngelliaX",
+            "cooldogedev",
+            "LetCute",
+            "LordFit",
+            "yuzhizn"
+        ],
+        "Collaborator": [
+            "AlexPads"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "b667043c0765307bffabfadc941433209c8dcd75",
+            "build_id": 56107
+        }
+    ]
+}

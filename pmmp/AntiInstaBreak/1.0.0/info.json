@@ -1,0 +1,57 @@
+{
+    "id": 8141,
+    "name": "AntiInstaBreak",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiInstaBreak/1.0.0",
+    "tagline": "Times block-breaking in survival modes to prevent cheating.",
+    "artifact_url": "https://poggit.pmmp.io/r/150003",
+    "downloads": 2242,
+    "score": 5,
+    "repo_id": 116672915,
+    "repo_name": "pmmp/AntiInstaBreak",
+    "project_id": 1706,
+    "project_name": "AntiInstaBreak",
+    "build_id": 116737,
+    "build_number": 15,
+    "build_commit": "302347bdb01fc1a517eb966a4d5696466b098dcf",
+    "description_url": "https://poggit.pmmp.io/r/149999",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/150001",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/150002",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": true,
+    "is_abandoned": false,
+    "submission_date": 1638566621,
+    "state": 5,
+    "last_state_change_date": 1638566635,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "anticheat",
+        "instabreak"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "dktapps"
+        ],
+        "Contributor": [
+            "SOF3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

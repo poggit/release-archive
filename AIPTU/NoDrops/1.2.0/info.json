@@ -1,0 +1,76 @@
+{
+    "id": 9231,
+    "name": "NoDrops",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/NoDrops/1.2.0",
+    "tagline": "A PocketMine-MP plugin to prohibit players from dropping their items",
+    "artifact_url": "https://poggit.pmmp.io/r/166008",
+    "downloads": 297,
+    "score": null,
+    "repo_id": 436257161,
+    "repo_name": "AIPTU/NoDrops",
+    "project_id": 10093,
+    "project_name": "NoDrops",
+    "build_id": 126319,
+    "build_number": 8,
+    "build_commit": "5b8e97376abcf46e1abeb3e4f2e2285e68148032",
+    "description_url": "https://poggit.pmmp.io/r/166005",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/NoDrops/5b8e97376abcf46e1abeb3e4f2e2285e68148032/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/166007",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646828918,
+    "state": 5,
+    "last_state_change_date": 1646861595,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        }
+    ]
+}

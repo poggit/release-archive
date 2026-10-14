@@ -1,0 +1,36 @@
+<h1>
+<a id="user-content-fireworks" class="anchor" href="#fireworks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>fireworks</h1>
+<p>Adds Fireworks to Pocketmine</p>
+<p>It is simply adding firework items and entities into PocketMine-MP servers.</p>
+<p>You can launch any firework from the creative inventory AND custom ones - just like in vanilla MCPE.</p>
+<h1>
+<a id="user-content-how-to-get-a-firework" class="anchor" href="#how-to-get-a-firework" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to get a firework</h1>
+<p>Either, give a firework via gamemode 1, or /give command.
+For generating the /give command i suggest using: <a href="https://mcstacker.bimbimma.com/mcstacker1.10.php" rel="nofollow">https://mcstacker.bimbimma.com/mcstacker1.10.php</a> and modifying the command to work with PocketMine-MP. This is not easy. No need to explain further.</p>
+<p>The easier way is to use the code to create custom fireworks. See #Create-a-custom-firework for that.</p>
+<h1>
+<a id="user-content-create-a-custom-firework" class="anchor" href="#create-a-custom-firework" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create a custom firework</h1>
+<p>This is sample code to explain the "API"-alike part of the plugin, giving 2 custom fireworks:</p>
+<p>Without special explosions:</p>
+<pre><code>		$data = new FireworksData();
+		$data-&gt;flight = 2;//flight time. default is 1
+		$firework = new Fireworks();
+		$nbt = Fireworks::ToNbt($data);//create the compound tag
+		$firework-&gt;setNamedTag($nbt);//modify the item's compound tag
+		$event-&gt;getPlayer()-&gt;getInventory()-&gt;addItem($firework);//give the item to a player (this case: PlayerJoinEvent $event)
+</code></pre>
+<p>With special explosions</p>
+<pre><code>		$explosion = new FireworksExplosion();//init an explosion
+		$explosion-&gt;fireworkColor = [4, 4, 4];//set the color to custom colors
+		$explosion-&gt;fireworkFade = [5, 5, 5];//set the fade color to custom colors
+		$explosion-&gt;fireworkFlicker = true;//enable the flickering
+		$explosion-&gt;fireworkTrail = false;//enable the trail
+		$explosion-&gt;fireworkType = 4;//set the shape/type of the firework
+		$data = new FireworksData();//create the generic data
+		$data-&gt;flight = 2;
+		$data-&gt;explosions[] = $explosion;//add the explosion
+		$firework = new Fireworks();
+		$nbt = Fireworks::ToNbt($data);
+		$firework-&gt;setNamedTag($nbt);
+		$event-&gt;getPlayer()-&gt;getInventory()-&gt;addItem($firework);
+</code></pre>

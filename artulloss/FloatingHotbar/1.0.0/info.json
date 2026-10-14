@@ -1,0 +1,58 @@
+{
+    "id": 2898,
+    "name": "FloatingHotbar",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FloatingHotbar/1.0.0",
+    "tagline": "Extension to make Hotbar have floating items1",
+    "artifact_url": "https://poggit.pmmp.io/r/58220",
+    "downloads": 91,
+    "score": null,
+    "repo_id": 187370967,
+    "repo_name": "artulloss/FloatingHotbar",
+    "project_id": 5039,
+    "project_name": "FloatingHotbar",
+    "build_id": 59490,
+    "build_number": 1,
+    "build_commit": "f811a355777545c519cb7267cb98c02f54261ffd",
+    "description_url": "https://poggit.pmmp.io/r/58219",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1558284796,
+    "state": 5,
+    "last_state_change_date": 1558500624,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Hotbar",
+            "version": "2.0.2",
+            "depRelId": 2897,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "artulloss"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

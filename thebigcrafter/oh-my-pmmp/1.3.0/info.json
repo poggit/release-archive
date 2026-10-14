@@ -1,0 +1,67 @@
+{
+    "id": 10045,
+    "name": "oh-my-pmmp",
+    "version": "1.3.0",
+    "html_url": "https://poggit.pmmp.io/p/oh-my-pmmp/1.3.0",
+    "tagline": "A plugin manager for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/182510",
+    "downloads": 83,
+    "score": 5,
+    "repo_id": 450681213,
+    "repo_name": "thebigcrafter/oh-my-pmmp",
+    "project_id": 10383,
+    "project_name": "oh-my-pmmp",
+    "build_id": 137878,
+    "build_number": 51,
+    "build_commit": "70d13c10e287782bf65d43fb7650bcd6a9c6e59f",
+    "description_url": "https://poggit.pmmp.io/r/220104",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/oh-my-pmmp/70d13c10e287782bf65d43fb7650bcd6a9c6e59f/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220106",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1655694336,
+    "state": 5,
+    "last_state_change_date": 1655695916,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "plugin",
+        "plugin-manager"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Phuongaz",
+            "Lunarelly",
+            "kotyaralih",
+            "andrew47-c",
+            "AIPTU",
+            "tobydev27",
+            "toby7002"
+        ],
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

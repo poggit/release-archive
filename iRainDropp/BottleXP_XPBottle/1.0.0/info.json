@@ -1,0 +1,61 @@
+{
+    "id": 9917,
+    "name": "BottleXP",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BottleXP/1.0.0",
+    "tagline": "A fully featured XP Storage plugin for Pocketmine-MP servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/179869",
+    "downloads": 226,
+    "score": null,
+    "repo_id": 499700431,
+    "repo_name": "iRainDropp/BottleXP",
+    "project_id": 11300,
+    "project_name": "XPBottle",
+    "build_id": 135971,
+    "build_number": 12,
+    "build_commit": "fadbd8b2c4d3b4c048f66a7e586d477e3e0e787b",
+    "description_url": "https://poggit.pmmp.io/r/179868",
+    "icon_url": "https://raw.githubusercontent.com/iRainDropp/BottleXP/fadbd8b2c4d3b4c048f66a7e586d477e3e0e787b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654468176,
+    "state": 5,
+    "last_state_change_date": 1654468502,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Bottle",
+        "BottleXP",
+        "XP",
+        "XPBottle",
+        "XPStorage"
+    ],
+    "api": [
+        {
+            "from": "4.3.2",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iRainDropp"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

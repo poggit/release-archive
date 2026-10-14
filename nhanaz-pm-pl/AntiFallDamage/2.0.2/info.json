@@ -1,0 +1,59 @@
+{
+    "id": 11415,
+    "name": "AntiFallDamage",
+    "version": "2.0.2",
+    "html_url": "https://poggit.pmmp.io/p/AntiFallDamage/2.0.2",
+    "tagline": "Prevent fall damage",
+    "artifact_url": "https://poggit.pmmp.io/r/208833",
+    "downloads": 1101,
+    "score": null,
+    "repo_id": 453156056,
+    "repo_name": "nhanaz-pm-pl/AntiFallDamage",
+    "project_id": 10457,
+    "project_name": "AntiFallDamage",
+    "build_id": 155728,
+    "build_number": 7,
+    "build_commit": "d2bc11d5cd68cbd4b195f71e3e74e8e277d60d3a",
+    "description_url": "https://poggit.pmmp.io/r/208830",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/AntiFallDamage/d2bc11d5cd68cbd4b195f71e3e74e8e277d60d3a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208832",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685640813,
+    "state": 5,
+    "last_state_change_date": 1685641518,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "antifalldamage",
+        "nofalldamage",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

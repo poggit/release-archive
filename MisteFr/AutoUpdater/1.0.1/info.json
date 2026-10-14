@@ -1,0 +1,66 @@
+{
+    "id": 1825,
+    "name": "AutoUpdater",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AutoUpdater/1.0.1",
+    "tagline": "A Pocketmine plugin that allow you to automatically update your server when a new version of Pocketmine is available",
+    "artifact_url": "https://poggit.pmmp.io/r/40875",
+    "downloads": 4868,
+    "score": 5,
+    "repo_id": 139186086,
+    "repo_name": "MisteFr/AutoUpdater",
+    "project_id": 3272,
+    "project_name": "AutoUpdater",
+    "build_id": 48685,
+    "build_number": 4,
+    "build_commit": "7afeee34a120404801a69488e76c8c359d8649a7",
+    "description_url": "https://poggit.pmmp.io/r/40893",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/40895",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1535560074,
+    "state": 5,
+    "last_state_change_date": 1535575348,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "autorestart",
+        "restart",
+        "autoreboot",
+        "reboot",
+        "update",
+        "autoupdate"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MisteFr"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

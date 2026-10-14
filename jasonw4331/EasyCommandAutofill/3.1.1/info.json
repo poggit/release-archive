@@ -1,0 +1,98 @@
+{
+    "id": 12844,
+    "name": "EasyCommandAutofill",
+    "version": "3.1.1",
+    "html_url": "https://poggit.pmmp.io/p/EasyCommandAutofill/3.1.1",
+    "tagline": "A plugin which adds commands to the client's autofill by parsing usage messages",
+    "artifact_url": "https://poggit.pmmp.io/r/233733",
+    "downloads": 1215,
+    "score": null,
+    "repo_id": 231884297,
+    "repo_name": "jasonw4331/EasyCommandAutofill",
+    "project_id": 6012,
+    "project_name": "EasyCommandAutofill",
+    "build_id": 171664,
+    "build_number": 99,
+    "build_commit": "4434692f703e11571b12f4c4b1dc75c68b5e1fc5",
+    "description_url": "https://poggit.pmmp.io/r/233735",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/233737",
+    "license": "LGPL-3.0-or-later",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1708817859,
+    "state": 5,
+    "last_state_change_date": 1708817905,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "autofill",
+        "chat",
+        "command",
+        "commands",
+        "fill",
+        "message",
+        "select",
+        "selector",
+        "usage"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PlayerSelectors",
+            "version": "2.0.1",
+            "depRelId": 11992,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ],
+        "Contributor": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        }
+    ]
+}

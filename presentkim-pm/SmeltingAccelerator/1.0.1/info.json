@@ -1,0 +1,56 @@
+{
+    "id": 9870,
+    "name": "SmeltingAccelerator",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SmeltingAccelerator/1.0.1",
+    "tagline": "Multiplies the speed of the furnace!",
+    "artifact_url": "https://poggit.pmmp.io/r/179109",
+    "downloads": 513,
+    "score": null,
+    "repo_id": 499374144,
+    "repo_name": "presentkim-pm/SmeltingAccelerator",
+    "project_id": 11290,
+    "project_name": "SmeltingAccelerator",
+    "build_id": 135490,
+    "build_number": 3,
+    "build_commit": "9b09931cf760dfd8ca6816b812c34d68d108df05",
+    "description_url": "https://poggit.pmmp.io/r/179127",
+    "icon_url": "https://raw.githubusercontent.com/presentkim-pm/SmeltingAccelerator/9b09931cf760dfd8ca6816b812c34d68d108df05/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654229693,
+    "state": 5,
+    "last_state_change_date": 1654232482,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "accelerator",
+        "furnace",
+        "smelt",
+        "smelting"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PresentKim"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

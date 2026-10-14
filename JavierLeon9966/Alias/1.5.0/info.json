@@ -1,0 +1,88 @@
+{
+    "id": 11491,
+    "name": "_NewAlias",
+    "version": "1.5.0",
+    "html_url": "https://poggit.pmmp.io/p/_NewAlias/1.5.0",
+    "tagline": "Detects players possible alternatives accounts",
+    "artifact_url": "https://poggit.pmmp.io/r/209545",
+    "downloads": 285,
+    "score": null,
+    "repo_id": 351213446,
+    "repo_name": "JavierLeon9966/Alias",
+    "project_id": 8758,
+    "project_name": "Alias",
+    "build_id": 155971,
+    "build_number": 42,
+    "build_commit": "acdda4c41daf9b83302952b38e73c6624667fd4d",
+    "description_url": "https://poggit.pmmp.io/r/209542",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/Alias/acdda4c41daf9b83302952b38e73c6624667fd4d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209544",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685720225,
+    "state": 5,
+    "last_state_change_date": 1685720235,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "alias",
+        "ban",
+        "pmmp-plugin",
+        "pocketmine-plugins",
+        "track"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "866a23374a7a18ddc8a6bbe0a816feb0f512b9c7",
+            "build_id": 155188
+        },
+        {
+            "name": "libMarshal",
+            "project_id": 11000,
+            "repo_id": 476062581,
+            "repo_name": "sylvrs/libMarshal",
+            "repo_path": "",
+            "build_commit": "9d237d529d2508128e8f572db894887789f96767",
+            "build_id": 141262
+        }
+    ]
+}

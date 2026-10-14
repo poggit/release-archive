@@ -1,0 +1,70 @@
+{
+    "id": 12376,
+    "name": "AdvancedBounty",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedBounty/1.0.0",
+    "tagline": "A bounties plugin for your Pocketmine-MP server!",
+    "artifact_url": "https://poggit.pmmp.io/r/222824",
+    "downloads": 571,
+    "score": null,
+    "repo_id": 689767409,
+    "repo_name": "ecstsylove/AdvancedBounty",
+    "project_id": 13060,
+    "project_name": "AdvancedBounty",
+    "build_id": 163615,
+    "build_number": 7,
+    "build_commit": "a88c733ed3820278cb5820ad491b2118833247c7",
+    "description_url": "https://poggit.pmmp.io/r/223279",
+    "icon_url": "https://raw.githubusercontent.com/iLVOEWOCK/AdvancedBounty/a88c733ed3820278cb5820ad491b2118833247c7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1694410181,
+    "state": 5,
+    "last_state_change_date": 1697744779,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "iLVOEWOCK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,66 @@
+{
+    "id": 6268,
+    "name": "Rank.Up",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Rank.Up/1.0.0",
+    "tagline": "Allow players to ascend through ranks!",
+    "artifact_url": "https://poggit.pmmp.io/r/120042",
+    "downloads": 1127,
+    "score": null,
+    "repo_id": 351660864,
+    "repo_name": "TacoNoBurrito/RankUp",
+    "project_id": 8743,
+    "project_name": "RankUp",
+    "build_id": 99161,
+    "build_number": 5,
+    "build_commit": "972ec180652cbff0b119479ce95624598552c592",
+    "description_url": "https://poggit.pmmp.io/r/120041",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616892799,
+    "state": 5,
+    "last_state_change_date": 1616893280,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "TacoNoBurrito"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,67 @@
+{
+    "id": 6820,
+    "name": "CustomItemLoader",
+    "version": "2.0.6",
+    "html_url": "https://poggit.pmmp.io/p/CustomItemLoader/2.0.6",
+    "tagline": "A PocketMine-MP plugin that implements custom item",
+    "artifact_url": "https://poggit.pmmp.io/r/128506",
+    "downloads": 180,
+    "score": null,
+    "repo_id": 320115479,
+    "repo_name": "alvin0319/CustomItemLoader",
+    "project_id": 8224,
+    "project_name": "CustomItemLoader",
+    "build_id": 103933,
+    "build_number": 39,
+    "build_commit": "a8d8a46bdf59cad420e3a27df1c132922174ecc8",
+    "description_url": "https://poggit.pmmp.io/r/128508",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/128510",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1623372588,
+    "state": 5,
+    "last_state_change_date": 1623373168,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "customitem"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "SleepSpace9",
+            "jasonw4331",
+            "PJZ9n",
+            "iteplenky",
+            "UnknownOre",
+            "sqmatheus",
+            "HGRgamer",
+            "sky-min"
+        ],
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

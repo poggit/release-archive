@@ -1,0 +1,51 @@
+{
+    "id": 3035,
+    "name": "WorldLoader",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WorldLoader/1.0.0",
+    "tagline": "A simple plugin which loads all the worlds on your server without running any command.",
+    "artifact_url": "https://poggit.pmmp.io/r/60326",
+    "downloads": 2381,
+    "score": 4,
+    "repo_id": 192066846,
+    "repo_name": "JackMD/WorldLoader",
+    "project_id": 5199,
+    "project_name": "WorldLoader",
+    "build_id": 60716,
+    "build_number": 1,
+    "build_commit": "684002f220bac40d36b8a55f960ab9d4b9f56e81",
+    "description_url": "https://poggit.pmmp.io/r/60527",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1560595617,
+    "state": 5,
+    "last_state_change_date": 1560681492,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JackMD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

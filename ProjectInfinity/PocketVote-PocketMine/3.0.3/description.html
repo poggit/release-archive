@@ -1,0 +1,161 @@
+<h1>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h1>
+<p>The best fast, extensible and scalable voting solution for PocketMine servers.</p>
+<p>PocketVote acts as a smart-funnel for voting. You can use as many voting sites as you want and your server will never communicate with more than PocketVote's servers.</p>
+<p>Because PocketVote acts as a funnel we're also capable of turning off the stream of votes if your sever goes offline which means no votes are lost!</p>
+<p>Are you sold yet? If not here's a short list of some of our features:</p>
+<ul>
+<li>Automated voting (no commands needed)</li>
+<li>Your very own <a href="https://mcpe.guru" rel="nofollow">https://mcpe.guru</a> vote link that can be managed in-game</li>
+<li>Run <strong>any</strong> command when a vote is received
+<ul>
+<li>Limit commands to users which certain permissions</li>
+<li>Choose whether to run command immediately or wait for the player to be online</li>
+</ul>
+</li>
+<li>Voting statistics</li>
+<li>Multi-server support</li>
+<li>Third-party support through custom events and the PocketVote API</li>
+</ul>
+<p>Start voting today!</p>
+<p><a href="https://discord.gg/B4WHSSq" rel="nofollow">Support (Discord)</a></p>
+<h1>
+<a id="user-content-getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started</h1>
+<ol>
+<li>Download the latest version of the plugin from <a href="https://poggit.pmmp.io/p/pocketvote" rel="nofollow">https://poggit.pmmp.io/p/pocketvote</a>
+</li>
+<li>Start your server once after putting the plugin into your plugins directory</li>
+<li>Sign up at <a href="https://pocketvote.io" rel="nofollow">https://pocketvote.io</a>
+</li>
+<li>Add your server</li>
+<li>Click settings and then <code>show secrets</code>
+</li>
+<li>Take the information shown and enter it into your <code>config.yml</code>, place secret into secret field and identity/identifier in the identity field.
+Since <strong>PocketVote v3.0</strong> you can also do this via the GUI that shows up when a OP logs in while both secret and identity is not set.</li>
+</ol>
+<h1>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h1>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>version</td>
+<td>Used to track how the configuration should be altered in order to be completely up to date.</td>
+</tr>
+<tr>
+<td>identity</td>
+<td>The identity given to you from <a href="https://pocketvote.io" rel="nofollow">PocketVote.io</a> which is used to identify your server.</td>
+</tr>
+<tr>
+<td>secret</td>
+<td>The secret given to you from <a href="https://pocketvote.io" rel="nofollow">PocketVote.io</a> which is given to voting sites.</td>
+</tr>
+<tr>
+<td>lock</td>
+<td>If set to true, the commands to alter secret or identity is disabled.</td>
+</tr>
+<tr>
+<td>vote-expiration</td>
+<td>An amount of time to keep votes that have not been redeemed by a player, specified in <strong>days</strong>.</td>
+</tr>
+<tr>
+<td>onvote</td>
+<td>A list of commands that are to be ran when a vote is retrieved. The following variables can be used in the commands: %player, %site, %ip.</td>
+</tr>
+<tr>
+<td>votes</td>
+<td>A list of votes waiting for players to log on. Please leave this alone.</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Permission</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/vote</td>
+<td>pocketvote.vote</td>
+<td>Shows the MCPE.guru voting link associated with the server.</td>
+</tr>
+<tr>
+<td>/vote top</td>
+<td>pocketvote.vote</td>
+<td>Shows the top voters the past month.</td>
+</tr>
+<tr>
+<td>/pocketvote identity [identity]</td>
+<td>pocketvote.admin</td>
+<td>This sets your plugin’s identity to the one you provided. Get your server’s identity from the server dashboard at pocketvote.io.</td>
+</tr>
+<tr>
+<td>/pocketvote secret [secret]</td>
+<td>pocketvote.admin</td>
+<td>This sets your plugin’s secret to the one you provided. Get your server’s secret from the server dashboard at pocketvote.io.</td>
+</tr>
+<tr>
+<td>/pocketvote cmd list</td>
+<td>pocketvote.admin</td>
+<td>Lists the commands that will run when a player votes.</td>
+</tr>
+<tr>
+<td>/pocketvote cmd add [command]</td>
+<td>pocketvote.admin</td>
+<td>Adds a command that is ran when a player votes. The following variables can be used in the command and will be replaced by the correct data: <strong>%player</strong>, <strong>%ip</strong> and <strong>%site</strong>. <em>Note that this command runs immediately as a player votes, regardless of whether they are online or not.</em>
+</td>
+</tr>
+<tr>
+<td>/pocketvote cmd remove [id]</td>
+<td>pocketvote.admin</td>
+<td>Removes the specified command. Use ‘cmd list’ to find the command id.</td>
+</tr>
+<tr>
+<td>/pocketvote cmdo list</td>
+<td>pocketvote.admin</td>
+<td>Lists the commands that will run when a player votes and is online.</td>
+</tr>
+<tr>
+<td>/pocketvote cmdo add [command]</td>
+<td>pocketvote.admin</td>
+<td>Adds a command that is ran when a player votes and is online. The following variables can be used in the command and will be replaced by the correct data: <strong>%player</strong>, <strong>%ip</strong> and <strong>%site</strong>. <em>Note that this command runs only when the player is online! If they are not online while voting this command will not run until they log on.</em>
+</td>
+</tr>
+<tr>
+<td>/pocketvote cmdo remove [id]</td>
+<td>pocketvote.admin</td>
+<td>Removes the specified command. Use ‘cmdo list’ to find the command id.</td>
+</tr>
+<tr>
+<td>/pocketvote link [name]</td>
+<td>pocketvote.admin</td>
+<td>Attempts to set your MCPE.guru link to the provided name. Your link will look something like this mcpe.guru/[name].</td>
+</tr>
+<tr>
+<td>TODO: MCPE.guru commands!</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-plugins-that-support-pocketvote" class="anchor" href="#plugins-that-support-pocketvote" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Plugins that support PocketVote</h1>
+<p>Made a plugin that supports PocketVote? <a href="https://github.com/ProjectInfinity/PocketVote-PocketMine/issues/new">Let me know! Open an issue on GitHub</a>.</p>
+<ul>
+<li>
+<a href="https://poggit.pmmp.io/p/PocketLotto" rel="nofollow">PocketLotto</a> - A lottery plugin for PocketMine with support for PocketVote.</li>
+<li>
+<a href="https://poggit.pmmp.io/p/topvoter" rel="nofollow">TopVoter</a> - A plugin that lists top voters using FloatingTextParticles.</li>
+<li>
+<a href="https://poggit.pmmp.io/p/voteparty" rel="nofollow">VoteParty</a> - A plugin that rewards players after a voting threshold is hit.</li>
+</ul>

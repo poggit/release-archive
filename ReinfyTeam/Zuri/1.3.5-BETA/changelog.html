@@ -1,0 +1,16 @@
+<p dir="auto"><strong>Release v1.3.5-BETA (Hotfix and Pre-Development Testing)</strong></p>
+<p dir="auto">This release includes several important fixes and updates to enhance modules with the latest versions of PocketMine-MP and PHP, as well as address recent issues reported by the community.</p>
+<ul dir="auto">
+<li>Fix false-positive and movement correction that causes false-flag in many modules.</li>
+<li>Fix false-flagging in Reach modules when creative.</li>
+<li>Fix crash at Regen (B): Division by Zero</li>
+<li>Fix false-positive in bows: KillAura (E)</li>
+<li>Improve AirJump Calculations</li>
+<li>Fix PlayerAPI-&gt;getHurtTicks() wrongly placed</li>
+<li>Fix AntiImmobile (A) for false-flagging player when using teleport command while on immobile/frozen.</li>
+<li>Fix Reach (B, C, D) not working checks.</li>
+<li>Fix Reach (A, B, C, D) false-flagging when player uses projectile. (probably bug of pocketmine when $event-&gt;getDamager() instanceof Player but $damager returning Player instead of Projectile which causes to false-flagging. See WorldManager::findEntity($id) for more information.)</li>
+<li>Optimize dependencies (for <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3105358578" data-permission-text="Title is private" data-url="https://github.com/ReinfyTeam/Zuri/issues/72" data-hovercard-type="issue" data-hovercard-url="/ReinfyTeam/Zuri/issues/72/hovercard" href="https://github.com/ReinfyTeam/Zuri/issues/72">#72</a>)</li>
+<li>Fix false-positive when colliding to bamboo/bamboo sapling</li>
+<li>Improve performance by Stop using in_array() (for <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3105358578" data-permission-text="Title is private" data-url="https://github.com/ReinfyTeam/Zuri/issues/72" data-hovercard-type="issue" data-hovercard-url="/ReinfyTeam/Zuri/issues/72/hovercard" href="https://github.com/ReinfyTeam/Zuri/issues/72">#72</a>)</li>
+</ul>

@@ -1,0 +1,57 @@
+<h1>
+<a id="user-content-stairseat" class="anchor" href="#stairseat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>StairSeat</h1>
+<p><strong>Sit on the stair block</strong>
+<strong>Supported all stair blocks</strong></p>
+<h3>
+<a id="user-content-feature" class="anchor" href="#feature" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Feature</h3>
+<p>You can sit on the stair block</p>
+<h3>
+<a id="user-content-how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h3>
+<p>Install this plugin and run your server.
+place stair block and tap (or click) it.
+To cancel, jump or sneak.</p>
+<h3>
+<a id="user-content-settings" class="anchor" href="#settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Settings</h3>
+<p>Open config.yml in plugin folder.</p>
+<ul>
+<li>
+<p><code>apply-world</code>             - World name for applying</p>
+<ul>
+<li>if you want multiple worlds, separate with comma   (e.g. test1, test2)</li>
+<li>(if set to true, all of worlds will be applied seat feature)</li>
+</ul>
+</li>
+<li>
+<p><code>allow-seat-high-height</code>  - Allow player to sit on seat if its height is higher than player</p>
+</li>
+<li>
+<p><code>allow-block-under-id</code>    - Player can sit on stair if under the block's id is this id.</p>
+<ul>
+<li>(if set to true, all of blocks are allowed)</li>
+<li>(Example: if set to 5 (oak wood block), player can sit on stair if under the stair's block is oak wood)</li>
+</ul>
+</li>
+<li>
+<p><code>send-tip-when-sit</code>       - Tap jump to exit the seat</p>
+<ul>
+<li>Replacement:</li>
+<li>
+<code>@b</code> - Block, its name, where player try to seat
+Example: You sit on @b Block!</li>
+</ul>
+</li>
+<li>
+<p><code>tryto-sit-already-inuse</code> - Send message when trying to seat on stair which is already used</p>
+<ul>
+<li>Replacement:
+<ul>
+<li>
+<code>@b</code> - Block, its name, where player try to seat</li>
+<li>
+<code>@p</code> - Sitting player's name
+Example: You are trying to seat @b but it is used by @p</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>

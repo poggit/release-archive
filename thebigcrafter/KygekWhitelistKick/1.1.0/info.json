@@ -1,0 +1,91 @@
+{
+    "id": 5583,
+    "name": "KygekWhitelistKick",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/KygekWhitelistKick/1.1.0",
+    "tagline": "Kicks not whitelisted players when server whitelist turned on",
+    "artifact_url": "https://poggit.pmmp.io/r/108597",
+    "downloads": 24,
+    "score": null,
+    "repo_id": 298542362,
+    "repo_name": "thebigcrafter/KygekWhitelistKick",
+    "project_id": 7786,
+    "project_name": "KygekWhitelistKick",
+    "build_id": 92021,
+    "build_number": 8,
+    "build_commit": "3d5b75790ac18fe725ec2b2aece91a82ce642934",
+    "description_url": "https://poggit.pmmp.io/r/110156",
+    "icon_url": "https://raw.githubusercontent.com/KygekTeam/KygekWhitelistKick/3d5b75790ac18fe725ec2b2aece91a82ce642934/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/110158",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1606007121,
+    "state": 5,
+    "last_state_change_date": 1607556093,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "autokick",
+        "kick",
+        "kygek",
+        "kygekautokick",
+        "kygekkick",
+        "kygekraqmak",
+        "kygekraqmakautokick",
+        "kygekraqmakkick",
+        "kygekraqmakwhitelist",
+        "kygekteamautokick",
+        "kygekteamkick",
+        "kygekteamwhitelist",
+        "kygekwhitelist",
+        "whitelist",
+        "whitelistkick"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "KygekDev",
+            "Kygekraqmak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

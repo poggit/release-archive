@@ -1,0 +1,68 @@
+{
+    "id": 14187,
+    "name": "wsRCON",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/wsRCON/1.0.0",
+    "tagline": "WebSocket remote console for PocketMine (an RCON Alternative)",
+    "artifact_url": "https://poggit.pmmp.io/r/259134",
+    "downloads": 80,
+    "score": 5,
+    "repo_id": 1046013244,
+    "repo_name": "HBIDamian/wsRCON",
+    "project_id": 14894,
+    "project_name": "wsRCON",
+    "build_id": 188863,
+    "build_number": 3,
+    "build_commit": "69625db5a3aa53f096bc1ec733a4001988c6dbbf",
+    "description_url": "https://poggit.pmmp.io/r/259241",
+    "icon_url": "https://raw.githubusercontent.com/HBIDamian/wsRCON/69625db5a3aa53f096bc1ec733a4001988c6dbbf/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1756356639,
+    "state": 5,
+    "last_state_change_date": 1757975842,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "console",
+        "rcon",
+        "websocket",
+        "ws",
+        "wsrcon"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HBIDamian"
+        ],
+        "Contributor": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

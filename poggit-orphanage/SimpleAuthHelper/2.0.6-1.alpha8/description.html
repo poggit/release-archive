@@ -1,0 +1,174 @@
+<h1>
+<a id="user-content-simpleauthhelper" class="anchor" href="#simpleauthhelper" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SimpleAuthHelper</h1>
+<ul>
+<li>Summary: Simplifies the way people authenticate to servers</li>
+<li>PocketMine-MP version: 1.6.2dev / 1.7dev (3.0.0-ALPHA7)</li>
+<li>DependencyPlugins: SimpleAuth</li>
+<li>OptionalPlugins:</li>
+<li>Categories: AdminTools</li>
+<li>Plugin Access: Commands, Other Plugins, Manages Permissions</li>
+</ul>
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p><strong>DO NOT POST QUESTION/BUG-REPORTS/REQUESTS IN THE REVIEWS</strong></p>
+<p>It is difficult to carry a conversation in the reviews.  If you<br>
+have a question/bug-report/request please use the<br>
+<a href="http://forums.pmmp.io">Forums</a> for<br>
+that.  You are more likely to get a response and help that way.</p>
+<p><em>NOTE:</em></p>
+<p>A plugin that simplifies the login process. Instead of<br>
+asking for commands, users simply chat away.</p>
+<p>I also provides for a number of tweaks that can improve the usability of<br>
+<a href="https://poggit.pmmp.io/p/SimpleAuth&gt;SimpleAuth&lt;/a&gt;.&lt;/p&gt;%0A&lt;h4&gt;Register%20process&lt;/h4&gt;%0A&lt;p&gt;Player%20connects%20for%20the%20first%20time.%20%20They%20are%20prompted%20to%20enter%20a&lt;br&gt;%0A&lt;em&gt;NEW&lt;/em&gt;%20password.%20%20They%20enter%20their%20password%20directly,%20without%20having%20to&lt;br&gt;%0Aenter%20&lt;strong&gt;/register&lt;/strong&gt;.&lt;/p&gt;%0A&lt;p&gt;They%20are%20asked%20for%20the%20password%20again%20to%20confirm.%20%20They%20re-enter%20their&lt;br&gt;%0Apassword%20(again%20without%20&lt;strong&gt;/register&lt;/strong&gt;).&lt;/p&gt;%0A&lt;h4&gt;Login%20process&lt;/h4&gt;%0A&lt;p&gt;Player%20connects%20again.%20%20They%20are%20prompted%20to%20enter%20their%20login&lt;br&gt;%0Apassword.%20%20They%20type%20their%20login%20password%20directly%20(without&lt;br&gt;%0A&lt;strong&gt;/login&lt;/strong&gt;).%20%20And%20they%20are%20in.&lt;/p&gt;%0A&lt;h2&gt;Documentation&lt;/h2&gt;%0A&lt;h3&gt;Commands&lt;/h3&gt;%0A&lt;ul&gt;%0A&lt;li&gt;&lt;em&gt;chpwd&lt;/em&gt;%20&lt;em&gt;&lt;old-pwd&gt;&lt;/em&gt;%0A&lt;ul&gt;%0A&lt;li&gt;Used%20by%20players%20to%20change%20their%20passwords.&lt;/li&gt;%0A&lt;/ul&gt;%0A&lt;/li&gt;%0A&lt;li&gt;&lt;em&gt;resetpwd&lt;/em&gt;%20&lt;em&gt;&lt;player&gt;&lt;/em&gt;%0A&lt;ul&gt;%0A&lt;li&gt;Used%20by%20ops%20to%20reset%20a%20players%20password.%20%20This%20actually%20unregisters&lt;br&gt;%0Athe%20password.&lt;/li&gt;%0A&lt;/ul&gt;%0A&lt;/li&gt;%0A&lt;li&gt;&lt;em&gt;preregister&lt;/em&gt;%20&lt;em&gt;&lt;player&gt;&lt;/em&gt;%20%20&lt;em&gt;&lt;passwd&gt;&lt;/em&gt;%0A&lt;ul&gt;%0A&lt;li&gt;Used%20by%20ops%20to%20pre-register%20players.&lt;/li&gt;%0A&lt;/ul&gt;%0A&lt;/li&gt;%0A&lt;li&gt;&lt;em&gt;logout&lt;/em&gt;%0A&lt;ul&gt;%0A&lt;li&gt;De-authenticates%20a%20player.&lt;/li&gt;%0A&lt;/ul&gt;%0A&lt;/li&gt;%0A&lt;/ul&gt;%0A&lt;h3&gt;Player%20pre-registration&lt;/h3&gt;%0A&lt;p&gt;It%20is%20possible%20to%20implement%20a%20web%20based%20pre-registration%20system%20with%20this&lt;br&gt;%0Aplugin.&lt;/p&gt;%0A&lt;ol&gt;%0A&lt;li&gt;&lt;em&gt;rcon&lt;/em&gt;%20must%20be%20enabled%20on%20the%20PocketMine%20server.&lt;/li&gt;%0A&lt;li&gt;web%20server%20must%20be%20able%20to%20send%20&lt;em&gt;rcon&lt;/em&gt;%20commands%20to%20PocketMine.&lt;/li&gt;%0A&lt;li&gt;Enable%20the%20&lt;em&gt;whitelist&lt;/em&gt;%20functionality%20in%20PocketMine.&lt;/li&gt;%0A&lt;li&gt;Install%20&lt;em&gt;SimpleAuth&lt;/em&gt;%20and%20&lt;em&gt;SimpleAuthHelper&lt;/em&gt;.&lt;/li&gt;%0A&lt;li&gt;&lt;strong&gt;Optionally&lt;/strong&gt;%20install%20&lt;em&gt;PurePerms&lt;/em&gt;%20and%20disable&lt;br&gt;%0A&lt;code&gt;simpleauthhelper.command.chpwd&lt;/code&gt;%20permission.%20%20You%20probably%20want&lt;br&gt;%0Ausers%20to%20change%20passwords%20from%20the%20web%20site.&lt;/li&gt;%0A&lt;li&gt;Whenever%20a%20user%20registers%20in%20web%20site,%20the%20web%20site%20script%20uses%20&lt;em&gt;rcon&lt;/em&gt;&lt;br&gt;%0Ato%20send%20the%20follwoing:%0A&lt;ul&gt;%0A&lt;li&gt;whitelist%20add%20&lt;em&gt;player&lt;/em&gt;&lt;/li&gt;%0A&lt;li&gt;preregister%20&lt;em&gt;player&lt;/em&gt;%20&lt;em&gt;passwd&lt;/em&gt;&lt;/li&gt;%0A&lt;/ul&gt;%0A&lt;/li&gt;%0A&lt;li&gt;Whenever%20a%20user%20changes%20password%20in%20web%20site,%20we%20use%20&lt;em&gt;rcon&lt;/em&gt;%20with:%0A&lt;ul&gt;%0A&lt;li&gt;resetpwd%20&lt;em&gt;player&lt;/em&gt;&lt;/li&gt;%0A&lt;li&gt;preregister%20&lt;em&gt;player&lt;/em&gt;%20&lt;em&gt;passwd&lt;/em&gt;&lt;/li&gt;%0A&lt;/ul&gt;%0A&lt;/li&gt;%0A&lt;/ol&gt;%0A&lt;h3&gt;Database%20Monitor&lt;/h3&gt;%0A&lt;p&gt;This%20module%20is%20responsible%20for%20monitoring%20the%20SimpleAuth%20data%20provider&lt;br&gt;%0Ato%20make%20sure%20that%20it%20is%20up%20and%20running%20and%20disable%20logins%20if%20it%20is%20not&lt;br&gt;%0Aavailable.&lt;/p&gt;%0A&lt;p&gt;It%20kicks%20off%20a%20background%20task%20that%20will%20poll%20the%20SimpleAuth%20data%20provider&lt;br&gt;%0Aby%20trying%20to%20retrieve%20the%20data%20from%20the%20">
+that you have configured and have working SimpleAuth provider the first<br>
+time you enable the database monitor.  This is because the "canary-account"<br>
+needs to be created (if it doesn't exist already).</a></p>
+<p>On a regular interval, the SimpleAuth<br>
+data provider is checked.  If it is not running, all unauthenticated players<br>
+are kicked and any new joins are not allowed.</p>
+<h3>
+<a id="user-content-permission-nodes" class="anchor" href="#permission-nodes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission Nodes</h3>
+<ul>
+<li>simpleauthhelper.command.chpwd: Allow users to change passwords</li>
+<li>simpleauthhelper.command.logout: Allow users to logout</li>
+<li>simpleauthhelper.command.resetpwd (op): Allow ops to reset other's passwords</li>
+<li>simpleauthhelper.command.prereg (op): Allow ops to pre-register users</li>
+</ul>
+<h3>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h3>
+<p>Configuration is through the <strong>config.yml</strong> file.</p>
+<h4>
+<a id="user-content-main" class="anchor" href="#main" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>main</h4>
+<ul>
+<li>max-attemps: kick player after this many login attempts.  NOTE: This conflicts with SimpleAuth's blockAfterFail setting</li>
+<li>login-timeout: must authenticate within this number of seconds</li>
+<li>leet-mode: lets players use also /login and /register</li>
+<li>chat-protect: prevent player to display their password in chat</li>
+<li>hide-unauth: EXPERIMENTAL, hide unauthenticated players</li>
+<li>event-fixer: EXPERIMENTAL, cancels additional events for unauthenticated players</li>
+<li>hack-login-perms: EXPERIMENTAL, overrides login permisions to make sure players can login</li>
+<li>hack-register-perms: EXPERIMENTAL, overrides register permisions to make sure players can register</li>
+<li>db-monitor: EXPERIMENTAL, enable database server monitoring</li>
+<li>monitor-settings: Configure database monitor settings</li>
+</ul>
+<h4>
+<a id="user-content-monitor-settings" class="anchor" href="#monitor-settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>monitor-settings</h4>
+<ul>
+<li>canary-account: account to query this account is tested to check database proper operations</li>
+<li>check-interval: how to often to check database (seconds)</li>
+</ul>
+<h2>
+<a id="user-content-translations" class="anchor" href="#translations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Translations</h2>
+<p>This plugin will honour the server language configuration.  The<br>
+languages currently available are:</p>
+<ul>
+<li>English</li>
+<li>German</li>
+<li>Spanish</li>
+<li>中文</li>
+</ul>
+<p>You can provide your own message file by creating a file called<br>
+<strong>messages.ini</strong> in the plugin config directory.<br>
+Check <a href="https://github.com/alejandroliu/pocketmine-plugins/tree/master/SimpleAuthHelper/resources/messages/">github</a><br>
+for sample files.<br>
+Alternatively, if you have<br>
+<a href="http://forums.pocketmine.net/plugins/grabbag.1060/">GrabBag</a><br>
+installed, you can create an empty <strong>messages.ini</strong> using the command:</p>
+<pre><code> pm dumpmsgs SimpleAuthHelper [lang]
+</code></pre>
+<h3>
+<a id="user-content-issues" class="anchor" href="#issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issues</h3>
+<ul>
+<li>Event Fixer: Crafting canceling doesn't work</li>
+</ul>
+<h2>
+<a id="user-content-changes" class="anchor" href="#changes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Changes</h2>
+<ul>
+<li>2.0.4: event-fixer
+<ul>
+<li>Disabled the craftItem event in event-fixer.</li>
+</ul>
+</li>
+<li>2.0.3: Password disclosure work-around
+<ul>
+<li>Works around bugs in SimleAuth that makes users' passwords visible.</li>
+</ul>
+</li>
+<li>2.0.2: Added translation
+<ul>
+<li>Added a zho.ini (中文) message file. (Contributed by <a href="https://github.com/edwinyoo44">@edwinyoo44</a>, closes #23)</li>
+<li>Added a deu.ini (German) message file. (Contributed by <a href="https://github.com/thebigsmileXD">@thebigsmileXD</a>)</li>
+<li>Documentation and library updates.</li>
+</ul>
+</li>
+<li>2.0.1: language defaults
+<ul>
+<li>make sure that languages default to English (reported by @minebuilder0110)</li>
+</ul>
+</li>
+<li>2.0.0: Major upgrade
+<ul>
+<li>uses now a common translation library</li>
+<li>Removed little used feature: nest-egg</li>
+<li>leet-mode also works for /register.</li>
+<li>Removed auto-ban.  It is now done in SimpleAuth.</li>
+<li>Added support for hiding unauthenticated players (Suggested by <a href="https://github.com/CaptainKenji17">@CaptainKenji17</a>)</li>
+<li>Added pre-register and logout command</li>
+<li>forces permissions to be set</li>
+<li>Added a task to monitor database server status</li>
+<li>Thanks <a href="https://github.com/rvachvg">@rvachvg</a> for helping debug this.</li>
+</ul>
+</li>
+<li>1.2.3: Security improvements
+<ul>
+<li>prevent user from chatting away their password</li>
+<li>add option so that players can also use "/login" to login.</li>
+</ul>
+</li>
+<li>1.2.2: Auto-Ban
+<ul>
+<li>Too many login attempts will cause the player to be banned.</li>
+</ul>
+</li>
+<li>1.2.1: CallbackTask deprecation
+<ul>
+<li>Removed CallbackTask deprecation warnings</li>
+</ul>
+</li>
+<li>1.2.0: max-logins
+<ul>
+<li>Suggestion from <a href="https://github.com/MCPEPIG">@MCPEPIG</a>
+<ul>
+<li>kick user out after <code>max-attempts</code>.</li>
+<li>Added a chpwd command.</li>
+</ul>
+</li>
+<li>Kick user out if not authenticated after <code>timeout</code> seconds.</li>
+<li>Added resetpwd command for ops</li>
+</ul>
+</li>
+<li>1.1.0: Small update
+<ul>
+<li>Added <code>nest-egg</code>
+</li>
+<li>Messages can be configured.</li>
+</ul>
+</li>
+<li>1.0.0: First release</li>
+</ul>
+<h1>
+<a id="user-content-copyright" class="anchor" href="#copyright" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright</h1>
+<pre><code>SimpleAuthHelper
+Copyright (C) 2015 Alejandro Liu
+All Rights Reserved.
+<p>This program is free software: you can redistribute it and/or modify<br>
+it under the terms of the GNU General Public License as published by<br>
+the Free Software Foundation, either version 2 of the License, or<br>
+(at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful,<br>
+but WITHOUT ANY WARRANTY; without even the implied warranty of<br>
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br>
+GNU General Public License for more details.</p>
+</code><p><code>You should have received a copy of the GNU General Public License<br>
+along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.<br>
+</code></p></pre><p></p>

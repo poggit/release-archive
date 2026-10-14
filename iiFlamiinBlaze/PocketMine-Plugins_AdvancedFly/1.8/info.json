@@ -1,0 +1,63 @@
+{
+    "id": 1235,
+    "name": "AdvancedFly",
+    "version": "1.8",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedFly/1.8",
+    "tagline": "An advanced survival fly plugin!",
+    "artifact_url": "https://poggit.pmmp.io/r/25942",
+    "downloads": 7122,
+    "score": null,
+    "repo_id": 107616049,
+    "repo_name": "iiFlamiinBlaze/PocketMine-Plugins",
+    "project_id": 1030,
+    "project_name": "AdvancedFly",
+    "build_id": 37790,
+    "build_number": 35,
+    "build_commit": "010538c21864c966250e05b97cd67263a09ceb0b",
+    "description_url": "https://poggit.pmmp.io/r/25941",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1521128060,
+    "state": 5,
+    "last_state_change_date": 1525028183,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "advancedfly",
+        "fly",
+        "iiflamiinblaze"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iiFlamiinBlaze"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

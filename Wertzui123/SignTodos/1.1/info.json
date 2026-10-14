@@ -1,0 +1,84 @@
+{
+    "id": 5405,
+    "name": "SignTodos",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/SignTodos/1.1",
+    "tagline": "A new way to make todo-lists inside minecraft",
+    "artifact_url": "https://poggit.pmmp.io/r/105213",
+    "downloads": 133,
+    "score": null,
+    "repo_id": 230816735,
+    "repo_name": "Wertzui123/SignTodos",
+    "project_id": 5979,
+    "project_name": "SignTodos",
+    "build_id": 89596,
+    "build_number": 11,
+    "build_commit": "4d18f3c08f0f2270bf44d92de9fec04eeff6eb85",
+    "description_url": "https://poggit.pmmp.io/r/105219",
+    "icon_url": "https://raw.githubusercontent.com/Wertzui123/SignTodos/4d18f3c08f0f2270bf44d92de9fec04eeff6eb85/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/105221",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1602331717,
+    "state": 5,
+    "last_state_change_date": 1602421972,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "signs",
+        "todolists"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Wertzui123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

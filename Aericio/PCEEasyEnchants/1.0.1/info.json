@@ -1,0 +1,62 @@
+{
+    "id": 4240,
+    "name": "PCEEasyEnchants",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/PCEEasyEnchants/1.0.1",
+    "tagline": "Allows you to easily create custom enchantments for PiggyCustomEnchants.",
+    "artifact_url": "https://poggit.pmmp.io/r/83398",
+    "downloads": 1069,
+    "score": 5,
+    "repo_id": 255209694,
+    "repo_name": "Aericio/PCEEasyEnchants",
+    "project_id": 6699,
+    "project_name": "PCEEasyEnchants",
+    "build_id": 75734,
+    "build_number": 2,
+    "build_commit": "20e3fbd89b610c22da4d9bfc85015638489ddbd5",
+    "description_url": "https://poggit.pmmp.io/r/83496",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/83498",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1587453087,
+    "state": 5,
+    "last_state_change_date": 1587465084,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "piggyce",
+        "piggycustomenchants",
+        "pmmp"
+    ],
+    "api": [
+        {
+            "from": "3.11.2",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.1.3",
+            "depRelId": 4114,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Aericio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

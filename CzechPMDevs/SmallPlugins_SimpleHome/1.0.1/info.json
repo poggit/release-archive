@@ -1,0 +1,64 @@
+{
+    "id": 1169,
+    "name": "SimpleHome",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SimpleHome/1.0.1",
+    "tagline": "Simple home plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/24301",
+    "downloads": 1065,
+    "score": null,
+    "repo_id": 90545218,
+    "repo_name": "CzechPMDevs/SmallPlugins",
+    "project_id": 1475,
+    "project_name": "SimpleHome",
+    "build_id": 36764,
+    "build_number": 15,
+    "build_commit": "2220a55767b564e237ccce7841efa78782072059",
+    "description_url": "https://poggit.pmmp.io/r/24670",
+    "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/SmallPlugins/2220a55767b564e237ccce7841efa78782072059/SimpleHome/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/24672",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1519070952,
+    "state": 5,
+    "last_state_change_date": 1519070952,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "home",
+        "simplehome"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "GamakCZ"
+        ],
+        "Contributor": [
+            "ShatteredAtom",
+            "VixikHD",
+            "Baducai",
+            "matthew69js"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

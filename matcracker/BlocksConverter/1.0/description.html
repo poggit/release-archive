@@ -1,0 +1,33 @@
+<h1>
+<a id="user-content-blocksconverter" class="anchor" href="#blocksconverter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BlocksConverter</h1>
+<p>BlocksConverter is a <strong>PocketMine-MP plugin</strong> that allows you to convert block IDs and datas to another type. For example, if you need to import a Minecraft Java Edition world, you can use it for convert to a Minecraft: BE world!</p>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<ul>
+<li>
+<strong>/convertqueue &lt;add|remove|status&gt; [levelName|all] (Permission: blocksconverter.commands.convertqueue)</strong>
+<ul>
+<li>
+<strong>/cq add &lt;levelname|all&gt;</strong>: It adds one or all worlds/levels in queue before the conversion.</li>
+<li>
+<strong>/cq remove &lt;levelname|all&gt;</strong>: It removes one or all worlds/levels from the queue.</li>
+<li>
+<strong>/cq status</strong>: It shows the status of current queue.</li>
+</ul>
+</li>
+<li>
+<strong>/convert &lt;levelname|queue&gt; [backup=true|false] (Permission: blocksconverter.commands.convert)</strong>
+<ul>
+<li>
+<strong>/convert levelname [backup=true|false]</strong>: It directly convert a world/level and it optionally runs a backup (by default is true)</li>
+<li>
+<strong>/convert queue [backup=true|false]</strong>: It starts to convert all the worlds/levels in queue.</li>
+</ul>
+</li>
+</ul>
+<h2>
+<a id="user-content-configuration-file" class="anchor" href="#configuration-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration file</h2>
+<p>For get help about configuration file (config.yml), just check <a href="https://github.com/matcracker/BlocksConverter/blob/master/README.md#configuration-file">here</a></p>
+<h2>
+<a id="user-content-important" class="anchor" href="#important" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Important</h2>
+<p>This plugin could take some time before the conversion isn't finished. While the conversion, <strong>don't</strong> try to stop or turn off the server until it's finished.</p>

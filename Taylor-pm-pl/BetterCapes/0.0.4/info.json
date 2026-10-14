@@ -1,0 +1,74 @@
+{
+    "id": 11893,
+    "name": "BetterCapes",
+    "version": "0.0.4",
+    "html_url": "https://poggit.pmmp.io/p/BetterCapes/0.0.4",
+    "tagline": "A plugin to change the player's capes",
+    "artifact_url": "https://poggit.pmmp.io/r/215458",
+    "downloads": 992,
+    "score": null,
+    "repo_id": 504964833,
+    "repo_name": "Taylor-pm-pl/BetterCapes",
+    "project_id": 11410,
+    "project_name": "BetterCapes",
+    "build_id": 159158,
+    "build_number": 16,
+    "build_commit": "79d2d0127a909f43959719d9f3a16bff111c4178",
+    "description_url": "https://poggit.pmmp.io/r/215455",
+    "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/BetterCapes/79d2d0127a909f43959719d9f3a16bff111c4178/assets/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/215457",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688904567,
+    "state": 5,
+    "last_state_change_date": 1688973159,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "bettercapes",
+        "capes",
+        "player",
+        "plugin",
+        "pmmp",
+        "skin"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

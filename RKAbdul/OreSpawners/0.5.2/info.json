@@ -1,0 +1,74 @@
+{
+    "id": 5603,
+    "name": "OreSpawners",
+    "version": "0.5.2",
+    "html_url": "https://poggit.pmmp.io/p/OreSpawners/0.5.2",
+    "tagline": "A pocketmine plugin, for adding OreSpawners (OreGens) to your server, that will produce ores over them upon placing them down.",
+    "artifact_url": "https://poggit.pmmp.io/r/108854",
+    "downloads": 1463,
+    "score": 5,
+    "repo_id": 294382244,
+    "repo_name": "RKAbdul/OreSpawners",
+    "project_id": 7727,
+    "project_name": "OreSpawners",
+    "build_id": 92172,
+    "build_number": 61,
+    "build_commit": "bcc76f93d6ff38cc6a3ab7a947621c1792f99c29",
+    "description_url": "https://poggit.pmmp.io/r/108853",
+    "icon_url": "https://raw.githubusercontent.com/RKAbdul/OreSpawners/bcc76f93d6ff38cc6a3ab7a947621c1792f99c29/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1606332226,
+    "state": 5,
+    "last_state_change_date": 1609084638,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "OreGens",
+        "Ores",
+        "Plugin",
+        "Pocketmine"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "AGTHARN"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEzTiles",
+            "project_id": 5968,
+            "repo_id": 230413415,
+            "repo_name": "DenielWorld/EzTiles",
+            "repo_path": "",
+            "build_commit": "d4db777beb6b6ccb7ec25355c218cb6e6cf5e690",
+            "build_id": 73280
+        }
+    ]
+}

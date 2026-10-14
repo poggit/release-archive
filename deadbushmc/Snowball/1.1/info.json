@@ -1,0 +1,59 @@
+{
+    "id": 8573,
+    "name": "Snowball",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/Snowball/1.1",
+    "tagline": "Custom Snowball for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/156728",
+    "downloads": 181,
+    "score": null,
+    "repo_id": 398572828,
+    "repo_name": "deadbushmc/Snowball",
+    "project_id": 9709,
+    "project_name": "Snowball",
+    "build_id": 120765,
+    "build_number": 4,
+    "build_commit": "4bf0c8589a25f25b9ce22b0c582930166e44ffb8",
+    "description_url": "https://poggit.pmmp.io/r/156725",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/156727",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1642001207,
+    "state": 5,
+    "last_state_change_date": 1642098641,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "deadbushmc"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

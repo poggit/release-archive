@@ -1,0 +1,62 @@
+{
+    "id": 12423,
+    "name": "DisableEnchantingTable",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DisableEnchantingTable/1.0.0",
+    "tagline": "A simple plugin to disable enchanting table.",
+    "artifact_url": "https://poggit.pmmp.io/r/223683",
+    "downloads": 368,
+    "score": null,
+    "repo_id": 693184739,
+    "repo_name": "Slayer-Return/DisableEnchantingTable",
+    "project_id": 13112,
+    "project_name": "DisableEnchantingTable",
+    "build_id": 164228,
+    "build_number": 3,
+    "build_commit": "423e9b4a1a938f667d87609acdcde750efeb58cf",
+    "description_url": "https://poggit.pmmp.io/r/223682",
+    "icon_url": "https://raw.githubusercontent.com/Slayer-Return/DisableEnchantingTable/423e9b4a1a938f667d87609acdcde750efeb58cf/book.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1695050377,
+    "state": 5,
+    "last_state_change_date": 1695081332,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        }
+    ],
+    "keywords": [
+        "enchant",
+        "enchantment",
+        "enchanting",
+        "enchanttable",
+        "enchantmenttable",
+        "enchantingtable"
+    ],
+    "api": [
+        {
+            "from": "5.5.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "nicholass003"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

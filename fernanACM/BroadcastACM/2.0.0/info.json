@@ -1,0 +1,114 @@
+{
+    "id": 11537,
+    "name": "BroadcastACM",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BroadcastACM/2.0.0",
+    "tagline": "The best announcer for PocketMine-MP 5.0 servers, make messages for your users very easily",
+    "artifact_url": "https://poggit.pmmp.io/r/210052",
+    "downloads": 203,
+    "score": null,
+    "repo_id": 493021287,
+    "repo_name": "fernanACM/BroadcastACM",
+    "project_id": 11169,
+    "project_name": "BroadcastACM",
+    "build_id": 156189,
+    "build_number": 19,
+    "build_commit": "79ac636d453522a577bf4c5c4444c441ac16e480",
+    "description_url": "https://poggit.pmmp.io/r/210655",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/BroadcastACM/79ac636d453522a577bf4c5c4444c441ac16e480/icon-broadcastacm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/210657",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685847974,
+    "state": 5,
+    "last_state_change_date": 1685853246,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "ACM",
+        "BroadCast",
+        "BroadCastACM",
+        "BroadCaster",
+        "sipe"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "869e1a734f63b5592bf3b962b992d195b52ad507",
+            "build_id": 156159
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

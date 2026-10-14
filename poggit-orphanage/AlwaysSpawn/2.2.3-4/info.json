@@ -1,0 +1,66 @@
+{
+    "id": 869,
+    "name": "AlwaysSpawn",
+    "version": "2.2.3-4",
+    "html_url": "https://poggit.pmmp.io/p/AlwaysSpawn/2.2.3-4",
+    "tagline": "Force Spawn on Join",
+    "artifact_url": "https://poggit.pmmp.io/r/17682",
+    "downloads": 493,
+    "score": null,
+    "repo_id": 83456263,
+    "repo_name": "poggit-orphanage/AlwaysSpawn",
+    "project_id": 316,
+    "project_name": "AlwaysSpawn",
+    "build_id": 31801,
+    "build_number": 21,
+    "build_commit": "3a65b29139204da74bc85240f469ed8820282459",
+    "description_url": "https://poggit.pmmp.io/r/17679",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/AlwaysSpawn/3a65b29139204da74bc85240f469ed8820282459/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/17681",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1512722454,
+    "state": 5,
+    "last_state_change_date": 1512722457,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Spawn"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA10"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ],
+        "Contributor": [
+            "dktapps",
+            "famima65536",
+            "SOF3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

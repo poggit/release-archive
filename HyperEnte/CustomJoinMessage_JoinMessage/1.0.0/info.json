@@ -1,0 +1,78 @@
+{
+    "id": 5042,
+    "name": "CustomJoinMessage",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomJoinMessage/1.0.0",
+    "tagline": "Let your players change their own JoinMessage",
+    "artifact_url": "https://poggit.pmmp.io/r/98722",
+    "downloads": 534,
+    "score": 5,
+    "repo_id": 284491317,
+    "repo_name": "HyperEnte/CustomJoinMessage",
+    "project_id": 7545,
+    "project_name": "JoinMessage",
+    "build_id": 85452,
+    "build_number": 2,
+    "build_commit": "c4055347b221cf38a6f68ea7a4c396a9a3f6e2f8",
+    "description_url": "https://poggit.pmmp.io/r/98727",
+    "icon_url": "https://raw.githubusercontent.com/HyperEnte-PHP/CustomJoinMessage/c4055347b221cf38a6f68ea7a4c396a9a3f6e2f8/JoinMessage/JoinMessageLOGO.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1596384672,
+    "state": 5,
+    "last_state_change_date": 1596387792,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HyperEnte"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

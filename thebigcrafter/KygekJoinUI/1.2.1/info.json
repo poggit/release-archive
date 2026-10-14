@@ -1,0 +1,97 @@
+{
+    "id": 5427,
+    "name": "KygekJoinUI",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/KygekJoinUI/1.2.1",
+    "tagline": "Shows an UI for information and guides of the server when players joins a server.",
+    "artifact_url": "https://poggit.pmmp.io/r/105514",
+    "downloads": 381,
+    "score": null,
+    "repo_id": 280075632,
+    "repo_name": "thebigcrafter/KygekJoinUI",
+    "project_id": 7417,
+    "project_name": "KygekJoinUI",
+    "build_id": 89838,
+    "build_number": 47,
+    "build_commit": "771a25a71c3669df87080eaaef6ba825003a1891",
+    "description_url": "https://poggit.pmmp.io/r/105511",
+    "icon_url": "https://raw.githubusercontent.com/Kygekraqmak/KygekJoinUI/771a25a71c3669df87080eaaef6ba825003a1891/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/105513",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1602636028,
+    "state": 5,
+    "last_state_change_date": 1602811996,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "join",
+        "joinui",
+        "joinwelcome",
+        "joinwelcomeui",
+        "kygek",
+        "kygekjoin",
+        "kygekjoinui",
+        "kygekraqmak",
+        "kygekteamjoin",
+        "kygekteamjoinui",
+        "kygekteamui",
+        "kygekteamwelcome",
+        "kygekteamwelcomeui",
+        "kygekui",
+        "kygekwelcome",
+        "kygekwelcomeui",
+        "ui",
+        "welcome",
+        "welcomejoin",
+        "welcomejoinui",
+        "welcomeui"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "aminozomty",
+            "NhanAZ",
+            "Kygekraqmak",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

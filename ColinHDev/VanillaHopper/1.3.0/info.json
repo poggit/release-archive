@@ -1,0 +1,66 @@
+{
+    "id": 8036,
+    "name": "VanillaHopper",
+    "version": "1.3.0",
+    "html_url": "https://poggit.pmmp.io/p/VanillaHopper/1.3.0",
+    "tagline": "Implementation of hopper logic for pushing, pulling and picking up items for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/148860",
+    "downloads": 567,
+    "score": 5,
+    "repo_id": 404104856,
+    "repo_name": "ColinHDev/VanillaHopper",
+    "project_id": 9666,
+    "project_name": "VanillaHopper",
+    "build_id": 111783,
+    "build_number": 7,
+    "build_commit": "1b8980625bbf13673b3d8ba6f555c61ba48d8a1e",
+    "description_url": "https://poggit.pmmp.io/r/149527",
+    "icon_url": "https://raw.githubusercontent.com/ColinHDev/VanillaHopper/1b8980625bbf13673b3d8ba6f555c61ba48d8a1e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638251688,
+    "state": 5,
+    "last_state_change_date": 1638779168,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "hopper",
+        "hoppers"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ColinHDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

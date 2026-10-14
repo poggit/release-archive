@@ -1,0 +1,53 @@
+{
+    "id": 5498,
+    "name": "SpawnCMD",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/SpawnCMD/1.1",
+    "tagline": "Adds /spawn to your PMMP server!",
+    "artifact_url": "https://poggit.pmmp.io/r/106731",
+    "downloads": 97,
+    "score": 5,
+    "repo_id": 276963910,
+    "repo_name": "minijaham/SpawnCMD",
+    "project_id": 7346,
+    "project_name": "SpawnCMD",
+    "build_id": 90734,
+    "build_number": 8,
+    "build_commit": "794d892f14fa0f7a4489f0ed0412549a6b7c2aa2",
+    "description_url": "https://poggit.pmmp.io/r/106728",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/106730",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1603908290,
+    "state": 5,
+    "last_state_change_date": 1604072764,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "spawn"
+    ],
+    "api": [
+        {
+            "from": "3.14.2",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "minijaham"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,51 @@
+{
+    "id": 2841,
+    "name": "CustomQuery",
+    "version": "1.0.2-ALPHA",
+    "html_url": "https://poggit.pmmp.io/p/CustomQuery/1.0.2-ALPHA",
+    "tagline": "A customizable query plugin, where you can configure anything that relates to Querying your server.",
+    "artifact_url": "https://poggit.pmmp.io/r/57278",
+    "downloads": 105,
+    "score": 5,
+    "repo_id": 184046674,
+    "repo_name": "iZeaoGamer/CustomQuery",
+    "project_id": 4970,
+    "project_name": "CustomQuery",
+    "build_id": 58913,
+    "build_number": 25,
+    "build_commit": "1109b7e8a0f67d2d55a3aa0086a51d685eda9f7b",
+    "description_url": "https://poggit.pmmp.io/r/57275",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/57277",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1556749389,
+    "state": 5,
+    "last_state_change_date": 1556876066,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iZeaoGamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

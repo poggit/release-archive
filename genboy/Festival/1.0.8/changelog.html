@@ -1,0 +1,325 @@
+<p>In v1.0.8 Festival has 8 new flags, 2 flag changes and some great protective enhancements; Mobs and Animals flags to prevent spawning, including spawner and egg usage.  TNT flag, protecting area’s only from tnt block explosions, and Explode, protecting area’s from entities exploding. And the Fire flag now protects area’s from fire (incl. flint &amp; steal) and lava. In v1.0.7 -1.0.7.2-dev the tnt, hunger, no fall damage and shoot flags where tested, fire (player burning) is extinguished when player does not get damage (aka. in area with god flag on) and area chat-messages are hidden when msg flag is true. The Edit flag is extended to protect itemframes and dirt/grass from players creating farmland. Last is the cmdmode flag, area commands testing mode for ops only.</p>
+<p>Oh wait, just forgot some amazing new options:)</p>
+<p>-&gt; Translations! -/fe lang en/nl (so far), set option in config.yml - Festival responses in your language? help translating thank you!<br>
+-&gt; Area Floating titles - /fe titles toggles the floating area's titles center top area (if allowed by configs, and area msg flag must be off)<br>
+-&gt; A very important code fix includes a change in 10 functions constantly running on player move event, to check the area's a player is in. This has improved both speed and accuracy for Festival. (since v1.0.7.5)</p>
+<p>read more at: <a href="https://genboy.net/festival/" rel="nofollow">https://genboy.net/festival/</a></p>
+<p>Details:</p>
+<ul>
+<li>no TNT block placing  with TNT flag</li>
+<li>Add  flint &amp; steel protection
+<ul>
+<li>
+<ul>
+<li>moving actions to checks in onInteract event</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Add NFD to config
+<ul>
+<li>BTW, NFD stands for NoFallDamage.</li>
+</ul>
+</li>
+<li>Added (fire) bucket Fire flag no lava</li>
+<li>Added type hints.</li>
+<li>Animals flag and Mobs flag testing</li>
+<li>Area Floating Header Test</li>
+<li>Area Floating Title ingame toggle for ops and whitelisted players</li>
+<li>Area title floating display + info &amp; version update</li>
+<li>Areadisplay: op makes floating title also visible for whitelisted players</li>
+<li>Code clean &amp; ordening</li>
+<li>Code fix on flag default check (rule order)</li>
+<li>Delete question-or-suggestion.md</li>
+<li>Delete something-is-wrong.md</li>
+<li>Dev Test version</li>
+<li>Enhancement TNT Flag</li>
+<li>Festival Release 1.0.8
+<ul>
+<li>Festival 1.0.8</li>
+<li>Features &amp; changes:</li>
+<li>
+<ul>
+<li>Language /fe lang &lt;en/nl/..&gt; - set Festival language in config.yml</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Edit flag includes No Farmland creation</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Edit flag includes protect item in frame use</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>!NEW Fire flag includes No Fire from Flint &amp; Steel and No lava</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>!NEW TNT flag includes No TNT placing or tnt explosions</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>!NEW Explode flag includes No entity explosions</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Areas floating title (/fe titles - Areadisplay option in config.yml)</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Mobs flag prevent mobs from spawning in area</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Animals flag prevent animals from spawning in area</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Area messages display in chat with config option Msgtype 'msg'</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>cmd flag: area event commands for ops or whitelisted players only</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fix active area titles level</li>
+<li>Fix empty areas data</li>
+<li>Fix some grammatical errors.</li>
+<li>Function namechange and  TP adjustment</li>
+<li>Info &amp; image update</li>
+<li>Info &amp; usage image v1.0.8(dev2)</li>
+<li>Info &amp; usage image v1.0.8(dev2)
+<ul>
+<li>and testing update routine</li>
+</ul>
+</li>
+<li>Lava in fire flag onBlockupdate</li>
+<li>Main: Implement No Fall Damage flag
+<ul>
+<li>Along with that, I've also added the needed events for No Fall Damage flag.</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="374692046" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/100" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/100/hovercard" href="https://github.com/genboy/Festival/pull/100">#100</a> from genboy/flagtest
+<ul>
+<li>Lava in fire flag onBlockupdate</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="379464656" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/101" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/101/hovercard" href="https://github.com/genboy/Festival/pull/101">#101</a> from genboy/flagtest
+<ul>
+<li>fire flag extinguishing players and blocks (onblockupdate) +info update</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="379466327" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/102" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/102/hovercard" href="https://github.com/genboy/Festival/pull/102">#102</a> from genboy/master
+<ul>
+<li>Dev v1.0.8</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="349694030" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/64" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/64/hovercard" href="https://github.com/genboy/Festival/pull/64">#64</a> from genboy/master
+<ul>
+<li>Msg rules dbug flight &amp; warnings</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="350947265" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/68" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/68/hovercard" href="https://github.com/genboy/Festival/pull/68">#68</a> from genboy/development
+<ul>
+<li>Development</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="351712949" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/70" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/70/hovercard" href="https://github.com/genboy/Festival/pull/70">#70</a> from genboy/master
+<ul>
+<li>Dev update 1.0.7.2</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="351891208" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/71" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/71/hovercard" href="https://github.com/genboy/Festival/pull/71">#71</a> from genboy/Remake1
+<ul>
+<li>Remake1 update - improves speed and overlapping area settings</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="351892173" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/73" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/73/hovercard" href="https://github.com/genboy/Festival/pull/73">#73</a> from genboy/master
+<ul>
+<li>Update 1.0.7.3-dev</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="352749234" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/77" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/77/hovercard" href="https://github.com/genboy/Festival/pull/77">#77</a> from genboy/master
+<ul>
+<li>Fixes &amp; naming</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="356119889" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/81" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/81/hovercard" href="https://github.com/genboy/Festival/pull/81">#81</a> from genboy/master
+<ul>
+<li>1,0,7,5-dev</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="360051821" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/85" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/85/hovercard" href="https://github.com/genboy/Festival/pull/85">#85</a> from genboy/master
+<ul>
+<li>1.0.7.6-dev</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="362903990" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/87" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/87/hovercard" href="https://github.com/genboy/Festival/pull/87">#87</a> from genboy/master
+<ul>
+<li>update v1.0.7.8-dev</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="362904183" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/88" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/88/hovercard" href="https://github.com/genboy/Festival/pull/88">#88</a> from genboy/master
+<ul>
+<li>/fe lang &lt;en/nl/..&gt; - set Festival language</li>
+<li>Edit flag now includes</li>
+<li>No Farmland creation</li>
+<li>No Fire from Flint &amp; Steel</li>
+<li>No TNT placing</li>
+<li>No TNT ignition with Flint &amp; Steel</li>
+<li>Protect item in frame</li>
+<li></li>
+<li>fixed lint error ?&gt; 0</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="365217045" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/91" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/91/hovercard" href="https://github.com/genboy/Festival/pull/91">#91</a> from iZeaoGamer/patch-3
+<ul>
+<li>Fix some typos and grammar errors</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="367380282" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/93" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/93/hovercard" href="https://github.com/genboy/Festival/pull/93">#93</a> from genboy/development
+<ul>
+<li>Development Refreshed</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="370794586" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/94" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/94/hovercard" href="https://github.com/genboy/Festival/pull/94">#94</a> from genboy/master
+<ul>
+<li>Fixes &amp; code clean</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="372217622" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/95" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/95/hovercard" href="https://github.com/genboy/Festival/pull/95">#95</a> from genboy/master
+<ul>
+<li>fix spawnentity FallingBlock FallingSand</li>
+</ul>
+</li>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="374172957" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/98" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/98/hovercard" href="https://github.com/genboy/Festival/pull/98">#98</a> from genboy/flagtest
+<ul>
+<li>split tnt to explode, tnt and fire flags</li>
+</ul>
+</li>
+<li>Merge remote-tracking branch 'origin/master'</li>
+<li>Mobs &amp; Animals Flags dev take1</li>
+<li>New CDMmode flag for testing commands (ops only)</li>
+<li>New: issue templates
+<ul>
+<li>Take in accurate data to solve more quickly</li>
+</ul>
+</li>
+<li>No Fall Damage flag implement (thank you iZeaoGamer) &amp; flight msg op</li>
+<li>No mobs flag - no spawning test2: allow leaving droppings &amp; Exporbs</li>
+<li>NoFallDamage area flag implementation by iZeaoGamer
+<ul>
+<li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="350894290" data-permission-text="Issue title is private" data-url="https://github.com/genboy/Festival/issues/67" data-hovercard-type="pull_request" data-hovercard-url="/genboy/Festival/pull/67/hovercard" href="https://github.com/genboy/Festival/pull/67">#67</a> from iZeaoGamer/patch-1</li>
+</ul>
+</li>
+<li>NoFallDamage flag test and hunger flag fix</li>
+<li>Partly translated</li>
+<li>Release 1.0.8 ready
+<ul>
+<li>Festival 1.0.8 Features &amp; changes:</li>
+<li>
+<ul>
+<li>/fe lang &lt;en/nl/..&gt; - set  Festival language in config.yml</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Edit flag includes No Farmland creation</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Edit flag includes protect item in frame use</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>!NEW Fire flag includes No Fire from Flint &amp; Steel and No lava</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>!NEW TNT flag includes No TNT placing or tnt explosions</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>!NEW Explode flag includes No entity explosions</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Areas floating title (/fe titles - Areadisplay option in config.yml)</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Mobs flag prevent mobs from spawning in area</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Animals flag prevent animals from spawning in area</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Area messages display in chat with config option Msgtype 'msg'</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>cmd flag: area event commands for ops or whitelisted players only</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Release ready</li>
+<li>Reverse Fix canPVP</li>
+<li>Round up TNT / Flint  Steel - TNT/Touch(Edit) Flag</li>
+<li>Separated Explode, TNT and Fire flags</li>
+<li>Shoot flag implement &amp; testing message inside method for area flag</li>
+<li>Test  loop only player related area's ( inArea, areaList) for player events</li>
+<li>Translation test setup with json resource and ingame player permission</li>
+<li>Translations complete (english/dutch)</li>
+<li>Update 1.0.7.3-dev</li>
+<li>Update README.md</li>
+<li>Update dev version</li>
+<li>Update full loop / no breaks reading rule order area's + code cleanup</li>
+<li>Update info</li>
+<li>Update info &amp; version</li>
+<li>Update issue templates</li>
+<li>Update plugin.yml</li>
+<li>buggy test Mobs/spawn flag</li>
+<li>check tnt</li>
+<li>cleaning</li>
+<li>debug flight and warnings msg rules/flag</li>
+<li>dev update</li>
+<li>edit flag now includes  farm land and  item frame (touch)  events</li>
+<li>entity quick &amp; clean remove</li>
+<li>fire flag extinguishing players and blocks (onblockupdate) +info update</li>
+<li>fix check</li>
+<li>fix level area floating titles &amp; reset permissions</li>
+<li>fix spawnentity FallingBlock FallingSand</li>
+<li>img</li>
+<li>info #_#</li>
+<li>info text</li>
+<li>name change FallDamage flag + info</li>
+<li>renamed function areaInfoDisplayList &amp; more inArea</li>
+<li>testing permissions &amp; msg</li>
+<li>update flag info</li>
+<li>version bump.</li>
+</ul>

@@ -1,0 +1,66 @@
+{
+    "id": 8463,
+    "name": "NoDrops",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/NoDrops/1.0.0",
+    "tagline": "A PocketMine-MP plugin to prohibit players from dropping their items",
+    "artifact_url": "https://poggit.pmmp.io/r/155143",
+    "downloads": 122,
+    "score": 5,
+    "repo_id": 436257161,
+    "repo_name": "AIPTU/NoDrops",
+    "project_id": 10093,
+    "project_name": "NoDrops",
+    "build_id": 119844,
+    "build_number": 4,
+    "build_commit": "e20961f4f155cd81dcd96b5d43c6995f68d0e6e0",
+    "description_url": "https://poggit.pmmp.io/r/155150",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/NoDrops/e20961f4f155cd81dcd96b5d43c6995f68d0e6e0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641032507,
+    "state": 5,
+    "last_state_change_date": 1641830405,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

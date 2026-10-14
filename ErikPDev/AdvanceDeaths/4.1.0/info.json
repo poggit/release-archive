@@ -1,0 +1,79 @@
+{
+    "id": 11885,
+    "name": "AdvanceDeaths",
+    "version": "4.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AdvanceDeaths/4.1.0",
+    "tagline": "A plugin to customize the death messages with more features!",
+    "artifact_url": "https://poggit.pmmp.io/r/215292",
+    "downloads": 1935,
+    "score": 3,
+    "repo_id": 283014127,
+    "repo_name": "ErikPDev/AdvanceDeaths",
+    "project_id": 7513,
+    "project_name": "AdvanceDeaths",
+    "build_id": 159036,
+    "build_number": 156,
+    "build_commit": "7a1594add0e367635c642847479d0c96bfdcbf7c",
+    "description_url": "https://poggit.pmmp.io/r/215289",
+    "icon_url": "https://raw.githubusercontent.com/ErikPDev/AdvanceDeaths/7a1594add0e367635c642847479d0c96bfdcbf7c/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/215291",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688830986,
+    "state": 5,
+    "last_state_change_date": 1688972572,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "advance",
+        "deaths",
+        "instant",
+        "kill",
+        "money",
+        "respawn",
+        "SQLite"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ErikPDev"
+        ],
+        "Contributor": [
+            "lazyperson0710",
+            "IvanCraft623",
+            "UnEnanoMas",
+            "MrBlasyMSK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "cf06deec50469065abe7994bbb623f2d54ccc965",
+            "build_id": 157740
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "id": 11892,
+    "name": "PlayerWarn",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerWarn/1.0.0",
+    "tagline": "A PocketMine-MP plugin that allows server administrators to issue warnings to players and keep track of their warning history.",
+    "artifact_url": "https://poggit.pmmp.io/r/215398",
+    "downloads": 194,
+    "score": null,
+    "repo_id": 664214045,
+    "repo_name": "AIPTU/PlayerWarn",
+    "project_id": 12759,
+    "project_name": "PlayerWarn",
+    "build_id": 159103,
+    "build_number": 1,
+    "build_commit": "10d61a33d584494cb8a1de0dc2d1bd9bae45aff3",
+    "description_url": "https://poggit.pmmp.io/r/215397",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/PlayerWarn/10d61a33d584494cb8a1de0dc2d1bd9bae45aff3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1688895130,
+    "state": 5,
+    "last_state_change_date": 1688986027,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-mp-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

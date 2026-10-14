@@ -1,0 +1,64 @@
+{
+    "id": 1577,
+    "name": "LockIt",
+    "version": "1.3.5",
+    "html_url": "https://poggit.pmmp.io/p/LockIt/1.3.5",
+    "tagline": "Lock Iron Doors",
+    "artifact_url": "https://poggit.pmmp.io/r/34600",
+    "downloads": 7807,
+    "score": 5,
+    "repo_id": 60999912,
+    "repo_name": "Awzaw/LockIt",
+    "project_id": 185,
+    "project_name": "LockIt",
+    "build_id": 44253,
+    "build_number": 21,
+    "build_commit": "bb768e65402c5f657894189457401dfed567232a",
+    "description_url": "https://poggit.pmmp.io/r/34597",
+    "icon_url": "https://raw.githubusercontent.com/Awzaw/LockIt/bb768e65402c5f657894189457401dfed567232a/lockit.png",
+    "changelog_url": "https://poggit.pmmp.io/r/34599",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529595072,
+    "state": 5,
+    "last_state_change_date": 1529595075,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "doors",
+        "lock",
+        "lockit",
+        "irondoor"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

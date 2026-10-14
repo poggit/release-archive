@@ -1,0 +1,55 @@
+{
+    "id": 11502,
+    "name": "OnlineUI",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/OnlineUI/3.0.0",
+    "tagline": "Check who are in the server with UI, for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/209658",
+    "downloads": 107,
+    "score": null,
+    "repo_id": 393824673,
+    "repo_name": "Kylan1940/OnlineUI",
+    "project_id": 9463,
+    "project_name": "OnlineUI",
+    "build_id": 156015,
+    "build_number": 22,
+    "build_commit": "f3bf181ca2d13a679c6498791db44a6a83ca38c6",
+    "description_url": "https://poggit.pmmp.io/r/209655",
+    "icon_url": "https://raw.githubusercontent.com/Kylan1940/OnlineUI/f3bf181ca2d13a679c6498791db44a6a83ca38c6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209657",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685765045,
+    "state": 5,
+    "last_state_change_date": 1685769478,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Online",
+        "OnlineUI",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Kylan1940"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

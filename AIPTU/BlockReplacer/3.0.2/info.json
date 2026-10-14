@@ -1,0 +1,88 @@
+{
+    "id": 13008,
+    "name": "BlockReplacer",
+    "version": "3.0.2",
+    "html_url": "https://poggit.pmmp.io/p/BlockReplacer/3.0.2",
+    "tagline": "PocketMine-MP plugin that replaces a block with another block at a predetermined time.",
+    "artifact_url": "https://poggit.pmmp.io/r/238247",
+    "downloads": 325,
+    "score": null,
+    "repo_id": 394012778,
+    "repo_name": "AIPTU/BlockReplacer",
+    "project_id": 9472,
+    "project_name": "BlockReplacer",
+    "build_id": 174766,
+    "build_number": 89,
+    "build_commit": "c3eb26a37adcc0c1d415ab931e6d3fc5aee474ac",
+    "description_url": "https://poggit.pmmp.io/r/238244",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/BlockReplacer/c3eb26a37adcc0c1d415ab931e6d3fc5aee474ac/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/238246",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1714487208,
+    "state": 5,
+    "last_state_change_date": 1714837462,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "5.5.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "KRUNCHSHooT"
+        ],
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 12635,
+            "repo_id": 653680934,
+            "repo_name": "LatamPMDevs/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c3a71ae577df5b5f174e4c2bb99d76182d05b420",
+            "build_id": 157396
+        },
+        {
+            "name": "Sounds",
+            "project_id": 12682,
+            "repo_id": 524539844,
+            "repo_name": "AIPTU/Sounds",
+            "repo_path": "",
+            "build_commit": "12f2156d3e5196da507e34b9a2c36bc04f42369a",
+            "build_id": 174739
+        }
+    ]
+}

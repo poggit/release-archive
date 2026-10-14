@@ -1,0 +1,64 @@
+{
+    "id": 2731,
+    "name": "ByteMe",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ByteMe/1.0.0",
+    "tagline": "Checks for and handles problems with signs that exceed the character limit.",
+    "artifact_url": "https://poggit.pmmp.io/r/55634",
+    "downloads": 1990,
+    "score": 4,
+    "repo_id": 181100047,
+    "repo_name": "BreathTakinglyBinary/ByteMe",
+    "project_id": 4913,
+    "project_name": "ByteMe",
+    "build_id": 58123,
+    "build_number": 4,
+    "build_commit": "e8cec42b7fa5b4f3ee9b140d5eb5844291272b27",
+    "description_url": "https://poggit.pmmp.io/r/55633",
+    "icon_url": "https://raw.githubusercontent.com/BreathTakinglyBinary/ByteMe/e8cec42b7fa5b4f3ee9b140d5eb5844291272b27/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1555119006,
+    "state": 5,
+    "last_state_change_date": 1555184975,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "cheat",
+        "hack",
+        "sign",
+        "book"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "95CivicSi"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

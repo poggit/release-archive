@@ -1,0 +1,70 @@
+{
+    "id": 3829,
+    "name": "NaviCompass",
+    "version": "2.1.1",
+    "html_url": "https://poggit.pmmp.io/p/NaviCompass/2.1.1",
+    "tagline": "A plugin that allows transferring between worlds and server networks with ease!",
+    "artifact_url": "https://poggit.pmmp.io/r/76302",
+    "downloads": 153,
+    "score": null,
+    "repo_id": 168095326,
+    "repo_name": "Xenophilicy/NaviCompass",
+    "project_id": 4628,
+    "project_name": "NaviCompass",
+    "build_id": 71315,
+    "build_number": 27,
+    "build_commit": "4c307ef29054b71df837c86788d3ad51429fa453",
+    "description_url": "https://poggit.pmmp.io/r/76304",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/NaviCompass/4c307ef29054b71df837c86788d3ad51429fa453/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/76306",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582032199,
+    "state": 5,
+    "last_state_change_date": 1582046888,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Compass",
+        "FormAPI",
+        "List",
+        "Navi",
+        "Server",
+        "Transfer",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Gianluxx",
+            "JavierLeon9966",
+            "HyperFlareMC",
+            "Superomarking"
+        ],
+        "Collaborator": [
+            "Xenophilicy",
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

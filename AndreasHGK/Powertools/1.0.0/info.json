@@ -1,0 +1,59 @@
+{
+    "id": 2445,
+    "name": "Powertools",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Powertools/1.0.0",
+    "tagline": "Assign commands to items",
+    "artifact_url": "https://poggit.pmmp.io/r/51541",
+    "downloads": 5429,
+    "score": 4,
+    "repo_id": 148898742,
+    "repo_name": "AndreasHGK/Powertools",
+    "project_id": 3967,
+    "project_name": "Powertools",
+    "build_id": 55794,
+    "build_number": 5,
+    "build_commit": "f5d85cf00ebd1d2bf519b2e4ffd5b227c808d966",
+    "description_url": "https://poggit.pmmp.io/r/51538",
+    "icon_url": "https://raw.githubusercontent.com/AndreasHGK/Powertools/f5d85cf00ebd1d2bf519b2e4ffd5b227c808d966/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/51540",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1549660569,
+    "state": 5,
+    "last_state_change_date": 1549825629,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "powertools",
+        "pt",
+        "command"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AndreasHGK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

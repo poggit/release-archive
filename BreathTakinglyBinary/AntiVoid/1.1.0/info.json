@@ -1,0 +1,57 @@
+{
+    "id": 2932,
+    "name": "AntiVoid",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiVoid/1.1.0",
+    "tagline": "A simple plugin to save players from dying in the void.",
+    "artifact_url": "https://poggit.pmmp.io/r/58674",
+    "downloads": 10608,
+    "score": 4,
+    "repo_id": 177669339,
+    "repo_name": "BreathTakinglyBinary/AntiVoid",
+    "project_id": 4839,
+    "project_name": "AntiVoid",
+    "build_id": 59788,
+    "build_number": 7,
+    "build_commit": "28c7c2a8154a0b41588c71024e8efbc18ca933fc",
+    "description_url": "https://poggit.pmmp.io/r/58671",
+    "icon_url": "https://raw.githubusercontent.com/BreathTakinglyBinary/AntiVoid/28c7c2a8154a0b41588c71024e8efbc18ca933fc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/58673",
+    "license": "unlicense",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1558945647,
+    "state": 5,
+    "last_state_change_date": 1559221752,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Void"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "95CivicSi"
+        ],
+        "Contributor": [
+            "DuoIncure",
+            "StarryN1ght"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

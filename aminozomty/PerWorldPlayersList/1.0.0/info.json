@@ -1,0 +1,62 @@
+{
+    "id": 5246,
+    "name": "PerWorldPlayersList",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PerWorldPlayersList/1.0.0",
+    "tagline": "Shows only players that are in the same world with you in the player list menu",
+    "artifact_url": "https://poggit.pmmp.io/r/102153",
+    "downloads": 211,
+    "score": 5,
+    "repo_id": 290795227,
+    "repo_name": "aminozomty/PerWorldPlayersList",
+    "project_id": 7682,
+    "project_name": "PerWorldPlayersList",
+    "build_id": 87228,
+    "build_number": 2,
+    "build_commit": "f62335db31f78ea3cd14714e3f6646703278b22e",
+    "description_url": "https://poggit.pmmp.io/r/102272",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1599399725,
+    "state": 5,
+    "last_state_change_date": 1599404384,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "List",
+        "PerPlayers",
+        "PerWorld",
+        "PlayersList",
+        "PlayerWorld"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "aminozomty",
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

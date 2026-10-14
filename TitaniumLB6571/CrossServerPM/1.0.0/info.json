@@ -1,0 +1,65 @@
+{
+    "id": 14433,
+    "name": "CrossServerPM",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CrossServerPM/1.0.0",
+    "tagline": "Cross-server private messaging for PocketMine-MP networks.",
+    "artifact_url": "https://poggit.pmmp.io/r/264096",
+    "downloads": 35,
+    "score": null,
+    "repo_id": 1212164380,
+    "repo_name": "TitaniumLB6571/CrossServerPM",
+    "project_id": 15219,
+    "project_name": "CrossServerPM",
+    "build_id": 192427,
+    "build_number": 1,
+    "build_commit": "fc60108f5c19988ad85dc1d06ea359f97124efc6",
+    "description_url": "https://poggit.pmmp.io/r/264095",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1776329559,
+    "state": 5,
+    "last_state_change_date": 1777669917,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chat"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TitaniumLB6571"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

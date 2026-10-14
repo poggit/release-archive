@@ -1,0 +1,81 @@
+{
+    "id": 9754,
+    "name": "SpectreZone",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SpectreZone/1.0.1",
+    "tagline": "Creates a Spectre Zone dimension based on the MC Java Random Things Mod",
+    "artifact_url": "https://poggit.pmmp.io/r/176412",
+    "downloads": 55,
+    "score": 5,
+    "repo_id": 108775005,
+    "repo_name": "jasonw4331/SpectreZone",
+    "project_id": 11088,
+    "project_name": "SpectreZone",
+    "build_id": 133567,
+    "build_number": 16,
+    "build_commit": "cf849a2b5010a8bdc6f5eb4570efd0043a9a59fa",
+    "description_url": "https://poggit.pmmp.io/r/176409",
+    "icon_url": "https://raw.githubusercontent.com/jasonwynn10/SpectreZone/cf849a2b5010a8bdc6f5eb4570efd0043a9a59fa/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/176411",
+    "license": "lgpl-2.1",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652807747,
+    "state": 5,
+    "last_state_change_date": 1652807750,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "block",
+        "custom",
+        "dimension",
+        "ectoplasm",
+        "ghost",
+        "ingot",
+        "item",
+        "key",
+        "spectre",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Customies",
+            "version": "1.0.3",
+            "depRelId": 9749,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "jasonw4331"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

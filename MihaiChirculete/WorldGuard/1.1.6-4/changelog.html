@@ -1,0 +1,104 @@
+<p>+Added Resource Manager and ResourceUpdater.<br>
++Added helper functions to check if resource files are outdated.<br>
++Added language packs.<br>
++Added translations.<br>
++Added german language<br>
++Added french language<br>
++Added debug flag in config.<br>
++Added Flag, for Lava and Water can flow into regioned areas, and cause destruction.<br>
++Added ability to remove deny-messages.<br>
++Added hunger flag</p>
+<p>+RedstoneCircuit added as softdepend<br>
++Added pressure plates and buttons and trapped chest on "USE" (only PM Blocks)<br>
++Added permission for pressure plate, trapped chest, buttons to use</p>
+<p>Fixed serveral Issues<br>
+Fixed lava and water can be placed in region, even with block-place denied.<br>
+Fixed game-mode flag did not work for named gamemodes (ex. Creative) only numbers (ex. 1)<br>
+Fixed Piggy Custom Enchants are removed when the player changes/leaves a region.<br>
+Fixed effects,<br>
+Fixed global regions<br>
+Fixed some typo’s.<br>
+Fixed server crashing if taking damage from TNT<br>
+Fixed getInstance() not being static<br>
+Fixed spelling error in deny message<br>
+Fixed crashing because of missing () on -&gt;getMessages<br>
+Fixed adventure mode not showing on GUI<br>
+Fixed issue with block build an block break permission<br>
+Did some refactoring.<br>
+Removed unused code.<br>
+Removed useless output<br>
+Removed Particles from region effects.</p>
+<ul>
+<li>Version 1.1.1.0
+<ul>
+<li>Optimized code, removed unneeded comments, and make everything overall more efficient.</li>
+<li>Fixed messages causing an error.</li>
+<li>Fixed a bug where effects would crash the server when exiting a region.</li>
+<li>Fixed a bug where all effects would be removed upon leaving a region.</li>
+<li>Fixed color code symbol being corrupted and causing colors to (potentially) crash the server.</li>
+<li>Fixed eating could be bypassed, and made the flag more efficient.</li>
+<li>Added worldguard.bypass.fly. permission to disable regions controlling flight of server OPs</li>
+</ul>
+</li>
+<li>Version 1.1.5
+<ul>
+<li>Fixed Get Help menu showing old Website URL.</li>
+</ul>
+</li>
+<li>Version 1.1.5
+<ul>
+<li>Fixed clicking "Get Help" in GUI crashed server.</li>
+<li>Fixed Get Help menu showing old Website URL.</li>
+<li>Moved "Value of flag has been set to" messages into Console when editing a region using the GUI.</li>
+</ul>
+</li>
+<li>Version 1.1.5
+<ul>
+<li>Added console-cmd-on-enter and console-cmd-on-leave flag, with support for the %player% variable.</li>
+</ul>
+</li>
+<li>Version 1.1.5
+<ul>
+<li>Added console-cmd-on-enter and console-cmd-on-leave flags.</li>
+</ul>
+</li>
+<li>Version 1.1.6
+<ul>
+<li>Added hunger flag</li>
+<li>Added adventure mode to GUI game-mode list.</li>
+<li>Fixed bypass permission for Game-Mode was missing a dot, it is now worldguard.bypass.gamemode.</li>
+<li>Fixed bypass permission for Fly was missing a dot, it is now worldguard.bypass.fly.</li>
+<li>Fixed a bug where entering and leaving a region with the console-cmd flag enabled would cause effects not be applied or removed.</li>
+<li>Fixed fly-mode affected people in Creative Mode.</li>
+<li>Fixed deny-msg flag did not work for the use flag.</li>
+<li>Fixed entities were parsed as Players and caused the server to crash.</li>
+<li>Fixed entities could not be damaged when the PvP flag was set to false.</li>
+<li>Fixed a bug where world names with spaces were not handled properly by the GUI.</li>
+<li>Removed Particles from region effects.</li>
+</ul>
+</li>
+<li>Version 1.1.6.1
+<ul>
+<li>Fixed Slappers causing server to crash.</li>
+<li>Fixed a bug with the Hunger flag</li>
+<li>Cleaned up some code in the EntityDamageByEntity check having redundancy.</li>
+</ul>
+</li>
+<li>Version 1.1.6.2
+<ul>
+<li>Added redstone support and Block id's from Pocketmine for redstones</li>
+<li>Fixed block break and build bypass</li>
+</ul>
+</li>
+<li>Version 1.1.6.3
+<ul>
+<li>Added FR Language</li>
+</ul>
+</li>
+<li>Version 1.1.6.4
+<ul>
+<li>Fixed Bypass with MCPE 1.16 and Pocketmine 3.14</li>
+<li>Deleted Admanager</li>
+</ul>
+</li>
+</ul>

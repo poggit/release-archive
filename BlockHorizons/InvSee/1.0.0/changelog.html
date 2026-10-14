@@ -1,0 +1,41 @@
+<ul>
+<li>Add 4.0 branch to poggit</li>
+<li>Bump InvMenu version <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="467744419" data-permission-text="Issue title is private" data-url="https://github.com/BlockHorizons/InvSee/issues/21" data-hovercard-type="issue" data-hovercard-url="/BlockHorizons/InvSee/issues/21/hovercard" href="https://github.com/BlockHorizons/InvSee/issues/21">#21</a></li>
+<li>Fix <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="379679709" data-permission-text="Issue title is private" data-url="https://github.com/BlockHorizons/InvSee/issues/12" data-hovercard-type="issue" data-hovercard-url="/BlockHorizons/InvSee/issues/12/hovercard" href="https://github.com/BlockHorizons/InvSee/issues/12">#12</a></li>
+<li>Fix <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="336599093" data-permission-text="Issue title is private" data-url="https://github.com/BlockHorizons/InvSee/issues/2" data-hovercard-type="issue" data-hovercard-url="/BlockHorizons/InvSee/issues/2/hovercard" href="https://github.com/BlockHorizons/InvSee/issues/2">#2</a> (commands wont execute when the plugin is disabled). More code formatting</li>
+<li>Fix bug with EntityInventoryChangeEvent also handling EntityArmorChangeEvent and duplicating the action</li>
+<li>Fixed bug with incorrect slot index for armors
+<ul>
+<li>Um, I hope no one used this plugin before this commit</li>
+</ul>
+</li>
+<li>Forgot to bump version when bumping version</li>
+<li>Garbage optimization time!
+<ul>
+<li>
+<ul>
+<li>Added InvSeeInventory::initialize(), InvSeeInventory::deInitialize(), SpyingPlayerData::remove(), SpyingPlayerData::isEmpty(). InvSeeEnderInventoryProcessor is only installed while someone is spying the player's inventory. No more unnecessary InvSeeEnderInventoryProcessor::onSlotChange() calls.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Fixed a bug where SpyingPlayerData instance was gc-d when either InvSeePlayerInventory or InvSeeEnderChestInventory was not in use of a spyer anymore. Now it's gc-d only when none of the inventories are in use.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>InvSee v1.0 (<a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="379089287" data-permission-text="Issue title is private" data-url="https://github.com/BlockHorizons/InvSee/issues/11" data-hovercard-type="pull_request" data-hovercard-url="/BlockHorizons/InvSee/pull/11/hovercard" href="https://github.com/BlockHorizons/InvSee/pull/11">#11</a>)
+<ul>
+<li>
+<ul>
+<li>Fixed several bugs</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Rewrote all the inventory transaction handling</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>

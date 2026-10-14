@@ -1,0 +1,58 @@
+{
+    "id": 14428,
+    "name": "UncensorAZ",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/UncensorAZ/0.0.1",
+    "tagline": "Circumvents Microsoft's terrible Minecraft built-in chat filter",
+    "artifact_url": "https://poggit.pmmp.io/r/263856",
+    "downloads": 32,
+    "score": null,
+    "repo_id": 1197627142,
+    "repo_name": "NhanAZ-Plugins/Uncensor",
+    "project_id": 15206,
+    "project_name": "Uncensor",
+    "build_id": 192210,
+    "build_number": 5,
+    "build_commit": "38f618ae5d09f795c26a30823c3829ed44b214cb",
+    "description_url": "https://poggit.pmmp.io/r/263978",
+    "icon_url": "https://raw.githubusercontent.com/NhanAZ-Plugins/Uncensor/38f618ae5d09f795c26a30823c3829ed44b214cb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "LGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1774983693,
+    "state": 5,
+    "last_state_change_date": 1775219127,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp",
+        "uncensor"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "dktapps",
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,100 @@
+{
+    "id": 14469,
+    "name": "Pillars",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Pillars/2.0.0",
+    "tagline": "Pillars of Fortune [NEW]",
+    "artifact_url": "https://poggit.pmmp.io/r/264713",
+    "downloads": 15,
+    "score": null,
+    "repo_id": 1046971569,
+    "repo_name": "TheWindows/Pillars-Of-Fortune",
+    "project_id": 14898,
+    "project_name": "Pillars",
+    "build_id": 192801,
+    "build_number": 29,
+    "build_commit": "dc757c23b8ceb2fce769c0e54d6ef62b32ceea8f",
+    "description_url": "https://poggit.pmmp.io/r/265240",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1780325646,
+    "state": 5,
+    "last_state_change_date": 1783608701,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "fun",
+        "minecraft",
+        "minigame",
+        "php",
+        "pillars",
+        "pillars-of-fortune",
+        "pm5",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TheWindows"
+        ],
+        "Contributor": [
+            "tahanoferesti",
+            "Doma-0609",
+            "amirxdcy4455"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        },
+        {
+            "name": "apibossbar",
+            "project_id": 5118,
+            "repo_id": 190287218,
+            "repo_name": "inxomnyaa/apibossbar",
+            "repo_path": "",
+            "build_commit": "0b75f8d582d6d16b29851f2225f1222049878764",
+            "build_id": 186145
+        }
+    ]
+}

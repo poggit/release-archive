@@ -1,0 +1,112 @@
+{
+    "id": 10065,
+    "name": "BlockPets",
+    "version": "2.0.2",
+    "html_url": "https://poggit.pmmp.io/p/BlockPets/2.0.2",
+    "tagline": "An advanced pets plugin, implementing features such as riding and inventories",
+    "artifact_url": "https://poggit.pmmp.io/r/182885",
+    "downloads": 2853,
+    "score": 5,
+    "repo_id": 87449874,
+    "repo_name": "BlockHorizons/BlockPets",
+    "project_id": 389,
+    "project_name": "BlockPets",
+    "build_id": 138136,
+    "build_number": 293,
+    "build_commit": "dd5cbac81101513ed64fbe53480481ae110c7353",
+    "description_url": "https://poggit.pmmp.io/r/182882",
+    "icon_url": "https://raw.githubusercontent.com/BlockHorizons/BlockPets/dd5cbac81101513ed64fbe53480481ae110c7353/resources/BlockPetsLogo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/182884",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1655873565,
+    "state": 5,
+    "last_state_change_date": 1655880947,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "animal",
+        "blockpets",
+        "entity",
+        "inventory",
+        "pet"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "edwinyoo44",
+            "Johnmacrocraft",
+            "jojoe77777",
+            "TheDiamondYT1",
+            "Muqsit",
+            "xBeastMode",
+            "Adam1609",
+            "djdisodo",
+            "CyanKelv",
+            "SOF3",
+            "nnnlog",
+            "DenielWorld",
+            "nikipuh",
+            "MalakasPlayzMC",
+            "lukeeey",
+            "Yexeed",
+            "Ifera",
+            "NgLam2911",
+            "0xliam627",
+            "ByPaps",
+            "WenoxGB"
+        ],
+        "Collaborator": [
+            "Sandertv"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "a55ecceb73e6aa99b80bbec2a78aed0c6341170c",
+            "build_id": 134155
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "100a30f7841c7a9bd3fe4aea2c7ff1b05d6020b6",
+            "build_id": 138110
+        }
+    ]
+}

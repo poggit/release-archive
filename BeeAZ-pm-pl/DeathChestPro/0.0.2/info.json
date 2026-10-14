@@ -1,0 +1,60 @@
+{
+    "id": 10581,
+    "name": "DeathChestPro",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/DeathChestPro/0.0.2",
+    "tagline": "Creates chest that holds the player's items upon death",
+    "artifact_url": "https://poggit.pmmp.io/r/193168",
+    "downloads": 408,
+    "score": null,
+    "repo_id": 497802753,
+    "repo_name": "BeeAZ-pm-pl/DeathChestPro",
+    "project_id": 11247,
+    "project_name": "DeathChestPro",
+    "build_id": 145255,
+    "build_number": 3,
+    "build_commit": "ae86d808744f64a9e23f6298aaa04e3fde9b7562",
+    "description_url": "https://poggit.pmmp.io/r/193190",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/DeathChestPro/ae86d808744f64a9e23f6298aaa04e3fde9b7562/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/193192",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1663680353,
+    "state": 5,
+    "last_state_change_date": 1663710835,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "DeathChestPro"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ"
+        ],
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

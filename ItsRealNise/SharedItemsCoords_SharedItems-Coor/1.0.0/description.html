@@ -1,0 +1,49 @@
+<h1>
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h1>
+<p>Now you can share your Coordinates and Item with Prefix</p>
+<h1>
+<a id="user-content-example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h1>
+<p>if you type [i] in message, later it will be automatically replaced into the name of the item in your hand</p>
+<p>Example: hello pvp with me but using [i]
+Result: If in your hand Iron Sword Will Be, hello pvp with me but using Iron Sword</p>
+<p>if you type [coor] in message, later it will be automatically replaced into the Your coordinates</p>
+<p>Example: hello to coordinate [coor], let's go
+Result: hello to coordinate X: 178, Y: 90, Z: 167, let's go</p>
+<p>Format and prefix can your change in Config</p>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<div class="highlight highlight-source-yaml"><pre>
+---
+<span class="pl-c"><span class="pl-c">#</span> use {name} to player name</span>
+<span class="pl-c"><span class="pl-c">#</span> use {item} to item name</span>
+
+<span class="pl-ent">item-msg</span>: <span class="pl-s"><span class="pl-pds">"</span>Name: {item} <span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>use {name} to player name</span>
+<span class="pl-c"><span class="pl-c">#</span>use {x} to get player X</span>
+<span class="pl-c"><span class="pl-c">#</span>use {y} to get player Y</span>
+<span class="pl-c"><span class="pl-c">#</span>use {z} to get player Z</span>
+
+<span class="pl-ent">coor-msg</span>: <span class="pl-s"><span class="pl-pds">"</span>X: {x} Y: {y} Z: {z}<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>this is [i] message can be repace to item-msg</span>
+<span class="pl-c"><span class="pl-c">#</span>orginal is [i]</span>
+<span class="pl-c"><span class="pl-c">#</span> You can add Your custom</span>
+
+<span class="pl-ent">item-prefix</span>: 
+ - <span class="pl-s"><span class="pl-pds">"</span>[i]<span class="pl-pds">"</span></span>
+
+
+<span class="pl-c"><span class="pl-c">#</span>this is [coor] message can be replace to coor-msg</span>
+<span class="pl-c"><span class="pl-c">#</span>original is [coor]</span>
+<span class="pl-c"><span class="pl-c">#</span> You can add Your Custom</span>
+
+<span class="pl-ent">coor-prefix</span>: 
+ - <span class="pl-s"><span class="pl-pds">"</span>[coor]<span class="pl-pds">"</span></span>
+...</pre></div>
+<h1>
+<a id="user-content-additional-notes" class="anchor" href="#additional-notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional Notes</h1>
+<ul>
+<li>If you find bugs or want to give suggestions, please visit <a href="https://github.com/ItsRealNise/SharedItems-Coords/issues">here</a>
+</li>
+</ul>

@@ -1,0 +1,61 @@
+{
+    "id": 13245,
+    "name": "Switching",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Switching/1.0.1",
+    "tagline": "A plugin that brings back the old pvping method",
+    "artifact_url": "https://poggit.pmmp.io/r/242683",
+    "downloads": 141,
+    "score": null,
+    "repo_id": 821006612,
+    "repo_name": "Aboshxm2/switching",
+    "project_id": 13980,
+    "project_name": "switching",
+    "build_id": 177674,
+    "build_number": 1,
+    "build_commit": "67bc0bb1022fc2885d206317c05f05e1c565ecba",
+    "description_url": "https://poggit.pmmp.io/r/242687",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1719683315,
+    "state": 5,
+    "last_state_change_date": 1719748061,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "double",
+        "hit",
+        "particles",
+        "pvp",
+        "switching"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Aboshxm2"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

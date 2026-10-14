@@ -1,0 +1,114 @@
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p>AuctionHouse allows players to list their items for sale and purchase items that others have listed for sale.</p>
+<p><a href="https://github.com/Shock95x/AuctionHouse/blob/master/img/auctionhouse.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Shock95x/AuctionHouse/raw/master/img/auctionhouse.png" alt="AuctionHouse" style="max-width:100%;"></a></p>
+<h2>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+<blockquote>
+<ul>
+<li>Chest GUI</li>
+<li>Config (See below)</li>
+<li>Multi-lang support</li>
+<li>Custom Events</li>
+<li>Economy plugin support (EconomyAPI as of now)</li>
+<li>MySQL and SQLite database support</li>
+<li>Customizable messages</li>
+</ul>
+</blockquote>
+<ul>
+<li>And more coming soon!</li>
+</ul>
+<h2>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h2>
+<div class="highlight highlight-source-yaml"><pre>---  
+<span class="pl-c"><span class="pl-c">#</span> DO NOT EDIT THIS VALUE, INTERNAL USE ONLY.  </span>
+<span class="pl-ent">config-version</span>: <span class="pl-c1">3</span>  
+<span class="pl-c"><span class="pl-c">#</span> Sets the prefix for this plugin.  </span>
+<span class="pl-ent">prefix</span>: <span class="pl-s"><span class="pl-pds">"</span>[&amp;l&amp;6Auction House&amp;r]<span class="pl-pds">"</span></span>  
+<span class="pl-c"><span class="pl-c">#</span> Minimum price required to create a listing  </span>
+<span class="pl-ent">min-price</span>: <span class="pl-c1">0</span>
+<span class="pl-c"><span class="pl-c">#</span> Maximum price a listing can have (-1 = No limit)  </span>
+<span class="pl-ent">max-price</span>: <span class="pl-c1">-1</span>
+<span class="pl-c"><span class="pl-c">#</span> Sets the default language for the plugin, you can edit text and messages in this file.  </span>
+<span class="pl-ent">default-language</span>: <span class="pl-s">en_US</span>
+<span class="pl-c"><span class="pl-c">#</span> Sets the amount of hours a listing is active before being automatically cancelled and expired.  </span>
+<span class="pl-ent">expire-interval</span>: <span class="pl-c1">48</span>  
+<span class="pl-c"><span class="pl-c">#</span> Sets the price it costs to list one item on the auction house.  </span>
+<span class="pl-ent">listing-price</span>: <span class="pl-c1">0</span>  
+<span class="pl-c"><span class="pl-c">#</span> Allows or blocks players in creative mode from selling items.  </span>
+<span class="pl-ent">creative-sale</span>: <span class="pl-c1">false</span>  
+<span class="pl-c"><span class="pl-c">#</span> The maximum amount of listings a player can have.  </span>
+<span class="pl-ent">max-items</span>: <span class="pl-c1">45</span>  
+<span class="pl-c"><span class="pl-c">#</span> Items that cannot be listed on the auction. Refer to https://minecraftitemids.com/ or https://minecraft-ids.grahamedgecombe.com/ for a list of item ids.  </span>
+<span class="pl-ent">blacklist</span>:  
+  - <span class="pl-s"><span class="pl-pds">'</span>1000<span class="pl-pds">'</span></span> <span class="pl-c"><span class="pl-c">#</span>Example items, these items dont exist in MC, but you should use ones that do if you want.  </span>
+  - <span class="pl-s"><span class="pl-pds">'</span>1001:12<span class="pl-pds">'</span></span>  
+  - <span class="pl-s"><span class="pl-pds">'</span>12333:4<span class="pl-pds">'</span></span>
+...  </pre></div>
+<h2>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/ah</td>
+<td align="left">AuctionHouse main command, opens the shop menu if there are no specified parameters</td>
+</tr>
+<tr>
+<td>/ah shop</td>
+<td align="left">Opens the shop menu</td>
+</tr>
+<tr>
+<td>/ah sell <strong>[price]</strong>
+</td>
+<td align="left">Allows player to list items in their hand on the auction house. <strong>[price]</strong> is the amount that the player is listing the item to sell for</td>
+</tr>
+<tr>
+<td>/ah listings</td>
+<td align="left">Shows all active listings of the player</td>
+</tr>
+<tr>
+<td>/ah update</td>
+<td align="left">Allows player to reload the config and save the database (OP command)</td>
+</tr>
+<tr>
+<td>/ah about</td>
+<td align="left">Shows AuctionHouse version the server is running and author of this plugin</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<h3>
+<a id="user-content-events" class="anchor" href="#events" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Events</h3>
+<ul>
+<li><a href="https://github.com/Shock95x/AuctionHouse/blob/master/src/shock95x/auctionhouse/event/AuctionStartEvent.php">AuctionHouse\event\AuctionStartEvent</a></li>
+<li><a href="https://github.com/Shock95x/AuctionHouse/blob/master/src/shock95x/auctionhouse/event/AuctionEndEvent.php">AuctionHouse\event\AuctionEndEvent</a></li>
+</ul>
+<h2>
+<a id="user-content-contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h2>
+<p>You can contribute to this project by creating a new language file and opening a PR!</p>
+<h3>
+<a id="user-content-supported-languages-and-contributors" class="anchor" href="#supported-languages-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Supported languages and contributors</h3>
+<ul>
+<li>
+<a href="https://github.com/Shock95x">Shock95x</a> (English)</li>
+<li>
+<a href="https://github.com/No4NaMe">No4NaMe</a> (Russian)</li>
+<li>Chaosfelix4451#0157 (German)</li>
+</ul>
+<h2>
+<a id="user-content-credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+<ul>
+<li>
+<a href="https://github.com/Muqsit/InvMenu">InvMenu</a> (Muqsit)</li>
+<li>
+<a href="https://github.com/JackMD/ConfigUpdater">ConfigUpdater</a> (JackMD)</li>
+<li>
+<a href="https://github.com/JackMD/UpdateNotifier">UpdateNotifier</a> (JackMD)</li>
+</ul>

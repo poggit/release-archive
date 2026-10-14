@@ -1,0 +1,67 @@
+{
+    "id": 12129,
+    "name": "TellRaw",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TellRaw/3.0.0",
+    "tagline": "Send players messages without saying who its from",
+    "artifact_url": "https://poggit.pmmp.io/r/218866",
+    "downloads": 329,
+    "score": null,
+    "repo_id": 409612743,
+    "repo_name": "ElectroGamesYT/TellRaw",
+    "project_id": 9854,
+    "project_name": "TellRaw",
+    "build_id": 161168,
+    "build_number": 5,
+    "build_commit": "214c59befe852ae380cc8002263c863a1fc8f254",
+    "description_url": "https://poggit.pmmp.io/r/218863",
+    "icon_url": "https://raw.githubusercontent.com/ElectroGamesYT/TellRaw/214c59befe852ae380cc8002263c863a1fc8f254/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/218865",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691257707,
+    "state": 5,
+    "last_state_change_date": 1691257739,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "message",
+        "tell",
+        "tellraw"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ElectroGamesYT"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

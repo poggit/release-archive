@@ -1,0 +1,76 @@
+{
+    "id": 395,
+    "name": "EconomyLand",
+    "version": "2.1.0-dev1",
+    "html_url": "https://poggit.pmmp.io/p/EconomyLand/2.1.0-dev1",
+    "tagline": "The Ultimate Land Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/7607",
+    "downloads": 364,
+    "score": null,
+    "repo_id": 82867467,
+    "repo_name": "poggit-orphanage/EconomyS",
+    "project_id": 271,
+    "project_name": "EconomyLand",
+    "build_id": 25028,
+    "build_number": 9,
+    "build_commit": "5eb0c2c6b1bb886ebd147f09561e6af30dc280a5",
+    "description_url": "https://poggit.pmmp.io/r/7603",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/EconomyS/5eb0c2c6b1bb886ebd147f09561e6af30dc280a5/EconomyLand/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/7605",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1498750008,
+    "state": 5,
+    "last_state_change_date": 1498750015,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "land",
+        "protect",
+        "onebone",
+        "economy",
+        "economyS"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA5",
+            "to": "3.0.0-ALPHA6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-dev1",
+            "depRelId": 394,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "onebone"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

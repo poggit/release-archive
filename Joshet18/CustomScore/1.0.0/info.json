@@ -1,0 +1,70 @@
+{
+    "id": 12004,
+    "name": "CustomScore",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomScore/1.0.0",
+    "tagline": "a plugin that allows you to display and customize scoreboards to your liking",
+    "artifact_url": "https://poggit.pmmp.io/r/217365",
+    "downloads": 175,
+    "score": 4,
+    "repo_id": 653493843,
+    "repo_name": "Joshet18/CustomScore",
+    "project_id": 12628,
+    "project_name": "CustomScore",
+    "build_id": 160256,
+    "build_number": 4,
+    "build_commit": "60f090d4df3b24816c542a2b9f21797c755a205f",
+    "description_url": "https://poggit.pmmp.io/r/217364",
+    "icon_url": "https://raw.githubusercontent.com/Joshet18/CustomScore/60f090d4df3b24816c542a2b9f21797c755a205f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689907734,
+    "state": 5,
+    "last_state_change_date": 1691481551,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "Scoreboard"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "LunarRanks",
+            "version": "2.0.0",
+            "depRelId": 11530,
+            "isHard": false
+        },
+        {
+            "name": "RankSystem",
+            "version": "1.1.3",
+            "depRelId": 11942,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Joshet18"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

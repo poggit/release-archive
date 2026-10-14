@@ -1,0 +1,70 @@
+{
+    "id": 13781,
+    "name": "UltimateVote",
+    "version": "1.7",
+    "html_url": "https://poggit.pmmp.io/p/UltimateVote/1.7",
+    "tagline": "An ultimate Vote plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/251810",
+    "downloads": 247,
+    "score": 1,
+    "repo_id": 824652214,
+    "repo_name": "ImAMadDev/UltimateVote",
+    "project_id": 14004,
+    "project_name": "UltimateVote",
+    "build_id": 184015,
+    "build_number": 10,
+    "build_commit": "7cc0fc0996d3026640d5147f535cb45a9566dbd4",
+    "description_url": "https://poggit.pmmp.io/r/251812",
+    "icon_url": "https://raw.githubusercontent.com/ImAMadDev/UltimateVote/7cc0fc0996d3026640d5147f535cb45a9566dbd4/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736702845,
+    "state": 5,
+    "last_state_change_date": 1737824205,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "bedrock-edition",
+        "pm5",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-plugin",
+        "vote"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ImAMadDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

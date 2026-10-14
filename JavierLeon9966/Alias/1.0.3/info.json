@@ -1,0 +1,79 @@
+{
+    "id": 6449,
+    "name": "_NewAlias",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/_NewAlias/1.0.3",
+    "tagline": "Detects players possible alternatives accounts",
+    "artifact_url": "https://poggit.pmmp.io/r/122632",
+    "downloads": 1075,
+    "score": null,
+    "repo_id": 351213446,
+    "repo_name": "JavierLeon9966/Alias",
+    "project_id": 8758,
+    "project_name": "Alias",
+    "build_id": 100514,
+    "build_number": 18,
+    "build_commit": "61b50899278b5758bb4f25233a2ac71daa1e13bc",
+    "description_url": "https://poggit.pmmp.io/r/122629",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/Alias/61b50899278b5758bb4f25233a2ac71daa1e13bc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/122631",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1618512085,
+    "state": 5,
+    "last_state_change_date": 1618526315,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "alias",
+        "ban",
+        "pmmp-plugin",
+        "pocketmine-plugins",
+        "track"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA12",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "0192bcd58db0ef25160ec49f309eb2417e4726ac",
+            "build_id": 87596
+        }
+    ]
+}

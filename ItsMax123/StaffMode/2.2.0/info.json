@@ -1,0 +1,113 @@
+{
+    "id": 7996,
+    "name": "StaffMode",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/StaffMode/2.2.0",
+    "tagline": "StaffMode is a moderation plugin made to simplify watching players.",
+    "artifact_url": "https://poggit.pmmp.io/r/147739",
+    "downloads": 2657,
+    "score": 4,
+    "repo_id": 385345314,
+    "repo_name": "ItsMax123/StaffMode",
+    "project_id": 9257,
+    "project_name": "StaffMode",
+    "build_id": 115403,
+    "build_number": 58,
+    "build_commit": "0e620334a8b31bf30a508cf10c565b892905a121",
+    "description_url": "https://poggit.pmmp.io/r/147736",
+    "icon_url": "https://raw.githubusercontent.com/ItsMax123/StaffMode/0e620334a8b31bf30a508cf10c565b892905a121/admintools.png",
+    "changelog_url": "https://poggit.pmmp.io/r/147738",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1636867723,
+    "state": 5,
+    "last_state_change_date": 1636996573,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "enderchestclear",
+        "enderchestsee",
+        "freeze",
+        "invclear",
+        "invsee",
+        "invtools",
+        "kick",
+        "moderation",
+        "moderation+",
+        "moderation-mode",
+        "moderationmode",
+        "staff",
+        "staff+",
+        "staff-mode",
+        "staffmode",
+        "teleport",
+        "unfreeze"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ItsMax123"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "a3b121f31e2816639174da8f1c10a0a0e58643b5",
+            "build_id": 105482
+        },
+        {
+            "name": "DiscordWebhookAPI",
+            "project_id": 4428,
+            "repo_id": 162234790,
+            "repo_name": "CortexPE/DiscordWebhookAPI",
+            "repo_path": "",
+            "build_commit": "49f569fbce17f4a53cbeba49c01e4bf2613fb551",
+            "build_id": 103643
+        }
+    ]
+}

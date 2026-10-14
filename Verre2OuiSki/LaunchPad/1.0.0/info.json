@@ -1,0 +1,67 @@
+{
+    "id": 9605,
+    "name": "LaunchPad",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LaunchPad/1.0.0",
+    "tagline": "Launch players in the air !",
+    "artifact_url": "https://poggit.pmmp.io/r/173898",
+    "downloads": 512,
+    "score": 5,
+    "repo_id": 472021604,
+    "repo_name": "Verre2OuiSki/LaunchPad",
+    "project_id": 10826,
+    "project_name": "LaunchPad",
+    "build_id": 131933,
+    "build_number": 8,
+    "build_commit": "96fbedfa7caa9d23b054b955bfc558675efcc45b",
+    "description_url": "https://poggit.pmmp.io/r/173902",
+    "icon_url": "https://raw.githubusercontent.com/Verre2OuiSki/LaunchPad/96fbedfa7caa9d23b054b955bfc558675efcc45b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1651607236,
+    "state": 5,
+    "last_state_change_date": 1652082408,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "launch",
+        "launchpad",
+        "pad"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Verre2OuiSki"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

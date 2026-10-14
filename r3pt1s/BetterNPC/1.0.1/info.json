@@ -1,0 +1,70 @@
+{
+    "id": 14220,
+    "name": "BetterNPC",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BetterNPC/1.0.1",
+    "tagline": "BetterNPC is a basic npc plugin for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/259963",
+    "downloads": 322,
+    "score": null,
+    "repo_id": 901996060,
+    "repo_name": "r3pt1s/BetterNPC",
+    "project_id": 14540,
+    "project_name": "BetterNPC",
+    "build_id": 189496,
+    "build_number": 20,
+    "build_commit": "06a62bdd56a5519711349bc760aeaac24a13ca24",
+    "description_url": "https://poggit.pmmp.io/r/259960",
+    "icon_url": "https://raw.githubusercontent.com/r3pt1s/BetterNPC/06a62bdd56a5519711349bc760aeaac24a13ca24/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/259962",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1759569357,
+    "state": 5,
+    "last_state_change_date": 1760635393,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "entities",
+        "entity",
+        "npc",
+        "npcs"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "r3pt1s"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "70082f430c722b868dfdfeab7337ba6b944d21dd",
+            "build_id": 185750
+        }
+    ]
+}

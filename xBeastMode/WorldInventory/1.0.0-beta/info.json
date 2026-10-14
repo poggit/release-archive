@@ -1,0 +1,65 @@
+{
+    "id": 10456,
+    "name": "WorldInventory",
+    "version": "1.0.0-beta",
+    "html_url": "https://poggit.pmmp.io/p/WorldInventory/1.0.0-beta",
+    "tagline": "Highly customizable per world inventories",
+    "artifact_url": "https://poggit.pmmp.io/r/190064",
+    "downloads": 31,
+    "score": 5,
+    "repo_id": 525654731,
+    "repo_name": "xBeastMode/WorldInventory",
+    "project_id": 11725,
+    "project_name": "WorldInventory",
+    "build_id": 142975,
+    "build_number": 4,
+    "build_commit": "b798359e34d7c6adde27f2411ab6c53b6455768b",
+    "description_url": "https://poggit.pmmp.io/r/190154",
+    "icon_url": "https://raw.githubusercontent.com/xBeastMode/WorldInventory/b798359e34d7c6adde27f2411ab6c53b6455768b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1660717364,
+    "state": 5,
+    "last_state_change_date": 1660723424,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "inventory",
+        "per",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "4.7.1",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "xBeastMode"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "43813dacb237af453fb138d4d9d66eeda4b564c5",
+            "build_id": 142736
+        }
+    ]
+}

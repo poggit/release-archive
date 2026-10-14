@@ -1,0 +1,61 @@
+<h1>
+<a id="user-content-information" class="anchor" href="#information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Information</h1>
+<p><a href="http://hits.dwyl.io/Xenophilicy/NaviCompass" rel="nofollow"><img src="https://camo.githubusercontent.com/9a29352447c659a1b8472bb3d61843da4825fa2e/687474703a2f2f686974732e6477796c2e696f2f58656e6f7068696c6963792f4e617669436f6d706173732e737667" alt="HitCount" data-canonical-src="http://hits.dwyl.io/Xenophilicy/NaviCompass.svg" style="max-width:100%;"></a>
+<a href="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/b674ef59de5a46cc5bfcb640a54fd63bc423afa2/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3439303637373136353238393839373939352e7376673f7374796c653d666c61742d737175617265" alt="" data-canonical-src="https://img.shields.io/discord/490677165289897995.svg?style=flat-square" style="max-width:100%;"></a></p>
+<p>With this plugin you can allow your players to transfer between your server network and worlds with simplicity. <strong>NaviCompass</strong> is a plugin that uses <strong>FormAPI</strong> to easily display your servers and server worlds listed in a simple UI. Its simple, all you need to do is enter the server IPs and Ports or the names of your worlds, along with a label to show up as the name in the UI, all inside the config.yml file. After that, the plugin will do the rest and you're good to go! Players will either have option to interact with the selector item (can be customized in the config.yml file), or type <em>/servers</em> in chat to access the UI. Server networks simplified!</p>
+<h3>
+<a id="user-content-there-are-two-ways-to-access-the-ui" class="anchor" href="#there-are-two-ways-to-access-the-ui" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>There are two ways to access the UI:</h3>
+<ul>
+<li>Execute the command <code>/servers</code> in chat (or from the console)</li>
+<li>Right click with the selector item set in the config.yml</li>
+</ul>
+<hr>
+<h3>
+<a id="user-content-heres-an-example-of-how-it-will-look" class="anchor" href="#heres-an-example-of-how-it-will-look" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Here's an example of how it will look:</h3>
+<h2>
+<a id="" class="anchor" href="#" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href=""><img src="https://camo.githubusercontent.com/731d2c409239f7ca27a6903e0c7ce16de3ebdbc6/68747470733a2f2f66696c652e78656e6f736572766572732e6e65742f5265736f75726365732f4769744875622d5265736f75726365732f6e617669636f6d706173732f73637265656e73686f742e706e67" alt="Xenophilicy" data-canonical-src="https://file.xenoservers.net/Resources/GitHub-Resources/navicompass/screenshot.png" style="max-width:100%;"></a>
+</h2>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h1>
+<h3>
+<a id="user-content-selector-settings" class="anchor" href="#selector-settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Selector settings</h3>
+<div class="highlight highlight-source-yaml"><pre>  <span class="pl-c"><span class="pl-c">#</span> Choose whether the selector item should be enabled</span>
+  <span class="pl-ent">Enabled</span>: <span class="pl-c1">true</span>
+
+  <span class="pl-c"><span class="pl-c">#</span> Choose what item the server selector should be</span>
+  <span class="pl-c"><span class="pl-c">#</span> Default item is Compass (345)</span>
+  <span class="pl-ent">Item</span>: <span class="pl-c1">345</span>
+
+  <span class="pl-c"><span class="pl-c">#</span> Choose what slot of the player's inventory the selector should appear in</span>
+  <span class="pl-c"><span class="pl-c">#</span> The range for this input is 0-35 (0-8 are the player's hotbar)</span>
+  <span class="pl-ent">Slot</span>: <span class="pl-c1">0</span>
+
+  <span class="pl-c"><span class="pl-c">#</span> This is the text that will show on the selector in the player's inventory</span>
+  <span class="pl-ent">Name</span>: <span class="pl-s"><span class="pl-pds">"</span>§l§aServer Selector<span class="pl-pds">"</span></span></pre></div>
+<h3>
+<a id="user-content-ui-settings" class="anchor" href="#ui-settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>UI settings</h3>
+<div class="highlight highlight-source-yaml"><pre>  <span class="pl-c"><span class="pl-c">#</span> This is the title of the transfer UI</span>
+  <span class="pl-ent">Title</span>: <span class="pl-s"><span class="pl-pds">"</span>§9Server List<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> This is the message that will show under your title on the transfer UI</span>
+  <span class="pl-ent">Message</span>: <span class="pl-s"><span class="pl-pds">"</span>§aChoose a server to transfer to!<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> This is the message displayed under each SERVER button</span>
+  <span class="pl-c"><span class="pl-c">#</span> Don't worry about this if you're only using the INTERNAL transfer type</span>
+  <span class="pl-c"><span class="pl-c">#</span> Use '{current-players}' for the server's current player count</span>
+  <span class="pl-c"><span class="pl-c">#</span> Use '{max-players}' for the server's max player count</span>
+  <span class="pl-c"><span class="pl-c">#</span> Use '{status}' to show whether the server is online or offline ('Online' will show as green; 'Offline' will show as red)</span>
+  <span class="pl-ent">Server-Button-Subtext</span>: <span class="pl-s"><span class="pl-pds">"</span>§r{status} §8(§a{current-players}§8/§b{max-players}§8)<span class="pl-pds">"</span></span>
+
+  <span class="pl-c"><span class="pl-c">#</span> This is the message displayed under each WORLD button</span>
+  <span class="pl-c"><span class="pl-c">#</span> Don't worry about this if you're only using the EXTERNAL transfer type</span>
+  <span class="pl-c"><span class="pl-c">#</span> Use '{current-players}' for the world's current player count</span>
+  <span class="pl-ent">World-Button-Subtext</span>: <span class="pl-s"><span class="pl-pds">"</span>§r§o§8Tap to Teleport §8(§a{current-players}§8)<span class="pl-pds">"</span></span></pre></div>
+<h3>
+<a id="user-content-entry-listing" class="anchor" href="#entry-listing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Entry Listing</h3>
+<p>This is where you list your servers/worlds to be displayed on the server UI. You can use '§' and '&amp;' on the labels to colorize your entries inside the UI!</p>
+<p>Add SERVERS using this format → ext:ServerTitle:ServerIP:ServerPort:ImageType:Path/URL</p>
+<p>Add WORLDS using this format → int:WorldTitle:WorldAlias:ImageType:Path/URL</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">List</span>:
+  - <span class="pl-s"><span class="pl-pds">"</span>ext:§l§2Prison §eServer:play.xenoservers.net:19133:url:file.xenoservers.net/Resources/GitHub-Resources/navicompass/lobby.png<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> ← EXTERNAL server example</span>
+  - <span class="pl-s"><span class="pl-pds">"</span>int:§l§5Creative:xenoCreative:url:file.xenoservers.net/Resources/GitHub-Resources/navicompass/creative.png<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> ← INTERNAL world example</span></pre></div>

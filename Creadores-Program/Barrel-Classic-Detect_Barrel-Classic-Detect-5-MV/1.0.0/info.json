@@ -1,0 +1,69 @@
+{
+    "id": 14465,
+    "name": "Barrel_Classic_Detect",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Barrel_Classic_Detect/1.0.0",
+    "tagline": "Detects when a ClassiCube player joins your server",
+    "artifact_url": "https://poggit.pmmp.io/r/264673",
+    "downloads": 27,
+    "score": null,
+    "repo_id": 1191177830,
+    "repo_name": "Creadores-Program/Barrel-Classic-Detect",
+    "project_id": 15207,
+    "project_name": "Barrel-Classic-Detect-5-MV",
+    "build_id": 192805,
+    "build_number": 6,
+    "build_commit": "c2a2a832a1ae603676732cac04be98250f538788",
+    "description_url": "https://poggit.pmmp.io/r/264672",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1779767319,
+    "state": 5,
+    "last_state_change_date": 1783608687,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "barrelcreaclassic",
+        "classicube",
+        "crossplay",
+        "nukkit-plugin",
+        "pocketmine-plugin"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Trollhunters501"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,238 @@
+<h1>
+<a id="user-content-backupme" class="anchor" href="#backupme" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BackupMe</h1>
+<p><a href="https://github.com/Endermanbugzjfc/BackupMe/"><img src="https://raw.githubusercontent.com/Endermanbugzjfc/BackupMe/main/icon.png" height="128" width="128" align="left" style="max-width:100%;"></a><a href="https://poggit.pmmp.io/ci/Endermanbugzjfc/BackupMe/BackupMe/" rel="nofollow"><img src="https://camo.githubusercontent.com/35bac84781debc42e74b2d702477bdac29c4d3e6dca162382cee146ae4c3e128/68747470733a2f2f706f676769742e706d6d702e696f2f63692e736869656c642f456e6465726d616e6275677a6a66632f4261636b75704d652f7e" align="left" data-canonical-src="https://poggit.pmmp.io/ci.shield/Endermanbugzjfc/BackupMe/~" style="max-width:100%;"></a><a href="https://github.com/Endermanbugzjfc/BackupMe/releases/latest/"><img src="https://camo.githubusercontent.com/b1dba6f45702e90b5d6334ae39ffa6153f65963e8aaa15aa12d808e120c378f3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f456e6465726d616e6275677a6a66632f4261636b75704d652f746f74616c" align="left" data-canonical-src="https://img.shields.io/github/downloads/Endermanbugzjfc/BackupMe/total" style="max-width:100%;"></a><a href="https://github.com/Endermanbugzjfc/BackupMe/issues/"><img src="https://camo.githubusercontent.com/7134eed1d1b60a07947d5e09149959499aba3430071c4b1c4c2cfddef7100b98/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f456e6465726d616e6275677a6a66632f4261636b75704d65" data-canonical-src="https://img.shields.io/github/issues/Endermanbugzjfc/BackupMe" style="max-width:100%;"></a>
+Implements the "Pterodactyl backup system" but can also backup your server without restarting it and mainly made for those who don't use Pterodactyl to use
+<strong>This plugin implements a backup system that works like the "Pterodactyl backup system"</strong></p>
+<h1>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h1>
+<h2>
+<a id="user-content-options" class="anchor" href="#options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Options</h2>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enable-plugin</code></td>
+<td>The plugin power switch. <strong>If this option is false, the plugin will disable on load.</strong>
+</td>
+</tr>
+<tr>
+<td><code>archiver-format</code></td>
+<td>The <strong>archiver format</strong> that will be use</td>
+</tr>
+<tr>
+<td><code>backup-name</code></td>
+<td>The name format that the backup archive file will be used, please see the available name format tag list!</td>
+</tr>
+<tr>
+<td><code>file-checker-interval</code></td>
+<td>The interval in seconds between every time the file checker checks if a <code>backup.me</code> is created.</td>
+</tr>
+<tr>
+<td><code>ignore-disk-space</code></td>
+<td>Continue to do a server backup <strong>even if the server disk is not having enough space.</strong>
+</td>
+</tr>
+<tr>
+<td><code>check-for-file</code></td>
+<td>File name for the file checker to check <em>(Default <code>backup.me</code>)</em>
+</td>
+</tr>
+<tr>
+<td><code>operation-log</code></td>
+<td>Will a debug log message be send when a file is added or ignored <em><strong>(This might cause a console spam!)</strong></em>
+</td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-available-archiver-formats" class="anchor" href="#available-archiver-formats" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Available archiver formats</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th><strong>Format</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>0</code></td>
+<td><strong>Zip</strong></td>
+</tr>
+<tr>
+<td><code>1</code></td>
+<td><strong>Gz</strong></td>
+</tr>
+<tr>
+<td><code>2</code></td>
+<td><strong>Bzip2</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>
+<a id="user-content-name-format-tags" class="anchor" href="#name-format-tags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Name format tags</h2>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Replacement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{y}</code></td>
+<td>
+<strong>Current year</strong> represented by a two-digit number</td>
+</tr>
+<tr>
+<td><code>{m}</code></td>
+<td>
+<strong>Current month</strong> represented by a two-digit number</td>
+</tr>
+<tr>
+<td><code>{d}</code></td>
+<td>
+<strong>Current date</strong> represented by a two-digit number</td>
+</tr>
+<tr>
+<td><code>{h}</code></td>
+<td>
+<strong>Current hour</strong> represented by a two-digit number</td>
+</tr>
+<tr>
+<td><code>{i}</code></td>
+<td>
+<strong>Current minute</strong> represented by a two-digit number</td>
+</tr>
+<tr>
+<td><code>{s}</code></td>
+<td>
+<strong>Current second</strong> represented by a two-digit number</td>
+</tr>
+<tr>
+<td><code>{format}</code></td>
+<td>The chosen backup archiver format <em><strong>(<code>zip</code> / <code>tar</code>)</strong></em>
+</td>
+</tr>
+<tr>
+<td><code>{uuid}</code></td>
+<td>A <strong>universal unique identifier</strong> of the current backup archive task</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-examples-formats" class="anchor" href="#examples-formats" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples formats:</h3>
+<ul>
+<li><code>backup-{y}-{m}-{d} {h}-{i}-{s}.{format}</code></li>
+<li><code>backup_my_server_{uuid}.{format}</code></li>
+<li><code>backup {y}-{m}-{d} ({uuid}).{format}</code></li>
+</ul>
+<h2>
+<a id="user-content-backupignoregitignore" class="anchor" href="#backupignoregitignore" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>backupignore.gitignore</h2>
+<p><strong>Backup ignore is only available on Linux servers at the moment!</strong>
+You can input certain rules to prevent the backup archiver from adding that file to the backup archive file.</p>
+<p><strong>This file is using the <a href="https://git-scm.com/docs/gitignore" rel="nofollow">GitIgnore</a> syntax</strong>
+<em><strong>(I will replace this with another file pattern regex system since this thing requires an additional <a href="https://github.com/inmarelibero/gitignore-checker/">GitIgnoreChecker</a> library and causes many issues when this plugin is running on other OS such as Windows)</strong></em></p>
+<h3>
+<a id="user-content-example-rules-for-people-who-have-never-used-the-gitignore-syntax-before" class="anchor" href="#example-rules-for-people-who-have-never-used-the-gitignore-syntax-before" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example rules <em>(For people who have never used the GitIgnore syntax before)</em>
+</h3>
+<table>
+<thead>
+<tr>
+<th>Rules</th>
+<th>What this rule means</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/plugins/</code></td>
+<td>The <code>plugins</code> directory at the backup source directory</td>
+</tr>
+<tr>
+<td><code>plugins/</code></td>
+<td>All the <code>plugins</code> directory no matter where it is</td>
+</tr>
+<tr>
+<td><code>/plugin.phar</code></td>
+<td>The <code>plugin.phar</code> file at the backup source directory</td>
+</tr>
+<tr>
+<td><code>plugin.phar</code></td>
+<td>The <code>plugin.phar</code> file at anywhere</td>
+</tr>
+<tr>
+<td><code>plugin.*</code></td>
+<td>The <code>plugin</code> file but any file extension names will match this rule</td>
+</tr>
+<tr>
+<td><code>*.phar</code></td>
+<td>Any .phar files</td>
+</tr>
+<tr>
+<td><code>!worlds/*</code></td>
+<td>None of all in any of the <code>worlds</code> directory</td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-start-backup" class="anchor" href="#start-backup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Start backup</h1>
+<p>Create a file name <code>backup.me</code> at the server root directory or use the <a href=""><code>/backupme</code> command</a> from console or in-game. When the file checker finds it, a server backup will be started.</p>
+<p><strong>Please do not turn off the server during the backup</strong></p>
+<p>If a message with the backup task used time, the total amount of added files and ignored files popup. It means that the backup task is <strong>completed</strong>, you can do whatever you want at that time. The backup archive file will be generated at the server root directory <em>(Where you create the <code>backup.me</code> file)</em></p>
+<h1>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h1>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>backupme.cmd.backup</code></td>
+<td><code>/backupme</code></td>
+</tr>
+</tbody>
+</table>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<h2>
+<a id="user-content-custom-backup-requests" class="anchor" href="#custom-backup-requests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Custom backup requests</h2>
+<h3>
+<a id="user-content-event" class="anchor" href="#event" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Event</h3>
+<p><strong>Other plugins can manually start a server backup by calling a <code>\Endermanbugzjfc\BackupMe\events\BackupRequestEvent</code> event</strong></p>
+<h3>
+<a id="user-content-customize" class="anchor" href="#customize" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Customize</h3>
+<table>
+<thead>
+<tr>
+<th>Member function name</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>setBackupIgnoreContent(string $content)</code></td>
+<td>Overwrite the original backup ignore file contents</td>
+</tr>
+<tr>
+<td><code>setName(string $name)</code></td>
+<td>Overwrite the original backup archive file name</td>
+</tr>
+<tr>
+<td><code>setFormat(int $format)</code></td>
+<td>Overwrite the original backup archiver format</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Available archiver formats (All in <code>\Endermanbugzjfc\BackupMe\BackupRequestListener</code>):</strong></p>
+<ul>
+<li><code>BackupRequestListener::ZIP</code></li>
+<li><code>BackupRequestListener::TARGZ</code></li>
+<li><code>BackupRequestListener::TARBZ2</code></li>
+</ul>

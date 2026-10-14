@@ -1,0 +1,87 @@
+{
+    "id": 5585,
+    "name": "VanishV2",
+    "version": "1.14",
+    "html_url": "https://poggit.pmmp.io/p/VanishV2/1.14",
+    "tagline": "Advanced vanish plugin with a lot of features",
+    "artifact_url": "https://poggit.pmmp.io/r/108611",
+    "downloads": 1296,
+    "score": 5,
+    "repo_id": 221769789,
+    "repo_name": "sqrrrrl/VanishV2",
+    "project_id": 5802,
+    "project_name": "VanishV2",
+    "build_id": 92025,
+    "build_number": 61,
+    "build_commit": "e1ef713fe34190d470cb94be9b1a56db287a7063",
+    "description_url": "https://poggit.pmmp.io/r/108608",
+    "icon_url": "https://raw.githubusercontent.com/superbobby2000/VanishV2/e1ef713fe34190d470cb94be9b1a56db287a7063/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/108610",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1606015914,
+    "state": 5,
+    "last_state_change_date": 1606052741,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Admin",
+        "Moderation",
+        "Staff",
+        "Vanish"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.2-c2a",
+            "depRelId": 2129,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Matthww",
+            "sqrrrrl"
+        ],
+        "Contributor": [
+            "MistakingManx",
+            "ItzxDwi",
+            "githubdontbanmeagain"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "7f2db9dd194ef54c6ae072bd18eda7664bff91bf",
+            "build_id": 85494
+        }
+    ]
+}

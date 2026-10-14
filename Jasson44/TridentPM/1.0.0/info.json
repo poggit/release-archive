@@ -1,0 +1,61 @@
+{
+    "id": 13973,
+    "name": "TridentPM",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TridentPM/1.0.0",
+    "tagline": "Add trident mechanic for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/255398",
+    "downloads": 186,
+    "score": null,
+    "repo_id": 973237536,
+    "repo_name": "Jasson44/TridentPM",
+    "project_id": 14692,
+    "project_name": "TridentPM",
+    "build_id": 186366,
+    "build_number": 4,
+    "build_commit": "3d3e4b8cb90cd9be4b7a40c4fe268c299ec427de",
+    "description_url": "https://poggit.pmmp.io/r/255488",
+    "icon_url": "https://raw.githubusercontent.com/Jasson44/TridentPM/3d3e4b8cb90cd9be4b7a40c4fe268c299ec427de/trident.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1745680782,
+    "state": 5,
+    "last_state_change_date": 1747663941,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Trident"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Jasson44"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

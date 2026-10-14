@@ -1,0 +1,78 @@
+{
+    "id": 6097,
+    "name": "LuckyPlayer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LuckyPlayer/1.0.0",
+    "tagline": "Give money to players when they join the server at lucky time",
+    "artifact_url": "https://poggit.pmmp.io/r/117638",
+    "downloads": 62,
+    "score": null,
+    "repo_id": 334426871,
+    "repo_name": "thebigcrafter/LuckyPlayer",
+    "project_id": 8476,
+    "project_name": "LuckyPlayer",
+    "build_id": 96134,
+    "build_number": 3,
+    "build_commit": "fb54c90f5c8b4ca5d60f8ceb1cc4a52c2d0cf3d2",
+    "description_url": "https://poggit.pmmp.io/r/118208",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1615539188,
+    "state": 5,
+    "last_state_change_date": 1615811230,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "lucky",
+        "luckyplayer",
+        "money",
+        "player"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "Refaltor77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

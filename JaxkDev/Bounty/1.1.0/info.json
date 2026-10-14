@@ -1,0 +1,71 @@
+{
+    "id": 2672,
+    "name": "Bounty",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Bounty/1.1.0",
+    "tagline": "A PMMP plugin that brings bountys to MCPE.",
+    "artifact_url": "https://poggit.pmmp.io/r/54767",
+    "downloads": 176,
+    "score": null,
+    "repo_id": 143467824,
+    "repo_name": "JaxkDev/Bounty",
+    "project_id": 3631,
+    "project_name": "Bounty",
+    "build_id": 57599,
+    "build_number": 31,
+    "build_commit": "1cd0ee349c8b3de272a35a97f4c1c4a58af5c815",
+    "description_url": "https://poggit.pmmp.io/r/56022",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/56024",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1554040956,
+    "state": 5,
+    "last_state_change_date": 1554042132,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Bounty",
+        "Jackthehack21",
+        "Jackthehaxk21",
+        "JaxkDev"
+    ],
+    "api": [
+        {
+            "from": "3.7.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "JaxkDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

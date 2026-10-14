@@ -1,0 +1,89 @@
+{
+    "id": 5551,
+    "name": "KygekPingTPS",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KygekPingTPS/1.0.0",
+    "tagline": "See server TPS and a player's ping",
+    "artifact_url": "https://poggit.pmmp.io/r/107915",
+    "downloads": 498,
+    "score": 5,
+    "repo_id": 289434454,
+    "repo_name": "thebigcrafter/KygekPingTPS",
+    "project_id": 7651,
+    "project_name": "KygekPingTPS",
+    "build_id": 91553,
+    "build_number": 4,
+    "build_commit": "f5f8461082ee94b36b70b3ad087e1afa0eec34dd",
+    "description_url": "https://poggit.pmmp.io/r/114254",
+    "icon_url": "https://raw.githubusercontent.com/Kygekraqmak/KygekPingTPS/f5f8461082ee94b36b70b3ad087e1afa0eec34dd/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/114256",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1605360378,
+    "state": 5,
+    "last_state_change_date": 1605396051,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekping",
+        "kygekpingtps",
+        "kygekraqmak",
+        "kygekraqmakping",
+        "kygekraqmakpingtps",
+        "kygekraqmaktps",
+        "kygektps",
+        "ping",
+        "pingtps",
+        "playerping",
+        "servertps",
+        "tps"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "KygekDev"
+        ],
+        "Contributor": [
+            "KRUNCHSHooT",
+            "Kygekraqmak",
+            "tobydev27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

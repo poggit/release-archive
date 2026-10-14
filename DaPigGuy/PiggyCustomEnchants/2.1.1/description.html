@@ -1,0 +1,142 @@
+<h1>
+<a id="user-content-general" class="anchor" href="#general" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General</h1>
+<p>PiggyCustomEnchants is an open-sourced custom enchants plugin for PMMP created by DaPigGuy (MCPEPIG).</p>
+<h4>
+<a id="user-content-reporting-on-github" class="anchor" href="#reporting-on-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reporting on GitHub</h4>
+<ul>
+<li>If you experience an unexpected non-crash behavior with PiggyCustomEnchants, click <a href="https://github.com/DaPigGuy/PiggyCustomEnchants/issues/new?assignees=DaPigGuy&amp;labels=bug&amp;template=bug_report.md&amp;title=">here</a>.</li>
+<li>If you experience a crash in PiggyCustomEnchants, click <a href="https://github.com/DaPigGuy/PiggyCustomEnchants/issues/new?assignees=DaPigGuy&amp;labels=bug&amp;template=crash.md&amp;title=">here</a>.</li>
+<li>If you would like to suggest a feature to be added to PiggyCustomEnchants, click <a href="https://github.com/DaPigGuy/PiggyCustomEnchants/issues/new?assignees=DaPigGuy&amp;labels=suggestion&amp;template=suggestion.md&amp;title=">here</a>.</li>
+<li>If you require support, please join our discord server <a href="https://discord.gg/qmnDsSD" rel="nofollow">here</a>.</li>
+<li>Do not file any issues related to outdated API version; we will resolve such issues as soon as possible.</li>
+<li>We do not support any spoons of PocketMine-MP. Anything to do with spoons (Issues or PRs) will be ignored.
+<ul>
+<li>This includes plugins that modify PocketMine-MP's behavior directly, such as TeaSpoon.</li>
+</ul>
+</li>
+</ul>
+<h4>
+<a id="user-content-other-information" class="anchor" href="#other-information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other Information</h4>
+<ul>
+<li>Virions being used: <a href="https://github.com/jojoe77777/FormAPI">libFormAPI</a> &amp; <a href="https://github.com/CortexPE/Commando">Commando</a>.</li>
+<li>You can find a list of current custom enchants, plugin setup/configuration information, and the API Documentation at <a href="https://piggydocs.aericio.net/PiggyCustomEnchants.html" rel="nofollow">PiggyDocs</a>.</li>
+</ul>
+<h1>
+<a id="user-content-command-usage" class="anchor" href="#command-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Command Usage</h1>
+<h3>
+<a id="user-content-ce-about" class="anchor" href="#ce-about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>/ce about</h3>
+<p>Shows information about the plugin.</p>
+<ul>
+<li><code>/ce about</code></li>
+<li>
+<code>piggycustomenchants.command.ce.about</code>
+<ul>
+<li><code>default: true</code></li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-ce-enchant" class="anchor" href="#ce-enchant" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>/ce enchant</h3>
+<p>Command to enchant item with custom enchants.</p>
+<ul>
+<li><code>/ce enchant &lt;enchant&gt; [level] [player]</code></li>
+<li>
+<code>piggycustomenchants.command.ce.enchant</code>
+<ul>
+<li><code>default: op</code></li>
+</ul>
+</li>
+</ul>
+<p>Override max enchant level + item check.</p>
+<ul>
+<li>
+<code>piggycustomenchants.overridecheck</code>
+<ul>
+<li><code>default: false</code></li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-ce-help" class="anchor" href="#ce-help" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>/ce help</h3>
+<p>Shows a list of PiggyCE commands.</p>
+<ul>
+<li><code>/ce help</code></li>
+<li>
+<code>piggycustomenchants.command.ce.help</code>
+<ul>
+<li><code>default: true</code></li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-ce-info" class="anchor" href="#ce-info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>/ce info</h3>
+<p>Shows information of a specific custom enchantment.</p>
+<ul>
+<li><code>/ce info &lt;enchant&gt;</code></li>
+<li>
+<code>piggycustomenchants.command.ce.info</code>
+<ul>
+<li><code>default: true</code></li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-ce-list" class="anchor" href="#ce-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>/ce list</h3>
+<p>List of all custom enchants.</p>
+<ul>
+<li><code>/ce list</code></li>
+<li>
+<code>piggycustomenchants.command.ce.list</code>
+<ul>
+<li><code>default: true</code></li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-ce-nbt" class="anchor" href="#ce-nbt" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>/ce nbt</h3>
+<p>Outputs the NBT of item.</p>
+<ul>
+<li><code>/ce nbt</code></li>
+<li>
+<code>piggycustomenchants.command.ce.nbt</code>
+<ul>
+<li><code>default: true</code></li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-ce-remove" class="anchor" href="#ce-remove" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>/ce remove</h3>
+<p>Remove a custom enchant from an item</p>
+<ul>
+<li><code>/ce remove &lt;enchantment&gt; [player]</code></li>
+<li>
+<code>piggycustomenchants.command.ce.remove</code>
+<ul>
+<li><code>default: op</code></li>
+</ul>
+</li>
+</ul>
+<h1>
+<a id="user-content-faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h1>
+<p><strong>Q:</strong> How do I create/use an enchanted book? <br>
+<strong>A:</strong> If you want to create an enchanted book, use the /ce enchant command on a normal book. Afterwards, you place the item you want to enchant on top of the enchanted book. It will then enchant your item.'</p>
+<p><strong>Q:</strong> <code>ErrorException: "Invalid argument supplied for foreach()" (EXCEPTION) in "plugins/PiggyCustomEnchants.phar/src/DaPigGuy/PiggyCustomEnchants/PiggyCustomEnchants" at line 54</code>. <br>
+<strong>A:</strong> This is due to an outdated configuration from Version 1.0.0. You should delete your old configuration to allow PiggyCE to re-generate a new configuration.</p>
+<h1>
+<a id="user-content-plugins-using-piggyce" class="anchor" href="#plugins-using-piggyce" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Plugins using PiggyCE</h1>
+<p>If you use PiggyCustomEnchants and want your plugin to be shown in the list below, join our <a href="https://discord.gg/qmnDsSD" rel="nofollow">discord server</a> and ask to be added.</p>
+<ul>
+<li>Requirement: must be a plugin approved on Poggit-CI.</li>
+</ul>
+<h3>
+<a id="user-content-piggycustomenchantsshop-official" class="anchor" href="#piggycustomenchantsshop-official" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PiggyCustomEnchantsShop (OFFICIAL)</h3>
+<p><a href="https://github.com/DaPigGuy/PiggyCustomEnchantsShop">PiggyCustomEnchantsShop</a>: PiggyCustomEnchantsShop is an add-on the the PiggyCustomEnchants plugin, adding UI/sign shops.</p>
+<h3>
+<a id="user-content-pceallychecks-official" class="anchor" href="#pceallychecks-official" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PCEAllyChecks (OFFICIAL)</h3>
+<p><a href="https://poggit.pmmp.io/p/PCEAllyChecks/1.0.0" rel="nofollow">PCEAllyChecks</a>: PCEAllyChecks will prevent certain custom enchants from affecting your faction members/allies on FactionsPro and FactionsPE (PiggyCE v2.1.0+ required).</p>
+<h3>
+<a id="user-content-advancedkits" class="anchor" href="#advancedkits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AdvancedKits</h3>
+<p><a href="https://poggit.pmmp.io/p/AdvancedKits" rel="nofollow">AdvancedKits</a>: AdvancedKits is a simple yet useful PocketMine-MP kit plugin.</p>
+<h3>
+<a id="user-content-kitui" class="anchor" href="#kitui" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>KitUI</h3>
+<p><a href="https://poggit.pmmp.io/p/KitUI" rel="nofollow">KitUI</a>: Advance AdvancedKits! Select Kits from an UI, just do /kit and get kits info and select it if available!</p>

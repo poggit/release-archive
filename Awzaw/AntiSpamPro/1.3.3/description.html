@@ -1,0 +1,21 @@
+<h1>AntiSpamPro</h1>
+<p>Antispam plugin with configurable delay, profanity filter (block swear words), automatic actions (kick, ban) and commands to change settings on the fly in console or in game<br>
+ASP 1.3 now also detects command spam.</p>
+<p>/asp - display the current AntiSpamPro settings</p>
+<p>/asp kick - kick spammers</p>
+<p>/asp ban - ban spammers</p>
+<p>/asp banip - banip and ban spammers</p>
+<p>/asp bancid - ban, banip and bancid spammers (if available),</p>
+<p>asp set {1, 2 or 3} - change the allowed delay between chat to 1, 2 or 3 seconds</p>
+<p>You need the permission asp to use any of the commands. There is no spam bypass permission.<br>
+The delay setting in config.yml can be set freely.</p>
+<p>To configure other plugins to use the AntiSpamPro profanity filter, use this is onEnable():</p>
+<p><code>$this-&gt;antispampro = $this-&gt;getServer()-&gt;getPluginManager()-&gt;getPlugin("AntiSpamPro");</code></p>
+<p><code>if (!$this-&gt;antispampro) {</code></p>
+<p><code>$this-&gt;getLogger()-&gt;info("Unable to find AntiSpamPro");</code></p>
+<p><code>}</code></p>
+<p>and then use this to check for swear words:</p>
+<p><code>if ($this-&gt;antispampro &amp;&amp; $this-&gt;antispampro-&gt;getProfanityFilter()-&gt;hasProfanity($wordtocheck)) {.......}</code></p>
+<p>KUDOS and thanks to<br>
+<a href="https://github.com/mofodojodino/ProfanityFilter">https://github.com/mofodojodino/ProfanityFilter</a><br>
+and <a href="https://github.com/fastwebmedia/Profanity-Filter">https://github.com/fastwebmedia/Profanity-Filter</a></p>

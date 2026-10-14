@@ -1,0 +1,80 @@
+{
+    "id": 12336,
+    "name": "XNoNickSpace",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/XNoNickSpace/1.1",
+    "tagline": "The XNoNickSpace plugin secures Bedrock servers, disallowing usernames with spaces or invisible characters.",
+    "artifact_url": "https://poggit.pmmp.io/r/222082",
+    "downloads": 578,
+    "score": 5,
+    "repo_id": 680592017,
+    "repo_name": "xrde4/XNoNickSpace",
+    "project_id": 12959,
+    "project_name": "XNoNickSpace",
+    "build_id": 163117,
+    "build_number": 5,
+    "build_commit": "20af20221a07be3963492f9c5e8392b02bf28e30",
+    "description_url": "https://poggit.pmmp.io/r/222102",
+    "icon_url": "https://raw.githubusercontent.com/xrde4/XNoNickSpace/20af20221a07be3963492f9c5e8392b02bf28e30/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/222103",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1693604625,
+    "state": 5,
+    "last_state_change_date": 1693698046,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Blocking",
+        "Character",
+        "Filtering",
+        "Formatting",
+        "Invisible",
+        "Name",
+        "Nickname",
+        "Prevention",
+        "Restrictions",
+        "Space",
+        "Username",
+        "Validation"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "xrde4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,66 @@
+{
+    "id": 8275,
+    "name": "Composter",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/Composter/1.0",
+    "tagline": "This plugin adds composter functionality to your PocketMine-MP server",
+    "artifact_url": "https://poggit.pmmp.io/r/151813",
+    "downloads": 2243,
+    "score": 5,
+    "repo_id": 330118259,
+    "repo_name": "ipad54/Composter",
+    "project_id": 8384,
+    "project_name": "Composter",
+    "build_id": 117748,
+    "build_number": 6,
+    "build_commit": "e270b48583eca109ddff0c609e43892d058262bf",
+    "description_url": "https://poggit.pmmp.io/r/155158",
+    "icon_url": "https://raw.githubusercontent.com/ipad54/Composter/e270b48583eca109ddff0c609e43892d058262bf/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1639116790,
+    "state": 5,
+    "last_state_change_date": 1641035037,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "api4",
+        "blocks",
+        "composter",
+        "pm4",
+        "pmmp",
+        "pmmp-plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ipad54"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

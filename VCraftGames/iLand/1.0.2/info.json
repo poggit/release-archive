@@ -1,0 +1,131 @@
+{
+    "id": 10195,
+    "name": "iLand",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/iLand/1.0.2",
+    "tagline": "Powerful land plugin, based on PMMP.",
+    "artifact_url": "https://poggit.pmmp.io/r/185003",
+    "downloads": 1451,
+    "score": 5,
+    "repo_id": 487823829,
+    "repo_name": "VCraftGames/iLand",
+    "project_id": 11050,
+    "project_name": "iLand",
+    "build_id": 139401,
+    "build_number": 112,
+    "build_commit": "c602bd54da35cd16bd95d7e9d233737cef615d1f",
+    "description_url": "https://poggit.pmmp.io/r/190050",
+    "icon_url": "https://raw.githubusercontent.com/BlockMagicDev/iLand/c602bd54da35cd16bd95d7e9d233737cef615d1f/assets/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1657087499,
+    "state": 5,
+    "last_state_change_date": 1660664483,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "economy",
+        "fun",
+        "iland",
+        "land",
+        "player",
+        "pmmp",
+        "teleport"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DavidGlitch04"
+        ],
+        "Contributor": [
+            "NoobMCBG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "ce75bc58d640c15af95bd24a3be053d57608092c",
+            "build_id": 124216
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "24721220ed0f41188cea3816af7357345907a325",
+            "build_id": 138421
+        }
+    ]
+}

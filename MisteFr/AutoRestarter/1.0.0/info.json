@@ -1,0 +1,59 @@
+{
+    "id": 1785,
+    "name": "AutoRestarter",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoRestarter/1.0.0",
+    "tagline": "A PocketMine-MP plugin that automatically restart your server once the chosen time is up",
+    "artifact_url": "https://poggit.pmmp.io/r/39481",
+    "downloads": 12284,
+    "score": 4,
+    "repo_id": 144187158,
+    "repo_name": "MisteFr/AutoRestarter",
+    "project_id": 3703,
+    "project_name": "AutoRestarter",
+    "build_id": 47586,
+    "build_number": 3,
+    "build_commit": "85f4a643628042be18c5ad85d42d877066533911",
+    "description_url": "https://poggit.pmmp.io/r/40545",
+    "icon_url": "https://raw.githubusercontent.com/MisteFr/AutoRestarter/85f4a643628042be18c5ad85d42d877066533911/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1533939113,
+    "state": 5,
+    "last_state_change_date": 1533939113,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MisteFr"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

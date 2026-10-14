@@ -1,0 +1,101 @@
+{
+    "id": 3990,
+    "name": "QuestPlugin",
+    "version": "3.1",
+    "html_url": "https://poggit.pmmp.io/p/QuestPlugin/3.1",
+    "tagline": "Ultimate quest plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/78703",
+    "downloads": 5560,
+    "score": 3,
+    "repo_id": 246489658,
+    "repo_name": "HmmHmmmm/QuestPlugin",
+    "project_id": 6448,
+    "project_name": "QuestPlugin",
+    "build_id": 72485,
+    "build_number": 4,
+    "build_commit": "9df826892caf0d2f9bfd306400f55f598316bb11",
+    "description_url": "https://poggit.pmmp.io/r/78780",
+    "icon_url": "https://raw.githubusercontent.com/HmmHmmmm/QuestPlugin/9df826892caf0d2f9bfd306400f55f598316bb11/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1584208595,
+    "state": 5,
+    "last_state_change_date": 1584279853,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "customui",
+        "pocketmine",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "1.5.2",
+            "depRelId": 3572,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HmmHmmmm"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "customui",
+            "project_id": 772,
+            "repo_id": 99797082,
+            "repo_name": "thebigsmileXD/customui",
+            "repo_path": "customui/",
+            "build_commit": "97a8e73470057f8786e4a1f993d1971ed87cc59b",
+            "build_id": 51353
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "8f56c71ef5c5236d6791213952623b8288eb0151",
+            "build_id": 70498
+        }
+    ]
+}

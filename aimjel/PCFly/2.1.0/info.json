@@ -1,0 +1,61 @@
+{
+    "id": 1156,
+    "name": "PCFly",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/PCFly/2.1.0",
+    "tagline": "This plugin is a copy of MCPC Fly! now ported to PE!!",
+    "artifact_url": "https://poggit.pmmp.io/r/24031",
+    "downloads": 302,
+    "score": 2,
+    "repo_id": 96720321,
+    "repo_name": "aimjel/PCFly",
+    "project_id": 1594,
+    "project_name": "PCFly",
+    "build_id": 36578,
+    "build_number": 18,
+    "build_commit": "017c9eb56f03de7671a0c928a6f31b17cbdd6489",
+    "description_url": "https://poggit.pmmp.io/r/24028",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/24030",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518902786,
+    "state": 5,
+    "last_state_change_date": 1518902786,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "fly"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA6",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "aimjel"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

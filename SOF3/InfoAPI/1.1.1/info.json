@@ -1,0 +1,77 @@
+{
+    "id": 8346,
+    "name": "InfoAPI",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/InfoAPI/1.1.1",
+    "tagline": "Placeholder registry and formatting API.",
+    "artifact_url": "https://poggit.pmmp.io/r/153146",
+    "downloads": 588,
+    "score": 5,
+    "repo_id": 184870267,
+    "repo_name": "SOF3/InfoAPI",
+    "project_id": 4980,
+    "project_name": "InfoAPI",
+    "build_id": 118700,
+    "build_number": 96,
+    "build_commit": "e5f056d46998ba5aa3dd7b5723c66c8ff538abe6",
+    "description_url": "https://poggit.pmmp.io/r/153143",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/153145",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1639885139,
+    "state": 5,
+    "last_state_change_date": 1639885143,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "info",
+        "placeholder"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SOF3"
+        ],
+        "Contributor": [
+            "JaxkDev",
+            "Endermanbugzjfc"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 5053,
+            "repo_id": 188160442,
+            "repo_name": "SOF3/pmforms",
+            "repo_path": "",
+            "build_commit": "30364ca2873e7408c42831618b0d5851f912118a",
+            "build_id": 113077
+        },
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "af7ba5ddb8486fef00dc40be50c5560b3de3decf",
+            "build_id": 78400
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "id": 10956,
+    "name": "JoinStreak",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/JoinStreak/1.0.0",
+    "tagline": "Keep track of player's join streaks on your PocketMine-MP server, similar to the snapchat streak feature.",
+    "artifact_url": "https://poggit.pmmp.io/r/200512",
+    "downloads": 116,
+    "score": 5,
+    "repo_id": 593137498,
+    "repo_name": "usy4/JoinStreak",
+    "project_id": 12101,
+    "project_name": "JoinStreak",
+    "build_id": 149888,
+    "build_number": 15,
+    "build_commit": "c12d9c62e8fece3edd90f264409e4e710a2926b3",
+    "description_url": "https://poggit.pmmp.io/r/200511",
+    "icon_url": "https://raw.githubusercontent.com/usy4/JoinStreak/c12d9c62e8fece3edd90f264409e4e710a2926b3/JoinStreak.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1675714650,
+    "state": 5,
+    "last_state_change_date": 1675976006,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "usy4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

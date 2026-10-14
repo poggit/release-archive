@@ -1,0 +1,76 @@
+{
+    "id": 11133,
+    "name": "HealAndFeed",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/HealAndFeed/2.2.0",
+    "tagline": "Heal and Feed Command For PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/203505",
+    "downloads": 212,
+    "score": null,
+    "repo_id": 418657033,
+    "repo_name": "Kylan1940/PMMP-HealAndFeed",
+    "project_id": 9859,
+    "project_name": "HealAndFeed",
+    "build_id": 152254,
+    "build_number": 27,
+    "build_commit": "0ba49a706907131ed82d4303da97b7a20b380d74",
+    "description_url": "https://poggit.pmmp.io/r/203502",
+    "icon_url": "https://raw.githubusercontent.com/Kylan1940/HealAndFeed/0ba49a706907131ed82d4303da97b7a20b380d74/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/203504",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1680415067,
+    "state": 5,
+    "last_state_change_date": 1680440929,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Feed",
+        "Heal",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.4",
+            "depRelId": 8239,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Kylan1940"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 11152,
+            "repo_id": 489968830,
+            "repo_name": "supercrafter333/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "5334e65c68040434b42016663f87bf3cc6758fb3",
+            "build_id": 133246
+        }
+    ]
+}

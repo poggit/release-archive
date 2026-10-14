@@ -1,0 +1,68 @@
+{
+    "id": 11394,
+    "name": "CropGrowth",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CropGrowth/3.0.0",
+    "tagline": "Show particles when using bone meal on crops",
+    "artifact_url": "https://poggit.pmmp.io/r/208693",
+    "downloads": 332,
+    "score": 4,
+    "repo_id": 403914183,
+    "repo_name": "nhanaz-pm-pl/CropGrowth",
+    "project_id": 10249,
+    "project_name": "CropGrowth",
+    "build_id": 155691,
+    "build_number": 49,
+    "build_commit": "185670b8a4780cd6022f88fc8d6c21062122affe",
+    "description_url": "https://poggit.pmmp.io/r/208690",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/CropGrowth/185670b8a4780cd6022f88fc8d6c21062122affe/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208692",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685636919,
+    "state": 5,
+    "last_state_change_date": 1685638308,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        }
+    ],
+    "keywords": [
+        "cropgrowth",
+        "discord",
+        "fertilizerparticles",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NgLam2911",
+            "taylordev47",
+            "JkqzDev"
+        ],
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

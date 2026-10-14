@@ -1,0 +1,79 @@
+{
+    "id": 380,
+    "name": "SimpleAuth",
+    "version": "1.8.1-dev1",
+    "html_url": "https://poggit.pmmp.io/p/SimpleAuth/1.8.1-dev1",
+    "tagline": "Classic SimpleAuth + PIN codes",
+    "artifact_url": "https://poggit.pmmp.io/r/7521",
+    "downloads": 793,
+    "score": null,
+    "repo_id": 84246690,
+    "repo_name": "poggit-orphanage/SimpleAuth",
+    "project_id": 315,
+    "project_name": "SimpleAuth",
+    "build_id": 25045,
+    "build_number": 4,
+    "build_commit": "32385ee2e44ff21c3550e1d02a02890629032ae5",
+    "description_url": "https://poggit.pmmp.io/r/7517",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/SimpleAuth/32385ee2e44ff21c3550e1d02a02890629032ae5/sa.png",
+    "changelog_url": null,
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1498744971,
+    "state": 5,
+    "last_state_change_date": 1506452783,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "simpleauth",
+        "simple",
+        "auth",
+        "login",
+        "register",
+        "password"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA5",
+            "to": "3.0.0-ALPHA6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SimpleAuthHelper",
+            "version": "2.0.4",
+            "depRelId": 115,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4",
+            "depRelId": 55,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "shoghicp",
+            "awzaw"
+        ],
+        "Contributor": [
+            "sof3"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

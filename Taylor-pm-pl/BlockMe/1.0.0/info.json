@@ -1,0 +1,69 @@
+{
+    "id": 11285,
+    "name": "BlockMe",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockMe/1.0.0",
+    "tagline": "Players can block each other",
+    "artifact_url": "https://poggit.pmmp.io/r/207046",
+    "downloads": 122,
+    "score": null,
+    "repo_id": 640617274,
+    "repo_name": "Taylor-pm-pl/BlockMe",
+    "project_id": 12456,
+    "project_name": "BlockMe",
+    "build_id": 154689,
+    "build_number": 7,
+    "build_commit": "5af54c69e7d9ad0018a656b2f87971c1802c4ba7",
+    "description_url": "https://poggit.pmmp.io/r/207045",
+    "icon_url": "https://raw.githubusercontent.com/Taylor-pm-pl/BlockMe/5af54c69e7d9ad0018a656b2f87971c1802c4ba7/assets/img/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1684088340,
+    "state": 5,
+    "last_state_change_date": 1684174270,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "block",
+        "blockme",
+        "pmmp",
+        "plugin",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TaylorR47"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

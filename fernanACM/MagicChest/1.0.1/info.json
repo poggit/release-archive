@@ -1,0 +1,113 @@
+{
+    "id": 14238,
+    "name": "MagicChest",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/MagicChest/1.0.1",
+    "tagline": "MagicChest for servers PocketMine-MP 5.0",
+    "artifact_url": "https://poggit.pmmp.io/r/260435",
+    "downloads": 168,
+    "score": null,
+    "repo_id": 935172858,
+    "repo_name": "fernanACM/MagicChest",
+    "project_id": 14782,
+    "project_name": "MagicChest",
+    "build_id": 189820,
+    "build_number": 5,
+    "build_commit": "ee771af3ba0672f9bfe23993c0f835cc86d33d78",
+    "description_url": "https://poggit.pmmp.io/r/260432",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/MagicChest/ee771af3ba0672f9bfe23993c0f835cc86d33d78/icon-magicchest.png",
+    "changelog_url": "https://poggit.pmmp.io/r/260434",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1761637333,
+    "state": 5,
+    "last_state_change_date": 1762484170,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Chest",
+        "Magic",
+        "MagicChest"
+    ],
+    "api": [
+        {
+            "from": "5.36.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 14674,
+            "repo_id": 968903825,
+            "repo_name": "ACM-PocketMine-MP/FormsUI",
+            "repo_path": "",
+            "build_commit": "48d74981c6440b7a52a016f515c7b91d6b56fd23",
+            "build_id": 186177
+        },
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "d2977f0c1477d8c8eec5c1d331ff6813ee0b9ac0",
+            "build_id": 189818
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "3400302e0d77757e716ac69a4099561bde5634b3",
+            "build_id": 184973
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "d2dc7f2219fb5306416c144d4a774883efa82da7",
+            "build_id": 188715
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

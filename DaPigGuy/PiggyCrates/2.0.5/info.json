@@ -1,0 +1,96 @@
+{
+    "id": 4153,
+    "name": "PiggyCrates",
+    "version": "2.0.5",
+    "html_url": "https://poggit.pmmp.io/p/PiggyCrates/2.0.5",
+    "tagline": "A crate plugin for PocketMine-MP supporting unlimited crate types",
+    "artifact_url": "https://poggit.pmmp.io/r/81985",
+    "downloads": 281,
+    "score": 4,
+    "repo_id": 118399424,
+    "repo_name": "DaPigGuy/PiggyCrates",
+    "project_id": 1816,
+    "project_name": "PiggyCrates",
+    "build_id": 74840,
+    "build_number": 80,
+    "build_commit": "c24b05aa1210ddeef145df300bfeecf54382922c",
+    "description_url": "https://poggit.pmmp.io/r/81982",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/81984",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1586677446,
+    "state": 5,
+    "last_state_change_date": 1587003132,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "crate",
+        "crates",
+        "pig",
+        "piggy",
+        "piggycrate",
+        "piggycrates"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.0.1",
+            "depRelId": 3478,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ],
+        "Contributor": [
+            "SalmonDE",
+            "Ifera",
+            "ErikPDev",
+            "JavierLeon9966",
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "87d36286e8be24100f41a9da5ec1bcc7b0153f71",
+            "build_id": 74258
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "2a87117cd8bb217272a50747a1845e183245b90b",
+            "build_id": 74727
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "id": 13000,
+    "name": "SmoothPearl",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SmoothPearl/1.0.0",
+    "tagline": "Adds a smooth teleporting animation when using the Ender Pearl in your PocketMine server",
+    "artifact_url": "https://poggit.pmmp.io/r/238156",
+    "downloads": 166,
+    "score": null,
+    "repo_id": 792950277,
+    "repo_name": "imLuckii/SmoothPearl",
+    "project_id": 13771,
+    "project_name": "SmoothPearl",
+    "build_id": 174715,
+    "build_number": 9,
+    "build_commit": "0eee4c3d130ea5c5507bdfe25506e23131150d77",
+    "description_url": "https://poggit.pmmp.io/r/238155",
+    "icon_url": "https://raw.githubusercontent.com/imLuckii/SmoothPearl/0eee4c3d130ea5c5507bdfe25506e23131150d77/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1714347647,
+    "state": 5,
+    "last_state_change_date": 1714838260,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "animation",
+        "enderpearl",
+        "imLuckii",
+        "pearl",
+        "teleport"
+    ],
+    "api": [
+        {
+            "from": "5.15.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "imLuckii"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

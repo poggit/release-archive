@@ -1,0 +1,89 @@
+{
+    "id": 12492,
+    "name": "ChatGames",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/ChatGames/1.1.0",
+    "tagline": "This is a pocketmine [PMMP] plugin which implements chat games into Minecraft",
+    "artifact_url": "https://poggit.pmmp.io/r/226497",
+    "downloads": 1679,
+    "score": 5,
+    "repo_id": 672231886,
+    "repo_name": "antbag-pm-pl/ChatGames",
+    "project_id": 12860,
+    "project_name": "ChatGames",
+    "build_id": 165409,
+    "build_number": 60,
+    "build_commit": "2aa8b194f7d8a48feeb748ad1724efc0ac2fb91c",
+    "description_url": "https://poggit.pmmp.io/r/226494",
+    "icon_url": "https://raw.githubusercontent.com/antbag-pm-pl/ChatGames/2aa8b194f7d8a48feeb748ad1724efc0ac2fb91c/chat.png",
+    "changelog_url": "https://poggit.pmmp.io/r/226496",
+    "license": "GPL-3.0-or-later",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1697017560,
+    "state": 5,
+    "last_state_change_date": 1697174395,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "minecraft",
+        "plugin",
+        "pmmp",
+        "pmmp-plugins",
+        "pmmp-servers",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "antbag-dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "3c4e02b52f275cf5f2cf83a31e8e651eb9901ae0",
+            "build_id": 162907
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "id": 13629,
+    "name": "AzusaWordScramble",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/AzusaWordScramble/1.0.2",
+    "tagline": "Broadcast word stacking questions and if correct then get money",
+    "artifact_url": "https://poggit.pmmp.io/r/249663",
+    "downloads": 128,
+    "score": 3,
+    "repo_id": 822392651,
+    "repo_name": "KumaaDeveloper/AzusaWordScramble",
+    "project_id": 13984,
+    "project_name": "AzusaWordScramble",
+    "build_id": 182671,
+    "build_number": 9,
+    "build_commit": "c3b283f1d54d705565b2c74123f3bb266d52df62",
+    "description_url": "https://poggit.pmmp.io/r/249662",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaWordScramble/c3b283f1d54d705565b2c74123f3bb266d52df62/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1731798301,
+    "state": 5,
+    "last_state_change_date": 1732029152,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Economy",
+        "Money",
+        "Quest",
+        "Scramble",
+        "Word"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": true
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

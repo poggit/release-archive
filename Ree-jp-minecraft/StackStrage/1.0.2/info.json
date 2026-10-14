@@ -1,0 +1,78 @@
+{
+    "id": 7653,
+    "name": "StackStorage",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/StackStorage/1.0.2",
+    "tagline": "Simple Virtual storage",
+    "artifact_url": "https://poggit.pmmp.io/r/142200",
+    "downloads": 41,
+    "score": null,
+    "repo_id": 224436247,
+    "repo_name": "Ree-jp-minecraft/StackStrage",
+    "project_id": 6525,
+    "project_name": "StackStrage",
+    "build_id": 112148,
+    "build_number": 32,
+    "build_commit": "3e449bba72804aaefa79caa7fec5ac18852ec88a",
+    "description_url": "https://poggit.pmmp.io/r/142314",
+    "icon_url": "https://raw.githubusercontent.com/Ree-jp-minecraft/StackStrage/3e449bba72804aaefa79caa7fec5ac18852ec88a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/142316",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632124730,
+    "state": 5,
+    "last_state_change_date": 1632138325,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "cloud",
+        "item",
+        "pmmp",
+        "stackstorage",
+        "storage"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "DaisukeDaisuke"
+        ],
+        "Collaborator": [
+            "Ree-jp"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "307c779746e347724e9477b386d92859d1e36bcc",
+            "build_id": 109013
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "id": 14445,
+    "name": "HideJoinMessage",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HideJoinMessage/1.0.0",
+    "tagline": "Hide or customize player join/leave messages",
+    "artifact_url": "https://poggit.pmmp.io/r/264316",
+    "downloads": 58,
+    "score": null,
+    "repo_id": 1226888896,
+    "repo_name": "Doma-0609/HideJoinMessage",
+    "project_id": 15228,
+    "project_name": "HideJoinMessage",
+    "build_id": 192588,
+    "build_number": 2,
+    "build_commit": "8b9163b945e8c7f334ca5d9e9b52eb612b450029",
+    "description_url": "https://poggit.pmmp.io/r/264583",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1777682414,
+    "state": 5,
+    "last_state_change_date": 1783023310,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "hide",
+        "join",
+        "leave",
+        "message",
+        "quit",
+        "silent"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Doma-0609"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

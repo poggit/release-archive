@@ -1,0 +1,71 @@
+{
+    "id": 14480,
+    "name": "ElytraFly",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ElytraFly/1.0.0",
+    "tagline": "Vanilla mechanics of elytra flights for NG and PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/264994",
+    "downloads": 83,
+    "score": null,
+    "repo_id": 1026881033,
+    "repo_name": "nikitaberg28/ElytraFly",
+    "project_id": 15262,
+    "project_name": "ElytraFly",
+    "build_id": 193059,
+    "build_number": 1,
+    "build_commit": "51391acda55810e4f23e7da0ee88363b6ec274cd",
+    "description_url": "https://poggit.pmmp.io/r/265007",
+    "icon_url": "https://raw.githubusercontent.com/nikitaberg28/ElytraFly/51391acda55810e4f23e7da0ee88363b6ec274cd/Icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "LGPL-3.0-only",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1782170287,
+    "state": 5,
+    "last_state_change_date": 1783021296,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "elytra",
+        "fireworks",
+        "flight",
+        "nethergames",
+        "pmmp",
+        "pocketmine",
+        "vanilla"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "nikitaberg28"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

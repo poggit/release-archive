@@ -1,0 +1,68 @@
+{
+    "id": 7150,
+    "name": "CPS",
+    "version": "1.0.2",
+    "html_url": "https://poggit.pmmp.io/p/CPS/1.0.2",
+    "tagline": "A Fully Customizable CPS Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/133615",
+    "downloads": 4191,
+    "score": 3,
+    "repo_id": 356729254,
+    "repo_name": "iRainDropp/CPS",
+    "project_id": 8841,
+    "project_name": "CPS",
+    "build_id": 106843,
+    "build_number": 25,
+    "build_commit": "53432c9c81e6958ff78f7600fca4c8d599431fc1",
+    "description_url": "https://poggit.pmmp.io/r/133612",
+    "icon_url": "https://raw.githubusercontent.com/iRainDropp/CPS/53432c9c81e6958ff78f7600fca4c8d599431fc1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/133614",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1627067070,
+    "state": 5,
+    "last_state_change_date": 1627174131,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "CPS",
+        "CPSAlerts",
+        "CPSLimiter",
+        "CPSPopup"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "iRainDropp"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

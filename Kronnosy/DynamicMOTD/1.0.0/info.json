@@ -1,0 +1,58 @@
+{
+    "id": 13583,
+    "name": "DynamicMOTD",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DynamicMOTD/1.0.0",
+    "tagline": "Dynamically shuffles and updates the MOTD for your Minecraft server.",
+    "artifact_url": "https://poggit.pmmp.io/r/248647",
+    "downloads": 203,
+    "score": 5,
+    "repo_id": 867706981,
+    "repo_name": "Kronnosy/DynamicMOTD",
+    "project_id": 14271,
+    "project_name": "DynamicMOTD",
+    "build_id": 181917,
+    "build_number": 1,
+    "build_commit": "49b7c0bdbe05b4873752653f422e4f52ef415763",
+    "description_url": "https://poggit.pmmp.io/r/248646",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1728056720,
+    "state": 5,
+    "last_state_change_date": 1730291718,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pmmp5",
+        "pocketmine",
+        "pocketmine-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Kronnosy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,55 @@
+<h1>
+<a id="user-content-simplemaprenderer" class="anchor" href="#simplemaprenderer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SimpleMapRenderer</h1>
+<p>Simple Map Plugin for PocketMine-MP</p>
+<h1>
+<a id="user-content-how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use</h1>
+<p>Just put the plugin on plugins folder and enjoy it!</p>
+<p><a href="https://raw.githubusercontent.com/alvin0319/SimpleMapRenderer/master/map_info.png" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/alvin0319/SimpleMapRenderer/master/map_info.png" alt="" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<h5>
+<a id="user-content-get-mapfactory-instance" class="anchor" href="#get-mapfactory-instance" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get MapFactory instance</h5>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>factory</span> = \alvin0319\<span class="pl-v">SimpleMapRenderer</span>\<span class="pl-v">MapFactory</span>::<span class="pl-en">getInstance</span>();</pre></div>
+<h5>
+<a id="user-content-get-mapdata-object" class="anchor" href="#get-mapdata-object" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get <code>MapData</code> object</h5>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>mapId</span> = your_map_id;
+<span class="pl-s1"><span class="pl-c1">$</span>mapData</span> = <span class="pl-s1"><span class="pl-c1">$</span>factory</span>-&gt;<span class="pl-en">getMapData</span>(<span class="pl-s1"><span class="pl-c1">$</span>mapId</span>);</pre></div>
+<h5>
+<a id="user-content-register-map-info" class="anchor" href="#register-map-info" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Register Map info</h5>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>mapId</span> = your_custom_map_id; 
+<span class="pl-s1"><span class="pl-c1">$</span>colors</span> = [];
+<span class="pl-s1"><span class="pl-c1">$</span>center</span> = <span class="pl-k">new</span> <span class="pl-v">Vector3</span>(<span class="pl-c1">0</span>, <span class="pl-c1">0</span>, <span class="pl-c1">0</span>);
+for(<span class="pl-s1"><span class="pl-c1">$</span>y</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>y</span> &lt; <span class="pl-c1">128</span>; <span class="pl-s1"><span class="pl-c1">$</span>y</span>++){
+    for(<span class="pl-s1"><span class="pl-c1">$</span>x</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>x</span> &lt; <span class="pl-c1">128</span>; <span class="pl-s1"><span class="pl-c1">$</span>x</span>++){
+        <span class="pl-s1"><span class="pl-c1">$</span>colors</span>[] = <span class="pl-k">new</span> \pocketmine\utils\<span class="pl-v">Color</span>(<span class="pl-en">mt_rand</span>(<span class="pl-c1">0</span>, <span class="pl-c1">128</span>), <span class="pl-en">mt_rand</span>(<span class="pl-c1">0</span>, <span class="pl-c1">128</span>), <span class="pl-en">mt_rand</span>(<span class="pl-c1">0</span>, <span class="pl-c1">128</span>));
+    }
+}
+<span class="pl-s1"><span class="pl-c1">$</span>mapData</span> = <span class="pl-k">new</span> \alvin0319\<span class="pl-v">SimpleMapRenderer</span>\data\<span class="pl-v">MapData</span>(<span class="pl-s1"><span class="pl-c1">$</span>mapId</span>, <span class="pl-s1"><span class="pl-c1">$</span>colors</span>, <span class="pl-c1">false</span>, <span class="pl-s1"><span class="pl-c1">$</span>center</span>);
+
+<span class="pl-s1"><span class="pl-c1">$</span>factory</span>-&gt;<span class="pl-en">registerData</span>(<span class="pl-s1"><span class="pl-c1">$</span>mapData</span>);</pre></div>
+<h5>
+<a id="user-content-get-block-color" class="anchor" href="#get-block-color" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get block color</h5>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>block</span> = <span class="pl-v">Level</span>-&gt;<span class="pl-en">getBlock</span>(<span class="pl-s1"><span class="pl-c1">$</span>x</span>, <span class="pl-s1"><span class="pl-c1">$</span>y</span>, <span class="pl-s1"><span class="pl-c1">$</span>z</span>);
+<span class="pl-s1"><span class="pl-c1">$</span>color</span> = \alvin0319\<span class="pl-v">SimpleMapRenderer</span>\util\<span class="pl-v">MapUtil</span>::<span class="pl-en">getMapColorByBlock</span>(<span class="pl-s1"><span class="pl-c1">$</span>block</span>);</pre></div>
+<h5>
+<a id="user-content-save-image-file" class="anchor" href="#save-image-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Save image file</h5>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">$</span>filePath</span> = path_to_your_png_file;
+<span class="pl-s1"><span class="pl-c1">$</span>colors</span> = [];
+for(<span class="pl-s1"><span class="pl-c1">$</span>y</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>y</span> &lt; <span class="pl-c1">128</span>; <span class="pl-s1"><span class="pl-c1">$</span>y</span>++){
+    for(<span class="pl-s1"><span class="pl-c1">$</span>x</span> = <span class="pl-c1">0</span>; <span class="pl-s1"><span class="pl-c1">$</span>x</span> &lt; <span class="pl-c1">128</span>; <span class="pl-s1"><span class="pl-c1">$</span>x</span>++){
+        <span class="pl-s1"><span class="pl-c1">$</span>colors</span>[] = <span class="pl-k">new</span> \pocketmine\utils\<span class="pl-v">Color</span>(<span class="pl-en">mt_rand</span>(<span class="pl-c1">0</span>, <span class="pl-c1">128</span>), <span class="pl-en">mt_rand</span>(<span class="pl-c1">0</span>, <span class="pl-c1">128</span>), <span class="pl-en">mt_rand</span>(<span class="pl-c1">0</span>, <span class="pl-c1">128</span>));
+    }
+}
+\alvin0319\<span class="pl-v">SimpleMapRenderer</span>\util\<span class="pl-v">ImageUtil</span>::<span class="pl-en">toPNG</span>(<span class="pl-s1"><span class="pl-c1">$</span>filePath</span>, <span class="pl-s1"><span class="pl-c1">$</span>colors</span>);</pre></div>
+<h4>
+<a id="user-content-note" class="anchor" href="#note" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note</h4>
+<ul>
+<li>
+<code>$mapId</code> cannot overlap with an existing ID.</li>
+<li>The <code>$color</code> must be a two-dimensional array from 0 to 128. (ex: <code>[y][x] = Color</code>)</li>
+</ul>
+<h1>
+<a id="user-content-to-do" class="anchor" href="#to-do" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To-Do</h1>
+<ul>
+<li>Implement MapDecoration (tracking player, mob, etc...)</li>
+</ul>

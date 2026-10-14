@@ -1,0 +1,58 @@
+{
+    "id": 9557,
+    "name": "HealthLimit",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HealthLimit/1.0.0",
+    "tagline": "Make your server harder (or not) by limiting players' health",
+    "artifact_url": "https://poggit.pmmp.io/r/172297",
+    "downloads": 105,
+    "score": null,
+    "repo_id": 484805507,
+    "repo_name": "nhanaz-pm-pl/HealthLimit",
+    "project_id": 11010,
+    "project_name": "HealthLimit",
+    "build_id": 130471,
+    "build_number": 2,
+    "build_commit": "42e04ea86b8cc172971fc0040d214bb3c019bec9",
+    "description_url": "https://poggit.pmmp.io/r/183232",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/HealthLimit/42e04ea86b8cc172971fc0040d214bb3c019bec9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1650737414,
+    "state": 5,
+    "last_state_change_date": 1651693079,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "healthlimit",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

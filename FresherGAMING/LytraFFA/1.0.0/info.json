@@ -1,0 +1,79 @@
+{
+    "id": 14145,
+    "name": "LytraFFA",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LytraFFA/1.0.0",
+    "tagline": "FFA Games with really customizable config",
+    "artifact_url": "https://poggit.pmmp.io/r/258365",
+    "downloads": 92,
+    "score": null,
+    "repo_id": 1030306424,
+    "repo_name": "FresherGAMING/LytraFFA",
+    "project_id": 14849,
+    "project_name": "LytraFFA",
+    "build_id": 188354,
+    "build_number": 16,
+    "build_commit": "bd87c65137ef02d536d8ed4bf969c4740a5c1773",
+    "description_url": "https://poggit.pmmp.io/r/258364",
+    "icon_url": "https://raw.githubusercontent.com/FresherGAMING/LytraFFA/bd87c65137ef02d536d8ed4bf969c4740a5c1773/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1754308916,
+    "state": 5,
+    "last_state_change_date": 1755785716,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "FFA",
+        "LytraFFA",
+        "Minigames",
+        "PocketmineFFA"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "FresherGAMING"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        }
+    ]
+}

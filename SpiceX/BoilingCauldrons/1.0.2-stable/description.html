@@ -1,0 +1,68 @@
+<h1 align="center">
+<a id="user-content-boilingcauldrons" class="anchor" href="#boilingcauldrons" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BoilingCauldrons</h1>
+<p align="center">Makes water in cauldrons boil when there's fire under it and allows players to cook food in the boil</p>
+<br>
+<p align="center">
+    <a href="https://poggit.pmmp.io/p/BoilingCauldrons" rel="nofollow">
+        <img src="https://camo.githubusercontent.com/6b04466f5687c51959f5791220e225b0afb7ac03fd2b82fdc5e795f310aef90d/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f426f696c696e674361756c64726f6e73" alt="Plugin version" data-canonical-src="https://poggit.pmmp.io/shield.state/BoilingCauldrons" style="max-width:100%;">
+    </a>
+    <a href="https://github.com/pmmp/PocketMine-MP">
+        <img src="https://camo.githubusercontent.com/c0c217c88f62020487c06ae33d22fd0a3ea4a178e56e1dc35761071b05916874/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f426f696c696e674361756c64726f6e73" alt="API version" data-canonical-src="https://poggit.pmmp.io/shield.api/BoilingCauldrons" style="max-width:100%;">
+    </a>
+    <a href="https://poggit.pmmp.io/p/BoilingCauldrons" rel="nofollow">
+        <img src="https://camo.githubusercontent.com/13aec5c91eb40ac2c9d6cc1f4f9d7a135a5044451ba026ac80fbc1659976dcea/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f426f696c696e674361756c64726f6e73" alt="Downloads on Poggit" data-canonical-src="https://poggit.pmmp.io/shield.dl/BoilingCauldrons" style="max-width:100%;">
+    </a>
+    <a href="https://github.com/SpiceX/BoilingCauldrons/blob/master/LICENSE">
+        <img src="https://camo.githubusercontent.com/b884edeaa7053e9a22015bbcb381f1d31487c42292958032a1535b0cd701b15c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4170616368652b4c6963656e73652b322e302d79656c6c6f77677265656e2e737667" alt="license" data-canonical-src="https://img.shields.io/badge/license-Apache+License+2.0-yellowgreen.svg" style="max-width:100%;">
+    </a>
+    <a href="https://gitter.im/SpiceX/BoilingCauldrons" rel="nofollow">
+        <img src="https://camo.githubusercontent.com/b5077e7739e037afc8c4c85c560e96d6daad31f373d33c3445b15e49cb126486/68747470733a2f2f696d672e736869656c64732e696f2f6769747465722f726f6f6d2f5370696365582f426f696c696e674361756c64726f6e732e737667" alt="Gitter" data-canonical-src="https://img.shields.io/gitter/room/SpiceX/BoilingCauldrons.svg" style="max-width:100%;">
+    </a>
+    <a href="https://twitter.com/SpiceX" rel="nofollow">
+        <img src="https://camo.githubusercontent.com/862050107bc22cff56164719e70b4fe6ede00b22fd052a6acdc311169937267f/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c3f6c6162656c3d5370696365582b6f6e2b54776974746572267374796c653d736f6369616c2675726c3d6874747073253341253246253246747769747465722e636f6d25324673757276616e6574776f726b" alt="Twitter" data-canonical-src="https://img.shields.io/twitter/url?label=SpiceX+on+Twitter&amp;style=social&amp;url=https%3A%2F%2Ftwitter.com%2Fsurvanetwork" style="max-width:100%;">
+    </a>
+</p>
+<h2></h2>
+<p><a href="#-description">• Description</a><br>
+<a href="#-planned-features">• Planned Features</a><br>
+<a href="#-configurations">• Configurations</a>
+<a href="#-contribution">• Contribution</a></p>
+<h2>
+<a id="user-content--description" class="anchor" href="#-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="orange_book" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d9.png">📙</g-emoji> Description</h2>
+<p>This can be aesthetic or functional or both, as it displays a particle effect above a cauldron and allows the player to cook food in the cauldron when fire or lava is placed under it. The max stack size and time for each item is configurable!!!</p>
+<p>Each feature can be individually enabled or disabled in the configuration file.</p>
+<p>Particle Effect:
+The particles are right above the water regardless of the water level of the cauldron. The normal function of the cauldron is not changed. This is just a small visual effect to make a server seem more alive. I saw a server place a cauldron above fire as if to heat or boil the water, but the water was just sitting there, so I decided to make the setup a little more interesting.</p>
+<p>Cooking Food:
+To cook food, throw the raw food into the cauldron (the max stack size can be set in the config - defaults to 1). The cooked food will come out after the amount of time set in the config (defaults to 8 seconds) multiplied by the stack size and the water level will go down by one level. There must be some water in the cauldron in order for the food to be accepted into the cauldron.</p>
+<h2>
+<a id="user-content--planned-features" class="anchor" href="#-planned-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="gift" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f381.png">🎁</g-emoji> Planned Features</h2>
+<ul>
+<li>
+<strong>FOOD EFFECTS</strong> Give effects to the player when he eats food cooked in potions from the cauldron.</li>
+<li>
+<strong>ADVANCED FEATURES</strong> Customizable Particles or blocks</li>
+<li>
+<strong>FOODS</strong> What foods can be cooked and the corresponding outcomes.</li>
+</ul>
+<h2>
+<a id="user-content--configurations" class="anchor" href="#-configurations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><g-emoji class="g-emoji" alias="computer_mouse" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5b1.png">🖱</g-emoji> Configurations</h2>
+<p>There are different types of configurations in the plugin:</p>
+<ul>
+<li>enabled-worlds: In which worlds does the plugin take effect.</li>
+<li>cook-time: How many seconds does a cauldron cook a piece of food. Cooking can be disabled.</li>
+<li>max-stack: How many items does a cauldron can cook at once.</li>
+<li>damages: Control how much damage player take from being inside a boiling cauldron. Damages can be disabled.</li>
+</ul>
+<h2>
+<a id="user-content--contribution" class="anchor" href="#-contribution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>🙋‍ Contribution</h2>
+<p>Feel free to contribute if you have ideas or found an issue.</p>
+<p>You can:</p>
+<ul>
+<li>
+<a href="https://github.com/SpiceX/BoilingCauldrons/issues">open an issue</a> (problems, bugs or feature requests)</li>
+<li>
+<a href="https://github.com/SpiceX/BoilingCauldrons/pulls">create a pull request</a> (code contributions like fixed bugs or added features)</li>
+</ul>
+<p>Please read our <strong><a href="CONTRIBUTING.md">Contribution Guidelines</a></strong> before creating an issue or submitting a pull request.</p>
+<p>Many thanks for their support to all contributors!</p>

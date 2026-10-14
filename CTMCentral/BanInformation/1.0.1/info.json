@@ -1,0 +1,67 @@
+{
+    "id": 5569,
+    "name": "BanInformation",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BanInformation/1.0.1",
+    "tagline": "A plugin which displays ban record information",
+    "artifact_url": "https://poggit.pmmp.io/r/108281",
+    "downloads": 6048,
+    "score": 4,
+    "repo_id": 313142286,
+    "repo_name": "CTMCentral/BanInformation",
+    "project_id": 8025,
+    "project_name": "BanInformation",
+    "build_id": 91772,
+    "build_number": 4,
+    "build_commit": "ab5c4648c30a8b02a3117f5689f505d8a381e201",
+    "description_url": "https://poggit.pmmp.io/r/108278",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/108280",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1605576474,
+    "state": 5,
+    "last_state_change_date": 1605576480,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "ban",
+        "banlist",
+        "list",
+        "mod",
+        "moderate",
+        "moderator",
+        "staff"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jasonwynn10"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

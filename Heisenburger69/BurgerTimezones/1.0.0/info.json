@@ -1,0 +1,78 @@
+{
+    "id": 4819,
+    "name": "BurgerTimezones",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BurgerTimezones/1.0.0",
+    "tagline": "Simple plugin allowing players to view the current time with respect to different timezones",
+    "artifact_url": "https://poggit.pmmp.io/r/94671",
+    "downloads": 1632,
+    "score": 5,
+    "repo_id": 272487788,
+    "repo_name": "Heisenburger69/BurgerTimezones",
+    "project_id": 7202,
+    "project_name": "BurgerTimezones",
+    "build_id": 82743,
+    "build_number": 4,
+    "build_commit": "451e36480153df8b75493d628fdad7e03af8ab51",
+    "description_url": "https://poggit.pmmp.io/r/94670",
+    "icon_url": "https://raw.githubusercontent.com/Heisenburger69/BurgerTimezones/451e36480153df8b75493d628fdad7e03af8ab51/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1593726309,
+    "state": 5,
+    "last_state_change_date": 1593727501,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "burger",
+        "plugin",
+        "pmmp",
+        "time",
+        "timezone",
+        "timezones"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Heisenburger69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

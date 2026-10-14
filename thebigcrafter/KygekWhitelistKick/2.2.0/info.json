@@ -1,0 +1,100 @@
+{
+    "id": 12224,
+    "name": "KygekWhitelistKick",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/KygekWhitelistKick/2.2.0",
+    "tagline": "Kicks not whitelisted players when server whitelist turned on",
+    "artifact_url": "https://poggit.pmmp.io/r/220065",
+    "downloads": 286,
+    "score": null,
+    "repo_id": 298542362,
+    "repo_name": "thebigcrafter/KygekWhitelistKick",
+    "project_id": 7786,
+    "project_name": "KygekWhitelistKick",
+    "build_id": 161863,
+    "build_number": 20,
+    "build_commit": "49fc5257d72b2d1d72a2122b7cea17e3d8b1d233",
+    "description_url": "https://poggit.pmmp.io/r/220062",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/KygekWhitelistKick/49fc5257d72b2d1d72a2122b7cea17e3d8b1d233/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220064",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692098824,
+    "state": 5,
+    "last_state_change_date": 1692132621,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "autokick",
+        "kick",
+        "kygek",
+        "kygekautokick",
+        "kygekkick",
+        "kygekraqmak",
+        "kygekraqmakautokick",
+        "kygekraqmakkick",
+        "kygekraqmakwhitelist",
+        "kygekteamautokick",
+        "kygekteamkick",
+        "kygekteamwhitelist",
+        "kygekwhitelist",
+        "whitelist",
+        "whitelistkick"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "KygekDev",
+            "Kygekraqmak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "Hydrogen",
+            "project_id": 12575,
+            "repo_id": 649178263,
+            "repo_name": "thebigcrafter/Hydrogen",
+            "repo_path": "",
+            "build_commit": "36c9b3a3bbe31031bc1c324d96d721cef951086f",
+            "build_id": 158911
+        }
+    ]
+}

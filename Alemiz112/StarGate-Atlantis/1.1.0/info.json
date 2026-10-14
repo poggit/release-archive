@@ -1,0 +1,58 @@
+{
+    "id": 4325,
+    "name": "StarGate-Atlantis",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/StarGate-Atlantis/1.1.0",
+    "tagline": "StarGate client for PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/85230",
+    "downloads": 190,
+    "score": 5,
+    "repo_id": 232404821,
+    "repo_name": "Alemiz112/StarGate-Atlantis",
+    "project_id": 6024,
+    "project_name": "StarGate-Atlantis",
+    "build_id": 77076,
+    "build_number": 15,
+    "build_commit": "6781d7b79ca13910674bf8d3bb17984b147891e8",
+    "description_url": "https://poggit.pmmp.io/r/85227",
+    "icon_url": "https://raw.githubusercontent.com/Alemiz112/StarGate-Atlantis/6781d7b79ca13910674bf8d3bb17984b147891e8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/85229",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1588686818,
+    "state": 5,
+    "last_state_change_date": 1588700182,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "proxy",
+        "waterdog"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Alemiz112"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,62 @@
+{
+    "id": 6553,
+    "name": "SlotsPlus",
+    "version": "1.7",
+    "html_url": "https://poggit.pmmp.io/p/SlotsPlus/1.7",
+    "tagline": "A plugin which allows you to fake player slots or get unlimited player slots.",
+    "artifact_url": "https://poggit.pmmp.io/r/124261",
+    "downloads": 480,
+    "score": 3,
+    "repo_id": 360362869,
+    "repo_name": "Skylelo/SlotsPlus",
+    "project_id": 8893,
+    "project_name": "SlotsPlus",
+    "build_id": 101447,
+    "build_number": 51,
+    "build_commit": "ee63cf949a551ec64c6c252d41e1d45df2048bcd",
+    "description_url": "https://poggit.pmmp.io/r/124271",
+    "icon_url": "https://raw.githubusercontent.com/Cr1mDev/SlotsPlus/ee63cf949a551ec64c6c252d41e1d45df2048bcd/SlotsPlus.png",
+    "changelog_url": "https://poggit.pmmp.io/r/124273",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1619598927,
+    "state": 5,
+    "last_state_change_date": 1620405615,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "fake",
+        "fakeslots",
+        "plus",
+        "slots",
+        "unlimited",
+        "unlimitedslots"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "HippoBaguette"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

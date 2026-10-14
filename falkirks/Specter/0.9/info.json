@@ -1,0 +1,72 @@
+{
+    "id": 4857,
+    "name": "Specter",
+    "version": "0.9",
+    "html_url": "https://poggit.pmmp.io/p/Specter/0.9",
+    "tagline": "Super simple debugging for PocketMine.",
+    "artifact_url": "https://poggit.pmmp.io/r/95410",
+    "downloads": 6445,
+    "score": 4,
+    "repo_id": 28463867,
+    "repo_name": "falkirks/Specter",
+    "project_id": 40,
+    "project_name": "Specter",
+    "build_id": 83261,
+    "build_number": 36,
+    "build_commit": "9bdbd6964acb497bfab26e2750f62c8babb526a4",
+    "description_url": "https://poggit.pmmp.io/r/95407",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/95409",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1594216201,
+    "state": 5,
+    "last_state_change_date": 1594264533,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "debugging",
+        "dummy",
+        "fake",
+        "player"
+    ],
+    "api": [
+        {
+            "from": "3.14.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "alejandroliu",
+            "PEMapModder",
+            "iJoshuaHD",
+            "thebigsmileXD",
+            "Thunder33345",
+            "legoboy0215",
+            "dktapps",
+            "jasonwynn10",
+            "aquaminer",
+            "CortexPE",
+            "SOF3",
+            "KielKing",
+            "Yexeed",
+            "herojhjhLB",
+            "Chitpixel",
+            "RomnSD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

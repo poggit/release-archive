@@ -1,0 +1,78 @@
+{
+    "id": 8283,
+    "name": "WFT",
+    "version": "1.2.1",
+    "html_url": "https://poggit.pmmp.io/p/WFT/1.2.1",
+    "tagline": "Recoded WFT Floating Text Plugin (Wide World Update)",
+    "artifact_url": "https://poggit.pmmp.io/r/151958",
+    "downloads": 215,
+    "score": 5,
+    "repo_id": 432994430,
+    "repo_name": "WolfDen133/WFT",
+    "project_id": 10009,
+    "project_name": "WFT",
+    "build_id": 117843,
+    "build_number": 47,
+    "build_commit": "0eade8f871dcca71d35503fbd53c82049e896f33",
+    "description_url": "https://poggit.pmmp.io/r/151955",
+    "icon_url": "https://raw.githubusercontent.com/WolfDen133/WFT/0eade8f871dcca71d35503fbd53c82049e896f33/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/151957",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1639167698,
+    "state": 5,
+    "last_state_change_date": 1639281571,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "floating",
+        "floatingtext",
+        "ft",
+        "text",
+        "wft",
+        "wolfies"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WolfDen133"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

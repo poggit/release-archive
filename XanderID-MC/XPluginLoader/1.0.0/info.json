@@ -1,0 +1,67 @@
+{
+    "id": 13889,
+    "name": "XPluginLoader",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/XPluginLoader/1.0.0",
+    "tagline": "Simplifying Plugin Management for PocketMine-MP Servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/253611",
+    "downloads": 214,
+    "score": 5,
+    "repo_id": 938066203,
+    "repo_name": "XanderID-MC/XPluginLoader",
+    "project_id": 14568,
+    "project_name": "XPluginLoader",
+    "build_id": 185151,
+    "build_number": 3,
+    "build_commit": "f0bdf41676e6b998387d3ab4daa9430c4d7486c6",
+    "description_url": "https://poggit.pmmp.io/r/253610",
+    "icon_url": "https://raw.githubusercontent.com/XanderID-MC/XPluginLoader/f0bdf41676e6b998387d3ab4daa9430c4d7486c6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1740399550,
+    "state": 5,
+    "last_state_change_date": 1743042443,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine",
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "XanderID"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

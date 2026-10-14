@@ -1,0 +1,59 @@
+{
+    "id": 11318,
+    "name": "ShortSneak",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ShortSneak/1.0.0",
+    "tagline": "Add experimental 1.20 Short Sneak feature to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/207792",
+    "downloads": 74,
+    "score": 5,
+    "repo_id": 646009698,
+    "repo_name": "DavyCraft648/ShortSneak",
+    "project_id": 12511,
+    "project_name": "ShortSneak",
+    "build_id": 155231,
+    "build_number": 1,
+    "build_commit": "b3ec71c626c45dbbf7bf1c5a5c2f47d7a45782ca",
+    "description_url": "https://poggit.pmmp.io/r/207791",
+    "icon_url": "https://raw.githubusercontent.com/DavyCraft648/ShortSneak/b3ec71c626c45dbbf7bf1c5a5c2f47d7a45782ca/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685159066,
+    "state": 5,
+    "last_state_change_date": 1685165952,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        }
+    ],
+    "keywords": [
+        "1.20",
+        "1.5",
+        "sneak"
+    ],
+    "api": [
+        {
+            "from": "4.20.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DavyCraft648"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

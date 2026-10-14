@@ -1,0 +1,84 @@
+{
+    "id": 3907,
+    "name": "MailPlugin",
+    "version": "3.5",
+    "html_url": "https://poggit.pmmp.io/p/MailPlugin/3.5",
+    "tagline": "Send messages to players",
+    "artifact_url": "https://poggit.pmmp.io/r/77366",
+    "downloads": 2734,
+    "score": 5,
+    "repo_id": 239417008,
+    "repo_name": "HmmHmmmm/MailPlugin",
+    "project_id": 6364,
+    "project_name": "MailPlugin",
+    "build_id": 71935,
+    "build_number": 16,
+    "build_commit": "4252876989497b45118de42ba9478ced482a9010",
+    "description_url": "https://poggit.pmmp.io/r/77378",
+    "icon_url": "https://raw.githubusercontent.com/HmmHmmmm/MailPlugin/4252876989497b45118de42ba9478ced482a9010/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/77380",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1582987701,
+    "state": 5,
+    "last_state_change_date": 1582991002,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "formapi",
+        "fun",
+        "pocketmine",
+        "pocketmine-plugins",
+        "report"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HmmHmmmm"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

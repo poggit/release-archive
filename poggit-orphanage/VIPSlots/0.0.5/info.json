@@ -1,0 +1,62 @@
+{
+    "id": 630,
+    "name": "VIPSlots",
+    "version": "0.0.5",
+    "html_url": "https://poggit.pmmp.io/p/VIPSlots/0.0.5",
+    "tagline": "Enable VIP players to join full servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/13449",
+    "downloads": 770,
+    "score": 4,
+    "repo_id": 106125325,
+    "repo_name": "poggit-orphanage/VIPSlots",
+    "project_id": 990,
+    "project_name": "VIPSlots",
+    "build_id": 29482,
+    "build_number": 1,
+    "build_commit": "e86c257a2b6c318b00afcd295bacd20af57d70c7",
+    "description_url": "https://poggit.pmmp.io/r/15396",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/VIPSlots/e86c257a2b6c318b00afcd295bacd20af57d70c7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507533507,
+    "state": 5,
+    "last_state_change_date": 1512722758,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "vip",
+        "slots"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "iksaku",
+            "Awzaw"
+        ],
+        "Collaborator": [
+            "iJoshuaHD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

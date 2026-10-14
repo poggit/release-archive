@@ -1,0 +1,72 @@
+{
+    "id": 8261,
+    "name": "GroupJoin",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/GroupJoin/1.0.0",
+    "tagline": "Get notified when a player from a specific PurePerms group joins.",
+    "artifact_url": "https://poggit.pmmp.io/r/151564",
+    "downloads": 993,
+    "score": null,
+    "repo_id": 206589542,
+    "repo_name": "HimbeersaftLP/GroupJoin",
+    "project_id": 5521,
+    "project_name": "GroupJoin",
+    "build_id": 117576,
+    "build_number": 7,
+    "build_commit": "39edcccf0c9d97ac8a2f6017ab8386560fc27f2f",
+    "description_url": "https://poggit.pmmp.io/r/151561",
+    "icon_url": "https://raw.githubusercontent.com/HimbeersaftLP/GroupJoin/39edcccf0c9d97ac8a2f6017ab8386560fc27f2f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/151563",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638994425,
+    "state": 5,
+    "last_state_change_date": 1639016041,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "group",
+        "groupsapi",
+        "groupsystem",
+        "join",
+        "leave",
+        "purechat",
+        "pureperms",
+        "quit",
+        "ranksystem"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.4",
+            "depRelId": 8239,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "HimbeersaftLP"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

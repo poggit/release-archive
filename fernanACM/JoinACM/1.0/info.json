@@ -1,0 +1,81 @@
+{
+    "id": 9423,
+    "name": "JoinACM",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/JoinACM/1.0",
+    "tagline": "Simple custom JoinUI for PocketMine-MP 4.0 by fernanACM",
+    "artifact_url": "https://poggit.pmmp.io/r/169571",
+    "downloads": 1110,
+    "score": 5,
+    "repo_id": 435824033,
+    "repo_name": "fernanACM/JoinACM",
+    "project_id": 10090,
+    "project_name": "JoinACM",
+    "build_id": 128660,
+    "build_number": 27,
+    "build_commit": "f1d140f4054ab62a4422eaf6f0be29852d9d9db0",
+    "description_url": "https://poggit.pmmp.io/r/169660",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/JoinACM/f1d140f4054ab62a4422eaf6f0be29852d9d9db0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/169662",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648715218,
+    "state": 5,
+    "last_state_change_date": 1648735518,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Animaton",
+        "Book",
+        "Join",
+        "JoinACM",
+        "JoinUI"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

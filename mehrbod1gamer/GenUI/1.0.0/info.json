@@ -1,0 +1,68 @@
+{
+    "id": 6055,
+    "name": "GenUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/GenUI/1.0.0",
+    "tagline": "SkyBlock Generator",
+    "artifact_url": "https://poggit.pmmp.io/r/116876",
+    "downloads": 106,
+    "score": 4,
+    "repo_id": 343435463,
+    "repo_name": "mehrbod1gamer/GenUI",
+    "project_id": 8618,
+    "project_name": "GenUI",
+    "build_id": 97365,
+    "build_number": 7,
+    "build_commit": "6ffc3e8af2ee304a3eae0bd93aeda0cbfe15ee8b",
+    "description_url": "https://poggit.pmmp.io/r/116875",
+    "icon_url": "https://raw.githubusercontent.com/mehrbod1gamer/GenUI/6ffc3e8af2ee304a3eae0bd93aeda0cbfe15ee8b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614617075,
+    "state": 5,
+    "last_state_change_date": 1615073842,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Generator",
+        "gen",
+        "skyblock"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        },
+        {
+            "name": "SkyBlock",
+            "version": "3.0.0",
+            "depRelId": 4084,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "mehrbod1gamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,92 @@
+{
+    "id": 12557,
+    "name": "GiftCode",
+    "version": "1.0.5",
+    "html_url": "https://poggit.pmmp.io/p/GiftCode/1.0.5",
+    "tagline": "Plugin for creating and using giftcode for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/228228",
+    "downloads": 251,
+    "score": null,
+    "repo_id": 677734013,
+    "repo_name": "ClickedTran/GiftCode",
+    "project_id": 12941,
+    "project_name": "GiftCode",
+    "build_id": 167864,
+    "build_number": 33,
+    "build_commit": "7a269afeac4d4575c77de0a285bf2e1fd8dfdc3c",
+    "description_url": "https://poggit.pmmp.io/r/228225",
+    "icon_url": "https://raw.githubusercontent.com/Clickedtran/GiftCode/7a269afeac4d4575c77de0a285bf2e1fd8dfdc3c/icon.jpg",
+    "changelog_url": "https://poggit.pmmp.io/r/228227",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1699260050,
+    "state": 5,
+    "last_state_change_date": 1699902334,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "code",
+        "giftcode"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Clickedtran"
+        ],
+        "Contributor": [
+            "VennDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

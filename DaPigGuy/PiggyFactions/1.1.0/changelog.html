@@ -1,0 +1,45 @@
+<ul>
+<li>Implemented new commands:
+<ul>
+<li>/f addpower (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="617091138" data-permission-text="Title is private" data-url="https://github.com/DaPigGuy/PiggyFactions/issues/40" data-hovercard-type="issue" data-hovercard-url="/DaPigGuy/PiggyFactions/issues/40/hovercard" href="https://github.com/DaPigGuy/PiggyFactions/issues/40">#40</a>)</li>
+<li>/f powerboost</li>
+<li>/f player
+<ul>
+<li>{PLAYER} - Name</li>
+<li>{FACTION} - Faction</li>
+<li>{RANKSYMBOL} - Symbol of faction rank</li>
+<li>{POWER} - Amount of power</li>
+<li>{TOTALPOWER} - Max amount of power</li>
+<li>{TIMETOMAXPOWER} - Time to max on power in hours</li>
+<li>{POWERPERHOUR} - Amount of power obtained within an hour</li>
+<li>{POWERPERDEATH} - Amount of power obtained per death</li>
+<li>{CREATIONDATE} - Date of first login (format: January 1, 1970 @ 12:00 AM PST)</li>
+<li>{AGE} - Detailed duration string since first login</li>
+<li>{SIMPLEAGE} - Simplified {AGE}</li>
+</ul>
+</li>
+<li>/f unclaim &lt;auto|circle|square&gt;</li>
+<li>/f version</li>
+</ul>
+</li>
+<li>New Languages: Serbian, Simplified Chinese</li>
+<li>Updated Languages: German, Traditional Chinese, Spanish</li>
+<li>Added config option to enforce alphanumeric faction names (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="632821529" data-permission-text="Title is private" data-url="https://github.com/DaPigGuy/PiggyFactions/issues/65" data-hovercard-type="issue" data-hovercard-url="/DaPigGuy/PiggyFactions/issues/65/hovercard" href="https://github.com/DaPigGuy/PiggyFactions/issues/65">#65</a>)</li>
+<li>Added the following tags for /f info
+<ul>
+<li>{CLAIMS} - # of claims</li>
+<li>{CREATIONDATE} - Date of creation of faction (format: January 1, 1970 @ 12:00 AM PST)</li>
+<li>{AGE} - Detailed duration string since faction creation</li>
+<li>{SIMPLEAGE} - Simplified {AGE}</li>
+<li>{RELATIONS} - Color coded list of factions in relationship with</li>
+</ul>
+</li>
+<li>Overclaiming now requires having outter claims to first be overclaimed</li>
+<li>FactionEvent &amp; FactionMemberEvent classes are now marked as abstract</li>
+<li>Changed FactionRelationEvent constructor signature to accept two factions rather than an array of two factions</li>
+<li>Fixed members with ban &amp; kick permissions to ban or kick faction leaders</li>
+<li>Fixed crash when using non-implemented language as the default language</li>
+<li>Fixed exploit which allowed players to fly indefinately</li>
+<li>Bumped minimum PMMP version to 3.13.0</li>
+<li>Bumped version to 1.1.0</li>
+</ul>

@@ -1,0 +1,62 @@
+{
+    "id": 1562,
+    "name": "CompassXYZ",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/CompassXYZ/1.0",
+    "tagline": "Show Player Coordinates",
+    "artifact_url": "https://poggit.pmmp.io/r/34514",
+    "downloads": 8886,
+    "score": 5,
+    "repo_id": 138085975,
+    "repo_name": "jhelom/CompassXYZ-plugin-pocketmine",
+    "project_id": 3138,
+    "project_name": "CompassXYZ",
+    "build_id": 44265,
+    "build_number": 4,
+    "build_commit": "c7a0da031387b3964aba875c0193a2b9f47fa418",
+    "description_url": "https://poggit.pmmp.io/r/34521",
+    "icon_url": "https://raw.githubusercontent.com/jhelom/CompassXYZ-plugin-pocketmine/c7a0da031387b3964aba875c0193a2b9f47fa418/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1529594089,
+    "state": 5,
+    "last_state_change_date": 1529594089,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "coordinate",
+        "minecraft",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "xyz"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA12",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jhelom"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

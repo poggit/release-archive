@@ -1,0 +1,101 @@
+{
+    "id": 13171,
+    "name": "WarpGUI",
+    "version": "1.3.0",
+    "html_url": "https://poggit.pmmp.io/p/WarpGUI/1.3.0",
+    "tagline": "it's a plugin that allows you to navigate using the chest menu",
+    "artifact_url": "https://poggit.pmmp.io/r/241467",
+    "downloads": 1290,
+    "score": null,
+    "repo_id": 466940194,
+    "repo_name": "ClickedTran/WarpGUI",
+    "project_id": 10750,
+    "project_name": "WarpGUI-PM4",
+    "build_id": 176870,
+    "build_number": 200,
+    "build_commit": "91050786651fea6e576c1026e3c7fb16e938d397",
+    "description_url": "https://poggit.pmmp.io/r/242653",
+    "icon_url": "https://raw.githubusercontent.com/ClickedTran/WarpGUI/91050786651fea6e576c1026e3c7fb16e938d397/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/242655",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1718431982,
+    "state": 5,
+    "last_state_change_date": 1718560387,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "gui",
+        "warp",
+        "warpgui"
+    ],
+    "api": [
+        {
+            "from": "5.15.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "CortexPE",
+            "SOF3"
+        ],
+        "Collaborator": [
+            "Clickedtran",
+            "NoobMCBG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        },
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "8121eca3f21cb9912c3ac8406a11f70cf105c905",
+            "build_id": 176820
+        }
+    ]
+}

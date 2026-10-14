@@ -1,0 +1,61 @@
+{
+    "id": 319,
+    "name": "KillCounter",
+    "version": "0.1.1",
+    "html_url": "https://poggit.pmmp.io/p/KillCounter/0.1.1",
+    "tagline": "A kill tracking plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/5740",
+    "downloads": 799,
+    "score": 4,
+    "repo_id": 91811252,
+    "repo_name": "BlockHorizons/KillCounter",
+    "project_id": 469,
+    "project_name": "KillCounter",
+    "build_id": 23622,
+    "build_number": 21,
+    "build_commit": "20e7279e14c67e3e3e056b16d8e37d88b06119cc",
+    "description_url": "https://poggit.pmmp.io/r/5736",
+    "icon_url": "https://raw.githubusercontent.com/BlockHorizons/KillCounter/20e7279e14c67e3e3e056b16d8e37d88b06119cc/resources/KillCounterLogo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/5738",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1495867039,
+    "state": 5,
+    "last_state_change_date": 1496253066,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "pvp",
+        "killtracker",
+        "kill",
+        "counter",
+        "stats"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA5"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BlockHorizons"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

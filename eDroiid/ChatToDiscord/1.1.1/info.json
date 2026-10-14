@@ -1,0 +1,68 @@
+{
+    "id": 415,
+    "name": "ChatToDiscord",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/ChatToDiscord/1.1.1",
+    "tagline": "send messages from your PMMP server to Discord",
+    "artifact_url": "https://poggit.pmmp.io/r/7943",
+    "downloads": 5262,
+    "score": 4,
+    "repo_id": 87964338,
+    "repo_name": "eDroiid/ChatToDiscord",
+    "project_id": 370,
+    "project_name": "ChatToDiscord",
+    "build_id": 25290,
+    "build_number": 18,
+    "build_commit": "4bc4fa65c5cd2a9c3b57e6a19c0636ebab36150f",
+    "description_url": "https://poggit.pmmp.io/r/7939",
+    "icon_url": "https://raw.githubusercontent.com/eDroiid/ChatToDiscord/4bc4fa65c5cd2a9c3b57e6a19c0636ebab36150f/discord.png",
+    "changelog_url": "https://poggit.pmmp.io/r/7941",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1499338886,
+    "state": 5,
+    "last_state_change_date": 1502213962,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "edroid",
+        "discord",
+        "chat",
+        "ctd"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "eDroiid"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

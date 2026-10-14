@@ -1,0 +1,74 @@
+{
+    "id": 12373,
+    "name": "HammerACM",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/HammerACM/1.0.1",
+    "tagline": "A simple hammer that breaks 3x3. For PocketMine-MP 5.0 servers only",
+    "artifact_url": "https://poggit.pmmp.io/r/222790",
+    "downloads": 51,
+    "score": null,
+    "repo_id": 676709779,
+    "repo_name": "fernanACM/HammerACM",
+    "project_id": 12949,
+    "project_name": "HammerACM",
+    "build_id": 163597,
+    "build_number": 4,
+    "build_commit": "1af4afd9e1e291e360ecddeff1421fcd43c62aa5",
+    "description_url": "https://poggit.pmmp.io/r/222787",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/HammerACM/1af4afd9e1e291e360ecddeff1421fcd43c62aa5/icon-hammeracm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/222789",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1694375777,
+    "state": 5,
+    "last_state_change_date": 1694405739,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "3x3",
+        "ACM",
+        "Hammer",
+        "pickaxe"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

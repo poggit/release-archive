@@ -1,0 +1,63 @@
+{
+    "id": 9415,
+    "name": "NoFly",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/NoFly/1.0.0",
+    "tagline": "Make players unable to fly on your server",
+    "artifact_url": "https://poggit.pmmp.io/r/169413",
+    "downloads": 597,
+    "score": 4,
+    "repo_id": 475245522,
+    "repo_name": "AzelCH/NoFly",
+    "project_id": 10874,
+    "project_name": "NoFly",
+    "build_id": 128564,
+    "build_number": 8,
+    "build_commit": "6dbe00ad863a7e379112cf4ccdc7e46eb53808f0",
+    "description_url": "https://poggit.pmmp.io/r/169412",
+    "icon_url": "https://raw.githubusercontent.com/AzelCH/NoFly/6dbe00ad863a7e379112cf4ccdc7e46eb53808f0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648600225,
+    "state": 5,
+    "last_state_change_date": 1649091039,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Fly",
+        "No",
+        "NoFly"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AzelCH"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

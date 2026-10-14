@@ -1,0 +1,67 @@
+{
+    "id": 12254,
+    "name": "FancyPlayerCount",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FancyPlayerCount/2.0.0",
+    "tagline": "Fancy Player Count Inspired by Zeqa Network",
+    "artifact_url": "https://poggit.pmmp.io/r/220434",
+    "downloads": 271,
+    "score": null,
+    "repo_id": 515871238,
+    "repo_name": "ReinfyTeam/FancyPlayerCount",
+    "project_id": 12186,
+    "project_name": "FancyPlayerCount",
+    "build_id": 162066,
+    "build_number": 1,
+    "build_commit": "bcefda4e161388d878c0ad80b977731aef105323",
+    "description_url": "https://poggit.pmmp.io/r/234687",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "LGPL-2.1",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692341455,
+    "state": 5,
+    "last_state_change_date": 1712709963,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ",
+            "Reinfy"
+        ],
+        "Collaborator": [
+            "xqwtxon"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

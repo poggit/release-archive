@@ -1,0 +1,65 @@
+{
+    "id": 6008,
+    "name": "PTimeUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PTimeUI/1.0.0",
+    "tagline": "With this plugin players can set his own time!",
+    "artifact_url": "https://poggit.pmmp.io/r/116132",
+    "downloads": 91,
+    "score": 5,
+    "repo_id": 339491929,
+    "repo_name": "supercrafter333/PTimeUI",
+    "project_id": 8557,
+    "project_name": "PTimeUI",
+    "build_id": 96934,
+    "build_number": 14,
+    "build_commit": "fd353e882629901dc9d1711c641a4d065d610c07",
+    "description_url": "https://poggit.pmmp.io/r/116275",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/PTimeUI/fd353e882629901dc9d1711c641a4d065d610c07/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614012199,
+    "state": 5,
+    "last_state_change_date": 1614012870,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "id": 8793,
+    "name": "PlayCommand",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayCommand/1.0.0",
+    "tagline": "Simple play command plugin like hypixel",
+    "artifact_url": "https://poggit.pmmp.io/r/159617",
+    "downloads": 427,
+    "score": 5,
+    "repo_id": 377469346,
+    "repo_name": "Laith98Dev/PlayCommand",
+    "project_id": 9138,
+    "project_name": "PlayCommand",
+    "build_id": 122538,
+    "build_number": 19,
+    "build_commit": "19fbe1033ce5111a108f0a4fd037b7d7be785cda",
+    "description_url": "https://poggit.pmmp.io/r/161288",
+    "icon_url": "https://raw.githubusercontent.com/Laith98Dev/PlayCommand/19fbe1033ce5111a108f0a4fd037b7d7be785cda/20220202_070207.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1643778429,
+    "state": 5,
+    "last_state_change_date": 1644656958,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "laith98dev",
+        "play",
+        "playcmd",
+        "playcommand"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Laith98Dev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

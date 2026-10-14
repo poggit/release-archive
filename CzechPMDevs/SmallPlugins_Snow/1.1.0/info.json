@@ -1,0 +1,60 @@
+{
+    "id": 8215,
+    "name": "Snow",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/Snow/1.1.0",
+    "tagline": "Plugin which adds falling snow to your PocketMine server",
+    "artifact_url": "https://poggit.pmmp.io/r/150828",
+    "downloads": 1156,
+    "score": 5,
+    "repo_id": 90545218,
+    "repo_name": "CzechPMDevs/SmallPlugins",
+    "project_id": 5943,
+    "project_name": "Snow",
+    "build_id": 117111,
+    "build_number": 5,
+    "build_commit": "e25f51972324b828165454ba3912aa530d8542d2",
+    "description_url": "https://poggit.pmmp.io/r/150825",
+    "icon_url": "https://raw.githubusercontent.com/CzechPMDevs/SmallPlugins/e25f51972324b828165454ba3912aa530d8542d2/Snow/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/150827",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638707526,
+    "state": 5,
+    "last_state_change_date": 1639294172,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "mcpe",
+        "plugin",
+        "pocketmine",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "VixikHD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

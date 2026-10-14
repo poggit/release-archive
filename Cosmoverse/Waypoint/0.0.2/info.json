@@ -1,0 +1,94 @@
+{
+    "id": 14180,
+    "name": "Waypoint",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/Waypoint/0.0.2",
+    "tagline": "Waypoint is a plugin that lets you set a visual holographic marker at your desired position.",
+    "artifact_url": "https://poggit.pmmp.io/r/259011",
+    "downloads": 247,
+    "score": null,
+    "repo_id": 1009340891,
+    "repo_name": "Cosmoverse/Waypoint",
+    "project_id": 14789,
+    "project_name": "Waypoint",
+    "build_id": 188765,
+    "build_number": 8,
+    "build_commit": "be593877904036d6757c47057b0bcf556a86495e",
+    "description_url": "https://poggit.pmmp.io/r/259008",
+    "icon_url": "https://raw.githubusercontent.com/Cosmoverse/Waypoint/be593877904036d6757c47057b0bcf556a86495e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/259010",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1756039814,
+    "state": 5,
+    "last_state_change_date": 1756067922,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "teleport",
+        "waypoint"
+    ],
+    "api": [
+        {
+            "from": "5.30.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "AwaitForm",
+            "project_id": 14564,
+            "repo_id": 937076561,
+            "repo_name": "Cosmoverse/AwaitForm",
+            "repo_path": "",
+            "build_commit": "de78a476eb416dde4050fd07088fc7348062ba78",
+            "build_id": 187435
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        },
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "280e42e8d12cfd7bdcd121cf87b11fa9e503b61c",
+            "build_id": 187881
+        }
+    ]
+}

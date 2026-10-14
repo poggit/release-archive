@@ -1,0 +1,62 @@
+{
+    "id": 11979,
+    "name": "HumanNPC",
+    "version": "0.0.6",
+    "html_url": "https://poggit.pmmp.io/p/HumanNPC/0.0.6",
+    "tagline": "A Simple NPC Plugin For PocketMine !",
+    "artifact_url": "https://poggit.pmmp.io/r/216957",
+    "downloads": 1537,
+    "score": 4,
+    "repo_id": 586216096,
+    "repo_name": "BeeAZ-pm-pl/HumanNPC",
+    "project_id": 12084,
+    "project_name": "HumanNPC",
+    "build_id": 160003,
+    "build_number": 24,
+    "build_commit": "1bccc4dc184aac4c131203b4d8b86348b01713ae",
+    "description_url": "https://poggit.pmmp.io/r/216954",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/HumanNPC/1bccc4dc184aac4c131203b4d8b86348b01713ae/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/216956",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689566366,
+    "state": 5,
+    "last_state_change_date": 1689584949,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "HumanNPC",
+        "NPC"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ],
+        "Contributor": [
+            "pandaaaBE",
+            "victhorcaius"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

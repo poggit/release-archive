@@ -1,0 +1,65 @@
+{
+    "id": 1363,
+    "name": "AdvancedKits",
+    "version": "5.2.2",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedKits/5.2.2",
+    "tagline": "Add kits to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/30109",
+    "downloads": 1545,
+    "score": 4,
+    "repo_id": 21918912,
+    "repo_name": "luca28pet/AdvancedKits",
+    "project_id": 790,
+    "project_name": "AdvancedKits",
+    "build_id": 41092,
+    "build_number": 15,
+    "build_commit": "8eabcda77a577ad5c753440a89d0c3c0197579b1",
+    "description_url": "https://poggit.pmmp.io/r/30106",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/30108",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526141588,
+    "state": 5,
+    "last_state_change_date": 1526147991,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "kit",
+        "kits"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA12",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.1-4",
+            "depRelId": 1094,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "luca28pet"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

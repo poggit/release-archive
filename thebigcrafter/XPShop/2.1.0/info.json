@@ -1,0 +1,104 @@
+{
+    "id": 12237,
+    "name": "XPShop",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/XPShop/2.1.0",
+    "tagline": "Buy and sell XP",
+    "artifact_url": "https://poggit.pmmp.io/r/220245",
+    "downloads": 995,
+    "score": null,
+    "repo_id": 348621950,
+    "repo_name": "thebigcrafter/XPShop",
+    "project_id": 8701,
+    "project_name": "XPShop",
+    "build_id": 161958,
+    "build_number": 64,
+    "build_commit": "8148f49e1596d5cadab2d20d469763222eecefff",
+    "description_url": "https://poggit.pmmp.io/r/220242",
+    "icon_url": "https://raw.githubusercontent.com/thebigcrafter/XPShop/8148f49e1596d5cadab2d20d469763222eecefff/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/220244",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692182795,
+    "state": 5,
+    "last_state_change_date": 1692768796,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "exp",
+        "shop",
+        "xp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "taylordevs"
+        ],
+        "Contributor": [
+            "Ihsan48"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "ea46df4e4c73675010fa860be5db6fbda60a85d4",
+            "build_id": 161908
+        },
+        {
+            "name": "Hydrogen",
+            "project_id": 12575,
+            "repo_id": 649178263,
+            "repo_name": "thebigcrafter/Hydrogen",
+            "repo_path": "",
+            "build_commit": "36c9b3a3bbe31031bc1c324d96d721cef951086f",
+            "build_id": 158911
+        },
+        {
+            "name": "libMCUnicodeChars",
+            "project_id": 12946,
+            "repo_id": 679094568,
+            "repo_name": "thebigcrafter/libMCUnicodeChars",
+            "repo_path": "",
+            "build_commit": "d0b0b98ffd2bb9f01454b567ce69ca0566f53a96",
+            "build_id": 161926
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "f0ef2ec116d065e5dba3b83646b3bc97d5f433c4",
+            "build_id": 157532
+        }
+    ]
+}

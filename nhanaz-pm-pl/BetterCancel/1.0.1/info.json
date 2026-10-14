@@ -1,0 +1,72 @@
+{
+    "id": 11108,
+    "name": "BetterCancel",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/BetterCancel/1.0.1",
+    "tagline": "BlockBreakEvent and BlockPlaceEvent is better when canceled!",
+    "artifact_url": "https://poggit.pmmp.io/r/203099",
+    "downloads": 22,
+    "score": 5,
+    "repo_id": 495544116,
+    "repo_name": "nhanaz-pm-pl/BetterCancel",
+    "project_id": 11204,
+    "project_name": "BetterCancel",
+    "build_id": 151998,
+    "build_number": 14,
+    "build_commit": "08be279ee332e5ce568f444747df502ad1618910",
+    "description_url": "https://poggit.pmmp.io/r/203197",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/BetterCancel/08be279ee332e5ce568f444747df502ad1618910/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/203199",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1679918687,
+    "state": 5,
+    "last_state_change_date": 1679936887,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bettercancel",
+        "deny",
+        "forcefield",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "sky-min"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libBedrock",
+            "project_id": 11911,
+            "repo_id": 551801316,
+            "repo_name": "NhanAZ-Libraries/libBedrock",
+            "repo_path": "",
+            "build_commit": "afeb4a50e736d523e921fb20984407546cd4fd98",
+            "build_id": 151997
+        }
+    ]
+}

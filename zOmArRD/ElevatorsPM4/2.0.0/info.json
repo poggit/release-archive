@@ -1,0 +1,63 @@
+{
+    "id": 9033,
+    "name": "ElevatorsPM4",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ElevatorsPM4/2.0.0",
+    "tagline": "Elevator plugin for PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/163026",
+    "downloads": 1249,
+    "score": 5,
+    "repo_id": 449115555,
+    "repo_name": "zOmArRD/ElevatorsPM4",
+    "project_id": 10370,
+    "project_name": "ElevatorsPM4",
+    "build_id": 124567,
+    "build_number": 10,
+    "build_commit": "5ed5c078f32ab5c32cb1e10ee044ffa81164b413",
+    "description_url": "https://poggit.pmmp.io/r/163025",
+    "icon_url": "https://raw.githubusercontent.com/zOmArRD/ElevatorsPM4/5ed5c078f32ab5c32cb1e10ee044ffa81164b413/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645399755,
+    "state": 5,
+    "last_state_change_date": 1645729337,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "ascensor",
+        "elevator",
+        "lift"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "zOmArRD"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

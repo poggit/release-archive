@@ -1,0 +1,77 @@
+{
+    "id": 4508,
+    "name": "CustomTell",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomTell/1.0.0",
+    "tagline": "With this plugin you can change the format of /tell, which is used to send private messages to a player ",
+    "artifact_url": "https://poggit.pmmp.io/r/88732",
+    "downloads": 1431,
+    "score": 5,
+    "repo_id": 266817314,
+    "repo_name": "ItsGabry/CustomTell",
+    "project_id": 7035,
+    "project_name": "CustomTell",
+    "build_id": 79358,
+    "build_number": 1,
+    "build_commit": "6e9d2754a57798d2e4eac4c12504c2d8ba27c89a",
+    "description_url": "https://poggit.pmmp.io/r/88731",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1590424252,
+    "state": 5,
+    "last_state_change_date": 1590459274,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "world",
+        "tell",
+        "customtell",
+        "teel",
+        "send",
+        "message",
+        "sender",
+        "recipient",
+        "global",
+        "nano",
+        "sent",
+        "receive"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ItsGabry"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

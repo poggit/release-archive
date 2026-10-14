@@ -1,0 +1,178 @@
+<ul>
+<li>!== CONFIG UPDATES !==
+<ul>
+<li>Added support for UpdateNotifier and ConfigUpdater by JackMD to check for config versioning and its plugin releases.</li>
+<li>Added more functions, including onLoad() function - May remove if no further codes are implemented into this plugin soon.</li>
+<li>Added config-version 0.1.</li>
+<li>If a new config update is available, it should let you know directly from console, as well as new plugin releases.</li>
+<li>
+<ul>
+<li>We've revamped commands system.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>We've moved ALL commands to a seperate file.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>We've added two new options to config.yml.</li>
+</ul>
+</li>
+<li>
+<ol>
+<li>enable-commands - Allows you to enable/disable the use of query commands in game. Very much explained in config.yml.</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>permission - Allows you to set the permission node for the command. We may revamp permissions so it works with commands very well soon.</li>
+</ol>
+</li>
+<li>
+<ul>
+<li>Removed /customquery command, and renamed that to /query as the main command. The only alias command is now /cq.</li>
+</ul>
+</li>
+<li>^ This is due to complying with Poggit's submission rules / C2A. ;P</li>
+<li>
+<ul>
+<li>Keep in mind - The two new configurable options we added into this update are not configurable in game. We may add compatibility with this in the near future.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Commands no longer rely on plugin.yml to generate properly. The command now generates from Main class so it's more easier compatibility and less-messy.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Bump plugin version to v1.0.3.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Bug fixes and many improvements.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Moved all config/update related content to \utils\Utils folder.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Fixed all dependency problems. Thanks.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Renamed some functions that allows the server to check for config and its plugin releases / updates.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added Utils.php file.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added a public construct to Utils. (May make construct for Utils private soon.)</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Added full support for ConfigUpdater and UpdateNotifier.</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Bug fixes and improvements were made in relations to Update notifications and config updaters.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Add a depend - Instead appearing as the class...
+<ul>
+<li>is not found.</li>
+<li>This is to check for if the plugin’s installed or not. This requires such so no errors appear. Therefore, there’ll be less reports regarding plugin disables due to them not knowing the actual error.</li>
+</ul>
+</li>
+<li>Add a finish todo.</li>
+<li>Add a to-do</li>
+<li>Added command checks
+<ul>
+<li>Made it so if the args is not found within the code, it’ll display an error to the player. This is to reduce the amount of server crashes if a player enters the wrong value / option.</li>
+<li>Made it so if the value is invalid, it’ll display an error to the player. This is to reduce the amount of server crashes if a player enters the wrong value / option.</li>
+<li>Bug fixes and improvements were made.</li>
+<li>Keep reporting!!!</li>
+</ul>
+</li>
+<li>Added libs to poggit.yml</li>
+<li>Fix corrections.</li>
+<li>Fix error onEnable()
+<ul>
+<li>This is in fact wrong, and unacceptable. count should be implemented before the variable. Also, there should only be one ) after the count number.</li>
+</ul>
+</li>
+<li>Fix typo.</li>
+<li>Fix undefined config problems.</li>
+<li>Fixed config corruptions.</li>
+<li>Fixed function.
+<ul>
+<li>This is meant to be execute, not onCommand() due to extends Command being there.</li>
+</ul>
+</li>
+<li>Implement args replacement
+<ul>
+<li>This would be best beneficial to the plugin since $args[1] and $args[0] will replace that with true/false or a value, rather than hard-coding all values without the actual args, making this 10x harder when implementing new options for future updates. When I mean hard, I really mean annoying, and frustration when implementing more-options, when you could jut add $args, rather than replacing that with values. ;P</li>
+</ul>
+</li>
+<li>Make the to-do better</li>
+<li>README: Add another finished to-do
+<ul>
+<li>This plugin is no longer in the ALPHA Stages. It has now been moved / bumped to the BETA stages.</li>
+</ul>
+</li>
+<li>README: Add more to-dos.</li>
+<li>Remove command-&gt;getName()
+<ul>
+<li>This is not needed. This hasn’t been tested yet, and syntax errors may arise.</li>
+</ul>
+</li>
+<li>Remove onLoad() function
+<ul>
+<li>Since this is no longer needed. I don't know why I added that there in the first place.</li>
+</ul>
+</li>
+<li>Remove useless const
+<ul>
+<li>now now, we don't need useless junk in our code now do we..? ;)</li>
+</ul>
+</li>
+<li>Rename function to checkConfig()
+<ul>
+<li>This is because there’s only one config, not more. Therefore, it should be renamed from checkConfigs() to checkConfig().</li>
+<li>In the near future once we implement a messages.yml file, then we may consider renaming it back to checkConfigs().</li>
+</ul>
+</li>
+<li>config version bump [1/2]</li>
+<li>config version bump [1/2]
+<ul>
+<li>Fix a minor typo from previous build that I forgot to mention.</li>
+</ul>
+</li>
+<li>remove useless use imports.
+<ul>
+<li>This is because these imports are no longer needed due to the v1.0.3-ALPHA update which includes a complete command system revamp.</li>
+</ul>
+</li>
+<li>try is_array instead.</li>
+<li>version bump</li>
+<li>wtf? how did that get there?
+<ul>
+<li>fixed namespace issue in utils</li>
+</ul>
+</li>
+</ul>

@@ -1,0 +1,70 @@
+{
+    "id": 2972,
+    "name": "SlashSkin",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SlashSkin/1.0.0",
+    "tagline": "Use skins of your choice",
+    "artifact_url": "https://poggit.pmmp.io/r/59265",
+    "downloads": 2702,
+    "score": 5,
+    "repo_id": 189477811,
+    "repo_name": "tim03we/SlashSkin",
+    "project_id": 5088,
+    "project_name": "SlashSkin",
+    "build_id": 60123,
+    "build_number": 5,
+    "build_commit": "7d4f57151abad63eb21a50001c80b42fe89a92a8",
+    "description_url": "https://poggit.pmmp.io/r/59387",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1559468738,
+    "state": 5,
+    "last_state_change_date": 1560741093,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Slash",
+        "Skin",
+        "SkinChanger",
+        "Skins"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "tim03we"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "id": 5805,
+    "name": "ItemFilter",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ItemFilter/1.0.0",
+    "tagline": "Let your players choose if they want to pickup items or not!",
+    "artifact_url": "https://poggit.pmmp.io/r/112578",
+    "downloads": 300,
+    "score": 4,
+    "repo_id": 326749661,
+    "repo_name": "Shelly7w7/ItemFilter",
+    "project_id": 8310,
+    "project_name": "ItemFilter",
+    "build_id": 94652,
+    "build_number": 1,
+    "build_commit": "d5ce875c2a296b49143317d55fb838faefe899ad",
+    "description_url": "https://poggit.pmmp.io/r/112580",
+    "icon_url": "https://raw.githubusercontent.com/Shelly7w7/ItemFilter/d5ce875c2a296b49143317d55fb838faefe899ad/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609780163,
+    "state": 5,
+    "last_state_change_date": 1610411795,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Shelly7w7"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

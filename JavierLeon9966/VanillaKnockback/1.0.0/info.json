@@ -1,0 +1,58 @@
+{
+    "id": 9819,
+    "name": "VanillaKnockback",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/VanillaKnockback/1.0.0",
+    "tagline": "Implements vanilla knockback when sprint hitting",
+    "artifact_url": "https://poggit.pmmp.io/r/177714",
+    "downloads": 1788,
+    "score": 5,
+    "repo_id": 329997648,
+    "repo_name": "JavierLeon9966/VanillaKnockback",
+    "project_id": 11178,
+    "project_name": "VanillaKnockback",
+    "build_id": 134485,
+    "build_number": 5,
+    "build_commit": "62e4959f92aae3a7b323481c7a39547f9688d306",
+    "description_url": "https://poggit.pmmp.io/r/177957",
+    "icon_url": "https://raw.githubusercontent.com/JavierLeon9966/VanillaKnockback/62e4959f92aae3a7b323481c7a39547f9688d306/icon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653717061,
+    "state": 5,
+    "last_state_change_date": 1653759532,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "knockback",
+        "vanilla"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JavierLeon9966"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

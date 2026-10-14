@@ -1,0 +1,51 @@
+{
+    "id": 14048,
+    "name": "MentionItem",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/MentionItem/1.0.1",
+    "tagline": "Mention Item In Your Hand.",
+    "artifact_url": "https://poggit.pmmp.io/r/256488",
+    "downloads": 109,
+    "score": null,
+    "repo_id": 496518781,
+    "repo_name": "DaDevGuy/MentionItem",
+    "project_id": 11216,
+    "project_name": "MentionItem",
+    "build_id": 187066,
+    "build_number": 3,
+    "build_commit": "9ccde158cd3e877535e5e0869755351e999a18fb",
+    "description_url": "https://poggit.pmmp.io/r/256485",
+    "icon_url": "https://raw.githubusercontent.com/DaDevGuy/MentionItem/9ccde158cd3e877535e5e0869755351e999a18fb/assets/images/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/256487",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1748793953,
+    "state": 5,
+    "last_state_change_date": 1749161828,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DaDevGuy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

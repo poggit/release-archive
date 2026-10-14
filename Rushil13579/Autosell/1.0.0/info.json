@@ -1,0 +1,76 @@
+{
+    "id": 6048,
+    "name": "Autosell",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Autosell/1.0.0",
+    "tagline": "A plugin for Pocketmine-MP 3.0.0 and above, which automatically sells a players inventory when its full",
+    "artifact_url": "https://poggit.pmmp.io/r/116793",
+    "downloads": 1908,
+    "score": 5,
+    "repo_id": 343153367,
+    "repo_name": "Rushil13579/Autosell",
+    "project_id": 8614,
+    "project_name": "Autosell",
+    "build_id": 97335,
+    "build_number": 11,
+    "build_commit": "ac81aa68ef83dc622ce3aa8b033e63c01eaedea8",
+    "description_url": "https://poggit.pmmp.io/r/120630",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614595833,
+    "state": 5,
+    "last_state_change_date": 1614606303,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "auto",
+        "automatic",
+        "automatically",
+        "autosell",
+        "sell"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Rushil13579"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

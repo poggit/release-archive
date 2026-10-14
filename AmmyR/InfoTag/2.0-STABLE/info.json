@@ -1,0 +1,94 @@
+{
+    "id": 7715,
+    "name": "InfoTag",
+    "version": "2.0-STABLE",
+    "html_url": "https://poggit.pmmp.io/p/InfoTag/2.0-STABLE",
+    "tagline": "A simple PMMP plugin that allows you to view basic player information in the player's nametag.",
+    "artifact_url": "https://poggit.pmmp.io/r/143124",
+    "downloads": 72,
+    "score": null,
+    "repo_id": 408025298,
+    "repo_name": "AmmyR/InfoTag",
+    "project_id": 9745,
+    "project_name": "InfoTag",
+    "build_id": 112707,
+    "build_number": 12,
+    "build_commit": "feea26edc315c467daf87227ee8b097ec27da3bc",
+    "description_url": "https://poggit.pmmp.io/r/143131",
+    "icon_url": "https://raw.githubusercontent.com/AmmyR/InfoTag/feea26edc315c467daf87227ee8b097ec27da3bc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/143133",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632629136,
+    "state": 5,
+    "last_state_change_date": 1632664402,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "device",
+        "factions",
+        "health",
+        "nametag",
+        "ping",
+        "rank",
+        "tag"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PureChat",
+            "version": "1.4.11",
+            "depRelId": 1547,
+            "isHard": false
+        },
+        {
+            "name": "PiggyFactions",
+            "version": "1.2.0",
+            "depRelId": 6246,
+            "isHard": false
+        },
+        {
+            "name": "FactionsPE",
+            "version": "1.4.23",
+            "depRelId": 6451,
+            "isHard": false
+        },
+        {
+            "name": "SimpleFaction",
+            "version": "1.6.5",
+            "depRelId": 7134,
+            "isHard": false
+        },
+        {
+            "name": "FactionMaster",
+            "version": "2.4.0",
+            "depRelId": 7572,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AmmyR"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

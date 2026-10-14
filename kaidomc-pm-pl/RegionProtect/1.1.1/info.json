@@ -1,0 +1,64 @@
+{
+    "id": 10106,
+    "name": "RegionProtect",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/RegionProtect/1.1.1",
+    "tagline": "A plugin that allows you to manage certain events in certain regions of the world.",
+    "artifact_url": "https://poggit.pmmp.io/r/183647",
+    "downloads": 765,
+    "score": 5,
+    "repo_id": 439688717,
+    "repo_name": "kaidomc-pm-pl/RegionProtect",
+    "project_id": 10158,
+    "project_name": "RegionProtect",
+    "build_id": 138584,
+    "build_number": 18,
+    "build_commit": "b248b193f608191e3f6bdb129cce146f6101e850",
+    "description_url": "https://poggit.pmmp.io/r/183644",
+    "icon_url": "https://raw.githubusercontent.com/kaidomc-pm-pl/RegionProtect/b248b193f608191e3f6bdb129cce146f6101e850/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/183646",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656216142,
+    "state": 5,
+    "last_state_change_date": 1656225834,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ],
+        "Contributor": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

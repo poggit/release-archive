@@ -1,0 +1,73 @@
+{
+    "id": 13830,
+    "name": "UnicodesAPI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/UnicodesAPI/1.0.0",
+    "tagline": "A Plugin For Accessing And Using Minecraft Bedrock Unicode Characters At Ease.",
+    "artifact_url": "https://poggit.pmmp.io/r/252708",
+    "downloads": 226,
+    "score": null,
+    "repo_id": 920110157,
+    "repo_name": "JuustMarwan/UnicodesAPI",
+    "project_id": 14507,
+    "project_name": "UnicodesAPI",
+    "build_id": 184607,
+    "build_number": 7,
+    "build_commit": "7c4b09f6eeb2bf5c511f6e3f8d819006aa08580a",
+    "description_url": "https://poggit.pmmp.io/r/252707",
+    "icon_url": "https://raw.githubusercontent.com/JuustMarwan/UnicodesAPI/7c4b09f6eeb2bf5c511f6e3f8d819006aa08580a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "AGPL-3.0-or-later",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1738832901,
+    "state": 5,
+    "last_state_change_date": 1739052023,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "mcpe",
+        "minecraft",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine",
+        "unicode-characters",
+        "unicode-symbols",
+        "unicodesapi"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JuustMarwan"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

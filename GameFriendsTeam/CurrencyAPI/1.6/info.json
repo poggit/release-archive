@@ -1,0 +1,94 @@
+{
+    "id": 14466,
+    "name": "CurrencyAPI",
+    "version": "1.6",
+    "html_url": "https://poggit.pmmp.io/p/CurrencyAPI/1.6",
+    "tagline": "This plugin add new currences and api economy",
+    "artifact_url": "https://poggit.pmmp.io/r/264680",
+    "downloads": 34,
+    "score": null,
+    "repo_id": 784879585,
+    "repo_name": "GameFriendsTeam/CurrencyAPI",
+    "project_id": 13865,
+    "project_name": "CurrencyAPI",
+    "build_id": 192809,
+    "build_number": 71,
+    "build_commit": "a92cf6ef088789abcf7094f1117d522fcc051cdc",
+    "description_url": "https://poggit.pmmp.io/r/264679",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1779851708,
+    "state": 5,
+    "last_state_change_date": 1783608692,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.36.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "DaisukeDaisuke"
+        ],
+        "Collaborator": [
+            "Savin1play140"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "3400302e0d77757e716ac69a4099561bde5634b3",
+            "build_id": 184973
+        },
+        {
+            "name": "Commando",
+            "project_id": 15149,
+            "repo_id": 1170555088,
+            "repo_name": "DaisukeDaisukeTeam/Commando",
+            "repo_path": "",
+            "build_commit": "cf6293c18d35a5fc5d8ea86869e4f4affa307059",
+            "build_id": 191857
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 15148,
+            "repo_id": 440043774,
+            "repo_name": "DaisukeDaisukeTeam/FormAPI",
+            "repo_path": "",
+            "build_commit": "9a5eb5044ad54b8e99a55c40eb3f29a3e4140e3a",
+            "build_id": 191851
+        }
+    ]
+}

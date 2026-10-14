@@ -1,0 +1,69 @@
+{
+    "id": 5485,
+    "name": "PvPMessages",
+    "version": "1.7.0",
+    "html_url": "https://poggit.pmmp.io/p/PvPMessages/1.7.0",
+    "tagline": "Lets you set custom, random, death messages when a player kills a player.",
+    "artifact_url": "https://poggit.pmmp.io/r/106492",
+    "downloads": 1145,
+    "score": 5,
+    "repo_id": 287661609,
+    "repo_name": "Prim69/PvPMessages",
+    "project_id": 7620,
+    "project_name": "PvPMessages",
+    "build_id": 90586,
+    "build_number": 8,
+    "build_commit": "9c8a2d38a8e96d0e064ff08a4ae8ee47a61da0ba",
+    "description_url": "https://poggit.pmmp.io/r/106489",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/106491",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1603583827,
+    "state": 5,
+    "last_state_change_date": 1603636351,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "arraymessages",
+        "death",
+        "deathmessage",
+        "healthdeathmessage",
+        "hp",
+        "pvp",
+        "random",
+        "randomdeath",
+        "randomdeathmessages"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Prim69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

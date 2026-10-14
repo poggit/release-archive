@@ -1,0 +1,65 @@
+{
+    "id": 10304,
+    "name": "CrashBanUsers",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CrashBanUsers/1.0.0",
+    "tagline": "Upon onPlayerLogin, crash banned user's clients will be crashed.",
+    "artifact_url": "https://poggit.pmmp.io/r/186990",
+    "downloads": 467,
+    "score": null,
+    "repo_id": 514994686,
+    "repo_name": "HBIDamian/CrashBanUsers",
+    "project_id": 11585,
+    "project_name": "CrashBanUsers",
+    "build_id": 140828,
+    "build_number": 5,
+    "build_commit": "6d577693dfa378940fc69a9bd2d4878160232917",
+    "description_url": "https://poggit.pmmp.io/r/186992",
+    "icon_url": "https://raw.githubusercontent.com/HBIDamian/CrashBanUsers/6d577693dfa378940fc69a9bd2d4878160232917/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1658340651,
+    "state": 5,
+    "last_state_change_date": 1658350658,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "anticheat",
+        "ban",
+        "client",
+        "Crash",
+        "kick"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HBIDamian"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

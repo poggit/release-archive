@@ -1,0 +1,56 @@
+<h1>
+<a id="user-content-autorestarter" class="anchor" href="#autorestarter" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AutoRestarter</h1>
+<p>A PocketMine-MP plugin that automatically restart your server once the chosen time is up and who transfers your players to the IP and PORT chosen just before restarting !</p>
+<h3>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h3>
+<p>You can choose in the config the delay between each restart in minutes, the message if you want one to be broadcasted every 10 mins if the time to reboot is &gt; 5 mins and to what IP and PORT are the players transferred just before the restart.</p>
+<p>Something that you can do is transfer them to the server that is going to be restarted by leaving "default" to serverIp and serverPort in the config.</p>
+<h3>
+<a id="user-content-events" class="anchor" href="#events" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Events</h3>
+<p>This plugin is calling the following events:</p>
+<ul>
+<li>
+<code>PreRestartEvent</code>: Called when the time is up and the server is going to restart, you can cancel this event and set a new delay in mins</li>
+</ul>
+<pre><code>use miste\autorestarter\event\PreRestartEvent;
+
+/*
+  To cancel server reboot and re schedule it 30 mins after
+  NB: If you forget to setDelay() the event will be called the next min
+*/
+
+public function onPreRestartEvent(PreRestartEvent $ev){
+        $ev-&gt;setDelay(30);
+        $ev-&gt;setCancelled(true); 
+}
+</code></pre>
+<ul>
+<li>
+<code>MidRestartEvent</code>: Called once all the players have just been transferred and before the plugins are disabled. It can be very useful to deal with configs to save your players data. You can get all the transferred players by doing getTransferredPlayers()</li>
+</ul>
+<pre><code>use miste\autorestarter\event\MidRestartEvent;
+
+public function onMidRestartEvent(MidRestartEvent $ev){
+        foreach ($ev-&gt;getTransferredPlayers() as $playerName){
+          //your code here
+        }
+}
+</code></pre>
+<h3>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h3>
+<p>If you want to reboot the server at any time you can call the method <code>AutoRestarter::restart(Server $server, ?string $serverIp = "default", ?int $serverPort = 19132);</code></p>
+<pre><code>/*
+  This will restart the server and transfer all the players online to play.lbsg.net:19132.
+*/
+use miste\autorestarter\AutoRestarter;
+
+AutoRestarter::restart($this-&gt;getServer(), "play.lbsg.net", 19132);
+
+/*
+  This will restart the server and transfer all the players online the IP and port provided in the config.
+*/
+use miste\autorestarter\AutoRestarter;
+
+AutoRestarter::restart($this-&gt;getServer());
+</code></pre>
+<p><strong>NB</strong>: This plugin doesn't work on Windows. You need pcntl extension to be enabled and compiled with PHP (by default on PM binaries).</p>

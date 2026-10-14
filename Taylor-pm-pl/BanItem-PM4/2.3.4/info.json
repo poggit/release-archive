@@ -1,0 +1,71 @@
+{
+    "id": 9364,
+    "name": "BanItem-PM4",
+    "version": "2.3.4",
+    "html_url": "https://poggit.pmmp.io/p/BanItem-PM4/2.3.4",
+    "tagline": "A PocketMine plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/168510",
+    "downloads": 1327,
+    "score": 4,
+    "repo_id": 473094345,
+    "repo_name": "Taylor-pm-pl/BanItem-PM4",
+    "project_id": 10838,
+    "project_name": "BanItem-PM4",
+    "build_id": 127968,
+    "build_number": 6,
+    "build_commit": "136c5f37b981ba42cf46de3a7a59ba5b281bde45",
+    "description_url": "https://poggit.pmmp.io/r/168509",
+    "icon_url": "https://raw.githubusercontent.com/David-pm-pl/BanItem-PM4/136c5f37b981ba42cf46de3a7a59ba5b281bde45/banitem.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648027942,
+    "state": 5,
+    "last_state_change_date": 1651689083,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "banitem",
+        "grief",
+        "ldx",
+        "protect"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "LukeDarling",
+            "DaPigGuy",
+            "SOF3"
+        ],
+        "Collaborator": [
+            "Awzaw",
+            "DavidGlitch04"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,75 @@
+{
+    "id": 1873,
+    "name": "KitUI",
+    "version": "1.3.1",
+    "html_url": "https://poggit.pmmp.io/p/KitUI/1.3.1",
+    "tagline": "Advance AdvancedKits! Select Kits from a form, just do /kit and get kits info and select it if available!",
+    "artifact_url": "https://poggit.pmmp.io/r/42007",
+    "downloads": 2542,
+    "score": 3,
+    "repo_id": 107051721,
+    "repo_name": "Infernus101/KitUI",
+    "project_id": 1039,
+    "project_name": "KitUI",
+    "build_id": 49483,
+    "build_number": 72,
+    "build_commit": "5a8a3d65c4f8cb0d519d1fb572ca3b965c127f9a",
+    "description_url": "https://poggit.pmmp.io/r/42004",
+    "icon_url": "https://raw.githubusercontent.com/Infernus101/KitUI/5a8a3d65c4f8cb0d519d1fb572ca3b965c127f9a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/42006",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1537256182,
+    "state": 5,
+    "last_state_change_date": 1537334893,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "kits",
+        "mcpe",
+        "modalform",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Infernus101"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

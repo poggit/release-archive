@@ -1,0 +1,114 @@
+{
+    "id": 11564,
+    "name": "BedcoreProtect",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/BedcoreProtect/1.1.0",
+    "tagline": "BedcoreProtect is a fast, efficient, data logging and anti-griefing tool. Rollback and restore any amount of damage",
+    "artifact_url": "https://poggit.pmmp.io/r/210434",
+    "downloads": 234,
+    "score": null,
+    "repo_id": 190715986,
+    "repo_name": "matcracker/BedcoreProtect",
+    "project_id": 5130,
+    "project_name": "BedcoreProtect",
+    "build_id": 156386,
+    "build_number": 508,
+    "build_commit": "f90cefc12809ceb4a24a53911a56c5a61484cf83",
+    "description_url": "https://poggit.pmmp.io/r/210562",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/210564",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685979010,
+    "state": 5,
+    "last_state_change_date": 1685983929,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "anti-grief",
+        "block-logger",
+        "coreprotect",
+        "logger",
+        "pmmp",
+        "pmmp-plugin",
+        "pocketmine-mp-plugin",
+        "restore",
+        "rollback",
+        "survival"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "matcracker"
+        ],
+        "Contributor": [
+            "KadTheHunter",
+            "HadVSC"
+        ],
+        "Translator": [
+            "MaksPV"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "866a23374a7a18ddc8a6bbe0a816feb0f512b9c7",
+            "build_id": 155188
+        },
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "d6b666c72b89a05b9d72c60fd1063b6c7ebdbd46",
+            "build_id": 154020
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        },
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "3933d0555eafb5122551d5004c10899609f2843c",
+            "build_id": 154807
+        }
+    ]
+}

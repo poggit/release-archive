@@ -1,0 +1,92 @@
+{
+    "id": 11711,
+    "name": "theSpawn",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/theSpawn/2.0.1",
+    "tagline": "The best teleportation plugin and the best MSpawns alternative!",
+    "artifact_url": "https://poggit.pmmp.io/r/212618",
+    "downloads": 227,
+    "score": null,
+    "repo_id": 293540265,
+    "repo_name": "supercrafter333/theSpawn",
+    "project_id": 8640,
+    "project_name": "theSpawn",
+    "build_id": 157445,
+    "build_number": 195,
+    "build_commit": "f5e399f7f1e7840527d5e56b755d68555daa1da7",
+    "description_url": "https://poggit.pmmp.io/r/212615",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/theSpawn/f5e399f7f1e7840527d5e56b755d68555daa1da7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/212617",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687105243,
+    "state": 5,
+    "last_state_change_date": 1687108539,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "home",
+        "hubs",
+        "mspawns",
+        "php",
+        "pmmp",
+        "pmmp-plugin",
+        "pmmp-plugins",
+        "pocketmine",
+        "random-hubs",
+        "spawns",
+        "thespawn",
+        "tpa",
+        "warp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "AyzrixYTB",
+            "BlusteryS",
+            "MrBlasyMSK"
+        ],
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEasyUI",
+            "project_id": 7632,
+            "repo_id": 281477433,
+            "repo_name": "dresnite/easyui",
+            "repo_path": "",
+            "build_commit": "5bd8025661ed5c89bb88d40f296d63d605da6fc6",
+            "build_id": 149581
+        }
+    ]
+}

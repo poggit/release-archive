@@ -1,0 +1,63 @@
+{
+    "id": 13670,
+    "name": "Anvils",
+    "version": "1.1",
+    "html_url": "https://poggit.pmmp.io/p/Anvils/1.1",
+    "tagline": "A plugin to use anvils as in vanilla",
+    "artifact_url": "https://poggit.pmmp.io/r/250415",
+    "downloads": 479,
+    "score": null,
+    "repo_id": 739192468,
+    "repo_name": "AmmyRQ/Anvils",
+    "project_id": 13470,
+    "project_name": "Anvils",
+    "build_id": 183196,
+    "build_number": 4,
+    "build_commit": "4c832c1ab8999bd19dc025ce40cd4e11f644307e",
+    "description_url": "https://poggit.pmmp.io/r/250412",
+    "icon_url": "https://raw.githubusercontent.com/AmmyRQ/Anvils/4c832c1ab8999bd19dc025ce40cd4e11f644307e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/250414",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1733889935,
+    "state": 5,
+    "last_state_change_date": 1733947118,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "AmmyRQ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

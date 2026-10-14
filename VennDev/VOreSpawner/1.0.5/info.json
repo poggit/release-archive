@@ -1,0 +1,81 @@
+{
+    "id": 12171,
+    "name": "VOreSpawner",
+    "version": "1.0.5",
+    "html_url": "https://poggit.pmmp.io/p/VOreSpawner/1.0.5",
+    "tagline": "Giving your server exciting gameplay comes from placing ores spawn machines or so to speak, custom block types at your disposal.",
+    "artifact_url": "https://poggit.pmmp.io/r/219269",
+    "downloads": 70,
+    "score": 5,
+    "repo_id": 675817873,
+    "repo_name": "VennDev/VOreSpawner",
+    "project_id": 12901,
+    "project_name": "VOreSpawner",
+    "build_id": 161391,
+    "build_number": 13,
+    "build_commit": "2b696d4b5ae346ac40a96ac44c2b067a56d67c9e",
+    "description_url": "https://poggit.pmmp.io/r/219268",
+    "icon_url": "https://raw.githubusercontent.com/VennDev/VOreSpawner/2b696d4b5ae346ac40a96ac44c2b067a56d67c9e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691496176,
+    "state": 5,
+    "last_state_change_date": 1692134300,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VennDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "LibVapmPMMP",
+            "project_id": 12771,
+            "repo_id": 663585245,
+            "repo_name": "VennDev/LibVapmPMMP",
+            "repo_path": "",
+            "build_commit": "ea082fbc50a6f4f0732013dd4d673584a64a10b7",
+            "build_id": 161305
+        }
+    ]
+}

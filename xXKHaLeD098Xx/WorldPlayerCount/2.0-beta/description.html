@@ -1,0 +1,57 @@
+<h1>
+<a id="user-content-worldplayercount-" class="anchor" href="#worldplayercount-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>WorldPlayerCount <a href="https://poggit.pmmp.io/ci/xXKHaLeD098Xx/WorldPlayerCount/WorldPlayerCount" rel="nofollow"><img src="https://camo.githubusercontent.com/73ed766465211124972c856de926fb8d96f93330/68747470733a2f2f706f676769742e706d6d702e696f2f63692e62616467652f78584b48614c654430393858782f576f726c64506c61796572436f756e742f576f726c64506c61796572436f756e74" alt="Poggit-CI" data-canonical-src="https://poggit.pmmp.io/ci.badge/xXKHaLeD098Xx/WorldPlayerCount/WorldPlayerCount" style="max-width:100%;"></a>
+</h1>
+<p><a href="https://poggit.pmmp.io/p/WorldPlayerCount" rel="nofollow"><img src="https://camo.githubusercontent.com/ac3f226a8cee49c019b39e7337283dc1ffb2763e/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f576f726c64506c61796572436f756e74" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/WorldPlayerCount" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/p/WorldPlayerCount" rel="nofollow"><img src="https://camo.githubusercontent.com/2405860afdbbc7e158e2a9bc2a87acc839e317f7/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f576f726c64506c61796572436f756e74" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/WorldPlayerCount" style="max-width:100%;"></a>
+<a href="https://poggit.pmmp.io/ci/xXKHaLeD098Xx/WorldPlayerCount/WorldPlayerCount" rel="nofollow"><img src="https://camo.githubusercontent.com/e858719d17670f6c1da7bd961fed00937368638e/68747470733a2f2f706f676769742e706d6d702e696f2f63692e736869656c642f78584b48614c654430393858782f576f726c64506c61796572436f756e742f576f726c64506c61796572436f756e743f7374796c653d666c61742d737175617265" alt="Poggit" data-canonical-src="https://poggit.pmmp.io/ci.shield/xXKHaLeD098Xx/WorldPlayerCount/WorldPlayerCount?style=flat-square" style="max-width:100%;"></a>
+<br>
+A simple PocketMine addon plugin for Slapper which allows you to create a slapper counting the players of a world(s) on its name tag.<br></p>
+<h2>
+<a id="user-content-versions" class="anchor" href="#versions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Versions</h2>
+<ul>
+<li>
+<p>v1.0-beta</p>
+<ul>
+<li>First version</li>
+</ul>
+</li>
+<li>
+<p>v2.0-beta</p>
+<ul>
+<li>Added combined world player count support!</li>
+<li>Added customizable count-check interval, see the config</li>
+</ul>
+</li>
+</ul>
+<h2>
+<a id="user-content-usage-for-single-world" class="anchor" href="#usage-for-single-world" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage for single world</h2>
+<p><strong>Note: This is used when creating a slapper counting the players of 1 world only</strong></p>
+<ul>
+<li>First thing we add after the entity type (human) is the nametag we want, followed by a {line} tag then adding "count WORLDNAME"<br><br>
+</li>
+<li>
+<strong>Example : /slapper spawn human Hub{line}count Hub<br></strong><br>
+</li>
+<li>Congrats!, you spawned an entity counting the players of the world "Hub"</li>
+</ul>
+<h2>
+<a id="user-content-usage-for-combined-worlds" class="anchor" href="#usage-for-combined-worlds" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage for combined worlds</h2>
+<p><strong>Note: This is used when creating a slapper counting the players of more than 1 world</strong></p>
+<ul>
+<li>First thing we add after the entity type (human) is the nametag we want, followed by a {line} tag then adding "combinedcounts World1&amp;World2" and so on with the "&amp;" symbol<br><br>
+</li>
+<li>
+<strong>Example : /slapper spawn human SkyWars{line}combinedcounts SK-1&amp;SK-2&amp;SK-3</strong><br><br>
+</li>
+<li>Congrats!, you spawned an entity counting the players of the worlds "SK-1", "SK-2" and "SK-3" at the same time</li>
+</ul>
+<h2>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h2>
+<ul>
+<li>In the config you can customize the name tag of the slapper, it is set to "{number} Playing" by default<br>
+</li>
+<li>The count "check" interval is also customizable and it is set to 1 second by default</li>
+</ul>
+<h2>
+<a id="user-content-contacts" class="anchor" href="#contacts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contacts</h2>
+<p>In case you are confused about the usage or found a bug please contact me on my discord <strong>@кнαℓє∂#7787</strong></p>

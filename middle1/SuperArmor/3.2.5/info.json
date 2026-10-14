@@ -1,0 +1,70 @@
+{
+    "id": 12226,
+    "name": "SuperArmor",
+    "version": "3.2.5",
+    "html_url": "https://poggit.pmmp.io/p/SuperArmor/3.2.5",
+    "tagline": "Plugin for super armor for PocketMine-MP, api version 4.0.0",
+    "artifact_url": "https://poggit.pmmp.io/r/220079",
+    "downloads": 469,
+    "score": null,
+    "repo_id": 521384367,
+    "repo_name": "middle1/SuperArmor",
+    "project_id": 11688,
+    "project_name": "SuperArmor",
+    "build_id": 161869,
+    "build_number": 35,
+    "build_commit": "9603993560ad410bcb3e75aedd1a0e8344464275",
+    "description_url": "https://poggit.pmmp.io/r/220078",
+    "icon_url": "https://raw.githubusercontent.com/middle1/SuperArmor/9603993560ad410bcb3e75aedd1a0e8344464275/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692102758,
+    "state": 5,
+    "last_state_change_date": 1693224438,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "php",
+        "pocketmine",
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "middle1"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "26fac36e585c1b6d5a10a99bdcb70f6539b397aa",
+            "build_id": 157517
+        }
+    ]
+}

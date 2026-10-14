@@ -1,0 +1,81 @@
+{
+    "id": 7318,
+    "name": "AllSigns",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AllSigns/2.0.0",
+    "tagline": "Turn signs into world teleport and command signs",
+    "artifact_url": "https://poggit.pmmp.io/r/136284",
+    "downloads": 1043,
+    "score": null,
+    "repo_id": 58803395,
+    "repo_name": "survanetwork/AllSigns",
+    "project_id": 384,
+    "project_name": "AllSigns",
+    "build_id": 108422,
+    "build_number": 38,
+    "build_commit": "73fc4202adfe0b95b8e1dfc1fe84597baaf11180",
+    "description_url": "https://poggit.pmmp.io/r/136280",
+    "icon_url": "https://raw.githubusercontent.com/survanetwork/AllSigns/73fc4202adfe0b95b8e1dfc1fe84597baaf11180/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/136282",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/136283",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628439539,
+    "state": 5,
+    "last_state_change_date": 1628451430,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "command",
+        "sign",
+        "teleport",
+        "world"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "jarne"
+        ],
+        "Contributor": [
+            "Ree-jp",
+            "NhanAZ",
+            "kostamax27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

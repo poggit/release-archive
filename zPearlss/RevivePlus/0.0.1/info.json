@@ -1,0 +1,62 @@
+{
+    "id": 9376,
+    "name": "RevivePlus",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/RevivePlus/0.0.1",
+    "tagline": "A simple reviving plugin.",
+    "artifact_url": "https://poggit.pmmp.io/r/168628",
+    "downloads": 903,
+    "score": null,
+    "repo_id": 473365378,
+    "repo_name": "zPearlss/RevivePlus",
+    "project_id": 10840,
+    "project_name": "RevivePlus",
+    "build_id": 128038,
+    "build_number": 8,
+    "build_commit": "d930e11269de081662bd4f1928ec8305f8ab3148",
+    "description_url": "https://poggit.pmmp.io/r/168627",
+    "icon_url": "https://raw.githubusercontent.com/zPearlss/RevivePlus/d930e11269de081662bd4f1928ec8305f8ab3148/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1648116259,
+    "state": 5,
+    "last_state_change_date": 1651694124,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Revive",
+        "Revival"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "zPearlss"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

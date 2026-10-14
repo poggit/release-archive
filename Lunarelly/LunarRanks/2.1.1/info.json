@@ -1,0 +1,63 @@
+{
+    "id": 12162,
+    "name": "LunarRanks",
+    "version": "2.1.1",
+    "html_url": "https://poggit.pmmp.io/p/LunarRanks/2.1.1",
+    "tagline": "Rank management system",
+    "artifact_url": "https://poggit.pmmp.io/r/219193",
+    "downloads": 426,
+    "score": 4,
+    "repo_id": 636299529,
+    "repo_name": "Lunarelly/LunarRanks",
+    "project_id": 12411,
+    "project_name": "LunarRanks",
+    "build_id": 161358,
+    "build_number": 13,
+    "build_commit": "75b348359207311de7dcc84ebb2d479229c76cff",
+    "description_url": "https://poggit.pmmp.io/r/219190",
+    "icon_url": "https://raw.githubusercontent.com/Lunarelly/LunarRanks/75b348359207311de7dcc84ebb2d479229c76cff/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/219192",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1691457917,
+    "state": 5,
+    "last_state_change_date": 1691481089,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Lunarelly"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

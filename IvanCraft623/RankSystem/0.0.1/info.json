@@ -1,0 +1,79 @@
+{
+    "id": 7027,
+    "name": "RankSystem",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/RankSystem/0.0.1",
+    "tagline": "An amazing Rank and Permissions Manager. The best ranks manager for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/131899",
+    "downloads": 834,
+    "score": 5,
+    "repo_id": 385033127,
+    "repo_name": "IvanCraft623/RankSystem",
+    "project_id": 9247,
+    "project_name": "RankSystem",
+    "build_id": 105911,
+    "build_number": 12,
+    "build_commit": "80ceb8705c8a980555d6be149c43f253e343628d",
+    "description_url": "https://poggit.pmmp.io/r/131898",
+    "icon_url": "https://raw.githubusercontent.com/IvanCraft623/RankSystem/80ceb8705c8a980555d6be149c43f253e343628d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626239795,
+    "state": 5,
+    "last_state_change_date": 1626719104,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "administrate",
+        "group",
+        "groups",
+        "manager",
+        "permissions",
+        "perms",
+        "role",
+        "roles"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "supercrafter333"
+        ],
+        "Collaborator": [
+            "IvanCraft623"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

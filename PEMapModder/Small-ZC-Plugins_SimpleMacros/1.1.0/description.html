@@ -1,0 +1,39 @@
+<p>Tired of typing boring, long commands again and again all over the time? This simple plugin can record "macros" that contain a bunch of commands and run them when requested by a command. These commands can also be sudo-run by op-sudo optionally.</p>
+<h1>Usage</h1>
+<pre><code>Usage: /macro start|pause|resume|stop|run|sudo
+/macro start [s] [t]: Start recording a macro.
+    Add an "s" after the command if you want the commands be automatically formatted.
+    Add a "t" after the command to execute commands while recording the macro.
+    Otherwise, unless you stopped or paused recording macros, you can't run any commands.
+    /macro commands are the only exception -- they won't be recorded nor blocked.
+    Aliases: /macro s
+/macro pause: Pause recording a macro.
+    Aliases: /macro p
+/macro resume: Resume recording a macro.
+    Aliases: /macro c, /macro cont, /macro continue
+/macro stop [.f] &lt;name&gt;: Stop recording a macro and save it.
+    Using "ng" as the name will prevent saving.
+    Adding .f before the name will overwrite the original macro with the same name, if any.
+    Aliases: /macro q
+/macro run &lt;macro&gt; &lt;args ...&gt;: Run a macro saved by yourself or others.
+    The trailing arguments will be used to format the commands in the macro. See https://poggit.pmmp.io/p/SimpleMacros for details.
+    Aliases: /macro r, /macro x, /macro exe, /macro exec, /macro execute
+/macro su &lt;macro&gt; [.op] &lt;target&gt; &lt;args ...&gt;: Run a macro as another player
+    Add .op to bypass all permission barriers (the player will be temporarily granted all permissions).
+    Otherwise, some commands may not be executed, but instead show permission-denied messages.
+    Aliases: /macro sudo
+</code></pre>
+<h2>sprintf</h2>
+<p>If you start a macro with <code>/macro start s</code>, every line will be formatted with <code>sprintf</code> using the trailing arguments from <code>/macro run</code> or <code>/macro sudo</code> every time they are executed.</p>
+<p>See <a href="http://php.net/manual/en/function.sprintf.php#refsect1-function.sprintf-parameters">this page</a> for more information related to macros.</p>
+<h1>Examples</h1>
+<h3>Reward</h3>
+<p>Want to give the same rewards every time, but your ops never remember the commands? Make a macro like this:</p>
+<pre><code>/macro start s
+/give %s diamond 16
+/give %s iron 256
+/give %s emerald 8
+/givemoney %s 1000
+/macro stop reward
+</code></pre>
+<p>Now every time anyone runs <code>/macro run Steve</code>, as long as they have the permissions to use <code>/give</code> and <code>/givemoney</code>, the items and money are automatically given to Steve!</p>

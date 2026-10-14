@@ -1,0 +1,67 @@
+{
+    "id": 10165,
+    "name": "AdvancedRules",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedRules/1.0.1",
+    "tagline": "Get players who join your server for the first time to accept the server rules with AdvancedRules.",
+    "artifact_url": "https://poggit.pmmp.io/r/184551",
+    "downloads": 892,
+    "score": null,
+    "repo_id": 484886710,
+    "repo_name": "nhanaz-pm-pl/AdvancedRules",
+    "project_id": 11012,
+    "project_name": "AdvancedRules",
+    "build_id": 139110,
+    "build_number": 7,
+    "build_commit": "0c7535494c1619aca6ba5916a8f5004d14421177",
+    "description_url": "https://poggit.pmmp.io/r/184548",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/AdvancedRules/0c7535494c1619aca6ba5916a8f5004d14421177/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/184550",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656847041,
+    "state": 5,
+    "last_state_change_date": 1656946913,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "advancedrules",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "id": 3264,
+    "name": "PECollide",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/PECollide/1.0",
+    "tagline": "Make a player collide with players",
+    "artifact_url": "https://poggit.pmmp.io/r/64234",
+    "downloads": 599,
+    "score": 5,
+    "repo_id": 201042518,
+    "repo_name": "Saxavlax001/PECollide",
+    "project_id": 5421,
+    "project_name": "PECollide",
+    "build_id": 63142,
+    "build_number": 9,
+    "build_commit": "f57de99dceee1b4102a6e5c15b8df6f508fa8ce5",
+    "description_url": "https://poggit.pmmp.io/r/64236",
+    "icon_url": "https://raw.githubusercontent.com/Saxavlax001/PECollide/f57de99dceee1b4102a6e5c15b8df6f508fa8ce5/pecollide.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1565597632,
+    "state": 5,
+    "last_state_change_date": 1565941343,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "collision",
+        "mcbe",
+        "mcpe",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "benda95280"
+        ],
+        "Collaborator": [
+            "Saxavlax001"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

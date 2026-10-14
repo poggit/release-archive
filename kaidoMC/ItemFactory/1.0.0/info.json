@@ -1,0 +1,60 @@
+{
+    "id": 7658,
+    "name": "ItemFactory",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ItemFactory/1.0.0",
+    "tagline": "Create, edit, copy items of your choice.",
+    "artifact_url": "https://poggit.pmmp.io/r/142268",
+    "downloads": 71,
+    "score": 5,
+    "repo_id": 405951531,
+    "repo_name": "kaidoMC/ItemFactory",
+    "project_id": 9710,
+    "project_name": "ItemFactory",
+    "build_id": 112192,
+    "build_number": 6,
+    "build_commit": "68513e24276670ec16cb6a62eb0adae581749f7e",
+    "description_url": "https://poggit.pmmp.io/r/142280",
+    "icon_url": "https://raw.githubusercontent.com/kaidoMC/ItemFactory/68513e24276670ec16cb6a62eb0adae581749f7e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632220069,
+    "state": 5,
+    "last_state_change_date": 1632222295,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "itemfactory",
+        "plugin",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

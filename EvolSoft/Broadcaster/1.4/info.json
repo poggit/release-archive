@@ -1,0 +1,70 @@
+{
+    "id": 1316,
+    "name": "Broadcaster",
+    "version": "1.4",
+    "html_url": "https://poggit.pmmp.io/p/Broadcaster/1.4",
+    "tagline": "Advanced Broadcasting plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/28721",
+    "downloads": 622,
+    "score": null,
+    "repo_id": 28539077,
+    "repo_name": "EvolSoft/Broadcaster",
+    "project_id": 320,
+    "project_name": "Broadcaster",
+    "build_id": 40026,
+    "build_number": 15,
+    "build_commit": "4af7af7afc60450f91fe425c46d1919583a3fc95",
+    "description_url": "https://poggit.pmmp.io/r/28718",
+    "icon_url": "https://raw.githubusercontent.com/EvolSoft/Broadcaster/4af7af7afc60450f91fe425c46d1919583a3fc95/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/28720",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1524749319,
+    "state": 5,
+    "last_state_change_date": 1524752827,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "php",
+        "plugin",
+        "pocketmine-mp"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Flavius12"
+        ],
+        "Contributor": [
+            "letsplaydev",
+            "Pub4Game",
+            "TheDiamondYT1",
+            "NeverSayXenos",
+            "lukeeey"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

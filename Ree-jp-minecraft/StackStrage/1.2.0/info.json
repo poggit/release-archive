@@ -1,0 +1,87 @@
+{
+    "id": 8164,
+    "name": "StackStorage",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/StackStorage/1.2.0",
+    "tagline": "Simple Virtual storage",
+    "artifact_url": "https://poggit.pmmp.io/r/150260",
+    "downloads": 318,
+    "score": null,
+    "repo_id": 224436247,
+    "repo_name": "Ree-jp-minecraft/StackStrage",
+    "project_id": 6525,
+    "project_name": "StackStrage",
+    "build_id": 116847,
+    "build_number": 93,
+    "build_commit": "2066af91f712d7eb3bfe35ba4ac436376024ae07",
+    "description_url": "https://poggit.pmmp.io/r/150672",
+    "icon_url": "https://raw.githubusercontent.com/Ree-jp-minecraft/StackStrage/2066af91f712d7eb3bfe35ba4ac436376024ae07/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/150674",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638627549,
+    "state": 5,
+    "last_state_change_date": 1638776825,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "cloud",
+        "item",
+        "pmmp",
+        "stackstorage",
+        "storage"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "DaisukeDaisuke"
+        ],
+        "Collaborator": [
+            "Ree-jp"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "016ae44ebd7707df2cd6d579030feadc569bb9bf",
+            "build_id": 116775
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "03557115ff8aeee324443d1dd40989d64780614e",
+            "build_id": 114839
+        }
+    ]
+}

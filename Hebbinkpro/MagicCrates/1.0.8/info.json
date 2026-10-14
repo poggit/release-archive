@@ -1,0 +1,94 @@
+{
+    "id": 5591,
+    "name": "MagicCrates",
+    "version": "1.0.8",
+    "html_url": "https://poggit.pmmp.io/p/MagicCrates/1.0.8",
+    "tagline": "Add crates to your server",
+    "artifact_url": "https://poggit.pmmp.io/r/108674",
+    "downloads": 340,
+    "score": 5,
+    "repo_id": 312696703,
+    "repo_name": "Hebbinkpro/MagicCrates",
+    "project_id": 8011,
+    "project_name": "MagicCrates",
+    "build_id": 92057,
+    "build_number": 25,
+    "build_commit": "630ff5f5323ab1e1cc73224f1290a32db61eb7fb",
+    "description_url": "https://poggit.pmmp.io/r/108676",
+    "icon_url": "https://raw.githubusercontent.com/Hebbinkpro/MagicCrates/630ff5f5323ab1e1cc73224f1290a32db61eb7fb/MagicCrates-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1606067564,
+    "state": 5,
+    "last_state_change_date": 1607872769,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "chest",
+        "commands",
+        "crate",
+        "crates",
+        "items",
+        "rewards"
+    ],
+    "api": [
+        {
+            "from": "3.14.2",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Hebbinkpro"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "9faed72d40f93ff2b6579b52c83425c766ad165a",
+            "build_id": 83794
+        }
+    ]
+}

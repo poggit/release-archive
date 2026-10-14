@@ -1,0 +1,54 @@
+{
+    "id": 5802,
+    "name": "SimpleMapRenderer",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SimpleMapRenderer/1.0.1",
+    "tagline": "A PocketMine-MP Plugin that implements FilledMap",
+    "artifact_url": "https://poggit.pmmp.io/r/112534",
+    "downloads": 534,
+    "score": 3,
+    "repo_id": 312932577,
+    "repo_name": "alvin0319/SimpleMapRenderer",
+    "project_id": 8047,
+    "project_name": "SimpleMapRenderer",
+    "build_id": 94629,
+    "build_number": 7,
+    "build_commit": "070a97ba3fdfee30d7aee3410232312eb3f6d413",
+    "description_url": "https://poggit.pmmp.io/r/112531",
+    "icon_url": "https://raw.githubusercontent.com/alvin0319/SimpleMapRenderer/070a97ba3fdfee30d7aee3410232312eb3f6d413/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/112533",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609732385,
+    "state": 5,
+    "last_state_change_date": 1609770796,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "filledmap",
+        "map"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,61 @@
+{
+    "id": 13784,
+    "name": "SystemCps",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SystemCps/1.0.1",
+    "tagline": "Click per second system",
+    "artifact_url": "https://poggit.pmmp.io/r/251847",
+    "downloads": 378,
+    "score": null,
+    "repo_id": 840829090,
+    "repo_name": "Jorgebyte/SystemCps",
+    "project_id": 14151,
+    "project_name": "SystemCps",
+    "build_id": 184035,
+    "build_number": 6,
+    "build_commit": "daa7e9181cf9fb48f894d630cbbb731bd2c2ec56",
+    "description_url": "https://poggit.pmmp.io/r/251844",
+    "icon_url": "https://raw.githubusercontent.com/Jorgebyte/SystemCps/daa7e9181cf9fb48f894d630cbbb731bd2c2ec56/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/251846",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736788343,
+    "state": 5,
+    "last_state_change_date": 1736792894,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Jorgebyte"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        }
+    ]
+}

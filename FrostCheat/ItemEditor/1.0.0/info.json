@@ -1,0 +1,113 @@
+{
+    "id": 14076,
+    "name": "ItemEditor",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ItemEditor/1.0.0",
+    "tagline": "With this plugin customize your item in hand",
+    "artifact_url": "https://poggit.pmmp.io/r/256932",
+    "downloads": 276,
+    "score": null,
+    "repo_id": 901609277,
+    "repo_name": "FrostCheat/ItemEditor",
+    "project_id": 14396,
+    "project_name": "ItemEditor",
+    "build_id": 187343,
+    "build_number": 7,
+    "build_commit": "cf61a0ec3837075125bb86fe672fc4b6c2eaac6c",
+    "description_url": "https://poggit.pmmp.io/r/262435",
+    "icon_url": "https://raw.githubusercontent.com/FrostCheat/ItemEditor/cf61a0ec3837075125bb86fe672fc4b6c2eaac6c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/262437",
+    "license": "AGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1750363868,
+    "state": 5,
+    "last_state_change_date": 1750364921,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ítem",
+        "editor",
+        "ie",
+        "itemeditor"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "FrostCheat"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12585,
+            "repo_id": 649339852,
+            "repo_name": "LatamPMDevs/Commando",
+            "repo_path": "",
+            "build_commit": "adc7b7e14a86e7e36ea32024d6fba3cace1b72e9",
+            "build_id": 159643
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 12634,
+            "repo_id": 653680575,
+            "repo_name": "LatamPMDevs/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "44cbbec61a047e3120884f8410c154a4182c4426",
+            "build_id": 157397
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 12635,
+            "repo_id": 653680934,
+            "repo_name": "LatamPMDevs/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c3a71ae577df5b5f174e4c2bb99d76182d05b420",
+            "build_id": 157396
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        }
+    ]
+}

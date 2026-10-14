@@ -1,0 +1,71 @@
+{
+    "id": 1386,
+    "name": "SimpleAuthHelper",
+    "version": "2.0.6-7",
+    "html_url": "https://poggit.pmmp.io/p/SimpleAuthHelper/2.0.6-7",
+    "tagline": "Extra Auth Functionality By Aliuly",
+    "artifact_url": "https://poggit.pmmp.io/r/30482",
+    "downloads": 347,
+    "score": null,
+    "repo_id": 82866251,
+    "repo_name": "poggit-orphanage/SimpleAuthHelper",
+    "project_id": 265,
+    "project_name": "SimpleAuthHelper",
+    "build_id": 41327,
+    "build_number": 14,
+    "build_commit": "1423cbc5a017deaa3ccccebd73674b5f4ddb5666",
+    "description_url": "https://poggit.pmmp.io/r/30479",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/SimpleAuthHelper/1423cbc5a017deaa3ccccebd73674b5f4ddb5666/media/helper.alt-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/30481",
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526416611,
+    "state": 5,
+    "last_state_change_date": 1526416615,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "login",
+        "simpleauth",
+        "register"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SimpleAuth",
+            "version": "2.1.2-7",
+            "depRelId": 1380,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "alejandroliu",
+            "Awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

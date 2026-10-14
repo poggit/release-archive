@@ -1,0 +1,89 @@
+{
+    "id": 9664,
+    "name": "AutoSellPE",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoSellPE/3.0.0",
+    "tagline": "A PocketMine-MP plugin which automatically sells blocks as you mine.",
+    "artifact_url": "https://poggit.pmmp.io/r/175005",
+    "downloads": 180,
+    "score": null,
+    "repo_id": 345158245,
+    "repo_name": "MCPEAbdu77/AutoSellPE",
+    "project_id": 8788,
+    "project_name": "AutoSellPE",
+    "build_id": 132724,
+    "build_number": 14,
+    "build_commit": "cb3e2bfc28098bd1fe7d14175e364d32152d758f",
+    "description_url": "https://poggit.pmmp.io/r/175002",
+    "icon_url": "https://raw.githubusercontent.com/MCPEAbdu77/AutoSellPE/cb3e2bfc28098bd1fe7d14175e364d32152d758f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/175004",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652128033,
+    "state": 5,
+    "last_state_change_date": 1652129690,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Auto",
+        "Autosell",
+        "bedrockeconomy",
+        "Capital",
+        "Economy",
+        "EconomyAPI",
+        "items",
+        "money",
+        "Prison",
+        "Sell"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MCPEAbdu77"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

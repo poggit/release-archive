@@ -1,0 +1,306 @@
+<p>#EconomyS</p>
+<p>Feel free to make a pull request!</p>
+<h2>Download</h2>
+<p><a href="https://jenkins.onebone.me/job/EconomyS/">Jenkins</a></p>
+<h2>EconomyAPI commands</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Default command</th>
+<th align="center">Parameter</th>
+<th align="center">Description</th>
+<th align="center">Default Permission</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">/mymoney</td>
+<td align="center"></td>
+<td align="center">Shows your money</td>
+<td align="center">All</td>
+</tr>
+<tr>
+<td align="center">/mydebt</td>
+<td align="center"></td>
+<td align="center">Shows your debt</td>
+<td align="center">All</td>
+</tr>
+<tr>
+<td align="center">/takedebt</td>
+<td align="center"><code>&lt;money&gt;</code></td>
+<td align="center">Borrows $<code>&lt;money&gt;</code> from plugin</td>
+<td align="center"><code>All</code></td>
+</tr>
+<tr>
+<td align="center">/returndebt</td>
+<td align="center"><code>&lt;money&gt;</code></td>
+<td align="center">Returns $<code>&lt;money&gt;</code> to plugin</td>
+<td align="center"><code>All</code></td>
+</tr>
+<tr>
+<td align="center">/topmoney</td>
+<td align="center"><code>&lt;page&gt;</code></td>
+<td align="center">Shows server's top money</td>
+<td align="center"><code>All</code></td>
+</tr>
+<tr>
+<td align="center">/moneysave</td>
+<td align="center"></td>
+<td align="center">Saves data to your hardware</td>
+<td align="center"><code>Console</code></td>
+</tr>
+<tr>
+<td align="center">/moneyload</td>
+<td align="center"></td>
+<td align="center">Loads data from your hardware</td>
+<td align="center"><code>Console</code></td>
+</tr>
+<tr>
+<td align="center">/setmoney</td>
+<td align="center"><code>&lt;player&gt;</code> <code>&lt;money&gt;</code></td>
+<td align="center">Sets <code>&lt;player&gt;</code>'s money to $<code>&lt;money&gt;</code></td>
+<td align="center"><code>OP</code> <code>Console</code></td>
+</tr>
+<tr>
+<td align="center">/economys</td>
+<td align="center"></td>
+<td align="center">Shows plugin which are using EconomyAPI</td>
+<td align="center"><code>All</code></td>
+</tr>
+<tr>
+<td align="center">/givemoney</td>
+<td align="center"><code>&lt;player&gt;</code> <code>&lt;money&gt;</code></td>
+<td align="center">Gives $<code>&lt;money&gt;</code> <code>&lt;player&gt;</code></td>
+<td align="center"><code>OP</code> <code>Console</code></td>
+</tr>
+<tr>
+<td align="center">/takemoney</td>
+<td align="center"><code>&lt;player&gt;</code> <code>&lt;money&gt;</code></td>
+<td align="center">Takes $<code>&lt;money&gt;</code> from <code>&lt;player&gt;</code></td>
+<td align="center"><code>OP</code> <code>Console</code></td>
+</tr>
+<tr>
+<td align="center">/seemoney</td>
+<td align="center"><code>&lt;player&gt;</code></td>
+<td align="center">Shows <code>&lt;player&gt;</code>'s money</td>
+<td align="center"><code>All</code></td>
+</tr>
+<tr>
+<td align="center">/bank deposit</td>
+<td align="center"><code>&lt;money&gt;</code></td>
+<td align="center">Deposit $<code>&lt;money&gt;</code> to your account</td>
+<td align="center"><code>All</code></td>
+</tr>
+<tr>
+<td align="center">/bank withdraw</td>
+<td align="center"><code>&lt;money&gt;</code></td>
+<td align="center">Withdraw $<code>&lt;money&gt;</code> from your account</td>
+<td align="center"><code>All</code></td>
+</tr>
+<tr>
+<td align="center">/bank mymoney</td>
+<td align="center"></td>
+<td align="center">Shows your money from your account</td>
+<td align="center"><code>All</code></td>
+</tr>
+<tr>
+<td align="center">/mystatus</td>
+<td align="center"></td>
+<td align="center">Shows your money status</td>
+<td align="center"><code>All</code></td>
+</tr>
+<tr>
+<td align="center">/bankadmin takemoney</td>
+<td align="center"><code>&lt;player&gt;</code> <code>&lt;money&gt;</code></td>
+<td align="center">Takes $<code>&lt;money&gt;</code> from <code>&lt;player&gt;</code>'s account</td>
+<td align="center"><code>OP</code> <code>Console</code></td>
+</tr>
+<tr>
+<td align="center">/bankadmin givemoney</td>
+<td align="center"><code>&lt;player&gt;</code> <code>&lt;money&gt;</code></td>
+<td align="center">Gives $<code>&lt;money&gt;</code> for <code>&lt;player&gt;</code>'s account</td>
+<td align="center"><code>OP</code> <code>Console</code></td>
+</tr></tbody></table>
+<h2>EconomyAPI configuration</h2>
+<blockquote>
+<p>File : <code>plugins/EconomyAPI/economy.properties</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">Key</th>
+<th align="center">Description</th>
+<th align="center">Available Value</th>
+<th align="center">Default Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">show-using-economy</td>
+<td align="center">Changes server name to <code>[EconomyS] SERVER NAME</code>   <code>on : Change</code> <code>off : Don't change</code></td>
+<td align="center"><code>on</code> <code>off</code></td>
+<td align="center">on</td>
+</tr>
+<tr>
+<td align="center">once-debt-limit</td>
+<td align="center">Limits borrowing debt at once</td>
+<td align="center"><code>All integers</code></td>
+<td align="center">100</td>
+</tr>
+<tr>
+<td align="center">debt-limit</td>
+<td align="center">Limits available debt</td>
+<td align="center"><code>All integers</code></td>
+<td align="center">500</td>
+</tr>
+<tr>
+<td align="center">add-op-at-rank</td>
+<td align="center">Shows OP at top money rank    <code>on : Shows OP</code> <code>off : Don't shows OP</code></td>
+<td align="center"><code>on</code> <code>off</code></td>
+<td align="center">off</td>
+</tr>
+<tr>
+<td align="center">default-money</td>
+<td align="center">Sets default money</td>
+<td align="center"><code>All integers</code></td>
+<td align="center">1000</td>
+</tr>
+<tr>
+<td align="center">default-debt</td>
+<td align="center">Sets default debt</td>
+<td align="center"><code>All integers</code></td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">time-for-increase-debt</td>
+<td align="center">Sets how long will take for debt increase</td>
+<td align="center"><code>All integers</code></td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="center">percent-of-increase-debt</td>
+<td align="center">Sets percentage of increasing debt</td>
+<td align="center"><code>All integers</code></td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">default-bank-money</td>
+<td align="center">Sets default bank money</td>
+<td align="center"><code>All integers</code></td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">time-for-increase-money</td>
+<td align="center">Sets how long will take for credit increase</td>
+<td align="center"><code>All integers</code></td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="center">bank-increase=money-rate</td>
+<td align="center">Sets percentage of increasing credit</td>
+<td align="center"><code>All integers</code></td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center">debug</td>
+<td align="center">Money debugging preferences  <code>on : yes</code> <code>off : no</code></td>
+<td align="center"><code>on</code> <code>off</code></td>
+<td align="center">on</td>
+</tr></tbody></table>
+<h2>EconomyShop configuration</h2>
+<blockquote>
+<p>File : <code>plugins/EconomyShop/shop.properties</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">Key</th>
+<th align="center">Description</th>
+<th align="center">Available Value</th>
+<th align="center">Default Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">handler-priority</td>
+<td align="center">The priority of handling shop touches</td>
+<td align="center">Integer</td>
+<td align="center">5</td>
+</tr></tbody></table>
+<h2>How to create shop in EconomyShop</h2>
+<blockquote>
+<p>File : <code>plugins/EconomyShop/ShopSign.yml</code></p>
+</blockquote>
+<p>This documentation is focused on default configuration.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Line1</th>
+<th align="center">Line2</th>
+<th align="center">Line3</th>
+<th align="center">Line4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">shop</td>
+<td align="center"><code>&lt;price&gt;</code></td>
+<td align="center"><code>&lt;item id or name&gt;</code></td>
+<td align="center"><code>&lt;amount&gt;</code></td>
+</tr></tbody></table>
+<p>You must write all the parameters <code>integer</code> except for line 3.<br>
+The shop will created if the parameters are valid.</p>
+<p><code>Sell Center</code> in <code>EconomySell</code> can be created in same way. And also <code>Player's Shop</code> in <code>EconomyPShop</code></p>
+<h2>EconomyAirport and EconomyAirportPlus</h2>
+<blockquote>
+<p>File : <code>%CONFIG_PATH%/DepartureSign.yml</code><br>
+File : <code>%CONFIG_PATH%/ArrivalSign.yml</code><br>
+File : <code>%CONFIG_PATH%/Identifier.yml</code></p>
+</blockquote>
+<p>This documentation is focused on default configuration.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Line1</th>
+<th align="center">Line2</th>
+<th align="center">Line3</th>
+<th align="center">Line4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><code>&lt;international | airport&gt;</code></td>
+<td align="center"><code>&lt;arrival | departure&gt;</code></td>
+<td align="center"><code>&lt;arrival:</code>Airport name<code>departure:</code>price<code>&gt;</code></td>
+<td align="center"><code>&lt;arrival:</code>none<code>departure:</code><code>&gt;</code></td>
+</tr></tbody></table>
+<p>Example:</p>
+<p>Line1: airport<br>
+Line2: departure<br>
+Line3: 10<br>
+Line4: onebone</p>
+<p>Takes $10 to go to <code>onebone</code> airport</p>
+<p>Line1: airport<br>
+Line2: arrival<br>
+Line3: onebone<br>
+Line4:</p>
+<p>Arrival sign : <code>onebone</code> airport</p>
+<p>If there's no target airport to fly, it aborts riding a flight.</p>
+<h2>For Developers</h2>
+<p>You can access to EconomyAPI by using <code>EconomyAPI::getInstance()</code></p>
+<p>Example:</p>
+<div><pre>EconomyAPI::getInstance()-&gt;addMoney($player, $amount);</pre></div>
+<h2>License</h2>
+<pre><code>EconomyS, the massive economy plugin with many features for PocketMine-MP
+Copyright (C) 2013-2016  onebone &lt;jyc00410@gmail.com&gt;
+<p>This program is free software: you can redistribute it and/or modify<br>
+it under the terms of the GNU General Public License as published by<br>
+the Free Software Foundation, either version 3 of the License, or<br>
+(at your option) any later version.</p>
+<p>This program is distributed in the hope that it will be useful,<br>
+but WITHOUT ANY WARRANTY; without even the implied warranty of<br>
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br>
+GNU General Public License for more details.</p>
+</code><p><code>You should have received a copy of the GNU General Public License<br>
+along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.<br>
+</code></p></pre><p></p>

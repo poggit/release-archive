@@ -1,0 +1,76 @@
+<h2>
+<a id="user-content-feature" class="anchor" href="#feature" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Feature</h2>
+<ul>
+<li>Warn system</li>
+<li>Instantly ban or ip-ban</li>
+<li>Can see player's address and DeviceOS, DeviceModel</li>
+</ul>
+<h2>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+<table>
+<thead>
+<tr>
+<th>command</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/playeradmin</td>
+<td>PlayerAdmin's main command.</td>
+</tr>
+<tr>
+<td>/pa</td>
+<td>aliases of /playeradmin</td>
+</tr>
+</tbody>
+</table>
+<p>You can warn player or ban player in Manage ui.</p>
+<ol>
+<li>
+<p>type /pa or /playeradmin command.</p>
+</li>
+<li>
+<p>select the type you want to manage player.</p>
+</li>
+<li>
+<p>select or input player name.</p>
+</li>
+<li>
+<p>you can see player's address, device model, device os, total warn.</p>
+</li>
+</ol>
+<h2>
+<a id="user-content-warn-system" class="anchor" href="#warn-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Warn system</h2>
+<p>If the player's warn count exceeds the value stored in the data, the player cannot connect with message "You are banned. Warn count: [warn]".</p>
+<p>The default value is 5.</p>
+<h2>
+<a id="user-content-future-plan" class="anchor" href="#future-plan" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Future Plan</h2>
+<ul>
+<li>Mute system</li>
+<li>clientId, clientUUID, device ban</li>
+<li>and more</li>
+</ul>
+<h2>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config</h2>
+<p>PlayerData config</p>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-ent">alvin0319</span>:
+  <span class="pl-ent">device</span>: <span class="pl-s">Windows10</span>
+  <span class="pl-ent">model</span>: <span class="pl-s">SAMSUNG ELECTRONICS CO., LTD. 700A7K</span>
+  <span class="pl-ent">address</span>: <span class="pl-s">127.0.0.1</span>
+...</pre></div>
+<p>WarnData config</p>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-ent">ban-count</span>: <span class="pl-c1">5</span> <span class="pl-c"><span class="pl-c">#</span># this is limit of warn</span>
+<span class="pl-ent">player</span>:
+  <span class="pl-ent">alvin0319</span>: <span class="pl-c1">1</span> <span class="pl-c"><span class="pl-c">#</span># this is total warn</span>
+...</pre></div>
+<h2>
+<a id="user-content-pictures" class="anchor" href="#pictures" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pictures</h2>
+<p><a href="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/1.PNG" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/1.PNG" alt="" style="max-width:100%;"></a>
+<a href="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/2.PNG" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/2.PNG" alt="" style="max-width:100%;"></a>
+<a href="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/3.PNG" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/3.PNG" alt="" style="max-width:100%;"></a>
+<a href="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/4.PNG" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/4.PNG" alt="" style="max-width:100%;"></a>
+<a href="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/5.PNG" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/5.PNG" alt="" style="max-width:100%;"></a>
+<a href="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/6.PNG" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/alvin0319/PlayerAdmin/master/images/6.PNG" alt="" style="max-width:100%;"></a></p>

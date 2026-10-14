@@ -1,0 +1,54 @@
+{
+    "id": 4585,
+    "name": "AntiHack",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AntiHack/1.0.1",
+    "tagline": "Detect hack and cancel their actions.",
+    "artifact_url": "https://poggit.pmmp.io/r/90288",
+    "downloads": 21919,
+    "score": 2,
+    "repo_id": 266644675,
+    "repo_name": "alvin0319/AntiHack",
+    "project_id": 7027,
+    "project_name": "AntiHack",
+    "build_id": 80209,
+    "build_number": 4,
+    "build_commit": "68226823b3f08958c68fea012360027f30680704",
+    "description_url": "https://poggit.pmmp.io/r/90285",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/90287",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1591065912,
+    "state": 5,
+    "last_state_change_date": 1591094825,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "anti-hack",
+        "hack"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

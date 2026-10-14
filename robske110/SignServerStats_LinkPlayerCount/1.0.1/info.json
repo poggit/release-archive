@@ -1,0 +1,81 @@
+{
+    "id": 1689,
+    "name": "LinkPlayerCount",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/LinkPlayerCount/1.0.1",
+    "tagline": "A plugin which combines the playercount of the server with other specified servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/37124",
+    "downloads": 1337,
+    "score": 5,
+    "repo_id": 70623426,
+    "repo_name": "robske110/SignServerStats",
+    "project_id": 1106,
+    "project_name": "LinkPlayerCount",
+    "build_id": 46044,
+    "build_number": 14,
+    "build_commit": "54f6dc8f62a6efbb2e85dcbc66629ebd68645775",
+    "description_url": "https://poggit.pmmp.io/r/131612",
+    "icon_url": "https://raw.githubusercontent.com/robske110/SignServerStats/54f6dc8f62a6efbb2e85dcbc66629ebd68645775/examples/LinkPlayerCount/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/131614",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1531858911,
+    "state": 5,
+    "last_state_change_date": 1531936199,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "count",
+        "link",
+        "max",
+        "network",
+        "online",
+        "player",
+        "playercount",
+        "players",
+        "server",
+        "servernetwork"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SignServerStats",
+            "version": "1.1.1",
+            "depRelId": 1688,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "robske110"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

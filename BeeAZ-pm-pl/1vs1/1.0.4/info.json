@@ -1,0 +1,56 @@
+{
+    "id": 9737,
+    "name": "1vs1-PM4",
+    "version": "1.0.4",
+    "html_url": "https://poggit.pmmp.io/p/1vs1-PM4/1.0.4",
+    "tagline": "1vs1 minigame plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/176182",
+    "downloads": 1703,
+    "score": 3,
+    "repo_id": 470031533,
+    "repo_name": "BeeAZ-pm-pl/1vs1",
+    "project_id": 10804,
+    "project_name": "1vs1",
+    "build_id": 133410,
+    "build_number": 72,
+    "build_commit": "b637ac55186d8b4cff174e1695fb407b22c854b6",
+    "description_url": "https://poggit.pmmp.io/r/176179",
+    "icon_url": "https://raw.githubusercontent.com/BeeAZ-pm-pl/1vs1/b637ac55186d8b4cff174e1695fb407b22c854b6/1vs1/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/176181",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1652655897,
+    "state": 5,
+    "last_state_change_date": 1652660937,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "1vs1"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "GamakCZ"
+        ],
+        "Collaborator": [
+            "BeeAZ-pm-pl"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

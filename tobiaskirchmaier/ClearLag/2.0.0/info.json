@@ -1,0 +1,60 @@
+{
+    "id": 9785,
+    "name": "ClearLag",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ClearLag/2.0.0",
+    "tagline": "A pocketmine plugin, which removes entities after a certain period of time to avoid lags",
+    "artifact_url": "https://poggit.pmmp.io/r/176986",
+    "downloads": 2883,
+    "score": 5,
+    "repo_id": 434903694,
+    "repo_name": "tobiaskirchmaier/ClearLag",
+    "project_id": 10035,
+    "project_name": "ClearLag",
+    "build_id": 133970,
+    "build_number": 5,
+    "build_commit": "7d43ce0769ce9da109df6c6f3a02ad148597c3f4",
+    "description_url": "https://poggit.pmmp.io/r/177005",
+    "icon_url": "https://raw.githubusercontent.com/Tobias-2006/ClearLag/7d43ce0769ce9da109df6c6f3a02ad148597c3f4/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/177007",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1653217140,
+    "state": 5,
+    "last_state_change_date": 1653290144,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "clearlag",
+        "clearlagg",
+        "lag",
+        "lagg"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Tobias-2006"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

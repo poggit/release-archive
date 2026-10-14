@@ -1,0 +1,63 @@
+{
+    "id": 13584,
+    "name": "ParachutePlus",
+    "version": "1.1.1",
+    "html_url": "https://poggit.pmmp.io/p/ParachutePlus/1.1.1",
+    "tagline": "🪂 Parachute plugin for MCPE Server (pocketmine)",
+    "artifact_url": "https://poggit.pmmp.io/r/248650",
+    "downloads": 180,
+    "score": null,
+    "repo_id": 835138751,
+    "repo_name": "mdafftfa/ParachutePlus",
+    "project_id": 14106,
+    "project_name": "ParachutePlus",
+    "build_id": 181916,
+    "build_number": 34,
+    "build_commit": "9d22f312c89b89741f8392bdc552e3fe88847bc0",
+    "description_url": "https://poggit.pmmp.io/r/248649",
+    "icon_url": "https://raw.githubusercontent.com/pixelwhiz/ParachutePlus/9d22f312c89b89741f8392bdc552e3fe88847bc0/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1728057065,
+    "state": 5,
+    "last_state_change_date": 1730291866,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "parachute",
+        "parachuteplus",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "pixelwhiz"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

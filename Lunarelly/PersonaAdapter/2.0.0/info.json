@@ -1,0 +1,59 @@
+{
+    "id": 11529,
+    "name": "PersonaAdapter",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PersonaAdapter/2.0.0",
+    "tagline": "No more one-color skins!",
+    "artifact_url": "https://poggit.pmmp.io/r/209971",
+    "downloads": 487,
+    "score": null,
+    "repo_id": 459702049,
+    "repo_name": "Lunarelly/PersonaAdapter",
+    "project_id": 10607,
+    "project_name": "PersonaAdapter",
+    "build_id": 156148,
+    "build_number": 14,
+    "build_commit": "1233337f2adc9ad6b9093a84f6dae5a8b0332d75",
+    "description_url": "https://poggit.pmmp.io/r/209968",
+    "icon_url": "https://raw.githubusercontent.com/Lunarelly/PersonaAdapter/1233337f2adc9ad6b9093a84f6dae5a8b0332d75/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/209970",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685825050,
+    "state": 5,
+    "last_state_change_date": 1685826570,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "persona",
+        "personaadapter",
+        "personafix"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Lunarelly"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

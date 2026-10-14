@@ -1,0 +1,70 @@
+{
+    "id": 613,
+    "name": "MOTDShuffle",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MOTDShuffle/1.0.0",
+    "tagline": "Shuffle MOTD Upon MCPE Client Call.",
+    "artifact_url": "https://poggit.pmmp.io/r/12949",
+    "downloads": 147,
+    "score": null,
+    "repo_id": 105448042,
+    "repo_name": "HBIDamian/MOTDShuffle",
+    "project_id": 910,
+    "project_name": "MOTDShuffle",
+    "build_id": 29171,
+    "build_number": 2,
+    "build_commit": "12c1dbc4bbb9819f3c9ec5ac999650d3f0bfe69e",
+    "description_url": "https://poggit.pmmp.io/r/12948",
+    "icon_url": "https://raw.githubusercontent.com/TheDeibo/MOTDShuffle/12c1dbc4bbb9819f3c9ec5ac999650d3f0bfe69e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1506869628,
+    "state": 5,
+    "last_state_change_date": 1507133550,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "motd",
+        "motdshuffle",
+        "name",
+        "shuffle",
+        "title"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA8",
+            "to": "3.0.0-ALPHA8"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "95CivicSi",
+            "NgLam2911",
+            "Vecnavium"
+        ],
+        "Collaborator": [
+            "HBIDamian"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

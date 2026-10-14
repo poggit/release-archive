@@ -1,0 +1,60 @@
+{
+    "id": 5610,
+    "name": "BloodFX",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/BloodFX/1.0.3",
+    "tagline": "A pocketmine plugin that make fights more realistic with blood effect when you hit the other one!",
+    "artifact_url": "https://poggit.pmmp.io/r/109027",
+    "downloads": 5665,
+    "score": 4,
+    "repo_id": 231964475,
+    "repo_name": "Vale914/BloodFX",
+    "project_id": 6017,
+    "project_name": "BloodFX",
+    "build_id": 92305,
+    "build_number": 13,
+    "build_commit": "9af5b73d1fc852446fe29cb7a37f7e73c9ecb00f",
+    "description_url": "https://poggit.pmmp.io/r/109033",
+    "icon_url": "https://raw.githubusercontent.com/Vale914/BloodFX/9af5b73d1fc852446fe29cb7a37f7e73c9ecb00f/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/109035",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1606611185,
+    "state": 5,
+    "last_state_change_date": 1606621366,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Blood",
+        "BloodFX",
+        "Particle",
+        "Particles"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Vale914"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

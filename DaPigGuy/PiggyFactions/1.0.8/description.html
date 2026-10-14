@@ -1,0 +1,787 @@
+<p><a href="https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/master/resources/img/PiggyFactions-banner.png" target="_blank" rel="nofollow"><img src="https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/master/resources/img/PiggyFactions-banner.png" alt="PiggyFactions Banner" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-piggyfactions--" class="anchor" href="#piggyfactions--" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PiggyFactions <a href="https://poggit.pmmp.io/p/PiggyFactions" rel="nofollow"><img src="https://camo.githubusercontent.com/cf472cc540cc63e8047563375b1aad2cb626387c/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f506967677946616374696f6e73" alt="Poggit-CI" data-canonical-src="https://poggit.pmmp.io/shield.dl/PiggyFactions" style="max-width:100%;"></a> <a href="https://discord.gg/qmnDsSD" rel="nofollow"><img src="https://camo.githubusercontent.com/9186da77db4b1bbd8b9b0df10f9cb0b76c2273c9/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3333303835303330373630373336333538353f6c6f676f3d646973636f7264" alt="Discord" data-canonical-src="https://img.shields.io/discord/330850307607363585?logo=discord" style="max-width:100%;"></a>
+</h1>
+<p>PiggyFactions is an open-sourced factions plugin for <a href="https://github.com/pmmp/PocketMine-MP">PocketMine-MP</a>.</p>
+<h2>
+<a id="user-content-disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Disclaimer</h2>
+<p>PiggyFactions is currently in beta. While we have tested quite thoroughly, there may exist some bugs. Please report any issue on GitHub.</p>
+<h2>
+<a id="user-content-table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Table of Contents</h2>
+<ul>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#installation--setup">Installation &amp; Setup</a></li>
+<li>Commands and Permissions
+<ul>
+<li><a href="#commands">Commands</a></li>
+<li><a href="#permissions">Permissions</a></li>
+</ul>
+</li>
+<li><a href="#flags">Flags</a></li>
+<li><a href="#admin-mode">Admin Mode</a></li>
+<li>Chat Formatting
+<ul>
+<li><a href="#hrkchat-tags">HRKChat Tags</a></li>
+<li><a href="#purechat-tags">PureChat Tags</a></li>
+</ul>
+</li>
+<li><a href="#scorehud-addon">ScoreHUD Addon</a></li>
+<li><a href="#issue-reporting">Issue Reporting</a></li>
+<li><a href="#additional-information">Additional Information</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h3>
+<a id="user-content-prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prerequisites</h3>
+<ul>
+<li>Basic knowledge on how to install plugins from Poggit Releases and/or Poggit CI</li>
+<li>PMMP 3.2.0 or greater</li>
+<li>mysql &amp; sqlite3 PHP extensions (should already exist within your PHP binaries)</li>
+<li>Economy type supported by libPiggyEconomy:
+<ul>
+<li>
+<a href="https://github.com/onebone/EconomyS/tree/3.x/EconomyAPI">EconomyAPI</a> by onebone</li>
+<li>
+<a href="https://github.com/TwistedAsylumMC/MultiEconomy">MultiEconomy</a> by TwistedAsylumMC</li>
+<li>PMMP Player EXP</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th align="center">PiggyFactions</th>
+<th align="center">FactionsPro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PiggyCE Integration</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td>Hierarchy/HRKChat Integration</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td>Economy Integration</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td>Saves Players by UUID</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td>Per Faction Permissions</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td>SQLite3 Support</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+</tr>
+<tr>
+<td>MySQL Support</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td>Async Queries</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td>Command Autocomplete</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td>Form UI</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+<tr>
+<td>Multi-Language Support</td>
+<td align="center"><g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji></td>
+<td align="center"><g-emoji class="g-emoji" alias="x" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/274c.png">❌</g-emoji></td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-installation--setup" class="anchor" href="#installation--setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation &amp; Setup</h3>
+<ol>
+<li>Install the plugin from Poggit.</li>
+<li>(Optional) Setup the data provider that PiggyFactions will be using. By default, PiggyFactions will use SQLite3 which requires no additional setup. If you would like to use MySQL instead, change database.type from sqlite to mysql &amp; enter your MySQL credentials under database.mysql.</li>
+<li>(Optional) You may configure certain faction features in the <code>config.yml</code> file.</li>
+<li>(Optional) You may configure messages in the <code>messages.yml</code> file.</li>
+<li>(Optional) You may want to setup safezones &amp; warzones
+<ol>
+<li>Run the command <code>/f admin</code>
+</li>
+<li>Create a faction (preferably named Safezone/Warzone)</li>
+<li>Set the appropriate flags (either safezone/warzone) with <code>/f flag</code>
+</li>
+<li>Claim chunks for their respective types</li>
+<li>Leave the faction</li>
+</ol>
+</li>
+<li>You're done!</li>
+</ol>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+<th>Permissions</th>
+<th>Aliases</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/f</code></td>
+<td>PiggyFactions main command</td>
+<td><code>piggyfactions.command.faction.use</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f admin</code></td>
+<td>Toggle admin mode</td>
+<td><code>piggyfactions.command.faction.admin</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f ally &lt;faction&gt;</code></td>
+<td>Ally with other factions</td>
+<td><code>piggyfactions.command.faction.ally</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f allychat</code></td>
+<td>Toggle ally chat</td>
+<td><code>piggyfactions.command.faction.allychat</code></td>
+<td><code>/f ac</code></td>
+</tr>
+<tr>
+<td><code>/f ban &lt;player&gt;</code></td>
+<td>Ban a member from your faction</td>
+<td><code>piggyfactions.command.faction.ban</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f chat</code></td>
+<td>Toggle faction chat</td>
+<td><code>piggyfactions.command.faction.chat</code></td>
+<td><code>/f c</code></td>
+</tr>
+<tr>
+<td><code>/f claim</code></td>
+<td>Claim a chunk</td>
+<td><code>piggyfactions.command.faction.claim</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f create &lt;name&gt;</code></td>
+<td>Create a faction</td>
+<td><code>piggyfactions.command.faction.create</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f deposit &lt;money&gt;</code></td>
+<td>Deposit money into faction bank</td>
+<td><code>piggyfactions.command.faction.deposit</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f description &lt;description&gt;</code></td>
+<td>Set faction description</td>
+<td><code>piggyfactions.command.faction.description</code></td>
+<td><code>/f desc</code></td>
+</tr>
+<tr>
+<td><code>/f demote &lt;player&gt;</code></td>
+<td>Demote a faction member</td>
+<td><code>piggyfactions.command.faction.demote</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f disband</code></td>
+<td>Disband your faction</td>
+<td><code>piggyfactions.command.faction.disband</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f enemy &lt;faction&gt;</code></td>
+<td>Mark faction as an enemy</td>
+<td><code>piggyfactions.command.faction.enemy</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f flag &lt;flag&gt;</code></td>
+<td>Manage faction flags</td>
+<td><code>piggyfactions.command.faction.flag</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f fly</code></td>
+<td>Fly within faction territory</td>
+<td><code>piggyfactions.command.faction.fly</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f help [page]</code></td>
+<td>Display command information</td>
+<td><code>piggyfactions.command.faction.help</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f home</code></td>
+<td>Teleport to faction home</td>
+<td><code>piggyfactions.command.faction.home</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f info [faction]</code></td>
+<td>Display faction info</td>
+<td><code>piggyfactions.command.faction.info</code></td>
+<td><code>/f who</code></td>
+</tr>
+<tr>
+<td><code>/f invite &lt;player&gt;</code></td>
+<td>Invite a player to your faction</td>
+<td><code>piggyfactions.command.faction.invite</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f join &lt;faction&gt;</code></td>
+<td>Join a faction</td>
+<td><code>piggyfactions.command.faction.join</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f kick &lt;player&gt;</code></td>
+<td>Kick a member from your faction</td>
+<td><code>piggyfactions.command.faction.kick</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f language &lt;language&gt;</code></td>
+<td>Change personal language for PiggyFactions</td>
+<td><code>piggyfactions.command.faction.language</code></td>
+<td><code>/f lang</code></td>
+</tr>
+<tr>
+<td><code>/f leader &lt;player&gt;</code></td>
+<td>Transfer leadership of your faction</td>
+<td><code>piggyfactions.command.faction.leader</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f leave</code></td>
+<td>Leave your faction</td>
+<td><code>piggyfactions.command.faction.leave</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f logs</code></td>
+<td>View your faction logs</td>
+<td><code>piggyfactions.command.faction.logs</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f map</code></td>
+<td>View map of area</td>
+<td><code>piggyfactions.command.faction.map</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f money</code></td>
+<td>View faction bank balance</td>
+<td><code>piggyfactions.command.faction.money</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f motd &lt;motd&gt;</code></td>
+<td>Set faction MOTD</td>
+<td><code>piggyfactions.command.faction.motd</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f name &lt;name&gt;</code></td>
+<td>Rename your faction</td>
+<td><code>piggyfactions.command.faction.name</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f neutral &lt;faction&gt;</code></td>
+<td>Reset relation with another faction</td>
+<td><code>piggyfactions.command.faction.neutral</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f permission &lt;role&gt; &lt;permission&gt; [value]</code></td>
+<td>Set faction role permissions</td>
+<td><code>piggyfactions.command.faction.permission</code></td>
+<td><code>/f perms</code></td>
+</tr>
+<tr>
+<td><code>/f promote &lt;player&gt;</code></td>
+<td>Promote a faction member</td>
+<td><code>piggyfactions.command.faction.promote</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f seechunk</code></td>
+<td>Toggle chunk visualizer</td>
+<td><code>piggyfactions.command.faction.seechunk</code></td>
+<td><code>/f sc</code></td>
+</tr>
+<tr>
+<td><code>/f sethome</code></td>
+<td>Set faction home</td>
+<td><code>piggyfactions.command.faction.sethome</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f setpower</code></td>
+<td>Set player power</td>
+<td><code>piggyfactions.command.faction.setpower</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f top [type] [page]</code></td>
+<td>Display top factions</td>
+<td><code>piggyfactions.command.faction.top</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f truce &lt;faction&gt;</code></td>
+<td>Truce with other factions</td>
+<td><code>piggyfactions.command.faction.truce</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f unally &lt;faction&gt;</code></td>
+<td>End faction alliance</td>
+<td><code>piggyfactions.command.faction.unally</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f unban &lt;player&gt;</code></td>
+<td>Unban a member from your faction</td>
+<td><code>piggyfactions.command.faction.unban</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f unclaim</code></td>
+<td>Unclaim a chunk</td>
+<td><code>piggyfactions.command.faction.unclaim</code></td>
+<td></td>
+</tr>
+<tr>
+<td><code>/f withdraw &lt;money&gt;</code></td>
+<td>Withdraw money from faction bank</td>
+<td><code>piggyfactions.command.faction.withdraw</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h3>
+<table>
+<thead>
+<tr>
+<th>Permissions</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>piggyfactions</code></td>
+<td>Allow usage of all PiggyFactions features</td>
+<td><code>op</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command</code></td>
+<td>Allow usage of all PiggyFactions commands</td>
+<td><code>op</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction</code></td>
+<td>Allow usage of /f subcommands</td>
+<td><code>op</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.use</code></td>
+<td>Allow usage of /f</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.admin</code></td>
+<td>Allow usage of /f admin</td>
+<td><code>op</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.ally</code></td>
+<td>Allow usage of /f ally</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.allychat</code></td>
+<td>Allow usage of /f allychat</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.ban</code></td>
+<td>Allow usage of /f ban</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.chat</code></td>
+<td>Allow usage of /f chat</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.claim</code></td>
+<td>Allow usage of /f claim</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.create</code></td>
+<td>Allow usage of /f create</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.demote</code></td>
+<td>Allow usage of /f demote</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.deposit</code></td>
+<td>Allow usage of /f deposit</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.description</code></td>
+<td>Allow usage of /f description</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.disband</code></td>
+<td>Allow usage of /f disband</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.enemy</code></td>
+<td>Allow usage of /f enemy</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.flag</code></td>
+<td>Allow usage of /f flag</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.fly</code></td>
+<td>Allow usage of /f fly</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.help</code></td>
+<td>Allow usage of /f help</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.home</code></td>
+<td>Allow usage of /f home</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.info</code></td>
+<td>Allow usage of /f info</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.invite</code></td>
+<td>Allow usage of /f invite</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.join</code></td>
+<td>Allow usage of /f join</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.kick</code></td>
+<td>Allow usage of /f kick</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.language</code></td>
+<td>Allow usage of /f language</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.leader</code></td>
+<td>Allow usage of /f leader</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.leave</code></td>
+<td>Allow usage of /f leave</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.logs</code></td>
+<td>Allow usage of /f logs</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.map</code></td>
+<td>Allow usage of /f map</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.money</code></td>
+<td>Allow usage of /f money</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.motd</code></td>
+<td>Allow usage of /f motd</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.name</code></td>
+<td>Allow usage of /f name</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.neutral</code></td>
+<td>Allow usage of /f neutral</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.permission</code></td>
+<td>Allow usage of /f permission</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.promote</code></td>
+<td>Allow usage of /f promote</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.seechunk</code></td>
+<td>Allow usage of /f seechunk</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.sethome</code></td>
+<td>Allow usage of /f sethome</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.setpower</code></td>
+<td>Allow usage of /f setpower</td>
+<td><code>op</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.top</code></td>
+<td>Allow usage of /f top</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.truce</code></td>
+<td>Allow usage of /f truce</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.unally</code></td>
+<td>Allow usage of /f unally</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.unban</code></td>
+<td>Allow usage of /f unban</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.unclaim</code></td>
+<td>Allow usage of /f unclaim</td>
+<td><code>true</code></td>
+</tr>
+<tr>
+<td><code>piggyfactions.command.faction.withdraw</code></td>
+<td>Allow usage of /f withdraw</td>
+<td><code>true</code></td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-flags" class="anchor" href="#flags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Flags</h3>
+<table>
+<thead>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>open</code></td>
+<td>Anyone is able to join the faction</td>
+</tr>
+<tr>
+<td><code>safezone</code></td>
+<td>Mark current faction as a SafeZone</td>
+</tr>
+<tr>
+<td><code>warzone</code></td>
+<td>Mark current faction as a WarZone</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-admin-mode" class="anchor" href="#admin-mode" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Admin Mode</h3>
+<p>To enable Admin mode, use the command <code>/f admin</code>. Admin mode will allow you to modify claimed faction lands, forcibly unclaim faction lands, etc. Nearly all <a href="#commands">commands</a> have support for admin mode. <br>
+<strong>NOTE:</strong> <code>/f admin</code> should be toggled off when you are not using it to prevent accidental modifications. Admin mode will automatically be disabled upon server restart.</p>
+<h3>
+<a id="user-content-hrkchat-tags" class="anchor" href="#hrkchat-tags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HRKChat Tags</h3>
+<p>Sample Format: <code>&amp;6{{piggyfacs.rank.symbol}}{{piggyfacs.name}} &amp;r&amp;7{{hrk.displayName}}&amp;r: {{msg}}</code></p>
+<table>
+<thead>
+<tr>
+<th>Tag Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>piggyfacs.name</code></td>
+<td>Player's faction name</td>
+</tr>
+<tr>
+<td><code>piggyfacs.power</code></td>
+<td>Player's faction power</td>
+</tr>
+<tr>
+<td><code>piggyfacs.rank.name</code></td>
+<td>Faction rank name</td>
+</tr>
+<tr>
+<td><code>piggyfacs.rank.symbol</code></td>
+<td>Faction rank symbol</td>
+</tr>
+<tr>
+<td><code>piggyfacs.members.all</code></td>
+<td>Total member count</td>
+</tr>
+<tr>
+<td><code>piggyfacs.members.online</code></td>
+<td>Online member count</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-purechat-tags" class="anchor" href="#purechat-tags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PureChat Tags</h3>
+<p>You will need to download our fork of PureChat for PiggyFactions integration <a href="https://poggit.pmmp.io/r/85616/PureChat_pr-10.phar" rel="nofollow">here</a>. <br>
+Make sure to change <code>default-factions-plugin</code> to <code>PiggyFactions</code> in PureChat's <code>config.yml</code> <br>
+Sample Format: <code>&amp;6{fac_rank}{fac_name} &amp;r&amp;7{display_name}&amp;r: {msg}</code></p>
+<table>
+<thead>
+<tr>
+<th>Tag Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>{fac_name}</code></td>
+<td>Player's faction name</td>
+</tr>
+<tr>
+<td><code>{fac_rank}</code></td>
+<td>Faction rank symbol</td>
+</tr>
+</tbody>
+</table>
+<h3>
+<a id="user-content-scorehud-addon" class="anchor" href="#scorehud-addon" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ScoreHud Addon</h3>
+<p>An addon for <a href="https://github.com/JackMD/ScoreHud">JackMD's ScoreHud</a> can be found <a href="https://gist.github.com/DaPigGuy/07442f8b98a70e5973a528e4516e35d1">here</a>.</p>
+<h3>
+<a id="user-content-issue-reporting" class="anchor" href="#issue-reporting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issue Reporting</h3>
+<ul>
+<li>If you experience an unexpected non-crash behavior with PiggyFactions, click <a href="https://github.com/DaPigGuy/PiggyFactions/issues/new?assignees=DaPigGuy&amp;labels=bug&amp;template=bug_report.md&amp;title=">here</a>.</li>
+<li>If you experience a crash in PiggyFactions, click <a href="https://github.com/DaPigGuy/PiggyFactions/issues/new?assignees=DaPigGuy&amp;labels=bug&amp;template=crash.md&amp;title=">here</a>.</li>
+<li>If you would like to suggest a feature to be added to PiggyFactions, click <a href="https://github.com/DaPigGuy/PiggyFactions/issues/new?assignees=DaPigGuy&amp;labels=suggestion&amp;template=suggestion.md&amp;title=">here</a>.</li>
+<li>If you require support, please join our discord server <a href="https://discord.gg/qmnDsSD" rel="nofollow">here</a>.</li>
+<li>Do not file any issues related to outdated API version; we will resolve such issues as soon as possible.</li>
+<li>We do not support any spoons of PocketMine-MP. Anything to do with spoons (Issues or PRs) will be ignored.
+<ul>
+<li>This includes plugins that modify PocketMine-MP's behavior directly, such as TeaSpoon.</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-additional-information" class="anchor" href="#additional-information" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Additional Information</h3>
+<ul>
+<li>We do not support any spoons. Anything to do with spoons (Issues or PRs) will be ignored.</li>
+<li>We are using the following virions: <a href="https://github.com/CortexPE/Commando">Commando</a>, <a href="https://github.com/poggit/libasynql">libasynql</a>, and <a href="https://github.com/jojoe77777/FormAPI">libFormAPI</a>.
+<ul>
+<li><strong>Unless you know what you are doing, use the pre-compiled phar from <a href="https://poggit.pmmp.io/ci/DaPigGuy/PiggyFactions/~" rel="nofollow">Poggit-CI</a> and not GitHub.</strong></li>
+<li>If you wish to run it via source, check out <a href="https://github.com/poggit/devirion">DEVirion</a>.</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-translators" class="anchor" href="#translators" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Translators</h3>
+<p>Translations for PiggyFactions are powered by our community translators:</p>
+
+<ul>
+<li>
+<strong>Chinese (Traditional)</strong> - @Taylarity</li>
+</ul>
+
+
+<ul>
+<li>
+<strong>German</strong> - @SalmonDE</li>
+</ul>
+
+
+
+
+<ul>
+<li>
+<strong>Spanish</strong> - @UnEnanoMas</li>
+</ul>
+
+<h3>
+<a id="user-content-license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h3>
+<pre><code>   Copyright 2020 DaPigGuy
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+</code></pre>
+<p>"<a href="https://pixabay.com/images/id-2672317/" rel="nofollow">Castle</a>" vector graphic used in the <a href="https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/master/resources/img/PiggyFactions-banner.png" rel="nofollow">banner</a> and <a href="https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/master/resources/img/PiggyFactions-icon.png" rel="nofollow">icon</a> is licensed under the <a href="https://pixabay.com/service/license/" rel="nofollow">Pixabay License</a>.</p>

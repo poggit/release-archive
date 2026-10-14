@@ -1,0 +1,60 @@
+{
+    "id": 9007,
+    "name": "DeathPosition",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/DeathPosition/1.0",
+    "tagline": "Get the coordinates of the place you died at. ",
+    "artifact_url": "https://poggit.pmmp.io/r/162645",
+    "downloads": 114,
+    "score": 5,
+    "repo_id": 461118064,
+    "repo_name": "AxelFeL/DeathPosition",
+    "project_id": 10624,
+    "project_name": "DeathPosition",
+    "build_id": 124353,
+    "build_number": 2,
+    "build_commit": "5fa3f067c8bd61ceedb4be8d0b2d5301fea6c0ff",
+    "description_url": "https://poggit.pmmp.io/r/162661",
+    "icon_url": "https://raw.githubusercontent.com/AxelFeL/DeathPosition/5fa3f067c8bd61ceedb4be8d0b2d5301fea6c0ff/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1645286212,
+    "state": 5,
+    "last_state_change_date": 1645300730,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "death",
+        "deathposition",
+        "position"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MulqiGaming64",
+            "AxelFeL"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,61 @@
+{
+    "id": 8524,
+    "name": "CommandsExploder",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/CommandsExploder/1.0.1",
+    "tagline": "Now You can use && in Commands",
+    "artifact_url": "https://poggit.pmmp.io/r/155905",
+    "downloads": 49,
+    "score": 1,
+    "repo_id": 404884671,
+    "repo_name": "MulqiGaming64/CommandsExploder",
+    "project_id": 9685,
+    "project_name": "CommandsExploder",
+    "build_id": 120278,
+    "build_number": 6,
+    "build_commit": "675f038516f484fbb2bf04448fb61d16bb5ef45e",
+    "description_url": "https://poggit.pmmp.io/r/155902",
+    "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/CommandsExploder/675f038516f484fbb2bf04448fb61d16bb5ef45e/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/155904",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641518811,
+    "state": 5,
+    "last_state_change_date": 1641658910,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "commands"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MulqiGaming64"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

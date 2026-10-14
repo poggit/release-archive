@@ -1,0 +1,78 @@
+{
+    "id": 3628,
+    "name": "NanoCombinerGUI",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/NanoCombinerGUI/1.0.1",
+    "tagline": "With this plugin you can combine the enchantments of one item to another!",
+    "artifact_url": "https://poggit.pmmp.io/r/72244",
+    "downloads": 1455,
+    "score": 4,
+    "repo_id": 231366845,
+    "repo_name": "ItsGabry/NanoCombiner",
+    "project_id": 5998,
+    "project_name": "NanoCombiner",
+    "build_id": 68815,
+    "build_number": 20,
+    "build_commit": "23a6c1e3e3eb4552c079065219d749019562b833",
+    "description_url": "https://poggit.pmmp.io/r/72250",
+    "icon_url": "https://raw.githubusercontent.com/ItsGabry/NanoCombiner/23a6c1e3e3eb4552c079065219d749019562b833/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/72252",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1578236715,
+    "state": 5,
+    "last_state_change_date": 1578325566,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Combine",
+        "Combiner",
+        "Enchant",
+        "Enchanting",
+        "GUI",
+        "Merge",
+        "plugins",
+        "PocketMine",
+        "PocketMine-MP"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ItsGabry"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "7e5f7f239b2b4da2fea1653f0a77eb7993f05a61",
+            "build_id": 67969
+        }
+    ]
+}

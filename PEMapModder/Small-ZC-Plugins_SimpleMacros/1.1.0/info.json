@@ -1,0 +1,63 @@
+{
+    "id": 175,
+    "name": "SimpleMacros",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleMacros/1.1.0",
+    "tagline": "Run a command to run many commands, as other players!",
+    "artifact_url": "https://poggit.pmmp.io/r/2873",
+    "downloads": 827,
+    "score": null,
+    "repo_id": 19876728,
+    "repo_name": "PEMapModder/Small-ZC-Plugins",
+    "project_id": 141,
+    "project_name": "SimpleMacros",
+    "build_id": 21422,
+    "build_number": 6,
+    "build_commit": "d1ce6bf4ae781bd509915686be7ffa66330de231",
+    "description_url": "https://poggit.pmmp.io/r/2872",
+    "icon_url": "https://github.com/PEMapModder/Small-ZC-Plugins/raw/master/SimpleMacros/icon.png",
+    "changelog_url": null,
+    "license": "gpl-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1489143263,
+    "state": 5,
+    "last_state_change_date": 1489143558,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "command",
+        "macro",
+        "cmd"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "2.0.0"
+        },
+        {
+            "from": "3.0.0-ALPHA1",
+            "to": "3.0.0-ALPHA4"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PEMapModder"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

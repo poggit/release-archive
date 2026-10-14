@@ -1,0 +1,59 @@
+{
+    "id": 13197,
+    "name": "SavedInventoryPlayer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SavedInventoryPlayer/1.0.0",
+    "tagline": "Storing Inventory player data in a YAML database",
+    "artifact_url": "https://poggit.pmmp.io/r/241847",
+    "downloads": 353,
+    "score": 5,
+    "repo_id": 806774837,
+    "repo_name": "MyFreds/SavedInventoryPlayer",
+    "project_id": 13913,
+    "project_name": "SavedInventoryPlayer",
+    "build_id": 177125,
+    "build_number": 6,
+    "build_commit": "23cb76264a053d3250b74cdc317159bdd04bd321",
+    "description_url": "https://poggit.pmmp.io/r/241846",
+    "icon_url": "https://raw.githubusercontent.com/MyFreds/SavedInventoryPlayer/23cb76264a053d3250b74cdc317159bdd04bd321/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1718783195,
+    "state": 5,
+    "last_state_change_date": 1721778976,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MyFreds"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

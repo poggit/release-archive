@@ -1,0 +1,73 @@
+{
+    "id": 9215,
+    "name": "WarpGUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WarpGUI/1.0.0",
+    "tagline": "it's a plugin that allows you to navigate using the chest menu",
+    "artifact_url": "https://poggit.pmmp.io/r/165767",
+    "downloads": 1988,
+    "score": 5,
+    "repo_id": 466940194,
+    "repo_name": "ClickedTran/WarpGUI",
+    "project_id": 10750,
+    "project_name": "WarpGUI-PM4",
+    "build_id": 126179,
+    "build_number": 38,
+    "build_commit": "5bb4136c280d07173f4b8636122108cbc588df8a",
+    "description_url": "https://poggit.pmmp.io/r/173037",
+    "icon_url": "https://raw.githubusercontent.com/Clickedtran/WarpGUI-PM4/5bb4136c280d07173f4b8636122108cbc588df8a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646633496,
+    "state": 5,
+    "last_state_change_date": 1651191442,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "gui",
+        "warp",
+        "warpgui"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Muqsit",
+            "CortexPE",
+            "SOF3"
+        ],
+        "Collaborator": [
+            "Clickedtran",
+            "NoobMCBG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

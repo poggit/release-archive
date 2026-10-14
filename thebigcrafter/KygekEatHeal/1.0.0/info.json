@@ -1,0 +1,117 @@
+{
+    "id": 5757,
+    "name": "KygekEatHeal",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KygekEatHeal/1.0.0",
+    "tagline": "Eat and heal a player instantly!",
+    "artifact_url": "https://poggit.pmmp.io/r/111762",
+    "downloads": 424,
+    "score": 5,
+    "repo_id": 318003744,
+    "repo_name": "thebigcrafter/KygekEatHeal",
+    "project_id": 8096,
+    "project_name": "KygekEatHeal",
+    "build_id": 94131,
+    "build_number": 2,
+    "build_commit": "a72ca02cfe7f8282c2fc7df44c5014317b6600be",
+    "description_url": "https://poggit.pmmp.io/r/114258",
+    "icon_url": "https://raw.githubusercontent.com/KygekTeam/KygekEatHeal/a72ca02cfe7f8282c2fc7df44c5014317b6600be/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1609122924,
+    "state": 5,
+    "last_state_change_date": 1609151282,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "eat",
+        "eatheal",
+        "feed",
+        "heal",
+        "healfeed",
+        "kygek",
+        "kygekdev",
+        "kygekdeveat",
+        "kygekdeveatheal",
+        "kygekdevfeed",
+        "kygekdevheal",
+        "kygekdevhealfeed",
+        "kygekeat",
+        "kygekeatheal",
+        "kygekfeed",
+        "kygekheal",
+        "kygekhealfeed",
+        "kygekraqmak",
+        "kygekraqmakeat",
+        "kygekraqmakeatheal",
+        "kygekraqmakfeed",
+        "kygekraqmakheal",
+        "kygekraqmakhealfeed",
+        "kygekteam",
+        "kygekteameat",
+        "kygekteameatheal",
+        "kygekteamfeed",
+        "kygekteamheal",
+        "kygekteamhealfeed"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "JavierLeon9966",
+            "NhanAZ",
+            "taylordevs",
+            "Kygekraqmak",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "ecc18c196290e6d75c37433fef00a21e406fb680",
+            "build_id": 79938
+        }
+    ]
+}

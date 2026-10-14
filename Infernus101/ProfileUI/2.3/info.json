@@ -1,0 +1,91 @@
+{
+    "id": 700,
+    "name": "ProfileUI",
+    "version": "2.3",
+    "html_url": "https://poggit.pmmp.io/p/ProfileUI/2.3",
+    "tagline": "Get any player's profile on a Modal Form! MCPE v1.2! PMMP support only!",
+    "artifact_url": "https://poggit.pmmp.io/r/14099",
+    "downloads": 652,
+    "score": null,
+    "repo_id": 106823270,
+    "repo_name": "Infernus101/ProfileUI",
+    "project_id": 1008,
+    "project_name": "ProfileUI",
+    "build_id": 29757,
+    "build_number": 16,
+    "build_commit": "0690f5e61a9f7af02c30342d4d6414a630de47fc",
+    "description_url": "https://poggit.pmmp.io/r/14886",
+    "icon_url": "https://raw.githubusercontent.com/Infernus101/ProfileUI/0690f5e61a9f7af02c30342d4d6414a630de47fc/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507921756,
+    "state": 5,
+    "last_state_change_date": 1507928840,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "mcpe",
+        "mcpe-plugin",
+        "phar",
+        "php",
+        "plugin",
+        "pmmp",
+        "poggit",
+        "profileui"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA1",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.1-3",
+            "depRelId": 634,
+            "isHard": true
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.1-2",
+            "depRelId": 648,
+            "isHard": true
+        },
+        {
+            "name": "FactionsPro",
+            "version": "1.3.11-3",
+            "depRelId": 650,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Infernus101"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

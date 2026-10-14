@@ -1,0 +1,63 @@
+{
+    "id": 7634,
+    "name": "CustomNPC",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/CustomNPC/1.1.0",
+    "tagline": "Custom NPC for pocket-mine servers",
+    "artifact_url": "https://poggit.pmmp.io/r/141962",
+    "downloads": 530,
+    "score": null,
+    "repo_id": 404362120,
+    "repo_name": "HighestDreams/CustomNPC",
+    "project_id": 9676,
+    "project_name": "CustomNPC",
+    "build_id": 112024,
+    "build_number": 34,
+    "build_commit": "e0992dafce754dc62cb1a49347922cd79ef48750",
+    "description_url": "https://poggit.pmmp.io/r/141959",
+    "icon_url": "https://raw.githubusercontent.com/HighestDreams/CustomNPC/e0992dafce754dc62cb1a49347922cd79ef48750/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/141961",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1631798100,
+    "state": 5,
+    "last_state_change_date": 1631828753,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "customNPC",
+        "emote",
+        "emotes",
+        "entity",
+        "human",
+        "npc",
+        "slapper"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HighestDreams"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

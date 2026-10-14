@@ -1,0 +1,60 @@
+{
+    "id": 13179,
+    "name": "AzusaNightVision",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AzusaNightVision/1.0.0",
+    "tagline": "Gives you unlimited night vision",
+    "artifact_url": "https://poggit.pmmp.io/r/241654",
+    "downloads": 43,
+    "score": null,
+    "repo_id": 816258203,
+    "repo_name": "KumaaDeveloper/AzusaNightVision",
+    "project_id": 13937,
+    "project_name": "AzusaNightVision",
+    "build_id": 177017,
+    "build_number": 3,
+    "build_commit": "e3b317520585ce740a4000e17c0d913b4eb97a2b",
+    "description_url": "https://poggit.pmmp.io/r/241653",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaNightVision/e3b317520585ce740a4000e17c0d913b4eb97a2b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1718624327,
+    "state": 5,
+    "last_state_change_date": 1718652723,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Effect",
+        "Night",
+        "NightVision",
+        "Vision"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

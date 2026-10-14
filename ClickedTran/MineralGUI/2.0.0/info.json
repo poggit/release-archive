@@ -1,0 +1,80 @@
+{
+    "id": 13945,
+    "name": "MineralGUI",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MineralGUI/2.0.0",
+    "tagline": "MineralGUI on PMMP",
+    "artifact_url": "https://poggit.pmmp.io/r/254747",
+    "downloads": 176,
+    "score": 5,
+    "repo_id": 660940537,
+    "repo_name": "ClickedTran/MineralGUI",
+    "project_id": 12711,
+    "project_name": "MineralGUI",
+    "build_id": 185859,
+    "build_number": 32,
+    "build_commit": "0de2a32f0454d9de7cb40f16d1bfc27fa6743453",
+    "description_url": "https://poggit.pmmp.io/r/254744",
+    "icon_url": "https://raw.githubusercontent.com/ClickedTran/MineralGUI/0de2a32f0454d9de7cb40f16d1bfc27fa6743453/icon.jpg",
+    "changelog_url": "https://poggit.pmmp.io/r/254746",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1743571511,
+    "state": 5,
+    "last_state_change_date": 1749745435,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "gui",
+        "mineral",
+        "mineralgui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": true
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.1",
+            "depRelId": 11649,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Clickedtran"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

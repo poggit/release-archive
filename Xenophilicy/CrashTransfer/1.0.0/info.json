@@ -1,0 +1,60 @@
+{
+    "id": 4639,
+    "name": "CrashTransfer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CrashTransfer/1.0.0",
+    "tagline": "Transfers players when the server stops",
+    "artifact_url": "https://poggit.pmmp.io/r/91488",
+    "downloads": 1819,
+    "score": 5,
+    "repo_id": 268888670,
+    "repo_name": "Xenophilicy/CrashTransfer",
+    "project_id": 7102,
+    "project_name": "CrashTransfer",
+    "build_id": 80949,
+    "build_number": 6,
+    "build_commit": "42d2ef2d26610109263b3aca6e91f96a2443205b",
+    "description_url": "https://poggit.pmmp.io/r/91492",
+    "icon_url": "https://raw.githubusercontent.com/Xenophilicy/CrashTransfer/42d2ef2d26610109263b3aca6e91f96a2443205b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1591810424,
+    "state": 5,
+    "last_state_change_date": 1592158892,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        }
+    ],
+    "keywords": [
+        "crash",
+        "stop",
+        "transfer"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Xenophilicy",
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

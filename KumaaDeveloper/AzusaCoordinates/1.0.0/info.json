@@ -1,0 +1,57 @@
+{
+    "id": 13180,
+    "name": "AzusaCoordinates",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AzusaCoordinates/1.0.0",
+    "tagline": "Shows the current coordinates and the last dead coordinates",
+    "artifact_url": "https://poggit.pmmp.io/r/241657",
+    "downloads": 736,
+    "score": 5,
+    "repo_id": 816261066,
+    "repo_name": "KumaaDeveloper/AzusaCoordinates",
+    "project_id": 13938,
+    "project_name": "AzusaCoordinates",
+    "build_id": 177018,
+    "build_number": 1,
+    "build_commit": "9d4db05f6e8f2bd532b15c6d09dad6b48c0e6a23",
+    "description_url": "https://poggit.pmmp.io/r/241659",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaCoordinates/9d4db05f6e8f2bd532b15c6d09dad6b48c0e6a23/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1718624547,
+    "state": 5,
+    "last_state_change_date": 1718652785,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "Coordinates"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

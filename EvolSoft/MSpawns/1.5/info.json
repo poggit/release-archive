@@ -1,0 +1,66 @@
+{
+    "id": 181,
+    "name": "MSpawns",
+    "version": "1.5",
+    "html_url": "https://poggit.pmmp.io/p/MSpawns/1.5",
+    "tagline": "Easily set spawns for each world.",
+    "artifact_url": "https://poggit.pmmp.io/r/2969",
+    "downloads": 2748,
+    "score": null,
+    "repo_id": 28537318,
+    "repo_name": "EvolSoft/MSpawns",
+    "project_id": 319,
+    "project_name": "MSpawns",
+    "build_id": 21504,
+    "build_number": 4,
+    "build_commit": "a409eeb37e123f90220a3c329e6dc1b3bd414086",
+    "description_url": "https://poggit.pmmp.io/r/2968",
+    "icon_url": "https://raw.githubusercontent.com/EvolSoft/MSpawns/a409eeb37e123f90220a3c329e6dc1b3bd414086/icon.png",
+    "changelog_url": null,
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1489334800,
+    "state": 5,
+    "last_state_change_date": 1489344745,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "spawns"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA4"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Flavius12"
+        ],
+        "Contributor": [
+            "letsplaydev",
+            "lukeeey",
+            "CookieCode"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

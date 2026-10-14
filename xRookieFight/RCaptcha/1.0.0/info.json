@@ -1,0 +1,62 @@
+{
+    "id": 13980,
+    "name": "RCaptcha",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RCaptcha/1.0.0",
+    "tagline": "Advanced image captcha plugin for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/255565",
+    "downloads": 109,
+    "score": null,
+    "repo_id": 975698403,
+    "repo_name": "xRookieFight/RCaptcha",
+    "project_id": 14701,
+    "project_name": "RCaptcha",
+    "build_id": 186502,
+    "build_number": 1,
+    "build_commit": "7378c0e1cda24ca6ecc8949f403247b12417134a",
+    "description_url": "https://poggit.pmmp.io/r/255564",
+    "icon_url": "https://raw.githubusercontent.com/xRookieFight/RCaptcha/7378c0e1cda24ca6ecc8949f403247b12417134a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1746039974,
+    "state": 5,
+    "last_state_change_date": 1748006470,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ImageOnMap",
+            "version": "1.1.0",
+            "depRelId": 11853,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "xRookieFight"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,72 @@
+{
+    "id": 7723,
+    "name": "Ding",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Ding/1.0.1",
+    "tagline": "Play sound when projectiles hit",
+    "artifact_url": "https://poggit.pmmp.io/r/143260",
+    "downloads": 367,
+    "score": null,
+    "repo_id": 398881425,
+    "repo_name": "sn3akrr/Ding",
+    "project_id": 9570,
+    "project_name": "Ding",
+    "build_id": 112777,
+    "build_number": 6,
+    "build_commit": "538ba6381e49bccc8108c49dbbdc4fc8b86b5416",
+    "description_url": "https://poggit.pmmp.io/r/143257",
+    "icon_url": "https://raw.githubusercontent.com/sn3akrr/Ding/538ba6381e49bccc8108c49dbbdc4fc8b86b5416/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/143259",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632718393,
+    "state": 5,
+    "last_state_change_date": 1632720043,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "arrow",
+        "bow",
+        "ding",
+        "egg",
+        "potion",
+        "projectile",
+        "snowball",
+        "sound"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "sn3akrr"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

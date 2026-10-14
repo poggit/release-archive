@@ -1,0 +1,75 @@
+{
+    "id": 1407,
+    "name": "Slapper",
+    "version": "1.3.9",
+    "html_url": "https://poggit.pmmp.io/p/Slapper/1.3.9",
+    "tagline": "Easy creation of NPCs!",
+    "artifact_url": "https://poggit.pmmp.io/r/30816",
+    "downloads": 1258,
+    "score": 3,
+    "repo_id": 422037891,
+    "repo_name": "vecnavium-pm-pl/Slapper",
+    "project_id": 9928,
+    "project_name": "Slapper",
+    "build_id": 40282,
+    "build_number": 47,
+    "build_commit": "3deeecaad5c846d1c4dfd52ebc6d976404c053ba",
+    "description_url": "https://poggit.pmmp.io/r/30822",
+    "icon_url": "https://raw.githubusercontent.com/jojoe77777/Slapper/3deeecaad5c846d1c4dfd52ebc6d976404c053ba/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/30824",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1526738184,
+    "state": 5,
+    "last_state_change_date": 1526812805,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "npc",
+        "slapper"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA12",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "JackNoordhuis",
+            "dktapps",
+            "Xenophilicy",
+            "JavierLeon9966",
+            "cosmicnebula200"
+        ],
+        "Collaborator": [
+            "jojoe77777",
+            "DuoIncure",
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

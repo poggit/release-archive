@@ -1,0 +1,73 @@
+{
+    "id": 7982,
+    "name": "SlapperCooldown",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SlapperCooldown/1.0.0",
+    "tagline": "An add-on plugin for Slapper, adding a customisable delay for hitting Slapper entities",
+    "artifact_url": "https://poggit.pmmp.io/r/147459",
+    "downloads": 1046,
+    "score": null,
+    "repo_id": 424512068,
+    "repo_name": "vecnavium-pm-pl/SlapperCooldown",
+    "project_id": 9930,
+    "project_name": "SlapperCooldown",
+    "build_id": 115219,
+    "build_number": 4,
+    "build_commit": "163f170ec7433fdde9a6db3d7e69391543ee8fca",
+    "description_url": "https://poggit.pmmp.io/r/147458",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1636512190,
+    "state": 5,
+    "last_state_change_date": 1636591472,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Slapper",
+            "version": "1.6.2",
+            "depRelId": 7964,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "jojoe77777"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

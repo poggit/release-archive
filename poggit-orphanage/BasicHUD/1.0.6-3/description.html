@@ -1,0 +1,219 @@
+<h1>
+<a id="user-content-basichud" class="anchor" href="#basichud" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BasicHUD</h1>
+<ul>
+<li>Summary: A configurable heads up display</li>
+<li>Dependency Plugins: n/a</li>
+<li>PocketMine-MP version: 1.2.6 (API:3.0.0-ALPHAX)</li>
+<li>DependencyPlugins: -</li>
+<li>OptionalPlugins: -</li>
+<li>Categories: Informational</li>
+<li>Plugin Access: Other Plugins</li>
+</ul>
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p>This plugin lets you configure a basic Heads-Up Display (HUD) for
+players.</p>
+<h2>
+<a id="user-content-basic-usage" class="anchor" href="#basic-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Basic Usage</h2>
+<ul>
+<li>
+<strong>/hud</strong> <em>[on|off|format]</em>
+<ul>
+<li>If none specified, will show the current mode info.</li>
+<li>If <em>on</em> is specified, HUD will be turned on.</li>
+<li>If <em>off</em> is specified, HUD will be turned off.</li>
+<li>If <em>format</em> is specified, that needs to be configured in
+<code>config.yml</code> and that format will be used.</li>
+</ul>
+</li>
+</ul>
+<h3>
+<a id="user-content-configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h3>
+<p>Configuration is through the <code>config.yml</code> file.
+The following sections are defined:</p>
+<h4>
+<a id="user-content-main" class="anchor" href="#main" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>main</h4>
+<ul>
+<li>ticks: How often to refresh the popup</li>
+<li>format: Display format</li>
+</ul>
+<h3>
+<a id="user-content-permission-nodes" class="anchor" href="#permission-nodes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permission Nodes</h3>
+<ul>
+<li>basichud.user : Allow players to have an HUD</li>
+<li>basichud.cmd : Allow players to access HUD command</li>
+<li>basichud.cmd.toggle : Allow players to toggle HUD on/off</li>
+<li>basichud.cmd.switch : Allow players to switch formats
+(Defaults to Op)</li>
+</ul>
+<h2>
+<a id="user-content-configured-formats" class="anchor" href="#configured-formats" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configured Formats</h2>
+<p>The displayed text can be:</p>
+<ul>
+<li>A fixed string.</li>
+<li>A string containing {variables}</li>
+<li>A string containing &lt;?php and &lt;?=.  This allows you to embed
+arbitrary PHP code in the format.  This is similar to how web pages
+are done.</li>
+</ul>
+<p>The default variables are:</p>
+<ul>
+<li>{BasicHUD}</li>
+<li>{MOTD}</li>
+<li>{tps}</li>
+<li>{player}</li>
+<li>{world}</li>
+<li>{x}</li>
+<li>{y}</li>
+<li>{z}</li>
+<li>{yaw}</li>
+<li>{pitch}</li>
+<li>{bearing}</li>
+<li>{10SPACE}</li>
+<li>{20SPACE}</li>
+<li>{30SPACE}</li>
+<li>{40SPACE}</li>
+<li>{50SPACE}</li>
+<li>{NL}</li>
+<li>{BLACK}</li>
+<li>{DARK_BLUE}</li>
+<li>{DARK_GREEN}</li>
+<li>{DARK_AQUA}</li>
+<li>{DARK_RED}</li>
+<li>{DARK_PURPLE}</li>
+<li>{GOLD}</li>
+<li>{GRAY}</li>
+<li>{DARK_GRAY}</li>
+<li>{BLUE}</li>
+<li>{GREEN}</li>
+<li>{AQUA}</li>
+<li>{RED}</li>
+<li>{LIGHT_PURPLE}</li>
+<li>{YELLOW}</li>
+<li>{WHITE}</li>
+<li>{OBFUSCATED}</li>
+<li>{BOLD}</li>
+<li>{STRIKETHROUGH}</li>
+<li>{UNDERLINE}</li>
+<li>{ITALIC}</li>
+<li>{RESET}</li>
+</ul>
+<p>You can add more variables by creating a <code>vars.php</code> in the plugin
+directory.  For your convenience, there is <code>vars-example.php</code>
+available that you can use as a starting point.  Copy this file to
+<code>vars.php</code>.</p>
+<p>The example <code>vars.php</code> will create a <code>{score}</code> and <code>{money}</code> variable
+if you have the relevant plugins.</p>
+<p>By default, if you have <code>SimpleAuth</code> installed, the HUD will be
+inactive until you log-in.  If you are using something other than
+<code>SimpleAuth</code> you can copy the <code>message-example.php</code> to <code>message.php</code>
+and do whatever checks you need to do.</p>
+<h2>
+<a id="user-content-multi-format-options" class="anchor" href="#multi-format-options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Multi-Format options</h2>
+<p>BasicHUD supports multiple formats.  These can be configured through
+the <code>config.yml</code>.  So instead of <strong>format</strong> only having <strong>one</strong> format
+configured, you can configure multiple, like this example:</p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-s">[CODE]</span>
+<span class="pl-ent">format</span>:
+ <span class="pl-ent">lv3</span>: <span class="pl-s"><span class="pl-pds">'</span>{GREEN}{BasicHUD} {YELLOW}Lv3 {WHITE}{world} ({x},{y},{z}) {bearing} {RED}EUR:{money} Pts:{score}<span class="pl-pds">'</span></span>
+ <span class="pl-ent">lv2</span>: <span class="pl-s"><span class="pl-pds">'</span>{GREEN}{BasicHUD} {GREEN}Lv2 {WHITE}{world} ({x},{y},{z}) {bearing} {RED}EUR:{money} Pts:{score}<span class="pl-pds">'</span></span>
+ <span class="pl-ent">lv1</span>: <span class="pl-s"><span class="pl-pds">'</span>{GREEN}{BasicHUD} {BLUE}Lv1 {WHITE}{world} ({x},{y},{z}) {bearing} {RED}EUR:{money} Pts:{score}<span class="pl-pds">'</span></span>
+ <span class="pl-ent">lv0</span>: <span class="pl-s"><span class="pl-pds">'</span>{GREEN}{BasicHUD} {GRAY}Lv0 {WHITE}{world} ({x},{y},{z}) {bearing} {RED}EUR:{money} Pts:{score}<span class="pl-pds">'</span></span>
+<span class="pl-s">[/CODE]</span></pre></div>
+<p>In this example, four formats are defined.  To select the format,
+<strong>BasicHUD</strong> will test permissions in order until the player has the
+permission:</p>
+<ul>
+<li>basichud.rank.selector</li>
+</ul>
+<p>So if the player wants to use format <em>lv2</em>, permission
+<em>basichud.rank.lv2</em> is required.  For multiple matches, the first
+match is used.  If none matches, the last format is used.</p>
+<p>Switching formats is not saved.  So on join the player always gets the
+default format.  If you want HUD format choices to be saved you need a
+permissions plugin.</p>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<p>Since <strong>BasicHUD</strong> takes over the built-in <em>sendPopup</em> functionality,
+it provides a replacement function for it.  To use it you need this
+fragment of code:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1">[<span class="pl-c1">PHP</span>]</span>
+<span class="pl-s1"><span class="pl-k">if</span> ((<span class="pl-smi">$hud</span> <span class="pl-k">=</span> <span class="pl-smi">$this</span><span class="pl-k">-&gt;</span>getServer()<span class="pl-k">-&gt;</span>getPluginManager()<span class="pl-k">-&gt;</span>getPlugin(<span class="pl-s"><span class="pl-pds">"</span>BasicHUD<span class="pl-pds">"</span></span>)) <span class="pl-k">!</span><span class="pl-k">==</span> <span class="pl-c1">null</span>) {</span>
+<span class="pl-s1">  <span class="pl-smi">$hud</span><span class="pl-k">-&gt;</span>sendPopup(<span class="pl-smi">$player</span>,<span class="pl-smi">$msg</span>);</span>
+<span class="pl-s1">} <span class="pl-k">else</span> {</span>
+<span class="pl-s1">  <span class="pl-smi">$player</span><span class="pl-k">-&gt;</span>sendPopup(<span class="pl-smi">$msg</span>);</span>
+<span class="pl-s1">}</span>
+<span class="pl-s1">[<span class="pl-k">/</span><span class="pl-c1">PHP</span>]</span>
+<span class="pl-s1"></span></pre></div>
+<h1>
+<a id="user-content-changes" class="anchor" href="#changes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Changes</h1>
+<ul>
+<li>1.0.6-2
+<ul>
+<li>Updated for recent PocketMine API changes</li>
+</ul>
+</li>
+<li>1.0.6:
+<ul>
+<li>Fixed vars-example (money issues thanks @vertx)</li>
+<li>Display item selected onItemHeld (incomplete)</li>
+</ul>
+</li>
+<li>1.0.5: Performance tweaks
+<ul>
+<li>Cache permissions for selecting formats</li>
+<li>An empty vars.php yields an empty function (saving a comparison)</li>
+<li>Constant vars are calculated once.</li>
+<li>Fixed bug around permissions (to change formats)</li>
+<li>Added translation (but not for bearing to avoid the translation overhead)</li>
+<li>New {vars}:
+<ul>
+<li>{tps}</li>
+<li>{NL}</li>
+<li>{10SPACE}, {20SPACE}, {30SPACE}, {40SPACE}, {50SPACE}</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>1.0.3: First public release
+<ul>
+<li>Added a "use" permission.</li>
+<li>More correct use of permission</li>
+</ul>
+</li>
+<li>1.0.2: added features
+<ul>
+<li>command to turn on|off|change HUD</li>
+<li>supports multiple HUD formats which can be selected based on
+permissions.</li>
+</ul>
+</li>
+<li>1.0.1: minor update
+<ul>
+<li>Added additional variables</li>
+<li>Improved examples</li>
+<li>changed defaults</li>
+<li>Added API</li>
+</ul>
+</li>
+<li>1.0.0: First release</li>
+</ul>
+<h1>
+<a id="user-content-copyright" class="anchor" href="#copyright" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright</h1>
+<pre><code>BasicHUD
+Copyright (C) 2015-2017 Alejandro Liu
+All Rights Reserved.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</code></pre>

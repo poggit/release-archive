@@ -1,0 +1,74 @@
+<h1>
+<a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h1>
+<h2>
+<a id="user-content-loading-folder-plugins" class="anchor" href="#loading-folder-plugins" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Loading folder plugins</h2>
+<p>DevTools loads plugins in folder format in the <code>plugins</code> directory.</p>
+<p>For example, if you have these structure:</p>
+<pre><code>PocketMine-MP.phar
+plugins/DevTools.phar
+plugins/MyPlugin/plugin.yml
+plugins/MyPlugin/src/My/Plugin/Code.php
+</code></pre>
+<p>DevTools will load <code>MyPlugin</code> like a normal plugin when the server starts.</p>
+<h2>
+<a id="user-content-creating-plugin-phars" class="anchor" href="#creating-plugin-phars" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating plugin phars</h2>
+<p>After a folder plugin is loaded with DevTools, DevTools can turn it into a phar file, with the command:</p>
+<pre><code>/makeplugin &lt;plugin name&gt;
+</code></pre>
+<p>where <code>&lt;plugin name&gt;</code> is the plugin name in its <code>plugin.yml</code> (not the folder name). The phar will be created in <code>plugins/DevTools</code>.</p>
+<h2>
+<a id="user-content-extracting-plugin-phars" class="anchor" href="#extracting-plugin-phars" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Extracting plugin phars</h2>
+<p>Plugins in phar format can be extracted using the <code>extractplugin</code> command:</p>
+<pre><code>/extractplugin &lt;plugin name&gt;
+</code></pre>
+<p>where <code>&lt;plugin name&gt;</code> is the plugin name (not the phar file name). The plugin will be extracted to a subfolder in <code>plugins/DevTools</code>.</p>
+<h2>
+<a id="user-content-creating-server-phar" class="anchor" href="#creating-server-phar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating server phar</h2>
+<p>If the server runs from source (not from <code>PocketMine-MP.phar</code>), the command <code>/makeserver</code> will create the phar in the <code>plugins/DevTools</code> folder. Move it next to the <code>start.cmd</code>/<code>start.sh</code> and rename it to <code>PocketMine-MP.phar</code>, and the server will run from the PocketMine-MP.phar instead of running from source.</p>
+<h2>
+<a id="user-content-checking-permissions" class="anchor" href="#checking-permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Checking permissions</h2>
+<p>DevTools can check the details of a permission and whether a player has the permission.</p>
+<pre><code>/checkperm &lt;node&gt; [player name]
+</code></pre>
+<ul>
+<li>
+<code>&lt;node&gt;</code> is the name of the permission node to check.</li>
+<li>
+<code>[player name]</code> is the name of the player to test permission for, or yourself (including console) if not provided.</li>
+</ul>
+<h2>
+<a id="user-content-generating-plugin" class="anchor" href="#generating-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generating plugin</h2>
+<p>DevTools can initialize a basic plugin.</p>
+<pre><code>/genplugin &lt;plugin name&gt; &lt;author name&gt;
+</code></pre>
+<p><code>&lt;plugin name&gt;</code> and <code>&lt;author name&gt;</code> must only contain alphabets, numbers and underscores.</p>
+<p>A skeleton plugin structure will be generated in the <code>plugins</code> folder, so when you restart the server, the generated plugin will be loaded by DevTools.</p>
+<h1>
+<a id="user-content-using-consolescript" class="anchor" href="#using-consolescript" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using ConsoleScript</h1>
+<p>You can use ConsoleScript to build a DevTools phar from source code.
+Contrary to popular assumption, this is very simple. Assuming you have a php executable in your PATH variable, cd into the DevTools directory (the folder where plugin.yml is located) and simply run the following:</p>
+<pre><code>php -dphar.readonly=0 path/to/ConsoleScript.php --make path/to/DevTools --relative path/to/DevTools --out path/to/put/devtools/phar/in/DevTools.phar
+</code></pre>
+<p>You can then load the phar onto a PocketMine-MP server. A correctly-built DevTools phar can also be executed directly from the command line as if it was the ConsoleScript.</p>
+<h1>
+<a id="user-content-build-phars-from-the-command-line" class="anchor" href="#build-phars-from-the-command-line" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Build phars from the command line</h1>
+<p>You can also use the ConsoleScript or a DevTools phar from the command-line to build PocketMine-MP phars or plugin phars.</p>
+<p>The script currently takes the following arguments:</p>
+<ul>
+<li>
+<code>--make</code>: The path to the files you want to bundle into a phar</li>
+<li>
+<code>--relative</code>: (Optional) Relative path to use when building the phar. This usually isn't necessary for plugins. Used to build PocketMine-MP phars with the <code>src</code> directory without including the files in the repository root.</li>
+<li>
+<code>--entry</code>: (Optional) PHP file within the phar to execute when running the phar from the command-line. Usually not needed for plugins, but required for a PocketMine-MP phar. Used to generate phar stubs.</li>
+<li>
+<code>--stub</code>: (Optional) PHP file to use as a custom phar stub. The stub will be executed when the phar is run from the command line.</li>
+<li>
+<code>--out</code>: Path and filename of the output phar file.</li>
+</ul>
+<p>Example command line for building a plugin:</p>
+<pre><code>php -dphar.readonly=0 path/to/ConsoleScript.php --make path/to/your/plugin/sourcecode --out path/to/put/your/plugin.phar
+</code></pre>
+<p>Example command line for building PocketMine</p>
+<pre><code>php -dphar.readonly=0 path/to/ConsoleScript.php --make path/to/PocketMine-MP/src --relative path/to/PocketMine-MP --entry src/pocketmine/PocketMine.php --out path/to/put/your/PocketMine-MP.phar
+</code></pre>

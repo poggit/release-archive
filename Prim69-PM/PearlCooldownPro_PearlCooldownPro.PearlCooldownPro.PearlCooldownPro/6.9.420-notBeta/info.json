@@ -1,0 +1,66 @@
+{
+    "id": 9202,
+    "name": "PearlCooldownPro",
+    "version": "6.9.420-notBeta",
+    "html_url": "https://poggit.pmmp.io/p/PearlCooldownPro/6.9.420-notBeta",
+    "tagline": "Lets you add a cooldown timer between throwing enderpearls.",
+    "artifact_url": "https://poggit.pmmp.io/r/165570",
+    "downloads": 424,
+    "score": 5,
+    "repo_id": 279713271,
+    "repo_name": "Prim69-PM/PearlCooldownPro",
+    "project_id": 7415,
+    "project_name": "PearlCooldownPro.PearlCooldownPro.PearlCooldownPro",
+    "build_id": 126061,
+    "build_number": 17,
+    "build_commit": "333ab2ceadae70e25e3b3699c60501177a2c5e9d",
+    "description_url": "https://poggit.pmmp.io/r/165567",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/165569",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646545016,
+    "state": 5,
+    "last_state_change_date": 1646598786,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "cooldown",
+        "ender",
+        "enderpearl",
+        "enderpearlcooldown",
+        "enderpearltimer",
+        "endertimer",
+        "pearl",
+        "pearlcooldown",
+        "pearltimer",
+        "timer"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Prim69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,79 @@
+{
+    "id": 14206,
+    "name": "PMMP-AI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/PMMP-AI/1.0.0",
+    "tagline": "Advanced AI Assistant for Minecraft server with multi-provider API support, crafting help, building calculations, and more",
+    "artifact_url": "https://poggit.pmmp.io/r/259653",
+    "downloads": 132,
+    "score": null,
+    "repo_id": 1053490607,
+    "repo_name": "RenzMc/PMMP-AI",
+    "project_id": 14913,
+    "project_name": "PMMP-AI",
+    "build_id": 189248,
+    "build_number": 13,
+    "build_commit": "beec32ef549243ef6a8d202c9fc4218f4dd53f13",
+    "description_url": "https://poggit.pmmp.io/r/259655",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1757996017,
+    "state": 5,
+    "last_state_change_date": 1759264876,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.20.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RenzMc"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,118 @@
+{
+    "id": 14070,
+    "name": "ActionHouse",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ActionHouse/1.0.0",
+    "tagline": "Auction House is the solution when it comes to server auctions.",
+    "artifact_url": "https://poggit.pmmp.io/r/256788",
+    "downloads": 539,
+    "score": 3,
+    "repo_id": 1002730637,
+    "repo_name": "FrostCheat/ActionHouse",
+    "project_id": 14767,
+    "project_name": "ActionHouse",
+    "build_id": 187241,
+    "build_number": 7,
+    "build_commit": "879ce502e9badd2b5d12ee3af02b13c17af0962c",
+    "description_url": "https://poggit.pmmp.io/r/262427",
+    "icon_url": "https://raw.githubusercontent.com/FrostCheatMC/ActionHouse/879ce502e9badd2b5d12ee3af02b13c17af0962c/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1750116327,
+    "state": 5,
+    "last_state_change_date": 1750120745,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "action",
+        "actionhouse",
+        "ah",
+        "economy",
+        "house",
+        "npc"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "FrostCheat"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12585,
+            "repo_id": 649339852,
+            "repo_name": "LatamPMDevs/Commando",
+            "repo_path": "",
+            "build_commit": "adc7b7e14a86e7e36ea32024d6fba3cace1b72e9",
+            "build_id": 159643
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 12634,
+            "repo_id": 653680575,
+            "repo_name": "LatamPMDevs/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "44cbbec61a047e3120884f8410c154a4182c4426",
+            "build_id": 157397
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 12635,
+            "repo_id": 653680934,
+            "repo_name": "LatamPMDevs/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c3a71ae577df5b5f174e4c2bb99d76182d05b420",
+            "build_id": 157396
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        }
+    ]
+}

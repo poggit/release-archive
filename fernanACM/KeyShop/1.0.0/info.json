@@ -1,0 +1,113 @@
+{
+    "id": 12778,
+    "name": "KeyShop",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KeyShop/1.0.0",
+    "tagline": "A store plugin to sell keys on your server. Only for PocketMine-MP 5.0",
+    "artifact_url": "https://poggit.pmmp.io/r/232088",
+    "downloads": 1339,
+    "score": null,
+    "repo_id": 748838207,
+    "repo_name": "fernanACM/KeyShop",
+    "project_id": 13519,
+    "project_name": "KeyShop",
+    "build_id": 170451,
+    "build_number": 4,
+    "build_commit": "e5b9896fd959c4e426d5a29d35f6eaacee0a4333",
+    "description_url": "https://poggit.pmmp.io/r/232087",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/KeyShop/e5b9896fd959c4e426d5a29d35f6eaacee0a4333/keyshop-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1706309585,
+    "state": 5,
+    "last_state_change_date": 1707146816,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "KeyShop",
+        "Key",
+        "Shop",
+        "llaves"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": true
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.3",
+            "depRelId": 12762,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "3c4e02b52f275cf5f2cf83a31e8e651eb9901ae0",
+            "build_id": 162907
+        }
+    ]
+}

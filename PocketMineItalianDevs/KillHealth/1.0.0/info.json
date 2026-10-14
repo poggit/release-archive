@@ -1,0 +1,62 @@
+{
+    "id": 3747,
+    "name": "KillHealth",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KillHealth/1.0.0",
+    "tagline": "This plugin allows you to heal life when you kill an enemy.",
+    "artifact_url": "https://poggit.pmmp.io/r/74467",
+    "downloads": 127,
+    "score": null,
+    "repo_id": 236578768,
+    "repo_name": "PocketMineItalianDevs/KillHealth",
+    "project_id": 6181,
+    "project_name": "KillHealth",
+    "build_id": 70105,
+    "build_number": 2,
+    "build_commit": "a33dbef8ef4de49c628050ba3533322328035b6c",
+    "description_url": "https://poggit.pmmp.io/r/74466",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1580286432,
+    "state": 5,
+    "last_state_change_date": 1580286477,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "Health",
+        "Kill",
+        "KillHealth",
+        "Life",
+        "Regeneration"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RubyTemple",
+            "Vale914"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

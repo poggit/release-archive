@@ -1,0 +1,62 @@
+{
+    "id": 13065,
+    "name": "AntiVPN",
+    "version": "2.0.3",
+    "html_url": "https://poggit.pmmp.io/p/AntiVPN/2.0.3",
+    "tagline": "Protect your server of proxy.",
+    "artifact_url": "https://poggit.pmmp.io/r/239481",
+    "downloads": 1737,
+    "score": null,
+    "repo_id": 606886487,
+    "repo_name": "RajadorDev/AntiVPN",
+    "project_id": 13786,
+    "project_name": "AntiVPN",
+    "build_id": 175558,
+    "build_number": 34,
+    "build_commit": "f9c4c8535709cf4bc4d20980f74be5e4d6da36fb",
+    "description_url": "https://poggit.pmmp.io/r/239480",
+    "icon_url": "https://raw.githubusercontent.com/RajadorDev/AntiVPN/f9c4c8535709cf4bc4d20980f74be5e4d6da36fb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1716310423,
+    "state": 5,
+    "last_state_change_date": 1717357679,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "detect",
+        "proxy"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RajadorDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

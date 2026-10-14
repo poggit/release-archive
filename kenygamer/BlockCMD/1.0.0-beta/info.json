@@ -1,0 +1,60 @@
+{
+    "id": 1058,
+    "name": "BlockCMD",
+    "version": "1.0.0-beta",
+    "html_url": "https://poggit.pmmp.io/p/BlockCMD/1.0.0-beta",
+    "tagline": "A PocketMine-MP plugin to block certain commands from being used by players in your server",
+    "artifact_url": "https://poggit.pmmp.io/r/22884",
+    "downloads": 4044,
+    "score": 5,
+    "repo_id": 117761022,
+    "repo_name": "kenygamer/BlockCMD",
+    "project_id": 1955,
+    "project_name": "BlockCMD",
+    "build_id": 35944,
+    "build_number": 1,
+    "build_commit": "f968f9d7b89fd953e7b7798bad6ce74ff6df42f6",
+    "description_url": "https://poggit.pmmp.io/r/22883",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518231087,
+    "state": 5,
+    "last_state_change_date": 1518231087,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "block",
+        "blockcmd",
+        "cmd",
+        "commands",
+        "php",
+        "plugin",
+        "pocketmine-mp",
+        "yaml"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA10",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "kenygamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

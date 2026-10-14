@@ -1,0 +1,73 @@
+{
+    "id": 13305,
+    "name": "PocketTranslate",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/PocketTranslate/1.0.3",
+    "tagline": "Chat Translation API Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/243797",
+    "downloads": 23,
+    "score": null,
+    "repo_id": 797503701,
+    "repo_name": "CJMustard1452/PocketTranslate",
+    "project_id": 13788,
+    "project_name": "PocketTranslate",
+    "build_id": 178461,
+    "build_number": 10,
+    "build_commit": "7a46fb1c7230452f19921f926715c66758087649",
+    "description_url": "https://poggit.pmmp.io/r/243796",
+    "icon_url": "https://raw.githubusercontent.com/CJMustard1452/PocketTranslate/7a46fb1c7230452f19921f926715c66758087649/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721019444,
+    "state": 5,
+    "last_state_change_date": 1721664668,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Translate",
+        "Translation",
+        "Spanish",
+        "French",
+        "English"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "CJMustard1452"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

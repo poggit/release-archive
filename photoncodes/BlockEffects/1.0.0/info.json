@@ -1,0 +1,56 @@
+{
+    "id": 1639,
+    "name": "BlockEffects",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockEffects/1.0.0",
+    "tagline": "Plugin that gives effects to players when they walk on blocks as specified in configuration file.",
+    "artifact_url": "https://poggit.pmmp.io/r/36071",
+    "downloads": 2597,
+    "score": 4,
+    "repo_id": 139624971,
+    "repo_name": "photoncodes/BlockEffects",
+    "project_id": 3285,
+    "project_name": "BlockEffects",
+    "build_id": 45286,
+    "build_number": 2,
+    "build_commit": "57c0ba4a3156166b1b66438689bea641f2efcad4",
+    "description_url": "https://poggit.pmmp.io/r/36070",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1530709419,
+    "state": 5,
+    "last_state_change_date": 1530709419,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Effect",
+        "move",
+        "walk",
+        "block"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "photoncodes"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

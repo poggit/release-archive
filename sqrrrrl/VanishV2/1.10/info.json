@@ -1,0 +1,77 @@
+{
+    "id": 4868,
+    "name": "VanishV2",
+    "version": "1.10",
+    "html_url": "https://poggit.pmmp.io/p/VanishV2/1.10",
+    "tagline": "Advanced vanish plugin with a lot of features",
+    "artifact_url": "https://poggit.pmmp.io/r/95655",
+    "downloads": 2007,
+    "score": 5,
+    "repo_id": 221769789,
+    "repo_name": "sqrrrrl/VanishV2",
+    "project_id": 5802,
+    "project_name": "VanishV2",
+    "build_id": 83456,
+    "build_number": 46,
+    "build_commit": "a7cfb1d38d310e3945ecc0d12a13962a06abd910",
+    "description_url": "https://poggit.pmmp.io/r/96704",
+    "icon_url": "https://raw.githubusercontent.com/superbobby2000/VanishV2/a7cfb1d38d310e3945ecc0d12a13962a06abd910/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/96706",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1594338771,
+    "state": 5,
+    "last_state_change_date": 1594570989,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Admin",
+        "Moderation",
+        "Staff",
+        "Vanish"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.2-c2a",
+            "depRelId": 2129,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Matthww",
+            "sqrrrrl"
+        ],
+        "Contributor": [
+            "MistakingManx",
+            "ItzxDwi",
+            "githubdontbanmeagain"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

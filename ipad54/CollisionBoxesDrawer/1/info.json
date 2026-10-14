@@ -1,0 +1,58 @@
+{
+    "id": 14082,
+    "name": "CollisionBoxesDrawer",
+    "version": "1",
+    "html_url": "https://poggit.pmmp.io/p/CollisionBoxesDrawer/1",
+    "tagline": "Helps debugging block/entity collision boxes by rendering their server-side versions to the client",
+    "artifact_url": "https://poggit.pmmp.io/r/257060",
+    "downloads": 58,
+    "score": 5,
+    "repo_id": 1007591329,
+    "repo_name": "ipad54/CollisionBoxesDrawer",
+    "project_id": 14783,
+    "project_name": "CollisionBoxesDrawer",
+    "build_id": 187436,
+    "build_number": 1,
+    "build_commit": "6ba9bdb6c7c242bf23143e59f40877cf8fd5d1e9",
+    "description_url": "https://poggit.pmmp.io/r/257064",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1750789345,
+    "state": 5,
+    "last_state_change_date": 1750869507,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "Boxes",
+        "Collisions",
+        "Debugging",
+        "DebugShapes",
+        "PacketShapeData",
+        "ServerDebugDrawer"
+    ],
+    "api": [
+        {
+            "from": "5.30.1",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ipad54"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

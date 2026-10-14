@@ -1,0 +1,76 @@
+{
+    "id": 8259,
+    "name": "AdminLogin",
+    "version": "1.0.0-2",
+    "html_url": "https://poggit.pmmp.io/p/AdminLogin/1.0.0-2",
+    "tagline": "A PocketMine-MP Plugin to Login your Admins, Moderators and other Teammates.",
+    "artifact_url": "https://poggit.pmmp.io/r/151540",
+    "downloads": 7686,
+    "score": null,
+    "repo_id": 337507455,
+    "repo_name": "supercrafter333/AdminLogin",
+    "project_id": 8529,
+    "project_name": "AdminLogin",
+    "build_id": 117566,
+    "build_number": 14,
+    "build_commit": "51af579ae6b4283cb4d140c821760a2cb5085bea",
+    "description_url": "https://poggit.pmmp.io/r/155989",
+    "icon_url": "https://raw.githubusercontent.com/supercrafter333/AdminLogin/51af579ae6b4283cb4d140c821760a2cb5085bea/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/155991",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638991289,
+    "state": 5,
+    "last_state_change_date": 1639282416,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 7316,
+            "repo_id": 276418041,
+            "repo_name": "CLADevs/FormAPI-4.0",
+            "repo_path": "",
+            "build_commit": "ba0e7649b954a084e1c179a8011c0187c974cf33",
+            "build_id": 85750
+        }
+    ]
+}

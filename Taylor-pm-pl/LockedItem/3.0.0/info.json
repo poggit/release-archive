@@ -1,0 +1,71 @@
+{
+    "id": 7527,
+    "name": "LockedItem",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LockedItem/3.0.0",
+    "tagline": "When locking items helps players not lose items",
+    "artifact_url": "https://poggit.pmmp.io/r/140210",
+    "downloads": 75,
+    "score": 5,
+    "repo_id": 399119036,
+    "repo_name": "Taylor-pm-pl/LockedItem",
+    "project_id": 9573,
+    "project_name": "LockedItem",
+    "build_id": 110873,
+    "build_number": 26,
+    "build_commit": "97371029e6d25741f88bde98be3f4b84157d5bd6",
+    "description_url": "https://poggit.pmmp.io/r/142393",
+    "icon_url": "https://raw.githubusercontent.com/JeroGamingYT/LockedItem/97371029e6d25741f88bde98be3f4b84157d5bd6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/142395",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1630751213,
+    "state": 5,
+    "last_state_change_date": 1630778341,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        }
+    ],
+    "keywords": [
+        "item",
+        "lag",
+        "lock",
+        "locked",
+        "lockeditem",
+        "player",
+        "server"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

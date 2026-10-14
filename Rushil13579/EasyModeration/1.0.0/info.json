@@ -1,0 +1,70 @@
+{
+    "id": 6493,
+    "name": "EasyModeration",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EasyModeration/1.0.0",
+    "tagline": "An all in one Moderation plugin for Pocketmine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/123344",
+    "downloads": 660,
+    "score": 5,
+    "repo_id": 353281965,
+    "repo_name": "Rushil13579/EasyModeration",
+    "project_id": 8783,
+    "project_name": "EasyModeration",
+    "build_id": 100922,
+    "build_number": 25,
+    "build_commit": "67c1588ffad5902b750d73c4abf0def38b5f0daf",
+    "description_url": "https://poggit.pmmp.io/r/123343",
+    "icon_url": "https://raw.githubusercontent.com/Rushil13579/EasyModeration/67c1588ffad5902b750d73c4abf0def38b5f0daf/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1618992410,
+    "state": 5,
+    "last_state_change_date": 1619305220,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "admin",
+        "ban",
+        "moderation",
+        "punish",
+        "staff",
+        "tools"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Rushil13579"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

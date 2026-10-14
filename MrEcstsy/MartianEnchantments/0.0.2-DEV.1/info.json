@@ -1,0 +1,160 @@
+{
+    "id": 14441,
+    "name": "MartianEnchantments",
+    "version": "0.0.2-DEV.1",
+    "html_url": "https://poggit.pmmp.io/p/MartianEnchantments/0.0.2-DEV.1",
+    "tagline": "A highly customizable enchantment system for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/264267",
+    "downloads": 54,
+    "score": null,
+    "repo_id": 932036048,
+    "repo_name": "MrEcstsy/MartianEnchantments",
+    "project_id": 14555,
+    "project_name": "MartianEnchantments",
+    "build_id": 192563,
+    "build_number": 39,
+    "build_commit": "16e6e2aa3282f32b823ed99b42ec214560d1cbad",
+    "description_url": "https://poggit.pmmp.io/r/264264",
+    "icon_url": "https://raw.githubusercontent.com/MrEcstsy/MartianEnchantments/16e6e2aa3282f32b823ed99b42ec214560d1cbad/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/264266",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1777189056,
+    "state": 5,
+    "last_state_change_date": 1777668312,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MrEcstsy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "cd268cb359f9953632c9f55649479f7ccb1a3bda",
+            "build_id": 172518
+        },
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "3400302e0d77757e716ac69a4099561bde5634b3",
+            "build_id": 184973
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 14072,
+            "repo_id": 831660847,
+            "repo_name": "MrEcstsy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "d9feb2ebcebd3d168d1a02fd052cddc3b7dced8a",
+            "build_id": 178830
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "ad0c9631b12fc37e8d9c39436d639058046b9dab",
+            "build_id": 166208
+        },
+        {
+            "name": "libCustomPack",
+            "project_id": 12698,
+            "repo_id": 659285274,
+            "repo_name": "taylordevs/libCustomPack",
+            "repo_path": "",
+            "build_commit": "f0c70ca6a05a03d07118ffc3d6a7367cf974e2bd",
+            "build_id": 158011
+        },
+        {
+            "name": "MartianUtilities",
+            "project_id": 14447,
+            "repo_id": 911423063,
+            "repo_name": "MrEcstsy/MartianUtilities",
+            "repo_path": "",
+            "build_commit": "2274d6067dec1ab5e9fda54fdc342454c53fc248",
+            "build_id": 185671
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "76aa3b4cdd856d1cf7ea3498eee921414e01fb97",
+            "build_id": 167816
+        }
+    ]
+}

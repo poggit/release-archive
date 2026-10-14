@@ -1,0 +1,77 @@
+{
+    "id": 55,
+    "name": "PurePerms",
+    "version": "1.4",
+    "html_url": "https://poggit.pmmp.io/p/PurePerms/1.4",
+    "tagline": "Permissions manager by #64FF00",
+    "artifact_url": "https://poggit.pmmp.io/r/2567",
+    "downloads": 1434,
+    "score": null,
+    "repo_id": 80404184,
+    "repo_name": "poggit-orphanage/PurePerms",
+    "project_id": 203,
+    "project_name": "PurePerms",
+    "build_id": 20362,
+    "build_number": 4,
+    "build_commit": "04b4df73bfaea09ccb3123e35c4eb299ff17b760",
+    "description_url": "https://poggit.pmmp.io/r/1418",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/PurePerms/04b4df73bfaea09ccb3123e35c4eb299ff17b760/icon128.png",
+    "changelog_url": "https://poggit.pmmp.io/r/1419",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1488589338,
+    "state": 5,
+    "last_state_change_date": 1485765513,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        }
+    ],
+    "keywords": [
+        "manager",
+        "permissions",
+        "perms"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA4"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PureChat",
+            "version": "1.4",
+            "depRelId": 56,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "Thunder33345",
+            "Awzaw",
+            "Pub4Game",
+            "jasonwynn10",
+            "SOF3"
+        ],
+        "Collaborator": [
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

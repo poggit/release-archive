@@ -1,0 +1,372 @@
+<ul>
+<li>Another version number update for testing.</li>
+<li>AutoSpawnTask: Change spawn cycle to use type limits instead of world limits.</li>
+<li>AutoSpawnTask: Make sure biome id is in array before trying to access it.  Closes <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="338483949" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/318" data-hovercard-type="issue" data-hovercard-url="/RevivalPMMP/PureEntitiesX/issues/318/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/issues/318">#318</a> and closes <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="340248964" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/320" data-hovercard-type="issue" data-hovercard-url="/RevivalPMMP/PureEntitiesX/issues/320/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/issues/320">#320</a></li>
+<li>AutoSpawnTask: Remove excessive code.</li>
+<li>BaseEntity: Call parent::knockcback instead of stopping the chain.  This will need adjustment later.</li>
+<li>BaseEntity: Change dependency of Entity::$age to Entity::$ticksLived for compatibility with changes in 3.2.3
+<ul>
+<li>Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="361121753" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/330" data-hovercard-type="issue" data-hovercard-url="/RevivalPMMP/PureEntitiesX/issues/330/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/issues/330">#330</a></li>
+</ul>
+</li>
+<li>BaseEntity: Cleanup imports and extinguish entities that are in water.</li>
+<li>BaseEntity: Don't target players that are not in Adventure or Survival</li>
+<li>BaseEntity: Fix Incorrect parent call of entityBaseTick</li>
+<li>BaseEntity: Fix incorrect conditional check.  Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="319481897" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/306" data-hovercard-type="issue" data-hovercard-url="/RevivalPMMP/PureEntitiesX/issues/306/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/issues/306">#306</a></li>
+<li>BaseEntity: Implement check to keep targets from being set as a player in Spectator mode.</li>
+<li>BaseEntity: Remove code duplicated from Parent Classes.</li>
+<li>BaseEntity: Remove spawnTo method as it is a duplicate of Entity::spawnTo</li>
+<li>BaseEntity: Remove unused test properties and methods.</li>
+<li>BreedingComponent: Remove extra space.</li>
+<li>Cubes: Fix Slimes and Magma cubes not spawning with correct sizes.</li>
+<li>Data: Fix Sheep Sizes</li>
+<li>EntityConfig and Helpers: MobEquipment should always be able to load defaults, even if there is a config error or missing config options.</li>
+<li>Fix Hit Boxes: Move height and width to be set in the constructor instead of during initEntity. Closes <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="300065719" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/287" data-hovercard-type="issue" data-hovercard-url="/RevivalPMMP/PureEntitiesX/issues/287/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/issues/287">#287</a></li>
+<li>Fix Monster Spawners (<a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="339125939" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/319" data-hovercard-type="pull_request" data-hovercard-url="/RevivalPMMP/PureEntitiesX/pull/319/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/pull/319">#319</a>)
+<ul>
+<li>
+<ul>
+<li>Spawner: Update setSpawnEntityType to use better methods for updating NBT items and pushing changes to users.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Spawner: Update spawnCount NBT items and create class property to track spawn counts.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Spawner: Ensure $maxDelay doesn't get set to 0 as this can cause a client crash.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Spawner: Update writeSaveData and addAdditionalSpawnData to reduce code duplication and ensure correct NBT information is sent to players.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Spawner: Update readSaveData to include Delay.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Spawner: Temporarily avoid using SpawnData for until matching functionality is added.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Spawner: Update Imports</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>ReFactor Spawner to MobSpawner.  This fixes a problem where Spawners do not properly show up on server restarts.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Add MonsterSpawnerPEX block for additional functionality via onActivate() and various other block methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>EventListener: Remove PlayerInteractionEvent() as it was only being used for Spawner interaction and this functionality has been replaced with the addition of the MonsterSpawnerPEX block.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>MonsterSpawnerPEX: Added some DocBlocks and comments.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Husk: Code Reduction.  This is a variant of zombies spawned in certain biomes.</li>
+<li>MobEquipment: Fix PhpDoc and return type for getMainHand.</li>
+<li>MobEquipmentConfigHolder: Update PhpDoc block.</li>
+<li>MobSpawner: Fix incorrect method for getting Tier information from tools.</li>
+<li>Monster can't attack creative(spectator) player (<a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="318630920" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/303" data-hovercard-type="pull_request" data-hovercard-url="/RevivalPMMP/PureEntitiesX/pull/303/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/pull/303">#303</a>)
+<ul>
+<li>
+<ul>
+<li>Monster can't attack creative(spectator) player</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update JumpingMonster.php</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update FlyingMonster.php</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update SwimmingMonster.php</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Mooshroom: Code reduction.  Extend from cows.</li>
+<li>PureEntities: Remove excessive logging of entity names during peremove command.</li>
+<li>Reformat Code for consistency</li>
+<li>Remove checks from mob classes for players in survival as this doesn't always check that the entity is a player and doesn't properly account for players in adventure mode.
+<ul>
+<li>This fixes <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="327019686" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/311" data-hovercard-type="issue" data-hovercard-url="/RevivalPMMP/PureEntitiesX/issues/311/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/issues/311">#311</a></li>
+</ul>
+</li>
+<li>Send mob equipment with spawn packet in skeleton and zombie pigman
+<ul>
+<li>Other item-holding mobs mobs will need this also but these are examples</li>
+</ul>
+</li>
+<li>Sheep: Fix random color assignment when on new creatures.</li>
+<li>Sheep: Update drops to include mutton. Closes <a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="326561101" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/310" data-hovercard-type="issue" data-hovercard-url="/RevivalPMMP/PureEntitiesX/issues/310/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/issues/310">#310</a></li>
+<li>Skeleton: Add check for water during light level tests.</li>
+<li>Skeleton: Update to use MobEquipment.  Start process of fixing Bow in Hand.</li>
+<li>Stray: Code reduction.  This is essentially a skeleton variant spawned in different biomes.</li>
+<li>Update API to 3.0.X and some cleanup. (<a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="336110476" data-permission-text="Issue title is private" data-url="https://github.com/RevivalPMMP/PureEntitiesX/issues/315" data-hovercard-type="pull_request" data-hovercard-url="/RevivalPMMP/PureEntitiesX/pull/315/hovercard" href="https://github.com/RevivalPMMP/PureEntitiesX/pull/315">#315</a>)
+<ul>
+<li>
+<ul>
+<li>Scheduler Nuke update.  This should bring PureEntitiesX into compliance with this update in PocketMine-MP:</li>
+</ul>
+</li>
+<li><a class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="327756891" data-permission-text="Issue title is private" data-url="https://github.com/pmmp/PocketMine-MP/issues/2213" data-hovercard-type="pull_request" data-hovercard-url="/pmmp/PocketMine-MP/pull/2213/hovercard" href="https://github.com/pmmp/PocketMine-MP/pull/2213">pmmp/PocketMine-MP#2213</a></li>
+<li></li>
+<li>
+<ul>
+<li>Remove Unused Test Class: This removes a class that was created for testing the Jumping Animal class.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update Biome usage.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Refactor initEntity to include return type declaration.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Refactor saveNBT to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Refactor spawnTo to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Refactor attack to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Refactor getSaveId to include string return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Refactor knockBack to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update methods for motion.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>PureEntities: Fix usage of ItemEntity in peremove command.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update API version number.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>FlyingEntity: Fix missed conversion of individual motion coordinates to Vector3</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Blaze: Remove unused import.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Vex: Remove unused imports.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Husk: Refactor setHealth to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Vindicator: Refactor setHealth to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Witch: Refactor setHealth to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>WitherSkeleton: Refactor setHealth to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Zombie: Refactor getSaveId to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>ZombiePigman: Refactor setHealth to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update bounding box mmethods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Sheep: Update ByteTag creation.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Wolf: Update Bounding Box methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>InteractionHelper: Update Bounding Box methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update usage of isInsideOfWater to isUnderwater.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>MobEquipment: Update Bounding Box methods uses.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>WalkingAnimal: Remove unused import.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Evoker: Remove Unused imports.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>FireBall: Refactor spawnTo to include void return type.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>WalkingEntity: Fix updateMove to use ItemEntity instead of Item</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>EventListener: Update Scheduler Methods.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>WalkingEntity: Cleanup unnecessary import from Scheduler update.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Spawner: Update NBT Methods to utilize new API standards for Tiles.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>Update version number to reflect changes.</li>
+</ul>
+</li>
+<li></li>
+<li>
+<ul>
+<li>BiomeInfo: Remove extra space.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Update Mobs to not drop Experience unless damaged by a player.</li>
+<li>Update Version to reflect changes.</li>
+<li>Update target PocketMine version.</li>
+<li>Update version number for testing purposes.</li>
+<li>Update version number to reflect compatibility changes.</li>
+<li>Use Late Static Binding to reduce code duplication.</li>
+<li>WalkingEntity: Better Random Location selection.  Changed to have closer targets and smaller move times to mimic vanilla behavior.</li>
+<li>Wither Skeleton: Code Reduction.  Wither Skeletons are a variant of Skeletons with modified behaviour.  They should be considered an instance of Skeleton during checks.</li>
+<li>WitherSkeleton: Add equipDefaultMainHand to replace bow with stone sword.</li>
+</ul>

@@ -1,0 +1,119 @@
+<h2>
+<a id="user-content-overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+<p><strong>ServerChannels</strong> is a powerful chat channelling plugin for PocketMine-MP.
+You can create highly customizable chat channels on your MC:PE server thanks to this plugin.</p>
+<p><em><strong>Features:</strong></em></p>
+<ul>
+<li>
+<em>Custom format:</em> customize the channel format with colors and tags</li>
+<li>
+<em>Hidden/Unhidden channels:</em> customize channel visibility (hidden channels messages will be seen only by players who joined that channels, unhidden channels messages will be seen by all players)</li>
+<li>
+<em>Custom channels authentication:</em> create whitelisted channels, protect them with a password or leave them accessible by all players</li>
+</ul>
+<p><strong>New Website:</strong> <a href="https://flavius12.net/pocketmine-plugins/" rel="nofollow">https://flavius12.net/pocketmine-plugins/</a></p>
+<h2>
+<a id="user-content-create-and-configure-a-channel" class="anchor" href="#create-and-configure-a-channel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create and configure a channel</h2>
+<p><em>Remember that you must have the "serverchannels.channels.&lt;channel&gt;" permission to join the channel</em></p>
+<ol>
+<li>Run the command "/sch create &lt;channel&gt;"<br>
+</li>
+<li>Open "channels.yml" file inside plugin configuration folder and open it<br>
+This is a channel config file entry:</li>
+</ol>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> Channel name</span>
+<span class="pl-ent">channel_name</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Channel prefix</span>
+  <span class="pl-ent">prefix</span>: <span class="pl-s"><span class="pl-pds">"</span>&amp;7[&amp;bExampleChannel&amp;7]<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span> Channel suffix</span>
+  <span class="pl-ent">suffix</span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span> Channel format</span>
+  <span class="pl-c"><span class="pl-c">#</span> Available Tags:</span>
+  <span class="pl-c"><span class="pl-c">#</span>  - {MESSAGE}: Show message</span>
+  <span class="pl-c"><span class="pl-c">#</span>  - {PLAYER}: Show player name</span>
+  <span class="pl-c"><span class="pl-c">#</span>  - {PREFIX}: Show prefix</span>
+  <span class="pl-c"><span class="pl-c">#</span>  - {SUFFIX}: Show suffix</span>
+  <span class="pl-c"><span class="pl-c">#</span>  - {TIME}: Show current time</span>
+  <span class="pl-c"><span class="pl-c">#</span>  - {WORLD}: Show world name</span>
+  <span class="pl-ent">format</span>: <span class="pl-s"><span class="pl-pds">"</span>{PREFIX} &amp;7{PLAYER}: &amp;f{MESSAGE}<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span> Channel visiblity (true if you want that channel messages will be seen by players in the channel only, false if you want that channel messages will be seen by all players)</span>
+  <span class="pl-ent">hidden</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span> Channel authentication (0 or "none" = no authentication, 1 or "password" = password authentication, 2 or "whitelist" = whitelisted channel)</span>
+  <span class="pl-ent">auth</span>: <span class="pl-s"><span class="pl-pds">"</span>none<span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span> Channel password (this field is ignored unless auth is set to 1 or "password")</span>
+  <span class="pl-ent">password</span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span> Channel whitelisted players array (this field is ignored unless auth is set to 2 or "whitelist")</span>
+  <span class="pl-ent">whitelist</span>: <span class="pl-s">[]</span></pre></div>
+<h2>
+<a id="user-content-configuration-configyml" class="anchor" href="#configuration-configyml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration (config.yml)</h2>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-c"><span class="pl-c">#</span> Date\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php</span>
+<span class="pl-ent">datetime-format</span>: <span class="pl-s"><span class="pl-pds">"</span>H:i:s<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Log channel messages on console</span>
+<span class="pl-ent">log-on-console</span>: <span class="pl-c1">true</span>
+<span class="pl-c"><span class="pl-c">#</span> Default channel settings</span>
+<span class="pl-ent">default-channel</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Enable default (join) channel</span>
+  <span class="pl-ent">enabled</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span> Default (join) channel</span>
+  <span class="pl-ent">channel</span>: <span class="pl-s"><span class="pl-pds">"</span>users<span class="pl-pds">"</span></span>
+...</pre></div>
+<h2>
+<a id="user-content-commands--permissions" class="anchor" href="#commands--permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands &amp; Permissions</h2>
+<p><strong>Commands:</strong></p>
+<p><em><strong>/serverchannels</strong></em> <em>- ServerChannels commands (aliases: [serverch, sch])</em><br>
+<em><strong>/sch info</strong></em> <em>- Show info about this plugin</em><br>
+<em><strong>/sch help</strong></em> <em>- Show help about this plugin</em><br>
+<em><strong>/sch reload</strong></em> <em>- Reload the config</em><br>
+<em><strong>/sch create &lt;channel&gt;</strong></em> <em>- Create a new channel</em><br>
+<em><strong>/sch join &lt;channel&gt; [password]</strong></em> <em>- Join a channel</em><br>
+<em><strong>/sch leave</strong></em> <em>- Leave the current channel</em><br>
+<em><strong>/sch list</strong></em> <em>- Show the list of all channels</em><br></p>
+<p><strong>Permissions:</strong></p>
+<ul>
+<li>
+<dd><i><b>serverchannels.*</b> - ServerChannels permissions.</i></dd>
+</li>
+<li>
+<dd><i><b>serverchannels.channels.*</b> - ServerChannels channels permissions.</i></dd>
+</li>
+<li>
+<dd><i><b>serverchannels.commands.*</b> - ServerChannels commands permissions.</i></dd>
+</li>
+<li>
+<dd><i><b>serverchannels.commands.help</b> - ServerChannels command Help permission.</i></dd>
+</li>
+<li>
+<dd><i><b>serverchannels.commands.info</b> - ServerChannels command Info permission.</i></dd>
+</li>
+<li>
+<dd><i><b>serverchannels.commands.reload</b> - ServerChannels command Reload permission.</i></dd>
+</li>
+<li>
+<dd><i><b>serverchannels.commands.create</b> - ServerChannels command New permission.</i></dd>
+</li>
+<li>
+<dd><i><b>serverchannels.commands.join</b> - ServerChannels command Join permission.</i></dd>
+</li>
+<li>
+<dd><i><b>serverchannels.commands.leave</b> - ServerChannels command Leave permission.</i></dd>
+</li>
+<li>
+<dd><i><b>serverchannels.commands.list</b> - ServerChannels command List permission.</i></dd>
+</li>
+</ul>
+<h2>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h2>
+<p>Almost all our plugins have API access to widely extend their features.</p>
+<p>To access ServerChannels API:<br>
+<em>1. Define the plugin dependency in plugin.yml (you can check if ServerChannels is installed in different ways):</em></p>
+<div class="highlight highlight-source-yaml"><pre><span class="pl-ent">depend</span>: <span class="pl-s">[ServerChannels]</span></pre></div>
+<p><em>2. Include ServerChannels API in your plugin code:</em></p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-c">//ServerChannels API</span>
+<span class="pl-k">use</span> <span class="pl-v">ServerChannels</span>\<span class="pl-v">ServerChannels</span>;</pre></div>
+<p><em>3. Access the API by doing:</em></p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-v">ServerChannels</span>::<span class="pl-en">getAPI</span>()</pre></div>
+<h2>
+<a id="user-content-donate" class="anchor" href="#donate" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Donate</h2>
+<p>Please support the development of this plugin with a small donation by clicking <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=flavius.c.1999@gmail.com&amp;lc=US&amp;item_name=www.evolsoft.tk&amp;no_note=0&amp;cn=&amp;curency_code=EUR&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" rel="nofollow"><g-emoji class="g-emoji" alias="dollar" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4b5.png">💵</g-emoji> here</a>.
+Your small donation will help me paying web hosting, domains, buying programs (such as IDEs, debuggers, etc...) and new hardware to improve software development. Thank you <g-emoji class="g-emoji" alias="smile" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png">😄</g-emoji></p>

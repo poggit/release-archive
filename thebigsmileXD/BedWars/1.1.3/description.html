@@ -1,0 +1,27 @@
+<p>A new BedWars plugin by XenialDan</p>
+<h2>
+<a id="user-content-setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h2>
+<p>Set up an arena:
+Use the command <code>/bw setup</code> to open an ui, where you can add, create and modify arenas.</p>
+<p>It allows you to create item spawners, set team spawn points, build in the world and create villager shops.</p>
+<p>Remember to use <code>/bw endsetup</code> when you are done - it automatically saves and backs up the world.</p>
+<p>There are <code>{arenaname}.json</code> files, where you can modify some settings like team damaging and breakable blocks.</p>
+<h2>
+<a id="user-content-joining--sign-setup" class="anchor" href="#joining--sign-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Joining / Sign setup</h2>
+<p>Joining is done by using signs, but you can add any event for joining that you'd like - in JoinEventListener.php</p>
+<p>Sign setup:</p>
+<pre><code>L1: [BedWars]
+L2: mapname
+L3: 
+L4: 
+</code></pre>
+<h2>
+<a id="user-content-rewards-and-win-messages" class="anchor" href="#rewards-and-win-messages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rewards and win messages</h2>
+<p>If you want to give rewards to the winning player/team, you can either listen for the <code>WinEvent</code> in any plugin, or use <a href="https://github.com/thebigsmileXD/gamereward">gamereward</a></p>
+<h2>
+<a id="user-content-todos" class="anchor" href="#todos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TODOs</h2>
+<ul>
+<li>[ ] Settings for villager shop (entity used, items)</li>
+<li>[ ] Spectator mode</li>
+<li>[ ] Scoreboard</li>
+</ul>

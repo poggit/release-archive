@@ -1,0 +1,30 @@
+<h1>ExplosiveArrows</h1>
+<p><strong>PocketMine Plugin</strong></p>
+<h3>About</h3>
+<p>ExplosiveArrows allows players to wreak explosive havoc on your server. You can set the default settings for explosions<br>
+in the Settings.yml configuration file, however you should note that these settings can be overridden through the use of<br>
+NBT. You can give yourself and other players bows that carry their own explosion settings, this allows you to create<br>
+extremely rare lethal weapons. Beware that if a bow overrides the the terrain-damage option one arrow could quite<br>
+literally destroy your entire server.</p>
+<h4>So how do I give myself these awesome explosive bows?</h4>
+<p>Good question! There are two ways you can give yourself a custom bow, both are relatively easy.</p>
+<p><strong>Method #1</strong></p>
+<p>This will give a player a bow using the command within this plugin.</p>
+<pre><code>/givebow &lt;player&gt; &lt;explosion size&gt; &lt;terrain damage&gt; &lt;custom name&gt;
+
+Example:
+
+/givebow Jack 4 no §l§6Explosive Bow
+</code></pre>
+<p>This will give a player named Jack a bow named §l§6Explosive Bow with an explosion size of 4 and will not do terrain<br>
+damage.</p>
+<p><strong>Method #2</strong></p>
+<p>This will give a player a bow using the default /give command.</p>
+<pre><code>/give bow 0 1 &lt;player&gt; "{display:{Name:\"§r&lt;custom name&gt;§r\"},ExplosionSize:&lt;explosion size&gt;i,TerrainDamage:&lt;terrain damage&gt;
+
+Example:
+
+/give bow 0 1 Jack "{display:{Name:\"§r§l§cVERY Explosive Bow§r\"},ExplosionSize:12i,TerrainDamage:1}
+</code></pre>
+<p>This will give a player named Jack a bow named §l§cVERY Explosive Bow with an explosion size of 12 and will do terrain<br>
+damage.</p>

@@ -1,0 +1,62 @@
+<h3>
+<a id="user-content-connect-your-minecraft-pocketmine-server-chat-and-console-to-a-discord-channel" class="anchor" href="#connect-your-minecraft-pocketmine-server-chat-and-console-to-a-discord-channel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Connect your Minecraft PocketMine server chat and console to a Discord channel.</h3>
+<ul>
+<li>Outputs player chat and commands to a Discord channel</li>
+<li>Option to output the console to the same Discord channel</li>
+</ul>
+<h2>
+<a id="user-content-getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started</h2>
+<p><a href="https://camo.githubusercontent.com/f600c2f5de3d1fbaec39125c0bc6705289ee3a8a/68747470733a2f2f692e696d6775722e636f6d2f33696a73486d682e706e67" target="_blank" rel="nofollow"><img align="right" src="https://camo.githubusercontent.com/f600c2f5de3d1fbaec39125c0bc6705289ee3a8a/68747470733a2f2f692e696d6775722e636f6d2f33696a73486d682e706e67" width="30%" data-canonical-src="https://i.imgur.com/3ijsHmh.png" style="max-width:100%;"></a></p>
+<p>It's is easy to get going...</p>
+<ol>
+<li>Download the latest release and place it in your plugins folder</li>
+<li>Restart your Minecraft server. This will create a MCPEDiscordRelay folder containing the config.yml file in your plugins folder</li>
+<li>Open your Discord server and create or open a chat channel</li>
+<li>Click on the settings icon beside your chat channel name</li>
+<li>Click Webhooks and New</li>
+<li>Click "Copy" under the Webhook URL</li>
+<li>In the config.yml file, paste the Webhook URL in the discord_webhook_url option</li>
+<li>Restart your Minecraft server</li>
+</ol>
+<p>You should now see your server outputting to your Discord channel.</p>
+<h2>
+<a id="user-content-getting-help" class="anchor" href="#getting-help" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting help</h2>
+<p>If you think you have found a problem, or would like to see a feature, please <a href="https://github.com/nomadjimbob/MCPEDiscordRelay/issues">open an issue</a>.</p>
+<p>If you are a coder, feel free to create a pull request, but please be detailed about your changes!</p>
+<h2>
+<a id="user-content-detailed-configuration" class="anchor" href="#detailed-configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Detailed configuration</h2>
+<ul>
+<li>
+<strong>enabled</strong> (true|false) - If the plugin is to be loaded or not</li>
+<li>
+<strong>discord_webhook_url</strong> (string) - The Discord Webhook URL to use when connecting to Discord</li>
+<li>
+<strong>discord_webhook_name</strong> (string) - The username the plugin uses in Discord</li>
+<li>
+<strong>discord_webhook_refresh</strong> (number) - The amount of seconds to wait before updating Discord. Setting this number too low may cause Discord to take spam action</li>
+<li>
+<strong>discord_webhook_override</strong> (true|false) - The plugin verifies the Discord Webhook URL against its own internal checks. If the plugin thinks your Webhook URL is wrong, it will disable itself. If you know better, set this to true to override the check</li>
+<li>
+<strong>send_console</strong> (true|false) - The default is to just send player chat and commands to Discord. If you would like to also send the servers console, set this to true</li>
+</ul>
+<h4>
+<a id="user-content-discord-embed-options" class="anchor" href="#discord-embed-options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Discord Embed options</h4>
+<p>The following discord webhook embeds are not used by the official discord clients, but maybe used by others. These options maybe removed in the future when removed from the Discord API as they short be considered deprecated.</p>
+<ul>
+<li>
+<strong>discord_webhook_title</strong> (string) - The embed title string to send to Discord.</li>
+<li>
+<strong>discord_webhook_description</strong> (string) - The embed description string to send to Discord</li>
+<li>
+<strong>discord_webhook_color</strong> (hex color|number) - The embed color to send to Discord. Hex colors must start with a hashtag</li>
+<li>
+<strong>discord_webhook_footer</strong> (string) - The embed footer to send to Discord</li>
+</ul>
+<h2>
+<a id="user-content-known-issues" class="anchor" href="#known-issues" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Known Issues</h2>
+<p>This plugin will not work on servers hosted on specific devices that do not have 'cURL' installed (eg android phone).</p>
+<h2>
+<a id="user-content-final-mention" class="anchor" href="#final-mention" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Final mention</h2>
+<ul>
+<li>Based off the plugins MCPEToDiscord by JaxkDev and DiscordMCPE by NiekertDev</li>
+</ul>

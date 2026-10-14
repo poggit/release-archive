@@ -1,0 +1,94 @@
+{
+    "id": 10443,
+    "name": "HotBlock",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/HotBlock/1.2.0",
+    "tagline": "A funny PvP minigame",
+    "artifact_url": "https://poggit.pmmp.io/r/189944",
+    "downloads": 138,
+    "score": null,
+    "repo_id": 51218370,
+    "repo_name": "survanetwork/HotBlock",
+    "project_id": 386,
+    "project_name": "HotBlock",
+    "build_id": 142917,
+    "build_number": 77,
+    "build_commit": "d6dba6a3d8cbacbb4e183a3a6db3a25931bf68cb",
+    "description_url": "https://poggit.pmmp.io/r/189941",
+    "icon_url": "https://raw.githubusercontent.com/survanetwork/HotBlock/d6dba6a3d8cbacbb4e183a3a6db3a25931bf68cb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/189943",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1660569526,
+    "state": 5,
+    "last_state_change_date": 1660592740,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "block",
+        "economy",
+        "minigame",
+        "pvp"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "InfoAPI",
+            "version": "1.2.0",
+            "depRelId": 8928,
+            "isHard": false
+        },
+        {
+            "name": "Capital",
+            "version": "0.1.2",
+            "depRelId": 9198,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "jarne"
+        ],
+        "Contributor": [
+            "SOF3",
+            "Tr0j4n9",
+            "Fanzho666"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

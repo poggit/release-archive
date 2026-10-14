@@ -1,0 +1,62 @@
+{
+    "id": 2351,
+    "name": "Uncensor",
+    "version": "0.2.0",
+    "html_url": "https://poggit.pmmp.io/p/Uncensor/0.2.0",
+    "tagline": "Circumvents Microsoft's terrible Minecraft built-in chat filter",
+    "artifact_url": "https://poggit.pmmp.io/r/50062",
+    "downloads": 67,
+    "score": null,
+    "repo_id": 99370026,
+    "repo_name": "dktapps-pm-pl/Uncensor",
+    "project_id": 4556,
+    "project_name": "Uncensor",
+    "build_id": 54853,
+    "build_number": 1,
+    "build_commit": "2bbeb532a01a1980a76b6bb8301c18e290a77fcd",
+    "description_url": "https://poggit.pmmp.io/r/50061",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1548332811,
+    "state": 5,
+    "last_state_change_date": 1548332816,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "mcpe",
+        "pocketmine-plugin",
+        "swear-filter",
+        "antiantiswearfilter",
+        "censor",
+        "uncensor"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "dktapps"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

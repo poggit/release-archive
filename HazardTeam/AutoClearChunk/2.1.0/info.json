@@ -1,0 +1,92 @@
+{
+    "id": 7657,
+    "name": "AutoClearChunk",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/AutoClearChunk/2.1.0",
+    "tagline": "Auto clear the chunk if there is no player in chunk",
+    "artifact_url": "https://poggit.pmmp.io/r/142265",
+    "downloads": 1201,
+    "score": 5,
+    "repo_id": 408124160,
+    "repo_name": "HazardTeam/AutoClearChunk",
+    "project_id": 9747,
+    "project_name": "AutoClearChunk",
+    "build_id": 112195,
+    "build_number": 11,
+    "build_commit": "d531f0bd6d99982c0b9691d9ad5dc16c8bf7668d",
+    "description_url": "https://poggit.pmmp.io/r/142262",
+    "icon_url": "https://raw.githubusercontent.com/HazardTeam/AutoClearChunk/d531f0bd6d99982c0b9691d9ad5dc16c8bf7668d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/142264",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1632219850,
+    "state": 5,
+    "last_state_change_date": 1632222226,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp-plugin",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.21.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "Endermanbugzjfc",
+            "XanderID"
+        ],
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "260f0cee8615ac6eedc46922a5e7b4319214f8e4",
+            "build_id": 108000
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+<h1>
+<a id="user-content-autoexp" class="anchor" href="#autoexp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>AutoEXP</h1>
+<p>A simple plugin that reduces server lag removing xp orbs</p>
+<p><strong>Features:</strong></p>
+<ul>
+<li>Completely customizable</li>
+<li>You can decide the worlds affected by the plugin</li>
+<li>Automatically transfers all the xp in your xp bar without spawning xp orbs</li>
+<li>Allows you to override xp bottle</li>
+</ul>
+<h1>
+<a id="user-content-config" class="anchor" href="#config" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config:</h1>
+<pre><code>
+---
+# Removes xp drops from mining minerals and adds them to your xp bar
+breaking-experience: true
+
+# Removes xp drops from killing players and adds them to your xp bar
+killing-experience: true
+
+# Decides in which worlds the previous options are active.
+# Example ["WorldName1,"WorldName2"]
+# use worlds: "all" if you want to activate them in every world
+worlds: ["World1","World2"]
+
+# Override pocketmine's xp botte so the xp goes directly into the player's xp bar
+override-experience-bottle: false
+
+---
+</code></pre>

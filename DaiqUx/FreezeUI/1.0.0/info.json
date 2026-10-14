@@ -1,0 +1,70 @@
+{
+    "id": 11777,
+    "name": "FreezeUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FreezeUI/1.0.0",
+    "tagline": "You can freeze players from certain actions and it's easy to use with the UI",
+    "artifact_url": "https://poggit.pmmp.io/r/213439",
+    "downloads": 941,
+    "score": null,
+    "repo_id": 658605778,
+    "repo_name": "DaiqUx/FreezeUI",
+    "project_id": 12691,
+    "project_name": "FreezeUI",
+    "build_id": 157905,
+    "build_number": 2,
+    "build_commit": "6a1e83cdcbce8bd2dc48fd95de74eb618df5ef81",
+    "description_url": "https://poggit.pmmp.io/r/213441",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687763200,
+    "state": 5,
+    "last_state_change_date": 1687902848,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "formapi",
+        "freeze",
+        "freezeui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "DaiqUx"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "26fac36e585c1b6d5a10a99bdcb70f6539b397aa",
+            "build_id": 157517
+        }
+    ]
+}

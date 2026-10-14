@@ -1,0 +1,86 @@
+{
+    "id": 5864,
+    "name": "Parties",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Parties/2.0.0",
+    "tagline": "A parties plugin for PocketMine-MP servers",
+    "artifact_url": "https://poggit.pmmp.io/r/113758",
+    "downloads": 651,
+    "score": 5,
+    "repo_id": 277870148,
+    "repo_name": "didacdelolmo/Parties",
+    "project_id": 7416,
+    "project_name": "Parties",
+    "build_id": 95398,
+    "build_number": 31,
+    "build_commit": "455fd58d875300c98b86d39b9364dd10053e23e7",
+    "description_url": "https://poggit.pmmp.io/r/113755",
+    "icon_url": "https://raw.githubusercontent.com/Diduhless/Parties/455fd58d875300c98b86d39b9364dd10053e23e7/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/113757",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1611179547,
+    "state": 5,
+    "last_state_change_date": 1611192431,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "fiesta",
+        "friends",
+        "parties",
+        "party"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "jasonwynn10",
+            "andresbytes"
+        ],
+        "Collaborator": [
+            "Diduhless"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEasyUI",
+            "project_id": 7632,
+            "repo_id": 281477433,
+            "repo_name": "dresnite/easyui",
+            "repo_path": "",
+            "build_commit": "58f6fc4a735974b1a67d7d33cc8e294d45ff562a",
+            "build_id": 87224
+        }
+    ]
+}

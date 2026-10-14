@@ -1,0 +1,92 @@
+{
+    "id": 10881,
+    "name": "DeathInventoryLog",
+    "version": "0.1.0",
+    "html_url": "https://poggit.pmmp.io/p/DeathInventoryLog/0.1.0",
+    "tagline": "A PocketMine-MP plugin that logs inventory contents of players right before their death (API 4)",
+    "artifact_url": "https://poggit.pmmp.io/r/198498",
+    "downloads": 176,
+    "score": 5,
+    "repo_id": 346317424,
+    "repo_name": "Muqsit/DeathInventoryLog",
+    "project_id": 8662,
+    "project_name": "DeathInventoryLog",
+    "build_id": 148726,
+    "build_number": 29,
+    "build_commit": "f3a109599296993e9fb7f6a1f6a53596e07cef30",
+    "description_url": "https://poggit.pmmp.io/r/198495",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/198497",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1672020917,
+    "state": 5,
+    "last_state_change_date": 1672032626,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "death",
+        "inventory",
+        "log",
+        "logging"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "16c3cfe3ddf833cdf244fa38fa8760fccdead640",
+            "build_id": 140406
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "36d1a816ac724d30f0801ef322ade86039059d25",
+            "build_id": 142604
+        },
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "a7cb81b740a707ca28749238906a91952d01fe9f",
+            "build_id": 147804
+        }
+    ]
+}

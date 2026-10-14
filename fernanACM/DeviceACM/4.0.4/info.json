@@ -1,0 +1,88 @@
+{
+    "id": 13169,
+    "name": "DeviceACM",
+    "version": "4.0.4",
+    "html_url": "https://poggit.pmmp.io/p/DeviceACM/4.0.4",
+    "tagline": "Simple tag to see your health, hunger, cps, connection, faction and device you use.",
+    "artifact_url": "https://poggit.pmmp.io/r/241422",
+    "downloads": 2552,
+    "score": null,
+    "repo_id": 466277026,
+    "repo_name": "fernanACM/DeviceACM",
+    "project_id": 10743,
+    "project_name": "DeviceACM",
+    "build_id": 176843,
+    "build_number": 27,
+    "build_commit": "c4c36dcc4daeaa52b4ab7e2298cc038e023f61c5",
+    "description_url": "https://poggit.pmmp.io/r/241419",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/DeviceACM/c4c36dcc4daeaa52b4ab7e2298cc038e023f61c5/icon-deviceacm.png",
+    "changelog_url": "https://poggit.pmmp.io/r/241421",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1718379461,
+    "state": 5,
+    "last_state_change_date": 1718395502,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "ACM",
+        "Device",
+        "DeviceACM",
+        "Plataform",
+        "Scoretag",
+        "Tag"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        }
+    ]
+}

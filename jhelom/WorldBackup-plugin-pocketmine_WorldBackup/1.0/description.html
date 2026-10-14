@@ -1,0 +1,48 @@
+<h1>
+<a id="user-content-world-backup" class="anchor" href="#world-backup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>World Backup</h1>
+<p>Manage backup and restoration of world data.</p>
+<p>Automatic backup with customizable schedule. Every day, weekly, monthly etc.</p>
+<p>Backup History Rotated and archived.</p>
+<p><a href="https://github.com/jhelom/WorldBackup-plugin-pocketmine/blob/develop/assets/console.png" target="_blank"><img src="https://github.com/jhelom/WorldBackup-plugin-pocketmine/raw/develop/assets/console.png" alt="console" style="max-width:100%;"></a></p>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<p>Commands can only be run from the server console.</p>
+<h2>
+<a id="user-content-show-list-of-backups" class="anchor" href="#show-list-of-backups" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Show List of Backups.</h2>
+<pre><code>wbackup list
+</code></pre>
+<h2>
+<a id="user-content-backup" class="anchor" href="#backup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Backup</h2>
+<pre><code>wbackup backup [world]
+</code></pre>
+<h2>
+<a id="user-content-restore" class="anchor" href="#restore" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Restore</h2>
+<pre><code>wbackup restore [world] [yyyy-mm-dd]
+</code></pre>
+<p>Restart the server using the STOP command to perform the restore.</p>
+<p>This is because restoring will be incomplete if you change the world's file while the server is running.</p>
+<p>If you want to cancel the restore, please use the "<strong>wbackup clear</strong>" command before restarting the server.</p>
+<h2>
+<a id="user-content-show-settings" class="anchor" href="#show-settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Show Settings</h2>
+<pre><code>wbackup set
+</code></pre>
+<h2>
+<a id="user-content-set-history-limit" class="anchor" href="#set-history-limit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Set History Limit</h2>
+<pre><code>wbackup set limit [int]
+</code></pre>
+<p>The default value is 10.</p>
+<p>The history limit can be set in a range from at least 3 to a maximum of 30.</p>
+<p>If the number of histories backed up exceeds the upper limit, it will be deleted from the oldest history.</p>
+<h2>
+<a id="user-content-set-backup-cycle-days" class="anchor" href="#set-backup-cycle-days" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Set Backup Cycle Days</h2>
+<pre><code>wbackup set days [int]
+</code></pre>
+<p>exsamples)</p>
+<p>Backup at 1 day interval 30 history (about 1 month)</p>
+<pre><code>wbackup set days 1
+wbackup set limit 30
+</code></pre>
+<p>Backup at weekly interval 15 histories (about 3 months)</p>
+<pre><code>wbackup set days 7
+wbackup set limit 15
+</code></pre>

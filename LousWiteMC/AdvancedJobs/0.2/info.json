@@ -1,0 +1,84 @@
+{
+    "id": 4266,
+    "name": "AdvancedJobs",
+    "version": "0.2",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedJobs/0.2",
+    "tagline": "Advanced Jobs Plugin For PMMP ",
+    "artifact_url": "https://poggit.pmmp.io/r/84022",
+    "downloads": 16787,
+    "score": 4,
+    "repo_id": 254621495,
+    "repo_name": "LousWiteMC/AdvancedJobs",
+    "project_id": 6683,
+    "project_name": "AdvancedJobs",
+    "build_id": 76195,
+    "build_number": 33,
+    "build_commit": "6d76e9d9b2374cd51f55983bb27cc13f7dcd6417",
+    "description_url": "https://poggit.pmmp.io/r/84021",
+    "icon_url": "https://raw.githubusercontent.com/LousWiteMC/AdvancedJobs/6d76e9d9b2374cd51f55983bb27cc13f7dcd6417/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1587820976,
+    "state": 5,
+    "last_state_change_date": 1588698862,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "php",
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "3.11.4",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "LousWiteMC"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "e9eefcddfbbc07d557f0ffe15fccd54ccfe6d9fb",
+            "build_id": 58074
+        }
+    ]
+}

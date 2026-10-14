@@ -1,0 +1,74 @@
+{
+    "id": 7298,
+    "name": "OreSpawners",
+    "version": "0.5.3",
+    "html_url": "https://poggit.pmmp.io/p/OreSpawners/0.5.3",
+    "tagline": "A pocketmine plugin, for adding OreSpawners (OreGens) to your server, that will produce ores over them upon placing them down.",
+    "artifact_url": "https://poggit.pmmp.io/r/136049",
+    "downloads": 1086,
+    "score": 5,
+    "repo_id": 294382244,
+    "repo_name": "RKAbdul/OreSpawners",
+    "project_id": 7727,
+    "project_name": "OreSpawners",
+    "build_id": 108294,
+    "build_number": 66,
+    "build_commit": "864425e5d841384c6104690ef7abcbf0afb97f21",
+    "description_url": "https://poggit.pmmp.io/r/138998",
+    "icon_url": "https://raw.githubusercontent.com/RKAbdul/OreSpawners/864425e5d841384c6104690ef7abcbf0afb97f21/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/139000",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1628329721,
+    "state": 5,
+    "last_state_change_date": 1628353526,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "OreGens",
+        "Ores",
+        "Plugin",
+        "Pocketmine"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "AGTHARN"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libEzTiles",
+            "project_id": 5968,
+            "repo_id": 230413415,
+            "repo_name": "DenielWorld/EzTiles",
+            "repo_path": "",
+            "build_commit": "d4db777beb6b6ccb7ec25355c218cb6e6cf5e690",
+            "build_id": 73280
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "id": 13562,
+    "name": "PlayerTitles",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerTitles/1.1.0",
+    "tagline": "Add Player Titles to your server!",
+    "artifact_url": "https://poggit.pmmp.io/r/248161",
+    "downloads": 9,
+    "score": null,
+    "repo_id": 853126813,
+    "repo_name": "MrEcstsy/PlayerTitles",
+    "project_id": 14219,
+    "project_name": "PlayerTitles",
+    "build_id": 181553,
+    "build_number": 13,
+    "build_commit": "5c4bdadc98107990b395696c54fee85c39fd5202",
+    "description_url": "https://poggit.pmmp.io/r/248158",
+    "icon_url": "https://raw.githubusercontent.com/MrEcstsy/PlayerTitles/5c4bdadc98107990b395696c54fee85c39fd5202/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/248160",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1726729975,
+    "state": 5,
+    "last_state_change_date": 1727271238,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "chat",
+        "cosmetic",
+        "player",
+        "playertags",
+        "playertitles",
+        "tag",
+        "tags",
+        "title",
+        "titles"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "RankSystem",
+            "version": "1.1.3",
+            "depRelId": 11942,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MrEcstsy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "625f33888132cfadc570be33001488d10e84f0d0",
+            "build_id": 176853
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "8121eca3f21cb9912c3ac8406a11f70cf105c905",
+            "build_id": 176820
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        },
+        {
+            "name": "ConfigUpdater",
+            "project_id": 4681,
+            "repo_id": 170193993,
+            "repo_name": "ifera-mc/ConfigUpdater",
+            "repo_path": "",
+            "build_commit": "76aa3b4cdd856d1cf7ea3498eee921414e01fb97",
+            "build_id": 167816
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "270f8ae93e3271206eadd42ca81862ab9a54f322",
+            "build_id": 174616
+        }
+    ]
+}

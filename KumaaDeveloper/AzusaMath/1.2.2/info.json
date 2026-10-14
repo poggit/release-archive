@@ -1,0 +1,76 @@
+{
+    "id": 13272,
+    "name": "AzusaMath",
+    "version": "1.2.2",
+    "html_url": "https://poggit.pmmp.io/p/AzusaMath/1.2.2",
+    "tagline": "Broadcast math problems and earn money for successful answers",
+    "artifact_url": "https://poggit.pmmp.io/r/243277",
+    "downloads": 366,
+    "score": 3,
+    "repo_id": 816262829,
+    "repo_name": "KumaaDeveloper/AzusaMath",
+    "project_id": 13939,
+    "project_name": "AzusaMath",
+    "build_id": 178090,
+    "build_number": 15,
+    "build_commit": "801489fcc379e6a9e813609a8ede62efd43c73ef",
+    "description_url": "https://poggit.pmmp.io/r/243334",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AzusaMath/801489fcc379e6a9e813609a8ede62efd43c73ef/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/243336",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1720503827,
+    "state": 5,
+    "last_state_change_date": 1720531281,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Economy",
+        "Math",
+        "Money"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": true
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

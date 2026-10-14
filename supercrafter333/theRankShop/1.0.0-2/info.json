@@ -1,0 +1,79 @@
+{
+    "id": 8193,
+    "name": "theRankShop",
+    "version": "1.0.0-2",
+    "html_url": "https://poggit.pmmp.io/p/theRankShop/1.0.0-2",
+    "tagline": "A simple and user-friendly rank shop plugin with extension support and multi-language-system.",
+    "artifact_url": "https://poggit.pmmp.io/r/150585",
+    "downloads": 280,
+    "score": null,
+    "repo_id": 419343100,
+    "repo_name": "supercrafter333/theRankShop",
+    "project_id": 9867,
+    "project_name": "theRankShop",
+    "build_id": 116995,
+    "build_number": 19,
+    "build_commit": "a03df451749b1d0169571928ca014dcd659a1e19",
+    "description_url": "https://poggit.pmmp.io/r/150582",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/150584",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638657201,
+    "state": 5,
+    "last_state_change_date": 1638688914,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "rank",
+        "ranks",
+        "rankshop",
+        "ranksystem",
+        "temprank"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "supercrafter333"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 7316,
+            "repo_id": 276418041,
+            "repo_name": "CLADevs/FormAPI-4.0",
+            "repo_path": "",
+            "build_commit": "ba0e7649b954a084e1c179a8011c0187c974cf33",
+            "build_id": 85750
+        }
+    ]
+}

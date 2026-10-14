@@ -1,0 +1,198 @@
+<h1>
+<a id="user-content-jobui" class="anchor" href="#jobui" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JobUI</h1>
+<p><a href="https://poggit.pmmp.io/p/JobUI" rel="nofollow"><img src="https://camo.githubusercontent.com/ad427f45e26e96bd844cf8ddcf8e561da5edc8d2/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f4a6f625549" alt="Plugin Status" data-canonical-src="https://poggit.pmmp.io/shield.state/JobUI" style="max-width:100%;"></a> <a href="https://poggit.pmmp.io/p/JobUI" rel="nofollow"><img src="https://camo.githubusercontent.com/1eaf28937d75304338c383a4d57676fdffbe5d29/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e6170692f4a6f625549" alt="Plugin Version" data-canonical-src="https://poggit.pmmp.io/shield.api/JobUI" style="max-width:100%;"></a> <a href="https://poggit.pmmp.io/p/JobUI" rel="nofollow"><img src="https://camo.githubusercontent.com/620137a140ccdbcf72c60d2f2925f5904c7d4b2b/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2f4a6f625549" alt="Downloads" data-canonical-src="https://poggit.pmmp.io/shield.dl/JobUI" style="max-width:100%;"></a> <a href="https://poggit.pmmp.io/p/JobUI" rel="nofollow"><img src="https://camo.githubusercontent.com/618dd9a11edd60bbdc9d879d5e410bf5dc43bb5a/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f4a6f625549" alt="Total Downloads" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/JobUI" style="max-width:100%;"></a></p>
+<ul>
+<li><strong>!!! IMPORTANT !!! if you have installed this plugin before, remove the <code>plugin_data/JobUI</code> folder then the new Yaml files will be created.</strong></li>
+<li><strong>Simple Mode &amp; Goal Mode Jobs are supported. By joining SimpleMode Jobs when you do 1 mission you will earn the specified money. By joining GoalMode Jobs when you complete the Goal you will earn the specified salary. You can change the Modes of jobs in <code>plugin_data/JobUI/jobs.yml</code></strong></li>
+<li><strong>Customisable and Infinite Jobs are supported. You can edit or add jobs in <code>plugin_data/JobUI/jobs.yml</code>.</strong></li>
+<li><strong>Customisable Messages are supported. You can change them in <code>plugin_data/JobUI/messages.yml</code></strong></li>
+<li>I changed the default permissions to "op" to prevent earning money in a "Build and Mine Protected World" like Lobby.</li>
+<li>You will learn how to let players Join Jobs and Earn Money only in a specified world, but before you need to install the PurePerms plugin.</li>
+<li>Thanks to <a href="https://github.com/h3xmor">@H3xmor</a> to help me on the line 486</li>
+</ul>
+<h3>
+<a id="user-content-default-jobs" class="anchor" href="#default-jobs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Default Jobs</h3>
+<ul>
+<li>
+<strong>Tree-Cutter:</strong> By joining this job, when you break any kind of logs with any directions you will earn 25$.</li>
+<li>
+<strong>Miner:</strong> By joining this job, when you break Stone you will earn 25$, when you break Coal Ore you will earn 30$ and when you break Iron Ore you will earn 35$.</li>
+<li>
+<strong>Hunter:</strong> By joining this job, when you kill a Mob(Animal or Monster) you will earn 30$.</li>
+<li>
+<strong>Murderer:</strong> By joining this job, when you kill a Player you will earn 50$.</li>
+<li>
+<strong>Tree-Cutter-Goal:</strong> By joining this job, when you break 20 Blocks of any kind of logs with any directions you will earn 500$.</li>
+<li>
+<strong>Miner-Goal:</strong> By joining this job, when you break 20 Blocks of Stone, Coal ore or Iron ore you will earn 600$.</li>
+<li>
+<strong>Hunter-Goal:</strong> By joining this job, when you kill 20 Mobs(Animal or Monster) you will earn 600$.</li>
+<li>
+<strong>Murderer-Goal:</strong> By joining this job, when you kill 20 Players you will earn 1000$.</li>
+</ul>
+<h3>
+<a id="user-content-dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dependencies:</h3>
+<ul>
+<li>
+<a href="https://poggit.pmmp.io/p/EconomyAPI/" rel="nofollow">EconomyAPI by onebone</a> <a href="https://poggit.pmmp.io/r/34531/EconomyAPI.phar" rel="nofollow">[Download]</a> <a href="https://github.com/poggit-orphanage/EconomyS/">[GitHub]</a> <strong>(Required)</strong>
+</li>
+<li>
+<a href="https://poggit.pmmp.io/p/PurePerms/" rel="nofollow">PurePerms by 64FF00</a> <a href="https://poggit.pmmp.io/r/70018/PurePerms.phar" rel="nofollow">[Download]</a> <a href="https://github.com/poggit-orphanage/PurePerms/">[GitHub]</a> (Optional)</li>
+<li>
+<a href="https://poggit.pmmp.io/p/MineReset/" rel="nofollow">MineReset by falkirks</a> <a href="https://poggit.pmmp.io/r/40667/MineReset.phar" rel="nofollow">[Download]</a> <a href="https://github.com/falkirks/MineReset/">[GitHub]</a> (Optional)</li>
+<li>
+<a href="https://poggit.pmmp.io/p/PureEntitiesX/" rel="nofollow">PureEntitiesX by RevivalPMMP</a> <a href="https://poggit.pmmp.io/r/93487/PureEntitiesX.phar" rel="nofollow">[Download]</a> <a href="https://github.com/RevivalPMMP/PureEntitiesX/">[GitHub]</a> (Optional)</li>
+</ul>
+<h3>
+<a id="user-content-how-to-let-players-join-jobs-and-earn-money-only-in-a-specified-world" class="anchor" href="#how-to-let-players-join-jobs-and-earn-money-only-in-a-specified-world" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to let players Join Jobs and Earn Money only in a specified world?</h3>
+<ul>
+<li><strong>How to let players Join Jobs and Earn Money only in a specified world?</strong></li>
+<li>As I said you need to install the PurePerms plugin.</li>
+<li><strong><em>Before completing the next steps, make sure that <code>enable-multiworld-perms</code> has been set to <code>true</code> in <code>plugin_data/PurePerms/config.yml</code>.</em></strong></li>
+<li>Open this file path <code>plugin_data/PurePerms/groups.yml</code>. Then the only thing that you should do is to add the world and permissions to the Group you want. I will give an example below:</li>
+</ul>
+<div class="highlight highlight-source-yaml"><pre>---
+<span class="pl-ent">Guest</span>:
+  <span class="pl-ent">alias</span>: <span class="pl-s">gst</span>
+  <span class="pl-ent">isDefault</span>: <span class="pl-c1">true</span>
+  <span class="pl-ent">inheritance</span>: <span class="pl-s">[]</span>
+  <span class="pl-ent">permissions</span>:
+  <span class="pl-ent">worlds</span>:
+    <span class="pl-ent">Mine</span>:
+      <span class="pl-ent">isDefault</span>: <span class="pl-c1">true</span>
+      <span class="pl-ent">permissions</span>:
+      - <span class="pl-s">jobui.job.tree-cutter</span>
+      - <span class="pl-s">jobui.job.miner</span>
+      - <span class="pl-s">jobui.job.tree-cutter-goal</span>
+      - <span class="pl-s">jobui.job.miner-goal</span>
+      - <span class="pl-s">jobui.earn.break</span>
+      - <span class="pl-s">jobui.progress.break</span>
+    <span class="pl-ent">Survival</span>:
+      <span class="pl-ent">isDefault</span>: <span class="pl-c1">true</span>
+      <span class="pl-ent">permissions</span>:
+      - <span class="pl-s">jobui.job.hunter</span>
+      - <span class="pl-s">jobui.job.hunter-goal</span>
+      - <span class="pl-s">jobui.earn.hunter</span>
+      - <span class="pl-s">jobui.progress.hunter</span>
+    <span class="pl-ent">PvP</span>: 
+      <span class="pl-ent">isDefault</span>: <span class="pl-c1">true</span>
+      <span class="pl-ent">permissions</span>:
+      - <span class="pl-s">jobui.job.murderer</span>
+      - <span class="pl-s">jobui.job.murderer-goal</span>
+      - <span class="pl-s">jobui.earn.murderer</span>
+      - <span class="pl-s">jobui.progress.murderer</span>
+    
+...</pre></div>
+<ul>
+<li>If a player is in the Guest group, he will be able to join "Tree-Cutter" &amp; "Miner" &amp; "Tree-Cutter-Goal" &amp; "Miner-Goal" job only in the "Mine" world</li>
+<li>If a player is in the Guest group, he will be able to join "Hunter" &amp; "Hunter-Goal" job only in the "Survival" world</li>
+<li>If a player is in the Guest group, he will be able to join "Murderer" &amp; "Murderer-Goal" job only in the "PvP" world</li>
+<li>Also, he will be able to earn money or increase the progress of a job by a "Breaking" MissionType only in the "Mine" world</li>
+<li>Also, he will be able to earn money or increase the progress of a job by a "Hunter" MissionType only in the "Survival" world</li>
+<li>Also, he will be able to earn money or increase the progress of a job by a "Murderer" MissionType only in the "PvP" world</li>
+</ul>
+<h3>
+<a id="user-content-image" class="anchor" href="#image" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Image</h3>
+<p><a href="https://camo.githubusercontent.com/eca00d2bf07c74ae880d17369b7b348ab72a1a9b/687474703a2f2f7777772e6d65646961666972652e636f6d2f636f6e766b65792f633537652f32366c64313738313961796a6e79337a672e6a7067" target="_blank" rel="nofollow"><img src="https://camo.githubusercontent.com/eca00d2bf07c74ae880d17369b7b348ab72a1a9b/687474703a2f2f7777772e6d65646961666972652e636f6d2f636f6e766b65792f633537652f32366c64313738313961796a6e79337a672e6a7067" alt="Image" data-canonical-src="http://www.mediafire.com/convkey/c57e/26ld17819ayjny3zg.jpg" style="max-width:100%;"></a></p>
+<h3>
+<a id="user-content-video" class="anchor" href="#video" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video</h3>
+<p><a href="https://www.youtube.com/watch?v=kkwxWiDJZ2k" rel="nofollow"><img src="https://camo.githubusercontent.com/e8070ecd4558b9bc8ab92f382f07af1e120f26aa/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f6b6b77785769444a5a326b2f302e6a7067" alt="Video" data-canonical-src="https://img.youtube.com/vi/kkwxWiDJZ2k/0.jpg" style="max-width:100%;"></a></p>
+<h3>
+<a id="user-content-to-do-list" class="anchor" href="#to-do-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To-Do list</h3>
+<ul>
+<li>[X] Adding Customizable feature for jobs, so that you will be able to add more jobs</li>
+<li>[X] Adding Customizable feature for texts of the UI and every messages</li>
+<li>[X] Adding Customizable feature for Button names and Images for JobJoinUI</li>
+<li>[X] Adding "Hunter" &amp; "Murderer" MissionType</li>
+<li>[X] Adding Job Modes(Simple Mode and Goal Mode)</li>
+</ul>
+<h3>
+<a id="user-content-permissions-and-commands" class="anchor" href="#permissions-and-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions and Commands:</h3>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Command</th>
+<th>Default</th>
+<th>About</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>jobui.*</td>
+<td>-</td>
+<td>op</td>
+<td>Able to use all commands, all earning ways and join all of the jobs of JobUI plugin</td>
+</tr>
+<tr>
+<td>jobui.job.*</td>
+<td>-</td>
+<td>op</td>
+<td>Able to join all of the jobs</td>
+</tr>
+<tr>
+<td>jobui.command.job</td>
+<td>/job</td>
+<td>true</td>
+<td>Able to see the UI of the Jobs</td>
+</tr>
+<tr>
+<td>jobui.command.retire</td>
+<td>/retire</td>
+<td>true</td>
+<td>Able to be retired</td>
+</tr>
+<tr>
+<td>jobui.earn.break</td>
+<td>-</td>
+<td>op</td>
+<td>Able to earn money by a Breaking Job</td>
+</tr>
+<tr>
+<td>jobui.earn.place</td>
+<td>-</td>
+<td>op</td>
+<td>Able to earn money by a Placing Job</td>
+</tr>
+<tr>
+<td>jobui.earn.hunter</td>
+<td>-</td>
+<td>op</td>
+<td>Able to earn money by a Killing Mobs Job</td>
+</tr>
+<tr>
+<td>jobui.earn.murderer</td>
+<td>-</td>
+<td>op</td>
+<td>Able to increase the progress of a job by a Killing Players Job</td>
+</tr>
+<tr>
+<td>jobui.progress.break</td>
+<td>-</td>
+<td>op</td>
+<td>Able to increase the progress of a job by a Breaking Job</td>
+</tr>
+<tr>
+<td>jobui.progress.place</td>
+<td>-</td>
+<td>op</td>
+<td>Able to increase the progress of a job by a Placing Job</td>
+</tr>
+<tr>
+<td>jobui.progress.hunter</td>
+<td>-</td>
+<td>op</td>
+<td>Able to increase the progress of a job by a Killing Mobs Job</td>
+</tr>
+<tr>
+<td>jobui.progress.murderer</td>
+<td>-</td>
+<td>op</td>
+<td>Able to increase the progress of a job by a Killing Players Job</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>You can edit each Job permission in <code>plugin_data/JobUI/jobs.yml</code>
+</li>
+</ul>

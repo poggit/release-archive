@@ -1,0 +1,94 @@
+{
+    "id": 7964,
+    "name": "Slapper",
+    "version": "1.6.2",
+    "html_url": "https://poggit.pmmp.io/p/Slapper/1.6.2",
+    "tagline": "Easy creation of NPCs!",
+    "artifact_url": "https://poggit.pmmp.io/r/147139",
+    "downloads": 1869,
+    "score": 3,
+    "repo_id": 422037891,
+    "repo_name": "vecnavium-pm-pl/Slapper",
+    "project_id": 9928,
+    "project_name": "Slapper",
+    "build_id": 115035,
+    "build_number": 100,
+    "build_commit": "e1354f1ee83a8cb240bd1c3e83a414fc7c64b819",
+    "description_url": "https://poggit.pmmp.io/r/148537",
+    "icon_url": "https://raw.githubusercontent.com/Vecnavium/Slapper/e1354f1ee83a8cb240bd1c3e83a414fc7c64b819/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/148539",
+    "license": "custom",
+    "license_url": "https://poggit.pmmp.io/r/148540",
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1636257523,
+    "state": 5,
+    "last_state_change_date": 1636270199,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "npc",
+        "slapper"
+    ],
+    "api": [
+        {
+            "from": "3.13.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "SlapBack",
+            "version": "1.0.0",
+            "depRelId": 7980,
+            "isHard": false
+        },
+        {
+            "name": "SlapperRotation",
+            "version": "1.2.1",
+            "depRelId": 7981,
+            "isHard": false
+        },
+        {
+            "name": "SlapperCooldown",
+            "version": "1.0.0",
+            "depRelId": 7982,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "JackNoordhuis",
+            "dktapps",
+            "Xenophilicy",
+            "JavierLeon9966",
+            "cosmicnebula200"
+        ],
+        "Collaborator": [
+            "jojoe77777",
+            "DuoIncure",
+            "Vecnavium"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,133 @@
+{
+    "id": 11971,
+    "name": "PiggyFactions",
+    "version": "2.1.0",
+    "html_url": "https://poggit.pmmp.io/p/PiggyFactions/2.1.0",
+    "tagline": "A modern open source factions plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/216842",
+    "downloads": 3401,
+    "score": null,
+    "repo_id": 256182309,
+    "repo_name": "DaPigGuy/PiggyFactions",
+    "project_id": 6879,
+    "project_name": "PiggyFactions",
+    "build_id": 159940,
+    "build_number": 200,
+    "build_commit": "ca5ebb3ed2cd559e0007172e957b0b7b3a443d36",
+    "description_url": "https://poggit.pmmp.io/r/216839",
+    "icon_url": "https://raw.githubusercontent.com/DaPigGuy/PiggyFactions/ca5ebb3ed2cd559e0007172e957b0b7b3a443d36/resources/PiggyFactions-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/216841",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689470109,
+    "state": 5,
+    "last_state_change_date": 1689599352,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "factions"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "ScoreHud",
+            "version": "7.0.1",
+            "depRelId": 9390,
+            "isHard": false
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "3.0.12",
+            "depRelId": 11347,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "DaPigGuy",
+            "Aericio"
+        ],
+        "Contributor": [
+            "Thunder33345",
+            "SalmonDE",
+            "jasonw4331",
+            "CortexPE",
+            "Ifera",
+            "Heisenburger69"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "6a8397480257a139fabbc6c66178154d4f455851",
+            "build_id": 159934
+        },
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "cf06deec50469065abe7994bbb623f2d54ccc965",
+            "build_id": 157740
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "d81281603cdec5d48c12e9eed3a74dd2b9257dfd",
+            "build_id": 156093
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "f0ef2ec116d065e5dba3b83646b3bc97d5f433c4",
+            "build_id": 157532
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 10652,
+            "repo_id": 462073633,
+            "repo_name": "DaPigGuy/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "082bbc2cc8e0d39eedac9e4b091852f17cdc9ff9",
+            "build_id": 156933
+        }
+    ]
+}

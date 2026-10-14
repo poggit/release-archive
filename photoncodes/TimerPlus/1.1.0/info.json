@@ -1,0 +1,64 @@
+{
+    "id": 1354,
+    "name": "TimerPlus",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/TimerPlus/1.1.0",
+    "tagline": "TimerPlus is a great and beneficial plugin that starts a timer by command",
+    "artifact_url": "https://poggit.pmmp.io/r/29753",
+    "downloads": 856,
+    "score": 1,
+    "repo_id": 130991188,
+    "repo_name": "photoncodes/TimerPlus",
+    "project_id": 2676,
+    "project_name": "TimerPlus",
+    "build_id": 40805,
+    "build_number": 12,
+    "build_commit": "d407ce566d87b6769bb9c402a9e52dbc0d845809",
+    "description_url": "https://poggit.pmmp.io/r/29763",
+    "icon_url": "https://raw.githubusercontent.com/killer549/TimerPlus/d407ce566d87b6769bb9c402a9e52dbc0d845809/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/29765",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1525619680,
+    "state": 5,
+    "last_state_change_date": 1525619680,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "timerplus",
+        "timer",
+        "count-down",
+        "time"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA12",
+            "to": "3.0.0-ALPHA12"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "photoncodes"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

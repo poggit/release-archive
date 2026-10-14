@@ -1,0 +1,94 @@
+{
+    "id": 7208,
+    "name": "KygekLastPosition",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KygekLastPosition/1.0.0",
+    "tagline": "Teleport back to the position before the last teleport",
+    "artifact_url": "https://poggit.pmmp.io/r/134488",
+    "downloads": 266,
+    "score": 5,
+    "repo_id": 389090989,
+    "repo_name": "thebigcrafter/KygekLastPosition",
+    "project_id": 9379,
+    "project_name": "KygekLastPosition",
+    "build_id": 107324,
+    "build_number": 5,
+    "build_commit": "eed6b2dd82cd0d40b14becc2a3a7e723aa533bb2",
+    "description_url": "https://poggit.pmmp.io/r/134487",
+    "icon_url": "https://raw.githubusercontent.com/KygekTeam/KygekLastPosition/eed6b2dd82cd0d40b14becc2a3a7e723aa533bb2/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1627651943,
+    "state": 5,
+    "last_state_change_date": 1627921598,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekdev",
+        "kygekdevlastposition",
+        "kygekdevposition",
+        "kygekdevteleport",
+        "kygeklastposition",
+        "kygekposition",
+        "kygekraqmak",
+        "kygekteam",
+        "kygekteamposition",
+        "kygekteamteleport",
+        "kygekteleport",
+        "lastposition",
+        "position",
+        "previousposition",
+        "teleport"
+    ],
+    "api": [
+        {
+            "from": "3.18.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ",
+            "KygekDev"
+        ],
+        "Contributor": [
+            "tobydev27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "ktpmpl-cfs",
+            "project_id": 9131,
+            "repo_id": 376406148,
+            "repo_name": "thebigcrafter/ktpmpl-cfs",
+            "repo_path": "",
+            "build_commit": "7c8d56b24a1868877a47e97b2c5d0da21a33a4f6",
+            "build_id": 104492
+        }
+    ]
+}

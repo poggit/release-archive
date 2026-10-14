@@ -1,0 +1,92 @@
+{
+    "id": 14072,
+    "name": "FPS",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/FPS/1.0.0",
+    "tagline": "Advanced FPS display plugin with customizable UI, multiple display modes, and ScoreHUD integration",
+    "artifact_url": "https://poggit.pmmp.io/r/256859",
+    "downloads": 429,
+    "score": null,
+    "repo_id": 1004246696,
+    "repo_name": "usy4/FPS",
+    "project_id": 14769,
+    "project_name": "FPS",
+    "build_id": 187298,
+    "build_number": 25,
+    "build_commit": "09e63204987de445347e245a1d2d5308e60bd3a6",
+    "description_url": "https://poggit.pmmp.io/r/256858",
+    "icon_url": "https://raw.githubusercontent.com/usy4/FPS/09e63204987de445347e245a1d2d5308e60bd3a6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1750253070,
+    "state": 5,
+    "last_state_change_date": 1750259380,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "fps",
+        "frame",
+        "frames",
+        "per",
+        "second",
+        "framespersecond"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ScoreHud",
+            "version": "8.0.0",
+            "depRelId": 12550,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "usy4"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libCustomPack",
+            "project_id": 13459,
+            "repo_id": 737191731,
+            "repo_name": "LatamPMDevs/libCustomPack",
+            "repo_path": "",
+            "build_commit": "551167b7581e81baa69e73e967b0952c97a0392d",
+            "build_id": 169486
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 11604,
+            "repo_id": 516498475,
+            "repo_name": "LatamPMDevs/FormAPI",
+            "repo_path": "",
+            "build_commit": "0c88187915cbed1b9de1ddc5534e741214951863",
+            "build_id": 179092
+        }
+    ]
+}

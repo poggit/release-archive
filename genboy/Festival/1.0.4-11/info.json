@@ -1,0 +1,111 @@
+{
+    "id": 1232,
+    "name": "Festival",
+    "version": "1.0.4-11",
+    "html_url": "https://poggit.pmmp.io/p/Festival/1.0.4-11",
+    "tagline": "Custom area events plugin for Pocketmine ",
+    "artifact_url": "https://poggit.pmmp.io/r/25823",
+    "downloads": 116,
+    "score": 5,
+    "repo_id": 118138983,
+    "repo_name": "genboy/Festival",
+    "project_id": 1981,
+    "project_name": "Festival",
+    "build_id": 37725,
+    "build_number": 16,
+    "build_commit": "dabb054575f929452c81e4cad3374fe638fcfae8",
+    "description_url": "https://poggit.pmmp.io/r/25934",
+    "icon_url": "https://raw.githubusercontent.com/genboy/Festival/dabb054575f929452c81e4cad3374fe638fcfae8/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/25936",
+    "license": "lgpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1521038825,
+    "state": 5,
+    "last_state_change_date": 1521038825,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "area",
+        "arena",
+        "command",
+        "commandblock",
+        "control",
+        "custom",
+        "event",
+        "execute",
+        "flag",
+        "level",
+        "manage",
+        "minigame",
+        "protect",
+        "run",
+        "scene",
+        "section",
+        "stage",
+        "trigger"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA10",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NGGNewGen",
+            "robske110",
+            "iAtomPlaza",
+            "dearminder",
+            "notacoderr",
+            "bptube",
+            "superbobby2000"
+        ],
+        "Collaborator": [
+            "genboy"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

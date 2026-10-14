@@ -1,0 +1,57 @@
+{
+    "id": 6273,
+    "name": "AntiXray",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AntiXray/1.0.0",
+    "tagline": "A PocketMine-MP plugin that tries to prevent Xray",
+    "artifact_url": "https://poggit.pmmp.io/r/120097",
+    "downloads": 790,
+    "score": 4,
+    "repo_id": 339769020,
+    "repo_name": "HimmelKreis4865/AntiXray",
+    "project_id": 8688,
+    "project_name": "AntiXray",
+    "build_id": 99193,
+    "build_number": 5,
+    "build_commit": "de1738900c980bd698b67b5b4c179f27ee8f0fd6",
+    "description_url": "https://poggit.pmmp.io/r/120099",
+    "icon_url": "https://raw.githubusercontent.com/HimmelKreis4865/AntiXray/de1738900c980bd698b67b5b4c179f27ee8f0fd6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1616953735,
+    "state": 5,
+    "last_state_change_date": 1617317711,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "xray"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HimmelKreis4865"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

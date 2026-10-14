@@ -1,0 +1,103 @@
+{
+    "id": 12763,
+    "name": "CustomPanels",
+    "version": "1.1.43-beta",
+    "html_url": "https://poggit.pmmp.io/p/CustomPanels/1.1.43-beta",
+    "tagline": "Custom YAML Inventory Panels this BETA",
+    "artifact_url": "https://poggit.pmmp.io/r/231684",
+    "downloads": 1632,
+    "score": null,
+    "repo_id": 688192551,
+    "repo_name": "LadySara48/CustomPanels",
+    "project_id": 13380,
+    "project_name": "CustomPanels",
+    "build_id": 170143,
+    "build_number": 14,
+    "build_commit": "cd251749bbdb9de5e15fd1170d66c7edc1ca219a",
+    "description_url": "https://poggit.pmmp.io/r/231681",
+    "icon_url": "https://raw.githubusercontent.com/LadySara48/CustomPanels/cd251749bbdb9de5e15fd1170d66c7edc1ca219a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/231683",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1705863454,
+    "state": 5,
+    "last_state_change_date": 1707145687,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "gui",
+        "panels"
+    ],
+    "api": [
+        {
+            "from": "5.6.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.1.2",
+            "depRelId": 11970,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "LadySara48"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

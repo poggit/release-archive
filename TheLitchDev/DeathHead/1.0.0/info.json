@@ -1,0 +1,65 @@
+{
+    "id": 10455,
+    "name": "DeathHead",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DeathHead/1.0.0",
+    "tagline": "Drop a player head on their death.",
+    "artifact_url": "https://poggit.pmmp.io/r/190047",
+    "downloads": 1476,
+    "score": 5,
+    "repo_id": 520559565,
+    "repo_name": "TheLitchDev/DeathHead",
+    "project_id": 11673,
+    "project_name": "DeathHead",
+    "build_id": 142962,
+    "build_number": 17,
+    "build_commit": "1e7ca9c3e0900acb1284b49c2a4fbbb7c83f9ecd",
+    "description_url": "https://poggit.pmmp.io/r/190046",
+    "icon_url": "https://raw.githubusercontent.com/RealYXNG/DeathHead/1e7ca9c3e0900acb1284b49c2a4fbbb7c83f9ecd/DeathHeadIcon.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1660684788,
+    "state": 5,
+    "last_state_change_date": 1660722973,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "DropHead",
+        "Head",
+        "KillHead",
+        "PlayerDeath",
+        "PlayerHead"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RealYXNG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,81 @@
+{
+    "id": 12529,
+    "name": "HypixelBow",
+    "version": "1.2.0",
+    "html_url": "https://poggit.pmmp.io/p/HypixelBow/1.2.0",
+    "tagline": "Sound when hitting a player",
+    "artifact_url": "https://poggit.pmmp.io/r/227672",
+    "downloads": 154,
+    "score": null,
+    "repo_id": 361417995,
+    "repo_name": "kostamax27/Hypixel-Bow",
+    "project_id": 8902,
+    "project_name": "Hypixel-Bow",
+    "build_id": 167471,
+    "build_number": 70,
+    "build_commit": "f5e853d0c95933f436aeb1cd1d323338e956b7c7",
+    "description_url": "https://poggit.pmmp.io/r/227669",
+    "icon_url": "https://raw.githubusercontent.com/kostamax27/Hypixel-Bow/f5e853d0c95933f436aeb1cd1d323338e956b7c7/Hypixel-Bow.gif",
+    "changelog_url": "https://poggit.pmmp.io/r/227671",
+    "license": "GPL-3.0-only",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1698350404,
+    "state": 5,
+    "last_state_change_date": 1698430573,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Bow",
+        "hit",
+        "sound"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "kostamax27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "id": 9276,
+    "name": "pizzaplug",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/pizzaplug/1.0.0",
+    "tagline": "Buy Domino's Pizza in Minecraft!",
+    "artifact_url": "https://poggit.pmmp.io/r/166868",
+    "downloads": 32,
+    "score": 5,
+    "repo_id": 469870600,
+    "repo_name": "JustTalDevelops/pizzaplug",
+    "project_id": 10800,
+    "project_name": "pizzaplug",
+    "build_id": 126902,
+    "build_number": 5,
+    "build_commit": "6aeeeeaeb83c861ff4b93bbe765ae1e8858cfdd0",
+    "description_url": "https://poggit.pmmp.io/r/166867",
+    "icon_url": "https://raw.githubusercontent.com/JustTalDevelops/pizzaplug/6aeeeeaeb83c861ff4b93bbe765ae1e8858cfdd0/images/dominos.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1647294613,
+    "state": 5,
+    "last_state_change_date": 1647295001,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "bread",
+        "chips",
+        "dominos",
+        "pizza",
+        "sandwich",
+        "snacks"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "JustTalDevelops"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "80b10dfcc68633a3a659c57cc9e2bd50cd2166e4",
+            "build_id": 116730
+        }
+    ]
+}

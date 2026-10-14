@@ -1,0 +1,96 @@
+{
+    "id": 10589,
+    "name": "BuildBattle",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/BuildBattle/0.0.3",
+    "tagline": "BuildBattle minigame",
+    "artifact_url": "https://poggit.pmmp.io/r/193263",
+    "downloads": 1132,
+    "score": null,
+    "repo_id": 519567314,
+    "repo_name": "cooldogepm/BuildBattle",
+    "project_id": 11675,
+    "project_name": "BuildBattle",
+    "build_id": 145282,
+    "build_number": 7,
+    "build_commit": "8d37cad3c0e8faa0899c8526699a33b97477abfc",
+    "description_url": "https://poggit.pmmp.io/r/193260",
+    "icon_url": "https://raw.githubusercontent.com/cooldogedev/BuildBattle/8d37cad3c0e8faa0899c8526699a33b97477abfc/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/193262",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1663719670,
+    "state": 5,
+    "last_state_change_date": 1663737727,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Minigame"
+        }
+    ],
+    "keywords": [
+        "buildbattle",
+        "mcpe",
+        "minecraft",
+        "minigame",
+        "mysql",
+        "pmmp",
+        "pocketmine",
+        "sqlite"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "cooldogedev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libSQL",
+            "project_id": 9638,
+            "repo_id": 401502580,
+            "repo_name": "cooldogepm/libSQL",
+            "repo_path": "",
+            "build_commit": "a45fd907f6ffcd9e5600600ae4cb5c04eb1f2a8c",
+            "build_id": 141696
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "16c3cfe3ddf833cdf244fa38fa8760fccdead640",
+            "build_id": 140406
+        },
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "id": 12239,
+    "name": "KygekTagsShop",
+    "version": "1.1.3",
+    "html_url": "https://poggit.pmmp.io/p/KygekTagsShop/1.1.3",
+    "tagline": "Allow players to use tags",
+    "artifact_url": "https://poggit.pmmp.io/r/220261",
+    "downloads": 493,
+    "score": null,
+    "repo_id": 288417314,
+    "repo_name": "thebigcrafter/KygekTagsShop",
+    "project_id": 8006,
+    "project_name": "KygekTagsShop",
+    "build_id": 161964,
+    "build_number": 90,
+    "build_commit": "57f20cbded830734d46e89db583426eb549b6ae5",
+    "description_url": "https://poggit.pmmp.io/r/220258",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/220260",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": true,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1692199491,
+    "state": 5,
+    "last_state_change_date": 1692339766,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekraqmak",
+        "kygekraqmakshop",
+        "kygekraqmaktags",
+        "kygekraqmaktagsshop",
+        "kygekraqmaktagsui",
+        "kygekraqmakui",
+        "kygekshop",
+        "kygektags",
+        "kygektagsui",
+        "kygekteamshop",
+        "kygekteamtags",
+        "kygekteamtagsshop",
+        "kygekteamtagsui",
+        "kygekteamui",
+        "kygekui",
+        "shop",
+        "tags",
+        "tagsshop",
+        "tagsui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Contributor": [
+            "SOF3",
+            "UnEnanoMas",
+            "xAliTura01",
+            "Gezou",
+            "ItsToxicGG",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "NhanAZ",
+            "KygekDev",
+            "taylordevs",
+            "Kygekraqmak"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

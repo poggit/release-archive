@@ -1,0 +1,89 @@
+{
+    "id": 8531,
+    "name": "CaptchaVerification",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CaptchaVerification/1.0.0",
+    "tagline": "Now You can Verify Bot or Human to Join this server",
+    "artifact_url": "https://poggit.pmmp.io/r/156074",
+    "downloads": 1102,
+    "score": 5,
+    "repo_id": 445797537,
+    "repo_name": "MulqiGaming64/CaptchaVerification",
+    "project_id": 10286,
+    "project_name": "CaptchaVerification",
+    "build_id": 120379,
+    "build_number": 4,
+    "build_commit": "07b1fe06205397d29efe6c4a02c34e373d19632d",
+    "description_url": "https://poggit.pmmp.io/r/156073",
+    "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/CaptchaVerification/07b1fe06205397d29efe6c4a02c34e373d19632d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641642128,
+    "state": 5,
+    "last_state_change_date": 1642887585,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "captcha",
+        "captcha-image"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ImageOnMap",
+            "version": "1.0.0",
+            "depRelId": 8105,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "MulqiGaming64"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

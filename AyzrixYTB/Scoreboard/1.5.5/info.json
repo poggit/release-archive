@@ -1,0 +1,192 @@
+{
+    "id": 7570,
+    "name": "Scoreboard",
+    "version": "1.5.5",
+    "html_url": "https://poggit.pmmp.io/p/Scoreboard/1.5.5",
+    "tagline": "Simple optimized scoreboard",
+    "artifact_url": "https://poggit.pmmp.io/r/140990",
+    "downloads": 607,
+    "score": null,
+    "repo_id": 349251299,
+    "repo_name": "AyzrixYTB/Scoreboard",
+    "project_id": 8719,
+    "project_name": "Scoreboard",
+    "build_id": 111372,
+    "build_number": 37,
+    "build_commit": "d863cb2076e531107d7d613c3b743bd6ffd71b03",
+    "description_url": "https://poggit.pmmp.io/r/140987",
+    "icon_url": "https://raw.githubusercontent.com/AyzrixYTB/Scoreboard/d863cb2076e531107d7d613c3b743bd6ffd71b03/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/140989",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1631140967,
+    "state": 5,
+    "last_state_change_date": 1631158781,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "addons",
+        "ayzrix",
+        "scoreboard"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "KDR",
+            "version": "1.0.0",
+            "depRelId": 1984,
+            "isHard": false
+        },
+        {
+            "name": "SeeDevice",
+            "version": "0.0.7",
+            "depRelId": 2087,
+            "isHard": false
+        },
+        {
+            "name": "CombatLogger",
+            "version": "0.0.6",
+            "depRelId": 2222,
+            "isHard": false
+        },
+        {
+            "name": "Bounty",
+            "version": "1.1.2",
+            "depRelId": 3200,
+            "isHard": false
+        },
+        {
+            "name": "MultiEconomy",
+            "version": "2.0.0",
+            "depRelId": 3510,
+            "isHard": false
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": false
+        },
+        {
+            "name": "MultiServerCounter",
+            "version": "0.0.1",
+            "depRelId": 3653,
+            "isHard": false
+        },
+        {
+            "name": "SkyBlock",
+            "version": "3.0.0",
+            "depRelId": 4084,
+            "isHard": false
+        },
+        {
+            "name": "CoinsSystem",
+            "version": "1.2.0",
+            "depRelId": 6227,
+            "isHard": false
+        },
+        {
+            "name": "PiggyFactions",
+            "version": "1.2.0",
+            "depRelId": 6246,
+            "isHard": false
+        },
+        {
+            "name": "Prisons",
+            "version": "2.1.0",
+            "depRelId": 6562,
+            "isHard": false
+        },
+        {
+            "name": "VoteParty",
+            "version": "1.4",
+            "depRelId": 6705,
+            "isHard": false
+        },
+        {
+            "name": "RedSkyBlock",
+            "version": "5.0.1",
+            "depRelId": 6911,
+            "isHard": false
+        },
+        {
+            "name": "BankUI",
+            "version": "1.0.2",
+            "depRelId": 6982,
+            "isHard": false
+        },
+        {
+            "name": "OnlineTime",
+            "version": "1.4",
+            "depRelId": 7083,
+            "isHard": false
+        },
+        {
+            "name": "SimpleFaction",
+            "version": "1.6.5",
+            "depRelId": 7134,
+            "isHard": false
+        },
+        {
+            "name": "VanishV2",
+            "version": "2.3",
+            "depRelId": 7242,
+            "isHard": false
+        },
+        {
+            "name": "Godmode",
+            "version": "1.0.0",
+            "depRelId": 7265,
+            "isHard": false
+        },
+        {
+            "name": "MyPlot",
+            "version": "1.11.1",
+            "depRelId": 7375,
+            "isHard": false
+        },
+        {
+            "name": "FactionMaster",
+            "version": "2.3.1",
+            "depRelId": 7563,
+            "isHard": false
+        },
+        {
+            "name": "RankSystem",
+            "version": "0.0.2",
+            "depRelId": 7567,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AyzrixYTB"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

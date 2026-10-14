@@ -1,0 +1,68 @@
+{
+    "id": 1752,
+    "name": "SkyWars",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/SkyWars/1.1.0",
+    "tagline": "SkyWars minigame plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/38797",
+    "downloads": 5512,
+    "score": 4,
+    "repo_id": 132500644,
+    "repo_name": "GamakCZ/SkyWars",
+    "project_id": 2842,
+    "project_name": "SkyWars",
+    "build_id": 47161,
+    "build_number": 19,
+    "build_commit": "17965fda7cd728446be6752a6b0f3e87a33a6f8a",
+    "description_url": "https://poggit.pmmp.io/r/38794",
+    "icon_url": "https://raw.githubusercontent.com/GamakCZ/SkyWars/17965fda7cd728446be6752a6b0f3e87a33a6f8a/SkyWars/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/38796",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1533477692,
+    "state": 5,
+    "last_state_change_date": 1533477692,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "minigame",
+        "sky",
+        "skywar",
+        "skywars",
+        "sw"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "boi1216"
+        ],
+        "Requester": [
+            "derrenrafa"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

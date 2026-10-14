@@ -1,0 +1,80 @@
+{
+    "id": 6026,
+    "name": "EasyTP",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EasyTP/1.0.0",
+    "tagline": "A TP request plugin for PocketMine 3.0.0 and above",
+    "artifact_url": "https://poggit.pmmp.io/r/116306",
+    "downloads": 164,
+    "score": null,
+    "repo_id": 341541962,
+    "repo_name": "Rushil13579/EasyTP",
+    "project_id": 8591,
+    "project_name": "EasyTP",
+    "build_id": 97018,
+    "build_number": 7,
+    "build_commit": "01b4c553e08c0d3ee7d32358c1a522f2ebe236fa",
+    "description_url": "https://poggit.pmmp.io/r/116319",
+    "icon_url": "https://raw.githubusercontent.com/Rushil13579/EasyTP/01b4c553e08c0d3ee7d32358c1a522f2ebe236fa/EasyTP.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614086356,
+    "state": 5,
+    "last_state_change_date": 1614522727,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "easytp",
+        "request",
+        "teleport",
+        "teleportation",
+        "tp",
+        "tpa",
+        "tpaccept",
+        "tpahere",
+        "tpall",
+        "tpblock",
+        "tpclose",
+        "tpdeny",
+        "tphere",
+        "tpopne",
+        "tprequest",
+        "tpunblock"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Requester": [
+            "WolfDen133"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

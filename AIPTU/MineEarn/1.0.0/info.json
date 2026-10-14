@@ -1,0 +1,83 @@
+{
+    "id": 13309,
+    "name": "MineEarn",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MineEarn/1.0.0",
+    "tagline": "A PocketMine-MP plugin that can earn by mining",
+    "artifact_url": "https://poggit.pmmp.io/r/244017",
+    "downloads": 577,
+    "score": null,
+    "repo_id": 464315997,
+    "repo_name": "AIPTU/MineEarn",
+    "project_id": 10721,
+    "project_name": "MineEarn",
+    "build_id": 178663,
+    "build_number": 4,
+    "build_commit": "71333db73bcc9036aa7b4e6cdac205ee1e123c51",
+    "description_url": "https://poggit.pmmp.io/r/244016",
+    "icon_url": "https://raw.githubusercontent.com/AIPTU/MineEarn/71333db73bcc9036aa7b4e6cdac205ee1e123c51/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721284544,
+    "state": 5,
+    "last_state_change_date": 1721782559,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "pocketmine-mp",
+        "pocketmine-plugins"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "BedrockEconomy",
+            "version": "4.0.4",
+            "depRelId": 12923,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AIPTU"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "9a22d3aa3a74d195b2c4ee52fbbb121a2c270dbe",
+            "build_id": 172169
+        }
+    ]
+}

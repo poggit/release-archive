@@ -1,0 +1,63 @@
+{
+    "id": 1082,
+    "name": "MagicTelePortal",
+    "version": "1.3.2-5",
+    "html_url": "https://poggit.pmmp.io/p/MagicTelePortal/1.3.2-5",
+    "tagline": "A simple portal plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/23150",
+    "downloads": 334,
+    "score": null,
+    "repo_id": 103109762,
+    "repo_name": "poggit-orphanage/MagicTelePortal",
+    "project_id": 860,
+    "project_name": "MagicTelePortal",
+    "build_id": 35924,
+    "build_number": 8,
+    "build_commit": "d6110fd892385f149aedfb84a6e67ac6e141f8e1",
+    "description_url": "https://poggit.pmmp.io/r/23147",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/MagicTelePortal/d6110fd892385f149aedfb84a6e67ac6e141f8e1/portal-icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/23149",
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1518364838,
+    "state": 5,
+    "last_state_change_date": 1518364841,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "portal",
+        "mtp",
+        "magicportal",
+        "teleport"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA11"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alejandroliu"
+        ],
+        "Contributor": [
+            "awzaw"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,93 @@
+{
+    "id": 7149,
+    "name": "ItemSpawners",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ItemSpawners/1.0.1",
+    "tagline": "This plugin lets you to get spawners that when you break them they regenerates themselves!",
+    "artifact_url": "https://poggit.pmmp.io/r/133607",
+    "downloads": 1635,
+    "score": 5,
+    "repo_id": 386563608,
+    "repo_name": "OguzhanUmutlu/ItemSpawners",
+    "project_id": 9275,
+    "project_name": "ItemSpawners",
+    "build_id": 106840,
+    "build_number": 9,
+    "build_commit": "9eca0fa9d2af816c4d3007ab68741642099fdaba",
+    "description_url": "https://poggit.pmmp.io/r/133604",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/ItemSpawners/9eca0fa9d2af816c4d3007ab68741642099fdaba/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/133606",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1627062515,
+    "state": 5,
+    "last_state_change_date": 1627174238,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ewner",
+        "spa",
+        "spe",
+        "wner"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "eab8ac0adec2e2b094d141a9b711200183bbf268",
+            "build_id": 86018
+        }
+    ]
+}

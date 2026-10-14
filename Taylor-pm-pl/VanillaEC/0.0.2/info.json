@@ -1,0 +1,79 @@
+{
+    "id": 9919,
+    "name": "VanillaEC",
+    "version": "0.0.2",
+    "html_url": "https://poggit.pmmp.io/p/VanillaEC/0.0.2",
+    "tagline": "Additional enchants for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/179926",
+    "downloads": 2113,
+    "score": 3,
+    "repo_id": 472661788,
+    "repo_name": "Taylor-pm-pl/VanillaEC",
+    "project_id": 10833,
+    "project_name": "VanillaEC",
+    "build_id": 136018,
+    "build_number": 10,
+    "build_commit": "be7afe3585137beccffa047db91bc06fd89f84ff",
+    "description_url": "https://poggit.pmmp.io/r/179923",
+    "icon_url": "https://raw.githubusercontent.com/David-pm-pl/VanillaEC/be7afe3585137beccffa047db91bc06fd89f84ff/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/179925",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1654490052,
+    "state": 5,
+    "last_state_change_date": 1654490500,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "ce",
+        "ec",
+        "enchant",
+        "item",
+        "plugin",
+        "pmmp",
+        "vanilla"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

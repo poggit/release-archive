@@ -1,0 +1,59 @@
+{
+    "id": 13915,
+    "name": "WDInventories",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/WDInventories/1.0.0",
+    "tagline": "Separates player inventories per world",
+    "artifact_url": "https://poggit.pmmp.io/r/254130",
+    "downloads": 82,
+    "score": null,
+    "repo_id": 947254496,
+    "repo_name": "TaqdeesHigh/WDInventories",
+    "project_id": 14617,
+    "project_name": "WDInventories",
+    "build_id": 185521,
+    "build_number": 2,
+    "build_commit": "0f7ba7f29acf4e0aca863445e2e3f9c0c3b48a91",
+    "description_url": "https://poggit.pmmp.io/r/254129",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1741783429,
+    "state": 5,
+    "last_state_change_date": 1744907051,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        }
+    ],
+    "keywords": [
+        "manager",
+        "management",
+        "separate"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "TaqdeesHigh"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

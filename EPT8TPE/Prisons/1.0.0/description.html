@@ -1,0 +1,95 @@
+<h1>
+<a id="user-content-prisons" class="anchor" href="#prisons" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prisons</h1>
+<p>A pocketmine plugin implementing the legacy prison rank up system in addition to a form of prestiging.</p>
+<h1>
+<a id="user-content-how-to-install" class="anchor" href="#how-to-install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to install</h1>
+<ol>
+<li>Download the phar <a href="https://poggit.pmmp.io/ci/TPEimperialPE/Prisons/Prisons/dev:31" rel="nofollow">here</a>.</li>
+<li>Add it to your servers 'plugins' directory.</li>
+<li>Restart your server.</li>
+</ol>
+<h1>
+<a id="user-content-features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h1>
+<ul>
+<li>
+<p>Players have the ability to rank up for a specific price configurable in the config.</p>
+</li>
+<li>
+<p>Player can 'ascend' which is essentially prestiging, this resets their prison rank to A and resets their money, the rank up prices are
+then multiplied by an amount specified in the config.</p>
+</li>
+<li>
+<p>You have the option to configure permissions that are removed and given during rank up and ascension.</p>
+</li>
+<li>
+<p>All messages are configurable within the config!</p>
+</li>
+<li>
+<p>Rank names can be altered within the config.</p>
+</li>
+<li>
+<p>You have the option for a chat format which shows the players prison rank and ascension level.</p>
+</li>
+<li>
+<p>Use {PRISON_RANK} for the prison rank of a player and {PRISON_ASCENSION} for the ascension level of a player when editing chat format.</p>
+</li>
+</ul>
+<h1>
+<a id="user-content-chat-format" class="anchor" href="#chat-format" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chat Format</h1>
+<ul>
+<li>Use {PRISON_RANK} and {PRISON_ASCENSION} in the pure chat config.</li>
+</ul>
+<h1>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h1>
+<ul>
+<li>
+<p>/rankup - If the player has a sufficient amount of they are ranked up to the next prison rank.</p>
+</li>
+<li>
+<p>/ascend - If the player is at the prison rank 'z' and has a sufficient amount of money then they ascend, resetting
+their money to 0, teleporting them to a spawn location specified within the config and resetting their prison rank to
+'a'.</p>
+</li>
+</ul>
+<h1>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h1>
+<p>prisons.*:</p>
+<pre><code>default: op
+description: Allows the usage of all prison commands.
+</code></pre>
+<p>prisons.rankup:</p>
+<pre><code>default: true
+description: Allows the usage of the /rankup command.
+</code></pre>
+<p>prisons.ascend:</p>
+<pre><code>default: true
+description: Allows the usage of the /ascend command.
+</code></pre>
+<h1>
+<a id="user-content-dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dependencies</h1>
+<ul>
+<li>
+<p><a href="https://poggit.pmmp.io/p/EconomyAPI/" rel="nofollow">EconomyAPI</a> is required in order for this plugin to work, if it is not installed,
+the plugin will not work.</p>
+</li>
+<li>
+<p><a href="https://poggit.pmmp.io/p/PurePerms" rel="nofollow">PurePerms</a> is also required in order for this plugin to work, if it not installed,<br>
+the plugin will not work.</p>
+</li>
+<li>
+<p><a href="https://poggit.pmmp.io/p/PureChat/1.4.11" rel="nofollow">PureChat</a> is required only if you wish to implement the 'chat format' feature
+that comes with this plugin.</p>
+</li>
+</ul>
+<h1>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+<p>The following functions can be used by developers in the following way, what the functions do is fairly self
+explanatory:</p>
+<pre><code>Prisons::get()-&gt;getRank(string $name);
+Prisons::get()-&gt;getAscension(string $name);
+Prisons::get()-&gt;setRank(string $name, string $rank);
+Prisons::get()-&gt;setAscension(string $name, int $ascensionLevel);
+</code></pre>
+<h1>
+<a id="user-content-support" class="anchor" href="#support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support</h1>
+<p>If you require any help or assistance, are receiving any errors or have an idea/suggestion, message me on discord TPE#1061.</p>

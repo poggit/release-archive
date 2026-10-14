@@ -1,0 +1,74 @@
+{
+    "id": 6412,
+    "name": "PlayerSize",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/PlayerSize/1.1.0",
+    "tagline": "A plugin for PocketMine 3.0.0 and above which allows players change the sizes of other players!",
+    "artifact_url": "https://poggit.pmmp.io/r/122082",
+    "downloads": 724,
+    "score": null,
+    "repo_id": 342926311,
+    "repo_name": "Rushil13579/PlayerSize",
+    "project_id": 8611,
+    "project_name": "PlayerSize",
+    "build_id": 100200,
+    "build_number": 21,
+    "build_commit": "042766ae79be5afdba5396a94210aaa5e59278d8",
+    "description_url": "https://poggit.pmmp.io/r/122079",
+    "icon_url": "https://raw.githubusercontent.com/Rushil13579/PlayerSize/042766ae79be5afdba5396a94210aaa5e59278d8/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/122081",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1618073033,
+    "state": 5,
+    "last_state_change_date": 1618097377,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Player",
+        "PlayerSize",
+        "Size",
+        "Small"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Rushil13579"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

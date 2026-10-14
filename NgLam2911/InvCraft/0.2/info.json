@@ -1,0 +1,93 @@
+{
+    "id": 8040,
+    "name": "InvCraft",
+    "version": "0.2",
+    "html_url": "https://poggit.pmmp.io/p/InvCraft/0.2",
+    "tagline": "A 6x6 crafting table plugin with customable recipe.",
+    "artifact_url": "https://poggit.pmmp.io/r/148913",
+    "downloads": 426,
+    "score": 5,
+    "repo_id": 324686905,
+    "repo_name": "NgLam2911/InvCraft",
+    "project_id": 8681,
+    "project_name": "InvCraft",
+    "build_id": 116211,
+    "build_number": 24,
+    "build_commit": "592a09de6298853d25b71e6adb0ca4392b73ac4c",
+    "description_url": "https://poggit.pmmp.io/r/148915",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/148917",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1638280119,
+    "state": 5,
+    "last_state_change_date": 1638810968,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "crafting",
+        "custom-craft",
+        "inventory-craft",
+        "pocketmine-mp",
+        "pocketmine-mp-plugin"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NgLam2911"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "03557115ff8aeee324443d1dd40989d64780614e",
+            "build_id": 114839
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 9285,
+            "repo_id": 373545094,
+            "repo_name": "JinodkDevTeam/FormAPI",
+            "repo_path": "",
+            "build_commit": "b47f7afe95b7ee56608a56250f13ad81a0ed0178",
+            "build_id": 106227
+        },
+        {
+            "name": "FI-Utils",
+            "project_id": 9604,
+            "repo_id": 400360585,
+            "repo_name": "JinodkDevTeam/FI-Utils",
+            "repo_path": "",
+            "build_commit": "85dae5f14b47b09c939499a3379916bbc29c7b75",
+            "build_id": 110117
+        }
+    ]
+}

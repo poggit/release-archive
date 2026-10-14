@@ -1,0 +1,108 @@
+{
+    "id": 8383,
+    "name": "KygekRulesUI",
+    "version": "2.0.0",
+    "html_url": "https://poggit.pmmp.io/p/KygekRulesUI/2.0.0",
+    "tagline": "Adds an UI to display server rules.",
+    "artifact_url": "https://poggit.pmmp.io/r/153870",
+    "downloads": 2061,
+    "score": 2,
+    "repo_id": 282171749,
+    "repo_name": "thebigcrafter/KygekRulesUI",
+    "project_id": 7533,
+    "project_name": "KygekRulesUI",
+    "build_id": 119138,
+    "build_number": 56,
+    "build_commit": "c8737a9b0c6b8ba0905974989c947d1986930628",
+    "description_url": "https://poggit.pmmp.io/r/153876",
+    "icon_url": "https://raw.githubusercontent.com/KygekTeam/KygekRulesUI/c8737a9b0c6b8ba0905974989c947d1986930628/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/153878",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1640411962,
+    "state": 5,
+    "last_state_change_date": 1640570494,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "kygek",
+        "kygekraqmak",
+        "kygekraqmakui",
+        "kygekrules",
+        "kygekrulesui",
+        "kygekserver",
+        "kygekserverrules",
+        "kygekserverrulesui",
+        "kygekserverui",
+        "kygekteamrules",
+        "kygekteamrulesui",
+        "kygekteamserver",
+        "kygekteamserverrules",
+        "kygekteamserverui",
+        "kygekteamui",
+        "kygekui",
+        "rules",
+        "rulesui",
+        "server",
+        "serverrules",
+        "serverrulesui",
+        "serverui",
+        "ui"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "NhanAZ",
+            "KRUNCHSHooT",
+            "Kygekraqmak",
+            "tobydev27"
+        ],
+        "Collaborator": [
+            "KygekDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "bb178fbe96e80db7eb42d303d94e77497948b187",
+            "build_id": 118466
+        },
+        {
+            "name": "ktpmpl-cfs",
+            "project_id": 9131,
+            "repo_id": 376406148,
+            "repo_name": "thebigcrafter/ktpmpl-cfs",
+            "repo_path": "",
+            "build_commit": "8507143c599b8a5f6e3b112967aaf069136a10a5",
+            "build_id": 109718
+        }
+    ]
+}

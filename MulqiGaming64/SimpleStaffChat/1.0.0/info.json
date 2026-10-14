@@ -1,0 +1,69 @@
+{
+    "id": 8523,
+    "name": "SimpleStaffChat",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SimpleStaffChat/1.0.0",
+    "tagline": "a Plugin for enable player chat in staff channel",
+    "artifact_url": "https://poggit.pmmp.io/r/155892",
+    "downloads": 1040,
+    "score": null,
+    "repo_id": 445071459,
+    "repo_name": "MulqiGaming64/SimpleStaffChat",
+    "project_id": 10274,
+    "project_name": "SimpleStaffChat",
+    "build_id": 120269,
+    "build_number": 3,
+    "build_commit": "78599b06456d9a7dd949a213222b1bb56364ae42",
+    "description_url": "https://poggit.pmmp.io/r/155891",
+    "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/SimpleStaffChat/78599b06456d9a7dd949a213222b1bb56364ae42/icons.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641509899,
+    "state": 5,
+    "last_state_change_date": 1642887378,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "staffchat"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MulqiGaming64"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

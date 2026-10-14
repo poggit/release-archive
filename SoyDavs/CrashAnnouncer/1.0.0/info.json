@@ -1,0 +1,60 @@
+{
+    "id": 13759,
+    "name": "CrashAnnouncer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CrashAnnouncer/1.0.0",
+    "tagline": "Announces server crashes to Discord via webhook",
+    "artifact_url": "https://poggit.pmmp.io/r/251521",
+    "downloads": 149,
+    "score": null,
+    "repo_id": 912985169,
+    "repo_name": "SoyDavs/CrashAnnouncer",
+    "project_id": 14479,
+    "project_name": "CrashAnnouncer",
+    "build_id": 183841,
+    "build_number": 1,
+    "build_commit": "3525d8148e25040c221422096c87761d27405be6",
+    "description_url": "https://poggit.pmmp.io/r/251520",
+    "icon_url": "https://raw.githubusercontent.com/SoyDavs/CrashAnnouncer/3525d8148e25040c221422096c87761d27405be6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1736193356,
+    "state": 5,
+    "last_state_change_date": 1736262150,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "discord",
+        "crash",
+        "admin",
+        "announce"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "SoyDavs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

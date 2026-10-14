@@ -1,0 +1,109 @@
+{
+    "id": 9616,
+    "name": "SellMe",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/SellMe/1.0.0",
+    "tagline": "The Ultimate Sell plugin for PocketMine-MP 4",
+    "artifact_url": "https://poggit.pmmp.io/r/174142",
+    "downloads": 108,
+    "score": 5,
+    "repo_id": 482225697,
+    "repo_name": "cosmicnebula200/SellMe",
+    "project_id": 10969,
+    "project_name": "SellMe",
+    "build_id": 132095,
+    "build_number": 12,
+    "build_commit": "f682e9e1f3b9cc52edcf843bfedb720a768b0491",
+    "description_url": "https://poggit.pmmp.io/r/174141",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1651725652,
+    "state": 5,
+    "last_state_change_date": 1651726230,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "economy",
+        "sell"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "Capital",
+            "version": "0.1.2",
+            "depRelId": 9198,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "cosmicnebula200"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "89a1bc1f9ffb748004888e38e0479e2ec58a3fc4",
+            "build_id": 115789
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "f6d7ad676605ce2140a8adaa195e844ebae6715c",
+            "build_id": 120566
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "b0d23c1e31ca66332298514139d0701c9628c3be",
+            "build_id": 128488
+        }
+    ]
+}

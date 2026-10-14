@@ -1,0 +1,78 @@
+{
+    "id": 9226,
+    "name": "NoAdvertisings",
+    "version": "0.0.5",
+    "html_url": "https://poggit.pmmp.io/p/NoAdvertisings/0.0.5",
+    "tagline": "Block ads for other servers.",
+    "artifact_url": "https://poggit.pmmp.io/r/165924",
+    "downloads": 46,
+    "score": null,
+    "repo_id": 415589037,
+    "repo_name": "Taylor-pm-pl/NoAdvertisings",
+    "project_id": 9834,
+    "project_name": "NoAdvertisings",
+    "build_id": 126263,
+    "build_number": 19,
+    "build_commit": "9581b08d3fb90563903b884a0dde78e76e0ee305",
+    "description_url": "https://poggit.pmmp.io/r/165921",
+    "icon_url": "https://raw.githubusercontent.com/Eric-pm-pl/NoAdvertisings/9581b08d3fb90563903b884a0dde78e76e0ee305/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/165923",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1646782581,
+    "state": 5,
+    "last_state_change_date": 1646861230,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "ads",
+        "advertising",
+        "blockads",
+        "blocked",
+        "ip",
+        "server"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "taylordevs"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

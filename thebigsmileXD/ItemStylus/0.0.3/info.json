@@ -1,0 +1,61 @@
+{
+    "id": 4237,
+    "name": "ItemStylus",
+    "version": "0.0.3",
+    "html_url": "https://poggit.pmmp.io/p/ItemStylus/0.0.3",
+    "tagline": "Rename items & change item lore, a request by muqsit",
+    "artifact_url": "https://poggit.pmmp.io/r/83377",
+    "downloads": 1800,
+    "score": null,
+    "repo_id": 252803974,
+    "repo_name": "thebigsmileXD/ItemStylus",
+    "project_id": 6583,
+    "project_name": "ItemStylus",
+    "build_id": 75731,
+    "build_number": 6,
+    "build_commit": "f264a38c8beab7957a4558bcf8c7aee126f86f5e",
+    "description_url": "https://poggit.pmmp.io/r/83376",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1587429507,
+    "state": 5,
+    "last_state_change_date": 1587915392,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [
+        "color",
+        "item",
+        "lore",
+        "name",
+        "rename"
+    ],
+    "api": [
+        {
+            "from": "3.11.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Requester": [
+            "muqsit"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,64 @@
+{
+    "id": 5877,
+    "name": "HideNameTag",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/HideNameTag/1.0.0",
+    "tagline": "A PocketMine-MP plugin to hide your/others nametag",
+    "artifact_url": "https://poggit.pmmp.io/r/114081",
+    "downloads": 2924,
+    "score": 5,
+    "repo_id": 332691488,
+    "repo_name": "cosmicnebula200/HideNameTag",
+    "project_id": 8447,
+    "project_name": "HideNameTag",
+    "build_id": 95638,
+    "build_number": 2,
+    "build_commit": "58af7f1ba41ca0ab6882c2276060bfdc9d047a97",
+    "description_url": "https://poggit.pmmp.io/r/114080",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1611567730,
+    "state": 5,
+    "last_state_change_date": 1612919660,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PureChat",
+            "version": "1.4.11",
+            "depRelId": 1547,
+            "isHard": true
+        },
+        {
+            "name": "PurePerms",
+            "version": "1.4.3",
+            "depRelId": 3529,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "cosmicnebula200"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

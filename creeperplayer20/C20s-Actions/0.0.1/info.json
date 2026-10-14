@@ -1,0 +1,63 @@
+{
+    "id": 10279,
+    "name": "C20s-Actions",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/C20s-Actions/0.0.1",
+    "tagline": "Fully customizable message that will be shown when player joins, quits or joins for the first time.",
+    "artifact_url": "https://poggit.pmmp.io/r/186529",
+    "downloads": 145,
+    "score": null,
+    "repo_id": 454136943,
+    "repo_name": "creeperplayer20/C20s-Actions",
+    "project_id": 10500,
+    "project_name": "C20s-Actions",
+    "build_id": 140515,
+    "build_number": 18,
+    "build_commit": "96f2a3752e84d95f11019069e1a1f88b00c47ec6",
+    "description_url": "https://poggit.pmmp.io/r/186528",
+    "icon_url": "https://raw.githubusercontent.com/creeperplayer20/C20s-Actions/96f2a3752e84d95f11019069e1a1f88b00c47ec6/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1657966470,
+    "state": 5,
+    "last_state_change_date": 1660407209,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "Custom",
+        "Join",
+        "Leave"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "creeperplayer20"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

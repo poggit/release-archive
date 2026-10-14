@@ -1,0 +1,70 @@
+{
+    "id": 2257,
+    "name": "MoveUI",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/MoveUI/1.0.0",
+    "tagline": "A UI with the sole purpose of maneuvering your position.",
+    "artifact_url": "https://poggit.pmmp.io/r/48646",
+    "downloads": 1715,
+    "score": 5,
+    "repo_id": 163701550,
+    "repo_name": "adeynes/MoveUI",
+    "project_id": 4469,
+    "project_name": "MoveUI",
+    "build_id": 53979,
+    "build_number": 2,
+    "build_commit": "bcb14f8dd4685eaea3dd90037df314883d4cb847",
+    "description_url": "https://poggit.pmmp.io/r/48645",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1546351539,
+    "state": 5,
+    "last_state_change_date": 1546632644,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Teleportation"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "move",
+        "ui",
+        "teleport",
+        "teleportation",
+        "gui",
+        "fun"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "adeynes"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

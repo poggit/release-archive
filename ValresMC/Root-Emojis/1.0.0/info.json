@@ -1,0 +1,57 @@
+{
+    "id": 14419,
+    "name": "Root-Emojis",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/Root-Emojis/1.0.0",
+    "tagline": "Emojis plugin for PocketMine-MP 5.0.0",
+    "artifact_url": "https://poggit.pmmp.io/r/263672",
+    "downloads": 92,
+    "score": null,
+    "repo_id": 1181952651,
+    "repo_name": "ValresMC/Root-Emojis",
+    "project_id": 15181,
+    "project_name": "Root-Emojis",
+    "build_id": 192067,
+    "build_number": 9,
+    "build_commit": "3a706971bd8a9a8627676113d5195eff73a98771",
+    "description_url": "https://poggit.pmmp.io/r/263671",
+    "icon_url": "https://raw.githubusercontent.com/ValresMC/Root-Emojis/3a706971bd8a9a8627676113d5195eff73a98771/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1773991860,
+    "state": 5,
+    "last_state_change_date": 1773999869,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "emojis"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ValresMC"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

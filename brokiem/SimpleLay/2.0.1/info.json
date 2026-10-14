@@ -1,0 +1,68 @@
+{
+    "id": 5861,
+    "name": "SimpleLay",
+    "version": "2.0.1",
+    "html_url": "https://poggit.pmmp.io/p/SimpleLay/2.0.1",
+    "tagline": "Plugin which allows to Lay or Sit on the Block!",
+    "artifact_url": "https://poggit.pmmp.io/r/113722",
+    "downloads": 1603,
+    "score": 5,
+    "repo_id": 319871445,
+    "repo_name": "brokiem/SimpleLay",
+    "project_id": 8155,
+    "project_name": "SimpleLay",
+    "build_id": 95388,
+    "build_number": 40,
+    "build_commit": "fa2f8d8d8154fb148eb769b3e3a7048fc02b2086",
+    "description_url": "https://poggit.pmmp.io/r/113724",
+    "icon_url": "https://raw.githubusercontent.com/brokiem/SimpleLay/fa2f8d8d8154fb148eb769b3e3a7048fc02b2086/assets/logo.PNG",
+    "changelog_url": "https://poggit.pmmp.io/r/113726",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1611158628,
+    "state": 5,
+    "last_state_change_date": 1612051712,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "brokiem",
+        "ground",
+        "lay",
+        "laying",
+        "lying",
+        "player",
+        "pocketmine",
+        "roleplay",
+        "seat",
+        "sit",
+        "sitting",
+        "smp"
+    ],
+    "api": [
+        {
+            "from": "3.14.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "brokiem"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,87 @@
+{
+    "id": 3304,
+    "name": "KitsPlus",
+    "version": "1.0.5",
+    "html_url": "https://poggit.pmmp.io/p/KitsPlus/1.0.5",
+    "tagline": "Simple Chest Kits with Fully customizeable Everything!",
+    "artifact_url": "https://poggit.pmmp.io/r/65045",
+    "downloads": 1149,
+    "score": 4,
+    "repo_id": 194791602,
+    "repo_name": "AlexPads/KitsPlus",
+    "project_id": 5264,
+    "project_name": "KitsPlus",
+    "build_id": 63841,
+    "build_number": 10,
+    "build_commit": "47ce695331246bf9ff54324608a3fbb11419d75d",
+    "description_url": "https://poggit.pmmp.io/r/65044",
+    "icon_url": "https://raw.githubusercontent.com/AlexPads/KitsPlus/47ce695331246bf9ff54324608a3fbb11419d75d/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1567126105,
+    "state": 5,
+    "last_state_change_date": 1567386852,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Chest",
+        "ChestKits",
+        "Custom",
+        "Kits"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "1.4.5",
+            "depRelId": 2667,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "AlexPads"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

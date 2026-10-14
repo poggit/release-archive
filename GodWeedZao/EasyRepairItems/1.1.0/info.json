@@ -1,0 +1,68 @@
+{
+    "id": 5282,
+    "name": "EasyRepairItems",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/EasyRepairItems/1.1.0",
+    "tagline": "Repair damaged items in your hand easily.",
+    "artifact_url": "https://poggit.pmmp.io/r/102756",
+    "downloads": 3076,
+    "score": 1,
+    "repo_id": 285535559,
+    "repo_name": "GodWeedZao/EasyRepairItems",
+    "project_id": 7572,
+    "project_name": "EasyRepairItems",
+    "build_id": 87966,
+    "build_number": 11,
+    "build_commit": "d498c8a3fb05c9d8b32b99266f013db53b76fa9a",
+    "description_url": "https://poggit.pmmp.io/r/102753",
+    "icon_url": "https://raw.githubusercontent.com/GodWeedZao/EasyRepairItems/d498c8a3fb05c9d8b32b99266f013db53b76fa9a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/102755",
+    "license": "agpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1599911419,
+    "state": 5,
+    "last_state_change_date": 1600005102,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "repair"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "GodWeedZao"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

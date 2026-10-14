@@ -1,0 +1,74 @@
+{
+    "id": 6950,
+    "name": "VanillaBlocks",
+    "version": "1.0.6",
+    "html_url": "https://poggit.pmmp.io/p/VanillaBlocks/1.0.6",
+    "tagline": "A plugin to add more blocks to PocketMine",
+    "artifact_url": "https://poggit.pmmp.io/r/130793",
+    "downloads": 1049,
+    "score": 3,
+    "repo_id": 377586321,
+    "repo_name": "xSuperr/VanillaBlocks",
+    "project_id": 9142,
+    "project_name": "VanillaBlocks",
+    "build_id": 105289,
+    "build_number": 22,
+    "build_commit": "b4098ed02abe83bcde0ac5a820cecbae0cff9b94",
+    "description_url": "https://poggit.pmmp.io/r/130795",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/130797",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1625167717,
+    "state": 5,
+    "last_state_change_date": 1625405448,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "Blocks",
+        "Vanilla",
+        "VanillaBlocks"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "ExtendedBlocks",
+            "version": "1.1.4",
+            "depRelId": 6801,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "xSuperr"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

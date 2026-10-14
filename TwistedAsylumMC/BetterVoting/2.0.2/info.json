@@ -1,0 +1,74 @@
+{
+    "id": 5033,
+    "name": "BetterVoting",
+    "version": "2.0.2",
+    "html_url": "https://poggit.pmmp.io/p/BetterVoting/2.0.2",
+    "tagline": "A better voting plugin for PocketMine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/98609",
+    "downloads": 5546,
+    "score": 4,
+    "repo_id": 161699081,
+    "repo_name": "TwistedAsylumMC/BetterVoting",
+    "project_id": 4388,
+    "project_name": "BetterVoting",
+    "build_id": 85378,
+    "build_number": 31,
+    "build_commit": "0b7bd8b0679ffc993e11c35d3cfa09ae78c6a626",
+    "description_url": "https://poggit.pmmp.io/r/98606",
+    "icon_url": "https://raw.githubusercontent.com/TwistedAsylumMC/BetterVoting/0b7bd8b0679ffc993e11c35d3cfa09ae78c6a626/assets/logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/98608",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1596317441,
+    "state": 5,
+    "last_state_change_date": 1596326770,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "better",
+        "vote",
+        "voting"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.0.3",
+            "depRelId": 3534,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "TwistedAsylumMC"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

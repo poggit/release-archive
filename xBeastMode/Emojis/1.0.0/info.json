@@ -1,0 +1,60 @@
+{
+    "id": 10916,
+    "name": "EmojisPro",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/EmojisPro/1.0.0",
+    "tagline": "Adds emojis to pocketmine",
+    "artifact_url": "https://poggit.pmmp.io/r/199225",
+    "downloads": 251,
+    "score": 4,
+    "repo_id": 584233218,
+    "repo_name": "xBeastMode/Emojis",
+    "project_id": 12040,
+    "project_name": "Emojis",
+    "build_id": 149302,
+    "build_number": 4,
+    "build_commit": "02b1bc06e6c40133b2b119cdefed7af640f22103",
+    "description_url": "https://poggit.pmmp.io/r/199224",
+    "icon_url": "https://raw.githubusercontent.com/xBeastMode/Emojis/02b1bc06e6c40133b2b119cdefed7af640f22103/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1673585453,
+    "state": 5,
+    "last_state_change_date": 1673588216,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "emoji",
+        "fun",
+        "react",
+        "reactions"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "xBeastMode"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

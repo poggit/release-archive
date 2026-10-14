@@ -1,0 +1,57 @@
+{
+    "id": 11393,
+    "name": "DevilMode",
+    "version": "0.0.4",
+    "html_url": "https://poggit.pmmp.io/p/DevilMode/0.0.4",
+    "tagline": "Players will not take damage when Devil Mode is enabled",
+    "artifact_url": "https://poggit.pmmp.io/r/208687",
+    "downloads": 378,
+    "score": null,
+    "repo_id": 483997892,
+    "repo_name": "nhanaz-pm-pl/DevilMode",
+    "project_id": 10993,
+    "project_name": "DevilMode",
+    "build_id": 155690,
+    "build_number": 9,
+    "build_commit": "5e6d3429caecc263e578d98805febe0ceed6d3f5",
+    "description_url": "https://poggit.pmmp.io/r/208684",
+    "icon_url": "https://raw.githubusercontent.com/nhanaz-pm-pl/DevilMode/5e6d3429caecc263e578d98805febe0ceed6d3f5/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/208686",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1685636810,
+    "state": 5,
+    "last_state_change_date": 1685637871,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "devilmode",
+        "php",
+        "plugin",
+        "pmmp",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "NhanAZ"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

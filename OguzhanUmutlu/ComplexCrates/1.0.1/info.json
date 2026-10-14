@@ -1,0 +1,91 @@
+{
+    "id": 6546,
+    "name": "ComplexCrates",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/ComplexCrates/1.0.1",
+    "tagline": "Best configurable crate plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/124186",
+    "downloads": 323,
+    "score": 4,
+    "repo_id": 359755294,
+    "repo_name": "OguzhanUmutlu/ComplexCrates",
+    "project_id": 8882,
+    "project_name": "ComplexCrates",
+    "build_id": 101413,
+    "build_number": 10,
+    "build_commit": "0153b708edf389140b60e9f386fdff4519c4db43",
+    "description_url": "https://poggit.pmmp.io/r/124183",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/ComplexCrates/0153b708edf389140b60e9f386fdff4519c4db43/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/124185",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1619550093,
+    "state": 5,
+    "last_state_change_date": 1619734719,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "carte",
+        "casa",
+        "complex",
+        "crarte",
+        "crate",
+        "kasa"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Translator": [
+            "twk1024",
+            "Endermanbugzjfc",
+            "kostamax27"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "pmforms",
+            "project_id": 4369,
+            "repo_id": 160079716,
+            "repo_name": "dktapps-pm-pl/pmforms",
+            "repo_path": "",
+            "build_commit": "eab8ac0adec2e2b094d141a9b711200183bbf268",
+            "build_id": 86018
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "68790d2d220c9b1ac27154552d2e012a76c843ed",
+            "build_id": 93958
+        }
+    ]
+}

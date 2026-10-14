@@ -1,0 +1,75 @@
+{
+    "id": 12369,
+    "name": "TNTBlastRadius",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TNTBlastRadius/1.0.0",
+    "tagline": "Edit TNT blast radius.",
+    "artifact_url": "https://poggit.pmmp.io/r/222726",
+    "downloads": 41,
+    "score": null,
+    "repo_id": 689437402,
+    "repo_name": "Terpz710/TNTBlastRadius",
+    "project_id": 13057,
+    "project_name": "TNTBlastRadius",
+    "build_id": 163563,
+    "build_number": 1,
+    "build_commit": "40d92f9501ed08357aae098a27587c1727df5de9",
+    "description_url": "https://poggit.pmmp.io/r/222725",
+    "icon_url": "https://raw.githubusercontent.com/Terpz710/TNTBlastRadius/40d92f9501ed08357aae098a27587c1727df5de9/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1694290726,
+    "state": 5,
+    "last_state_change_date": 1694406951,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Blast",
+        "Boom",
+        "CustomTNT",
+        "Nuke",
+        "TNT",
+        "TNTBlast",
+        "TNTBlastRadius"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Terpz710"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

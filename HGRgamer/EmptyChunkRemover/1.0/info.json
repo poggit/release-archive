@@ -1,0 +1,78 @@
+{
+    "id": 13414,
+    "name": "EmptyChunkRemover",
+    "version": "1.0",
+    "html_url": "https://poggit.pmmp.io/p/EmptyChunkRemover/1.0",
+    "tagline": "This Pocketmine-MP plugin removes all the empty chunks from your world improving performance",
+    "artifact_url": "https://poggit.pmmp.io/r/245687",
+    "downloads": 548,
+    "score": null,
+    "repo_id": 839014563,
+    "repo_name": "HGRgamer/EmptyChunkRemover",
+    "project_id": 14130,
+    "project_name": "EmptyChunkRemover",
+    "build_id": 179810,
+    "build_number": 2,
+    "build_commit": "f3540075f719fdb81ffe1a3d6374a29f79f8b6cb",
+    "description_url": "https://poggit.pmmp.io/r/245794",
+    "icon_url": "https://raw.githubusercontent.com/HGRgamer/EmptyChunkRemover/f3540075f719fdb81ffe1a3d6374a29f79f8b6cb/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1722976932,
+    "state": 5,
+    "last_state_change_date": 1722982694,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Developer Tools"
+        },
+        {
+            "major": false,
+            "category_name": "World Generators"
+        }
+    ],
+    "keywords": [
+        "bedrock",
+        "bedwars",
+        "chunk",
+        "empty",
+        "emptychunks",
+        "importing",
+        "in-memory",
+        "java",
+        "memory",
+        "porting",
+        "remote",
+        "size",
+        "skyblock",
+        "storage",
+        "void",
+        "world",
+        "reduce",
+        "lag"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "HGRgamer"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

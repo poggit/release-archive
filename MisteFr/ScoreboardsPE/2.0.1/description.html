@@ -1,0 +1,155 @@
+<h1>
+<a id="user-content-scoreboardpe" class="anchor" href="#scoreboardpe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ScoreboardPE</h1>
+<p><a href="https://poggit.pmmp.io/p/ScoreboardsPE" rel="nofollow"><img src="https://camo.githubusercontent.com/3d234d6cda506097e3e7aa6561607464cadda670/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e73746174652f53636f7265626f617264735045" alt="" data-canonical-src="https://poggit.pmmp.io/shield.state/ScoreboardsPE" style="max-width:100%;"></a> <a href="https://poggit.pmmp.io/p/ScoreboardsPE" rel="nofollow"><img src="https://camo.githubusercontent.com/2288219677516196b764848e84810469774fe699/68747470733a2f2f706f676769742e706d6d702e696f2f736869656c642e646c2e746f74616c2f53636f7265626f617264735045" alt="" data-canonical-src="https://poggit.pmmp.io/shield.dl.total/ScoreboardsPE" style="max-width:100%;"></a><br>
+A PocketMine-MP plugin that let you easily send scoreboards by using commands on your server who comes with a rich API for developers for MCBE 1.7, 1.8 &amp; 1.9.</p>
+<h3>
+<a id="user-content-api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h3>
+<pre><code>use Miste\scoreboardspe\API\{
+	Scoreboard, ScoreboardDisplaySlot, ScoreboardSort, ScoreboardAction
+};
+
+/*
+    Create a scoreboard with the display name Miste
+    The id is created and saved linked with the display name internally
+    You can choose if you want your lines to be padded or not (by default there will be padded).
+*/    
+
+$scoreboard = new Scoreboard($this-&gt;getServer()-&gt;getPluginManager()-&gt;getPlugin("ScoreboardsPE")-&gt;getPlugin(), "Miste", ScoreboardAction::CREATE);
+$scoreboard-&gt;create(ScoreboardDisplaySlot::SIDEBAR, ScoreboardSort::DESCENDING, true); //true for padding, false for no padding
+
+/*
+    If you want to get back the Scoreboard instance of one of your scoreboard do as you were creating on and add the ScoreboardAction::MODIFY at the end of the constructor.
+    Here you will get back the instance of the scoreboard we created above
+*/
+
+$scoreboard = new Scoreboard($this-&gt;getServer()-&gt;getPluginManager()-&gt;getPlugin("ScoreboardsPE")-&gt;getPlugin(), "Miste", ScoreboardAction::MODIFY);
+
+/*
+    Send the scoreboard to the player (without any lines)
+*/
+
+$scoreboard-&gt;addDisplay($player);
+
+/*
+    Add lines to the scoreboard O
+    If you send line 1 then line 4 the plugin will automatically send two empty lines between.
+    The max number of lines is 15, send more than 15 can bring issues when removing some.
+    The lines are automatically sent to all the viewers of the scoreboard.
+*/
+
+$scoreboard-&gt;setLine(1, "line1");
+$scoreboard-&gt;setLine(2, "line2");
+$scoreboard-&gt;setLine(5, "line5");
+$scoreboard-&gt;setLine(8, "line8");
+$scoreboard-&gt;setLine(9, "line9");
+
+/*
+    Remove the line you choose from the scoreboard. This line will be removed from all the viewers.
+*/
+
+$scoreboard-&gt;removeLine(2);
+
+/*
+    Remove all the lines from the scoreboard. The lines will be removed from all the viewers.
+*/
+
+$scoreboard-&gt;removeLines();
+
+/*
+    Rename the scoreboard called Miste to Miste1 and re send it to all the viewers
+*/
+    
+$scoreboard-&gt;rename("Miste", "Miste1");
+
+/*
+    Remove the scoreboard from the display of the player
+*/
+
+$scoreboard-&gt;removeDisplay($player);
+
+/*
+    Delete the scoreboard from the database (in order to save RAM)
+*/
+
+$scoreboard-&gt;delete();
+
+/*
+    Return an array with all the players that can view the scoreboards
+    **NB** Players are automatically removed from this array if the player quits the server or if you remove the scoreboard for this player
+*/
+
+$scoreboard-&gt;getViewers();
+
+
+</code></pre>
+<h3>
+<a id="user-content-commands" class="anchor" href="#commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commands</h3>
+<p>The command to use the soreboards is <code>scoreboard</code>, its aliases are <code>sc</code> and <code>score</code>.</p>
+<ul>
+<li>
+<p>/scoreboard create &lt; Name of the scoreboard &gt; &lt; displaySlot (sidebar/list/belowname) &gt; &lt; sortOrder (0-&gt;ascending/1-&gt;descending) &gt;</p>
+<ul>
+<li>
+<strong>DisplaySlot</strong><br>
+It's where the scoreboard is displayed on your screen
+<ul>
+<li>sidebar: the default scoreboard position (at the right of your screen).</li>
+<li>list: above the player list.</li>
+<li>belowname: below the name of the player (not implemented in 1.7.0.2 beta).</li>
+</ul>
+</li>
+<li>
+<strong>Sort Order</strong><br>
+This is the order in which your entries are classified.
+<ul>
+<li>0: The score is from the smallest to the biggest</li>
+<li>1: The score is from the biggest to the smallest</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>It creates the scoreboard and save it.</p>
+<ul>
+<li>/scoreboard add &lt; player / @all &gt; &lt; title &gt;</li>
+</ul>
+<p>It sends the scoreboard display.<br>
+For example: <code>/scoreboard add @all Miste </code> display that:</p>
+<p><a href="https://github.com/MisteFr/ScoreboardsPE/raw/master/img/exemple1.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/MisteFr/ScoreboardsPE/raw/master/img/exemple1.png" width="100" style="max-width:100%;"></a></p>
+<ul>
+<li>/scoreboard setLine &lt; player / @all &gt; &lt; Name of the scoreboard &gt; &lt; line &gt; &lt; message &gt;</li>
+</ul>
+<p>It adds the line you want with the text you want to the scoreboard.<br>
+The player to which you are sending this setLine have to have received the scoreboard first.<br>
+<strong>NB</strong>: You can't add two lines with the same message. If you don't have any lines to your scoreboard and you add the line 4 it will add 3 empty lines too.<br>
+For example: <code>/scoreboard setLine Misteboss1 Miste 1 My name is Miste </code> display that:</p>
+<p><a href="https://github.com/MisteFr/ScoreboardsPE/raw/master/img/exemple2.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/MisteFr/ScoreboardsPE/raw/master/img/exemple2.png" width="200" style="max-width:100%;"></a></p>  
+<ul>
+<li>/scoreboard rmLine &lt; Name of the scoreboard &gt; &lt; line &gt;</li>
+</ul>
+<p>It removes the line you want of the scoreboard.<br>
+For example: <code>/scoreboard rmLine Miste 1  </code> display that:</p>
+<p><a href="https://github.com/MisteFr/ScoreboardsPE/raw/master/img/exemple1.png" target="_blank" rel="noopener noreferrer"><img src="https://github.com/MisteFr/ScoreboardsPE/raw/master/img/exemple1.png" width="100" style="max-width:100%;"></a></p>
+<ul>
+<li>/scoreboard clearLines &lt; Name of the scoreboard &gt;</li>
+</ul>
+<p>It removes all the lines from your scoreboard and resend it to all the viewers.</p>
+<ul>
+<li>/scoreboard rename &lt; old name &gt; &lt; new name &gt;</li>
+</ul>
+<p>It renames your scoreboard and re send it to all the viewers.</p>
+<ul>
+<li>/scoreboard remove &lt; player / @all &gt; &lt; Name of the scoreboard &gt;</li>
+</ul>
+<p>It removes the scoreboard from the player.<br>
+For example: <code>/scoreboard remove @all Miste</code> will remove the scoreboard from all the online players.</p>
+<ul>
+<li>/scoreboard delete &lt; Name of the scoreboard &gt;</li>
+</ul>
+<p>It removes the scoreboard from the database, that means that you wouldn't be able to use it in the future.<br>
+<strong>NB</strong>: Please note that this command doesn't remove the scoreboard from it's viewers<br>
+Example: <code>/scoreboard delete Miste</code> will remove the scoreboard.</p>
+<ul>
+<li>/scoreboard help</li>
+</ul>
+<p>It gives you the list of available commands and how to use them.</p>

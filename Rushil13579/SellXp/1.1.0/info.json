@@ -1,0 +1,78 @@
+{
+    "id": 6067,
+    "name": "SellXp",
+    "version": "1.1.0",
+    "html_url": "https://poggit.pmmp.io/p/SellXp/1.1.0",
+    "tagline": "A Pocketmine-MP plugin which sells XP for money!",
+    "artifact_url": "https://poggit.pmmp.io/r/117107",
+    "downloads": 98,
+    "score": null,
+    "repo_id": 323602104,
+    "repo_name": "Rushil13579/SellXp",
+    "project_id": 8231,
+    "project_name": "SellXp",
+    "build_id": 97504,
+    "build_number": 21,
+    "build_commit": "2b5025b5943af0a6317a8275cf8b83e7390e79cd",
+    "description_url": "https://poggit.pmmp.io/r/117104",
+    "icon_url": "https://raw.githubusercontent.com/Rushil13579/SellXp/2b5025b5943af0a6317a8275cf8b83e7390e79cd/Logo.png",
+    "changelog_url": "https://poggit.pmmp.io/r/117106",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1614844676,
+    "state": 5,
+    "last_state_change_date": 1615173140,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        }
+    ],
+    "keywords": [
+        "Economy",
+        "Form",
+        "Sell",
+        "SellXp",
+        "XP"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Rushil13579"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "b34e519dd0fa6777a46583b1addf851ceaa2c723",
+            "build_id": 87202
+        }
+    ]
+}

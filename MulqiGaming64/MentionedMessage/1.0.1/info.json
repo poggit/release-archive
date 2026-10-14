@@ -1,0 +1,80 @@
+{
+    "id": 8526,
+    "name": "MentionedMessage",
+    "version": "1.0.1",
+    "html_url": "https://poggit.pmmp.io/p/MentionedMessage/1.0.1",
+    "tagline": "now you can save MentionedMessage in UI",
+    "artifact_url": "https://poggit.pmmp.io/r/155919",
+    "downloads": 111,
+    "score": null,
+    "repo_id": 407803758,
+    "repo_name": "MulqiGaming64/MentionedMessage",
+    "project_id": 9741,
+    "project_name": "MentionedMessage",
+    "build_id": 120282,
+    "build_number": 4,
+    "build_commit": "a24a04546b21102fca971fe2d4411c7eacf87131",
+    "description_url": "https://poggit.pmmp.io/r/155916",
+    "icon_url": "https://raw.githubusercontent.com/MulqiGaming64/MentionedMessage/a24a04546b21102fca971fe2d4411c7eacf87131/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/155918",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641521784,
+    "state": 5,
+    "last_state_change_date": 1641659395,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "mentioned-message",
+        "plugin-pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "MulqiGaming64"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "bb178fbe96e80db7eb42d303d94e77497948b187",
+            "build_id": 118466
+        }
+    ]
+}

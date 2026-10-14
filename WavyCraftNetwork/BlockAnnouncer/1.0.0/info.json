@@ -1,0 +1,73 @@
+{
+    "id": 13587,
+    "name": "BlockAnnouncer",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockAnnouncer/1.0.0",
+    "tagline": "BlockAnnouncer plugin for Pocketmine-MP",
+    "artifact_url": "https://poggit.pmmp.io/r/248770",
+    "downloads": 99,
+    "score": null,
+    "repo_id": 871153480,
+    "repo_name": "WavyCraftNetwork/BlockAnnouncer",
+    "project_id": 14281,
+    "project_name": "BlockAnnouncer",
+    "build_id": 182028,
+    "build_number": 2,
+    "build_commit": "ed434cfafff334fc3e535ec240238562ce73fdfa",
+    "description_url": "https://poggit.pmmp.io/r/248769",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1728676793,
+    "state": 5,
+    "last_state_change_date": 1730292079,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Announce",
+        "BlockAnnouncer",
+        "Broadcaster",
+        "Broadcast",
+        "Ore"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "WavyCraftNetwork"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

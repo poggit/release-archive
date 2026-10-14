@@ -1,0 +1,64 @@
+{
+    "id": 10139,
+    "name": "CreditsScore",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/CreditsScore/1.0.0",
+    "tagline": "A ScoreHud Addon which allows you to use {credits} in the scorehud config with the Credits Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/184203",
+    "downloads": 23,
+    "score": null,
+    "repo_id": 468044103,
+    "repo_name": "ItsToxicGG/CreditsScore",
+    "project_id": 10765,
+    "project_name": "CreditsScore",
+    "build_id": 138934,
+    "build_number": 16,
+    "build_commit": "4d6ed8f7af5a3c8f9830a64cb0914f7c3c17a2f1",
+    "description_url": "https://poggit.pmmp.io/r/184202",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1656587871,
+    "state": 5,
+    "last_state_change_date": 1657551959,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [
+        {
+            "name": "Credits",
+            "version": "1.0.1",
+            "depRelId": 8139,
+            "isHard": true
+        },
+        {
+            "name": "ScoreHud",
+            "version": "7.0.1",
+            "depRelId": 9390,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "ItsToxicGG"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

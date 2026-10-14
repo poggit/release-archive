@@ -1,0 +1,65 @@
+{
+    "id": 2963,
+    "name": "EC-TableUI",
+    "version": "1.0.0-pre",
+    "html_url": "https://poggit.pmmp.io/p/EC-TableUI/1.0.0-pre",
+    "tagline": "An Enchantmenttable made with FormAPI",
+    "artifact_url": "https://poggit.pmmp.io/r/59117",
+    "downloads": 432,
+    "score": 5,
+    "repo_id": 181689058,
+    "repo_name": "ProxmaDev/EC-TableUI",
+    "project_id": 4927,
+    "project_name": "EC-TableUI",
+    "build_id": 60025,
+    "build_number": 18,
+    "build_commit": "549b2adbb61c2092fc64170150df824eb63a8ee3",
+    "description_url": "https://poggit.pmmp.io/r/59116",
+    "icon_url": "https://raw.githubusercontent.com/SchdowNVIDIA/EC-TableUI/549b2adbb61c2092fc64170150df824eb63a8ee3/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": true,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1559327856,
+    "state": 5,
+    "last_state_change_date": 1559369088,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "EC-Table",
+        "Enchant",
+        "UI"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ProxmaDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

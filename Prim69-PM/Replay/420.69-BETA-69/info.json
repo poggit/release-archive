@@ -1,0 +1,66 @@
+{
+    "id": 6898,
+    "name": "Replay",
+    "version": "420.69-BETA-69",
+    "html_url": "https://poggit.pmmp.io/p/Replay/420.69-BETA-69",
+    "tagline": "Re-watch a players previous movement!",
+    "artifact_url": "https://poggit.pmmp.io/r/129922",
+    "downloads": 756,
+    "score": 4,
+    "repo_id": 361533793,
+    "repo_name": "Prim69-PM/Replay",
+    "project_id": 8907,
+    "project_name": "Replay",
+    "build_id": 104784,
+    "build_number": 4,
+    "build_commit": "688c0f783626e8ae881f6760a8df71798da923af",
+    "description_url": "https://poggit.pmmp.io/r/129919",
+    "icon_url": "https://raw.githubusercontent.com/Prim69/Replay/688c0f783626e8ae881f6760a8df71798da923af/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/129921",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1624352014,
+    "state": 5,
+    "last_state_change_date": 1624373976,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "movement",
+        "prim",
+        "record",
+        "replay",
+        "save",
+        "watch"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Prim69-PM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

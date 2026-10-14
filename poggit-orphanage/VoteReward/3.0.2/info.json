@@ -1,0 +1,63 @@
+{
+    "id": 338,
+    "name": "VoteReward",
+    "version": "3.0.2",
+    "html_url": "https://poggit.pmmp.io/p/VoteReward/3.0.2",
+    "tagline": "The Original Voting plugin by LDX",
+    "artifact_url": "https://poggit.pmmp.io/r/6085",
+    "downloads": 572,
+    "score": null,
+    "repo_id": 92841861,
+    "repo_name": "poggit-orphanage/VoteReward",
+    "project_id": 504,
+    "project_name": "VoteReward",
+    "build_id": 23829,
+    "build_number": 6,
+    "build_commit": "bbe1f1f3ad3aa90776a185c7de0deb30bc2f76d5",
+    "description_url": "https://poggit.pmmp.io/r/6083",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/VoteReward/bbe1f1f3ad3aa90776a185c7de0deb30bc2f76d5/icon.png",
+    "changelog_url": null,
+    "license": "none",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1496268762,
+    "state": 5,
+    "last_state_change_date": 1496269368,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "vote",
+        "voting",
+        "rewards"
+    ],
+    "api": [
+        {
+            "from": "2.0.0",
+            "to": "3.0.0-ALPHA5"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "LDX-MCPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

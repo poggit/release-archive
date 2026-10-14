@@ -1,0 +1,59 @@
+{
+    "id": 11792,
+    "name": "Weather",
+    "version": "2.0.2",
+    "html_url": "https://poggit.pmmp.io/p/Weather/2.0.2",
+    "tagline": "Weather Plugin for PocketMine-MP Version 5",
+    "artifact_url": "https://poggit.pmmp.io/r/213623",
+    "downloads": 168,
+    "score": 5,
+    "repo_id": 360721474,
+    "repo_name": "tgwaste/Weather",
+    "project_id": 10589,
+    "project_name": "Weather",
+    "build_id": 157984,
+    "build_number": 30,
+    "build_commit": "37d58d023b6f0e1ddfd116c2b10300449762c93a",
+    "description_url": "https://poggit.pmmp.io/r/213620",
+    "icon_url": "https://raw.githubusercontent.com/tgwaste/Weather/37d58d023b6f0e1ddfd116c2b10300449762c93a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/213622",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1687842384,
+    "state": 5,
+    "last_state_change_date": 1687904415,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "tgwaste"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

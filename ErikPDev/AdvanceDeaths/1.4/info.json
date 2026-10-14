@@ -1,0 +1,69 @@
+{
+    "id": 5127,
+    "name": "AdvanceDeaths",
+    "version": "1.4",
+    "html_url": "https://poggit.pmmp.io/p/AdvanceDeaths/1.4",
+    "tagline": "A plugin to customize the death messages!",
+    "artifact_url": "https://poggit.pmmp.io/r/100037",
+    "downloads": 729,
+    "score": null,
+    "repo_id": 283014127,
+    "repo_name": "ErikPDev/AdvanceDeaths",
+    "project_id": 7513,
+    "project_name": "AdvanceDeaths",
+    "build_id": 86264,
+    "build_number": 18,
+    "build_commit": "7ecfe217137507b008ea8b7901cd030196c4c0f2",
+    "description_url": "https://poggit.pmmp.io/r/102791",
+    "icon_url": "https://raw.githubusercontent.com/ErikX-PMMP/AdvanceDeaths/7ecfe217137507b008ea8b7901cd030196c4c0f2/resources/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/102793",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1597407263,
+    "state": 5,
+    "last_state_change_date": 1597671988,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        }
+    ],
+    "keywords": [
+        "advance",
+        "deaths",
+        "instant",
+        "kill",
+        "money",
+        "respawn",
+        "SQLite"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "ErikPDev"
+        ],
+        "Contributor": [
+            "lazyperson0710",
+            "IvanCraft623",
+            "UnEnanoMas",
+            "MrBlasyMSK"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

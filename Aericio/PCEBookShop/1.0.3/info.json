@@ -1,0 +1,102 @@
+{
+    "id": 4707,
+    "name": "PCEBookShop",
+    "version": "1.0.3",
+    "html_url": "https://poggit.pmmp.io/p/PCEBookShop/1.0.3",
+    "tagline": "Book Shop for PiggyCustomEnchants.",
+    "artifact_url": "https://poggit.pmmp.io/r/92580",
+    "downloads": 1733,
+    "score": 3,
+    "repo_id": 253720314,
+    "repo_name": "Aericio/PCEBookShop",
+    "project_id": 6605,
+    "project_name": "PCEBookShop",
+    "build_id": 81244,
+    "build_number": 13,
+    "build_commit": "4afd20e9ffe5a53c17c0fe4d12c4a3766157ebea",
+    "description_url": "https://poggit.pmmp.io/r/92577",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/92579",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1592372265,
+    "state": 5,
+    "last_state_change_date": 1592467782,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "piggyce",
+        "piggycustomenchants",
+        "pmmp"
+    ],
+    "api": [
+        {
+            "from": "3.11.2",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "MultiEconomy",
+            "version": "2.0.0",
+            "depRelId": 3510,
+            "isHard": false
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.1.6",
+            "depRelId": 4196,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Aericio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "7d637ec2bc972d25c63719be21bc4316a36b5c6e",
+            "build_id": 75451
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        },
+        {
+            "name": "Commando",
+            "project_id": 6805,
+            "repo_id": 259611204,
+            "repo_name": "Paroxity/Commando",
+            "repo_path": "",
+            "build_commit": "a0ffb20b48d601897f5797bae6e267f2c6f7f3cf",
+            "build_id": 80530
+        }
+    ]
+}

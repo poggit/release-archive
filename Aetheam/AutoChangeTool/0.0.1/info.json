@@ -1,0 +1,59 @@
+{
+    "id": 10697,
+    "name": "AutoChangeTool",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AutoChangeTool/0.0.1",
+    "tagline": "Allows you to automatically change items",
+    "artifact_url": "https://poggit.pmmp.io/r/195278",
+    "downloads": 309,
+    "score": null,
+    "repo_id": 553443403,
+    "repo_name": "Aetheam/AutoChangeTool",
+    "project_id": 11912,
+    "project_name": "AutoChangeTool",
+    "build_id": 146628,
+    "build_number": 1,
+    "build_commit": "e94dc78e2b54ae8cc9061c9f86657b9afc077a24",
+    "description_url": "https://poggit.pmmp.io/r/195277",
+    "icon_url": "https://raw.githubusercontent.com/Aetheam/AutoChangeTool/e94dc78e2b54ae8cc9061c9f86657b9afc077a24/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1666084880,
+    "state": 5,
+    "last_state_change_date": 1667514618,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "mcpe",
+        "plugins",
+        "pocketmine"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "royaljacques"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

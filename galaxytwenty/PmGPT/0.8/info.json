@@ -1,0 +1,67 @@
+{
+    "id": 11209,
+    "name": "PmGPT",
+    "version": "0.8",
+    "html_url": "https://poggit.pmmp.io/p/PmGPT/0.8",
+    "tagline": "Have a conversation with the ChatGPT gpt-3.5-turbo model",
+    "artifact_url": "https://poggit.pmmp.io/r/205318",
+    "downloads": 142,
+    "score": null,
+    "repo_id": 622710656,
+    "repo_name": "galaxytwenty/PmGPT",
+    "project_id": 12328,
+    "project_name": "PmGPT",
+    "build_id": 153543,
+    "build_number": 39,
+    "build_commit": "4ed08a83da7ced394f67b7fa34546592a9e5d346",
+    "description_url": "https://poggit.pmmp.io/r/205654",
+    "icon_url": "https://raw.githubusercontent.com/galaxytwenty/PmGPT/4ed08a83da7ced394f67b7fa34546592a9e5d346/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/205656",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1682283596,
+    "state": 5,
+    "last_state_change_date": 1682587287,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        }
+    ],
+    "keywords": [
+        "chatGPT"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "galaxytwenty"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 10808,
+            "repo_id": 305493004,
+            "repo_name": "supercrafter333/FormAPI",
+            "repo_path": "",
+            "build_commit": "519c1669331864082ce82f97745aaf2f8f9565b7",
+            "build_id": 149527
+        }
+    ]
+}

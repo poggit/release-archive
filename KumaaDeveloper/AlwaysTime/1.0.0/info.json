@@ -1,0 +1,61 @@
+{
+    "id": 13348,
+    "name": "AlwaysTime",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AlwaysTime/1.0.0",
+    "tagline": "A Pocketmine-MP Plugin that works to lock time in a world that is set to",
+    "artifact_url": "https://poggit.pmmp.io/r/244651",
+    "downloads": 845,
+    "score": 5,
+    "repo_id": 833134803,
+    "repo_name": "KumaaDeveloper/AlwaysTime",
+    "project_id": 14086,
+    "project_name": "AlwaysTime",
+    "build_id": 179136,
+    "build_number": 2,
+    "build_commit": "046ae3726b532f912bb508cdeab599037bdd253a",
+    "description_url": "https://poggit.pmmp.io/r/244650",
+    "icon_url": "https://raw.githubusercontent.com/KumaaDeveloper/AlwaysTime/046ae3726b532f912bb508cdeab599037bdd253a/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721825185,
+    "state": 5,
+    "last_state_change_date": 1721858484,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "Time",
+        "AlwaysDay",
+        "Always",
+        "Day",
+        "Night"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KumaaDeveloper"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

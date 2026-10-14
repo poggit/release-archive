@@ -1,0 +1,17 @@
+<h3>
+<a id="user-content-new-features-in-v121-up-from-v101" class="anchor" href="#new-features-in-v121-up-from-v101" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>New features in v1.2.1 (up from v1.0.1)</h3>
+<h4>
+<a id="user-content-v121" class="anchor" href="#v121" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>v1.2.1</h4>
+<p>This patch changes how commands are parsed. <a href="parsecmd">https://github.com/adeynes/parsecmd</a> is now used for command parsing rather than a custom implementation.</p>
+<h4>
+<a id="user-content-v120" class="anchor" href="#v120" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>v1.2.0</h4>
+<p>This release adds /uban, which bans any player who joins with the specified IP. This keeps the player banned even after an IP change. However, this is irreversible and cannot be pardoned.<br>
+Minor improvements have also be made.</p>
+<h4>
+<a id="user-content-v110" class="anchor" href="#v110" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>v1.1.0</h4>
+<p>This release adds <code>/ip</code>, which displays a player's IP. It also implements improvements to the logging system, including logging severities and the ability to stop traversing the logger stack when a Logger::log() call returns false. (This is especially useful with custom loggers that log very specific events.)<br>
+API versions have also been added for both <code>config.yml</code> and <code>messages.yml</code> as <code>major.minor</code>. If the plugin requires version <code>n.m</code>, only major version <code>n</code> will be accepted, but any minor version greater than or equal to <code>m</code> will be accepted.</p>
+<h4>
+<a id="user-content-config-versions" class="anchor" href="#config-versions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Config versions</h4>
+<p><strong><code>config.yml</code></strong>: 2.0<br>
+<strong><code>messages.yml</code></strong>: 1.1 (1.2 is included with this release)</p>

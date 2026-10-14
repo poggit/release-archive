@@ -1,0 +1,59 @@
+{
+    "id": 13172,
+    "name": "AdaptiveGC",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/AdaptiveGC/0.0.1",
+    "tagline": "AdaptiveGC is for smarter garbage collection (GC) management.",
+    "artifact_url": "https://poggit.pmmp.io/r/241542",
+    "downloads": 30,
+    "score": null,
+    "repo_id": 815598586,
+    "repo_name": "Blackjack200/AdaptiveGC",
+    "project_id": 13930,
+    "project_name": "AdaptiveGC",
+    "build_id": 176938,
+    "build_number": 8,
+    "build_commit": "b50c2786c76d67bbaff34e8b8be6ed831b10de2e",
+    "description_url": "https://poggit.pmmp.io/r/241541",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1718510641,
+    "state": 5,
+    "last_state_change_date": 1721784592,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Blackjack200"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

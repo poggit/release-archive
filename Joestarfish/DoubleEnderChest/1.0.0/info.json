@@ -1,0 +1,78 @@
+{
+    "id": 12506,
+    "name": "DoubleEnderChest",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/DoubleEnderChest/1.0.0",
+    "tagline": "A PMMP plugin that doubles the size of the Ender Chest",
+    "artifact_url": "https://poggit.pmmp.io/r/227124",
+    "downloads": 721,
+    "score": 5,
+    "repo_id": 705349707,
+    "repo_name": "Joestarfish/DoubleEnderChest",
+    "project_id": 13260,
+    "project_name": "DoubleEnderChest",
+    "build_id": 167044,
+    "build_number": 3,
+    "build_commit": "06c498df1a75e95707748c224bdcfbcc6a916920",
+    "description_url": "https://poggit.pmmp.io/r/227123",
+    "icon_url": "https://raw.githubusercontent.com/Joestarfish/DoubleEnderChest/06c498df1a75e95707748c224bdcfbcc6a916920/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1697399595,
+    "state": 5,
+    "last_state_change_date": 1698010257,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ender",
+        "ender_chest",
+        "enderchest",
+        "chest",
+        "double",
+        "slots",
+        "inventory"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "Joestarfish"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libasynql",
+            "project_id": 287,
+            "repo_id": 73169657,
+            "repo_name": "poggit/libasynql",
+            "repo_path": "libasynql/",
+            "build_commit": "e8c66f8fa46b5eb39780ed021c315f3d6437a6cb",
+            "build_id": 165257
+        },
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "706e307d705ef8fe20653bebd04a18b1d9b3e47a",
+            "build_id": 161792
+        }
+    ]
+}

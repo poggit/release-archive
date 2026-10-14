@@ -1,0 +1,70 @@
+{
+    "id": 3679,
+    "name": "LightningDeath",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/LightningDeath/1.0.0",
+    "tagline": "Shows a lightning strike when a player dies",
+    "artifact_url": "https://poggit.pmmp.io/r/73159",
+    "downloads": 154,
+    "score": null,
+    "repo_id": 234561310,
+    "repo_name": "provsalt/LightningDeath",
+    "project_id": 6117,
+    "project_name": "LightningDeath",
+    "build_id": 69288,
+    "build_number": 1,
+    "build_commit": "4e24cfd279ace9473811d0007593947ba13e8ba2",
+    "description_url": "https://poggit.pmmp.io/r/73204",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1579271413,
+    "state": 5,
+    "last_state_change_date": 1579317777,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "dead",
+        "death",
+        "die",
+        "lightning",
+        "oof",
+        "strike",
+        "thunder",
+        "thunder33345"
+    ],
+    "api": [
+        {
+            "from": "3.11.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Requester": [
+            "ItsBlueey"
+        ],
+        "Collaborator": [
+            "provsalt"
+        ],
+        "Contributor": [
+            "mmm545"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

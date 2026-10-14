@@ -1,0 +1,54 @@
+{
+    "id": 11281,
+    "name": "ClearChat",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/ClearChat/1.0.0",
+    "tagline": "A ClearChat Plugin",
+    "artifact_url": "https://poggit.pmmp.io/r/206942",
+    "downloads": 26,
+    "score": 1,
+    "repo_id": 640304523,
+    "repo_name": "thekuhlmc999/ClearChat",
+    "project_id": 12450,
+    "project_name": "ClearChat",
+    "build_id": 154615,
+    "build_number": 4,
+    "build_commit": "d528003d4d297acdc4ccf8d73a9de31e21d6be59",
+    "description_url": "https://poggit.pmmp.io/r/206941",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1684003884,
+    "state": 5,
+    "last_state_change_date": 1684003999,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "clearchat"
+    ],
+    "api": [
+        {
+            "from": "4.0.0",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "RealTheKuhlMc",
+            "thekuhlmc999"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

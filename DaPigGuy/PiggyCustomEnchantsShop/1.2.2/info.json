@@ -1,0 +1,87 @@
+{
+    "id": 3425,
+    "name": "PiggyCustomEnchantsShop",
+    "version": "1.2.2",
+    "html_url": "https://poggit.pmmp.io/p/PiggyCustomEnchantsShop/1.2.2",
+    "tagline": "A shop plugin for PiggyCE",
+    "artifact_url": "https://poggit.pmmp.io/r/67435",
+    "downloads": 71,
+    "score": null,
+    "repo_id": 112572052,
+    "repo_name": "DaPigGuy/PiggyCustomEnchantsShop",
+    "project_id": 1225,
+    "project_name": "PiggyCustomEnchantsShop",
+    "build_id": 65371,
+    "build_number": 25,
+    "build_commit": "fb93044310b531f1397e4b78b2ede142fe3dbc37",
+    "description_url": "https://poggit.pmmp.io/r/68799",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/68801",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1571295571,
+    "state": 5,
+    "last_state_change_date": 1573229518,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ce",
+        "ceshop",
+        "economy",
+        "economyapi",
+        "pig",
+        "piggy",
+        "piggyce",
+        "piggyceshop",
+        "piggycustomenchant",
+        "piggycustomenchants",
+        "pmmp",
+        "shop"
+    ],
+    "api": [
+        {
+            "from": "3.2.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.2",
+            "depRelId": 1565,
+            "isHard": false
+        },
+        {
+            "name": "PiggyCustomEnchants",
+            "version": "2.0.0",
+            "depRelId": 3466,
+            "isHard": true
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "Aericio"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "eb857f01f06c39de4dac32043ca03632672575f5",
+            "build_id": 57511
+        }
+    ]
+}

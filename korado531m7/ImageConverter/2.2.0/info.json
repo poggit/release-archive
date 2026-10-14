@@ -1,0 +1,61 @@
+{
+    "id": 2669,
+    "name": "ImageConverter",
+    "version": "2.2.0",
+    "html_url": "https://poggit.pmmp.io/p/ImageConverter/2.2.0",
+    "tagline": "Your photo will be changed to block :D",
+    "artifact_url": "https://poggit.pmmp.io/r/54724",
+    "downloads": 177,
+    "score": 5,
+    "repo_id": 155077145,
+    "repo_name": "korado531m7/ImageConverter",
+    "project_id": 4123,
+    "project_name": "ImageConverter",
+    "build_id": 57578,
+    "build_number": 13,
+    "build_commit": "daf675303aa3616db22e2253897e48dfdd5f38d4",
+    "description_url": "https://poggit.pmmp.io/r/54759",
+    "icon_url": "https://raw.githubusercontent.com/korado531m7/ImageConverter/daf675303aa3616db22e2253897e48dfdd5f38d4/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/54761",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1554026772,
+    "state": 5,
+    "last_state_change_date": 1554042268,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        }
+    ],
+    "keywords": [
+        "photo",
+        "image",
+        "convert",
+        "alike",
+        "reproduction"
+    ],
+    "api": [
+        {
+            "from": "3.3.1",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "korado531m7"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

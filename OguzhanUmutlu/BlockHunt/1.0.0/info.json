@@ -1,0 +1,84 @@
+{
+    "id": 7078,
+    "name": "BlockHunt",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/BlockHunt/1.0.0",
+    "tagline": "Block Hunt minigame for PocketMine-MP!",
+    "artifact_url": "https://poggit.pmmp.io/r/132673",
+    "downloads": 112,
+    "score": 5,
+    "repo_id": 387246953,
+    "repo_name": "OguzhanUmutlu/BlockHunt",
+    "project_id": 9292,
+    "project_name": "BlockHunt",
+    "build_id": 106306,
+    "build_number": 2,
+    "build_commit": "44baf5cd7a9bb1bb6b9ac3c91dc2e7cf5b985b1b",
+    "description_url": "https://poggit.pmmp.io/r/132672",
+    "icon_url": "https://raw.githubusercontent.com/OguzhanUmutlu/BlockHunt/44baf5cd7a9bb1bb6b9ac3c91dc2e7cf5b985b1b/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "mit",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1626636958,
+    "state": 5,
+    "last_state_change_date": 1626714005,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Informational"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "bh",
+        "block",
+        "hide",
+        "hunt",
+        "hunter",
+        "hutner",
+        "seek",
+        "seeker"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "OguzhanUmutlu"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

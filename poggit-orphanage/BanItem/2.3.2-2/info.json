@@ -1,0 +1,68 @@
+{
+    "id": 645,
+    "name": "BanItem",
+    "version": "2.3.2-2",
+    "html_url": "https://poggit.pmmp.io/p/BanItem/2.3.2-2",
+    "tagline": "One-Stop AntiGrief Plugin By LDX",
+    "artifact_url": "https://poggit.pmmp.io/r/13528",
+    "downloads": 542,
+    "score": 5,
+    "repo_id": 84221728,
+    "repo_name": "poggit-orphanage/BanItem",
+    "project_id": 314,
+    "project_name": "BanItem",
+    "build_id": 29142,
+    "build_number": 7,
+    "build_commit": "80be102774686ccf924da642ac2c2ff6f0b50d58",
+    "description_url": "https://poggit.pmmp.io/r/15730",
+    "icon_url": "https://raw.githubusercontent.com/poggit-orphanage/BanItem/80be102774686ccf924da642ac2c2ff6f0b50d58/banitem.png",
+    "changelog_url": "https://poggit.pmmp.io/r/15732",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1507536438,
+    "state": 5,
+    "last_state_change_date": 1507536443,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Anti-Griefing Tools"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "banitem",
+        "protect",
+        "ldx",
+        "grief"
+    ],
+    "api": [
+        {
+            "from": "3.0.0-ALPHA7",
+            "to": "3.0.0-ALPHA9"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "LDX-MCPE"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

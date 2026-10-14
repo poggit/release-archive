@@ -1,0 +1,54 @@
+{
+    "id": 4788,
+    "name": "TriggerPE",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/TriggerPE/1.0.0",
+    "tagline": "A Trigger plugin for PocketMine-MP ported from VariableTriggers",
+    "artifact_url": "https://poggit.pmmp.io/r/93980",
+    "downloads": 819,
+    "score": null,
+    "repo_id": 275086879,
+    "repo_name": "alvin0319/TriggerPE",
+    "project_id": 7277,
+    "project_name": "TriggerPE",
+    "build_id": 82276,
+    "build_number": 3,
+    "build_commit": "d1bbb5b0eecd2c75a7c514ba447b326d2f05416b",
+    "description_url": "https://poggit.pmmp.io/r/93979",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "gpl-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1593218741,
+    "state": 5,
+    "last_state_change_date": 1595314637,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "trigger",
+        "variabletriggers"
+    ],
+    "api": [
+        {
+            "from": "3.0.0",
+            "to": "3.25.6"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "alvin0319"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

@@ -1,0 +1,75 @@
+{
+    "id": 13306,
+    "name": "VBackpack",
+    "version": "1.0.6",
+    "html_url": "https://poggit.pmmp.io/p/VBackpack/1.0.6",
+    "tagline": "- A plugin for PocketMine-PMMP 5",
+    "artifact_url": "https://poggit.pmmp.io/r/243861",
+    "downloads": 847,
+    "score": null,
+    "repo_id": 655375151,
+    "repo_name": "VennDev/VBackpack",
+    "project_id": 12657,
+    "project_name": "VBackpack",
+    "build_id": 178518,
+    "build_number": 30,
+    "build_commit": "a1128935ff2c7453c00ce4f70f10cdd90f45e410",
+    "description_url": "https://poggit.pmmp.io/r/243858",
+    "icon_url": "https://raw.githubusercontent.com/VennDev/VBackpack/a1128935ff2c7453c00ce4f70f10cdd90f45e410/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/243860",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1721063545,
+    "state": 5,
+    "last_state_change_date": 1721305574,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        }
+    ],
+    "keywords": [
+        "backpack"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "VennDev"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "InvMenu",
+            "project_id": 1882,
+            "repo_id": 119814237,
+            "repo_name": "Muqsit/InvMenu",
+            "repo_path": "",
+            "build_commit": "800f8c34f23e2aa1805b0dd97a5f47e0b1979bb9",
+            "build_id": 156926
+        }
+    ]
+}

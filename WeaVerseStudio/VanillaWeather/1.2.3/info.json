@@ -1,0 +1,65 @@
+{
+    "id": 14449,
+    "name": "VanillaWeather",
+    "version": "1.2.3",
+    "html_url": "https://poggit.pmmp.io/p/VanillaWeather/1.2.3",
+    "tagline": "A plugin that adds weather mechanics like in vanilla.",
+    "artifact_url": "https://poggit.pmmp.io/r/264411",
+    "downloads": 76,
+    "score": null,
+    "repo_id": 704669377,
+    "repo_name": "WeaVerseStudio/VanillaWeather",
+    "project_id": 13253,
+    "project_name": "VanillaWeather",
+    "build_id": 192669,
+    "build_number": 37,
+    "build_commit": "b41f717278519fe4abfab3d1196a18b8fd6f4186",
+    "description_url": "https://poggit.pmmp.io/r/264413",
+    "icon_url": "https://raw.githubusercontent.com/WeaVerseStudio/VanillaWeather/b41f717278519fe4abfab3d1196a18b8fd6f4186/image.png",
+    "changelog_url": "https://poggit.pmmp.io/r/264415",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1778414417,
+    "state": 5,
+    "last_state_change_date": 1779473674,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "vanilla",
+        "weather"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "PrograMistV1"
+        ],
+        "Contributor": [
+            "FoxyMC-Server"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

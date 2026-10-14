@@ -1,0 +1,85 @@
+{
+    "id": 8501,
+    "name": "Voting38",
+    "version": "0.0.1",
+    "html_url": "https://poggit.pmmp.io/p/Voting38/0.0.1",
+    "tagline": "High-performance voting plugin for mcpe",
+    "artifact_url": "https://poggit.pmmp.io/r/155644",
+    "downloads": 221,
+    "score": 5,
+    "repo_id": 444478754,
+    "repo_name": "KingOfTurkey38/Voting38",
+    "project_id": 10266,
+    "project_name": "Voting38",
+    "build_id": 120099,
+    "build_number": 6,
+    "build_commit": "2c51d02fbdff882d878dbedbf9f176581523b066",
+    "description_url": "https://poggit.pmmp.io/r/155643",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": true,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1641336102,
+    "state": 5,
+    "last_state_change_date": 1643303533,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "vote",
+        "voting"
+    ],
+    "api": [
+        {
+            "from": "4.0.3",
+            "to": "4.21.1"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KingOfTurkey38"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "4c8ea42868eac8d0b0b510ee5586f11f8e143637",
+            "build_id": 118196
+        },
+        {
+            "name": "await-std",
+            "project_id": 6900,
+            "repo_id": 262278389,
+            "repo_name": "SOF3/await-std",
+            "repo_path": "",
+            "build_commit": "1d670a7684a03c8950d2cb9f03d71109a18d1d00",
+            "build_id": 118707
+        }
+    ]
+}

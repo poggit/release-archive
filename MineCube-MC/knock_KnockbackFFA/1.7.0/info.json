@@ -1,0 +1,98 @@
+{
+    "id": 12460,
+    "name": "KnockbackFFA",
+    "version": "1.7.0",
+    "html_url": "https://poggit.pmmp.io/p/KnockbackFFA/1.7.0",
+    "tagline": "The classic and fully customizable minigame fun to play for PocketMine-MP.",
+    "artifact_url": "https://poggit.pmmp.io/r/224912",
+    "downloads": 1758,
+    "score": null,
+    "repo_id": 323036959,
+    "repo_name": "MineCube-MC/knock",
+    "project_id": 8221,
+    "project_name": "KnockbackFFA",
+    "build_id": 165150,
+    "build_number": 109,
+    "build_commit": "b1c1e9df7760f10844439a34012f919abd2cd9a5",
+    "description_url": "https://poggit.pmmp.io/r/224909",
+    "icon_url": "https://raw.githubusercontent.com/MineCube-MC/knock/b1c1e9df7760f10844439a34012f919abd2cd9a5/assets/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/224911",
+    "license": "MIT",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1695724489,
+    "state": 5,
+    "last_state_change_date": 1695854851,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Minigame"
+        },
+        {
+            "major": false,
+            "category_name": "Miscellaneous"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "ffa",
+        "kbffa",
+        "kbpvp",
+        "knock",
+        "knockbackffa",
+        "pvp"
+    ],
+    "api": [
+        {
+            "from": "5.0.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Contributor": [
+            "MBG1337"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 5074,
+            "repo_id": 188790568,
+            "repo_name": "CortexPE/Commando",
+            "repo_path": "",
+            "build_commit": "b71464c3f53845737d271bd9025da4ff8d876643",
+            "build_id": 160314
+        },
+        {
+            "name": "libFormAPI",
+            "project_id": 4250,
+            "repo_id": 99399158,
+            "repo_name": "jojoe77777/FormAPI",
+            "repo_path": "",
+            "build_commit": "26fac36e585c1b6d5a10a99bdcb70f6539b397aa",
+            "build_id": 157517
+        },
+        {
+            "name": "UpdateNotifier",
+            "project_id": 4427,
+            "repo_id": 162184384,
+            "repo_name": "ifera-mc/UpdateNotifier",
+            "repo_path": "",
+            "build_commit": "c6c1dfc5b9b5f15badc9e1dcf3b61a3600d0cbe1",
+            "build_id": 124215
+        }
+    ]
+}

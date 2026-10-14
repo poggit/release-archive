@@ -1,0 +1,67 @@
+{
+    "id": 13001,
+    "name": "AdvancedSudo",
+    "version": "1.0.0",
+    "html_url": "https://poggit.pmmp.io/p/AdvancedSudo/1.0.0",
+    "tagline": "Adds \"/sudo\" and \"/sudoall\" to your PocketMine server.",
+    "artifact_url": "https://poggit.pmmp.io/r/238167",
+    "downloads": 264,
+    "score": null,
+    "repo_id": 791993116,
+    "repo_name": "imLuckii/AdvancedSudo",
+    "project_id": 13767,
+    "project_name": "AdvancedSudo",
+    "build_id": 174723,
+    "build_number": 18,
+    "build_commit": "39b7675524cb26d36a080977c2489f30e6bc6fac",
+    "description_url": "https://poggit.pmmp.io/r/238166",
+    "icon_url": "https://raw.githubusercontent.com/imLuckii/AdvancedSudo/39b7675524cb26d36a080977c2489f30e6bc6fac/icon.png",
+    "changelog_url": "https://poggit.pmmp.io/r/0",
+    "license": "GPL-3.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1714348879,
+    "state": 5,
+    "last_state_change_date": 1714838415,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Chat-Related"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        }
+    ],
+    "keywords": [
+        "imLuckii",
+        "sudo",
+        "sudoall"
+    ],
+    "api": [
+        {
+            "from": "5.15.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "imLuckii"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": []
+}

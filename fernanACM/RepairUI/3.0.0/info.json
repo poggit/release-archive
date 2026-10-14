@@ -1,0 +1,142 @@
+{
+    "id": 13087,
+    "name": "RepairUI",
+    "version": "3.0.0",
+    "html_url": "https://poggit.pmmp.io/p/RepairUI/3.0.0",
+    "tagline": "Repair and customize your item names with RepairUI, for PocketMine-MP 5.0 servers",
+    "artifact_url": "https://poggit.pmmp.io/r/239843",
+    "downloads": 163,
+    "score": null,
+    "repo_id": 508864238,
+    "repo_name": "fernanACM/RepairUI",
+    "project_id": 11484,
+    "project_name": "RepairUI",
+    "build_id": 175735,
+    "build_number": 12,
+    "build_commit": "24e882e2ffa403aecbdefc1514c7d67a952c5b08",
+    "description_url": "https://poggit.pmmp.io/r/239840",
+    "icon_url": "https://raw.githubusercontent.com/fernanACM/RepairUI/24e882e2ffa403aecbdefc1514c7d67a952c5b08/icon-repairui.png",
+    "changelog_url": "https://poggit.pmmp.io/r/239842",
+    "license": "Apache-2.0",
+    "license_url": null,
+    "is_obsolete": true,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1716751579,
+    "state": 5,
+    "last_state_change_date": 1716861709,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "General"
+        },
+        {
+            "major": false,
+            "category_name": "Vanilla Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "API plugins"
+        },
+        {
+            "major": false,
+            "category_name": "Educational"
+        },
+        {
+            "major": false,
+            "category_name": "Fun"
+        },
+        {
+            "major": false,
+            "category_name": "Economy"
+        },
+        {
+            "major": false,
+            "category_name": "Mechanics"
+        }
+    ],
+    "keywords": [
+        "Economy",
+        "experience",
+        "Repair",
+        "RepairUI",
+        "Rp",
+        "UI",
+        "Xp"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [
+        {
+            "name": "EconomyAPI",
+            "version": "5.7.3-PM4",
+            "depRelId": 8365,
+            "isHard": false
+        },
+        {
+            "name": "BedrockEconomy",
+            "version": "2.0.8",
+            "depRelId": 9324,
+            "isHard": false
+        }
+    ],
+    "producers": {
+        "Collaborator": [
+            "fernanACM"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "15ff96f75e4f65892097964587726d1d6b201202",
+            "build_id": 167944
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        },
+        {
+            "name": "FormsUI",
+            "project_id": 9373,
+            "repo_id": 390823314,
+            "repo_name": "Vecnavium/FormsUI",
+            "repo_path": "",
+            "build_commit": "823b5aed59f0db891a8792781f3686fd84f4b3b6",
+            "build_id": 161876
+        },
+        {
+            "name": "libPiggyUpdateChecker",
+            "project_id": 12573,
+            "repo_id": 649132098,
+            "repo_name": "ACM-PocketMine-MP/libPiggyUpdateChecker",
+            "repo_path": "",
+            "build_commit": "36d346e5fb02aae2ecbca6a73f1edab05abf39ea",
+            "build_id": 156180
+        },
+        {
+            "name": "libPiggyEconomy",
+            "project_id": 5799,
+            "repo_id": 221850289,
+            "repo_name": "DaPigGuy/libPiggyEconomy",
+            "repo_path": "",
+            "build_commit": "9a22d3aa3a74d195b2c4ee52fbbb121a2c270dbe",
+            "build_id": 172169
+        }
+    ]
+}

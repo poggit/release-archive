@@ -1,0 +1,106 @@
+{
+    "id": 11977,
+    "name": "minereset38",
+    "version": "0.0.4",
+    "html_url": "https://poggit.pmmp.io/p/minereset38/0.0.4",
+    "tagline": "High performance mine reset plugin for PocketMine-MP 5.0.0",
+    "artifact_url": "https://poggit.pmmp.io/r/216917",
+    "downloads": 1323,
+    "score": null,
+    "repo_id": 491595459,
+    "repo_name": "KingOfTurkey38/MineReset38",
+    "project_id": 11137,
+    "project_name": "MineReset38",
+    "build_id": 159694,
+    "build_number": 18,
+    "build_commit": "1f15887450a275283421bb74ca1beae64b5b4f54",
+    "description_url": "https://poggit.pmmp.io/r/216914",
+    "icon_url": null,
+    "changelog_url": "https://poggit.pmmp.io/r/216916",
+    "license": "AGPL-3.0",
+    "license_url": null,
+    "is_obsolete": false,
+    "is_pre_release": false,
+    "is_outdated": false,
+    "is_official": false,
+    "is_abandoned": false,
+    "submission_date": 1689506325,
+    "state": 5,
+    "last_state_change_date": 1689599567,
+    "categories": [
+        {
+            "major": true,
+            "category_name": "Mechanics"
+        },
+        {
+            "major": false,
+            "category_name": "World Editing and Management"
+        },
+        {
+            "major": false,
+            "category_name": "Admin Tools"
+        },
+        {
+            "major": false,
+            "category_name": "General"
+        }
+    ],
+    "keywords": [
+        "mine",
+        "minereset",
+        "prison",
+        "prisons",
+        "reset"
+    ],
+    "api": [
+        {
+            "from": "5.3.0",
+            "to": "5.36.0"
+        }
+    ],
+    "deps": [],
+    "producers": {
+        "Collaborator": [
+            "KingOfTurkey38"
+        ]
+    },
+    "state_name": "Approved",
+    "virions": [
+        {
+            "name": "await-generator",
+            "project_id": 3121,
+            "repo_id": 137670772,
+            "repo_name": "SOF3/await-generator",
+            "repo_path": "await-generator/",
+            "build_commit": "d6b666c72b89a05b9d72c60fd1063b6c7ebdbd46",
+            "build_id": 154020
+        },
+        {
+            "name": "await-std",
+            "project_id": 12744,
+            "repo_id": 660383995,
+            "repo_name": "ACM-PocketMine-MP/await-std",
+            "repo_path": "",
+            "build_commit": "fd9934e90dbfc5a7664019c7f690ffd820b996b2",
+            "build_id": 158909
+        },
+        {
+            "name": "Commando",
+            "project_id": 12572,
+            "repo_id": 648267947,
+            "repo_name": "ACM-PocketMine-MP/Commando",
+            "repo_path": "",
+            "build_commit": "bc68c93d91f0099e1d8ae724e133b42f3dac36cb",
+            "build_id": 159503
+        },
+        {
+            "name": "SimplePacketHandler",
+            "project_id": 7116,
+            "repo_id": 269057787,
+            "repo_name": "Muqsit/SimplePacketHandler",
+            "repo_path": "",
+            "build_commit": "71af78006b2bbed324f48deebbdabfae222b432a",
+            "build_id": 155825
+        }
+    ]
+}
